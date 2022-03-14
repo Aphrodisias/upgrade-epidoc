@@ -108,8 +108,64 @@
   </xsl:template>
   
   <xsl:template match="t:sourceDesc">
-    <xsl:element name="msDesc">
-      
+    <xsl:copy>
+      <xsl:element name="msDesc">
+        <xsl:text>
+        </xsl:text>
+        <xsl:element name="msIdentifier">
+          <xsl:text>
+          </xsl:text>
+          <xsl:element name="repository">
+           <xsl:choose>
+             <xsl:when test="normalize-space(//t:rs[@type='lastLocation']) = ('Museum','Museum.')">
+               <xsl:attribute name="ref">https://www.wikidata.org/wiki/Q108563899</xsl:attribute>
+               <xsl:text>Aphrodisias Museum</xsl:text>
+             </xsl:when>
+             <xsl:otherwise><xsl:text>…</xsl:text></xsl:otherwise>
+           </xsl:choose>
+          </xsl:element>
+          <xsl:for-each select="//t:rs[@type='invNo']">
+            <xsl:element name="idno">
+              <xsl:value-of select="."/>
+            </xsl:element>
+          </xsl:for-each>
+        </xsl:element>
+        <xsl:text>
+        </xsl:text>
+        <xsl:element name="physDesc">
+          <xsl:element name="objectDesc">
+            <xsl:element name="supportDesc">
+              <xsl:element name="support">
+                <xsl:element name="p">
+                  <xsl:apply-templates select="//t:div[@type='description'][@n='monument']/t:p/node()"/>
+                </xsl:element>
+              </xsl:element>
+            </xsl:element>
+            <xsl:element name="layoutDesc">
+              <xsl:element name="layout">
+                <xsl:apply-templates select="//t:div[@type='description'][@n='text']/t:p/node()"/>
+              </xsl:element>
+            </xsl:element>
+          </xsl:element>
+          <xsl:element name="handDesc">
+            <xsl:element name="handNote">
+              <xsl:apply-templates select="//t:div[@type='description'][@n='letters']/t:p/node()"/>
+            </xsl:element>
+          </xsl:element>
+        </xsl:element>
+        <xsl:text>
+        </xsl:text>
+        <xsl:element name="history"></xsl:element>
+      </xsl:element>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="t:dim"></xsl:template>
+  
+  <xsl:template match="t:rs[@type=('material','objectType')]">
+    <xsl:element name="{local-name()}">
+      <xsl:copy-of select="@*[not(local-name()='type')]"/>
+      <xsl:apply-templates/>
     </xsl:element>
   </xsl:template>
   
