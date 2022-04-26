@@ -124,11 +124,18 @@
              <xsl:otherwise><xsl:text>…</xsl:text></xsl:otherwise>
            </xsl:choose>
           </xsl:element>
-          <xsl:for-each select="//t:rs[@type='invNo']">
-            <xsl:element name="idno">
-              <xsl:value-of select="."/>
-            </xsl:element>
-          </xsl:for-each>
+          <xsl:choose>
+            <xsl:when test="//t:rs[@type='invNo']">
+              <xsl:for-each select="//t:rs[@type='invNo']">
+                <xsl:element name="idno">
+                  <xsl:value-of select="."/>
+                </xsl:element>
+              </xsl:for-each>
+            </xsl:when>
+            <xsl:otherwise>
+              <idno/>
+            </xsl:otherwise>
+          </xsl:choose>
         </xsl:element>
         <xsl:text>
         </xsl:text>
