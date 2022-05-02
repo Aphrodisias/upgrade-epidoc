@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary fragment</title>
+            <title>
+               <rs type="textType" cert="low">Funerary</rs> fragment</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -47,7 +48,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.0125-0.02</height>. ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">TH</foreign>, l.2 (twice)</handNote>
+                        <height unit="metre">0.0125-0.02</height>. ligatures: <foreign xml:lang="grc">TH</foreign>, l.2 (twice)</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -98,9 +99,6 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -117,9 +115,9 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
 <ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/> <w>ΕΙΣ</w> <w lemma="ὑπόκειμαι">ὑποκείσονται</w> <gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/> <w lemma="ὁ"><hi rend="ligature">τῇ</hi></w> <w lemma="θεά">θεᾷ</w> <persName type="divine"><name nymRef="#Ἀφροδίτη">Ἀφροδεί<hi rend="ligature">τῃ</hi></name></persName> <unclear reason="damage">Ι</unclear><gap reason="lost" extent="unknown" unit="character"/>  <supplied reason="lost">τὸν</supplied>  <supplied reason="lost">κατὰ</supplied>  <lb n="3"/> <w lemma="καιρός">καιρὸν</w> <w lemma="νεοποιός">νεοποιὸι</w> <gap reason="lost" extent="unknown" unit="character"/><lb n="4"/> <w><unclear reason="damage">θ</unclear>ης</w> <w lemma="εἰμί">ἐ<unclear reason="damage">σ</unclear><supplied reason="lost">τι</supplied>ν</w> <w lemma="ὁ">ὁ</w> <persName type="attested"><name nymRef="#Τατιανός">Τατιανὸ<supplied reason="lost">ς</supplied></name></persName>  <gap reason="lost" extent="unknown" unit="character"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 1,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κείσο<unclear reason="damage">ν</unclear>[ ...</foreign> Reichel</p>
-            <p>l. 2,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗΟΣΑ</foreign> Reichel</p>
-            <p>l. 4, perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἐ[πὶ] <unclear reason="damage">Π</unclear>οτιτιαν<unclear reason="damage">ο</unclear>[ῦ</foreign> Cormack; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε<unclear reason="damage">Τ</unclear>[ . ]ΙΟ ΤΑΤΙΑΝΟ[ ..</foreign> Reichel.</p>
+            <p>l. 1,  <foreign xml:lang="grc">κείσο<unclear reason="damage">ν</unclear>[ ...</foreign> Reichel</p>
+            <p>l. 2,  <foreign xml:lang="grc">ΤΗΟΣΑ</foreign> Reichel</p>
+            <p>l. 4, perhaps <foreign xml:lang="grc">ἐ[πὶ] <unclear reason="damage">Π</unclear>οτιτιαν<unclear reason="damage">ο</unclear>[ῦ</foreign> Cormack; <foreign xml:lang="grc">Ε<unclear reason="damage">Τ</unclear>[ . ]ΙΟ ΤΑΤΙΑΝΟ[ ..</foreign> Reichel.</p>
          </div>
          <div type="translation">
             <p> . . . ] will lie below[ ? penalty to be paid ] to the goddess Aphrodite { ? under the guidance of] the neopoioi then in office <gap extent="unknown" reason="lost" unit="character"/> is Tatianos</p>

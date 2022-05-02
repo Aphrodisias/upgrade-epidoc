@@ -50,7 +50,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.02</height>; ligatures: l.1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗ</foreign>, l.2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΜ</foreign>; l. 2, diaeretic dots either side of the initial <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Υ</foreign> of Hypsicles (twice).</handNote>
+                        <height unit="metre">0.02</height>; ligatures: l.1, <foreign xml:lang="grc">ΜΗ</foreign>, l.2, <foreign xml:lang="grc">ΜΜ</foreign>; l. 2, diaeretic dots either side of the initial <foreign xml:lang="grc">Υ</foreign> of Hypsicles (twice).</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -117,10 +117,10 @@ Second to third centuries A.D.
 
 </div>
          <div type="apparatus">
-            <p>l. 2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΜΣ</foreign>
+            <p>l. 2, <foreign xml:lang="grc">ΤΜΣ</foreign>
             </p>
-            <p>l. 5, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
-                  <supplied reason="lost">μη</supplied>ς</foreign> Reinach; at end <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΚΙ</foreign> Reinach</p>
+            <p>l. 5, <foreign xml:lang="grc">
+                  <supplied reason="lost">μη</supplied>ς</foreign> Reinach; at end <foreign xml:lang="grc">ΚΙ</foreign> Reinach</p>
          </div>
          <div type="translation">
             <p>

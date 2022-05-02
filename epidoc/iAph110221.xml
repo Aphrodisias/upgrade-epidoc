@@ -109,9 +109,9 @@ Second to third centuries A.D.
 <ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" extent="1" unit="character"/><orig n="unresolved"><unclear reason="damage">λ</unclear>ισ</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">σ</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2a"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
 </div>
          <div type="apparatus">
-            <p> l. 1, first letter could be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p> l. 1, first letter could be <foreign xml:lang="grc">
                   <unclear reason="damage">Α</unclear>
-               </foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+               </foreign> or <foreign xml:lang="grc">
                   <unclear reason="damage">Λ</unclear>
                </foreign>
             </p>

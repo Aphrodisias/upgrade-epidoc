@@ -7,7 +7,9 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <rs type="textType" reg="prayer/invocation">Invocations</rs>
+               <rs type="textType" reg="acclamation">
+                  <rs type="textType" reg="prayer/invocation">Invocations</rs>
+               </rs>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -50,7 +52,7 @@ inscriptions are disposed around a shallowly-cut cross.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>i: <height unit="metre">0.035</height>; ii, <height unit="metre">0.04-0.06</height>; <term>diaeretic</term> dots on <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ι</foreign>.</handNote>
+                     <handNote>i: <height unit="metre">0.035</height>; ii, <height unit="metre">0.04-0.06</height>; <term>diaeretic</term> dots on <foreign xml:lang="grc">Ι</foreign>.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -99,9 +101,6 @@ to the north of the main archway. .</rs>
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">acclamation</rs>
                </term>
             </keywords>
          </textClass>

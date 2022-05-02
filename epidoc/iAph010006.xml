@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Column <rs type="textType">dedication</rs> by Eumachos and Amias</title>
+            <title>
+               <rs type="textType">Column <rs type="textType">dedication</rs>
+               </rs> by Eumachos and Amias</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +48,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.015-0.025</height>; square sigma, two forms of omega, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΟΥ</foreign> in ligature (l. 2).</handNote>
+                        <height unit="metre">0.015-0.025</height>; square sigma, two forms of omega, <foreign xml:lang="grc">ΟΥ</foreign> in ligature (l. 2).</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -98,9 +100,6 @@ Early first century A.D.
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Column dedication</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -114,13 +113,13 @@ Early first century A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><persName type="attested"><name nymRef="#Εὔμαχος">Εὔμαχος</name>  <persName type="attested"><name nymRef="#Ἀθηναγόρας">Ἀθηναγό<lb n="2" break="no"/>ρου</name>  <w lemma="ὁ">τ<hi rend="ligature">οῦ</hi></w>  <persName type="attested"><name nymRef="#Ἀθηναγόρας">Ἀθηναγόρου</name>  <lb n="3"/> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Εὔμαχος">Εὐμάχου</name></persName></persName></persName>  <name nymRef="#Διογένης">Διογε<lb n="4" break="no"/><sic n="superfluous">γέ</sic>νης</name>  <w lemma="Φιλόκαισαρ">Φιλόκαισαρ</w></persName>  <w lemma="καί">καὶ</w><lb n="5"/><note>sic</note> <persName type="attested"><name nymRef="#Ἀμιάς">Ἀμιὰς</name> <persName type="attested"><name nymRef="#Διονύσιος">Διονυσίου</name></persName> <w lemma="φύσις">φύσι</w> <lb n="6"/> <w lemma="δέ">δὲ</w> <persName type="attested"><name nymRef="#Ἄδραστος">Ἀδράστου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Μόλων">Μό<lb n="7" break="no"/>λω<supplied reason="omitted">ν</supplied>ος</name></persName></persName>  <name nymRef="#Ὀλυνπιάς">Ὀλυ<supplied reason="omitted">ν</supplied>πιὰς</name></persName> <w lemma="ὁ">τὸν</w> <w lemma="κίων">κί<lb n="8" break="no"/>ονα</w> <w lemma="θεά">θεᾷ</w> <persName type="divine"><name nymRef="#Ἀφροδίτη">Ἀφροδίτῃ</name></persName>  <w lemma="ὁ"><sic n="superfluous">τὸν</sic></w>  <lb n="9"/><w lemma="κίων"><sic n="superfluous">κίονα</sic></w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῷ</w> <w lemma="δῆμος">Δήμῳ</w></ab>
+<ab><lb n="1"/><persName type="attested"><name nymRef="#Εὔμαχος">Εὔμαχος</name>  <persName type="attested"><name nymRef="#Ἀθηναγόρας">Ἀθηναγό<lb n="2" break="no"/>ρου</name>  <w lemma="ὁ">τ<hi rend="ligature">οῦ</hi></w>  <persName type="attested"><name nymRef="#Ἀθηναγόρας">Ἀθηναγόρου</name>  <lb n="3"/> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Εὔμαχος">Εὐμάχου</name></persName></persName></persName>  <name nymRef="#Διογένης">Διογε<lb n="4" break="no"/><sic n="superfluous">γέ</sic>νης</name>  <w lemma="Φιλόκαισαρ">Φιλόκαισαρ</w></persName>  <w lemma="καί">καὶ</w><lb n="5"/><note xml:lang=""/> <persName type="attested"><name nymRef="#Ἀμιάς">Ἀμιὰς</name> <persName type="attested"><name nymRef="#Διονύσιος">Διονυσίου</name></persName> <w lemma="φύσις">φύσι</w> <lb n="6"/> <w lemma="δέ">δὲ</w> <persName type="attested"><name nymRef="#Ἄδραστος">Ἀδράστου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Μόλων">Μό<lb n="7" break="no"/>λω<supplied reason="omitted">ν</supplied>ος</name></persName></persName>  <name nymRef="#Ὀλυνπιάς">Ὀλυ<supplied reason="omitted">ν</supplied>πιὰς</name></persName> <w lemma="ὁ">τὸν</w> <w lemma="κίων">κί<lb n="8" break="no"/>ονα</w> <w lemma="θεά">θεᾷ</w> <persName type="divine"><name nymRef="#Ἀφροδίτη">Ἀφροδίτῃ</name></persName>  <w lemma="ὁ"><sic n="superfluous">τὸν</sic></w>  <lb n="9"/><w lemma="κίων"><sic n="superfluous">κίονα</sic></w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῷ</w> <w lemma="δῆμος">Δήμῳ</w></ab>
 
 </div>
          <div type="apparatus">
-            <p>l. 1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 1, <foreign xml:lang="grc">
                   <supplied reason="lost">Εὔ</supplied>μαχος</foreign> Reinach</p>
-            <p>l. 6-7, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τοῦ <supplied reason="lost">Μό</supplied>
+            <p>l. 6-7, <foreign xml:lang="grc">τοῦ <supplied reason="lost">Μό</supplied>
                   <lb/>λωνος</foreign> Reinach</p>
          </div>
          <div type="translation">

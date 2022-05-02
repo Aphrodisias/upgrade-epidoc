@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary <seg cert="low">
+            <title>
+               <rs type="textType">Funerary</rs>
+               <seg cert="low">
                   <rs type="textType">verse</rs>
                </seg>
             </title>
@@ -93,9 +95,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -112,11 +111,11 @@
 <ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">α</unclear>κα</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ε</unclear>δεμο</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ω<unclear reason="damage">ζ</unclear>αινο</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>  <w lemma="κεῖμαι"><supplied reason="lost">κ</supplied>εῖμαι</w>  δυ<gap reason="lost" extent="unknown" unit="character"/>  <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">ο</unclear>υ <unclear reason="damage">σ</unclear>εμ<unclear reason="damage">ν</unclear><supplied reason="lost">ου</supplied><gap reason="lost" extent="unknown" unit="character"/>  <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">νο</unclear>σο<unclear reason="damage">τ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 2, <foreign xml:lang="grc">
                   <supplied reason="lost" cert="low">ἔνθ</supplied>αδε μο<supplied reason="lost" cert="low">ιρα</supplied>
                </foreign>
             </p>
-            <p>l. 3, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ζαινο<supplied reason="lost" cert="low">βιος</supplied>
+            <p>l. 3, <foreign xml:lang="grc">Ζαινο<supplied reason="lost" cert="low">βιος</supplied>
                </foreign>
             </p>
             <p>l. 5, suggests praise of the life lived.</p>

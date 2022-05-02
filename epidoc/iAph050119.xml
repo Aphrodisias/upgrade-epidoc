@@ -7,7 +7,9 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <rs type="textType" reg="statue dedication">Dedication</rs> by <supplied reason="omitted">Flavius </supplied>Palladios</title>
+               <rs type="textType">
+                  <rs type="textType" reg="statue dedication">Dedication</rs>
+               </rs> by <supplied reason="omitted">Flavius </supplied>Palladios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -60,8 +62,8 @@
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">grande salle de l'al<supplied reason="abbreviation">eipterion</supplied>
-                        </foreign>' (Boulanger); found in the chamber at the E<supplied reason="abbreviation">ast</supplied> side of the east court (NYU).</rs>
+                        <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>: '<foreign xml:lang="fr">grande salle de l'al<ex>eipterion</ex>
+                        </foreign>' (Boulanger); found in the chamber at the E<ex>ast</ex> side of the east court (NYU).</rs>
                   </provenance>
                   <provenance type="observed">
                      <rs type="lastLocation">Museum.</rs>
@@ -96,9 +98,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Dedication</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -124,9 +123,9 @@
 			<lb id="lb2" n="2" break="no"/><certainty degree="low" locus="type" target="lb2"/><supplied reason="lost">π</supplied><unclear reason="damage">ο</unclear>ίει</w> <w lemma="καί">καὶ</w> <w lemma="ἀνατίθημι">ἀνέθηκεν</w></ab>
       </div>
          <div type="apparatus">
-            <p>Possibly: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>Possibly: <foreign xml:lang="grc">
                   <supplied reason="lost">
-                     <persName type="aphrodisian" full="yes">Φλ<supplied reason="abbreviation">άβιος</supplied>
+                     <persName type="aphrodisian" full="yes">Φλ<ex>άβιος</ex>
                      </persName>
                   </supplied>
                   <persName type="aphrodisian" full="yes">Παλλάδιος</persName>
@@ -145,7 +144,7 @@
          </div>
          <div type="translation">
             <ab>
-               <supplied reason="lost" cert="low">Fl<supplied reason="abbreviation">avius</supplied>
+               <supplied reason="lost" cert="low">Fl<ex>avius</ex>
                </supplied> Palladios made and dedicated <seg cert="low">me</seg>.</ab>
          </div>
          <div type="commentary">

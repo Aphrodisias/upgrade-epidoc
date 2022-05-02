@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dedication  to Hypnos by high-priest and priest of Asklepios </title>
+            <title>
+               <rs type="textType" reg="dedication">Dedication  to Hypnos</rs> by high-priest and priest of Asklepios </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +46,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.025</height>; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Τ</foreign> over <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Π</foreign> in l. 2; tilde after the abbreviations in l. 3; apices—perhaps for rough breathing—above first letter in l. 1, and first two letters in l. 8.</handNote>
+                        <height unit="metre">0.025</height>; <foreign xml:lang="grc">Τ</foreign> over <foreign xml:lang="grc">Π</foreign> in l. 2; tilde after the abbreviations in l. 3; apices—perhaps for rough breathing—above first letter in l. 1, and first two letters in l. 8.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -93,9 +94,6 @@
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">dedication</rs>
                </term>
             </keywords>
          </textClass>

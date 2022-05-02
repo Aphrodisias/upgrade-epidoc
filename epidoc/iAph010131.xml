@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>i. Fragmentary text; ii. Verse honours for <rs type="personType" reg="governor">Helladios</rs>
+            <title>i. Fragmentary text; ii. <rs type="textType">Verse</rs>
+               <rs type="textType">honours</rs> for <rs type="personType" reg="governor">Helladios</rs>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -54,7 +55,7 @@ the moulding.</layout>
                   <handDesc>
                      <handNote>i: Perhaps second century A.D.; <height unit="metre">0.018</height>. ii.Av. <height unit="metre">0.03</height>;
 irregular, clear-cut; lunate <term>sigma</term> and <term>epsilon</term>; ligature: second
-<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗ</foreign>, l.3.</handNote>
+<foreign xml:lang="grc">ΝΗ</foreign>, l.3.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -101,12 +102,6 @@ barrier; fragmetns found in N. Odeon V at 0.78 and 0.63.</rs>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Verse</rs>
-               </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -135,14 +130,14 @@ barrier; fragmetns found in N. Odeon V at 0.78 and 0.63.</rs>
          <div type="apparatus">
             <p>l. 1, Cormack wrongly indicated space for letters above this
 line.</p>
-            <p>l. 6,: Cormack's copies showed <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 6,: Cormack's copies showed <foreign xml:lang="grc">
                   <gap reason="lost" unit="character" extent="unknown"/>
                   <unclear reason="damage">ΣΙΒΟΑΙ</unclear>
-               </foreign>(the last letters only in Kubitschek's copy) whence he restored <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+               </foreign>(the last letters only in Kubitschek's copy) whence he restored <foreign xml:lang="grc">
                   <supplied reason="lost">ἐ<lb/>γερ</supplied>
                   <unclear reason="damage">σι</unclear>β<unclear reason="damage">ό</unclear>
                   <supplied reason="lost">αι</supplied>
-               </foreign>, which Robert rejected. For an independent restoration of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἀμειβόμενοι</foreign> from the MAMA reading, see <bibl>Drew-Bear (loc. cit. below)</bibl>.</p>
+               </foreign>, which Robert rejected. For an independent restoration of <foreign xml:lang="grc">ἀμειβόμενοι</foreign> from the MAMA reading, see <bibl>Drew-Bear (loc. cit. below)</bibl>.</p>
          </div>
          <div type="translation">
             <ab>The Carians set up <supplied reason="subaudible">a statue of</supplied> this great governor, Helladios, making a return for his great virtue.</ab>

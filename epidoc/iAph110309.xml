@@ -58,7 +58,7 @@
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList">City, South-east</rs>: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">Gymnase, pavillon principal</foreign>' (Gaudin); this is the small structure lying south east of the Theatre .</rs>
+                        <rs type="monuList">City, South-east</rs>: '<foreign xml:lang="fr">Gymnase, pavillon principal</foreign>' (Gaudin); this is the small structure lying south east of the Theatre .</rs>
                   </provenance>
                   <provenance type="observed">
                      <rs type="lastLocation">Findspot.</rs>
@@ -119,13 +119,13 @@
 		</ab>
 	  </div>
          <div type="apparatus">
-            <p>1. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
-                  <supplied reason="lost">εὐ</supplied>χή</foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>1. <foreign xml:lang="grc">
+                  <supplied reason="lost">εὐ</supplied>χή</foreign> or <foreign xml:lang="grc">
                   <supplied reason="lost">τύ</supplied>χη</foreign>, and then a name, <persName full="yes">Ma<gap reason="lost" unit="character" extent="unknown"/>
                </persName>, in the genitive.</p>
-            <p>2. The <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κ</foreign> could be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">χ</foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ψ</foreign>; but <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
-                  <supplied reason="lost">νι</supplied>κᾷ</foreign> is tempting. The second <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">λ</foreign> is probably that, not <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">α</foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">δ</foreign>.</p>
-            <p>e.g.: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>2. The <foreign xml:lang="grc">κ</foreign> could be <foreign xml:lang="grc">χ</foreign> or <foreign xml:lang="grc">ψ</foreign>; but <foreign xml:lang="grc">
+                  <supplied reason="lost">νι</supplied>κᾷ</foreign> is tempting. The second <foreign xml:lang="grc">λ</foreign> is probably that, not <foreign xml:lang="grc">α</foreign> or <foreign xml:lang="grc">δ</foreign>.</p>
+            <p>e.g.: <foreign xml:lang="grc">
                   <supplied reason="lost">ἡ</supplied>
                   <w lemma="τύχη">
                      <supplied reason="lost">τύ</supplied>χη</w>

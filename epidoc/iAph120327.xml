@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary inscription for M. Aurelius Demetrios</title>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for M. Aurelius Demetrios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -94,9 +95,6 @@ Third to fourth centuries A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -113,7 +111,7 @@ Third to fourth centuries A.D.
 <ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="ἰσώστη">ἰσώστη</w> <w lemma="εἰμί">ἐστὶν</w> <persName type="attested"><name nymRef="#Μᾶρκος">Μάρκου</name> <name nymRef="#Αὐρήλιος">Αὐρηλίου</name> <name nymRef="#Διονύσιος">Διονυσίου</name> <lb n="2"/> <w>ου</w> <persName type="attested"><name nymRef="#Ἀντίοχος">Ἀντιόχου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Σώπολις">Σωπόλεως</name></persName></persName></persName> <w lemma="ὁ">ἡ</w> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῷ</w> <w lemma="βαθρικόν">βαθρικῷ</w> <gap reason="lost" extent="3" unit="character"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l.1, after <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΑΡ</foreign>, is written over a rasura; the erased letters presumably went with line 2.</p>
+            <p>l.1, after <foreign xml:lang="grc">ΜΑΡ</foreign>, is written over a rasura; the erased letters presumably went with line 2.</p>
          </div>
          <div type="translation">
             <p>The burial niche belongs to Marcus Aurelius Dionysios son of Antiochos son of Sopolis, the one in the vault [ . . ? .  .]</p>

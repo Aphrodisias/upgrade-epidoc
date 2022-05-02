@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary inscription for Marcus Aurelius Athenagoras</title>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for Marcus Aurelius Athenagoras</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +47,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Standard forms; a: <height unit="metre">0.07</height>; b: <height unit="metre">0.025</height>. Ligatures: l.1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">HN</foreign> twice; l.8, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">TH</foreign> three times, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗΝ</foreign>.</handNote>
+                     <handNote>Standard forms; a: <height unit="metre">0.07</height>; b: <height unit="metre">0.025</height>. Ligatures: l.1, <foreign xml:lang="grc">HN</foreign> twice; l.8, <foreign xml:lang="grc">TH</foreign> three times, <foreign xml:lang="grc">ΤΗΝ</foreign>.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -94,9 +95,6 @@ Second to third centuries A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -136,8 +134,8 @@ Second to third centuries A.D.
                </seg> which have been prepared in the base were prepared and <seg cert="low">added</seg> by Marcus Aurelius Athenagoras son of Eudamos <supplied reason="explanation">son of Eudamos son of Eudamos</supplied> the son of Philon, for himself and his wife Aurelia Meltine, daughter of Dionysios, son of Athenagoras the son of Eupolemos and for their children [ .. ? .. ] after the burial of himself and his wife in the sarcophagus there shall be prepared by his children by Meltine: Eudamus and Athenagoras, a slab which shall cover those buried in it and so his children by Meltine, Eudamos and Athenagoras, when they are deaad, shall be buried on /above the slab. But I wish no-one else to be buried in the sarcophagus but that it be consecrated as a heroon. In the ??? below the moulded base of the sarcophagus there shall be buried Aureliae Meltine and Meltine my daughters, but no-one shall have the right to bury anyone else in the sarcophagus other than those whom I have wished or to take out those buried in it, since he is to be impious and accursed and a tomb-breaker and in addition is to pay to the most sacred treasury 2500 denarii of which the third will be the prperty of the prosecutor. A copy of this inscription was deposited in the Property-archive when Attalis Apphion, daughter of Menekrates was stephanephorus for the thirteenth time, in the month Apellaion.</p>
          </div>
          <div type="commentary">
-            <p>It is probable that the Edict of Caracalla issued within the lifetime of the principals whose families, despite their élite names, were probably not Roman citizens before it. The stephanephorus was certainly holding office post mortem.The restorations are reasonably certain except in l.4 where possibilities are <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
-                  <supplied reason="lost">μόνοι</supplied>ς</foreign> (but it is a little short) or a word meaning male (but <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>It is probable that the Edict of Caracalla issued within the lifetime of the principals whose families, despite their élite names, were probably not Roman citizens before it. The stephanephorus was certainly holding office post mortem.The restorations are reasonably certain except in l.4 where possibilities are <foreign xml:lang="grc">
+                  <supplied reason="lost">μόνοι</supplied>ς</foreign> (but it is a little short) or a word meaning male (but <foreign xml:lang="grc">
                   <supplied reason="lost">ἀρρενικό</supplied>ς</foreign> is too long), and in l.6, where there are many possibilities.The provision for the insertion of a panel in this sarcophagus, dividing the parents from the sons, is interesting, as also the exclusion of the daughters therefrom. Both daughters appear to be named Meltine, although both seem to be alive; there may have been a cutter's error here.</p>
          </div>
          <div type="bibliography" n="none">

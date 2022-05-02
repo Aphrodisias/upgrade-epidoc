@@ -39,7 +39,7 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <p>'<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">sur un pied-droit</foreign>' (Texier); it is not clear whether
+                           <p>'<foreign xml:lang="fr">sur un pied-droit</foreign>' (Texier); it is not clear whether
 this refers to an upright support in the wall or to a loose
 column/<seg cert="low">
                                  <objectType>base</objectType>
@@ -51,7 +51,7 @@ column/<seg cert="low">
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>'<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">Tracée en caractères byzantins
+                     <handNote>'<foreign xml:lang="fr">Tracée en caractères byzantins
 trés incorrects</foreign>'. (Texier)</handNote>
                   </handDesc>
                </physDesc>
@@ -64,7 +64,7 @@ trés incorrects</foreign>'. (Texier)</handNote>
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList" cert="low">City, North-east</rs>: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">non loin de cette porte</foreign>'—that is, the north-east gate
+                        <rs type="monuList" cert="low">City, North-east</rs>: '<foreign xml:lang="fr">non loin de cette porte</foreign>'—that is, the north-east gate
 (Texier).</rs>
                   </provenance>
                   <provenance type="observed">
@@ -124,7 +124,7 @@ trés incorrects</foreign>'. (Texier)</handNote>
         <ab><lb n="1"/><persName key="God" type="divine"><w lemma="θεός"><expan><abbr>Θ</abbr><ex>ε</ex><abbr>ὲ</abbr></expan></w></persName> <w lemma="βοηθέω">βοήθι</w> <w lemma="ὁ">τῷ</w> <w lemma="κόσμος">κόσμο</w><lb n="2"/><w lemma="σήμερον">σέμερον</w> <w lemma="καί"><orig reg="καὶ">κὲ</orig></w> <orig n="unresolved">νια</orig><lb n="3"/><w lemma="καί">κὲ</w> <orig n="unresolved">αυρενπισιεγω</orig></ab>
       </div>
          <div type="translation">
-            <ab>God help the world <note place="not specified" anchored="yes">?</note>today, and <gap reason="illegible" unit="character" extent="unknown"/> and <gap reason="illegible" unit="character" extent="unknown"/>.</ab>
+            <ab>God help the world <note place="not specified" xml:lang=""/>today, and <gap reason="illegible" unit="character" extent="unknown"/> and <gap reason="illegible" unit="character" extent="unknown"/>.</ab>
          </div>
          <div type="commentary">
             <p>See discussion at <ref type="eAla-text" n="VIII.18" target=".xml"/>.</p>

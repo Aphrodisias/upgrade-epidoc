@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary inscription for anonymous</title>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for anonymous</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -96,9 +97,6 @@ First to fourth centuries A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -112,7 +110,7 @@ First to fourth centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <w><gap reason="lost" extent="3" unit="character"/><unclear reason="damage">ν</unclear>η</w> <w lemma="παραχωρέω">παραχωρῆσαί</w> <w lemma="τις">τινι</w> <w lemma="ὁ">τη<unclear reason="damage">ν</unclear></w><gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><gap reason="lost" extent="3" unit="character"/>  <w lemma="ἐπάρατος"><supplied reason="lost">ἐπά</supplied>ρατος</w> <w lemma="καί">καὶ</w> <w lemma="αὐτός">αὐτὸς</w> <w lemma="δέ">δὲ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w><unclear reason="damage">π</unclear><gap reason="lost" extent="3" unit="character"/></w>  <lb n="3"/><gap reason="lost" extent="3" unit="character"/> <w lemma="ἔξωθεν">ἔξωθεν</w> <w lemma="προσαποτίνω">προσαποτείσου</w> <note>sic</note> <gap reason="lost" extent="3" unit="character"/>  <lb n="4"/><w><gap reason="lost" extent="3" unit="character"/>α</w> <w lemma="ὁ">τῆς</w> <w lemma="θεός">θεοῦ</w> <w lemma="δηνάριον"><expan><abbr><am><g ref="#denarius"/></am></abbr><ex>δηνάρια</ex></expan></w> <num value="2500">βφ</num> <w lemma="εἰμί">ὧν</w> <w lemma="ὁ">τὴν</w> <w>πρᾶ<supplied reason="lost">ξιν?  </supplied></w>  <gap reason="lost" extent="3" unit="character"/>  <lb n="5"/><gap reason="lost" extent="3" unit="character"/> <w lemma="ἐνθάπτω"><unclear reason="damage">ἐ</unclear>νταφήσονται</w> <w lemma="ὅς">οὕς</w> <w lemma="τε">τε</w> <w lemma="ἐάν">ἂν</w> <w lemma="βούλομαι">βο<supplied reason="lost">υληθῇ</supplied></w>  <gap reason="lost" extent="3" unit="character"/>  <lb n="6"/><gap reason="lost" extent="3" unit="character"/>  <w lemma="τις"><supplied reason="lost">τού</supplied></w><w lemma="τις">του</w> <w lemma="ἀντίγραφον">ἀντίγραφον</w> <w lemma="ἀποτίθημι">ἀπετέθη</w> <w lemma="εἰς">εἰς</w> <gap reason="lost" extent="3" unit="character"/>  </ab>
+<ab><lb n="1"/>  <w><gap reason="lost" extent="3" unit="character"/><unclear reason="damage">ν</unclear>η</w> <w lemma="παραχωρέω">παραχωρῆσαί</w> <w lemma="τις">τινι</w> <w lemma="ὁ">τη<unclear reason="damage">ν</unclear></w><gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><gap reason="lost" extent="3" unit="character"/>  <w lemma="ἐπάρατος"><supplied reason="lost">ἐπά</supplied>ρατος</w> <w lemma="καί">καὶ</w> <w lemma="αὐτός">αὐτὸς</w> <w lemma="δέ">δὲ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w><unclear reason="damage">π</unclear><gap reason="lost" extent="3" unit="character"/></w>  <lb n="3"/><gap reason="lost" extent="3" unit="character"/> <w lemma="ἔξωθεν">ἔξωθεν</w> <w lemma="προσαποτίνω">προσαποτείσου</w> <note xml:lang=""/> <gap reason="lost" extent="3" unit="character"/>  <lb n="4"/><w><gap reason="lost" extent="3" unit="character"/>α</w> <w lemma="ὁ">τῆς</w> <w lemma="θεός">θεοῦ</w> <w lemma="δηνάριον"><expan><abbr><am><g ref="#denarius"/></am></abbr><ex>δηνάρια</ex></expan></w> <num value="2500">βφ</num> <w lemma="εἰμί">ὧν</w> <w lemma="ὁ">τὴν</w> <w>πρᾶ<supplied reason="lost">ξιν?  </supplied></w>  <gap reason="lost" extent="3" unit="character"/>  <lb n="5"/><gap reason="lost" extent="3" unit="character"/> <w lemma="ἐνθάπτω"><unclear reason="damage">ἐ</unclear>νταφήσονται</w> <w lemma="ὅς">οὕς</w> <w lemma="τε">τε</w> <w lemma="ἐάν">ἂν</w> <w lemma="βούλομαι">βο<supplied reason="lost">υληθῇ</supplied></w>  <gap reason="lost" extent="3" unit="character"/>  <lb n="6"/><gap reason="lost" extent="3" unit="character"/>  <w lemma="τις"><supplied reason="lost">τού</supplied></w><w lemma="τις">του</w> <w lemma="ἀντίγραφον">ἀντίγραφον</w> <w lemma="ἀποτίθημι">ἀπετέθη</w> <w lemma="εἰς">εἰς</w> <gap reason="lost" extent="3" unit="character"/>  </ab>
 </div>
          <div n="notyet" type="translation">
             <p>No translation yet (2007)</p>

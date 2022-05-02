@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Seat inscriptions: Theatre, Block F</title>
+            <title>
+               <rs type="textType">Seat inscriptions</rs>: Theatre, Block F</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -99,9 +100,6 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
                </term>
-               <term>
-                  <rs type="textType">Seat inscriptions</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -115,13 +113,13 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<div n="X" type="textpart" subtype="section"><note>Block behind governor’s seat: design of a <rs type="decoration">peacock</rs>.</note></div><div n="5" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/>
+<div n="X" type="textpart" subtype="section"><note xml:lang=""/></div><div n="5" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/>
 
 <w lemma="κατέχω"><supplied reason="lost">κατέ</supplied><milestone unit="block"/><space extent="3" unit="character"/>χ<space extent="3" unit="character"/>εται</w> <milestone unit="block"/> steps 
 
 <milestone unit="block"/> <orig n="unresolved">θιοσ</orig> 
 
-</ab></div><div n="ii" type="textpart" subtype="column"><note>Design, type C2, with a small arc at the end of one arm</note></div></div><div n="6" type="textpart" subtype="section"><ab><lb n="1"/>
+</ab></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div></div><div n="6" type="textpart" subtype="section"><ab><lb n="1"/>
 <g ref="#steps"/>  <milestone unit="block"/> <space extent="3" unit="block"/> <milestone unit="block"/><w><gap reason="lost" extent="1" unit="character"/>αρχων</w> <w lemma="καί"><expan><abbr><unclear reason="damage">κ</unclear></abbr><ex>αὶ</ex></expan></w> <w><unclear>α</unclear>ε<space extent="3"/></w> | 
 <milestone unit="block"/>
 <space extent="3" unit="character"/> <orig n="unresolved"><unclear reason="damage">α</unclear>τ</orig> <space extent="3" unit="character"/> <milestone unit="block"/> 
@@ -136,64 +134,62 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
 
  
 
-<persName type="attested"><name><gap reason="lost" unit="character" extent="4"/><milestone unit="block"/>λία<unclear reason="damage">ς</unclear></name> <name nymRef="#Φλαβία"><expan><abbr><unclear>Φ</unclear>λαβ</abbr><ex>ίας</ex></expan></name></persName> <milestone unit="block"/> <g ref="#steps"/></ab></div><div n="10" type="textpart" subtype="section"><note>Design, type C2</note> 
+<persName type="attested"><name><gap reason="lost" unit="character" extent="4"/><milestone unit="block"/>λία<unclear reason="damage">ς</unclear></name> <name nymRef="#Φλαβία"><expan><abbr><unclear>Φ</unclear>λαβ</abbr><ex>ίας</ex></expan></name></persName> <milestone unit="block"/> <g ref="#steps"/></ab></div><div n="10" type="textpart" subtype="section"><note xml:lang=""/> 
 
 </div><div n="11" type="textpart" subtype="section"><lb n="1"/><ab>. 
 <space extent="3" precision="circa"/><milestone unit="block"/> <orig n="unresolved">οροσ</orig><space extent="3"/>	<milestone unit="block"/>           <milestone unit="block"/>  <space extent="2" unit="block"/> <milestone unit="block"/><g ref="#steps"/>
 <lb n="2"/><milestone unit="block"/> <orig n="unresolved">θε<unclear reason="damage">σ</unclear></orig><milestone unit="block"/>φιας  <milestone unit="block"/> 
 
-</ab></div><div n="12" type="textpart" subtype="section"><note>Scattered letters</note> 
+</ab></div><div n="12" type="textpart" subtype="section"><note xml:lang=""/> 
 
-</div><div n="14" type="textpart" subtype="section"><note>Scattered letters</note> 
+</div><div n="14" type="textpart" subtype="section"><note xml:lang=""/> 
 
-<div n="16" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note>(a) </note><ab type="block"><lb n="1"/>
+<div n="16" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note xml:lang=""/><ab type="block"><lb n="1"/>
 
 <g ref="#steps"/> <milestone unit="block"/> <space extent="3" unit="character"/> <milestone unit="block"/><orig n="unresolved">Υ Λ Ο Σ</orig> <milestone unit="block"/> 
 
 <milestone unit="block"/> 
 <orig n="unresolved">απο</orig><milestone unit="block"/>
-<milestone unit="block"/><orig n="unresolved">αε υτ α ολ</orig> <milestone unit="block"/></ab><note>( 
-
-b)</note><lb n="1"/><ab> 
+<milestone unit="block"/><orig n="unresolved">αε υτ α ολ</orig> <milestone unit="block"/></ab><note xml:lang=""/><lb n="1"/><ab> 
 
 <w lemma="κατέχω"><supplied reason="lost" cert="low">κατέχε</supplied><milestone unit="block"/>ται</w> 
 
 </ab></div><div n="ii" type="textpart" subtype="column"><ab><lb n="1"/>
 <g ref="#steps"/>  <milestone unit="block"/> <space extent="3"/>  <orig n="unresolved">αρ</orig> <space extent="3"/> <milestone unit="block"/> <orig n="unresolved">αρ</orig> <milestone unit="block"/> <orig n="unresolved">αρ</orig> <milestone unit="block"/> <space extent="3"/>
-</ab></div><div n="iii" type="textpart" subtype="column"><note>Design, type C2</note> 
+</ab></div><div n="iii" type="textpart" subtype="column"><note xml:lang=""/> 
 
-</div><div n="iv" type="textpart" subtype="column"><note>Scattered letters</note> 
+</div><div n="iv" type="textpart" subtype="column"><note xml:lang=""/> 
 
 </div></div></div><div n="17" type="textpart" subtype="section"><ab><lb n="1"/>
 
 <milestone unit="block"/> <orig n="unresolved"><unclear reason="damage">ιιι</unclear></orig> <space extent="3" unit="character"/> <orig n="unresolved">νιγ δια</orig> <milestone unit="block"/> 
 
-</ab></div><div n="18" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note>?Deliberately ambiguous design of a <rs type="decoration">phallus</rs>, highly stylised in such a way that it could be read as a <rs type="decoration">building with a pointed roof</rs>, supported by two spiral columns. To the right, a <rs type="decoration">bird</rs>; to the left, parallel with the columns, a text:</note><ab><lb n="1"/>
+</ab></div><div n="18" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note xml:lang=""/><ab><lb n="1"/>
 
  
 
 <w lemma="τόπος">τόπος</w> 
 
-<persName type="divine"><name>Ἔρωτος</name></persName></ab><div n="ii" type="textpart" subtype="column"><note>Scattered letters</note></div></div></div><div n="19" type="textpart" subtype="section"><note>Scattered letters</note> 
+<persName type="divine"><name>Ἔρωτος</name></persName></ab><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div></div></div><div n="19" type="textpart" subtype="section"><note xml:lang=""/> 
 
-</div><div n="20" type="textpart" subtype="section"><note>Scattered letters</note> 
+</div><div n="20" type="textpart" subtype="section"><note xml:lang=""/> 
 
-</div><div n="21" type="textpart" subtype="section"><note>Scattered letters</note> 
+</div><div n="21" type="textpart" subtype="section"><note xml:lang=""/> 
 
 </div><div n="22" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/><milestone unit="block"/> <orig n="unresolved">ρ ρ</orig> <milestone unit="block"/> <g ref="#steps"/> 
 
-</ab></div><div n="ii" type="textpart" subtype="column"><note>Scattered letters</note></div></div><div n="23" type="textpart" subtype="section"><ab><lb n="1"/>
+</ab></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div></div><div n="23" type="textpart" subtype="section"><ab><lb n="1"/>
 
 <orig n="unresolved">τ</orig>
  <w lemma="τόπος">τόπος</w> <orig n="unresolved">ν<unclear reason="damage">α</unclear></orig> 
 
-</ab><note>Scattered letters</note></div><div n="24" type="textpart" subtype="section"><note>Scattered letters</note> 
+</ab><note xml:lang=""/></div><div n="24" type="textpart" subtype="section"><note xml:lang=""/> 
 
-</div><div n="25" type="textpart" subtype="section"><note>Scattered letters</note> 
+</div><div n="25" type="textpart" subtype="section"><note xml:lang=""/> 
 
 </div><div n="26" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/>
 <space extent="3" precision="circa"/>  <milestone unit="block"/>  <orig n="unresolved">τ τ</orig> <milestone unit="block"/> <space extent="3" precision="circa"/> 
-</ab></div><div n="ii" type="textpart" subtype="column"><note>Scattered letters</note> </div></div>
+</ab></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/> </div></div>
 </div>
          <div type="translation">
             <p>Row 5.i: Reserved.</p>

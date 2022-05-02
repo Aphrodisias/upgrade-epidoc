@@ -44,7 +44,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Probably Second to third centuries A.D. standard forms; <height unit="metre">0.04</height>; ligatured <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΕ</foreign>, l.2.</handNote>
+                     <handNote>Probably Second to third centuries A.D. standard forms; <height unit="metre">0.04</height>; ligatured <foreign xml:lang="grc">ΜΕ</foreign>, l.2.</handNote>
                   </handDesc>
                </physDesc>
                <history>

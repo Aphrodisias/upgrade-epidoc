@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for Claudia Paulina</title>
+            <title>
+               <rs type="textType">Honours</rs> for Claudia Paulina</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +47,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.035–0.04</height>; diaeretic dots around the second <term lang="grc-Latn">iota</term> in l. 3, final <term lang="grc-Latn">epsilon</term> in l. 8, and final <term lang="grc-Latn">alpha</term> in l. 12; dot after the final <term lang="grc-Latn">alpha</term> in l. 6, between the <term lang="grc-Latn">sigma</term> and <term lang="grc-Latn">zeta</term> in l. 9, and at beginning and end of letters in l. 13.</handNote>
+                        <height unit="metre">0.035–0.04</height>; diaeretic dots around the second <term xml:lang="grc-Latn">iota</term> in l. 3, final <term xml:lang="grc-Latn">epsilon</term> in l. 8, and final <term xml:lang="grc-Latn">alpha</term> in l. 12; dot after the final <term xml:lang="grc-Latn">alpha</term> in l. 6, between the <term xml:lang="grc-Latn">sigma</term> and <term xml:lang="grc-Latn">zeta</term> in l. 9, and at beginning and end of letters in l. 13.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -93,9 +94,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -122,7 +120,7 @@
          </div>
          <div type="commentary">
             <p>A number of Claudii are attested in Aphrodisias, some very eminent; Claudius Ise[—], his daughter Paulina, and her husband Tib(erius) Claudius Paulinus may be related to them, as the shared cognomen Paulina and Paulinus suggests that husband and wife were (marriage of cousins being one device for keeping family properties together). Ise[—] and Paulinus are not at present otherwise known; but an eminent woman Paulina is known—she was a stephanephorus in the reign of Hadrian [[...]] and is perhaps also the Paulina apparently concerned in the foundation of the basilica [[...]]. This identification would square with her title here—"Daughter of the City" indicates the probability that she had given money for civic purposes.</p>
-            <p>The tense of the participle <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ζήσασαν</foreign> probably indicates that she was dead when the inscription was drafted, and that squares with the otherwise slightly surprising fact that while her husband was high priest (of the civic imperial cult) she is not called high priestess, although a wife usually played some part in a high priest's function—in relation to females of the imperial family—and shared the title). Her qualities are the standard ones for which Aphrodisian women are praised.</p>
+            <p>The tense of the participle <foreign xml:lang="grc">ζήσασαν</foreign> probably indicates that she was dead when the inscription was drafted, and that squares with the otherwise slightly surprising fact that while her husband was high priest (of the civic imperial cult) she is not called high priestess, although a wife usually played some part in a high priest's function—in relation to females of the imperial family—and shared the title). Her qualities are the standard ones for which Aphrodisian women are praised.</p>
          </div>
          <div type="bibliography" n="none">
             <p>Unpublished.</p>

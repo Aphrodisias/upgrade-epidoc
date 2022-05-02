@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for the people of Aphrodisias</title>
+            <title>
+               <rs type="textType">Honours</rs> for the people of Aphrodisias</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +47,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Letters, third cent. A.D.; ll. 1-10, 12-17, av. <height unit="metre">0.025</height> ; 1. 11, <height unit="metre">0.018</height> ; ligatured <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΜ</foreign> in l. 2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗ</foreign> in l. 13. The small letters of l. 11 suggest an afterthought fitted into a space originally left blank (so Paton).</handNote>
+                     <handNote>Letters, third cent. A.D.; ll. 1-10, 12-17, av. <height unit="metre">0.025</height> ; 1. 11, <height unit="metre">0.018</height> ; ligatured <foreign xml:lang="grc">ΜΜ</foreign> in l. 2, <foreign xml:lang="grc">ΜΗ</foreign> in l. 13. The small letters of l. 11 suggest an afterthought fitted into a space originally left blank (so Paton).</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -90,25 +91,25 @@ Late second or third century  (<rs type="criteria">lettering</rs>)
 </div>
          <div type="apparatus">
             <p>P1 denotes Paton's transcription, P2 his interpretation: the restorations in ll. 1-8 are taken from P1. There has been some deterioration of the stone since he saw it. </p>
-            <p>l. 1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 1, <foreign xml:lang="grc">
                   <gap unit="character" reason="lost" extent="2"/>
-                  <unclear reason="damage">ΛΙ</unclear>ΟΝΑ</foreign> P1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τὸν <gap unit="character" reason="lost" extent="3"/> δ<supplied reason="lost">ῆμον</supplied>
+                  <unclear reason="damage">ΛΙ</unclear>ΟΝΑ</foreign> P1, <foreign xml:lang="grc">τὸν <gap unit="character" reason="lost" extent="3"/> δ<supplied reason="lost">ῆμον</supplied>
                </foreign> P2</p>
-            <p>l. 2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">συμαχον</foreign> P1, P2 </p>
-            <p>l. 4, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΛΕΥΘ</foreign> P1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἐλευθε</foreign>- P2 </p>
-            <p>l. 7, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">συνκλήτου</foreign> P1, P2. </p>
-            <p>l. 10, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 2, <foreign xml:lang="grc">συμαχον</foreign> P1, P2 </p>
+            <p>l. 4, <foreign xml:lang="grc">ΕΛΕΥΘ</foreign> P1, <foreign xml:lang="grc">ἐλευθε</foreign>- P2 </p>
+            <p>l. 7, <foreign xml:lang="grc">συνκλήτου</foreign> P1, P2. </p>
+            <p>l. 10, <foreign xml:lang="grc">
                   <supplied reason="lost">κ</supplied>αθιέωσεν</foreign> P1, P2</p>
-            <p>l. 13, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΑΙ ΡΕΡΜΗΣΠΑ-</foreign> P1, nil P2, ? for <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Μαρ. Αὐρ. Ἑρμῆς Πα<unclear reason="damage">π</unclear>
+            <p>l. 13, <foreign xml:lang="grc">ΜΑΙ ΡΕΡΜΗΣΠΑ-</foreign> P1, nil P2, ? for <foreign xml:lang="grc">Μαρ. Αὐρ. Ἑρμῆς Πα<unclear reason="damage">π</unclear>
                   <gap unit="character" reason="lost" extent="3"/>
                </foreign> Robert.</p>
-            <p>l. 14, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΣOI ΖΛΝΛΘΕΙΣ</foreign> P1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἀναθείς</foreign> P2. </p>
-            <p>l. 15, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΟΙ ΛΣΕΙΣ ΑΙΩΝΙ</foreign> P1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τὸ <gap unit="character" reason="lost" extent="4"/> ας εἰς αἰωνί</foreign> P2.</p>
-            <p>l. 16, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
-                  <unclear reason="damage">Λ</unclear>ΟΥΣ ΤΗΚΡΑΤΣΤ</foreign> P1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
-                  <supplied reason="lost">ους χρόν</supplied>ους τῇ κρατισ-</foreign> P2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 14, <foreign xml:lang="grc">ΣOI ΖΛΝΛΘΕΙΣ</foreign> P1, <foreign xml:lang="grc">ἀναθείς</foreign> P2. </p>
+            <p>l. 15, <foreign xml:lang="grc">ΤΟΙ ΛΣΕΙΣ ΑΙΩΝΙ</foreign> P1, <foreign xml:lang="grc">τὸ <gap unit="character" reason="lost" extent="4"/> ας εἰς αἰωνί</foreign> P2.</p>
+            <p>l. 16, <foreign xml:lang="grc">
+                  <unclear reason="damage">Λ</unclear>ΟΥΣ ΤΗΚΡΑΤΣΤ</foreign> P1, <foreign xml:lang="grc">
+                  <supplied reason="lost">ους χρόν</supplied>ους τῇ κρατισ-</foreign> P2, <foreign xml:lang="grc">
                   <supplied reason="lost">ους κλήρ</supplied>ους</foreign> Robert. </p>
-            <p>l. 17, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΒΟΥΛΗ</foreign> P1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 17, <foreign xml:lang="grc">ΒΟΥΛΗ</foreign> P1, <foreign xml:lang="grc">
                   <supplied reason="lost">τῇ</supplied> βουλῇ</foreign> P2.</p>
          </div>
          <div type="translation">

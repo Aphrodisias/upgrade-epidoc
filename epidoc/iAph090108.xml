@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary fragment</title>
+            <title>
+               <rs type="textType">Funerary</rs> fragment</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -93,9 +94,6 @@ First to third centuries A.D. (<rs type="criteria">lettering</rs>)
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -113,10 +111,10 @@ First to third centuries A.D. (<rs type="criteria">lettering</rs>)
 <ab><lb n="1"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/>λίας</name>  <name>Φρ<gap reason="lost" extent="unknown" unit="character"/></name></persName>  <lb n="2"/><w><gap reason="lost" extent="unknown" unit="character"/>ται</w>  ΑΝ<gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>  <w lemma="γράφω"><supplied reason="lost">γεγ</supplied><unclear reason="damage">ρ</unclear>αμμε<supplied reason="lost">ν</supplied><gap reason="lost" extent="unknown" unit="character"/></w>    </ab>
 </div>
          <div type="apparatus">
-            <p>l. 2, e.g. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 2, e.g. <foreign xml:lang="grc">
                   <supplied reason="lost">ἔσ</supplied>ται, <supplied reason="lost">ἐξέσ</supplied>ται, <supplied reason="lost">εἰσωσ</supplied>ται</foreign>
             </p>
-            <p>l. 3, e.g. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 3, e.g. <foreign xml:lang="grc">
                   <supplied reason="lost">γεγ</supplied>ραμμέ<supplied reason="lost">νος</supplied>, <supplied reason="lost">προγεγ</supplied>ραμμέ<supplied reason="lost">νος</supplied>
                </foreign>
             </p>

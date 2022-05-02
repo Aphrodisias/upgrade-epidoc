@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary inscription for M. Aurelius Agathopous</title>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for M. Aurelius Agathopous</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -94,9 +95,6 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -116,7 +114,7 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
          <div type="apparatus">
             <p>At the beginnings of the lines appropriate formulae have been supplied from standard funeraries, giving the sense of what is lost, although not necessarily the exact wording (in particular the word used for the tomb in line 1 is undertain.</p>
             <p>In line 2, since M. Aur. Agathopous is not identifiable, we cannot complete his genealogy.</p>
-            <p> l. 7, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΣΠΙ</foreign>
+            <p> l. 7, <foreign xml:lang="grc">ΣΠΙ</foreign>
             </p>
             <p>In line 8, a number may have been given  for Attalis' stephanephorate, although there hardly seems space for it.</p>
          </div>

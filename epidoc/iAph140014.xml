@@ -49,8 +49,8 @@ text.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>'<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="de">Schrift tief und bestimmt</foreign>'; <height unit="metre">0.025-0.05</height>: dash for abbreviation;
-<term>stigma</term> for <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΣΤ</foreign>; at end, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Υ</foreign> above <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΟ</foreign>.</handNote>
+                     <handNote>'<foreign xml:lang="de">Schrift tief und bestimmt</foreign>'; <height unit="metre">0.025-0.05</height>: dash for abbreviation;
+<term>stigma</term> for <foreign xml:lang="grc">ΣΤ</foreign>; at end, <foreign xml:lang="grc">Υ</foreign> above <foreign xml:lang="grc">ΤΟ</foreign>.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -62,8 +62,8 @@ text.</layout>
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList">Karaçasu</rs>: re-used in a fountain: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="de">Brunnen</foreign>':
-'<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="de">heute zu einem Brustungsstein umgearbeitet</foreign>'.</rs>
+                        <rs type="monuList">Karaçasu</rs>: re-used in a fountain: '<foreign xml:lang="de">Brunnen</foreign>':
+'<foreign xml:lang="de">heute zu einem Brustungsstein umgearbeitet</foreign>'.</rs>
                   </provenance>
                   <provenance type="observed" when="1893">
                      <rs type="lastLocation">Findspot (1893).</rs>

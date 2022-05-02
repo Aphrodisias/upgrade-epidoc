@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Testament of Attalos Adrastos</title>
+            <title>
+               <rs type="textType">Testament</rs> of Attalos Adrastos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -95,9 +96,6 @@ a-d: A.D. 117/138; e A.D. 117/150 (<rs type="criteria">content</rs>).</origDate>
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">Testament</rs>
                </term>
             </keywords>
          </textClass>

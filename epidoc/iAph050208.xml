@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Building dedication to Aphrodite and Hadrian by Pereitas Attalos</title>
+            <title>Building <rs type="textType">dedication</rs> to Aphrodite and Hadrian by Pereitas Attalos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +46,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Regular hand, without the variations in size of the matching inscription, <ref type="inscription" n="1555" target="050207.xml"/> (=168a); <height unit="metre">0.025</height>; ligatures: in l.3, second <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΚΕ</foreign>.</handNote>
+                     <handNote>Regular hand, without the variations in size of the matching inscription, <ref type="inscription" n="1555" target="050207.xml"/> (=168a); <height unit="metre">0.025</height>; ligatures: in l.3, second <foreign xml:lang="grc">ΗΝ</foreign>, <foreign xml:lang="grc">ΚΕ</foreign>.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -100,9 +100,6 @@ A.D. 117-138 (<rs type="criteria">reign</rs>)
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">dedication</rs>
                </term>
             </keywords>
          </textClass>

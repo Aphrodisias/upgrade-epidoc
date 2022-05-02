@@ -6,8 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>i. Verse
-               honours for <rs type="personType" reg="governor">Oikoumenios</rs>; ii. Invocation</title>
+            <title>i. <rs type="textType">Verse</rs>
+               <rs type="textType">honours</rs> for <rs type="personType" reg="governor">Oikoumenios</rs>; ii. <rs type="textType">Invocation</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -50,8 +51,8 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>i. Irregular, <height unit="metre">0.025</height>-<height unit="metre">0.04</height>;
-               I. 6. apparently an apostrophe after <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τῆιδ</foreign> I. 9,
-                  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ω</foreign> for <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ω<supplied reason="abbreviation">ν</supplied>
+               I. 6. apparently an apostrophe after <foreign xml:lang="grc">τῆιδ</foreign> I. 9,
+                  <foreign xml:lang="grc">Ω</foreign> for <foreign xml:lang="grc">ω<ex>ν</ex>
                         </foreign>).ii. Neatly cut.</handNote>
                   </handDesc>
                </physDesc>
@@ -100,15 +101,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Verse</rs>
-               </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
-               <term>
-                  <rs type="textType">Invocation</rs>
                </term>
             </keywords>
          </textClass>
@@ -214,7 +206,7 @@
                Oikoumenios, the famous governor, the friendly council of the Aphrodisians has set
                you up here; for what greater reward than that of being well remembered can the man
                find who is pure in mind and in hand? </p>
-            <p>ii: ?M<supplied reason="abbreviation">ary</supplied> b<supplied reason="abbreviation">ore</supplied> Ch<supplied reason="abbreviation">rist</supplied>. God, help.</p>
+            <p>ii: ?M<ex>ary</ex> b<ex>ore</ex> Ch<ex>rist</ex>. God, help.</p>
          </div>
          <div type="commentary">
             <p>For i. see discussion at <ref type="eAla-text" n="III.33" target=".xml"/>.</p>

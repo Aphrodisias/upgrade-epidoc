@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary inscription for Marcus Aurelius Zenon</title>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for Marcus Aurelius Zenon</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -47,7 +48,7 @@ See further Isik, loc. cit.</p>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote> Quite nicely designed in the second-to-fourth-century style, reasonably well cut, fairly well aligned, <height unit="metre">0.02</height>; ligatured <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign> (c. l.7), <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΕ</foreign> (c. l.3), <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗΝ</foreign> (c. l.7); unconventional spelling in a, l.2.</handNote>
+                     <handNote> Quite nicely designed in the second-to-fourth-century style, reasonably well cut, fairly well aligned, <height unit="metre">0.02</height>; ligatured <foreign xml:lang="grc">ΗΝ</foreign> (c. l.7), <foreign xml:lang="grc">ΤΕ</foreign> (c. l.3), <foreign xml:lang="grc">ΤΗΝ</foreign> (c. l.7); unconventional spelling in a, l.2.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -95,9 +96,6 @@ Probably  middle third century A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -137,7 +135,7 @@ Probably  middle third century A.D.
 </div>
          <div type="apparatus">
             <p>b. highlighted letters were read by Sherard, but not subsequently</p>
-            <p>c. l.1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τε</foreign> omitted by Cormack</p>
+            <p>c. l.1, <foreign xml:lang="grc">τε</foreign> omitted by Cormack</p>
          </div>
          <div type="translation">
             <p>a. The sarcophagus belongs to Marcus Aurelius Zenon, city-councillor</p>

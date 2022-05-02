@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Building inscription of Artemidoros Muon</title>
+            <title>
+               <rs type="textType">Building inscription</rs> of Artemidoros Muon</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -97,9 +98,6 @@ Late first century B.C. (<rs type="criteria">lettering</rs>)</origDate>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Building inscription</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -118,8 +116,8 @@ Late first century B.C. (<rs type="criteria">lettering</rs>)</origDate>
 </div>
          <div type="apparatus">
             <p> Highlighted letters on the fragment recorded in 1975.</p>
-            <p>l.1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΟΡΟΣ</foreign> Sherard</p>
-            <p>l.2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΟΡ<unclear reason="damage">Ο</unclear>Υ</foreign> Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΟΡ<unclear reason="damage">Ο</unclear>Ν</foreign> Boeckh</p>
+            <p>l.1, <foreign xml:lang="grc">ΟΡΟΣ</foreign> Sherard</p>
+            <p>l.2, <foreign xml:lang="grc">ΟΡ<unclear reason="damage">Ο</unclear>Υ</foreign> Sherard; <foreign xml:lang="grc">ΟΡ<unclear reason="damage">Ο</unclear>Ν</foreign> Boeckh</p>
          </div>
          <div type="translation">
             <p>. . . ]the ?porch; Artemidoros son of Mu[on ? . . . and ? son of Artemidoros . . and] Apollonios son of Artemidoros, his sons [ . . . </p>

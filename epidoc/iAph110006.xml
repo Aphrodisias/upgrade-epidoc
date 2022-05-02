@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Posthumous <rs type="textType">honours</rs> for  Papylos son of Iason</title>
+            <title>
+               <rs type="textType">Posthumous <rs type="textType">honours</rs>
+               </rs> for  Papylos son of Iason</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -37,7 +39,7 @@
                         <support>
                            <p>
                               <material key="marmor">White marble</material>
-                              <objectType reg="block">block</objectType> (<measure type="length" dim="none">0.57</measure>   × <measure type="length" dim="none">0.285</measure>   × <measure type="depth" dim="none">0.33</measure>) with light moulding along the left and bottom edges, chipped on all sides, and worn.  </p>
+                              <objectType key="block">block</objectType> (<height>0.57</height>   × <height>0.285</height>   × <height>0.33</height>) with light moulding along the left and bottom edges, chipped on all sides, and worn.  </p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -91,9 +93,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Posthumous honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -113,12 +112,12 @@
 </div>
          <div type="apparatus">
             <p>Some letters read by Reinach and MAMA are no longer legible. </p>
-            <p>ll. 5/6: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">δ<supplied reason="lost">ι</supplied>
+            <p>ll. 5/6: <foreign xml:lang="grc">δ<supplied reason="lost">ι</supplied>
                   <lb/>
-                  <supplied reason="lost">ἅ</supplied>παν</foreign>  Reinach; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">δ<supplied reason="lost">ι</supplied>
+                  <supplied reason="lost">ἅ</supplied>παν</foreign>  Reinach; <foreign xml:lang="grc">δ<supplied reason="lost">ι</supplied>
                   <lb/>
                   <supplied reason="lost">ετ</supplied>ίαν</foreign> MAMA</p>
-            <p>l. 6,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">KLE</foreign>: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">καὶ</foreign> Reinach, MAMA
+            <p>l. 6,  <foreign xml:lang="grc">KLE</foreign>: <foreign xml:lang="grc">καὶ</foreign> Reinach, MAMA
 </p>
          </div>
          <div n="notyet" type="translation">

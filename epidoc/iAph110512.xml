@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary inscription for M. Aurelius Steph<supplied reason="lost">anos</supplied>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for M. Aurelius Steph<supplied reason="lost">anos</supplied>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -46,7 +47,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Standard forms, ave. <height unit="metre">0.018-0.02</height>; dash above <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">I</foreign> in l.1 and <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Υ</foreign> in l.4; stop after <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΥΡ</foreign>, l.2; ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ</foreign> l.1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign>, l.5.</handNote>
+                     <handNote>Standard forms, ave. <height unit="metre">0.018-0.02</height>; dash above <foreign xml:lang="grc">I</foreign> in l.1 and <foreign xml:lang="grc">Υ</foreign> in l.4; stop after <foreign xml:lang="grc">ΑΥΡ</foreign>, l.2; ligatures: <foreign xml:lang="grc">ΤΗ</foreign> l.1, <foreign xml:lang="grc">ΗΝ</foreign>, l.5.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -92,9 +93,6 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
                </term>
             </keywords>
          </textClass>

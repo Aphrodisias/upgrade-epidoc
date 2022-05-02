@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for anonymous</title>
+            <title>
+               <rs type="textType">Honours</rs> for anonymous</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +46,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Lightly cut; second century A.D.; ave. <height unit="metre">0.02</height>; Ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΜ</foreign>ll.1, 5 ;  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign> ll.5, 8.</handNote>
+                     <handNote>Lightly cut; second century A.D.; ave. <height unit="metre">0.02</height>; Ligatures: <foreign xml:lang="grc">ΗΜ</foreign>ll.1, 5 ;  <foreign xml:lang="grc">ΗΝ</foreign> ll.5, 8.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -93,9 +94,6 @@ Second century A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -115,7 +113,7 @@ Second century A.D.
 </div>
          <div type="apparatus">
             <p>l.2, Ζήνων  is a name of the right length and common at Aphrodisias.</p>
-            <p>l. 4, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΕΝΟΙΙ</foreign>: the <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ν</foreign>  has no diagonal stroke.</p>
+            <p>l. 4, <foreign xml:lang="grc">ΜΕΝΟΙΙ</foreign>: the <foreign xml:lang="grc">Ν</foreign>  has no diagonal stroke.</p>
             <p>l.6 perhaps ἐπεμελήσατο.</p>
          </div>
          <div type="translation">

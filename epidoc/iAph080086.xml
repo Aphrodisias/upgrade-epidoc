@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Restoration of statues by Grypos</title>
+            <title>
+               <rs type="textType">Restoration</rs> of statues by Grypos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -50,7 +51,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-Capitals of the second century A.D.<height unit="metre">0.04</height>. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign> in ligature.</handNote>
+Capitals of the second century A.D.<height unit="metre">0.04</height>. <foreign xml:lang="grc">ΗΝ</foreign> in ligature.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -60,7 +61,7 @@ Capitals of the second century A.D.<height unit="metre">0.04</height>. <foreign 
                            <rs type="monuList">Theatre</rs> proskeneion frieze, at north end. Inscribed on the blocks which make up the cornice, of the Doric order, above <ref type="inscription" n="536" target="080001.xml"/>,  the inscription of Zoilos, across the back of the Theatre stage. The blocks have simple moulding above, supporting water spouts in the form of lions' heads; the underside has a decoration of mutules. </rs>
                      </origPlace>
                      <origDate notBefore="0167" notAfter="0168">
-A.D. 167-8 (<rs type="criteria">prosopography</rs>: Maximus recorded as <term lang="la">quaestor Asiae</term>)
+A.D. 167-8 (<rs type="criteria">prosopography</rs>: Maximus recorded as <term xml:lang="la">quaestor Asiae</term>)
 </origDate>
                   </origin>
                   <provenance type="found">
@@ -99,9 +100,6 @@ A.D. 167-8 (<rs type="criteria">prosopography</rs>: Maximus recorded as <term la
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Restoration</rs>
                </term>
             </keywords>
          </textClass>

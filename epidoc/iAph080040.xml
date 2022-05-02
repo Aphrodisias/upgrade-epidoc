@@ -94,7 +94,7 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
 <gap reason="lost" extent="unknown" unit="character"/> <placeName nymRef="#Ῥωμαῖος">Ῥωμαίων</placeName> <g ref="#stop"/> <space extent="3" unit="character"/> <gap reason="lost" extent="unknown" unit="character"/> </ab>
 </div>
          <div type="apparatus">
-            <p>l. 2,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 2,  <foreign xml:lang="grc">
                   <supplied reason="lost" cert="low">συμμα</supplied>χεῖν</foreign>
             </p>
          </div>

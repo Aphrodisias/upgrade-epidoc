@@ -6,8 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Acclamation for Theopompos, <term lang="la">magnificentissimus</term>, <seg cert="low">
-                  <term lang="la">pater civitatis</term>
+            <title>
+               <rs type="textType">Acclamation</rs> for Theopompos, <term xml:lang="la">magnificentissimus</term>, <seg cert="low">
+                  <term xml:lang="la">pater civitatis</term>
                </seg>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
@@ -48,8 +49,8 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>: <height unit="metre">0.015</height>-<height unit="metre">0.025</height>; clear, irregular, with no close parallels; abbreviations: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΕΓΑΛΟΠΡ<g ref="#hook"/>
-                        </foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+                     <handNote>: <height unit="metre">0.015</height>-<height unit="metre">0.025</height>; clear, irregular, with no close parallels; abbreviations: <foreign xml:lang="grc">ΜΕΓΑΛΟΠΡ<g ref="#hook"/>
+                        </foreign>, <foreign xml:lang="grc">
                            <hi rend="supraline">ΘΩ</hi>
                         </foreign> with line above.</handNote>
                   </handDesc>
@@ -98,9 +99,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Acclamation</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -127,8 +125,8 @@
 		</ab>
       </div>
          <div type="translation">
-            <ab>Up with Theopompos, <term lang="la">magnificentissimus</term>, <seg cert="low">member of the council</seg> and, with God's help, <seg cert="low">
-                  <term lang="la">pa<supplied reason="lost">ter civitatis</supplied>
+            <ab>Up with Theopompos, <term xml:lang="la">magnificentissimus</term>, <seg cert="low">member of the council</seg> and, with God's help, <seg cert="low">
+                  <term xml:lang="la">pa<supplied reason="lost">ter civitatis</supplied>
                   </term>
                </seg>
                <gap reason="lost" unit="character" extent="unknown"/>

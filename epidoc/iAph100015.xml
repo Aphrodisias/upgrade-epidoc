@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Seat inscriptions: Stadium Block 6</title>
+            <title>
+               <rs type="textType">Seat inscriptions</rs>: Stadium Block 6</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -95,9 +96,6 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>)
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
                </term>
-               <term>
-                  <rs type="textType">Seat inscriptions</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -112,7 +110,7 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>)
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<div n="Y" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/><space extent="3"/> <milestone unit="block"/> <orig n="unresolved">ροσ</orig> <milestone unit="block"/> <note>Board, type S3</note>  <milestone unit="block"/> <space extent="3"/></ab></div><div n="ii" type="textpart" subtype="column"><note>Design, 3Rows 2</note></div><div n="iii" type="textpart" subtype="column"><note>Design, 3Rows.2, in a frame.</note></div></div>
+<div n="Y" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/><space extent="3"/> <milestone unit="block"/> <orig n="unresolved">ροσ</orig> <milestone unit="block"/> <note xml:lang=""/>  <milestone unit="block"/> <space extent="3"/></ab></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div><div n="iii" type="textpart" subtype="column"><note xml:lang=""/></div></div>
 </div>
          <div type="translation" n="none">
             <p>No translation possible..</p>

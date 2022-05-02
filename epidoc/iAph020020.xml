@@ -7,7 +7,9 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <rs type="textType" reg="honours">Epigram</rs> for Pytheas</title>
+               <rs type="textType" reg="verse">
+                  <rs type="textType" reg="honours">Epigram</rs>
+               </rs> for Pytheas</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -49,7 +51,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Av. <height unit="metre">0.04</height>; irregular, elongated: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε</foreign> is both square and lunate; dot for stop.</handNote>
+                     <handNote>Av. <height unit="metre">0.04</height>; irregular, elongated: <foreign xml:lang="grc">Ε</foreign> is both square and lunate; dot for stop.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -99,9 +101,6 @@
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">verse</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -145,8 +144,8 @@
       </div>
          <div type="apparatus">
             <p>
-               <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ὀρ<supplied reason="lost">θῶσ</supplied>α</foreign> Cameron,
-<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ὁρ<supplied reason="lost">ῶσ</supplied>α</foreign> Merkelbach-Stauffer</p>
+               <foreign xml:lang="grc">ὀρ<supplied reason="lost">θῶσ</supplied>α</foreign> Cameron,
+<foreign xml:lang="grc">ὁρ<supplied reason="lost">ῶσ</supplied>α</foreign> Merkelbach-Stauffer</p>
          </div>
          <div type="translation">
             <ab>City of the Paphian goddess and of Pytheas: she, for her

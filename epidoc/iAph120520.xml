@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>   Honours for <supplied reason="lost">Tiber</supplied>ius Claudius Attalos</title>
+            <title>
+               <rs type="textType">Honours</rs> for <supplied reason="lost">Tiber</supplied>ius Claudius Attalos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -47,7 +48,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.03-0.04</height>; ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗΝ</foreign>, l. 9.</handNote>
+                        <height unit="metre">0.03-0.04</height>; ligatures: <foreign xml:lang="grc">ΤΗΝ</foreign>, l. 9.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -95,9 +96,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -115,18 +113,18 @@
 
 
 
-<ab><lb n="0"/><supplied reason="lost"><note place="not  specified" anchored="yes">e.g.</note> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βούλη</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="τιμάω">ἐτείμησεν</w></supplied><lb n="1"/>  <persName type="attested"><name nymRef="#Τιβέριος"><supplied reason="lost"><app type="previouslyread"><rdg resp="previous">Τιβέρ</rdg><rdg resp="autopsy"><gap extent="5" reason="lost" unit="character"/></rdg></app></supplied>ιον</name>  <name nymRef="#Κλαύδιος">Κλαύδιον</name>  <lb n="2"/><persName type="attested"><name nymRef="#Λούκιος">Λ<app type="previouslyread"><rdg resp="previous">ου</rdg><rdg resp="autopsy"><gap extent="5" reason="lost" unit="character"/></rdg></app>κίου</name>  <name nymRef="#Ἀντώνιος">Ἀντωνίου</name>  <lb n="3"/><name nymRef="#Κλαύδιος">Κλαυδίου</name>  <name nymRef="#Δομετῖνος">Δομετε<supplied reason="lost">ί</supplied><lb n="4" break="no"/>νου</name>  <name nymRef="#Διογένης">Διογένους</name></persName> <placeName key="Asia" nymRef="#Ἀσία">Ἀσ<lb n="5" break="no"/><supplied reason="lost">ί</supplied><app type="previouslyread"><rdg resp="previous">α</rdg><rdg resp="autopsy"><gap extent="1" reason="lost" unit="character"/></rdg></app>ς</placeName>  <w lemma="ἀρχιερεύς">ἀρχιερέως</w>  <w lemma="καί">καὶ</w>  <lb n="6"/><w lemma="νομοθέτης">νομοθέτου</w>  <w lemma="υἱός">υἱὸν</w>  <lb n="7"/><name nymRef="#Ἄτταλος">Ἄτταλον</name></persName>    <w lemma="συνκλητικός">συνκλη<lb n="8" break="no"/>τικὸν</w>  <w lemma="ὁ">τὸν</w>  <w lemma="εὐεργέτης">εὐεργέ<lb n="9" break="no"/>την</w>  <w lemma="ὁ">τῆς</w>  <w lemma="πατρίς">πατρίδος</w><lb n="9a"/><space unit="line" dim="vertical" extent="1"/></ab>
+<ab><lb n="0"/><supplied reason="lost"><note place="not  specified" xml:lang=""/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βούλη</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="τιμάω">ἐτείμησεν</w></supplied><lb n="1"/>  <persName type="attested"><name nymRef="#Τιβέριος"><supplied reason="lost"><app type="previouslyread"><rdg resp="previous">Τιβέρ</rdg><rdg resp="autopsy"><gap extent="5" reason="lost" unit="character"/></rdg></app></supplied>ιον</name>  <name nymRef="#Κλαύδιος">Κλαύδιον</name>  <lb n="2"/><persName type="attested"><name nymRef="#Λούκιος">Λ<app type="previouslyread"><rdg resp="previous">ου</rdg><rdg resp="autopsy"><gap extent="5" reason="lost" unit="character"/></rdg></app>κίου</name>  <name nymRef="#Ἀντώνιος">Ἀντωνίου</name>  <lb n="3"/><name nymRef="#Κλαύδιος">Κλαυδίου</name>  <name nymRef="#Δομετῖνος">Δομετε<supplied reason="lost">ί</supplied><lb n="4" break="no"/>νου</name>  <name nymRef="#Διογένης">Διογένους</name></persName> <placeName key="Asia" nymRef="#Ἀσία">Ἀσ<lb n="5" break="no"/><supplied reason="lost">ί</supplied><app type="previouslyread"><rdg resp="previous">α</rdg><rdg resp="autopsy"><gap extent="1" reason="lost" unit="character"/></rdg></app>ς</placeName>  <w lemma="ἀρχιερεύς">ἀρχιερέως</w>  <w lemma="καί">καὶ</w>  <lb n="6"/><w lemma="νομοθέτης">νομοθέτου</w>  <w lemma="υἱός">υἱὸν</w>  <lb n="7"/><name nymRef="#Ἄτταλος">Ἄτταλον</name></persName>    <w lemma="συνκλητικός">συνκλη<lb n="8" break="no"/>τικὸν</w>  <w lemma="ὁ">τὸν</w>  <w lemma="εὐεργέτης">εὐεργέ<lb n="9" break="no"/>την</w>  <w lemma="ὁ">τῆς</w>  <w lemma="πατρίς">πατρίδος</w><lb n="9a"/><space unit="line" dim="vertical" extent="1"/></ab>
 </div>
          <div type="apparatus">
             <p>The stone may have deteriorated  since it was first copied, especially in ll.1-5; see commentary.</p>
-            <p>l.1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΙΒΕΡΙΟΝ</foreign> Wood, Fellows, Bailie, accepted by MAMA; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΛΟΥΚΙΟΝ</foreign> Deering, accepted by Waddington, Reinach.  Waddington, and later copyists, could only read <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ION</foreign>, and Reichel read nothing; but it is possible that damage was done to l. 1 much earlier.</p>
-            <p>l.2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΛΟΥΚΙΟΥ</foreign> Deering, Wood; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Λ<supplied reason="lost">Ο</supplied>ΥΚΙΟΥ</foreign> Fellows, Waddington; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Λ<supplied reason="lost">ΟΥ</supplied>ΚΙΟΥ</foreign> MAMA; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Λ<supplied reason="lost">ΟΥ</supplied>ΚΙΟΥ</foreign> NYU</p>
-            <p>l.3, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΚΛΑΥΔΙΟΥ</foreign> was read in full by MAMA and previous copyists; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l.1, <foreign xml:lang="grc">ΤΙΒΕΡΙΟΝ</foreign> Wood, Fellows, Bailie, accepted by MAMA; <foreign xml:lang="grc">ΛΟΥΚΙΟΝ</foreign> Deering, accepted by Waddington, Reinach.  Waddington, and later copyists, could only read <foreign xml:lang="grc">ION</foreign>, and Reichel read nothing; but it is possible that damage was done to l. 1 much earlier.</p>
+            <p>l.2, <foreign xml:lang="grc">ΛΟΥΚΙΟΥ</foreign> Deering, Wood; <foreign xml:lang="grc">Λ<supplied reason="lost">Ο</supplied>ΥΚΙΟΥ</foreign> Fellows, Waddington; <foreign xml:lang="grc">Λ<supplied reason="lost">ΟΥ</supplied>ΚΙΟΥ</foreign> MAMA; <foreign xml:lang="grc">Λ<supplied reason="lost">ΟΥ</supplied>ΚΙΟΥ</foreign> NYU</p>
+            <p>l.3, <foreign xml:lang="grc">ΚΛΑΥΔΙΟΥ</foreign> was read in full by MAMA and previous copyists; <foreign xml:lang="grc">
                   <unclear reason="damage">Κ</unclear>ΛΑΥΔΙΟΥ</foreign> NYU
 </p>
-            <p>ll.4/5, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΣΙ<lb/>ΑΣ</foreign> Wood; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΣ<lb/>
-                  <gap extent="2" reason="lost" unit="character"/>Σ</foreign> Deering, Fellows, NYU; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΣΙ<lb/>
-                  <gap extent="2" reason="lost" unit="character"/>Σ</foreign> Waddington; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΣ<lb/>ΙΑΣ</foreign> MAMA 
+            <p>ll.4/5, <foreign xml:lang="grc">ΑΣΙ<lb/>ΑΣ</foreign> Wood; <foreign xml:lang="grc">ΑΣ<lb/>
+                  <gap extent="2" reason="lost" unit="character"/>Σ</foreign> Deering, Fellows, NYU; <foreign xml:lang="grc">ΑΣΙ<lb/>
+                  <gap extent="2" reason="lost" unit="character"/>Σ</foreign> Waddington; <foreign xml:lang="grc">ΑΣ<lb/>ΙΑΣ</foreign> MAMA 
 </p>
          </div>
          <div type="translation">
@@ -135,7 +133,7 @@
                <seg cert="low">Tiberius</seg> Claudius Attalos, son of Lucius Antonius Claudius Dometinos Diogenes, highpriest of Asia and lawgiver; senatorial and benefactor of his homeland.</p>
          </div>
          <div type="commentary">
-            <p>In our judgement, the first word of line one was probably <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΙΒΕΡΙΟΝ</foreign>, as reported by Wood, Fellows, Bailie (who did see this stone, although he made several mistakes in transcription), and (by implication) Loew (since Franz did not note that his reading differed from that of Fellows) and accepted by Cormack. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΛΟΥΚΙΟΝ</foreign> figures in the copy made by the normally reliable Deering, and was accepted by Waddington and Reinach as being the <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="la">lectio difficilior</foreign>.  Both could be fitted into the space available, since although <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΙΒΕΡΙΟΝ</foreign> is longer, it contains narrow letters. If we accept that when first seen the letters were already  in poor condition (as is likely) both readings would be explicable mistakes: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΛΟΥΚΙΟΝ</foreign>  would be a reading influenced by the first word of l.2,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΙΒΕΡΙΟΝ</foreign> by the nomen Claudius which follows.  The existence of an Aphrodisian senator named Tiberius Claudius Attalos at approximately the right date (<ref type="inscription" n="1874" target="020016.xml"/>) may seem to tip the balance, but is not absolutely conclusive.</p>
+            <p>In our judgement, the first word of line one was probably <foreign xml:lang="grc">ΤΙΒΕΡΙΟΝ</foreign>, as reported by Wood, Fellows, Bailie (who did see this stone, although he made several mistakes in transcription), and (by implication) Loew (since Franz did not note that his reading differed from that of Fellows) and accepted by Cormack. <foreign xml:lang="grc">ΛΟΥΚΙΟΝ</foreign> figures in the copy made by the normally reliable Deering, and was accepted by Waddington and Reinach as being the <foreign xml:lang="la">lectio difficilior</foreign>.  Both could be fitted into the space available, since although <foreign xml:lang="grc">ΤΙΒΕΡΙΟΝ</foreign> is longer, it contains narrow letters. If we accept that when first seen the letters were already  in poor condition (as is likely) both readings would be explicable mistakes: <foreign xml:lang="grc">ΛΟΥΚΙΟΝ</foreign>  would be a reading influenced by the first word of l.2,  <foreign xml:lang="grc">ΤΙΒΕΡΙΟΝ</foreign> by the nomen Claudius which follows.  The existence of an Aphrodisian senator named Tiberius Claudius Attalos at approximately the right date (<ref type="inscription" n="1874" target="020016.xml"/>) may seem to tip the balance, but is not absolutely conclusive.</p>
          </div>
          <div type="bibliography">
             <p>Published by <bibl n="fellows1841">

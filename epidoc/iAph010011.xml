@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Place inscription of Loukas, <term lang="la">philoponus</term>
+            <title>
+               <rs type="textType">Place inscription</rs> of Loukas, <term xml:lang="la">philoponus</term>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -98,9 +99,6 @@ face.</layout>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Place inscription</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -123,16 +121,16 @@ face.</layout>
 		  		<lb n="1"/><g ref="#cross"/> <abbr>ΧΜΓ</abbr><lb n="2"/> <w lemma="τόπος">τόπος</w> <persName key="lucas1" type="attested"><name nymRef="#Λουκᾶς">Λου<lb n="3" break="no"/>κᾶ</name></persName> <rs type="subject" key="philoponoi"><w lemma="φιλόπονος">φιλο<lb n="4" break="no"/>πόνου</w></rs></ab> 
       </div>
          <div type="apparatus">
-            <p>l. 1, perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
-                  <persName key="Christ" type="divine" full="yes">Χ<supplied reason="abbreviation">ριστὸν</supplied>
+            <p>l. 1, perhaps <foreign xml:lang="grc">
+                  <persName key="Christ" type="divine" full="yes">Χ<ex>ριστὸν</ex>
                   </persName>
-                  <persName key="Mary" type="divine" full="yes">Μ<supplied reason="abbreviation">αρία</supplied>
-                  </persName> Γ<supplied reason="abbreviation">εννᾷ</supplied>
+                  <persName key="Mary" type="divine" full="yes">Μ<ex>αρία</ex>
+                  </persName> Γ<ex>εννᾷ</ex>
                </foreign>
             </p>
          </div>
          <div type="translation">
-            <ab>M<supplied reason="abbreviation">ary</supplied> b<supplied reason="abbreviation">ore</supplied> Ch<supplied reason="abbreviation">rist</supplied>. Place of Loukas, <term lang="la">philoponus</term>.</ab>
+            <ab>M<ex>ary</ex> b<ex>ore</ex> Ch<ex>rist</ex>. Place of Loukas, <term xml:lang="la">philoponus</term>.</ab>
          </div>
          <div type="commentary">
             <p>See discussion at <ref type="eAla-text" n="XI.5" target=".xml"/> - <ref type="eAla-text" n="XI. 6" target=".xml"/>.</p>

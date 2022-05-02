@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragment from honours</title>
+            <title>Fragment from <rs type="textType" cert="low">honours</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +47,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.035</height>; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Σ</foreign> with crossing intersection, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Κ</foreign> with short arms. Horizontal bar above <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Γ</foreign> in l. 1.</handNote>
+                        <height unit="metre">0.035</height>; <foreign xml:lang="grc">Σ</foreign> with crossing intersection, <foreign xml:lang="grc">Κ</foreign> with short arms. Horizontal bar above <foreign xml:lang="grc">Γ</foreign> in l. 1.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -95,9 +96,6 @@ First century A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -118,8 +116,8 @@ First century A.D.
             <p>No translation possible</p>
          </div>
          <div type="commentary">
-            <p> The bar above the <term lang="grc-Latn">gamma</term> almost certainly indicates that it stands for the Roman <term lang="la">praenomen</term>
-               <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="la">Gaius</foreign>; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Το</foreign> then probably begins a <term n="la">nomen</term>. Too little survives elsewhere for secure interpretation; we may have several Roman names.</p>
+            <p> The bar above the <term xml:lang="grc-Latn">gamma</term> almost certainly indicates that it stands for the Roman <term xml:lang="la">praenomen</term>
+               <foreign xml:lang="la">Gaius</foreign>; <foreign xml:lang="grc">Το</foreign> then probably begins a <term n="la">nomen</term>. Too little survives elsewhere for secure interpretation; we may have several Roman names.</p>
          </div>
          <div type="bibliography" n="none">
             <p>Unpublished.</p>

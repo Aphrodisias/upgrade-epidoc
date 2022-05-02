@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Seat inscriptions: Stadium Block 16</title>
+            <title>
+               <rs type="textType">Seat inscriptions</rs>: Stadium Block 16</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -95,9 +96,6 @@ Second-fifth century A.D.
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
                </term>
-               <term>
-                  <rs type="textType">Seat inscriptions</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -112,7 +110,7 @@ Second-fifth century A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<div n="W" type="textpart" subtype="section"><note>Design, type 3Rows2.</note>
+<div n="W" type="textpart" subtype="section"><note xml:lang=""/>
 </div></div>
          <div type="translation" n="none">
             <p>No translation possible..</p>

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Honours for Rhodopaios, for the third time</title>
+            <title>
+               <rs type="textType" reg="honours">Honours</rs> for Rhodopaios, for the third time</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -97,9 +98,6 @@
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -135,12 +133,12 @@
       </div>
          <div type="apparatus">
             <p>The restorations are all from Sherard's copy.</p>
-            <p>l. 5. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΙΙΙΓΟΝ</foreign> Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἄωτον</foreign> Boeckh, Cormack; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἀρωγόν</foreign> Robert (and cf. 37, v.9).</p>
-            <p>l.15. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΠΑΝΤΑ <gap extent="2" unit="character" reason="lost"/> ΙΔΙΑ</foreign> Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">πάντα ἡμῶν ἰδίᾳ</foreign> Boeckh; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">πάντ<supplied reason="lost">α ἡμῶ</supplied>ν ἰδίᾳ</foreign> Cormack.</p>
-            <p>l.20. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΟΤΡΙΤΟΗ</foreign> Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΟΤΡΙ</foreign> survives. confirming <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τὸ τρίτον</foreign> (Boeckh, Cormack) rather than <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τῷ τρίτῳ</foreign> (Robert, tentatively).</p>
+            <p>l. 5. <foreign xml:lang="grc">ΑΙΙΙΓΟΝ</foreign> Sherard; <foreign xml:lang="grc">ἄωτον</foreign> Boeckh, Cormack; <foreign xml:lang="grc">ἀρωγόν</foreign> Robert (and cf. 37, v.9).</p>
+            <p>l.15. <foreign xml:lang="grc">ΠΑΝΤΑ <gap extent="2" unit="character" reason="lost"/> ΙΔΙΑ</foreign> Sherard; <foreign xml:lang="grc">πάντα ἡμῶν ἰδίᾳ</foreign> Boeckh; <foreign xml:lang="grc">πάντ<supplied reason="lost">α ἡμῶ</supplied>ν ἰδίᾳ</foreign> Cormack.</p>
+            <p>l.20. <foreign xml:lang="grc">ΤΟΤΡΙΤΟΗ</foreign> Sherard; <foreign xml:lang="grc">ΤΟΤΡΙ</foreign> survives. confirming <foreign xml:lang="grc">τὸ τρίτον</foreign> (Boeckh, Cormack) rather than <foreign xml:lang="grc">τῷ τρίτῳ</foreign> (Robert, tentatively).</p>
          </div>
          <div type="translation">
-            <ab>To Good Fortune. The <term lang="la">magnificentissimus</term> Rhodopaios, the lover of his country and defender of the people, the originator of the generous gift of the summer Olympian bath, and giver of corn as well as founder, renewer of pleasures that had been forgotten, the never-to-be-forgotten benefactor to us in everything, privately and public—the city <supplied reason="subaudible">has honoured him</supplied> adorning him with a statue for the third time</ab>
+            <ab>To Good Fortune. The <term xml:lang="la">magnificentissimus</term> Rhodopaios, the lover of his country and defender of the people, the originator of the generous gift of the summer Olympian bath, and giver of corn as well as founder, renewer of pleasures that had been forgotten, the never-to-be-forgotten benefactor to us in everything, privately and public—the city <supplied reason="subaudible">has honoured him</supplied> adorning him with a statue for the third time</ab>
          </div>
          <div type="commentary">
             <p>For Rhodopaios, see <ref type="inscription" n="85" target="050016.xml"/>, <ref type="inscription" n="86" target="050017.xml"/>, and discussion at <ref type="eAla-text" n="VI.26" target=".xml"/>.</p>

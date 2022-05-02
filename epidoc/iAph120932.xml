@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for a centurio frumentarius</title>
+            <title>
+               <rs type="textType">Honours</rs> for a centurio frumentarius</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -90,9 +91,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -110,7 +108,7 @@
     <ab>
      <lb n="0"/>
      <supplied reason="lost">
-      <note>e.g.</note>
+      <note xml:lang=""/>
       <w lemma="ὁ">ἡ</w>
       <w lemma="πόλις">πόλις</w>
      </supplied>
@@ -163,18 +161,18 @@
     </ab>
    </div>
          <div type="apparatus">
-            <p>l. 1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΟΝΑΡΧ</foreign>.</p>
-            <p> l. 2, Boeckh's copy of Sherard's notes showed <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΡΙΟΥ</foreign>, but the
-     MS has <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΡΙΟΝ</foreign>
+            <p>l. 1, <foreign xml:lang="grc">ΤΟΝΑΡΧ</foreign>.</p>
+            <p> l. 2, Boeckh's copy of Sherard's notes showed <foreign xml:lang="grc">ΑΡΙΟΥ</foreign>, but the
+     MS has <foreign xml:lang="grc">ΑΡΙΟΝ</foreign>
             </p>
-            <p> l. 4, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΔΡΙΩΣ</foreign>
+            <p> l. 4, <foreign xml:lang="grc">ΔΡΙΩΣ</foreign>
             </p>
-            <p> l. 6, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΘΝΟΙ</foreign>
+            <p> l. 6, <foreign xml:lang="grc">ΕΘΝΟΙ</foreign>
             </p>
-            <p> l. 8, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΕΣ</foreign>
+            <p> l. 8, <foreign xml:lang="grc">ΤΕΣ</foreign>
             </p>
-            <p> l. 10, Sherard copied this line twice. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΠΙΜΕΛ</foreign>.</p>
-            <p>ll. 12/13, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΟΑΣ/ΟΥΤΟΠΩΤΑΤΟΖΑΝΤΟ</foreign>.</p>
+            <p> l. 10, Sherard copied this line twice. <foreign xml:lang="grc">ΕΠΙΜΕΛ</foreign>.</p>
+            <p>ll. 12/13, <foreign xml:lang="grc">ΟΑΣ/ΟΥΤΟΠΩΤΑΤΟΖΑΝΤΟ</foreign>.</p>
          </div>
          <div type="translation">
             <p>[The city has rewarded [...] centurio frumentarius, who has conducted himself decently and

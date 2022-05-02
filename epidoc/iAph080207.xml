@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Votive offering  to <seg cert="low">Zeus</seg>
+            <title>
+               <rs type="textType">Votive</rs> offering  to <seg cert="low">Zeus</seg>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -37,7 +38,7 @@
                      <supportDesc>
                         <support>
                            <p>Round-topped <material key="marmor">white marble</material>
-                              <objectType reg="votive relief">stele</objectType> (<width unit="metre">0.24</width> × <height unit="metre">0.37</height> × <depth unit="metre">0.22</depth>) with sculptured <rs type="decoration">relief</rs> of a god holding up a <rs type="decoration">double axe</rs> in his left hand (?Zeus Labraundeus or Nineudios).</p>
+                              <objectType key="votive relief">stele</objectType> (<width unit="metre">0.24</width> × <height unit="metre">0.37</height> × <depth unit="metre">0.22</depth>) with sculptured <rs type="decoration">relief</rs> of a god holding up a <rs type="decoration">double axe</rs> in his left hand (?Zeus Labraundeus or Nineudios).</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -46,7 +47,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Lightly cut, with small serifs; <term lang="grc-Latn">rho</term> with a tail, <term lang="grc-Latn">beta</term> with a flat base; <height>0.023</height>
+                     <handNote>Lightly cut, with small serifs; <term xml:lang="grc-Latn">rho</term> with a tail, <term xml:lang="grc-Latn">beta</term> with a flat base; <height>0.023</height>
                      </handNote>
                   </handDesc>
                </physDesc>
@@ -96,9 +97,6 @@ first century B.C. to first century A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Votive</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -120,7 +118,7 @@ first century B.C. to first century A.D.
                <supplied reason="subaudible">in payment of</supplied> a vow.</p>
          </div>
          <div type="commentary">
-            <p>The name of the dedicator also occurs in <ref type="inscription" n="1472" target="110029.xml"/> (=CIG 2843). The first line was probably completed with the name or a term differentiating the divinity: e.g. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Νινευδίῳ</foreign>; the second perhaps with ἀνέθηκεν.</p>
+            <p>The name of the dedicator also occurs in <ref type="inscription" n="1472" target="110029.xml"/> (=CIG 2843). The first line was probably completed with the name or a term differentiating the divinity: e.g. <foreign xml:lang="grc">Νινευδίῳ</foreign>; the second perhaps with ἀνέθηκεν.</p>
          </div>
          <div type="bibliography" n="none">
             <p>Unpublished.</p>

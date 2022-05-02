@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Seat inscriptions: Theatre, Block J</title>
+            <title>
+               <rs type="textType">Seat inscriptions</rs>: Theatre, Block J</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -101,9 +102,6 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>)
                <term>
                   <rs type="textType" key="cetera">Acclamation</rs>
                </term>
-               <term>
-                  <rs type="textType">Seat inscriptions</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -122,10 +120,8 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>)
 <div n="2" type="textpart" subtype="section"><ab>
 <lb n="1"/>
  
-<space extent="3"/> <persName type="attested"><name nymRef="#Ἡλιόδωρος"><expan><abbr>Ἡλιοδώρ</abbr><ex>ου</ex></expan></name></persName> <space extent="3"/> </ab></div><div n="3" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note>A drawing of a standing figure, dressed in a loin-cloth; his arms, which are raised, appear to be clothed in ?straps. ?A wrestler.</note></div><div n="ii" type="textpart" subtype="column"><ab><lb n="1"/>
-<g ref="#steps"/><milestone unit="block"/>    <orig>ζ</orig>  <milestone unit="block"/> <space extent="3"/>  <milestone unit="block"/>  <orig>αλ</orig><milestone unit="block"/> <space extent="3"/>  </ab></div></div><div n="4" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note>A sketch of a phallus, and an unfinished sketch of ?a face with long hair on either side. 
-</note></div><div n="ii" type="textpart" subtype="column"><note>Two busts, facing outwards, each with radiate headdresses. 
-</note></div></div><div n="8" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note>A head and shoulders clearly cut with a fine tool; the hair-cut is short, and looks masculine, but what appear to be breasts are marked by two circles.</note><ab>
+<space extent="3"/> <persName type="attested"><name nymRef="#Ἡλιόδωρος"><expan><abbr>Ἡλιοδώρ</abbr><ex>ου</ex></expan></name></persName> <space extent="3"/> </ab></div><div n="3" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note xml:lang=""/></div><div n="ii" type="textpart" subtype="column"><ab><lb n="1"/>
+<g ref="#steps"/><milestone unit="block"/>    <orig>ζ</orig>  <milestone unit="block"/> <space extent="3"/>  <milestone unit="block"/>  <orig>αλ</orig><milestone unit="block"/> <space extent="3"/>  </ab></div></div><div n="4" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note xml:lang=""/></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div></div><div n="8" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note xml:lang=""/><ab>
 <lb n="1"/> 
 
 <w lemma="ὁ">τοῦ</w> <w lemma="καί">κὲ</w><g ref="#bust"/> <w lemma="νικάω">νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> 
@@ -135,26 +131,16 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>)
 <space extent="10"/><g ref="#bust"/><w lemma="πρωταυράριος">προταυ 
 <lb n="4" break="no"/><space extent="10"/><g ref="#bust"/>
 ραρίου</w> 
-</ab></div><div n="ii" type="textpart" subtype="column"><note>Scattered letters 
-</note></div></div><div n="11" type="textpart" subtype="section"><note>Scattered letters 
-</note></div><div n="12" type="textpart" subtype="section"><note>Scattered letters 
-</note></div><div n="13" type="textpart" subtype="section"><ab><lb n="1"/>
-<w lemma="τόπος">τ<unclear reason="damage">όπ</unclear>ο</w> <w lemma="ὁ">τῶν</w> <w>μακελλίτων<note>sic</note>
+</ab></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div></div><div n="11" type="textpart" subtype="section"><note xml:lang=""/></div><div n="12" type="textpart" subtype="section"><note xml:lang=""/></div><div n="13" type="textpart" subtype="section"><ab><lb n="1"/>
+<w lemma="τόπος">τ<unclear reason="damage">όπ</unclear>ο</w> <w lemma="ὁ">τῶν</w> <w>μακελλίτων<note xml:lang=""/>
 </w> 
 <lb n="2"/>
 <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τῶν</w> <w lemma="βένετος">Βενέτων</w> 
-</ab></div><div n="15" type="textpart" subtype="section"><note>Scattered letters 
-</note></div><div n="16" type="textpart" subtype="section"><note>Scattered letters 
-</note></div><div n="17" type="textpart" subtype="section"><note>Scattered letters 
-</note></div><div n="18" type="textpart" subtype="section"><note>Scattered letters 
-</note></div><div n="19" type="textpart" subtype="section"><note>Scattered letters 
-</note></div><div n="20" type="textpart" subtype="section"><note>Scattered letters 
-</note></div><div n="23" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/>
+</ab></div><div n="15" type="textpart" subtype="section"><note xml:lang=""/></div><div n="16" type="textpart" subtype="section"><note xml:lang=""/></div><div n="17" type="textpart" subtype="section"><note xml:lang=""/></div><div n="18" type="textpart" subtype="section"><note xml:lang=""/></div><div n="19" type="textpart" subtype="section"><note xml:lang=""/></div><div n="20" type="textpart" subtype="section"><note xml:lang=""/></div><div n="23" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/>
   <gap reason="lost" extent="3" precision="circa" unit="character"/><orig>μου</orig> <gap extent="3" precision="circa" reason="lost" unit="character"/> 
 <lb n="2"/>
- <gap reason="lost" extent="3" precision="circa" unit="character"/><orig>φου</orig> <gap extent="3" precision="circa" reason="lost" unit="character"/></ab></div><div n="ii" type="textpart" subtype="column"><note>Among several scattered letters, a monogram, <measure dim="height" type="length" unit="metre">0.33</measure>, based on <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Κ</foreign> and <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε</foreign>, with perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Τ</foreign> and <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ι</foreign>.</note></div></div><div n="26" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/>
-<space extent="3" precision="circa"/> <milestone unit="block"/>    <w><unclear>μ</unclear>νίου</w> ΛΥ <milestone unit="block"/>    <space extent="3" precision="circa"/> </ab></div><div n="ii" type="textpart" subtype="column"><note>Scattered letters 
-</note></div>
+ <gap reason="lost" extent="3" precision="circa" unit="character"/><orig>φου</orig> <gap extent="3" precision="circa" reason="lost" unit="character"/></ab></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div></div><div n="26" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/>
+<space extent="3" precision="circa"/> <milestone unit="block"/>    <w><unclear>μ</unclear>νίου</w> ΛΥ <milestone unit="block"/>    <space extent="3" precision="circa"/> </ab></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div>
 </div></div>
          <div type="translation">
             <p>Row 2: (Place of) Heliodoros.</p>
@@ -164,7 +150,7 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>)
          </div>
          <div type="commentary">
             <p>See bibliography.</p>
-            <p>For <term lang="la">aurarii</term>, see <ref type="inscription" n="739" target="100021.xml"/>, and  <bibl n="cmr1995">Roueché, ‘Aurarii in the auditorium’, <title>Zeitschrift fur Papyrologie und Epigraphik</title> 105 (1995), 37-50</bibl>; discussing this text in particular, <bibl>J.-M. Carrié, 'Les métiers de labanque entre public et privé (IV-VIIe siècle)', <title>Atti Accademia Romanistica Costantiniana XII Convegno</title> (1998), 65-93</bibl>; <bibl>C. Zuckerman, 'Le cirque, l'argent et le peuple', <title>REB</title> 58 (2000) 69-96</bibl>.</p>
+            <p>For <term xml:lang="la">aurarii</term>, see <ref type="inscription" n="739" target="100021.xml"/>, and  <bibl n="cmr1995">Roueché, ‘Aurarii in the auditorium’, <title>Zeitschrift fur Papyrologie und Epigraphik</title> 105 (1995), 37-50</bibl>; discussing this text in particular, <bibl>J.-M. Carrié, 'Les métiers de labanque entre public et privé (IV-VIIe siècle)', <title>Atti Accademia Romanistica Costantiniana XII Convegno</title> (1998), 65-93</bibl>; <bibl>C. Zuckerman, 'Le cirque, l'argent et le peuple', <title>REB</title> 58 (2000) 69-96</bibl>.</p>
          </div>
          <div type="bibliography">
             <p>Row 13, Line 2 cited, <bibl>Cameron, <title>Porphyrius</title> 276</bibl> (part); <bibl n="ALA">Roueché, ALA <citedRange>181. vii</citedRange>

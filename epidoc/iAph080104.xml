@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Acclamation for the Greens and their mimes</title>
+            <title>
+               <rs type="textType">Acclamation</rs> for the Greens and their mimes</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -98,9 +99,6 @@ Fourth to sixth centuries A.D.
                </term>
                <term>
                   <rs type="textType" key="cetera">factional</rs>
-               </term>
-               <term>
-                  <rs type="textType">Acclamation</rs>
                </term>
             </keywords>
          </textClass>

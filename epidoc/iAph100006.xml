@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Seat inscriptions: Stadium Block 15</title>
+            <title>
+               <rs type="textType">Seat inscriptions</rs>: Stadium Block 15</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -95,9 +96,6 @@ Second-fifth century A.D.
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
                </term>
-               <term>
-                  <rs type="textType">Seat inscriptions</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -111,8 +109,7 @@ Second-fifth century A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<div n="E" type="textpart" subtype="section"><note>
- Design, type 3Rows1.</note></div><div n="M" type="textpart" subtype="section"><ab><lb n="1"/><g ref="#steps"/><gap extent="unknown" reason="lost" unit="character"/><milestone unit="block"/><orig n="unresolved"><unclear>μ</unclear></orig><milestone unit="block"/><orig n="unresolved">οστρα</orig><milestone unit="block"/><orig n="unresolved">του</orig><space extent="unknown"/></ab></div><div n="U" type="textpart" subtype="column"><div n="i" type="textpart" subtype="column"><note>Design type R6, but with 6 holes in each row.</note></div><div n="ii" type="textpart" subtype="column"><note>Design, type H4, within an outline.</note></div></div><div n="V" type="textpart" subtype="section"><ab><lb n="1"/><milestone unit="block"/><note>Design, type S.3.</note><milestone unit="block"/> 
+<div n="E" type="textpart" subtype="section"><note xml:lang=""/></div><div n="M" type="textpart" subtype="section"><ab><lb n="1"/><g ref="#steps"/><gap extent="unknown" reason="lost" unit="character"/><milestone unit="block"/><orig n="unresolved"><unclear>μ</unclear></orig><milestone unit="block"/><orig n="unresolved">οστρα</orig><milestone unit="block"/><orig n="unresolved">του</orig><space extent="unknown"/></ab></div><div n="U" type="textpart" subtype="column"><div n="i" type="textpart" subtype="column"><note xml:lang=""/></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div></div><div n="V" type="textpart" subtype="section"><ab><lb n="1"/><milestone unit="block"/><note xml:lang=""/><milestone unit="block"/> 
 
  <lb n="2"/><g ref="#steps"/> <milestone unit="block"/> <gap reason="lost" extent="1" unit="character"/>
 <unclear reason="damage">Β</unclear>

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Building inscription fragment, undated.</title>
+            <title>
+               <rs type="textType">Building inscription</rs> fragment, undated.</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -36,7 +37,7 @@
                      <supportDesc>
                         <support>
                            <p>Fragment of <material key="marmor">white marble</material>
-                              <objectType reg="Architrave block">entablature</objectType>, with moulding surviving above (<width unit="metre">0.23</width>   × <height unit="metre">0.26</height> x <depth unit="metre">0.36</depth>).</p>
+                              <objectType key="Architrave block">entablature</objectType>, with moulding surviving above (<width unit="metre">0.23</width>   × <height unit="metre">0.26</height> x <depth unit="metre">0.36</depth>).</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -93,9 +94,6 @@ Imperial (<rs type="criteria">lettering</rs>)</origDate>
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Building inscription</rs>
                </term>
             </keywords>
          </textClass>

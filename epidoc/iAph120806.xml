@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary inscription</title>
+            <title>
+               <rs type="textType">Funerary</rs> inscription</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +47,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Standard forms, <height unit="metre">0.03</height>. Ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΝ</foreign> (l.1) <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΜ</foreign> (l.2), <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗ</foreign> (l.3, twice).</handNote>
+                     <handNote>Standard forms, <height unit="metre">0.03</height>. Ligatures: <foreign xml:lang="grc">ΜΝ</foreign> (l.1) <foreign xml:lang="grc">ΜΜ</foreign> (l.2), <foreign xml:lang="grc">ΜΗ</foreign> (l.3, twice).</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -92,9 +93,6 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
                </term>
             </keywords>
          </textClass>

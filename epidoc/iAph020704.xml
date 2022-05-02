@@ -109,11 +109,11 @@ First to fourth centuries A.D.
 <ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">λ</unclear>αδ<unclear reason="damage">ιμ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">σ</unclear></orig>  <w lemma="γυμνάσιον"><unclear reason="damage">γυμ</unclear><supplied reason="lost">νασ</supplied>  <gap reason="lost" extent="unknown" unit="character"/></w>  <lb n="2a"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 1, <foreign xml:lang="grc">
                   <supplied reason="lost" cert="low">π</supplied>λάδιμ<supplied reason="lost">οι</supplied>
                </foreign>
             </p>
-            <p>l. 2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Σ</foreign> might be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Γ</foreign>.</p>
+            <p>l. 2, <foreign xml:lang="grc">Σ</foreign> might be <foreign xml:lang="grc">Ε</foreign>, <foreign xml:lang="grc">Γ</foreign>.</p>
          </div>
          <div type="translation" n="none">
             <p>none</p>

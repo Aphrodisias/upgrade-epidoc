@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Epitaph of Kyriakos, priest</title>
+            <title>
+               <rs type="textType" reg="funerary">Epitaph</rs> of Kyriakos, priest</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -39,13 +40,13 @@
                            <p>Fragment from a <material key="marmor">white marble</material>
                               <objectType>sarcophagus</objectType>, broken above and
 below (<height unit="metre">0.17</height> ×
-<width unit="metre">0.65</width> × <depth unit="metre">0.37</depth>), with a <term lang="la">tabella
+<width unit="metre">0.65</width> × <depth unit="metre">0.37</depth>), with a <term xml:lang="la">tabella
 ansata</term> in light relief on the front.</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> within the <term lang="la">tabella</term>.</layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> within the <term xml:lang="la">tabella</term>.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -96,9 +97,6 @@ of the complex.</rs>
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">funerary</rs>
                </term>
             </keywords>
          </textClass>

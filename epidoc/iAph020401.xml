@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gameboard and pavement designs, Bishop's Palace</title>
+            <title>
+               <rs type="textType">Gameboard</rs> and <rs type="textType">pavement designs</rs>, Bishop's Palace</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -84,9 +85,9 @@ Second-tenth century A.D. (<rs type="criteria">context</rs>)</origDate>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<div n="i" type="textpart" subtype="section"><note>a roughly cut board type 3 Rows.4, with an outline (<measure dim="width" type="length" unit="metre">0.39</measure> x <measure dim="height" type="length" unit="metre">0.575</measure>); very worn.</note></div>
+<div n="i" type="textpart" subtype="section"><note xml:lang=""/></div>
 
-<div n="ii" type="textpart" subtype="section"><note>a carefully cut variant on type CCCC.1 (diam. <measure dim="width" type="length" unit="metre">0.42</measure>). There is no central circle, and the external lines are modified; two bend outwards with ? leaves at the ends, to point towards the perimeter, with ? leaves at the inner ends.</note></div> 
+<div n="ii" type="textpart" subtype="section"><note xml:lang=""/></div> 
 </div>
          <div type="translation" n="none">
             <p>No translation possible.</p>

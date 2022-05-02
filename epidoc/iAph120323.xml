@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for Claudia Antonia Tatiane</title>
+            <title>
+               <rs type="textType">Honours</rs> for Claudia Antonia Tatiane</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -47,7 +48,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.05</height>; ll. 17-21 in a smaller hand. Ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗΝ</foreign> ll. 5, <seg cert="low">14</seg>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign> l. 11. Circle for abbreviation marks, l. 20</handNote>
+                        <height unit="metre">0.05</height>; ll. 17-21 in a smaller hand. Ligatures: <foreign xml:lang="grc">ΤΗΝ</foreign> ll. 5, <seg cert="low">14</seg>, <foreign xml:lang="grc">ΗΝ</foreign> l. 11. Circle for abbreviation marks, l. 20</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -96,9 +97,6 @@ Late second to third centuries A.D. but (cf. <ref type="inscription" n="1596" ta
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -115,10 +113,10 @@ Late second to third centuries A.D. but (cf. <ref type="inscription" n="1596" ta
 <ab><lb n="1"/> <persName type="attested"><name nymRef="#Κλαυδία">Κλαυδίαν</name> <lb n="2"/> <name nymRef="#Ἀντωνία">Ἀντωνίαν</name> <lb n="3"/> <name nymRef="#Τατιανή">Τατιανὴν</name></persName> <lb n="4"/> <w lemma="ὁ">τὴν</w> <w lemma="κράτιστος">κρατίσ<lb n="5" break="no"/><hi rend="ligature">την</hi></w>  <w lemma="ἀνεψιά">ἀνεψι<lb n="6" break="no"/>ὰν</w>  <persName type="attested"><name nymRef="#Κλαύδιος">Κλαυδί<lb n="7" break="no"/>ων</name>  <name nymRef="#Διογένης">Διογέ<lb n="8" break="no"/>νους</name></persName> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Ἄτταλος">Ἀτ<lb n="9" break="no"/>τάλου</name></persName>  <w lemma="συνκλητικός">συν<lb n="10" break="no"/>κλητικῶν</w>  <lb n="11"/> <w lemma="ὁ">τ<hi rend="ligature">ὴν</hi></w> <w lemma="ἐν">ἐν</w> <w lemma="πᾶς">πᾶ<lb n="12" break="no"/>σιν</w> <w lemma="ἐκ">ἐκ</w> <w lemma="πρόγονος">προ<lb n="13" break="no"/>γόνων</w>  <w lemma="εὐεργέτης">εὐ<lb n="14" break="no"/>εργέ<hi rend="ligature">την</hi></w> <w lemma="ὁ">τῆς</w> <lb n="15"/>  <w lemma="πόλις">πόλεως</w> <lb n="15a"/>  <space extent="1" unit="line" dim="vertical"/>  <lb n="16"/> <w lemma="ὁ">της</w> <w lemma="ἀνάστασις">ἀναστά<lb n="17" break="no"/>σεως</w> <w lemma="ὁ">τοῦ</w> <w lemma="ἀνδρίας">ἀν<lb n="18" break="no"/>δριάντος</w>  <w lemma="ἐπιμελέω">ἐπι<lb n="19" break="no"/>μεληθέντος</w>  <lb n="20"/> <persName type="attested"><name nymRef="#Τιβέριος"><expan><abbr>Τι</abbr><ex>βερίου</ex></expan></name> <g ref="#stop"/> <name nymRef="#Κλαύδιος"><expan><abbr>Κλ</abbr><ex>αυδίου</ex></expan></name> <g ref="#stop"/>  <name nymRef="#Καπιτωλῖνος">Κα<lb n="21" break="no"/>πετωλείνου</name></persName>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 14,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΡΓΕΤΙΝ</foreign> Deering, Fellows, Waddington: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΡΓΕΤΗΝ</foreign> (<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗΝ</foreign> in ligature) Wood. ll. 20-21 omitted by Wood, partially read by Fellows, more fully by Loew, completely by Deering.</p>
+            <p>l. 14,  <foreign xml:lang="grc">ΕΡΓΕΤΙΝ</foreign> Deering, Fellows, Waddington: <foreign xml:lang="grc">ΕΡΓΕΤΗΝ</foreign> (<foreign xml:lang="grc">ΤΗΝ</foreign> in ligature) Wood. ll. 20-21 omitted by Wood, partially read by Fellows, more fully by Loew, completely by Deering.</p>
          </div>
          <div type="translation">
-            <p>Claudia Antonia Tatiana, <term lang="la">e(gregia) f(emina)</term>, cousin of the Claudii Diogenes and Attalos, senatorials, on all occasions following family tradition in being a benefactress of the city. Ti(berius) Cl(audius) Kapitoleinos undertook the charge of erecting the statue.</p>
+            <p>Claudia Antonia Tatiana, <term xml:lang="la">e(gregia) f(emina)</term>, cousin of the Claudii Diogenes and Attalos, senatorials, on all occasions following family tradition in being a benefactress of the city. Ti(berius) Cl(audius) Kapitoleinos undertook the charge of erecting the statue.</p>
          </div>
          <div type="commentary" n="notyet">
             <p>For Tatiane see the commentary on her second statue, <ref type="inscription" n="1723" target="020013.xml"/>, for which Tibertius Claudius Kapitoleinos was also responsible. For his son see <ref type="inscription" n="1794" target="120324.xml"/>.</p>

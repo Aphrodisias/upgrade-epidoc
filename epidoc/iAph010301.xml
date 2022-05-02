@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>i. Letter from a Roman official <seg cert="low">(a curator)</seg>  to Aphrodisias. ii Place inscription of Kyriakos, trouser-maker</title>
+            <title>i. <rs type="textType">Letter</rs> from a Roman official <seg cert="low">(a curator)</seg>  to Aphrodisias. ii <rs type="textType">Place inscription</rs> of Kyriakos, trouser-maker</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -40,7 +40,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>i a: <rs type="execution" key="scalpro">inscribed</rs> on a projecting area of 1; b (inscribed area <width unit="metre">0.26</width>, H. <height unit="metre">0.30</height>) is inscribed on 2, and  ii. is inscribed some <measure value="0.1" type="length" dim="none">10 cm</measure> lower down.</layout>
+                        <layout>i a: <rs type="execution" key="scalpro">inscribed</rs> on a projecting area of 1; b (inscribed area <width unit="metre">0.26</width>, H. <height unit="metre">0.30</height>) is inscribed on 2, and  ii. is inscribed some <height>10 cm</height> lower down.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -92,12 +92,6 @@ wall.</rs>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Letter</rs>
-               </term>
-               <term>
-                  <rs type="textType">Place inscription</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -131,17 +125,17 @@ wall.</rs>
       </div>
          <div type="apparatus">
             <p>i. The surface has deteriorated since recorded by Gaudin.</p>
-            <p>b. l. 2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>b. l. 2, <foreign xml:lang="grc">
                   <supplied reason="lost">κ</supplied>ατακο</foreign>, Reinach</p>
-            <p>l. 4, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 4, <foreign xml:lang="grc">
                   <gap reason="lost" extent="unknown" unit="character"/>επωνε<supplied reason="lost">ι</supplied>
                </foreign>, Reinach</p>
-            <p>l. 5, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 5, <foreign xml:lang="grc">
                   <gap reason="lost" extent="unknown" unit="character"/>εδει , ας τά</foreign>, Reinach</p>
-            <p>l. 6,<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τ<supplied reason="lost">η</supplied>σ</foreign>, Reinach</p>
-            <p>l. 7,<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 6,<foreign xml:lang="grc">τ<supplied reason="lost">η</supplied>σ</foreign>, Reinach</p>
+            <p>l. 7,<foreign xml:lang="grc">
                   <supplied reason="lost">μ</supplied>ελειας</foreign>, Reinach</p>
-            <p>l. 11, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">μεν</foreign>, Reinach</p>
+            <p>l. 11, <foreign xml:lang="grc">μεν</foreign>, Reinach</p>
          </div>
          <div type="translation">
             <p>i. a: [ . . .] because of? [ . . .?Aphrodi]sians [ . . .] curat[?or . . . ] name [ . . .] decree [ . . .]</p>
@@ -149,7 +143,7 @@ wall.</rs>
             <p>ii. Place of Kyriakos, trouser-maker.</p>
          </div>
          <div type="commentary">
-            <p>i. See <bibl n="jmr1982">Reynolds,<title> Aphrodisias and Rome</title>, 178</bibl>. a does not add very much, but confirms the suggestion that a curator <term lang="grc-Latn">rei publicae</term> was involved.</p>
+            <p>i. See <bibl n="jmr1982">Reynolds,<title> Aphrodisias and Rome</title>, 178</bibl>. a does not add very much, but confirms the suggestion that a curator <term xml:lang="grc-Latn">rei publicae</term> was involved.</p>
             <p>ii: See discussion at <ref type="eAla-text" n="XI.5" target=".xml"/> and  <ref type="eAla-text" n="XI.9" target=".xml"/> .</p>
          </div>
          <div type="bibliography">

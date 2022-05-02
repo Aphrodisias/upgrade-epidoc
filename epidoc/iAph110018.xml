@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Posthumous <rs type="textType">honours</rs> for M. Quintilius Pedukaios</title>
+            <title>
+               <rs type="textType">Posthumous <rs type="textType">honours</rs>
+               </rs> for M. Quintilius Pedukaios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +47,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>l.1, <height unit="metre">0.035</height>; ll.2-9, <height unit="metre">0.02</height>; ll.10 ff. <height unit="metre">0.15</height>. Ligatures <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">MH</foreign>, l.10; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">KE</foreign>, ll. 13, 15; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΕ</foreign>, l.14.</handNote>
+                     <handNote>l.1, <height unit="metre">0.035</height>; ll.2-9, <height unit="metre">0.02</height>; ll.10 ff. <height unit="metre">0.15</height>. Ligatures <foreign xml:lang="grc">MH</foreign>, l.10; <foreign xml:lang="grc">KE</foreign>, ll. 13, 15; <foreign xml:lang="grc">ΝΕ</foreign>, l.14.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -92,9 +94,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Posthumous honours</rs>
                </term>
             </keywords>
          </textClass>

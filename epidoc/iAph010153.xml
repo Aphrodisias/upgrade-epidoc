@@ -128,11 +128,11 @@
     </ab>
    </div>
          <div type="apparatus">
-            <p>l. 2, perhaps from <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">πόλις</foreign> or a compound thereof.</p>
-            <p>l. 3, possibly from <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 2, perhaps from <foreign xml:lang="grc">πόλις</foreign> or a compound thereof.</p>
+            <p>l. 3, possibly from <foreign xml:lang="grc">
                   <unclear reason="damage">γ</unclear>υνή</foreign>, or
-      <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
-                  <unclear reason="damage">ε</unclear>ὐνοία</foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+      <foreign xml:lang="grc">
+                  <unclear reason="damage">ε</unclear>ὐνοία</foreign> or <foreign xml:lang="grc">
                   <unclear reason="damage">σ</unclear>ύν</foreign>.</p>
          </div>
          <div type="translation" sample="complete" org="uniform" n="none">

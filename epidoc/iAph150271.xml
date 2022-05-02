@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary fragment</title>
+            <title>
+               <rs type="textType" reg="funerary">Funerary</rs> fragment</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -92,9 +93,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -113,7 +111,7 @@
 <ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><lb n="1"/><gap reason="lost" extent="11" unit="character"/><gap reason="illegible" extent="1" unit="character"/>  <persName type="attested"><name nymRef="#Ἀπολλώνιος">Ἀπο<supplied cert="low" reason="lost">λλώνιος</supplied></name></persName><lb n="2"/><gap reason="lost" extent="9" unit="character"/><w lemma="διάδοχος">διάδο<supplied reason="lost">χος</supplied></w>  <w lemma="αὐτός"><supplied reason="lost" cert="low">αὐτοῦ</supplied></w><lb n="3"/><supplied reason="lost"><w lemma="καί">καὶ</w>  <w lemma="ὅς">οὓς</w>  <w lemma="ἐάν">ἂν</w></supplied>  <w lemma="αὐτός">αὐτὸς</w>  <w lemma="βούλομαι">β<supplied reason="lost">ουληθῇ</supplied></w><lb n="4"/><w lemma="ὁ"><supplied reason="lost">τῆς</supplied></w>  <w lemma="ἐπιγραφή"><supplied reason="lost">ἐπιγρα</supplied>φῆς</w>  <w lemma="ἀντίγραφον">ἀν<unclear reason="damage">τ</unclear><supplied reason="lost">ίγραφον</supplied></w><lb n="5"/><w lemma="ἀποτίθημι"><supplied reason="lost">ἀπετέθη</supplied></w>  <w lemma="εἰς"><supplied reason="lost">εἰ</supplied>ς</w>  <w lemma="ὁ">τὸ</w>  <w lemma="χρεωφυλάκιον">χρ<unclear reason="damage">ε</unclear><supplied reason="lost">οφυλάκιον</supplied></w><lb n="6"/><w lemma="ἐπί"><supplied reason="lost">ἐπὶ</supplied></w>  <w lemma="στεφανηφόρος"><supplied reason="lost">στεφαν</supplied><unclear reason="damage">η</unclear>φ<unclear reason="damage">ό</unclear><supplied reason="lost">ρου</supplied></w>  <supplied reason="lost"><w lemma="ὁ">τοῦ</w>  <w lemma="δεῖνα">δεῖνος</w></supplied><lb n="6a"/><gap reason="lost" extent="unknown" unit="line"/></ab>
 </div>
          <div type="apparatus">
-            <p>l. 2, or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">διάδο<supplied reason="lost">χοι</supplied>
+            <p>l. 2, or <foreign xml:lang="grc">διάδο<supplied reason="lost">χοι</supplied>
                </foreign>.</p>
          </div>
          <div type="translation">

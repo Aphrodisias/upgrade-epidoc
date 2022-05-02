@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dedication of image of the Hours by Zenon and Apphia</title>
+            <title>
+               <rs type="textType">Dedication</rs> of image of the Hours by Zenon and Apphia</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -101,9 +102,6 @@ First to second centuries A.D. (<rs type="criteria">nomenclature</rs>, <rs type=
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Dedication</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -123,10 +121,10 @@ First to second centuries A.D. (<rs type="criteria">nomenclature</rs>, <rs type=
             <p>
                <del status="unremarkable">
                   <supplied reason="lost">To Aphrodite, most apparent goddess</supplied>
-               </del>, and the homeland. Zenon son of Zenon son of Zenon son of Artemon son of Aineas, being <term lang="grc-Latn">neopoios</term>, dedicated the Hours from his own means, with his wife Apphia daughter of Adrastos and his sons Zenon and Menandros.</p>
+               </del>, and the homeland. Zenon son of Zenon son of Zenon son of Artemon son of Aineas, being <term xml:lang="grc-Latn">neopoios</term>, dedicated the Hours from his own means, with his wife Apphia daughter of Adrastos and his sons Zenon and Menandros.</p>
          </div>
          <div type="commentary">
-            <p>This text is identical to <ref type="inscription" n="1226" target="050108.xml"/>, except that here the first two lines, referring to Aphrodite, have been erased. Compare the two bases honouring Zenon and Menandros, from the same area, where on one the term <term lang="grc-Latn">archiereus</term> has been erased.</p>
+            <p>This text is identical to <ref type="inscription" n="1226" target="050108.xml"/>, except that here the first two lines, referring to Aphrodite, have been erased. Compare the two bases honouring Zenon and Menandros, from the same area, where on one the term <term xml:lang="grc-Latn">archiereus</term> has been erased.</p>
          </div>
          <div type="bibliography">
             <p>Published by <bibl n="reinach">Reinach, <citedRange>20</citedRange>

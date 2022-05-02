@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Prayer of/to Michael</title>
+            <title>
+               <rs type="textType" reg="prayer/invocation">Prayer</rs> of/to Michael</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +46,7 @@
                   <handDesc>
                      <handNote>
                         <height unit="metre">0.02-0.04</height>;
-<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗ</foreign> in ligature.</handNote>
+<foreign xml:lang="grc">ΜΗ</foreign> in ligature.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -90,9 +91,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">prayer/invocation</rs>
                </term>
             </keywords>
          </textClass>

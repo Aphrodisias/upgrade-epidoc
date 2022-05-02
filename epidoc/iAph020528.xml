@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Epitaph of Rufinia<supplied reason="lost">nos</supplied>
+            <title>
+               <rs type="textType" reg="funerary">Epitaph</rs> of Rufinia<supplied reason="lost">nos</supplied>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -95,9 +96,6 @@ flat moulding (<height unit="metre">0.44</height>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -120,7 +118,7 @@ flat moulding (<height unit="metre">0.44</height>
         <ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><persName key="rufinia1" type="attested"><name nymRef="#Ῥουφινία"><supplied reason="lost">Ῥ</supplied>ουφινία<supplied cert="low" reason="lost">ς</supplied></name></persName> <gap reason="lost" extent="unknown" unit="character"/> </ab>
       </div>
          <div type="translation">
-            <ab>(<seg cert="low">Tomb of</seg>) Rufinia, <note place="not specified" anchored="yes">or</note> Rufinia<supplied reason="lost">nos</supplied>.</ab>
+            <ab>(<seg cert="low">Tomb of</seg>) Rufinia, <note place="not specified" xml:lang=""/> Rufinia<supplied reason="lost">nos</supplied>.</ab>
          </div>
          <div type="commentary">
             <p>. Very similar to <ref type="inscription" n="175" target="010190.xml"/>, <ref type="inscription" n="176" target="080264.xml"/>, <ref type="inscription" n="178" target="010191.xml"/>; see discussion at <ref type="eAla-text" n="IX.45" target=".xml"/>.</p>

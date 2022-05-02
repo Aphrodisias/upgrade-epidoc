@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Seat inscriptions: Theatre, Block C</title>
+            <title>
+               <rs type="textType">Seat inscriptions</rs>: Theatre, Block C</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -99,9 +100,6 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>).</origDate>
                <term>
                   <rs type="textType" key="cetera">Acclamation</rs>
                </term>
-               <term>
-                  <rs type="textType">Seat inscriptions</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -116,24 +114,15 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>).</origDate>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<div n="2" type="textpart" subtype="section"><note>Design, type H4  
-</note></div><div n="3" type="textpart" subtype="section"><note>Scattered letters 
-</note></div><div n="4" type="textpart" subtype="section"><note>There is a well cut cross, with triangular ends to each arm.</note></div><div n="5" type="textpart" subtype="section"><note>Design, type H4 within a frame, and with a central line between the two rows, </note></div><div n="6" type="textpart" subtype="section"><note>Design, half a type S3  
-</note></div><div n="12" type="textpart" subtype="section"><note>Monogram. Component letters are <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΤΛΛ<unclear reason="damage">Κ</unclear></foreign> (or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Θ</foreign>)<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc"><unclear reason="damage">Ο</unclear></foreign>: perhaps  
-</note><ab><lb n="1"/>
+<div n="2" type="textpart" subtype="section"><note xml:lang=""/></div><div n="3" type="textpart" subtype="section"><note xml:lang=""/></div><div n="4" type="textpart" subtype="section"><note xml:lang=""/></div><div n="5" type="textpart" subtype="section"><note xml:lang=""/></div><div n="6" type="textpart" subtype="section"><note xml:lang=""/></div><div n="12" type="textpart" subtype="section"><note xml:lang=""/><ab><lb n="1"/>
 
 <w lemma="τόπος"><expan><abbr>τό</abbr><ex>πος</ex></expan></w>  
 
-</ab></div><div n="15" type="textpart" subtype="section"><note>Scattered letters 
-</note></div><div n="16" type="textpart" subtype="section"><note>Scattered letters 
-</note></div><div n="17" type="textpart" subtype="section"><note>Design, two rows of roughly drawn circles, one of 7 and one of 4; 
-</note></div><div n="18" type="textpart" subtype="section"><ab>
+</ab></div><div n="15" type="textpart" subtype="section"><note xml:lang=""/></div><div n="16" type="textpart" subtype="section"><note xml:lang=""/></div><div n="17" type="textpart" subtype="section"><note xml:lang=""/></div><div n="18" type="textpart" subtype="section"><ab>
 <lb n="1"/>
 <w lemma="κακός">Κακὰ</w> <w lemma="ὁ"><unclear reason="damage">τὰ</unclear></w> <w lemma="ἔτος"><unclear reason="damage">ἔτ</unclear>η</w> 
 <lb n="2"/>
-<w lemma="ὁ">τῶν</w> <w lemma="πράσινος">Πρασίνων</w></ab></div><div n="19" type="textpart" subtype="section"><note>Scattered letters 
-</note></div><div n="20" type="textpart" subtype="section"><note>Design, type SSS1, uncompleted (no cross lines) 
-</note></div><div n="21" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab>
+<w lemma="ὁ">τῶν</w> <w lemma="πράσινος">Πρασίνων</w></ab></div><div n="19" type="textpart" subtype="section"><note xml:lang=""/></div><div n="20" type="textpart" subtype="section"><note xml:lang=""/></div><div n="21" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab>
 
 <lb n="1"/><milestone unit="block"/> <space extent="3" unit="character"/> <milestone unit="block"/> <unclear reason="damage">Κ</unclear>
 <unclear reason="damage">Α</unclear> <milestone unit="block"/> κα<milestone unit="block"/>τ<unclear reason="damage">έ</unclear>
@@ -142,7 +131,7 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>).</origDate>
  <lb n="1"/><space extent="3"/><orig>ΚΜΚ</orig> <space extent="3"/> 
 </ab></div></div><div n="22" type="textpart" subtype="section"><ab type="στεπσ">
 <lb n="1"/>
-<g ref="#steps"/><milestone unit="block"/> <note>gameboard type SSS2</note> <milestone unit="block"/> <note>2 seats</note> <milestone unit="block"/> <orig n="unresolved">ατ</orig> <milestone unit="block"/> <w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <milestone unit="block"/> <orig n="unresolved">αδ</orig> <milestone unit="block"/> <orig n="unresolved"><unclear reason="damage">σ</unclear>χ<unclear reason="damage">π</unclear></orig> <milestone unit="block"/> <space extent="3" unit="character"/> <milestone unit="block"/> <orig n="unresolved">χ</orig> <milestone unit="block"/> <space extent="3" unit="character"/> <milestone unit="block"/> <g ref="#steps"/></ab></div><div n="23" type="textpart" subtype="section"><note>Design, type C1 with central dot.</note></div><div n="26" type="textpart" subtype="section"><ab>
+<g ref="#steps"/><milestone unit="block"/> <note xml:lang=""/> <milestone unit="block"/> <note xml:lang=""/> <milestone unit="block"/> <orig n="unresolved">ατ</orig> <milestone unit="block"/> <w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <milestone unit="block"/> <orig n="unresolved">αδ</orig> <milestone unit="block"/> <orig n="unresolved"><unclear reason="damage">σ</unclear>χ<unclear reason="damage">π</unclear></orig> <milestone unit="block"/> <space extent="3" unit="character"/> <milestone unit="block"/> <orig n="unresolved">χ</orig> <milestone unit="block"/> <space extent="3" unit="character"/> <milestone unit="block"/> <g ref="#steps"/></ab></div><div n="23" type="textpart" subtype="section"><note xml:lang=""/></div><div n="26" type="textpart" subtype="section"><ab>
   
 <lb n="1"/><w lemma="τόπος"><expan><abbr><hi rend="ligature">τό</hi></abbr><ex>πος</ex></expan></w> <persName type="attested"><name nymRef="#Βενουσῖνος"><expan><abbr>Β<unclear>ε</unclear>ν<unclear>υσ</unclear>ιν</abbr><ex>ου</ex></expan></name></persName> </ab></div>
 </div>

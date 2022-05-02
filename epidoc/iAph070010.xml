@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragment with alphabet</title>
+            <title>Fragment with <rs type="textType" cert="low">alphabet</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -90,9 +91,6 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">alphabet</rs>
                </term>
             </keywords>
          </textClass>

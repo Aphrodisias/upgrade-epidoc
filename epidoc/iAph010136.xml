@@ -38,7 +38,7 @@
                      <supportDesc>
                         <support>
                            <p>Three fragments, not joining, apparently from the same thin <material key="marmor">white marble</material>
-                              <objectType reg="panel">panel</objectType>. a. cut down for reuse in an opus sectile floor,  (<width unit="metre">0.11</width> × <height unit="metre">0.10</height> × <depth unit="metre">0.012</depth>); b. (<width unit="metre">0.075</width> × <height unit="metre">0.095</height> × <depth unit="metre">0.01</depth>); c.  (<width unit="metre">0.11</width> × <height unit="metre">0.125</height> × <depth unit="metre">0.01</depth>).</p>
+                              <objectType key="panel">panel</objectType>. a. cut down for reuse in an opus sectile floor,  (<width unit="metre">0.11</width> × <height unit="metre">0.10</height> × <depth unit="metre">0.012</depth>); b. (<width unit="metre">0.075</width> × <height unit="metre">0.095</height> × <depth unit="metre">0.01</depth>); c.  (<width unit="metre">0.11</width> × <height unit="metre">0.125</height> × <depth unit="metre">0.01</depth>).</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -112,11 +112,11 @@
 <div n="a" type="textpart" subtype="fragment"><ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">α<unclear reason="damage">π</unclear></orig><gap reason="lost" unit="character" extent="unknown"/><lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">τ</unclear>ου<unclear reason="damage">ι</unclear></orig><gap reason="lost" unit="character" extent="unknown"/><lb n="2a"/><gap reason="lost" extent="unknown" unit="line"/></ab></div><div n="b" type="textpart" subtype="fragment"><ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">κδ</unclear></orig><gap reason="lost" unit="character" extent="unknown"/><lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">η</unclear></orig>  <space unit="character" extent="1" dim="horizontal"/>  <gap reason="lost" unit="character" extent="unknown"/><lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">υ</unclear>ν</orig><gap reason="lost" unit="character" extent="unknown"/><lb n="3a"/><gap reason="lost" extent="unknown" unit="line"/></ab></div><div n="c" type="textpart" subtype="fragment"><ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ννα</orig><gap reason="lost" unit="character" extent="unknown"/><lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>  <w lemma="ἱέρεια  ἱερεῖον"><supplied reason="lost">ἱ</supplied>ερεια</w>  <gap reason="lost" unit="character" extent="unknown"/><lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>  <w lemma="γυνή"><supplied reason="lost">γ</supplied><unclear reason="damage">υν</unclear>ή</w><gap reason="lost" unit="character" extent="unknown"/><lb n="3a"/><gap reason="lost" extent="unknown" unit="line"/></ab></div></div>
          <div type="translation">
             <p>
-               <note>See below.</note>
+               <note xml:lang=""/>
             </p>
          </div>
          <div type="commentary">
-            <p>b. l. 3,  might give part of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΣΥΝ-</foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΓΥΝΗ</foreign>.</p>
+            <p>b. l. 3,  might give part of <foreign xml:lang="grc">ΣΥΝ-</foreign> or <foreign xml:lang="grc">ΓΥΝΗ</foreign>.</p>
             <p>c. l. 2, gives the word for "priestess", for "priesthood", or for "offering"; l. 3 that for "wife".</p>
          </div>
          <div type="bibliography" n="none">

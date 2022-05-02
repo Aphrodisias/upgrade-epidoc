@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Building inscription by Fl. Co<supplied reason="omitted">n</supplied>stantius, <rs type="personType">governor</rs>
+            <title>
+               <rs type="textType">Building inscription</rs> by Fl. Co<supplied reason="omitted">n</supplied>stantius, <rs type="personType">governor</rs>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -41,7 +42,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>Set within <term lang="la">
+                        <layout>Set within <term xml:lang="la">
                               <rs type="decoration">Tabella ansata</rs>
                            </term> (<height unit="metre">0.47</height> × <width unit="metre">1.42</width>), which is broken away to left.</layout>
                      </layoutDesc>
@@ -95,9 +96,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Building inscription</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -128,7 +126,7 @@
          </div>
          <div type="translation">
             <p>
-               <supplied reason="lost">Flavius C</supplied>onstantius, the <term lang="la">clarissimus praeses</term>, made this work also.</p>
+               <supplied reason="lost">Flavius C</supplied>onstantius, the <term xml:lang="la">clarissimus praeses</term>, made this work also.</p>
          </div>
          <div type="commentary">
             <p>See discussion at <ref type="eAla-text" n="III.16" target=".xml"/>

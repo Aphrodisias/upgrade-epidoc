@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Building inscription of Pytheas, in verse</title>
+            <title>
+               <rs type="textType">Building inscription</rs> of Pytheas, in <rs type="textType">verse</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -59,8 +61,8 @@
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs key="HadrBath" type="monuList">Hadrianic Baths, East Court</rs>: a: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">Dans le 2e entrée à partir du S<supplied reason="abbreviation">ud</supplied> du portique O<supplied reason="abbreviation">uest</supplied>, s<supplied reason="abbreviation">ud</supplied>
-                        </foreign>' (Boulanger); b: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">Term. S<supplied reason="abbreviation">ud</supplied> du portique O<supplied reason="abbreviation">uest</supplied>
+                        <rs key="HadrBath" type="monuList">Hadrianic Baths, East Court</rs>: a: '<foreign xml:lang="fr">Dans le 2e entrée à partir du S<ex>ud</ex> du portique O<ex>uest</ex>, s<ex>ud</ex>
+                        </foreign>' (Boulanger); b: '<foreign xml:lang="fr">Term. S<ex>ud</ex> du portique O<ex>uest</ex>
                         </foreign>'. (Boulanger).</rs>
                   </provenance>
                   <provenance type="observed">
@@ -95,12 +97,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Building inscription</rs>
-               </term>
-               <term>
-                  <rs type="textType">verse</rs>
                </term>
             </keywords>
          </textClass>

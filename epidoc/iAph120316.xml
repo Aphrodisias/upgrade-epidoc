@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragmentary honours</title>
+            <title>Fragmentary <rs type="textType">honours</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +47,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.04</height>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ψ</foreign>
+                        <height unit="metre">0.04</height>, <foreign xml:lang="grc">Ψ</foreign>
                         <height unit="metre">0.055</height>
                      </handNote>
                   </handDesc>

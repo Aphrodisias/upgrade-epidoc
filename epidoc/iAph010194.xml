@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Graffiti: <seg cert="low">
+            <title>
+               <rs type="textType">Graffiti</rs>: <seg cert="low">
                   <rs type="textType">prayer/invocation</rs>
                </seg>
             </title>
@@ -46,7 +47,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Very variable, <height unit="metre">0.025-0.045</height>. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΠΡ</foreign>
+                     <handNote>Very variable, <height unit="metre">0.025-0.045</height>. <foreign xml:lang="grc">ΠΡ</foreign>
 in ligature, <height unit="metre">0.08</height>.</handNote>
                   </handDesc>
                </physDesc>
@@ -59,7 +60,7 @@ in ligature, <height unit="metre">0.08</height>.</handNote>
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">Temple, interieur, près de
+                        <rs type="monuList">Temple/Church</rs>: '<foreign xml:lang="fr">Temple, interieur, près de
 l'abside</foreign>'.</rs>
                   </provenance>
                   <provenance type="observed">
@@ -95,9 +96,6 @@ l'abside</foreign>'.</rs>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Graffiti</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -119,13 +117,13 @@ l'abside</foreign>'.</rs>
       </div>
          <div type="apparatus">
             <p>
-               <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Νηκίτις πρ<supplied reason="abbreviation">εσβύτερος</supplied> Α Ω</foreign>? Reinach; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Νήκι τ<supplied reason="abbreviation">ο</supplied>ις πρα<supplied reason="lost">σινοις</supplied>
+               <foreign xml:lang="grc">Νηκίτις πρ<ex>εσβύτερος</ex> Α Ω</foreign>? Reinach; <foreign xml:lang="grc">Νήκι τ<ex>ο</ex>ις πρα<supplied reason="lost">σινοις</supplied>
                </foreign>? Grégoire.</p>
          </div>
          <div type="translation">
             <ab>
                <seg cert="low">Niketas, priest</seg>
-               <note place="not specified" anchored="yes">or</note>
+               <note place="not specified" xml:lang=""/>
                <seg cert="low">Victory to the Greens</seg>
             </ab>
          </div>

@@ -42,7 +42,7 @@
                      <supportDesc>
                         <support>
                            <p>Three fragments, which join, of a circular <material key="marmor">white marble</material>
-                              <objectType reg="drain-cover">panel</objectType> (<height unit="metre">0.42</height> ×
+                              <objectType key="drain-cover">panel</objectType> (<height unit="metre">0.42</height> ×
 <width unit="metre">0.37</width> × <depth unit="metre">0.055</depth>), of which the upper edge
 survives.</p>
                         </support>
@@ -55,7 +55,7 @@ survives.</p>
                   <handDesc>
                      <handNote>The letters are outstandingly irregular, varying from
 <height unit="metre">0.04</height> to <height unit="metre">0.08</height>, and it is difficult even to
-determine their proper order. Cursive <term>sigma</term>, very ornate <term>pi</term>. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΟΥ</foreign> in ligature, double line above letter as
+determine their proper order. Cursive <term>sigma</term>, very ornate <term>pi</term>. <foreign xml:lang="grc">ΟΥ</foreign> in ligature, double line above letter as
 abbreviation.</handNote>
                   </handDesc>
                </physDesc>

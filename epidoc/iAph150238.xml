@@ -44,7 +44,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Standard forms, <height unit="metre">0.03</height>; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ</foreign> in ligature, l.2</handNote>
+                     <handNote>Standard forms, <height unit="metre">0.03</height>; <foreign xml:lang="grc">ΤΗ</foreign> in ligature, l.2</handNote>
                   </handDesc>
                </physDesc>
                <history>

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Votive offering to Asklepios</title>
+            <title>
+               <rs type="textType">Votive</rs> offering to Asklepios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -94,9 +95,6 @@ Perhaps first century A.D. (<rs type="criteria">lettering</rs>).</origDate>
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">Votive</rs>
                </term>
             </keywords>
          </textClass>

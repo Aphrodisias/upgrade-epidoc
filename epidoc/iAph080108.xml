@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Building dedication by Aristokles Molossos</title>
+            <title>
+               <rs type="textType">Building dedication</rs> by Aristokles Molossos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -47,7 +48,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.03</height>. diairetic dots in ll. 2,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΟΙΣ · ΤΑ · ΑΝΑ</foreign>, 6: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">·Α·ΡΙΣΤΟΚΛΗΣ</foreign>, 7, accompanied by small superscript bars on <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΚΑ·Ι·ΚΟΣ</foreign>, both occurrences. Dot for stop in l. 8; erasure in l.1.</handNote>
+                        <height unit="metre">0.03</height>. diairetic dots in ll. 2,  <foreign xml:lang="grc">ΤΟΙΣ · ΤΑ · ΑΝΑ</foreign>, 6: <foreign xml:lang="grc">·Α·ΡΙΣΤΟΚΛΗΣ</foreign>, 7, accompanied by small superscript bars on <foreign xml:lang="grc">ΚΑ·Ι·ΚΟΣ</foreign>, both occurrences. Dot for stop in l. 8; erasure in l.1.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -102,9 +103,6 @@ Julio-Claudian (<rs type="criteria">prosopography</rs>, <rs type="criteria">term
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">Building dedication</rs>
                </term>
             </keywords>
          </textClass>

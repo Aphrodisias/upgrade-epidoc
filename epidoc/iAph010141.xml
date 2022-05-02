@@ -35,7 +35,7 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <p>  Fragment of a <objectType reg="panel">panel</objectType> without edges  (<width unit="metre">0.165</width> × <height unit="metre">0.13</height> × <depth unit="metre">0.035</depth>).</p>
+                           <p>  Fragment of a <objectType key="panel">panel</objectType> without edges  (<width unit="metre">0.165</width> × <height unit="metre">0.13</height> × <depth unit="metre">0.035</depth>).</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -116,7 +116,7 @@
             </p>
          </div>
          <div type="commentary">
-            <p>The name may be the <term lang="la">praenomen</term> (Publius) of a Roman citizen, but <term lang="la">praenomina</term> were also sometimes used by non-citizens as personal names.</p>
+            <p>The name may be the <term xml:lang="la">praenomen</term> (Publius) of a Roman citizen, but <term xml:lang="la">praenomina</term> were also sometimes used by non-citizens as personal names.</p>
          </div>
          <div type="bibliography" n="none">
             <p>Unpublished.</p>

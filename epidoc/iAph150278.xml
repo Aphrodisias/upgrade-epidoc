@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>List of names</title>
+            <title>
+               <rs type="textType" cert="low">List</rs> of names</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -97,9 +98,6 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
                </term>
-               <term>
-                  <rs type="textType">List</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -116,8 +114,8 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
 <ab><lb n="0"/><space unit="line" extent="1"/>    <lb n="1"/><persName type="attested"><name nymRef="#Ζήνων">Ζήνω<supplied reason="lost">ν</supplied><gap reason="lost" extent="unknown" unit="character"/></name></persName>  <lb n="2"/><orig n="unresolved">τουσ</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><persName type="attested"><name nymRef="#Ζήνων">Ζήνω<supplied reason="lost">ν</supplied><gap reason="lost" extent="unknown" unit="character"/></name></persName>  <lb n="4"/><orig n="unresolved">τερακ</orig><gap reason="lost" extent="unknown" unit="character"/><lb n="5"/><space extent="3"/><orig n="unresolved">τα</orig><gap reason="lost" extent="unknown" unit="character"/><lb n="5a"/><space unit="line" extent="1"/></ab>
 </div>
          <div type="apparatus">
-            <p> l. 1, a slant runs between the upper right serif of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ν</foreign> and the left serif of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ω</foreign>, perhaps cut in error since no meaning for it is apparent.</p>
-            <p>ll. 2 and 4, there may be stops between <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Υ</foreign> and <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Σ</foreign>, and between <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α</foreign> and <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Κ</foreign>.</p>
+            <p> l. 1, a slant runs between the upper right serif of <foreign xml:lang="grc">Ν</foreign> and the left serif of <foreign xml:lang="grc">Ω</foreign>, perhaps cut in error since no meaning for it is apparent.</p>
+            <p>ll. 2 and 4, there may be stops between <foreign xml:lang="grc">Υ</foreign> and <foreign xml:lang="grc">Σ</foreign>, and between <foreign xml:lang="grc">Α</foreign> and <foreign xml:lang="grc">Κ</foreign>.</p>
          </div>
          <div type="translation">
             <p>

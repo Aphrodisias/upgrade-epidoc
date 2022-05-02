@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ampelios, father of the city, undertakes restoration work in the Theatre Baths</title>
+            <title>Ampelios, father of the city, undertakes <rs type="textType" reg="building inscription" cert="low">restoration work</rs> in the Theatre Baths</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -92,9 +92,6 @@ otherwise, all sides are broken. b is made up of two joining pieces.</p>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">building inscription</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -121,8 +118,8 @@ otherwise, all sides are broken. b is made up of two joining pieces.</p>
 		
 	  </div>
          <div type="apparatus">
-            <p>Face 2 of b is most easily read as <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ἀμπε<supplied reason="lost">λιο-</supplied>
-               </foreign> a reference to Ampelius. The final surviving letter might be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Η</foreign> rather than <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε</foreign>, but the traces do not seem to suggest <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ρ</foreign>, the only other real possibility.</p>
+            <p>Face 2 of b is most easily read as <foreign xml:lang="grc">Ἀμπε<supplied reason="lost">λιο-</supplied>
+               </foreign> a reference to Ampelius. The final surviving letter might be <foreign xml:lang="grc">Η</foreign> rather than <foreign xml:lang="grc">Ε</foreign>, but the traces do not seem to suggest <foreign xml:lang="grc">Ρ</foreign>, the only other real possibility.</p>
          </div>
          <div type="translation">
             <p>1.a. This too  <gap extent="unknown" reason="lost" unit="character"/>

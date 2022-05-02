@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary formula from sarcophagus</title>
+            <title>
+               <rs type="textType" reg="funerary">Funerary</rs> formula from sarcophagus</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -92,9 +93,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -119,7 +117,7 @@
             </p>
          </div>
          <div type="commentary">
-            <p>The fragmentary text (containing a standard funerary formula) probably indicates that the sarcophagus was acquired by a woman for herself and her husband, for whom we possibly have the conclusion of the patronymic (from a name such as <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Διογένης</foreign>).</p>
+            <p>The fragmentary text (containing a standard funerary formula) probably indicates that the sarcophagus was acquired by a woman for herself and her husband, for whom we possibly have the conclusion of the patronymic (from a name such as <foreign xml:lang="grc">Διογένης</foreign>).</p>
          </div>
          <div type="bibliography" n="none">
             <p>Unpublished.</p>

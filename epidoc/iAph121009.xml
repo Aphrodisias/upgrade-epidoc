@@ -9,7 +9,7 @@
             <title>
                <seg cert="low">
                   <rs type="textType" reg="curse">Imprecation</rs>
-               </seg> formula from funerary text</title>
+               </seg> formula from <rs type="textType" reg="funerary">funerary</rs> text</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -47,7 +47,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.03</height>; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Η</foreign> above <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Μ</foreign> for abbreviation, l. 3.</handNote>
+                        <height unit="metre">0.03</height>; <foreign xml:lang="grc">Η</foreign> above <foreign xml:lang="grc">Μ</foreign> for abbreviation, l. 3.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -92,9 +92,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">funerary</rs>
                </term>
             </keywords>
          </textClass>

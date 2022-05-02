@@ -52,7 +52,7 @@ moulding.</layout>
                   <handDesc>
                      <handNote>
                         <height unit="metre">0.025</height>; clear
-and irregular; scroll for abbreviation; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΩΡ</foreign> in ligature.</handNote>
+and irregular; scroll for abbreviation; <foreign xml:lang="grc">ΩΡ</foreign> in ligature.</handNote>
                   </handDesc>
                </physDesc>
                <history>

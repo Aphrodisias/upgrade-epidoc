@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for Molossos</title>
+            <title>
+               <rs type="textType">Honours</rs> for Molossos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -96,9 +97,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -116,7 +114,7 @@
 </div>
          <div type="apparatus">
             <p>l. 2, the underdotted letters are very incomplete</p>
-            <p>l.  3, or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΚΑΙΕΡΜ</foreign>
+            <p>l.  3, or <foreign xml:lang="grc">ΚΑΙΕΡΜ</foreign>
             </p>
          </div>
          <div type="translation">

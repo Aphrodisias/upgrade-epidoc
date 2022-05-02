@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dedication to Aphrodite</title>
+            <title>
+               <rs type="textType">Dedication</rs> to Aphrodite</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -96,9 +97,6 @@ first century A.D.
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Dedication</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -122,7 +120,7 @@ first century A.D.
             </p>
          </div>
          <div type="commentary">
-            <p>Aphrodite's name may have been followed by a cult title, or by the name of a female dedicator, with <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἀνέθηκε</foreign> in full or incomplete</p>
+            <p>Aphrodite's name may have been followed by a cult title, or by the name of a female dedicator, with <foreign xml:lang="grc">ἀνέθηκε</foreign> in full or incomplete</p>
          </div>
          <div type="bibliography" n="none">
             <p>Unpublished.</p>

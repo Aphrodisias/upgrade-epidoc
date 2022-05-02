@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Posthumous <rs type="textType">honours</rs> for  <seg cert="low">Nikoteimos Hierax</seg>
+            <title>
+               <rs type="textType">Posthumous <rs type="textType">honours</rs>
+               </rs> for  <seg cert="low">Nikoteimos Hierax</seg>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -37,7 +39,7 @@
                      <supportDesc>
                         <support>
                            <p>Fragment from the right side of a <material key="marmor">white marble</material>
-                              <objectType reg="base">base</objectType> (<measure type="length" dim="none">0.21</measure>   × <measure type="length" dim="none">0.38</measure>   × <measure type="depth" dim="none">0.22</measure>).</p>
+                              <objectType key="base">base</objectType> (<height>0.21</height>   × <height>0.38</height>   × <height>0.22</height>).</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -92,9 +94,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Posthumous honours</rs>
                </term>
             </keywords>
          </textClass>

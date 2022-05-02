@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for the People of Kibyra</title>
+            <title>
+               <rs type="textType">Honours</rs> for the People of Kibyra</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -94,9 +95,6 @@
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -114,9 +112,9 @@
 <ab><lb n="1"/> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="ὁ">τῆς</w> <w lemma="λαμπρός">λαμ<lb n="2" break="no"/>προτάτης</w> <placeName nymRef="#Ἀφροδεισιεύς">Ἀφρο<lb n="3" break="no"/>δεισιέων</placeName> <w lemma="πόλις">πόλε<lb n="4" break="no"/>ως</w> <w lemma="ὁ">τὸν</w> <w lemma="λαμπρός">λαμπρό<lb n="5" break="no"/>τατον</w>  <w lemma="δῆμος">δῆμον</w> <lb n="6"/><space extent="3" unit="character" dim="horizontal"/> <placeName nymRef="#Κιβυρατής">Κιβυρατῶν</placeName> <space extent="3" unit="character" dim="horizontal"/>  <lb n="7"/> <w lemma="συνθύω">συνθύσαντα</w> <w lemma="ἐπί">ἐπὶ</w> <lb n="8"/> <w lemma="ὁ">τῇ</w> <w lemma="δίδωμι">δεδομένῃ</w> <w lemma="ὁ">τοῦ</w> <lb n="9"/> <w lemma="ἱερός">ἱεροῦ</w> <w lemma="ἀγών">ἀγῶνος</w> <w lemma="δίδωμι">δω<lb n="10" break="no"/><space extent="3" unit="character" dim="horizontal"/></w>  <w>ρεᾷ</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="11"/> <w lemma="προνοέομαι">προνοησαμένου</w> <persName type="attested"><name nymRef="#Μᾶρκος"><expan><abbr>Μ</abbr><ex>άρκου</ex></expan></name>  <name nymRef="#Αὐρήλιος"><expan><abbr>Α<supplied reason="lost">ὐ</supplied>ρ</abbr><ex>ηλίου</ex></expan></name>  <lb n="12"/> <name nymRef="#Παπίας">Παπίου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Παπίας">Παπίου</name> <w>δ´</w> <w lemma="ὁ">τοῦ</w> <lb n="13"/> <persName type="attested"><name nymRef="#Διογένης">Διογένους</name></persName></persName></persName> <w lemma="ὁ">τοῦ</w> <w lemma="πρωτόλογος">πρ<unclear reason="damage">ω</unclear>το  <lb n="14" break="no"/>λόγου</w> <w lemma="ἄρχων">ἄρχοντος</w> <w lemma="ὁ">τὸ</w> <num value="2">β</num> <lb n="15"/>  <space extent="3" unit="character" dim="horizontal"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 7,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΣΗΝΤΑ</foreign> Sherard</p>
-            <p>l. 11,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΑΡ</foreign> Sherard</p>
-            <p>l. 13,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΠΡΟ</foreign> Sherard</p>
+            <p>l. 7,  <foreign xml:lang="grc">ΣΗΝΤΑ</foreign> Sherard</p>
+            <p>l. 11,  <foreign xml:lang="grc">ΜΑΡ</foreign> Sherard</p>
+            <p>l. 13,  <foreign xml:lang="grc">ΠΡΟ</foreign> Sherard</p>
          </div>
          <div type="translation">
             <p>The People of the most splendid city of the Aphrodisians (honoured) the most splendid People of the Kibyrates, who joined in the sacrifice for the giving of the grant of the sacred contest. Under the supervision of Marcus Aurelius Papias son of Papias son of Papias son of Papias son of Papias son of Papias son of Diogenes, first Archon for the second time.</p>

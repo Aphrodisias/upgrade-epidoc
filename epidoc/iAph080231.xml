@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragmentary <seg cert="low">honours</seg> for<seg cert="low"> an emperor</seg>
+            <title>Fragmentary <rs type="textType">
+                  <seg cert="low">honours</seg>
+               </rs> for<seg cert="low"> an emperor</seg>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -97,9 +99,6 @@ First to third centuries A.D. (<rs type="criteria">lettering</rs>).
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -119,7 +118,7 @@ First to third centuries A.D. (<rs type="criteria">lettering</rs>).
             <p>Perhaps a reference to Augustus.</p>
          </div>
          <div type="commentary">
-            <p>The monumental lettering suggests that this is part of an imperial inscription, and that we might restore <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>The monumental lettering suggests that this is part of an imperial inscription, and that we might restore <foreign xml:lang="grc">
                   <supplied reason="lost">Σεβ</supplied>αστὸν</foreign> although the surviving letters could be interpreted in other ways - e.g. a mention of an Adrastos. The use of the accusative perhaps suggests that this refers to a statue.</p>
          </div>
          <div type="bibliography" n="none">

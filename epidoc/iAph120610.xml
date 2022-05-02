@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary for <gap reason="lost" unit="character" extent="unknown"/>son of <supplied reason="lost">Menodo</supplied>tos son of Neikoteimos</title>
+            <title>
+               <rs type="textType">Funerary</rs> for <gap reason="lost" unit="character" extent="unknown"/>son of <supplied reason="lost">Menodo</supplied>tos son of Neikoteimos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -44,7 +45,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Ave. <height unit="metre">0.025</height>; ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗ</foreign>, l.1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗ</foreign>, l.2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗ</foreign> (twice), <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign>, l.3; diaereses around <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ι</foreign> in <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">δια</foreign>, l.1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ιασων</foreign>, l.5.</handNote>
+                     <handNote>Ave. <height unit="metre">0.025</height>; ligatures: <foreign xml:lang="grc">ΝΗ</foreign>, l.1, <foreign xml:lang="grc">ΜΗ</foreign>, l.2, <foreign xml:lang="grc">ΝΗ</foreign> (twice), <foreign xml:lang="grc">ΗΝ</foreign>, l.3; diaereses around <foreign xml:lang="grc">ι</foreign> in <foreign xml:lang="grc">δια</foreign>, l.1, <foreign xml:lang="grc">Ιασων</foreign>, l.5.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -90,9 +91,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -114,10 +112,10 @@
          </div>
          <div type="commentary">
             <p> l. 1, <seg cert="low">
-                  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ὑπερ ὠνῆς</foreign>
+                  <foreign xml:lang="grc">ὑπερ ὠνῆς</foreign>
                </seg>, for the purpose of purchase; the reference to the Property Archive indicates a transaction that needed a public record.</p>
             <p>l. 2, the name of the owner, clearly in the nominative case as is that of his wife in l. 3, will have appeared at the beginning of the line, with a genealogy of unknown length; Menodotos, although not quite certain, is likely to be the partly surviving name both here and in l. 3.</p>
-            <p>ll. 3-4, it is not clear whether <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Μηνο<supplied reason="lost">
+            <p>ll. 3-4, it is not clear whether <foreign xml:lang="grc">Μηνο<supplied reason="lost">
                      <gap reason="lost" unit="character" extent="unknown"/>
                   </supplied>
                </foreign> is a second name for Nicotemos or for the owner, so that its case must be left open.</p>

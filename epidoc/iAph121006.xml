@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Posthumous <rs type="textType">honours</rs> for  Iason son of Menodotos</title>
+            <title>
+               <rs type="textType">Posthumous <rs type="textType">honours</rs>
+               </rs> for  Iason son of Menodotos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -36,7 +38,7 @@
                      <supportDesc>
                         <support>
                            <p>Large <material>white marble</material>
-                              <objectType reg="statue">statue base shaft</objectType>, with shallow moulding along lower edge, broken in two: upper fragment <height unit="metre">0.865</height> high, lower <height unit="metre">1.12</height> high;  <width unit="metre">1.00</width> x  <depth unit="metre">0.48</depth>.  Chipped along the right side and at the break. On the top there is a large lewis hole and two square dowel holes on either side.</p>
+                              <objectType key="statue">statue base shaft</objectType>, with shallow moulding along lower edge, broken in two: upper fragment <height unit="metre">0.865</height> high, lower <height unit="metre">1.12</height> high;  <width unit="metre">1.00</width> x  <depth unit="metre">0.48</depth>.  Chipped along the right side and at the break. On the top there is a large lewis hole and two square dowel holes on either side.</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -46,7 +48,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <measure type="length" dim="none">0.025</measure>
+                        <height>0.025</height>
                      </handNote>
                   </handDesc>
                </physDesc>
@@ -92,9 +94,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Posthumous honours</rs>
                </term>
             </keywords>
          </textClass>
@@ -201,46 +200,46 @@
 </rdg>
 <rdg resp="previous">ραμ
 </rdg>
-</app>ατικοῖς</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τοῖς</w> <w lemma="λοιπός">λοιποῖς</w> <w lemma="πᾶς">π<unclear reason="damage">ᾶ</unclear><supplied reason="lost">σιν</supplied></w>  <w lemma="ἐργαστήριον"><supplied reason="lost">ἐρ</supplied><lb n="27" break="no"/>γαστήριά</w>  <w lemma="τε">τε</w>  <w lemma="σύν">σὺν</w>  <w lemma="ὁ">τοῖς</w>  <w lemma="ἐν">ἐν</w>  <w lemma="ὁ">τῇ</w>  <w lemma="ἐξέδρα">ἐξέδρᾳ</w>  <w lemma="τελειόω">τετελειω<unclear reason="damage">κ</unclear><supplied reason="lost">ότα</supplied></w>  <w lemma="δέκα"><supplied reason="lost">δέκα</supplied></w>  <lb n="28"/> <w lemma="ἐννέα">ἐννέα</w> <w lemma="ὁ">τὸ</w> <w lemma="δέ">δὲ</w> <w lemma="περί">περίστωον</w> <w lemma="ὅλος">ὅλον</w> <w lemma="δοκόω">δεδοκῶσ<supplied reason="lost">θαι</supplied></w>  <w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <lb n="29"/> <w lemma="κεραμόω">κεκεραμῶσθαι</w> <w lemma="καί">καὶ</w> <w lemma="ὀροφόω">ὠροφῶσθαι</w> <w lemma="καί">καὶ</w> <w lemma="συντελειόω">συντε<supplied reason="lost">τελει</supplied><lb n="30" break="no"/>  ῶσθαι</w> <w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τῶν</w> <w lemma="ἴδιος">ἰδίων</w> <w>ὑφ′</w> <w lemma="ἑαυτοῦ">ἑαυτοῦ</w> <w lemma="σύν">σὺν</w> <w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τοῖς</supplied></w>  <lb n="31"/><g ref="#scroll"/> <w lemma="ἐφίστημι">ἐφεστῶσιν</w> <w lemma="θύρωμα">θυρώμασιν</w> <w lemma="πᾶς">πᾶσιν</w> <space extent="8" unit="character" dim="horizontal"/><lb n="31a"/>            <space extent="1" unit="line" dim="vertical"/><lb n="32"/><note place="not  specified" anchored="yes">Below,  apparently  a  graffito</note>    <orig n="unresolved">τγιολ</orig><lb n="32a"/><space extent="1" unit="line" dim="vertical"/></ab></div>
+</app>ατικοῖς</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τοῖς</w> <w lemma="λοιπός">λοιποῖς</w> <w lemma="πᾶς">π<unclear reason="damage">ᾶ</unclear><supplied reason="lost">σιν</supplied></w>  <w lemma="ἐργαστήριον"><supplied reason="lost">ἐρ</supplied><lb n="27" break="no"/>γαστήριά</w>  <w lemma="τε">τε</w>  <w lemma="σύν">σὺν</w>  <w lemma="ὁ">τοῖς</w>  <w lemma="ἐν">ἐν</w>  <w lemma="ὁ">τῇ</w>  <w lemma="ἐξέδρα">ἐξέδρᾳ</w>  <w lemma="τελειόω">τετελειω<unclear reason="damage">κ</unclear><supplied reason="lost">ότα</supplied></w>  <w lemma="δέκα"><supplied reason="lost">δέκα</supplied></w>  <lb n="28"/> <w lemma="ἐννέα">ἐννέα</w> <w lemma="ὁ">τὸ</w> <w lemma="δέ">δὲ</w> <w lemma="περί">περίστωον</w> <w lemma="ὅλος">ὅλον</w> <w lemma="δοκόω">δεδοκῶσ<supplied reason="lost">θαι</supplied></w>  <w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <lb n="29"/> <w lemma="κεραμόω">κεκεραμῶσθαι</w> <w lemma="καί">καὶ</w> <w lemma="ὀροφόω">ὠροφῶσθαι</w> <w lemma="καί">καὶ</w> <w lemma="συντελειόω">συντε<supplied reason="lost">τελει</supplied><lb n="30" break="no"/>  ῶσθαι</w> <w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τῶν</w> <w lemma="ἴδιος">ἰδίων</w> <w>ὑφ′</w> <w lemma="ἑαυτοῦ">ἑαυτοῦ</w> <w lemma="σύν">σὺν</w> <w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τοῖς</supplied></w>  <lb n="31"/><g ref="#scroll"/> <w lemma="ἐφίστημι">ἐφεστῶσιν</w> <w lemma="θύρωμα">θυρώμασιν</w> <w lemma="πᾶς">πᾶσιν</w> <space extent="8" unit="character" dim="horizontal"/><lb n="31a"/>            <space extent="1" unit="line" dim="vertical"/><lb n="32"/><note place="not  specified" xml:lang=""/>    <orig n="unresolved">τγιολ</orig><lb n="32a"/><space extent="1" unit="line" dim="vertical"/></ab></div>
          <div type="apparatus">
             <p>The highlighted letters were read on the stone by Reichel, when it was still intact; some could still be read in 1904, but had disappeared by 1934, since when there has only been minor damage.
 </p>
-            <p>l. 1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 1, <foreign xml:lang="grc">
                   <supplied reason="lost">Μ. Αὐρ.</supplied>
                </foreign> K&amp;R, Cormack; [? vac. ] Wilhelm
 </p>
-            <p>l. 2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Μενάνδρ<supplied reason="lost">ου τοῦ</supplied>
+            <p>l. 2, <foreign xml:lang="grc">Μενάνδρ<supplied reason="lost">ου τοῦ</supplied>
                </foreign> K&amp;R, Cormack
 </p>
-            <p>l. 9, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 9, <foreign xml:lang="grc">
                   <supplied reason="lost">ἅμα</supplied>
-               </foreign> K&amp;R,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+               </foreign> K&amp;R,  <foreign xml:lang="grc">
                   <supplied reason="lost">σὺν</supplied>
                </foreign> Cormack
 </p>
-            <p>ll. 11-12, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>ll. 11-12, <foreign xml:lang="grc">
                   <supplied reason="lost">λιθι</supplied>
-                  <lb/>κὸν</foreign> Cormack <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+                  <lb/>κὸν</foreign> Cormack <foreign xml:lang="grc">
                   <supplied reason="lost">δυσμι</supplied>
-                  <lb/>κὸν</foreign> Wilhelm' <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+                  <lb/>κὸν</foreign> Wilhelm' <foreign xml:lang="grc">
                   <supplied reason="lost">λίθι</supplied>
                   <lb/>νον</foreign> Robert
 </p>
-            <p>l. 12, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">περιφαν<supplied reason="lost">είαις</supplied>
-               </foreign> K&amp;R; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">περιφλι<supplied reason="lost">ώμασιν</supplied>
+            <p>l. 12, <foreign xml:lang="grc">περιφαν<supplied reason="lost">είαις</supplied>
+               </foreign> K&amp;R; <foreign xml:lang="grc">περιφλι<supplied reason="lost">ώμασιν</supplied>
                </foreign> Wilhelm, Cormack
 </p>
-            <p>l.18, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κείοσι</foreign> previous editions; κείοσιν from Gaudin squeeze
+            <p>l.18, <foreign xml:lang="grc">κείοσι</foreign> previous editions; κείοσιν from Gaudin squeeze
 </p>
-            <p>l.22, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l.22, <foreign xml:lang="grc">
                   <gap extent="4" reason="lost" unit="character"/>
-                  <lb/>νους</foreign> K&amp;R; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+                  <lb/>νους</foreign> K&amp;R; <foreign xml:lang="grc">
                   <supplied reason="lost">θρά</supplied>
-                  <lb/>νους</foreign> Wilhelm, Cormack; but <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+                  <lb/>νους</foreign> Wilhelm, Cormack; but <foreign xml:lang="grc">
                   <gap extent="4" reason="lost" unit="character"/>
                   <lb/>ΑΙΟΥΣ</foreign> is definitely the reading on the stone</p>
-            <p>l.25, at end: the <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Β</foreign> could be an <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Η</foreign>: and the restoration seems too long</p>
-            <p>l.28, at end; after the <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Σ</foreign>, the Gaudin squeeze seems to show un upper and a lower horizontal</p>
+            <p>l.25, at end: the <foreign xml:lang="grc">Β</foreign> could be an <foreign xml:lang="grc">Η</foreign>: and the restoration seems too long</p>
+            <p>l.28, at end; after the <foreign xml:lang="grc">Σ</foreign>, the Gaudin squeeze seems to show un upper and a lower horizontal</p>
          </div>
          <div n="notyet" type="translation">
             <p>No translation yet (2007)</p>

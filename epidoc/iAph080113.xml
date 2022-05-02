@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Building dedication by Aristokles Molossos</title>
+            <title>
+               <rs type="textType"> Building dedication</rs> by Aristokles Molossos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -38,7 +39,7 @@
                      <supportDesc>
                         <support>
                            <p>Five <material key="marmor">white marble</material>
-                              <objectType reg="Cornice blocks">fragments</objectType> from a long feature with moulding above a <objectType cert="low">cornice</objectType>   (ave. <height unit="metre">0.55</height> x ave. <depth unit="metre">0.30</depth>). Width, from left to right: a, <height>0.63</height>; b, <height>0.34</height>; c, <height>0.53</height>; d, <height>1.03</height>; e, <height>1.11</height>; f,. <height>1.30</height>.</p>
+                              <objectType key="Cornice blocks">fragments</objectType> from a long feature with moulding above a <objectType cert="low">cornice</objectType>   (ave. <height unit="metre">0.55</height> x ave. <depth unit="metre">0.30</depth>). Width, from left to right: a, <height>0.63</height>; b, <height>0.34</height>; c, <height>0.53</height>; d, <height>1.03</height>; e, <height>1.11</height>; f,. <height>1.30</height>.</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -99,9 +100,6 @@
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType"> Building dedication</rs>
                </term>
             </keywords>
          </textClass>

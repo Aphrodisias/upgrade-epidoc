@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary fragment</title>
+            <title>
+               <rs type="textType">Funerary</rs> fragment</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -97,9 +98,6 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -113,7 +111,7 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">Ν</unclear>Ε</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>  <w lemma="οὔτε"><supplied reason="lost">οὔ</supplied>τε</w>  <w lemma="ἐνθάπτω">ἐνθά<supplied reason="lost">ψαι</supplied></w>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">Ι</unclear>Ω <w lemma="οὔτε">οὔτε</w> <orig n="unresolved"><unclear reason="damage">Λ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>  <w lemma="ποιέω"><supplied reason="lost">πο</supplied><unclear reason="damage">ι</unclear>ησας</w> <w lemma="εἰμί">ἔσται</w> <w lemma="ἀσεβής"><supplied reason="lost">  ἀσεβὴς</supplied></w>  <supplied reason="lost"><note>κτλ</note></supplied>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>  <persName type="divine"><name nymRef="#Ἀφροδίτη"><supplied reason="lost">Ἀφρο</supplied>δείτῃ</name></persName>  <w lemma="ἀργύριον">ἀρ<unclear reason="damage">γ</unclear><supplied reason="lost">υρίου</supplied></w>  <supplied reason="lost"><note>κτλ</note></supplied>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>  <w lemma="πεντακόσιος"><supplied reason="lost">πε</supplied>ντακοσ<supplied reason="lost">ι</supplied><gap reason="lost" extent="unknown" unit="character"/></w>    <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ΥΛ<unclear reason="damage">Ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="7a"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
+<ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">Ν</unclear>Ε</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>  <w lemma="οὔτε"><supplied reason="lost">οὔ</supplied>τε</w>  <w lemma="ἐνθάπτω">ἐνθά<supplied reason="lost">ψαι</supplied></w>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">Ι</unclear>Ω <w lemma="οὔτε">οὔτε</w> <orig n="unresolved"><unclear reason="damage">Λ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>  <w lemma="ποιέω"><supplied reason="lost">πο</supplied><unclear reason="damage">ι</unclear>ησας</w> <w lemma="εἰμί">ἔσται</w> <w lemma="ἀσεβής"><supplied reason="lost">  ἀσεβὴς</supplied></w>  <supplied reason="lost"><note xml:lang=""/></supplied>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>  <persName type="divine"><name nymRef="#Ἀφροδίτη"><supplied reason="lost">Ἀφρο</supplied>δείτῃ</name></persName>  <w lemma="ἀργύριον">ἀρ<unclear reason="damage">γ</unclear><supplied reason="lost">υρίου</supplied></w>  <supplied reason="lost"><note xml:lang=""/></supplied>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>  <w lemma="πεντακόσιος"><supplied reason="lost">πε</supplied>ντακοσ<supplied reason="lost">ι</supplied><gap reason="lost" extent="unknown" unit="character"/></w>    <lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ΥΛ<unclear reason="damage">Ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="7a"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
 </div>
          <div type="translation" n="none">
             <p>No useful translation possible</p>

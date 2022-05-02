@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragment from honours (or funerary) for Attalos</title>
+            <title>Fragment from <rs type="textType" cert="low">honours</rs> (or <rs type="textType" cert="low">funerary</rs>) for Attalos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +45,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote> ll. 1, 4, <height unit="metre">0.02</height>; ll. 2, 3, <height unit="metre">0.025</height>. l. 2, the second <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Λ</foreign> has been added as a correction, small and above the line.</handNote>
+                     <handNote> ll. 1, 4, <height unit="metre">0.02</height>; ll. 2, 3, <height unit="metre">0.025</height>. l. 2, the second <foreign xml:lang="grc">Λ</foreign> has been added as a correction, small and above the line.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -91,12 +91,6 @@ First to second centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
-               <term>
-                  <rs type="textType">funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -115,21 +109,21 @@ First to second centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
 <ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">μ</unclear>οςε</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">α</unclear>λ<add place="supralinear"><hi rend="superscript">λ</hi></add>α<unclear reason="damage">ε</unclear>α<unclear reason="damage">σ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested"><name nymRef="#Ἄτταλος">Ἀτταλο<gap reason="lost" extent="unknown" unit="character"/></name></persName>    <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ΣΩΣΤ<unclear reason="damage">Ε</unclear><gap reason="lost" extent="unknown" unit="character"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 1, perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 1, perhaps <foreign xml:lang="grc">
                   <supplied reason="lost">καὶ ὁ δῆ</supplied>
                   <unclear reason="damage">μ</unclear>ος ἐ<supplied reason="lost">τείμησαν</supplied>
                </foreign>
             </p>
-            <p>l. 2, just possibly e.g. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 2, just possibly e.g. <foreign xml:lang="grc">
                   <unclear reason="damage">ἀ</unclear>λλα<choice type="correction">
                      <corr>ς</corr>
                   </choice> ἀ<unclear reason="damage">ξ</unclear>
                   <supplied reason="lost">ίας</supplied>
                </foreign>
             </p>
-            <p>l. 4, e.g.  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 4, e.g.  <foreign xml:lang="grc">
                   <supplied reason="lost">χρυ</supplied>σῳ στε<supplied reason="lost">φανῳ</supplied>
-               </foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+               </foreign> or <foreign xml:lang="grc">
                   <supplied reason="lost">εἴ</supplied>σωστε<supplied reason="lost">ι</supplied>
                </foreign>
             </p>
@@ -138,7 +132,7 @@ First to second centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
             <p>...] Attalos [...</p>
          </div>
          <div type="commentary">
-            <p>If the interpretation of l. 1 is correct then this would give part of an honorary text, the honorand including Attalos (l. 3) probably among his ancestors, and receiving among other things a gold crown (l. 4). But the restorations cannot be certain and we may have a funerary text with <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>If the interpretation of l. 1 is correct then this would give part of an honorary text, the honorand including Attalos (l. 3) probably among his ancestors, and receiving among other things a gold crown (l. 4). But the restorations cannot be certain and we may have a funerary text with <foreign xml:lang="grc">
                   <supplied reason="lost">εἴ</supplied>σωστε<supplied reason="lost">ι</supplied>
                </foreign> in l. 4.</p>
          </div>

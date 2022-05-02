@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Posthumous <rs type="textType">honours</rs> for  M. Fl. Antonius Lysimachos</title>
+            <title>
+               <rs type="textType">Posthumous <rs type="textType">honours</rs>
+               </rs> for  M. Fl. Antonius Lysimachos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -36,7 +38,7 @@
                      <supportDesc>
                         <support>
                            <p>Upper part of a <material key="marmor">white marble</material>
-                              <objectType reg="base">base</objectType> without moulding (<width unit="metre">0.48</width>   × <height unit="metre">0.42</height>   × <depth unit="metre">0.38</depth>).</p>
+                              <objectType key="base">base</objectType> without moulding (<width unit="metre">0.48</width>   × <height unit="metre">0.42</height>   × <depth unit="metre">0.38</depth>).</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -46,7 +48,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.03-0.325</height>; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign> in ligature, ll. 3, 7</handNote>
+                        <height unit="metre">0.03-0.325</height>; <foreign xml:lang="grc">ΗΝ</foreign> in ligature, ll. 3, 7</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -95,9 +97,6 @@
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
                </term>
-               <term>
-                  <rs type="textType">Posthumous honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -115,7 +114,7 @@
 
 <ab>
  <lb n="0"/>
- <supplied reason="lost"><note>e.g.</note>
+ <supplied reason="lost"><note xml:lang=""/>
   <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w>
   <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="τιμάω">ἐτείμησεν</w></supplied>
  <lb n="1"/>
@@ -154,9 +153,9 @@
   <name nymRef="#Ἐπίνεικος">Ἐπινείκου</name></persName>
  <space extent="1" unit="character" dim="horizontal"/></ab></div>
          <div type="apparatus">
-            <p>l. 1, Η Sherard 1705, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΙ</foreign> Picenini; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">I</foreign> Sherard 1716; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Μ</foreign> added in pencil in Deering's copy.  Traces of two uprights now visible.</p>
+            <p>l. 1, Η Sherard 1705, <foreign xml:lang="grc">ΤΙ</foreign> Picenini; <foreign xml:lang="grc">I</foreign> Sherard 1716; <foreign xml:lang="grc">Μ</foreign> added in pencil in Deering's copy.  Traces of two uprights now visible.</p>
             <p>ll. 9-12 were read with some difficulty by Sherard, but more clearly by Deering; by 1904 they were lost.</p>
-            <p>l.11, At the beginning <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΚΑΙ</foreign> Picenini, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΚΟΥ</foreign> Sherard 1705, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΑΠΟΥ</foreign> 1716;  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΑΡΧΟΥ</foreign> Deering.</p>
+            <p>l.11, At the beginning <foreign xml:lang="grc">ΚΑΙ</foreign> Picenini, <foreign xml:lang="grc">ΚΟΥ</foreign> Sherard 1705, <foreign xml:lang="grc">ΝΑΠΟΥ</foreign> 1716;  <foreign xml:lang="grc">ΜΑΡΧΟΥ</foreign> Deering.</p>
          </div>
          <div type="translation">
             <p>

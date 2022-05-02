@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary verse for Eupeithios</title>
+            <title>
+               <rs type="textType">Funerary</rs>
+               <rs type="textType">verse</rs> for Eupeithios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +48,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Probably second century; well-cut in distinctive non-monumental forms, designed with a ruler and compass and cut with monumental techniques; lunate epsilon, sigma, omega; cursive feaures in alpha; ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΠΝ</foreign>, l.2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign> and <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΜ</foreign> in l.4; ave. <height unit="metre">0.035</height>
+                     <handNote>Probably second century; well-cut in distinctive non-monumental forms, designed with a ruler and compass and cut with monumental techniques; lunate epsilon, sigma, omega; cursive feaures in alpha; ligatures: <foreign xml:lang="grc">ΠΝ</foreign>, l.2, <foreign xml:lang="grc">ΗΝ</foreign> and <foreign xml:lang="grc">ΗΜ</foreign> in l.4; ave. <height unit="metre">0.035</height>
                      </handNote>
                   </handDesc>
                </physDesc>
@@ -96,12 +98,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
-               <term>
-                  <rs type="textType">verse</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -119,11 +115,11 @@
 <ab><lb n="1"/> <w lemma="ἀθάνατος">ἀθανάτοισιν</w> <w lemma="ὅμοιος">ὅμοια</w> <w lemma="πόρω">πόρες</w> <w lemma="κλυτός">κλυτὰ</w> <w lemma="ἔργον">ἔργα</w> <w lemma="πόλις">πόληι</w> <g ref="#scroll"/> <space extent="3" unit="character" dim="horizontal"/>  <lb n="2"/> <w lemma="ἥρως">ἥρως</w> <w lemma="εὐσεβής">εὐσεβίης</w> <w lemma="θεοτερπής">θεοτέρπεος</w> <w lemma="ἔμπνοος"><unclear reason="damage">ἔν</unclear>πνοος</w> <w lemma="εἰκών">εἰκών</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="3"/> <w lemma="τοὔνεκα">τοὔνεκα</w> <w lemma="νῦν">νῦν</w> <w lemma="νάω">νάεις</w> <persName type="attested"><name nymRef="#Εὐπείθιος">Εὐπείθιε</name></persName> <w lemma="καί">κα<unclear reason="damage">ὶ</unclear></w> <w lemma="πόλος">πόλον</w> <w lemma="ἄστρον">ἄστρων</w> <supplied reason="lost"><space extent="3" unit="character" dim="horizontal"/></supplied>  <lb n="4"/> <w lemma="ψυχή">ψυχὴν</w> <w lemma="ἀναπνέω">ἀμπνεύσας</w> <w lemma="ὅτε">ὅτε</w> <persName type="attested"><name nymRef="#Μάρτιος">Μαρτίο<unclear reason="damage">υ</unclear></name></persName>  <w lemma="ἦμαρ"><unclear reason="damage">ἦμαρ</unclear></w>  <w lemma="παίζω">ἔπαιζ<unclear reason="damage">ε</unclear><supplied reason="lost">ς</supplied></w>  <lb n="5"/>  <space extent="3" unit="character" dim="horizontal"/>    <space extent="3" unit="character" dim="horizontal"/>    <space extent="3" unit="character" dim="horizontal"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 1,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΡΓ</foreign> damaged</p>
-            <p>l. 2,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΝΠ</foreign> damaged</p>
-            <p>L.3: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΙ</foreign> damaged. Letters: after <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Κ</foreign>, the shadow of a triangle (<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Λ</foreign>) and then very little space (<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ι</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Υ</foreign>, ?<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ρ</foreign>). Perhaps: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Εὐπείθι ἑκ<unclear reason="damage">ά</unclear>[ς] πόλον ἄτων</foreign>
+            <p>l. 1,  <foreign xml:lang="grc">ΕΡΓ</foreign> damaged</p>
+            <p>l. 2,  <foreign xml:lang="grc">ΕΝΠ</foreign> damaged</p>
+            <p>L.3: <foreign xml:lang="grc">ΑΙ</foreign> damaged. Letters: after <foreign xml:lang="grc">Κ</foreign>, the shadow of a triangle (<foreign xml:lang="grc">Α</foreign>, <foreign xml:lang="grc">Λ</foreign>) and then very little space (<foreign xml:lang="grc">Ι</foreign>, <foreign xml:lang="grc">Υ</foreign>, ?<foreign xml:lang="grc">Ρ</foreign>). Perhaps: <foreign xml:lang="grc">Εὐπείθι ἑκ<unclear reason="damage">ά</unclear>[ς] πόλον ἄτων</foreign>
             </p>
-            <p>l.4, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΑΡ</foreign> damaged</p>
+            <p>l.4, <foreign xml:lang="grc">ΜΑΡ</foreign> damaged</p>
             <p>In principle the text could have begun on an upper block, but these four lines of verse are complete in themselves.</p>
          </div>
          <div type="translation">

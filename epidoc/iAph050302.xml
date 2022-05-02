@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dedication (post mortem) by Flavius Zenon</title>
+            <title>
+               <rs type="textType">Dedication</rs> (post mortem) by Flavius Zenon</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -63,7 +64,7 @@ c. A.D. 324-350 (<rs type="criteria">lettering</rs>, <rs type="criteria">content
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList" key="HadrBath">Hadrianic Baths, East Court</rs>: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">Au c<supplied reason="abbreviation">entre</supplied> de la cour de l'E<supplied reason="abbreviation">st</supplied> devant la face E<supplied reason="abbreviation">st</supplied> du pilastre N<supplied reason="abbreviation">ord</supplied>
+                        <rs type="monuList" key="HadrBath">Hadrianic Baths, East Court</rs>: '<foreign xml:lang="fr">Au c<ex>entre</ex> de la cour de l'E<ex>st</ex> devant la face E<ex>st</ex> du pilastre N<ex>ord</ex>
                         </foreign>'.</rs>
                   </provenance>
                   <provenance type="observed">
@@ -101,9 +102,6 @@ Unknown.</rs>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Dedication</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -131,7 +129,7 @@ Unknown.</rs>
 </div>
          <div type="translation">
             <ab>
-Fl<supplied reason="abbreviation">avius</supplied> Zenon, high priest and <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="la">comes</foreign>, made this and set it up for his own homeland at his own expense, according to <supplied reason="subaudible">the terms of</supplied> his will <supplied reason="subaudible">carried out</supplied> by his own children.</ab>
+Fl<ex>avius</ex> Zenon, high priest and <foreign xml:lang="la">comes</foreign>, made this and set it up for his own homeland at his own expense, according to <supplied reason="subaudible">the terms of</supplied> his will <supplied reason="subaudible">carried out</supplied> by his own children.</ab>
          </div>
          <div type="commentary">
             <p>

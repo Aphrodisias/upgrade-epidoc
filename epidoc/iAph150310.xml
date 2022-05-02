@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragment of  funerary curse</title>
+            <title>Fragment of  <rs type="textType">funerary</rs>
+               <rs type="textType">curse</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -89,12 +91,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">funerary</rs>
-               </term>
-               <term>
-                  <rs type="textType">curse</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -114,7 +110,7 @@
             <p>Not usefully translatable</p>
          </div>
          <div type="commentary">
-            <p>From a funerary curse; cf. index s.v. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἐξουσία</foreign>.</p>
+            <p>From a funerary curse; cf. index s.v. <foreign xml:lang="grc">ἐξουσία</foreign>.</p>
          </div>
          <div type="bibliography" n="none">
             <p>Unpublished.</p>

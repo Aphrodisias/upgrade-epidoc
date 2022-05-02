@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Honours for M. Ulpius Carminius Klaudianos</title>
+            <title>
+               <rs type="textType">Honours</rs> for M. Ulpius Carminius Klaudianos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -43,7 +44,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>No measurements; Ligatures: l. 6,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗ</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΜ</foreign>; l. 8,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign>; l. 10,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign>; l. 11,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗ</foreign>; l. 12,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗ</foreign>; l. 13,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝΜ</foreign>; l. 14,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign>; l. 35,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign>; l. 39,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗΝ</foreign>; l. 43,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign>; l. 45,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΠΡ</foreign>; Star for denariii.</handNote>
+                     <handNote>No measurements; Ligatures: l. 6,  <foreign xml:lang="grc">ΜΗ</foreign>, <foreign xml:lang="grc">ΜΜ</foreign>; l. 8,  <foreign xml:lang="grc">ΗΝ</foreign>; l. 10,  <foreign xml:lang="grc">ΗΝ</foreign>; l. 11,  <foreign xml:lang="grc">ΝΗ</foreign>; l. 12,  <foreign xml:lang="grc">ΝΗ</foreign>; l. 13,  <foreign xml:lang="grc">ΗΝΜ</foreign>; l. 14,  <foreign xml:lang="grc">ΗΝ</foreign>; l. 35,  <foreign xml:lang="grc">ΗΝ</foreign>; l. 39,  <foreign xml:lang="grc">ΗΝ</foreign>, <foreign xml:lang="grc">ΜΗΝ</foreign>; l. 43,  <foreign xml:lang="grc">ΗΝ</foreign>; l. 45,  <foreign xml:lang="grc">ΠΡ</foreign>; Star for denariii.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -90,9 +91,6 @@ Second century A.D. (<rs type="criteria">prosopography</rs>)
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Honours</rs>
                </term>
             </keywords>
          </textClass>

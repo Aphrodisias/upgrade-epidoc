@@ -44,7 +44,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>graffito: i: <height unit="metre">0.01-0.02</height>; there is perhaps an abbreviation mark over <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΥ</foreign>.</handNote>
+                     <handNote>graffito: i: <height unit="metre">0.01-0.02</height>; there is perhaps an abbreviation mark over <foreign xml:lang="grc">ΑΥ</foreign>.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -109,7 +109,7 @@ First to sixth centuries A.D. (<rs type="criteria">context</rs>)
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<div n="i" type="textpart" subtype="section"><note lang="en">Above, outline for a face; below, a face with curly hair and ?a moustache and beard.</note><ab>
+<div n="i" type="textpart" subtype="section"><note xml:lang="en"/><ab>
 
  
 <lb n="1"/>
@@ -118,10 +118,10 @@ First to sixth centuries A.D. (<rs type="criteria">context</rs>)
  
 
  
-<lb n="2"/><note lang="en">There are further letters below and to the left, which have been erased:</note>
+<lb n="2"/><note xml:lang="en"/>
 <orig n="unresolved">κ<unclear reason="damage">ω</unclear></orig>
 <gap reason="illegible" extent="1" unit="character"/> <orig n="unresolved">μ<unclear reason="damage">οτμλ</unclear></orig> 
-</ab></div><div n="ii" type="textpart" subtype="section"><note lang="en">To the left, the upper part of a facing figure, with shaggy hair, and slanting lines (? wings) rising from his shoulders. To the left, some indecipherable letters; further left, a squat figure, in a loose tunic, with no hair; perhaps a stupidus - - a buffoon.There are other faces on this panel.</note></div>
+</ab></div><div n="ii" type="textpart" subtype="section"><note xml:lang="en"/></div>
 </div>
          <div type="apparatus" n="none">
             <p>... </p>

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary fragment</title>
+            <title>
+               <rs type="textType">Funerary</rs> fragment</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -93,9 +94,6 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -113,7 +111,7 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
 </div>
          <div type="apparatus">
             <p>
-               <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Χ</foreign> apparently altered to chi-rho - probably in the Byzantine period, rather than an otherwise unattested abbreviation of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">χρ<supplied reason="abbreviation">εοφυλάκιον</supplied>
+               <foreign xml:lang="grc">Χ</foreign> apparently altered to chi-rho - probably in the Byzantine period, rather than an otherwise unattested abbreviation of <foreign xml:lang="grc">χρ<ex>εοφυλάκιον</ex>
                </foreign>.</p>
          </div>
          <div type="translation">

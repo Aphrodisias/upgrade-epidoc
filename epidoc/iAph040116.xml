@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary fragment</title>
+            <title>
+               <rs type="textType">Funerary</rs> fragment</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -95,9 +96,6 @@ Second to third centuries A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -114,7 +112,7 @@ Second to third centuries A.D.
 <ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">νιμα<unclear reason="damage">π</unclear>αν<unclear reason="damage">ιλ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>  <w lemma="ὁ"><supplied reason="lost">τ</supplied>οῦ</w> <persName type="attested"><name nymRef="#Διόδωρος">Διοδώρου</name></persName> Ε<unclear reason="damage">Ι</unclear><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="καί"><unclear reason="damage">κ</unclear>αὶ</w> <persName type="attested"><name nymRef="#Αὐρηλία">Αὐρηλία</name></persName> <orig n="unresolved"><unclear reason="damage">ε</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3a"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 1, <foreign xml:lang="grc">
                   <supplied reason="lost">μ</supplied>νημα</foreign>
             </p>
          </div>

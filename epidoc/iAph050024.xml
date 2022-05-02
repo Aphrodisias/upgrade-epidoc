@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Acclamations for <rs type="personType" reg="emperor">imperial</rs> family, and a New Theodosius </title>
+            <title>
+               <rs type="textType">Acclamation</rs>s for <rs type="personType" reg="emperor">imperial</rs> family, and a New Theodosius </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -48,7 +49,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.07-0.08</height>, tall and clear; diairetic dots on <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ι</foreign> in iii, line 2, and, apparently, on the second <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ι</foreign> in line 4 of ii; three dots as a stop in ii, 1ine 3; abbreviation: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΙΝΔ</foreign> with a comma hanging from <term>delta</term>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ο</foreign> with <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Υ</foreign> above.</handNote>
+                        <height unit="metre">0.07-0.08</height>, tall and clear; diairetic dots on <foreign xml:lang="grc">Ι</foreign> in iii, line 2, and, apparently, on the second <foreign xml:lang="grc">Ι</foreign> in line 4 of ii; three dots as a stop in ii, 1ine 3; abbreviation: <foreign xml:lang="grc">ΙΝΔ</foreign> with a comma hanging from <term>delta</term>, <foreign xml:lang="grc">Ο</foreign> with <foreign xml:lang="grc">Υ</foreign> above.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -60,7 +61,7 @@
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>: <term lang="la">tepidarium</term>.</rs>
+                        <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>: <term xml:lang="la">tepidarium</term>.</rs>
                   </provenance>
                   <provenance type="observed">
                      <rs type="lastLocation">Museum.</rs>
@@ -101,9 +102,6 @@
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Acclamation</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -124,7 +122,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
 		
-		<div n="i" type="textpart" subtype="section"><note place="not specified" anchored="yes">Two joining fragments, with garland at both sides.</note><ab>
+		<div n="i" type="textpart" subtype="section"><note place="not specified" xml:lang=""/><ab>
 		<lb n="1"/><unclear reason="damage"><g ref="#scroll"/></unclear><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage"><g ref="#scroll"/></unclear>
 		<lb n="2"/><g ref="#cross"/> <rs type="subject" key="acclamations"><w lemma="νικάω">νι<supplied reason="lost">κᾷ</supplied></w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w></rs>
 		<lb n="3"/><w lemma="ὁ">τοῦ</w> <rs type="official-secul" key="princeps"><w lemma="βασιλεύς">β<supplied reason="lost">ασι</supplied>λέως</w></rs>·
@@ -134,7 +132,7 @@
 		<lb n="7" break="no"/>λὰ</w> <w lemma="ὁ"><supplied reason="lost">τὰ</supplied></w> <w lemma="ἔτος"><supplied reason="lost">ἔτ</supplied>η</w></rs> <g ref="#scroll"/></ab></div>
 		
 		
-		<div n="ii" type="textpart" subtype="section"><note place="not specified" anchored="yes">Fragment with trace of garland at lower right edge.</note><ab>
+		<div n="ii" type="textpart" subtype="section"><note place="not specified" xml:lang=""/><ab>
 		<lb n="0"/><gap extent="2" unit="line" reason="lost"/>
 		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">λιι</unclear>ου</orig> <rs type="subject" key="acclamations"><w lemma="πολύς"><unclear reason="damage">π</unclear>ο<supplied reason="lost">λλὰ</supplied></w>
 		<lb n="2"/><w lemma="ὁ"><supplied reason="lost">τὰ</supplied></w> <w lemma="ἔτος"><supplied reason="lost">ἔτ</supplied><unclear reason="damage">η</unclear></w></rs>· <persName key="Christ" type="divine"><w lemma="υἱός">υἱὲ</w> <w lemma="θεός">θεοῦ</w></persName> <w lemma="ζωή">ζ<supplied reason="lost">ωὴν</supplied></w>
@@ -143,7 +141,7 @@
 		<lb n="4a"/><gap reason="lost" extent="unknown" unit="character"/> <space dim="horizontal"/></ab></div>
 		
 		
-		<div n="iii" type="textpart" subtype="section"><note place="not specified" anchored="yes">Fragment without any trace of garland.</note><ab>
+		<div n="iii" type="textpart" subtype="section"><note place="not specified" xml:lang=""/><ab>
 		<lb n="0"/><gap extent="2" unit="line" reason="lost"/>
 		<lb n="1"/><w lemma="ἐπί"><unclear reason="damage">ἐπ</unclear>ὶ</w> <persName key="o1" type="attested"><name><orig n="unresolved">ο</orig></name><gap extent="1" unit="character" reason="lost"/></persName>
 		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="πατήρ"><supplied reason="lost">πα</supplied>τρός</w>, <date><w lemma="ἰνδικτιών">ἰνδικτίωνος</w> <gap reason="lost" extent="unknown" unit="character"/></date>
@@ -152,7 +150,7 @@
 		<lb n="4a"/><g ref="#scroll"/></ab>
 		
 		
-		</div><div n="iv" type="textpart" subtype="section"><note place="not specified" anchored="yes">Fragment showing upper right corner of garland.</note><ab>
+		</div><div n="iv" type="textpart" subtype="section"><note place="not specified" xml:lang=""/><ab>
 		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ι</orig>
 		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">υ</orig>
 		<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">λ</unclear></orig>
@@ -171,7 +169,7 @@
             <p>ii. <gap reason="lost" extent="unknown" unit="character"/> Many years <gap reason="lost" extent="unknown" unit="character"/>! Son of God, grant him life! The faith of the Christians triumphs!</p>
             <p>iii. <gap reason="lost" extent="unknown" unit="character"/>
                <supplied reason="lost" cert="low">this work was done</supplied> under <orig n="unresolved">O</orig>
-               <gap reason="lost" extent="unknown" unit="character"/>, <term lang="la">pater</term>, in the <gap reason="lost" extent="unknown" unit="character"/> indiction <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" extent="unknown" unit="character"/>, <term xml:lang="la">pater</term>, in the <gap reason="lost" extent="unknown" unit="character"/> indiction <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
          <div type="commentary">

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Seat inscriptions: Stadium Block 33</title>
+            <title>
+               <rs type="textType">Seat inscriptions</rs>: Stadium Block 33</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -94,9 +95,6 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
                </term>
-               <term>
-                  <rs type="textType">Seat inscriptions</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -111,7 +109,7 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<div n="U" type="textpart" subtype="section"><note> Traces of letters.</note></div><div n="X" type="textpart" subtype="section"><note>Traces of letters.</note></div><div n="Z" type="textpart" subtype="section"><note>Design, gameboard, type 3Rows1.</note></div><div n="AA" type="textpart" subtype="section"><ab type="steps"><lb n="1"/> <g ref="#steps"/><milestone unit="block"/>Β <milestone unit="block"/>Α <milestone unit="block"/></ab></div>
+<div n="U" type="textpart" subtype="section"><note xml:lang=""/></div><div n="X" type="textpart" subtype="section"><note xml:lang=""/></div><div n="Z" type="textpart" subtype="section"><note xml:lang=""/></div><div n="AA" type="textpart" subtype="section"><ab type="steps"><lb n="1"/> <g ref="#steps"/><milestone unit="block"/>Β <milestone unit="block"/>Α <milestone unit="block"/></ab></div>
 </div>
          <div type="translation" n="none">
             <p>No translation possible. </p>

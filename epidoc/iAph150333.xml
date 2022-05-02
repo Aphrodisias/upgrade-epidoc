@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for Aurelia Ammia Myrton</title>
+            <title>
+               <rs type="textType">Honours</rs> for Aurelia Ammia Myrton</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -91,9 +92,6 @@ Second-third centuries A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -162,35 +160,35 @@ Second-third centuries A.D.
  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΠΑΙΣ</foreign> Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΑΙΣ</foreign> Deering</p>
-            <p>l. 6, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΠΡΟΤ</foreign> Sherard, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΠΡΩΤ</foreign> Deering</p>
-            <p>l. 9, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΛΙΤ</foreign> Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΛΕΙΤ</foreign> Deering</p>
-            <p>l. 12, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΙΕΡΟ</foreign> Sherard</p>
-            <p>l. 14, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΝΕΝ</foreign> Sherard</p>
-            <p>l. 15, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΒΦΜΕ</foreign> Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">βφμε <supplied reason="lost">ἣ</supplied>
-               </foreign> cj. Boeckh. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΒΦΜΤ</foreign> Deering</p>
-            <p>l. 17, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΛΕΙΠΣΑΙ</foreign> S; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΛΕΙΠΤΑΙ</foreign> transcribed by Mueller, whence <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">λείπεται</foreign> Boeckh; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΛΕΙΨΕΙ</foreign> Deering</p>
-            <p>l. 23,  At end <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Η</foreign> Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἤ<supplied reason="lost">δη πάσας</supplied>
-               </foreign> cj. Boeckh; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Π</foreign> Deering</p>
+            <p>l. 1, <foreign xml:lang="grc">ΠΑΙΣ</foreign> Sherard; <foreign xml:lang="grc">ΤΑΙΣ</foreign> Deering</p>
+            <p>l. 6, <foreign xml:lang="grc">ΠΡΟΤ</foreign> Sherard, <foreign xml:lang="grc">ΠΡΩΤ</foreign> Deering</p>
+            <p>l. 9, <foreign xml:lang="grc">ΛΙΤ</foreign> Sherard; <foreign xml:lang="grc">ΛΕΙΤ</foreign> Deering</p>
+            <p>l. 12, <foreign xml:lang="grc">ΙΕΡΟ</foreign> Sherard</p>
+            <p>l. 14, <foreign xml:lang="grc">ΕΝΕΝ</foreign> Sherard</p>
+            <p>l. 15, <foreign xml:lang="grc">ΒΦΜΕ</foreign> Sherard; <foreign xml:lang="grc">βφμε <supplied reason="lost">ἣ</supplied>
+               </foreign> cj. Boeckh. <foreign xml:lang="grc">ΒΦΜΤ</foreign> Deering</p>
+            <p>l. 17, <foreign xml:lang="grc">ΛΕΙΠΣΑΙ</foreign> S; <foreign xml:lang="grc">ΛΕΙΠΤΑΙ</foreign> transcribed by Mueller, whence <foreign xml:lang="grc">λείπεται</foreign> Boeckh; <foreign xml:lang="grc">ΛΕΙΨΕΙ</foreign> Deering</p>
+            <p>l. 23,  At end <foreign xml:lang="grc">Η</foreign> Sherard; <foreign xml:lang="grc">ἤ<supplied reason="lost">δη πάσας</supplied>
+               </foreign> cj. Boeckh; <foreign xml:lang="grc">Π</foreign> Deering</p>
             <p>From here on Deering saw more than Sherard at the ends of the lines</p>
-            <p>l. 24, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΣΕΚΑΙΛΙΤΟΥ . Γ</foreign> Sherard</p>
-            <p>l. 25, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΔΕ</foreign> Sherard <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΔΗ</foreign> Deering</p>
-            <p>l. 26, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΟΣ</foreign> Sherard <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΩΣ</foreign> Deering</p>
-            <p>l. 27, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΙΕΡΟ</foreign> Sherard, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΙΕΡΩ</foreign> Deering</p>
-            <p>l. 28, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΘΗΚΗ</foreign> Sherard, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΘΗΚΕ</foreign> Deering</p>
-            <p>l. 32, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΓΝΩΜΗ</foreign> Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΟΜΗΝ</foreign> Deering</p>
-            <p>l. 30, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΖΑΝΤΑ</foreign> Sherard, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΞΑΝΤΑ</foreign> Deering</p>
-            <p>l. 31, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΙΧΕΙΝ</foreign> Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΡΧΕΙΝ</foreign> Sherard</p>
-            <p>l. 33, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΔΕΔ</foreign> Sherard, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΔΙΔ</foreign> Deering</p>
-            <p>l. 34, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΙΒ</foreign> Sherard, whence <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Τιβ<supplied reason="abbreviation">ερίου</supplied>
-               </foreign> Boeckh, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ι´ ιβ´</foreign> Robert; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ςιβ</foreign> Deering</p>
-            <p>l. 35, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΘΙΗ</foreign>, whence <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">θ´ ιη´</foreign> Robert</p>
+            <p>l. 24, <foreign xml:lang="grc">ΣΕΚΑΙΛΙΤΟΥ . Γ</foreign> Sherard</p>
+            <p>l. 25, <foreign xml:lang="grc">ΔΕ</foreign> Sherard <foreign xml:lang="grc">ΔΗ</foreign> Deering</p>
+            <p>l. 26, <foreign xml:lang="grc">ΜΟΣ</foreign> Sherard <foreign xml:lang="grc">ΜΩΣ</foreign> Deering</p>
+            <p>l. 27, <foreign xml:lang="grc">ΙΕΡΟ</foreign> Sherard, <foreign xml:lang="grc">ΙΕΡΩ</foreign> Deering</p>
+            <p>l. 28, <foreign xml:lang="grc">ΘΗΚΗ</foreign> Sherard, <foreign xml:lang="grc">ΘΗΚΕ</foreign> Deering</p>
+            <p>l. 32, <foreign xml:lang="grc">ΓΝΩΜΗ</foreign> Sherard; <foreign xml:lang="grc">ΝΟΜΗΝ</foreign> Deering</p>
+            <p>l. 30, <foreign xml:lang="grc">ΖΑΝΤΑ</foreign> Sherard, <foreign xml:lang="grc">ΞΑΝΤΑ</foreign> Deering</p>
+            <p>l. 31, <foreign xml:lang="grc">ΑΙΧΕΙΝ</foreign> Sherard; <foreign xml:lang="grc">ΑΡΧΕΙΝ</foreign> Sherard</p>
+            <p>l. 33, <foreign xml:lang="grc">ΔΕΔ</foreign> Sherard, <foreign xml:lang="grc">ΔΙΔ</foreign> Deering</p>
+            <p>l. 34, <foreign xml:lang="grc">ΤΙΒ</foreign> Sherard, whence <foreign xml:lang="grc">Τιβ<ex>ερίου</ex>
+               </foreign> Boeckh, <foreign xml:lang="grc">ι´ ιβ´</foreign> Robert; <foreign xml:lang="grc">ςιβ</foreign> Deering</p>
+            <p>l. 35, <foreign xml:lang="grc">ΘΙΗ</foreign>, whence <foreign xml:lang="grc">θ´ ιη´</foreign> Robert</p>
          </div>
          <div n="notyet" type="translation">
             <p>No translation yet (2007)</p>
          </div>
          <div type="commentary">
-            <p>In line 34 Sherard read <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΙΒ</foreign>, which Boeckh interpreted as a reference to a month named for Tiberius. Robert, <title>Rev. de Phil. </title>1930, 25-6 (= <title>OMS</title> II, 1125-6), saw that the letters must in fact be numerals, giving the number of the month, and of the day; he conjectured that the T was a misreading of iota. From Deering's copy it is clear that the letter which Sherard read as T was a capital stigma. Distributions in the sixth and ninth months would be better spaced than in the tenth and ninth.</p>
+            <p>In line 34 Sherard read <foreign xml:lang="grc">ΤΙΒ</foreign>, which Boeckh interpreted as a reference to a month named for Tiberius. Robert, <title>Rev. de Phil. </title>1930, 25-6 (= <title>OMS</title> II, 1125-6), saw that the letters must in fact be numerals, giving the number of the month, and of the day; he conjectured that the T was a misreading of iota. From Deering's copy it is clear that the letter which Sherard read as T was a capital stigma. Distributions in the sixth and ninth months would be better spaced than in the tenth and ninth.</p>
          </div>
          <div type="bibliography">
             <p>Published by <bibl n="CIGII">Boeckh, from Sherard papers, CIG <citedRange>2817</citedRange>

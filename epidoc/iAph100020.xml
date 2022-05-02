@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Seat inscriptions: Stadium Block 40</title>
+            <title>
+               <rs type="textType">Seat inscriptions</rs>: Stadium Block 40</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -94,9 +95,6 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
                </term>
-               <term>
-                  <rs type="textType">Seat inscriptions</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -111,8 +109,7 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<div n="B" type="textpart" subtype="section"><note>
-Design, circle, type C2.</note></div><div n="AA" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note>Design, circle, type C2.</note></div><div n="ii" type="textpart" subtype="column"><note>Design, type R1, with only 2 x 3 squares.</note></div><div n="iii" type="textpart" subtype="column"><note>Several crosses, one well-cut in outline.</note></div>
+<div n="B" type="textpart" subtype="section"><note xml:lang=""/></div><div n="AA" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note xml:lang=""/></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div><div n="iii" type="textpart" subtype="column"><note xml:lang=""/></div>
 </div></div>
          <div type="translation" n="none">
             <p>No translation possible..</p>

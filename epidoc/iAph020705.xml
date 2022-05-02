@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragment of honours for <seg cert="low">Marcus Aurelius</seg>
+            <title>Fragment of <rs type="textType" cert="low">honours</rs> for <seg cert="low">Marcus Aurelius</seg>
                <gap extent="unknown" reason="lost" unit="character"/>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
@@ -96,9 +96,6 @@ Third century A.D. (<rs type="criteria">lettering</rs>)
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -117,9 +114,9 @@ Third century A.D. (<rs type="criteria">lettering</rs>)
 <ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>  <persName type="attested"><name nymRef="#Μᾶρκος"><supplied reason="lost" cert="low">Μάρκο</supplied>υ</name>  <name nymRef="#Αὐρήλιος">Αὐ<supplied reason="lost">ρηλίου</supplied></name></persName>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>  <persName type="attested"><name nymRef="#Αὐρήλιος"><supplied reason="lost">Αὐ</supplied>ρηλι<gap reason="lost" extent="unknown" unit="character"/></name></persName>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">Τ</unclear>ΙΔ<unclear reason="damage">Ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ΥΙ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 3, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Τ</foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Π</foreign>
+            <p>l. 3, <foreign xml:lang="grc">Τ</foreign> or <foreign xml:lang="grc">Π</foreign>
             </p>
-            <p>l. 4, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">υἱ<supplied reason="lost" cert="low">ὸν</supplied>
+            <p>l. 4, <foreign xml:lang="grc">υἱ<supplied reason="lost" cert="low">ὸν</supplied>
                </foreign>
             </p>
          </div>

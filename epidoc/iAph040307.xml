@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragmentary title for  Amazonomachy sculpture</title>
+            <title>Fragmentary <rs type="textType" cert="low">title</rs> for  Amazonomachy sculpture</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -93,9 +93,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">title</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -116,11 +113,11 @@
             <p>No translation possible</p>
          </div>
          <div type="commentary">
-            <p>This could be an assembly number, but it is clearly cut and very visible; just possibly a label, e.g. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>This could be an assembly number, but it is clearly cut and very visible; just possibly a label, e.g. <foreign xml:lang="grc">
                   <persName type="other">
                      <expan>
                         <abbr>Θ</abbr>
-                        <supplied reason="abbreviation">ησεύς</supplied>
+                        <ex>ησεύς</ex>
                      </expan>
                   </persName>
                </foreign> for the young hero below.</p>

@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragmentary <seg cert="low">honours</seg>
+            <title>Fragmentary <rs type="textType">
+                  <seg cert="low">honours</seg>
+               </rs>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -46,7 +48,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.027</height>; ligatures: l.7, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">TE</foreign>.</handNote>
+                        <height unit="metre">0.027</height>; ligatures: l.7, <foreign xml:lang="grc">TE</foreign>.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -92,9 +94,6 @@ No description</origDate>
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">honours</rs>
                </term>
             </keywords>
          </textClass>

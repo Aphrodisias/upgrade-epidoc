@@ -117,7 +117,7 @@
 	  </div>
          <div type="translation">
             <ab>Eutychianos <supplied reason="subaudible">gave or made</supplied>
-               <note rend="italic" place="not specified" anchored="yes">or</note> Of Eutychianos.</ab>
+               <note rend="italic" place="not specified" xml:lang=""/> Of Eutychianos.</ab>
          </div>
          <div type="commentary">
             <p>See discussion at <ref type="eAla-text" n="VII.22" target=".xml"/>.</p>

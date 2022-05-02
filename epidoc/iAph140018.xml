@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for ? T. Cl. Aur. Zelos</title>
+            <title>
+               <rs type="textType">Honours</rs> for ? T. Cl. Aur. Zelos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +46,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.025</height>. Ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign> ll.2, 5; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗ</foreign>, l. 20; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign> l.21.</handNote>
+                        <height unit="metre">0.025</height>. Ligatures: <foreign xml:lang="grc">ΗΝ</foreign> ll.2, 5; <foreign xml:lang="grc">ΜΗ</foreign>, l. 20; <foreign xml:lang="grc">ΗΝ</foreign> l.21.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -95,9 +96,6 @@ Probably soon after 212 A.D. (<rs type="criteria">nomenclature</rs>, if the name
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">Honours</rs>
                </term>
             </keywords>
          </textClass>

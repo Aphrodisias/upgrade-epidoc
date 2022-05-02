@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>i. Dedication to Patris by Zenon son of Euthymos and others; ii. The Phrygian Metropolis honours <rs type="personType" reg="governor">Alexandros</rs>, in verse</title>
+            <title>i. <rs type="textType">Dedication</rs> to Patris by Zenon son of Euthymos and others; ii. The Phrygian Metropolis <rs type="textType">honours</rs>
+               <rs type="personType" reg="governor">Alexandros</rs>, in <rs type="textType">verse</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -92,15 +94,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Dedication</rs>
-               </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
-               <term>
-                  <rs type="textType">verse</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -139,10 +132,10 @@
               <lb n="9"/><w lemma="εὐτυχής">εὐτυχῶς</w></ab>
          </div></div>
          <div type="apparatus">
-            <p>i.  ll. 1, 3, possibly <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Εὐδάμου</foreign> in both cases, but the stone is in an extremely awkward position for a reader.</p>
-            <p>ii. l. 5, there is a line cut over the first <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α</foreign>.</p>
-            <p>ii. l. 6, There is a cross-bar in the first <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ο</foreign>, making a <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Θ</foreign>; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Π</foreign> has been corrected from <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Η</foreign>.</p>
-            <p>ii. l. 7, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Π</foreign> has apparently been corrected from <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Τ</foreign>.</p>
+            <p>i.  ll. 1, 3, possibly <foreign xml:lang="grc">Εὐδάμου</foreign> in both cases, but the stone is in an extremely awkward position for a reader.</p>
+            <p>ii. l. 5, there is a line cut over the first <foreign xml:lang="grc">Α</foreign>.</p>
+            <p>ii. l. 6, There is a cross-bar in the first <foreign xml:lang="grc">Ο</foreign>, making a <foreign xml:lang="grc">Θ</foreign>; <foreign xml:lang="grc">Π</foreign> has been corrected from <foreign xml:lang="grc">Η</foreign>.</p>
+            <p>ii. l. 7, <foreign xml:lang="grc">Π</foreign> has apparently been corrected from <foreign xml:lang="grc">Τ</foreign>.</p>
          </div>
          <div type="translation">
             <p>i. Zenon son of Euthymos (<seg cert="low">Eudamos</seg>), natural son of Zenon son of Agathas the son of Euthymos (<seg cert="low">Eudamos</seg>) with his brother Iulius (?) having had this made (?) in company with Claudius Adrastos son of Hierax, dedicated it, together with all the decorative features round it, to the fatherland.</p>
@@ -150,7 +143,7 @@
          </div>
          <div type="commentary">
             <p>i.The second name in line 1 (cf also lines 3/4) is uncertainly read - perhaps Eudamos.. The adte is probably in the first half of the second century, judging by the letter forms. The purpose is to record a gift to the city of an undefined but clearly visible object which was feminine in gender, and apparently surrounded, in some sense, with decorative features; possibly an ornament of the Bouleuterion/Odeon, but not necessarily so.</p>
-            <p>The persons involved are not at present identified although most of their names are well-attested at Aphrodisias; for an Adrastos whose geneaology include also a Hierax see name index. They were clearly men of wealth and status and of families interested in the Roman connection, since Adrastos was of one which receive citizenship in the reign of Claudius, when it was rare in the city, and Zenon's brother had a Roman name (if Iulius is rightly read). It is possible that Adrastos was himself the first recipient of Roman citizenship in his family, since his patronymic is not cited in the Roman manner by reference to a <term lang="la">praenomen</term>;  but some Aphrodisians were inclined to retain the local custom of citing a father's full name even when he had Roman citizenship, so that this is uncertain. It is of interest that at least one of the two brothers named had been adopted, and that , since the adoptive father apparently had the same name as the natural father's grandfather, the adoption was quite probably within two branches of the same family - an example of the kind of family strategies in use at Aphrodisias.</p>
+            <p>The persons involved are not at present identified although most of their names are well-attested at Aphrodisias; for an Adrastos whose geneaology include also a Hierax see name index. They were clearly men of wealth and status and of families interested in the Roman connection, since Adrastos was of one which receive citizenship in the reign of Claudius, when it was rare in the city, and Zenon's brother had a Roman name (if Iulius is rightly read). It is possible that Adrastos was himself the first recipient of Roman citizenship in his family, since his patronymic is not cited in the Roman manner by reference to a <term xml:lang="la">praenomen</term>;  but some Aphrodisians were inclined to retain the local custom of citing a father's full name even when he had Roman citizenship, so that this is uncertain. It is of interest that at least one of the two brothers named had been adopted, and that , since the adoptive father apparently had the same name as the natural father's grandfather, the adoption was quite probably within two branches of the same family - an example of the kind of family strategies in use at Aphrodisias.</p>
             <p>ii. For the text, see discussion at <ref type="eAla-text" n="III.35" target=".xml"/>. For the statue and the monument as whole, see <bibl type="hbi" n="rrrs1999">
                   <author>Smith</author> (<date value="1999" notBefore="1999" notAfter="1999" exact="both">1999</date>) 165-7</bibl>.</p>
          </div>

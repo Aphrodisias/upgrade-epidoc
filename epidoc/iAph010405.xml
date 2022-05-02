@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Prayer</title>
+            <title>
+               <rs type="textType" reg="prayer/invocation">Prayer</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -93,9 +95,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">prayer/invocation</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -120,12 +119,12 @@
          <div type="apparatus">
             <p>The restoration, by which I am persuaded, is that of Angelos Chaniotis.</p>
             <p>
-               <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Η</foreign> might be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ψ</foreign>,<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Δ</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΙ</foreign>.</p>
-            <p>At the end,<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε</foreign> might be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Θ</foreign>.</p>
+               <foreign xml:lang="grc">Η</foreign> might be <foreign xml:lang="grc">Ψ</foreign>,<foreign xml:lang="grc">Δ</foreign>, <foreign xml:lang="grc">ΕΙ</foreign>.</p>
+            <p>At the end,<foreign xml:lang="grc">Ε</foreign> might be <foreign xml:lang="grc">Θ</foreign>.</p>
          </div>
          <div type="translation">
             <ab>
-               <supplied reason="lost" cert="low">For the salvation</supplied> of <gap reason="lost" unit="character" extent="unknown"/> the <seg cert="low">chief</seg>, <note place="not specified" anchored="yes">or</note> the archbishop <gap reason="lost" unit="character" extent="unknown"/>
+               <supplied reason="lost" cert="low">For the salvation</supplied> of <gap reason="lost" unit="character" extent="unknown"/> the <seg cert="low">chief</seg>, <note place="not specified" xml:lang=""/> the archbishop <gap reason="lost" unit="character" extent="unknown"/>
             </ab>
          </div>
          <div type="commentary">

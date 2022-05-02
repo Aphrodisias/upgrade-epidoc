@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>-getos, exceptor, gives a <objectType>
+            <title>-getos, exceptor, <rs type="textType" reg="donor's inscription">gives</rs> a <objectType>
                   <rs type="textType">gameboard</rs>
                </objectType>
             </title>
@@ -59,7 +59,7 @@
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList" key="HadrBath">Hadrianic Baths, East Court</rs>: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">Face E<supplied reason="abbreviation">st</supplied> du pilier N<supplied reason="abbreviation">ord</supplied>
+                        <rs type="monuList" key="HadrBath">Hadrianic Baths, East Court</rs>: <foreign xml:lang="fr">Face E<ex>st</ex> du pilier N<ex>ord</ex>
                         </foreign> (Boulanger).</rs>
                   </provenance>
                   <provenance type="observed">
@@ -96,9 +96,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">donor's inscription</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -121,14 +118,14 @@
 		</ab>
       </div>
          <div type="apparatus">
-            <p>l. 1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΠΙΤΙΕΤ<supplied reason="abbreviation">ΟΥ</supplied>
-               </foreign> Boulanger (Notebook A); <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε<gap reason="lost" unit="character" extent="unknown"/>ΕΤ<supplied reason="abbreviation">ΟΥ</supplied>
+            <p>l. 1, <foreign xml:lang="grc">ΕΠΙΤΙΕΤ<ex>ΟΥ</ex>
+               </foreign> Boulanger (Notebook A); <foreign xml:lang="grc">Ε<gap reason="lost" unit="character" extent="unknown"/>ΕΤ<ex>ΟΥ</ex>
                </foreign> Boulanger
 (Notebook B)</p>
          </div>
          <div type="translation">
             <p>
-               <supplied reason="subaudible">Put up</supplied> under <gap reason="lost" unit="character" extent="unknown"/>getos, <term lang="la">exceptor</term>.</p>
+               <supplied reason="subaudible">Put up</supplied> under <gap reason="lost" unit="character" extent="unknown"/>getos, <term xml:lang="la">exceptor</term>.</p>
          </div>
          <div type="commentary">
             <p>See discussion at <ref type="eAla-text" n="V.44" target=".xml"/> and <ref type="eAla-text" n="V.48" target=".xml"/>.</p>

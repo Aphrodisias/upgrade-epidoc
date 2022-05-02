@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for the father of Marcus Aurelius Polychronios, who established a foundation</title>
+            <title>
+               <rs type="textType">Honours</rs> for the father of Marcus Aurelius Polychronios, who established a <rs type="textType">foundation</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -92,12 +94,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
-               <term>
-                  <rs type="textType">foundation</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -117,11 +113,11 @@
 </div>
          <div type="translation">
             <p>
-               <gap unit="character" extent="unknown" reason="lost"/> having spent <supplied reason="lost">a sum amounting to</supplied> 10 000 denarii; he was <term lang="grc-Latn">eirenarch</term> and <term lang="grc-Latn">paraphylax</term> and carried out all the other magistracies and liturgies and the contributions to his country even beyond his means; and on his own behalf and that of his son, M<supplied reason="abbreviation">arcus</supplied> Aur<supplied reason="abbreviation">elius</supplied> Polychronios he dedicated to the most excellent Council for lotteries to be held permanently 1670 denarii, the lottery taking place beside his statue every year in the 10th month, there being 200 names, each of those winning receiving 6 denarii, as was also made clear in the dedication <gap unit="character" extent="unknown" reason="lost"/>
+               <gap unit="character" extent="unknown" reason="lost"/> having spent <supplied reason="lost">a sum amounting to</supplied> 10 000 denarii; he was <term xml:lang="grc-Latn">eirenarch</term> and <term xml:lang="grc-Latn">paraphylax</term> and carried out all the other magistracies and liturgies and the contributions to his country even beyond his means; and on his own behalf and that of his son, M<ex>arcus</ex> Aur<ex>elius</ex> Polychronios he dedicated to the most excellent Council for lotteries to be held permanently 1670 denarii, the lottery taking place beside his statue every year in the 10th month, there being 200 names, each of those winning receiving 6 denarii, as was also made clear in the dedication <gap unit="character" extent="unknown" reason="lost"/>
             </p>
          </div>
          <div type="commentary">
-            <p>The honorand is not certainly identifiable and while his son was a Roman citizen it is not certain that he was. We are not well informed of the civic <term lang="la">cursus honorum</term> owing to the tendency to use generalising formulae as in l. 6, but should note the policing functions indicated in ll. 3-5, one no doubt in the city and the second in its territory. Also interesting is the importance of financial contributions to the city in a man's career. In the later second century and the third, gifts to finance distributions of cash by lotteries (as in ll. 14ff) figure alongside, perhaps more frequently than, gifts for public building and the like—the small size of lots to be won (l. 27) are worthy of note.</p>
+            <p>The honorand is not certainly identifiable and while his son was a Roman citizen it is not certain that he was. We are not well informed of the civic <term xml:lang="la">cursus honorum</term> owing to the tendency to use generalising formulae as in l. 6, but should note the policing functions indicated in ll. 3-5, one no doubt in the city and the second in its territory. Also interesting is the importance of financial contributions to the city in a man's career. In the later second century and the third, gifts to finance distributions of cash by lotteries (as in ll. 14ff) figure alongside, perhaps more frequently than, gifts for public building and the like—the small size of lots to be won (l. 27) are worthy of note.</p>
          </div>
          <div type="bibliography">
             <p>Published by <bibl n="ph1885" type="primary">

@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Pavement designs</title>
+            <title>
+               <rs type="textType">Pavement designs</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -85,19 +87,18 @@ Second-tenth century A.D. (<rs type="criteria">context</rs>)</origDate>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
 
-<div n="i" type="textpart" subtype="section"><note>A board, type 3Rows.1, roughly cut and without a border (<measure dim="height" type="length" unit="metre">0.30</measure> x <measure dim="width" type="length" unit="metre">0.67</measure>); central line incomplete.</note></div> 
+<div n="i" type="textpart" subtype="section"><note xml:lang=""/></div> 
 
 
- <div n="ii" type="textpart" subtype="section"><note>A board, type 3Rows.1, scratched, with a frame (<measure dim="height" type="length" unit="metre">0.48</measure> x <measure dim="width" type="length" unit="metre">0.58</measure>).</note></div> 
+ <div n="ii" type="textpart" subtype="section"><note xml:lang=""/></div> 
 
 
-<div n="iii" type="textpart" subtype="section"><note>A board, type 3Rows.1, scratched, with a frame (<measure dim="height" type="length" unit="metre">0.29</measure> x<measure dim="width" type="length" unit="metre"> 0.60</measure>). A cross has been cut across the frame at the west end.</note></div> 
+<div n="iii" type="textpart" subtype="section"><note xml:lang=""/></div> 
 
-<div n="iv" type="textpart" subtype="section"><note>
- Two roughly cut boards, type 3Rows.1, with traces of a third; none have borders; there are also 3 type H.4.</note></div> 
+<div n="iv" type="textpart" subtype="section"><note xml:lang=""/></div> 
 
 
-<div n="v" type="textpart" subtype="section"><note>Several circles, including one clearly but irregularly cut, type C.4.</note></div> 
+<div n="v" type="textpart" subtype="section"><note xml:lang=""/></div> 
 </div>
          <div type="translation" n="none">
             <p>No translation possible.</p>

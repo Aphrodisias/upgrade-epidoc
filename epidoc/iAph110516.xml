@@ -7,7 +7,9 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <rs type="textType" reg="prayer/invocation">Text</rs> at an entrance</title>
+               <rs type="textType" reg="monogram">
+                  <rs type="textType" reg="prayer/invocation">Text</rs>
+               </rs> at an entrance</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -42,7 +44,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>i: Inscribed at <measure type="length" dim="none">0.37</measure> above base. ii: repaired in antiquity
+                        <layout>i: Inscribed at <height>0.37</height> above base. ii: repaired in antiquity
 at the right. Inscribed at 0.96 above the lower end.</layout>
                      </layoutDesc>
                   </objectDesc>
@@ -94,9 +96,6 @@ half-buried.</rs>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">monogram</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -124,9 +123,9 @@ half-buried.</rs>
 	<lb n="3"/><orig n="unresolved"><unclear reason="damage">λ</unclear>ονος</orig> <w lemma="οὗτος"><supplied reason="lost">το</supplied>ύτου</w> <gap extent="3" reason="lost" unit="character"/></ab> 
       </div>
          <div type="apparatus">
-            <p>ii: ll. 2-3. Perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>ii: ll. 2-3. Perhaps <foreign xml:lang="grc">
                   <supplied reason="lost">κ</supplied>ατὰ <supplied reason="lost">τ</supplied>οῦ <supplied reason="lost">πυ</supplied>λο͂νος <supplied reason="lost">το</supplied>ύτου</foreign>; but I cannot make out
-any traces of letters before <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+any traces of letters before <foreign xml:lang="grc">
                   <unclear reason="undefined">Λ</unclear>ΟΝΟΣ</foreign> in
 l. 3.</p>
          </div>

@@ -112,7 +112,7 @@ First to third centuries A.D. (<rs type="criteria">lettering</rs>)</origDate>
 <ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><gap reason="illegible" extent="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">θη</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2a"/><gap reason="lost" extent="unknown" unit="character"/>    <space extent="3" unit="character" dim="horizontal"/>  <gap reason="lost" extent="unknown" unit="character"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 1, the first horizontal may be part of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε</foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Σ</foreign>; the second seemt to have no apparent upper stroke in the comparatively extensive space surviving above it; there is just a possibility that it is <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ξ</foreign>.</p>
+            <p>l. 1, the first horizontal may be part of <foreign xml:lang="grc">Ε</foreign> or <foreign xml:lang="grc">Σ</foreign>; the second seemt to have no apparent upper stroke in the comparatively extensive space surviving above it; there is just a possibility that it is <foreign xml:lang="grc">Ξ</foreign>.</p>
          </div>
          <div type="translation" n="none">
             <p>None.</p>

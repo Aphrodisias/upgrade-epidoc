@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Panel dedication with <rs type="personType" reg="emperor">imperial reference</rs>
+            <title>Panel <rs type="textType">dedication</rs> with <rs type="personType" reg="emperor">imperial reference</rs>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -46,7 +46,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>poorly cut; <height unit="metre">0.04</height>; circular stop in l.1, square <term lang="grc-Latn">sigma</term>; letters in guidelines.</handNote>
+                     <handNote>poorly cut; <height unit="metre">0.04</height>; circular stop in l.1, square <term xml:lang="grc-Latn">sigma</term>; letters in guidelines.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -101,9 +101,6 @@ A.D. 128/9-138
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">dedication</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -120,8 +117,8 @@ A.D. 128/9-138
 <ab><lb n="0"/><space extent="1" unit="line" dim="vertical"/><lb n="1"/><space extent="2" unit="character" dim="horizontal"/> <persName type="emperor"><persName type="divine">Δὶ <g ref="#stop"/>  <gap reason="lost" extent="unknown" unit="character"/><lb n="2"/><space extent="2" unit="character" dim="horizontal"/> <name nymRef="#Μάξιμος">Μαξιμ<gap reason="lost" extent="unknown" unit="character"/></name><lb n="3"/><space extent="1" unit="character" dim="horizontal"/> <name nymRef="#Ὀλύμπιος">Ὀλυμπ<supplied reason="lost">ίῳ</supplied></name></persName><gap reason="lost" extent="unknown" unit="character"/><lb n="4"/>  <persName type="emperor"><w lemma="σεβαστός">Σεβασ<supplied reason="lost">τῷ</supplied></w></persName></persName>  <gap reason="lost" extent="unknown" unit="character"/><lb n="4a"/><space extent="1" unit="line" dim="vertical"/></ab>
 </div>
          <div type="translation">
-            <p>To Zeus; <note rend="italic" place="not specified" anchored="yes">reference to</note> Maxim<supplied reason="lost">us</supplied>, <note rend="italic" place="not specified" anchored="yes"> to</note>  Olymp<supplied reason="lost" cert="low">ios</supplied>
-               <note rend="italic" place="not specified" anchored="yes">and to</note> Augustus/i.</p>
+            <p>To Zeus; <note rend="italic" place="not specified" xml:lang=""/> Maxim<supplied reason="lost">us</supplied>, <note rend="italic" place="not specified" xml:lang=""/>  Olymp<supplied reason="lost" cert="low">ios</supplied>
+               <note rend="italic" place="not specified" xml:lang=""/> Augustus/i.</p>
          </div>
          <div type="commentary">
             <p>Perhaps similar in construction to <ref type="inscription" n="1267" target="080708.xml"/> (=74.73), and so one of several small 'altars' dedicated to Hadrian: cf. also  <ref type="inscription" n="1277" target="090119.xml"/> (=81.98).</p>

@@ -97,9 +97,9 @@ Second to third centuries A.D.
 <gap reason="lost" extent="unknown" unit="line"/></ab>
 </div>
          <div type="apparatus">
-            <p>l. 2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 2, <foreign xml:lang="grc">
                   <supplied reason="lost" cert="low">παρ' ὑμῶν, γ</supplied>ὰρ Υ<gap reason="lost" extent="unknown" unit="character"/>
-               </foreign> or from <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">βαρυ-</foreign>
+               </foreign> or from <foreign xml:lang="grc">βαρυ-</foreign>
             </p>
          </div>
          <div type="translation" n="none">

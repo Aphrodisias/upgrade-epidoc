@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Verse honours for Menandros, <seg cert="low">vicar</seg>
+            <title>
+               <rs type="textType">Verse</rs>
+               <rs type="textType">honours</rs> for Menandros, <seg cert="low">vicar</seg>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -59,7 +61,7 @@
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">Galerie de l'Est—Partie S<supplied reason="abbreviation">ud</supplied>
+                        <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>: '<foreign xml:lang="fr">Galerie de l'Est—Partie S<ex>ud</ex>
                         </foreign>' (Boulanger); lying in the southern stretch of the west portico of the South Agora.</rs>
                   </provenance>
                   <provenance type="observed" when="1973">
@@ -94,12 +96,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Verse</rs>
-               </term>
-               <term>
-                  <rs type="textType">honours</rs>
                </term>
             </keywords>
          </textClass>

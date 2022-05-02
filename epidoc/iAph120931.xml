@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for Aur<supplied reason="abbreviation">elius</supplied> Gaius, centurio frumentarius</title>
+            <title>
+               <rs type="textType">Honours</rs> for Aur<ex>elius</ex> Gaius, centurio frumentarius</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -36,7 +37,7 @@
                      <supportDesc>
                         <support>
                            <p>Plain <material key="marmor">white marble</material>
-                              <objectType reg="base">statue base</objectType> (<width unit="metre">0.53</width>   × <height unit="metre">1.09</height>   × <depth unit="metre">0.50</depth>), broken at the upper corners and upper right side.</p>
+                              <objectType key="base">statue base</objectType> (<width unit="metre">0.53</width>   × <height unit="metre">1.09</height>   × <depth unit="metre">0.50</depth>), broken at the upper corners and upper right side.</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -45,7 +46,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Lines 1-10, <height>0.03</height>; lines 11 ff., <measure type="length" dim="none">0.025</measure>.  Ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">TH</foreign>, l. 9, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ME</foreign>, l. 11.  Circular stop; full-stop to mark abbreviation.</handNote>
+                     <handNote>Lines 1-10, <height>0.03</height>; lines 11 ff., <height>0.025</height>.  Ligatures: <foreign xml:lang="grc">TH</foreign>, l. 9, <foreign xml:lang="grc">ME</foreign>, l. 11.  Circular stop; full-stop to mark abbreviation.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -90,9 +91,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Honours</rs>
                </term>
             </keywords>
          </textClass>

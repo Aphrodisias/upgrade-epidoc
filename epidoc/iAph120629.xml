@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary relief for anonymous, emporiarch</title>
+            <title>
+               <rs type="textType">Funerary</rs> relief for anonymous, emporiarch</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -48,7 +49,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.022</height>, but heights vary; lunate <term lang="grc-Latn">sigma</term>, <term lang="grc-Latn">omega</term>.</handNote>
+                        <height unit="metre">0.022</height>, but heights vary; lunate <term xml:lang="grc-Latn">sigma</term>, <term xml:lang="grc-Latn">omega</term>.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -96,9 +97,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -112,7 +110,7 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<div n="i" type="textpart" subtype="column"><note>To left of head</note><ab><lb n="1"/><del rend="erasure"><gap reason="illegible" extent="4" unit="character"/></del><lb n="2"/><del rend="erasure"><gap reason="illegible" extent="4" unit="character"/></del><lb n="3"/><w lemma="ἐμποριάρχης">ἐνπο<lb n="4" break="no"/>ριαρχης</w></ab></div><div n="ii" type="textpart" subtype="column"><note>To right of head</note><ab><lb n="1"/>   <w lemma="ὁ">τῇ</w>  <w lemma="συντεχνία">συν<lb n="2" break="no"/>τεχνί<lb n="3" break="no"/>ᾳ</w>   <w lemma="ὁ">τῶν</w> <w lemma="λινουργός">λι<lb n="4" break="no"/>νουργῶ<lb n="5" break="no"/><space extent="2"/>ν</w>    <lb n="6"/><note>Below bust</note> <w lemma="καί">καὶ</w> <w lemma="ὁ">τοῖς</w> <w>παρό<lb n="7" break="no"/><note>sic</note> δοις</w> <w lemma="χαιρέω">χαιρει</w></ab></div>
+<div n="i" type="textpart" subtype="column"><note xml:lang=""/><ab><lb n="1"/><del rend="erasure"><gap reason="illegible" extent="4" unit="character"/></del><lb n="2"/><del rend="erasure"><gap reason="illegible" extent="4" unit="character"/></del><lb n="3"/><w lemma="ἐμποριάρχης">ἐνπο<lb n="4" break="no"/>ριαρχης</w></ab></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/><ab><lb n="1"/>   <w lemma="ὁ">τῇ</w>  <w lemma="συντεχνία">συν<lb n="2" break="no"/>τεχνί<lb n="3" break="no"/>ᾳ</w>   <w lemma="ὁ">τῶν</w> <w lemma="λινουργός">λι<lb n="4" break="no"/>νουργῶ<lb n="5" break="no"/><space extent="2"/>ν</w>    <lb n="6"/><note xml:lang=""/> <w lemma="καί">καὶ</w> <w lemma="ὁ">τοῖς</w> <w>παρό<lb n="7" break="no"/><note xml:lang=""/> δοις</w> <w lemma="χαιρέω">χαιρει</w></ab></div>
 </div>
          <div type="translation">
             <p>[So-and-so ], market-supervisor, greets the association of linen-workers and the passers-by.</p>

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>i. Fragment of <rs type="textType">verse</rs>. ii. Place inscription of Synodios</title>
+            <title>i. <rs type="textType" reg="building inscription">Fragment of <rs type="textType">verse</rs>
+               </rs>. ii. <rs type="textType">Place inscription</rs> of Synodios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -59,7 +60,7 @@
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">grande salle de l'al<supplied reason="abbreviation">eipterion</supplied>
+                        <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>: '<foreign xml:lang="fr">grande salle de l'al<ex>eipterion</ex>
                         </foreign>' (Boulanger). Chamber at east side of the east court (NYU).</rs>
                   </provenance>
                   <provenance type="observed">
@@ -95,12 +96,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">building inscription</rs>
-               </term>
-               <term>
-                  <rs type="textType">Place inscription</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -134,7 +129,7 @@
 		</div>
       </div>
          <div type="apparatus">
-            <p>234: Boulanger read <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΡΝΟΔΙΟΝ</foreign>
+            <p>234: Boulanger read <foreign xml:lang="grc">ΕΡΝΟΔΙΟΝ</foreign>
             </p>
          </div>
          <div type="translation">

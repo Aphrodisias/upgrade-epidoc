@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary text for Tiberius Claudius M<gap reason="lost" unit="character" extent="unknown"/>
+            <title>
+               <rs type="textType">Funerary</rs> text for Tiberius Claudius M<gap reason="lost" unit="character" extent="unknown"/>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -47,7 +48,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.03</height>. Ligatures: b:, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗ</foreign>, l.1</handNote>
+                        <height unit="metre">0.03</height>. Ligatures: b:, <foreign xml:lang="grc">ΝΗ</foreign>, l.1</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -93,9 +94,6 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
                </term>
             </keywords>
          </textClass>

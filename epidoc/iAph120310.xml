@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> List of names or graffiti</title>
+            <title>
+               <rs type="textType">List</rs> of names or <rs type="textType">graffiti</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -92,12 +94,6 @@ First to fourth centuries A.D.
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">List</rs>
-               </term>
-               <term>
-                  <rs type="textType">graffiti</rs>
                </term>
             </keywords>
          </textClass>

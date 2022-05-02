@@ -123,7 +123,7 @@ a bastion some way west of <ref type="inscription" n="210" target="120541.xml"/>
       </div>
          <div type="apparatus">
             <p>Grégoire read these as one consecutive text, and
-read the first name as <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Μ<supplied reason="lost">αθε</supplied>ου</foreign>.</p>
+read the first name as <foreign xml:lang="grc">Μ<supplied reason="lost">αθε</supplied>ου</foreign>.</p>
          </div>
          <div type="translation">
             <cb n="i"/>

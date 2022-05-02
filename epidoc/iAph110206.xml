@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dedication by Antipatros son of Artemidoros</title>
+            <title>
+               <rs type="textType" cert="low">Dedication</rs> by Antipatros son of Artemidoros</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +46,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Ave. <height unit="metre">0.052</height>; poorly aligned and uneven in height; trenches only slightly triangular; <term lang="grc-Latn">rho</term> with a short oblique stroke from the bowl; very few serifed letters.</handNote>
+                     <handNote>Ave. <height unit="metre">0.052</height>; poorly aligned and uneven in height; trenches only slightly triangular; <term xml:lang="grc-Latn">rho</term> with a short oblique stroke from the bowl; very few serifed letters.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -93,9 +94,6 @@ Second to first centuries B.C.
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Dedication</rs>
                </term>
             </keywords>
          </textClass>

@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragmentary <seg cert="low">honours</seg>
+            <title>Fragmentary <rs type="textType">
+                  <seg cert="low">honours</seg>
+               </rs>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -98,9 +100,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -117,7 +116,7 @@
 <ab><lb n="0"/>  <gap reason="lost" extent="3" unit="character"/>  <lb n="1"/><persName type="attested"><name><gap reason="lost" extent="3" unit="character"/>ίου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Ἄτταλος">Ἀττά<supplied reason="lost">λου</supplied></name></persName></persName>  <gap reason="lost" extent="3" unit="character"/><lb n="2"/><persName type="attested"><name><gap reason="lost" extent="3" unit="character"/><unclear reason="damage">ε</unclear>σσου</name></persName>  <g ref="#stop"/> <persName type="attested"><name>Ἀντ<gap reason="lost" extent="3" unit="character"/></name></persName></ab>
 </div>
          <div type="apparatus">
-            <p>l. 2, perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 2, perhaps <foreign xml:lang="grc">
                   <supplied reason="lost">Μολο</supplied>σσοῦ</foreign>
             </p>
          </div>

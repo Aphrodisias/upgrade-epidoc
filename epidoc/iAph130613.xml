@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary inscription for <gap reason="lost" unit="character" extent="unknown"/> descendant of <seg cert="low">Typhon</seg> son of Hypsikles</title>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for <gap reason="lost" unit="character" extent="unknown"/> descendant of <seg cert="low">Typhon</seg> son of Hypsikles</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +47,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.02</height>. Ligature: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΜ</foreign>, l. 2.</handNote>
+                        <height unit="metre">0.02</height>. Ligature: <foreign xml:lang="grc">ΜΜ</foreign>, l. 2.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -94,9 +95,6 @@ Second to third centuries A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -115,7 +113,7 @@ Second to third centuries A.D.
 </div>
          <div type="apparatus">
             <p>l. 1, <seg cert="low">
-                  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τοῦ Τυφῶνος</foreign>
+                  <foreign xml:lang="grc">τοῦ Τυφῶνος</foreign>
                </seg>
             </p>
          </div>

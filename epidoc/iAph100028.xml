@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Seat inscriptions: Stadium Block 29</title>
+            <title>
+               <rs type="textType">Seat inscriptions</rs>: Stadium Block 29</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -94,9 +95,6 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
                </term>
-               <term>
-                  <rs type="textType">Seat inscriptions</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -130,15 +128,15 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
 <gap reason="lost" extent="2" unit="character"/>
 <milestone unit="block"/> <g ref="#steps"/>
 </ab></div><div n="S" type="textpart" subtype="section"><ab>
-<lb n="1"/><g ref="#steps"/> <milestone unit="block"/> <space extent="3"/> <milestone unit="block"/> <persName type="attested"><name nymRef="#Ἀπολλώνιος ">Ἀ<milestone unit="block"/>πο<milestone unit="block"/>λλ<milestone unit="block"/>ω<milestone unit="block"/>νί<milestone unit="block"/>ου</name></persName> <milestone unit="block"/> <orig n="unresolved">ει</orig><milestone unit="block"/><note>5 seats</note><milestone unit="block"/> <orig n="unresolved">η</orig> <g ref="#palm"/> <milestone unit="block"/> <note>steps</note>
+<lb n="1"/><g ref="#steps"/> <milestone unit="block"/> <space extent="3"/> <milestone unit="block"/> <persName type="attested"><name nymRef="#Ἀπολλώνιος ">Ἀ<milestone unit="block"/>πο<milestone unit="block"/>λλ<milestone unit="block"/>ω<milestone unit="block"/>νί<milestone unit="block"/>ου</name></persName> <milestone unit="block"/> <orig n="unresolved">ει</orig><milestone unit="block"/><note xml:lang=""/><milestone unit="block"/> <orig n="unresolved">η</orig> <g ref="#palm"/> <milestone unit="block"/> <note xml:lang=""/>
 </ab></div><div n="T" type="textpart" subtype="section"><ab>
-<lb n="1"/><milestone unit="block"/> <orig n="unresolved">ζβι</orig> <milestone unit="block"/>  <note>two seats</note> <milestone unit="block"/> <g ref="#steps"/> 
+<lb n="1"/><milestone unit="block"/> <orig n="unresolved">ζβι</orig> <milestone unit="block"/>  <note xml:lang=""/> <milestone unit="block"/> <g ref="#steps"/> 
 
-</ab></div><div n="V" type="textpart" subtype="section"><note>Traces of letters</note></div><div n="X" type="textpart" subtype="section"><note>Traces of letters</note></div><div n="AA" type="textpart" subtype="section"><ab>
-<lb n="1"/><g ref="#steps"/>   <milestone unit="block"/> <gap extent="2" reason="lost" unit="character"/><milestone unit="block"/> <gap extent="1" reason="lost" unit="character"/> <orig n="unresolved">ν</orig> <milestone unit="block"/> <gap extent="1" reason="lost" unit="character"/> <milestone unit="block"/><w>τ<supplied reason="lost">ο</supplied><milestone unit="block"/>νί<milestone unit="block"/>κη<milestone unit="block"/></w> <orig n="unresolved"><unclear reason="damage">σ</unclear></orig> <w lemma="πυκτής"><expan><abbr>π<g ref="#palm"/>υ</abbr><ex>κτοῦ</ex></expan></w> <milestone unit="block"/> <gap extent="1" reason="lost" unit="character"/> <persName type="attested"><name><unclear>Α</unclear><milestone unit="block"/>ν<milestone unit="block"/>ου<milestone unit="block"/></name></persName><note>4 seats</note>  <milestone unit="block"/> <g ref="#steps"/></ab></div>
+</ab></div><div n="V" type="textpart" subtype="section"><note xml:lang=""/></div><div n="X" type="textpart" subtype="section"><note xml:lang=""/></div><div n="AA" type="textpart" subtype="section"><ab>
+<lb n="1"/><g ref="#steps"/>   <milestone unit="block"/> <gap extent="2" reason="lost" unit="character"/><milestone unit="block"/> <gap extent="1" reason="lost" unit="character"/> <orig n="unresolved">ν</orig> <milestone unit="block"/> <gap extent="1" reason="lost" unit="character"/> <milestone unit="block"/><w>τ<supplied reason="lost">ο</supplied><milestone unit="block"/>νί<milestone unit="block"/>κη<milestone unit="block"/></w> <orig n="unresolved"><unclear reason="damage">σ</unclear></orig> <w lemma="πυκτής"><expan><abbr>π<g ref="#palm"/>υ</abbr><ex>κτοῦ</ex></expan></w> <milestone unit="block"/> <gap extent="1" reason="lost" unit="character"/> <persName type="attested"><name><unclear>Α</unclear><milestone unit="block"/>ν<milestone unit="block"/>ου<milestone unit="block"/></name></persName><note xml:lang=""/>  <milestone unit="block"/> <g ref="#steps"/></ab></div>
 </div>
          <div type="apparatus">
-            <p>Row T, The lunate sign in front of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Π</foreign> is slightly raised, looking like an abbreviation mark.</p>
+            <p>Row T, The lunate sign in front of <foreign xml:lang="grc">Π</foreign> is slightly raised, looking like an abbreviation mark.</p>
          </div>
          <div type="translation">
             <p>Row H: (Place) of Attalos, senator. </p>

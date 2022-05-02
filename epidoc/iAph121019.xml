@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Posthumous <rs type="textType">honours</rs> for Tiberius Cl(audius) Antonius [Am]mianos</title>
+            <title>
+               <rs type="textType">Posthumous <rs type="textType">honours</rs>
+               </rs> for Tiberius Cl(audius) Antonius [Am]mianos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -37,7 +39,7 @@
                         <support>
                            <p>
                               <material key="marmor">White marble</material>
-                              <objectType reg="base">statue base</objectType> whose face has been cut down for re-use, from a width of <width unit="metre">0.66</width> at the back, to <width unit="metre">0. 44</width> or a little less across the face (measurable  <height unit="metre">0.92</height>,  <depth>0.60</depth>); there is a simple moulding below.  The face is very worn. </p>
+                              <objectType key="base">statue base</objectType> whose face has been cut down for re-use, from a width of <width unit="metre">0.66</width> at the back, to <width unit="metre">0. 44</width> or a little less across the face (measurable  <height unit="metre">0.92</height>,  <depth>0.60</depth>); there is a simple moulding below.  The face is very worn. </p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -47,7 +49,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <measure type="length" dim="none">0.035</measure>-<measure type="length" dim="none">0.04</measure>
+                        <height>0.035</height>-<height>0.04</height>
                      </handNote>
                   </handDesc>
                </physDesc>
@@ -94,9 +96,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Posthumous honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -116,10 +115,10 @@
 </div>
          <div type="apparatus">
             <p>Fellows had considerable difficulty in reading this stone, which was more easily understood from a squeeze, before the clearing of the West Gate in 2002</p>
-            <p>.ll.4-5: Cormack read an upright at the beginning of l.5 and so restored <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Δ<supplied reason="lost">ο</supplied>
+            <p>.ll.4-5: Cormack read an upright at the beginning of l.5 and so restored <foreign xml:lang="grc">Δ<supplied reason="lost">ο</supplied>
                   <lb/>
-                  <supplied reason="lost">κ</supplied>ιμιανὸν</foreign>. and, in ll.6-7 <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Δο<supplied reason="lost">κιμια</supplied>νοῦ</foreign>; but there is no parallel to support this conjecture.  We do not read the upright on the squeeze. 
-l. 7 Cormack proposed <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ἕρμιο<supplied reason="lost">ν</supplied>
+                  <supplied reason="lost">κ</supplied>ιμιανὸν</foreign>. and, in ll.6-7 <foreign xml:lang="grc">Δο<supplied reason="lost">κιμια</supplied>νοῦ</foreign>; but there is no parallel to support this conjecture.  We do not read the upright on the squeeze. 
+l. 7 Cormack proposed <foreign xml:lang="grc">Ἕρμιο<supplied reason="lost">ν</supplied>
                </foreign>, a further name for the son; but the accusative would probably be written with an alpha
 </p>
          </div>

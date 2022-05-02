@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary formula fragment</title>
+            <title>
+               <rs type="textType">Funerary</rs> formula fragment</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +46,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.03</height>; ligatured <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗ</foreign> in l. 3.</handNote>
+                        <height unit="metre">0.03</height>; ligatured <foreign xml:lang="grc">ΜΗ</foreign> in l. 3.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -91,9 +92,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -113,7 +111,7 @@
 </div>
          <div type="apparatus">
             <p>l. 1, <seg cert="low">
-                  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+                  <foreign xml:lang="grc">
                      <orig n="unresolved">σ<unclear reason="damage">ιασ</unclear>
                         <gap reason="illegible" unit="character" extent="1"/>ν<unclear reason="damage">ιαφι</unclear>
                      </orig>

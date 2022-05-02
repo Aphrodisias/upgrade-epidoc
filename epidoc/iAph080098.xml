@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>List of Muses</title>
+            <title>
+               <rs type="textType">List</rs> of Muses</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -97,7 +98,7 @@
 <persName type="divine"><name nymRef="#Πολυμνία">Πολυμνία</name></persName> 
 <lb n="6"/>
 <persName type="divine"><name nymRef="#Μελπομένη">Μελ<unclear reason="damage">π</unclear>ο<unclear reason="damage">μέν</unclear>η</name></persName> <lb n="7"/><persName type="divine"><name nymRef="#Τερψικόρη">Τερψι<unclear>κ</unclear>όρη</name></persName> 
-<note>sic</note><lb n="8"/>
+<note xml:lang=""/><lb n="8"/>
 <persName type="divine"><name nymRef="#Οὐρανία">Ο<unclear reason="damage">ὐ</unclear>ρανία</name></persName> 
 <lb n="9"/>
 <persName type="divine"><name nymRef="#Καλλιόπη">Καλλιόπη</name></persName> <g ref="#leaf"/> 

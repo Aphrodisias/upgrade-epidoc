@@ -111,7 +111,7 @@
             <p>None possible.</p>
          </div>
          <div type="commentary">
-            <p>It is conceivable that these letters are part of  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>It is conceivable that these letters are part of  <foreign xml:lang="grc">
                   <supplied reason="lost">ὁ δῆμ</supplied>ος</foreign>, but it would be rash to restore this when so little remains.</p>
          </div>
          <div type="bibliography" n="none">

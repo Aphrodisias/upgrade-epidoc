@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for anonymous, having held every office in the city</title>
+            <title>
+               <rs type="textType">Honours</rs> for anonymous, having held every office in the city</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -95,9 +96,6 @@ First to second centuries A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -115,11 +113,11 @@ First to second centuries A.D.
 </div>
          <div type="apparatus">
             <p>The letters seen by us have been indicated.</p>
-            <p>l. 1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 1, <foreign xml:lang="grc">
                   <gap extent="4" reason="lost" unit="character"/> ΙΕΡΑΤΕ <gap extent="5" reason="lost" unit="character"/>
                </foreign>
             </p>
-            <p>l. 6, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΣ<gap extent="1" reason="lost" unit="character"/>ΤΙΑ</foreign> 1705; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΣΣΤΙΑ</foreign> 1716</p>
+            <p>l. 6, <foreign xml:lang="grc">ΕΣ<gap extent="1" reason="lost" unit="character"/>ΤΙΑ</foreign> 1705; <foreign xml:lang="grc">ΕΣΣΤΙΑ</foreign> 1716</p>
          </div>
          <div n="notyet" type="translation">
             <p>No translation yet (2007)</p>

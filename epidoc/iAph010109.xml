@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dedication to Aphrodite by Artemidoros</title>
+            <title>
+               <rs type="textType">Dedication</rs> to Aphrodite by Artemidoros</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -100,9 +101,6 @@ Perhaps first century B.C.
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Dedication</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -119,11 +117,11 @@ Perhaps first century B.C.
 <ab><lb n="1"/>  <persName type="attested"><name nymRef="#Ἀρτεμίδωρος">Ἀρτεμί<unclear reason="damage">δ</unclear><supplied reason="lost">ωρ</supplied>ος</name>  <persName type="attested"><name nymRef="#Ἀρτεμίδωρος">Ἀρτεμιδώρου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Ἀπολλώνιος ">Ἀπο<unclear reason="damage">λ</unclear><supplied reason="lost">λωνίου</supplied></name></persName></persName></persName>  <gap reason="lost" extent="6" unit="character"/><lb n="2"/><persName type="divine"><name nymRef="#Ἀφροδίτη"><unclear reason="damage">Ἀ</unclear>φ<supplied reason="lost">ρ</supplied><unclear reason="damage">ο</unclear>δί<unclear reason="damage">τ</unclear><supplied reason="lost">ῃ</supplied></name></persName> <w lemma="ὅς">ὃν</w> <w lemma="ἐπαγγέλλω">ἐπηνγίλ<unclear reason="damage">α</unclear>το</w>  <persName type="attested"><name nymRef="#Ἀρτεμίδωρος">Ἀρτεμίδω<unclear reason="damage">ρ</unclear><supplied reason="lost">ος</supplied></name>  <persName type="attested"><name nymRef="#Ἀπολλώνιος "><supplied reason="lost">Ἀπολλωνίου</supplied></name></persName></persName></ab>
 </div>
          <div type="apparatus">
-            <p>l. 1,  Perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">θεᾷ</foreign> at the end</p>
+            <p>l. 1,  Perhaps <foreign xml:lang="grc">θεᾷ</foreign> at the end</p>
             <p>l. 2,  The name of the goddess was probably erased in the Christian period.</p>
          </div>
          <div type="translation">
-            <p>Artemidoros son of Artemidoros the son of Apol[lonios] to Aphrodite <note rend="italic" place="not specified" anchored="yes">or</note> [the goddess] Aphrodite, (the statuary) which Artemidoros [?son of Apollonios] promised.</p>
+            <p>Artemidoros son of Artemidoros the son of Apol[lonios] to Aphrodite <note rend="italic" place="not specified" xml:lang=""/> [the goddess] Aphrodite, (the statuary) which Artemidoros [?son of Apollonios] promised.</p>
          </div>
          <div type="commentary">
             <p>See bibliography</p>

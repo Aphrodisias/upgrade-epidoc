@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Invocation</title>
+            <title>
+               <rs type="textType" reg="prayer/invocation">Invocation</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -36,7 +38,7 @@
                      <supportDesc>
                         <support>
                            <p>A <material key="marmor">white marble</material>
-                              <objectType reg="sculpture">
+                              <objectType key="sculpture">
                                  <rs type="decoration">head</rs>
                               </objectType>, broken off from a lost statue, of a
 <rs type="decoration">bearded male</rs>, probably of the first half of the fifth century.</p>
@@ -99,9 +101,6 @@ line.</handNote>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">prayer/invocation</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -123,29 +122,29 @@ line.</handNote>
 		<ab><lb n="1"/><w lemma="ΧΜΓ">ΧΜΓ</w> <lb n="2"/><w lemma="θεός"><persName key="God" type="divine"><expan><abbr>Θ</abbr><ex>ε</ex><abbr>ὲ</abbr></expan></persName></w> <w lemma="βοηθέω">βοήθι</w>.</ab>
       </div>
          <div>
-            <p>l. 1, perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 1, perhaps <foreign xml:lang="grc">
                   <persName key="Christ" type="divine" full="yes">
                      <expan>
                         <abbr>Χ</abbr>
-                        <supplied reason="abbreviation">ριστὸν</supplied>
+                        <ex>ριστὸν</ex>
                      </expan>
                   </persName>
                   <persName key="Mary" type="divine" full="yes">
                      <expan>
                         <abbr>Μ</abbr>
-                        <supplied reason="abbreviation">αρία</supplied>
+                        <ex>αρία</ex>
                      </expan>
                   </persName>
                   <expan>
                      <abbr>Γ</abbr>
-                     <supplied reason="abbreviation">εννᾷ</supplied>
+                     <ex>εννᾷ</ex>
                   </expan>
                </foreign>
             </p>
          </div>
          <div type="translation">
             <ab>
-               <seg cert="low">M<supplied reason="abbreviation">ary</supplied> b<supplied reason="abbreviation">ore</supplied> Ch<supplied reason="abbreviation">rist</supplied>
+               <seg cert="low">M<ex>ary</ex> b<ex>ore</ex> Ch<ex>rist</ex>
                </seg>. God, help.</ab>
          </div>
          <div type="commentary">

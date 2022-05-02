@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Report by a curator rei publicae concerning funds for contests</title>
+            <title>
+               <rs type="textType">Report</rs> by a curator rei publicae concerning funds for contests</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +46,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>second to third centuries A.D.; <height unit="metre">0.017</height>. Ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗ</foreign> l.1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ ,ΜΗ</foreign> l.7.</handNote>
+                     <handNote>second to third centuries A.D.; <height unit="metre">0.017</height>. Ligatures: <foreign xml:lang="grc">ΝΗ</foreign> l.1, <foreign xml:lang="grc">ΤΗ ,ΜΗ</foreign> l.7.</handNote>
                   </handDesc>
                </physDesc>
                <history>

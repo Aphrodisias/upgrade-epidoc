@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Graffiti</title>
+            <title>
+               <rs type="textType">Graffiti</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -84,8 +86,7 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<cb n="a"/><note>a few isolated letters 
-</note><cb n="b"/><note>traces of sketches</note>
+<cb n="a"/><note xml:lang=""/><cb n="b"/><note xml:lang=""/>
 </div>
          <div type="translation">
             <p>No translation possible.</p>

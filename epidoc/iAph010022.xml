@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Prayers on West Door of Temple-Church (north)</title>
+            <title>
+               <rs type="textType" reg="prayer/invocation">Prayers</rs> on West Door of Temple-Church (north)</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -102,9 +103,6 @@ northern door-post: .</rs>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">prayer/invocation</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -134,13 +132,13 @@ northern door-post: .</rs>
          <div type="apparatus">
             <p>i was printed back to front by
 Reinach. ii was correctly transcribed by Fellows and Texier,
-but Reinach omitted <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Κ<supplied reason="abbreviation">υρίο</supplied>υ</foreign>,
-whence Grégoire restored <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ανάληψης Πέτρο<supplied reason="abbreviation">υ</supplied>
+but Reinach omitted <foreign xml:lang="grc">Κ<ex>υρίο</ex>υ</foreign>,
+whence Grégoire restored <foreign xml:lang="grc">Ανάληψης Πέτρο<ex>υ</ex>
                </foreign>
             </p>
             <p>iii. Reinach gave only 1. I; he and Grégoire read at
-the end <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Τροφί<unclear reason="damage">μ</unclear>
-                  <supplied reason="abbreviation">ῳ</supplied>
+the end <foreign xml:lang="grc">Τροφί<unclear reason="damage">μ</unclear>
+                  <ex>ῳ</ex>
                </foreign>.</p>
          </div>
          <div type="translation">

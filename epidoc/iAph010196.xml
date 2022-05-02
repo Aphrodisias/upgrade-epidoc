@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Verse honours for Ioannes, leader of the Council </title>
+            <title>
+               <rs type="textType">Verse</rs>
+               <rs type="textType">honours</rs> for Ioannes, leader of the Council </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +48,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Av. <height unit="metre">0.04</height>, ll.9-10, <height unit="metre">0.03</height>; irregular; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε</foreign> lunate and square; ligature, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗ</foreign> in l.2</handNote>
+                     <handNote>Av. <height unit="metre">0.04</height>, ll.9-10, <height unit="metre">0.03</height>; irregular; <foreign xml:lang="grc">Ε</foreign> lunate and square; ligature, <foreign xml:lang="grc">ΝΗ</foreign> in l.2</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -93,12 +95,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Verse</rs>
-               </term>
-               <term>
-                  <rs type="textType">honours</rs>
                </term>
             </keywords>
          </textClass>

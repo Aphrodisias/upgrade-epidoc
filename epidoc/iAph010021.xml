@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Prayers on West Door of Temple-Church (south)</title>
+            <title>
+               <rs type="textType" reg="prayer/invocation">Prayers</rs> on West Door of Temple-Church (south)</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -104,9 +105,6 @@ north, face of the southern door: .</rs>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">prayer/invocation</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -135,25 +133,25 @@ north, face of the southern door: .</rs>
 		<div n="iv" type="textpart" subtype="section"><ab><lb n="1"/><orig n="unresolved">μ</orig><lb n="2"/><gap extent="1" unit="character" reason="lost"/><orig n="unresolved">οσ</orig><lb n="3"/><g ref="#cross"/><lb n="4"/><orig n="unresolved">τ</orig></ab></div>
       </div>
          <div type="apparatus">
-            <p>i, l.1 <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Θεόφιλ<supplied reason="abbreviation">ος</supplied>
+            <p>i, l.1 <foreign xml:lang="grc">Θεόφιλ<ex>ος</ex>
                </foreign>
 Reinach; earlier editors could interpret nothing.</p>
             <p>l. 3. <seg cert="low">
-                  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">μασ<supplied reason="lost">α</supplied>ύρη </foreign>
+                  <foreign xml:lang="grc">μασ<supplied reason="lost">α</supplied>ύρη </foreign>
                </seg>
 Kirchhoff; <seg cert="low">
-                  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Μασ<supplied reason="lost">σ</supplied>άρη</foreign>
+                  <foreign xml:lang="grc">Μασ<supplied reason="lost">σ</supplied>άρη</foreign>
                </seg> Ramsay; <seg cert="low">
-                  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Μαζλαρη</foreign>
+                  <foreign xml:lang="grc">Μαζλαρη</foreign>
                </seg> Reinach;
 it was Grégoire who recognized the abbreviation mark standing
-for <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κε</foreign> and resolved the text, reading
-<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Θεοφίλῳ</foreign> accordingly in l.1.</p>
-            <p>ii, l. 1,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κ<choice type="correction">
+for <foreign xml:lang="grc">κε</foreign> and resolved the text, reading
+<foreign xml:lang="grc">Θεοφίλῳ</foreign> accordingly in l.1.</p>
+            <p>ii, l. 1,  <foreign xml:lang="grc">κ<choice type="correction">
                      <sic>ο</sic>
                      <corr>ω</corr>
                   </choice>νστα<supplied reason="lost">ν</supplied>τ<supplied reason="lost" cert="low">ῖνος</supplied>
-               </foreign> Reinach; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κονστα<supplied reason="lost">ντῖνος</supplied>
+               </foreign> Reinach; <foreign xml:lang="grc">κονστα<supplied reason="lost">ντῖνος</supplied>
                </foreign>
 Grégoire.</p>
          </div>

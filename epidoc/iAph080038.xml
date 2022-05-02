@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for Hosidius Ioulianos</title>
+            <title>
+               <rs type="textType">Honours</rs> for Hosidius Ioulianos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -37,7 +38,7 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <p>Two blocks: a (in two pieces) <width unit="metre">0.98</width>, marked <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΓΑ</foreign> ; b <width unit="metre">1.27</width>, marked <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΔΑ</foreign>.</p>
+                           <p>Two blocks: a (in two pieces) <width unit="metre">0.98</width>, marked <foreign xml:lang="grc">ΓΑ</foreign> ; b <width unit="metre">1.27</width>, marked <foreign xml:lang="grc">ΔΑ</foreign>.</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -99,9 +100,6 @@ Second century A.D.
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -120,8 +118,8 @@ Second century A.D.
 </div>
          <div type="apparatus">
             <p>
-               <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ἀρτεμι<supplied reason="lost">δώ</supplied>ρ<unclear reason="damage">ου</unclear>
-               </foreign> (block end) <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+               <foreign xml:lang="grc">Ἀρτεμι<supplied reason="lost">δώ</supplied>ρ<unclear reason="damage">ου</unclear>
+               </foreign> (block end) <foreign xml:lang="grc">
                   <supplied reason="lost">τ</supplied>οῦ Κικίννα</foreign> PPA</p>
          </div>
          <div type="translation">

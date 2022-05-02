@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Epitaph of Theodokios</title>
+            <title>
+               <rs type="textType" reg="funerary">Epitaph</rs> of Theodokios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -96,9 +97,6 @@ that it is difficult to know what length of lines to assume.</p>
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">funerary</rs>
                </term>
             </keywords>
          </textClass>

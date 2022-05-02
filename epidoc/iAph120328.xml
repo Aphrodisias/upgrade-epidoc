@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Warning against throwing earth</title>
+            <title>
+               <rs type="textType" reg="prohibition">Warning</rs> against throwing earth</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -51,10 +52,10 @@ bastion.</p>
                   <handDesc>
                      <handNote>
                         <height unit="metre">0.015-0.035</height>;
-clear, cursive; in l.3. cross as an abbreviation mark over <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+clear, cursive; in l.3. cross as an abbreviation mark over <foreign xml:lang="grc">
                            <expan>
                               <abbr>θ</abbr>
-                              <supplied reason="abbreviation">εο</supplied>
+                              <ex>εο</ex>
                               <abbr>ῦ</abbr>
                            </expan>
                         </foreign>.</handNote>
@@ -107,9 +108,6 @@ Holleaux); 'Maison Hussein Chaous' (Reinach); re-used on the southern face of a 
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">prohibition</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -135,7 +133,7 @@ Holleaux); 'Maison Hussein Chaous' (Reinach); re-used on the southern face of a 
 			</ab>        
       </div>
          <div type="translation">
-            <ab>He who throws earth <note place="not specified" anchored="yes">?</note> on the wall has anathema from the 318 fathers as an enemy of God.</ab>
+            <ab>He who throws earth <note place="not specified" xml:lang=""/> on the wall has anathema from the 318 fathers as an enemy of God.</ab>
          </div>
          <div type="commentary">
             <p>See discussion at  <ref type="eAla-text" n="VII.32" target=".xml"/>.</p>

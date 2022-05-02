@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Epitaph of Theopropios, <rs type="personType">bishop</rs>
+            <title>
+               <rs type="textType" reg="funerary">Epitaph</rs> of Theopropios, <rs type="personType">bishop</rs>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -37,14 +38,14 @@
                      <supportDesc>
                         <support>
                            <p>'Coarse <material key="marmor">marble</material>
-                              <objectType>masonry block</objectType>, with incised <term lang="la">tabella
+                              <objectType>masonry block</objectType>, with incised <term xml:lang="la">tabella
 ansata</term>. H. <height unit="metre">0.15</height>, W. <width unit="metre">0.95</width>' (<title level="m">MAMA</title>); depth presumably not
 measurable.</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> within <term lang="la">tabella</term>.</layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> within <term xml:lang="la">tabella</term>.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -95,9 +96,6 @@ measurable.</p>
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">funerary</rs>
                </term>
             </keywords>
          </textClass>

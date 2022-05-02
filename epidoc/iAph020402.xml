@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Graffiti: Prayers and names</title>
+            <title>
+               <rs type="textType">Graffiti</rs>: <rs type="textType" reg="prayer/invocation">Prayers</rs> and names</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -96,12 +97,6 @@ ii: 0.008. iii: above, <height unit="metre">0.055</height>; below, <height unit=
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">Graffiti</rs>
-               </term>
-               <term>
-                  <rs type="textType">prayer/invocation</rs>
                </term>
             </keywords>
          </textClass>

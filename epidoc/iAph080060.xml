@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Seat inscriptions: Theatre, Block H</title>
+            <title>
+               <rs type="textType">Seat inscriptions</rs>: Theatre, Block H</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -93,9 +94,6 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
                </term>
-               <term>
-                  <rs type="textType">Seat inscriptions</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -109,10 +107,10 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<div n="3" type="textpart" subtype="section"><note>On one seat there is a rough and incomplete drawing of a figure with what seems to be a net; presumably a retiarius.</note></div><div n="4" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note>On one seat there is a graffito figure, apparently holding a spear and a shield, probably another gladiator.</note></div><div n="ii" type="textpart" subtype="column"><note>Design, a cross.</note></div></div><div n="6" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab> 
+<div n="3" type="textpart" subtype="section"><note xml:lang=""/></div><div n="4" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note xml:lang=""/></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div></div><div n="6" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab> 
 
 <lb n="1"/> <orig>ΛΙΤ</orig>
-</ab><note>There are other scattered letters.</note><div n="ii" type="textpart" subtype="column"><note>A sketch of a head ?with a hat, and shoulders.</note></div></div><div n="iii" type="textpart" subtype="column"><ab> 
+</ab><note xml:lang=""/><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div></div><div n="iii" type="textpart" subtype="column"><ab> 
 
 <lb n="1"/><w lemma="τόπος"><expan><abbr>τόπ</abbr><ex>ος</ex></expan></w> <g ref="#cross"/> 
 </ab></div></div><div n="8" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/>
@@ -120,31 +118,16 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
 
 
 <lb n="1"/>
-<persName type="attested"><name nymRef="#Ἑπταμήνιος"><expan><abbr>Ἑπταμη<unclear reason="damage">ν</unclear></abbr><supplied reason="lost">ί</supplied><abbr>ου</abbr></expan></name></persName></ab></div><div n="iii" type="textpart" subtype="column"><note lang="en">a: Based on <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">E</foreign>; other letters <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ο, Κ, Α</foreign> and <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Λ</foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Δ</foreign>.</note><note>b: Based on <foreign n="grc">Κ</foreign>; other letters <foreign n="grc">Ο, Υ, Ρ</foreign>. 
-</note><note>c: Based on <foreign n="grc">Ε</foreign>; other letters <foreign n="grc">Ο, Δ</foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α</foreign>. 
-</note></div></div></div>
+<persName type="attested"><name nymRef="#Ἑπταμήνιος"><expan><abbr>Ἑπταμη<unclear reason="damage">ν</unclear></abbr><supplied reason="lost">ί</supplied><abbr>ου</abbr></expan></name></persName></ab></div><div n="iii" type="textpart" subtype="column"><note xml:lang="en"/><note xml:lang=""/><note xml:lang=""/></div></div></div>
          <div type="edition" xml:lang="grc" xml:space="preserve"><div n="9" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab>
-<note><lb n="1"/>A head and shoulders, with a circular ?shield in front of the torso;. Inscribed above the shield. Cut later, above the left shoulder, is a rough design ?of a figure, with the letters <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΘΕ</foreign> above, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc"><expan><abbr>?</abbr><ex>ΟΘ</ex>
-</expan></foreign>below. <placeName nymRef="#Θρᾷξ"><w>Θρᾷξ</w></placeName></note> 
+<note xml:lang=""/> 
 </ab></div><div n="ii" type="textpart" subtype="column"><ab>
 
 <lb n="1"/>
 <persName type="attested"><name nymRef="#Ἀθανάσιος"><expan><abbr>Ἀθανασί</abbr><ex>ου</ex></expan></name></persName> <persName type="attested"><name nymRef="#Εὐσέβιος"><expan><abbr>Εὐσεβί</abbr><ex>ου</ex></expan></name></persName>
-</ab></div><div n="iii" type="textpart" subtype="column"><note>Box monogram. 
-
-Based on <foreign n="grc">Ε</foreign>; other letters <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Τ, Ο, Θ</foreign>, ?<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Β</foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ρ</foreign>, perhaps ?<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α</foreign>. 
-
-Perhaps·</note><ab><lb n="1"/>  <w lemma="τόπος"><expan><abbr>τό</abbr><ex>πος</ex></expan></w> <persName type="attested"><name nymRef="#Εὐσέβιος">Εὐ<supplied reason="lost">σε</supplied><unclear reason="damage">β</unclear><supplied reason="lost">ίου</supplied></name></persName>.</ab></div></div><div n="11" type="textpart" subtype="section"><note>Scattered letters 
-</note></div><div n="12" type="textpart" subtype="section"><note>Design, scattered letters 
-</note></div><div n="15" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note>Design, type SSS1, one cross 
-</note></div><div n="ii" type="textpart" subtype="column"><note>Scattered letters 
-</note></div></div><div n="16" type="textpart" subtype="column"><div n="i" type="textpart" subtype="column"><note>Design, type SSS1 
-</note></div><div n="ii" type="textpart" subtype="column"><note>Scattered letters 
-</note></div></div><div n="17" type="textpart" subtype="section"><note>Scattered letters 
-</note></div><div n="18" type="textpart" subtype="section"><note>Scattered letters 
-</note></div><div n="19" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/>
+</ab></div><div n="iii" type="textpart" subtype="column"><note xml:lang=""/><ab><lb n="1"/>  <w lemma="τόπος"><expan><abbr>τό</abbr><ex>πος</ex></expan></w> <persName type="attested"><name nymRef="#Εὐσέβιος">Εὐ<supplied reason="lost">σε</supplied><unclear reason="damage">β</unclear><supplied reason="lost">ίου</supplied></name></persName>.</ab></div></div><div n="11" type="textpart" subtype="section"><note xml:lang=""/></div><div n="12" type="textpart" subtype="section"><note xml:lang=""/></div><div n="15" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note xml:lang=""/></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div></div><div n="16" type="textpart" subtype="column"><div n="i" type="textpart" subtype="column"><note xml:lang=""/></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div></div><div n="17" type="textpart" subtype="section"><note xml:lang=""/></div><div n="18" type="textpart" subtype="section"><note xml:lang=""/></div><div n="19" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/>
 <w lemma="κατέχω"><supplied reason="lost">κατέ</supplied>χεται</w> <w lemma="ὑπό"><unclear>ὑ</unclear><milestone unit="block"/><supplied reason="lost">πὸ</supplied></w>
-<note>There are other scattered letters on the following seats</note></ab></div><div n="ii" type="textpart" subtype="column"><ab>
+<note xml:lang=""/></ab></div><div n="ii" type="textpart" subtype="column"><ab>
  
 <lb n="1"/>
 <gap reason="lost" extent="unknown" unit="character"/>
@@ -152,21 +135,20 @@ Perhaps·</note><ab><lb n="1"/>  <w lemma="τόπος"><expan><abbr>τό</abbr
 <lb n="39"/>
 <gap reason="lost" extent="unknown" unit="character"/> <milestone unit="block"/> <w lemma="κατέχω">κατέχετ<supplied reason="lost">αι</supplied></w> 
 
-<note>Superimposed over the right end are ?larger letters, perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">EI</foreign>. 
-</note></ab></div></div><div n="20" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/> <g ref="#steps"/><milestone unit="block"/><note>two seats</note><w><milestone unit="block"/><unclear reason="damage">κ</unclear><orig n="συπερφλυουσ">τ</orig><milestone unit="block"/>α<milestone unit="block"/>τέχ<milestone unit="block"/><supplied reason="lost">εται</supplied></w></ab></div><div n="ii" type="textpart" subtype="column"><ab>
-<lb n="1"/><space extent="3"/><w lemma="τόπος"><expan><abbr>τόπ</abbr><ex>ος</ex></expan></w></ab></div><div n="iii" type="textpart" subtype="column"><note>Scattered letters</note>
-</div></div><div n="21" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/><milestone unit="block"/><orig>ζω</orig><gap extent="2" precision="circa" reason="lost" unit="character"/><orig>αι</orig></ab><milestone unit="block"/></div><div n="ii" type="textpart" subtype="column"><note>Scattered letters</note>
+<note xml:lang=""/></ab></div></div><div n="20" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/> <g ref="#steps"/><milestone unit="block"/><note xml:lang=""/><w><milestone unit="block"/><unclear reason="damage">κ</unclear><orig n="συπερφλυουσ">τ</orig><milestone unit="block"/>α<milestone unit="block"/>τέχ<milestone unit="block"/><supplied reason="lost">εται</supplied></w></ab></div><div n="ii" type="textpart" subtype="column"><ab>
+<lb n="1"/><space extent="3"/><w lemma="τόπος"><expan><abbr>τόπ</abbr><ex>ος</ex></expan></w></ab></div><div n="iii" type="textpart" subtype="column"><note xml:lang=""/>
+</div></div><div n="21" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/><milestone unit="block"/><orig>ζω</orig><gap extent="2" precision="circa" reason="lost" unit="character"/><orig>αι</orig></ab><milestone unit="block"/></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/>
 </div></div><div n="22" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab>
-<lb n="1"/><g ref="#steps"/><milestone unit="block"/><note>three seats</note><milestone unit="block"/>ὑπὸ<milestone unit="block"/><unclear reason="damage">κ</unclear>α<milestone unit="block"/><orig>π</orig><space extent="3"/><orig>λ</orig><milestone unit="block"/><note>three seats</note> <milestone unit="block"/><orig>υ</orig><milestone unit="block"/><orig>κ</orig><milestone unit="block"/><orig>τ</orig><milestone unit="block"/><gap reason="lost" extent="2" precision="circa" unit="character"/><g ref="#steps"/></ab></div><div n="ii" type="textpart" subtype="column"><ab>
-<lb n="1"/><milestone unit="block"/><orig>μ</orig><milestone unit="block"/><orig>ευ</orig><milestone unit="block"/></ab></div><div n="iii" type="textpart" subtype="column"><note>Scattered letters</note>
+<lb n="1"/><g ref="#steps"/><milestone unit="block"/><note xml:lang=""/><milestone unit="block"/>ὑπὸ<milestone unit="block"/><unclear reason="damage">κ</unclear>α<milestone unit="block"/><orig>π</orig><space extent="3"/><orig>λ</orig><milestone unit="block"/><note xml:lang=""/> <milestone unit="block"/><orig>υ</orig><milestone unit="block"/><orig>κ</orig><milestone unit="block"/><orig>τ</orig><milestone unit="block"/><gap reason="lost" extent="2" precision="circa" unit="character"/><g ref="#steps"/></ab></div><div n="ii" type="textpart" subtype="column"><ab>
+<lb n="1"/><milestone unit="block"/><orig>μ</orig><milestone unit="block"/><orig>ευ</orig><milestone unit="block"/></ab></div><div n="iii" type="textpart" subtype="column"><note xml:lang=""/>
 </div></div><div n="23" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab>
 <lb n="1"/>
-<milestone unit="block"/> <orig>κδιρο</orig><milestone unit="block"/> ε <milestone unit="block"/> <milestone unit="block"/> Θ <milestone unit="block"/> <note>2 seats</note> <milestone unit="block"/> <g ref="#steps"/> 
+<milestone unit="block"/> <orig>κδιρο</orig><milestone unit="block"/> ε <milestone unit="block"/> <milestone unit="block"/> Θ <milestone unit="block"/> <note xml:lang=""/> <milestone unit="block"/> <g ref="#steps"/> 
 <lb n="2"/>
 <milestone unit="block"/> <orig>νο</orig><orig><unclear reason="damage">ρ</unclear>ο<unclear reason="damage">υ</unclear></orig> <milestone unit="block"/><gap reason="lost" unit="line" extent="1"/><milestone unit="block"/> <w lemma="κατέχω"><supplied reason="lost">κ</supplied><unclear reason="damage">α</unclear>τέχεται</w> <milestone unit="block"/> 
-</ab></div><div n="ii" type="textpart" subtype="column"><note>Scattered letters</note>
-</div></div><div n="25" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/><w lemma="κατέχω"><supplied reason="lost" cert="low">κατέχετα</supplied><milestone unit="block"/>ι</w> <w lemma="ὑπό">ὑπὸ</w> <orig>Τ</orig><milestone unit="block"/></ab></div><div n="ii" type="textpart" subtype="column"><note>Scattered letters</note>
-</div></div><div n="26" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note> Τhere are faces on two seats</note></div><div n="ii" type="textpart" subtype="column"><ab><lb n="1"/><orig>ε</orig><milestone unit="block"/><orig>ευακ</orig></ab></div><div n="iii" type="textpart" subtype="column"><note>Τhere is a small figure of ?a man</note></div></div>
+</ab></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/>
+</div></div><div n="25" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/><w lemma="κατέχω"><supplied reason="lost" cert="low">κατέχετα</supplied><milestone unit="block"/>ι</w> <w lemma="ὑπό">ὑπὸ</w> <orig>Τ</orig><milestone unit="block"/></ab></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/>
+</div></div><div n="26" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note xml:lang=""/></div><div n="ii" type="textpart" subtype="column"><ab><lb n="1"/><orig>ε</orig><milestone unit="block"/><orig>ευακ</orig></ab></div><div n="iii" type="textpart" subtype="column"><note xml:lang=""/></div></div>
 </div>
          <div type="translation">
             <p>Row 6.ii: Place ?(of the cross).</p>

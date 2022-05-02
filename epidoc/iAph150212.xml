@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Building inscription fragment, I B.C./I A.D.</title>
+            <title>
+               <rs type="textType" cert="low">Building inscription</rs> fragment, I B.C./I A.D.</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -36,7 +37,7 @@
                      <supportDesc>
                         <support>
                            <p>Fragment of <material key="marmor">white marble</material>
-                              <objectType reg="Architrave block">entablature</objectType> without edges (<width unit="metre">0.20</width> × <height unit="metre">0.19</height> × <depth unit="metre">0.175</depth>).</p>
+                              <objectType key="Architrave block">entablature</objectType> without edges (<width unit="metre">0.20</width> × <height unit="metre">0.19</height> × <depth unit="metre">0.175</depth>).</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -95,9 +96,6 @@ First century B.C. to first century A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Building inscription</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -114,7 +112,7 @@ First century B.C. to first century A.D.
 <ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">σ</unclear>α</orig><gap reason="lost" extent="unknown" unit="character"/></ab>
 </div>
          <div type="apparatus">
-            <p>l. 1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Σ</foreign> could be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε</foreign>
+            <p>l. 1, <foreign xml:lang="grc">Σ</foreign> could be <foreign xml:lang="grc">Ε</foreign>
             </p>
          </div>
          <div type="translation" n="none">

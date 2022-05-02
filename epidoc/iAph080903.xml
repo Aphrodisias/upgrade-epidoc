@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary for Dionysios K<gap reason="lost" unit="character" extent="unknown"/>
+            <title>
+               <rs type="textType">Funerary</rs> for Dionysios K<gap reason="lost" unit="character" extent="unknown"/>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -47,7 +48,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>ave. <height unit="metre">0.01</height>; simple, lunate <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Σ</foreign>; guidelines.</handNote>
+                     <handNote>ave. <height unit="metre">0.01</height>; simple, lunate <foreign xml:lang="grc">Ε</foreign>, <foreign xml:lang="grc">Σ</foreign>; guidelines.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -92,9 +93,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -112,9 +110,9 @@
 <ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>  <supplied reason="lost" cert="low">ἡ</supplied>  <supplied reason="lost">σορὸς</supplied> <w lemma="εἰμί">ἐστιν</w> <gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>  <persName type="attested"><name nymRef="#Διονύσιος"><supplied reason="lost">Διονυ</supplied>σίου</name>  <name><unclear reason="damage">Κ</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">π</unclear>ιθυμη</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">τ</unclear>ε<unclear reason="execution">ν</unclear>νεκτ<unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ικιονιεκτη</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="5a"/><gap reason="lost" extent="unknown" unit="character"/>    <space extent="1" unit="line" dim="vertical"/>  <gap reason="lost" extent="unknown" unit="character"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 3, first letter could be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Π</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Τ</foreign>
+            <p>l. 3, first letter could be <foreign xml:lang="grc">Π</foreign>, <foreign xml:lang="grc">Τ</foreign>
             </p>
-            <p>l. 4, third letter could be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Η</foreign>
+            <p>l. 4, third letter could be <foreign xml:lang="grc">Η</foreign>
             </p>
          </div>
          <div n="none" type="translation">

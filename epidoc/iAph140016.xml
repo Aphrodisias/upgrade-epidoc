@@ -7,8 +7,10 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <rs type="textType">Funerary</rs>
-               <rs type="textType">verse</rs> for Stephanos</title>
+               <rs type="textType">
+                  <rs type="textType">Funerary</rs>
+                  <rs type="textType">verse</rs>
+               </rs> for Stephanos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -44,7 +46,7 @@ upper and lower edges.</p>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face; the initial <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Σ</foreign> of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Στέφανος</foreign> was cut above the
+                           <rs type="execution" key="scalpro">Inscribed</rs> on the face; the initial <foreign xml:lang="grc">Σ</foreign> of <foreign xml:lang="grc">Στέφανος</foreign> was cut above the
 line.</layout>
                      </layoutDesc>
                   </objectDesc>
@@ -97,9 +99,6 @@ line.</layout>
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">Funerary verse</rs>
                </term>
             </keywords>
          </textClass>

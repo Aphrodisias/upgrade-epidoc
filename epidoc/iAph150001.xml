@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary inscription of Alk[ . . .]</title>
+            <title>
+               <rs type="textType">Funerary</rs> inscription of Alk[ . . .]</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -96,9 +97,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -117,10 +115,10 @@
 </div>
          <div type="apparatus">
             <p>ll. 1, 2, <seg cert="low">
-                  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Αλκ<supplied reason="lost">αμενέως</supplied>
+                  <foreign xml:lang="grc">Αλκ<supplied reason="lost">αμενέως</supplied>
                   </foreign>
                </seg>; <seg cert="low">
-                  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ἀλκ<supplied reason="lost">ίμου</supplied>
+                  <foreign xml:lang="grc">Ἀλκ<supplied reason="lost">ίμου</supplied>
                   </foreign>
                </seg>
             </p>

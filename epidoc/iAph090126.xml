@@ -9,7 +9,9 @@
             <title>
                <seg cert="low">
                   <rs type="textType" reg="dedication">Dedicatory</rs>
-               </seg> poem</title>
+               </seg>
+               <rs type="textType" reg="verse">poem</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -56,7 +58,7 @@ slope upwards.</layout>
                   <handDesc>
                      <handNote>
                         <height unit="metre">0.08</height>, are very ornate, with accents and
-breathings; in c, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΝ</foreign> and <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΩ</foreign> are in ligature, and the first <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ω</foreign> and last <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ν</foreign> are
+breathings; in c, <foreign xml:lang="grc">ΜΝ</foreign> and <foreign xml:lang="grc">ΤΩ</foreign> are in ligature, and the first <foreign xml:lang="grc">Ω</foreign> and last <foreign xml:lang="grc">Ν</foreign> are
 above the line; star-shaped stop.</handNote>
                   </handDesc>
                </physDesc>
@@ -102,9 +104,6 @@ above the line; star-shaped stop.</handNote>
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">verse</rs>
                </term>
             </keywords>
          </textClass>

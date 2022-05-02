@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Graffiti representing <rs type="decoration">menoroth</rs>
+            <title>
+               <rs type="textType" reg="graffito">Graffiti</rs> representing <rs type="decoration">menoroth</rs>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -37,7 +38,7 @@
                      <supportDesc>
                         <support>
                            <p>A <material key="marmor">marble</material>
-                              <objectType reg="block">block</objectType>, perhaps part of a <objectType cert="low">door post</objectType> which has been cut down for re-use (<height unit="metre">0.43</height> × <width unit="metre">1.29</width> × <depth unit="metre">0.41</depth>).</p>
+                              <objectType key="block">block</objectType>, perhaps part of a <objectType cert="low">door post</objectType> which has been cut down for re-use (<height unit="metre">0.43</height> × <width unit="metre">1.29</width> × <depth unit="metre">0.41</depth>).</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -46,7 +47,7 @@ Graffiti <rs type="execution" key="scarifato">incised</rs> on the front face.</l
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Irregular and not closely dateable, av. <height unit="metre">0.01</height>; squared <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ω</foreign>.</handNote>
+                     <handNote>Irregular and not closely dateable, av. <height unit="metre">0.01</height>; squared <foreign xml:lang="grc">Ω</foreign>.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -94,9 +95,6 @@ Graffiti <rs type="execution" key="scarifato">incised</rs> on the front face.</l
                <term>
                   <rs type="textType" key="cetera">jewish</rs>
                </term>
-               <term>
-                  <rs type="textType">graffito</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -113,10 +111,10 @@ Graffiti <rs type="execution" key="scarifato">incised</rs> on the front face.</l
 <ab><lb n="1"/><gap extent="1" reason="illegible" unit="character"/><orig n="unresolved"><unclear reason="damage">υ</unclear></orig> <space dim="horizontal"/> <orig n="unresolved"><unclear reason="damage">ωρα</unclear></orig>    <w lemma="ὁ">τῷ</w>  <w lemma="οἶκος">οἴκῳ</w><lb n="2"/><w lemma="οὗτος">τούτῳ</w><lb n="3"/><gap extent="1" unit="character" reason="lost"/><orig n="unresolved">Ν<unclear reason="damage">Δ</unclear>Ι</orig><lb n="3a"/><gap extent="1" unit="line" reason="lost"/></ab>
 </div>
          <div type="apparatus">
-            <p>l. 1, just possibly a <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Φ</foreign> at the start of this line.</p>
-            <p>l. 3, possibly from <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 1, just possibly a <foreign xml:lang="grc">Φ</foreign> at the start of this line.</p>
+            <p>l. 3, possibly from <foreign xml:lang="grc">
                   <supplied reason="lost">ἰ</supplied>νδι<supplied reason="lost">κτιών</supplied>
-               </foreign>, but a date is not particularly relevant here, so that a verb (?<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+               </foreign>, but a date is not particularly relevant here, so that a verb (?<foreign xml:lang="grc">
                   <supplied reason="lost">ἐ</supplied>νδι<supplied reason="lost">ατᾶται</supplied>
                </foreign>) might be considered more probable.</p>
          </div>

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Seat inscriptions: Theatre, loose block</title>
+            <title>
+               <rs type="textType">Seat inscriptions</rs>: Theatre, loose block</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -95,9 +96,6 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>)
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
                </term>
-               <term>
-                  <rs type="textType">Seat inscriptions</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -120,7 +118,7 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>)
 <milestone unit="block"/> <gap reason="lost" unit="character" extent="unknown"/></ab></div>
 </div>
          <div type="apparatus">
-            <p>b: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Λ</foreign> might be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α, Τ</foreign> might be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Π</foreign>, and <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Χ</foreign> might be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Λ</foreign>.</p>
+            <p>b: <foreign xml:lang="grc">Λ</foreign> might be <foreign xml:lang="grc">Α, Τ</foreign> might be <foreign xml:lang="grc">Π</foreign>, and <foreign xml:lang="grc">Χ</foreign> might be <foreign xml:lang="grc">Λ</foreign>.</p>
          </div>
          <div type="translation">
             <p>No translation possible.</p>

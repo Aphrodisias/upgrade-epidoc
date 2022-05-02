@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary fragment</title>
+            <title>
+               <rs type="textType">Funerary</rs> fragment</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +46,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Irregular; <height unit="metre">0.02</height> (<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">o</foreign>) - <height unit="metre">0.025-0.028</height>; diairetic dots around first <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">I</foreign>, l.2; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">o</foreign> for stops.</handNote>
+                     <handNote>Irregular; <height unit="metre">0.02</height> (<foreign xml:lang="grc">o</foreign>) - <height unit="metre">0.025-0.028</height>; diairetic dots around first <foreign xml:lang="grc">I</foreign>, l.2; <foreign xml:lang="grc">o</foreign> for stops.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -94,9 +95,6 @@
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -116,10 +114,10 @@
 </div>
          <div type="apparatus">
             <p>l. 6,  <seg cert="low">
-                  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Κ<unclear reason="damage">Α</unclear>ΒΕ</foreign>
+                  <foreign xml:lang="grc">Κ<unclear reason="damage">Α</unclear>ΒΕ</foreign>
                </seg> (JMR)</p>
-            <p>l. 7, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΚΛΩΕ</foreign> (JMR)</p>
-            <p>l. 8, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Π<unclear reason="damage">Λ</unclear>ΕΥ</foreign> (JMR)</p>
+            <p>l. 7, <foreign xml:lang="grc">ΚΛΩΕ</foreign> (JMR)</p>
+            <p>l. 8, <foreign xml:lang="grc">Π<unclear reason="damage">Λ</unclear>ΕΥ</foreign> (JMR)</p>
          </div>
          <div type="translation">
             <p>References to a name, to the Fates, to the whole city</p>

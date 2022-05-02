@@ -50,7 +50,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.025</height>; l.2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΚ</foreign> in ligature</handNote>
+                        <height unit="metre">0.025</height>; l.2, <foreign xml:lang="grc">ΝΚ</foreign> in ligature</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -113,7 +113,7 @@ Late second to third centuries A.D. (<rs type="criteria">lettering</rs>)</origDa
 <ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character"/> <w lemma="θεός">θεῷ</w> <space extent="4" unit="character" dim="horizontal"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ν</orig>  <w lemma="ὁ">τὸ<hi rend="ligature" id="hi1">ν</hi></w><link targets="hi1  hi2"/>  <w lemma="κράτιστος"><hi rend="ligature" id="hi2">κ</hi>ρά<lb n="3" break="no"/><supplied reason="lost" cert="low">τιστον</supplied></w> <w><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">κ</unclear>ισ</orig></w> <w lemma="ἐπί">ἐπι<lb n="4" break="no"/></w> <w><gap reason="lost" extent="unknown" unit="character"/>ριον  <lb n="5" break="no"/><gap reason="lost" extent="unknown" unit="character"/></w><orig n="unresolved">λ</orig>  <lb n="5a"/><gap reason="lost" extent="unknown" unit="line"/></ab>
 </div>
          <div type="apparatus">
-            <p>l. 3, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 3, <foreign xml:lang="grc">
                   <supplied reason="lost" cert="low">πολλά</supplied>κις</foreign>
             </p>
          </div>
@@ -122,13 +122,13 @@ Late second to third centuries A.D. (<rs type="criteria">lettering</rs>)</origDa
                <gap reason="lost" extent="unknown" unit="character"/>
                <supplied reason="subaudible">dedicated</supplied> to the deity  <gap reason="lost" extent="unknown" unit="character"/>
                <supplied reason="lost">
-                  <note>so and so</note>
+                  <note xml:lang=""/>
                </supplied> the eminent <gap reason="lost" extent="unknown" unit="character"/>
                <supplied reason="lost" cert="low">many</supplied> times  <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
          <div type="commentary">
-            <p> It appears that a statue of a fairly eminent person is being dedicated to a divinity. Since the location is near the Temenos of Aphrodite who is often entitled <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">θεός</foreign> she may well be the divinity concerned. Since the subject has the title <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κράτιστος</foreign> he was presumably of Roman equestrian status, possibly, but not necessarily, an official. In line 3 it seems probable that we have part of a statement that he did something many times.</p>
+            <p> It appears that a statue of a fairly eminent person is being dedicated to a divinity. Since the location is near the Temenos of Aphrodite who is often entitled <foreign xml:lang="grc">θεός</foreign> she may well be the divinity concerned. Since the subject has the title <foreign xml:lang="grc">κράτιστος</foreign> he was presumably of Roman equestrian status, possibly, but not necessarily, an official. In line 3 it seems probable that we have part of a statement that he did something many times.</p>
          </div>
          <div type="bibliography" n="none">
             <p>Unpublished.</p>

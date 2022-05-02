@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Verse honours: i. for Ampelios, father of the city; ii. and iii. for Doulkitios, <rs type="personType">governor</rs>, on the Agora Gate</title>
+            <title>
+               <rs type="textType">Verse</rs>
+               <rs type="textType">honours</rs>: i. for Ampelios, father of the city; ii. and iii. for Doulkitios, <rs type="personType">governor</rs>, on the Agora Gate</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -98,12 +100,6 @@
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
                </term>
-               <term>
-                  <rs type="textType">Verse</rs>
-               </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -154,13 +150,13 @@
       </div>
          <div type="apparatus">
             <div n="39">
-               <p>ii. l. 1,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+               <p>ii. l. 1,  <foreign xml:lang="grc">
                      <supplied reason="lost">Νυμφάων τ</supplied>έμενος</foreign> cj. Feissel</p>
-               <p>ii. l. 2,  The initial <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α</foreign> in <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ἀφροδισίαδος</foreign> is written <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Λ</foreign>. and the remaining traces of the first <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ο</foreign> look more like an <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α</foreign>.</p>
-               <p>ii. l. 3,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+               <p>ii. l. 2,  The initial <foreign xml:lang="grc">Α</foreign> in <foreign xml:lang="grc">Ἀφροδισίαδος</foreign> is written <foreign xml:lang="grc">Λ</foreign>. and the remaining traces of the first <foreign xml:lang="grc">Ο</foreign> look more like an <foreign xml:lang="grc">Α</foreign>.</p>
+               <p>ii. l. 3,  <foreign xml:lang="grc">
                      <supplied reason="lost">φεισάμενος</supplied>
                   </foreign> conjectured by Merkelbach</p>
-               <p>ii. l. 4,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+               <p>ii. l. 4,  <foreign xml:lang="grc">
                      <supplied reason="lost">ἀίδ</supplied>
                      <unclear reason="damage">ι</unclear>ον</foreign> conjectured by Merkelbach</p>
             </div>

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Place inscription of mydrostasia</title>
+            <title>
+               <rs type="textType">Place inscription</rs> of mydrostasia</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -95,9 +96,6 @@ Tetrapylon.</rs>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Place inscription</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -120,10 +118,10 @@ Tetrapylon.</rs>
       </div>
          <div type="apparatus">
             <p>
-               <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+               <foreign xml:lang="grc">
                   <expan>
                      <abbr>τό</abbr>
-                     <supplied reason="abbreviation">πος</supplied>
+                     <ex>πος</ex>
                   </expan> τῆς</foreign> Roueché, <title level="m">ALA</title> (from an inadequate photograph).</p>
          </div>
          <div type="translation">

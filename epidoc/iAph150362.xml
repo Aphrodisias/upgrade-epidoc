@@ -7,8 +7,10 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <rs type="textType">Funerary</rs>
-               <rs type="textType">verse</rs>  for Euphemia</title>
+               <rs type="textType">
+                  <rs type="textType">Funerary</rs>
+                  <rs type="textType">verse</rs>
+               </rs>  for Euphemia</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -43,9 +45,9 @@ ansata</rs> has been incised. The face is fairly worn.</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>The date, a, is written above the <term lang="la">tabella</term> and
+                        <layout>The date, a, is written above the <term xml:lang="la">tabella</term> and
 down the right side, which is worn; the main text, b, is
-written within the <term lang="la">tabella</term>, with each line of verse separated
+written within the <term xml:lang="la">tabella</term>, with each line of verse separated
 by an incised line.</layout>
                      </layoutDesc>
                   </objectDesc>
@@ -102,9 +104,6 @@ irregular.</handNote>
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">Funerary verse</rs>
                </term>
             </keywords>
          </textClass>

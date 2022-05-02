@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for Aelia Laevilla</title>
+            <title>
+               <rs type="textType">Honours</rs> for Aelia Laevilla</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +46,7 @@ No description; presumably a <objectType cert="low">statue base</objectType>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ</foreign> l.3</handNote>
+                     <handNote>Ligatures: <foreign xml:lang="grc">ΤΗ</foreign> l.3</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -91,9 +92,6 @@ No description; presumably a <objectType cert="low">statue base</objectType>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -110,11 +108,11 @@ No description; presumably a <objectType cert="low">statue base</objectType>
 <ab><lb n="1"/> <persName type="attested"><name nymRef="#Αἰλία">Αἰλίαν</name> <name nymRef="#Λαίβιλλα">Λαιβίλλαν</name></persName> <lb n="2"/> <placeName nymRef="#Ἀσία">Ἀσίας</placeName> <w lemma="ἀρχιέρεια">ἀρχιέρειαν</w> <lb n="3"/> <w lemma="καί">καὶ</w> <w lemma="κοσμήτειρα">κοσμήτειραν</w> <w lemma="ὁ"><hi rend="ligature">τῆ</hi>ς</w> <lb n="4"/> <persName type="divine"><w lemma="Εφέσιος">Εφεσίας</w> <name nymRef="#Ἄρτεμις">Ἀρτέμιδος</name></persName> <lb n="5"/> <w lemma="καί">καὶ</w> <w lemma="ἀρχιέρεια">ἀρχιέρειαν</w> <w lemma="ὁ">τῆς</w> <lb n="6"/> <w lemma="λαμπρός">λαμπροτάτης</w> <placeName nymRef="#Ἀφροδεισιεύς"><w lemma="Ἀφροδεισιεύς">Ἀφρο<lb n="7" break="no"/>δισ<unclear reason="damage">ιέ</unclear>ων</w></placeName> <w lemma="πόλις">πόλεως</w> <lb n="8"/> <w lemma="γυνή">γυναῖκα</w> <w lemma="γίγνομαι">γενομένην</w> <lb n="9"/> <persName type="attested"><name nymRef="#Σεπτίμιος">Σεπτιμίου</name> <name nymRef="#Ὑψικλῆς">Ὑψικλέους</name></persName> <lb n="10"/>  <space extent="3" unit="character" dim="horizontal"/> <w lemma="ἀρχιερεύς">ἀρχιερέως</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="11"/> <persName type="attested"><name nymRef="#Σεπτιμία">Σεπτιμία</name> <name nymRef="#Αἰλία">Αιλία</name> <name nymRef="#Φλάβιος">Φλα</name> <lb n="12"/><gap reason="lost" extent="2" unit="character"/><orig n="unresolved">ι</orig>  <name nymRef="#Λαίβιλλα">Λαιβίλλα</name></persName> <gap reason="lost" extent="1" unit="character"/> <w lemma="ὁ">αἱ</w> <w lemma="θυγάτηρ">θυγατ<unclear reason="damage">έ</unclear>ρ<unclear reason="damage">ε</unclear>ς</w> </ab>
 </div>
          <div type="apparatus">
-            <p>l. 7, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΣΕΙΩΝ</foreign> S.</p>
-            <p>ll. 11-12, It is not clear whether the stops in the MS after each name indicate stops on the stone or missing letters. Boeckh restored <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Φλα<supplied reason="lost">βία</supplied> Λαιβίλλα<supplied reason="lost">ι</supplied>
+            <p>l. 7, <foreign xml:lang="grc">ΣΕΙΩΝ</foreign> S.</p>
+            <p>ll. 11-12, It is not clear whether the stops in the MS after each name indicate stops on the stone or missing letters. Boeckh restored <foreign xml:lang="grc">Φλα<supplied reason="lost">βία</supplied> Λαιβίλλα<supplied reason="lost">ι</supplied>
                </foreign>
             </p>
-            <p>l. 12, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗΡΗΣ</foreign>
+            <p>l. 12, <foreign xml:lang="grc">ΤΗΡΗΣ</foreign>
             </p>
          </div>
          <div n="notyet" type="translation">

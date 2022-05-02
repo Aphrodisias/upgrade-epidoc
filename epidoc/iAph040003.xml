@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Building dedication to an emperor </title>
+            <title>
+               <rs type="textType">Building dedication</rs> to an emperor </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -47,7 +48,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.06</height>; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">B</foreign> with closed lower bowl.</handNote>
+                        <height unit="metre">0.06</height>; <foreign xml:lang="grc">B</foreign> with closed lower bowl.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -98,9 +99,6 @@ First to second century A.D. (<rs type="criteria">terminology</rs>, <rs type="cr
                <term>
                   <rs type="personType" key="imperatorius">Imperial</rs>
                </term>
-               <term>
-                  <rs type="textType">Building dedication</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -116,8 +114,8 @@ First to second century A.D. (<rs type="criteria">terminology</rs>, <rs type="cr
             <p> [[...]]</p>
          </div>
          <div type="commentary">
-            <p>The script rules out Augustus, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">π<supplied reason="lost">ατρὶ πατρίδος</supplied>
-               </foreign>.  The letters are noticeably later than the Zoilos material. Note especially <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">B</foreign>, which is on the way towards the second to third century  form. .</p>
+            <p>The script rules out Augustus, <foreign xml:lang="grc">π<supplied reason="lost">ατρὶ πατρίδος</supplied>
+               </foreign>.  The letters are noticeably later than the Zoilos material. Note especially <foreign xml:lang="grc">B</foreign>, which is on the way towards the second to third century  form. .</p>
          </div>
          <div type="bibliography">
             <p>Published by<bibl type="primary" n="jmr1980">

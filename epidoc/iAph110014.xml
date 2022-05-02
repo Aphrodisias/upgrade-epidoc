@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Fragmentary honours</title>
+            <title> Fragmentary <rs type="textType">honours</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +46,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>I-II, distinctive; diairesis on <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Y</foreign>, l.3;</handNote>
+                     <handNote>I-II, distinctive; diairesis on <foreign xml:lang="grc">Y</foreign>, l.3;</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -93,9 +94,6 @@ First to second centuries A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -109,7 +107,7 @@ First to second centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/><gap reason="lost" unit="line" extent="unknown"/><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc"><unclear reason="damage">Ι</unclear>Ε</foreign><gap reason="lost" unit="character" extent="unknown"/><lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΙΑ<unclear reason="damage">Μ</unclear></foreign><gap reason="lost" unit="character" extent="unknown"/><lb n="3"/><gap reason="lost" unit="character" extent="unknown"/><foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΑΙΥΠ</foreign><gap reason="lost" unit="character" extent="unknown"/><lb n="4"/><gap reason="lost" unit="character" extent="unknown"/><foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc"><unclear reason="damage">Τ</unclear>Σ<unclear reason="damage">Υ</unclear></foreign><gap reason="lost" unit="character" extent="unknown"/><lb n="4a"/><gap reason="lost" unit="line" extent="unknown"/></ab>
+<ab><lb n="0"/><gap reason="lost" unit="line" extent="unknown"/><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><foreign xml:lang="grc"><unclear reason="damage">Ι</unclear>Ε</foreign><gap reason="lost" unit="character" extent="unknown"/><lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><foreign xml:lang="grc">ΜΙΑ<unclear reason="damage">Μ</unclear></foreign><gap reason="lost" unit="character" extent="unknown"/><lb n="3"/><gap reason="lost" unit="character" extent="unknown"/><foreign xml:lang="grc">ΤΑΙΥΠ</foreign><gap reason="lost" unit="character" extent="unknown"/><lb n="4"/><gap reason="lost" unit="character" extent="unknown"/><foreign xml:lang="grc"><unclear reason="damage">Τ</unclear>Σ<unclear reason="damage">Υ</unclear></foreign><gap reason="lost" unit="character" extent="unknown"/><lb n="4a"/><gap reason="lost" unit="line" extent="unknown"/></ab>
 </div>
          <div type="translation" n="none">
             <p> No translation possible</p>

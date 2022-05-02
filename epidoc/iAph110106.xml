@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary fragment</title>
+            <title>
+               <rs type="textType" cert="low">Funerary</rs> fragment</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -89,12 +90,12 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
 </div>
          <div type="apparatus">
             <p>l. 2, <seg cert="low">
-                  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Μακεδόν<supplied reason="lost">ος</supplied>
+                  <foreign xml:lang="grc">Μακεδόν<supplied reason="lost">ος</supplied>
                   </foreign>
                </seg>; for this name see <ref type="inscription" n="1013" target="120312.xml"/>
             </p>
             <p>l. 3, <seg cert="low">
-                  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κατὰ τ<supplied reason="lost">ὰ</supplied>
+                  <foreign xml:lang="grc">κατὰ τ<supplied reason="lost">ὰ</supplied>
                      <gap reason="lost" unit="character" extent="unknown"/>
                   </foreign>
                </seg>

@@ -111,11 +111,11 @@ First to third centuries A.D.
 <ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>Π<unclear reason="damage">ΑΤ</unclear><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">Ι</unclear>ΥΛ<gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ΟΥ<gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">Τ</unclear>ΟΥ<gap reason="lost" extent="unknown" unit="character"/>  <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>Ο<unclear reason="damage">Υ</unclear><gap reason="lost" extent="unknown" unit="character"/>  <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>  <space extent="3" unit="character" dim="horizontal"/>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="6a"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 1, perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">πατ[ρι-</foreign>
+            <p>l. 1, perhaps <foreign xml:lang="grc">πατ[ρι-</foreign>
             </p>
-            <p>l. 2, perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Πα]<unclear reason="damage">π</unclear>υλ[ο-</foreign>
+            <p>l. 2, perhaps <foreign xml:lang="grc">Πα]<unclear reason="damage">π</unclear>υλ[ο-</foreign>
             </p>
-            <p>l. 4, perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 4, perhaps <foreign xml:lang="grc">
                   <unclear reason="damage">Π</unclear>ΟΥ</foreign>
             </p>
          </div>

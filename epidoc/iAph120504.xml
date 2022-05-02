@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Building <rs type="textType" reg="dedication to Demos">dedication</rs> to Demos</title>
+            <title>
+               <rs type="textType" reg="Building inscription">Building <rs type="textType" reg="dedication to Demos">dedication</rs>
+               </rs> to Demos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -57,7 +59,7 @@ Early first century B.C. to early first century A.D. (<rs type="criteria">letter
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList" cert="low">Walls, South-east</rs>: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">sur une grande assise</foreign>' in the foundations</rs>
+                        <rs type="monuList" cert="low">Walls, South-east</rs>: '<foreign xml:lang="fr">sur une grande assise</foreign>' in the foundations</rs>
                   </provenance>
                   <provenance type="observed" when="1850">
                      <rs type="lastLocation">Findspot (1850)</rs>
@@ -92,9 +94,6 @@ Early first century B.C. to early first century A.D. (<rs type="criteria">letter
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Building inscription</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -115,7 +114,7 @@ Early first century B.C. to early first century A.D. (<rs type="criteria">letter
             <p>l.3, Waddington notes that in his notebook the lacuna is longer than in the printed epigraphic text.</p>
          </div>
          <div type="translation">
-            <p>Menandros son of Menodotos, acting for Menodotos his father and for Eugenia his mother, (gave) the epistyle and the decoration above it for [ . . . <note>masculine</note>] and the People</p>
+            <p>Menandros son of Menodotos, acting for Menodotos his father and for Eugenia his mother, (gave) the epistyle and the decoration above it for [ . . . <note xml:lang=""/>] and the People</p>
          </div>
          <div type="commentary">
             <p>This is one of a group of such texts, almost all found re-used near the South-east Gate, dedicating an <term>epistylion</term>, with its decoration (<term>kosmos</term>) to the Demos: <ref type="inscription" n="1126" target="120405.xml"/> (=CIG 2752), <ref type="inscription" n="1103" target="120503.xml"/> (=LBW 1589), <ref type="inscription" n="1104" target="120504.xml"/> (= LBW 1591), <ref type="inscription" n="1127" target="120505.xml"/> (=MAMA 439), <ref type="inscription" n="1128" target="120506.xml"/> (=MAMA 440), <ref type="inscription" n="1129" target="130503.xml"/> (=MAMA 441), <ref type="inscription" n="1130" target="120406.xml"/> (=MAMA 442), <ref type="inscription" n="1131" target="120407.xml"/> (=MAMA 443), <ref type="inscription" n="1132" target="120408.xml"/> (=MAMA 442), <ref type="inscription" n="1133" target="120404.xml"/> (= Reinach 127 and 128).</p>

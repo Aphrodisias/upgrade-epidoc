@@ -112,7 +112,7 @@ First to third centuries A.D. (<rs type="criteria">lettering</rs>)
             <p>No translation possible.</p>
          </div>
          <div type="commentary">
-            <p>Perhaps a text which included the genitive case of the  name <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ἀγαθόπους</foreign>.</p>
+            <p>Perhaps a text which included the genitive case of the  name <foreign xml:lang="grc">Ἀγαθόπους</foreign>.</p>
          </div>
          <div type="bibliography" n="none">
             <p>Unpublished.</p>

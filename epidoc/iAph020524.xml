@@ -123,7 +123,7 @@ surviving.</p>
             <ab>
                <gap reason="lost" unit="character" extent="unknown"/>
                <seg cert="low">sacrilege</seg>
-               <note place="not specified" anchored="yes">sacred law?</note>
+               <note place="not specified" xml:lang=""/>
                <gap reason="lost" unit="character" extent="unknown"/>
             </ab>
          </div>

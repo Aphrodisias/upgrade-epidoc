@@ -40,7 +40,7 @@
                         <support>
                            <p>
                               <material key="marmor">White marble</material>
-                              <objectType reg="paving">stylobate blocks</objectType>.</p>
+                              <objectType key="paving">stylobate blocks</objectType>.</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>

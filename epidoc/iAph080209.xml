@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Votive offering  to Kore Plyarei by Diogenes and Tatias</title>
+            <title>
+               <rs type="textType">Votive</rs> offering  to Kore Plyarei by Diogenes and Tatias</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +47,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.015-0.017</height>; partly in counter-relief; poorly cut and shaped. Square and lunate <term lang="grc-Latn">epsilon</term>. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗ</foreign> in ligature, l. 1.</handNote>
+                        <height unit="metre">0.015-0.017</height>; partly in counter-relief; poorly cut and shaped. Square and lunate <term xml:lang="grc-Latn">epsilon</term>. <foreign xml:lang="grc">ΝΗ</foreign> in ligature, l. 1.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -98,9 +99,6 @@ Perhaps third to second centuries B.C.
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Votive</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -117,13 +115,13 @@ Perhaps third to second centuries B.C.
 <ab><lb n="1"/>  <persName type="attested"><name nymRef="#Διωγένης">Διωγέ<hi rend="ligature">νη</hi>ς</name></persName>  <lb n="2"/> <w lemma="μετά">μετὰ</w> <persName type="attested"><name nymRef="#Παπίας">Τατιάς</name></persName>  <lb n="3"/><persName type="divine"><name nymRef="#Κόρη">Κούρῃ</name>  <placeName nymRef="#Πλυαρεύς">Πλυαρει</placeName></persName><lb n="4"/> <w lemma="εὐχή">ε<unclear reason="damage">ὐ</unclear>χήν</w> </ab>
 </div>
          <div type="apparatus">
-            <p>The  counter-relief makes the readings often difficult; it would be possible to argue for <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Διιωγένης</foreign> and <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Παπίας</foreign>.</p>
+            <p>The  counter-relief makes the readings often difficult; it would be possible to argue for <foreign xml:lang="grc">Διιωγένης</foreign> and <foreign xml:lang="grc">Παπίας</foreign>.</p>
          </div>
          <div type="translation">
             <p>Diogenes with Tatias to the Koure of Plyara.</p>
          </div>
          <div type="commentary">
-            <p>This seems likely to be one of the earliest inscriptions from the site. The letters are atypical but could be of the second century B.C. (though also much later). The deity (presumably Kore, the maiden) is described by an ethnic adjective relating her to a city known only from a text, probably of the second century B.C. (<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ὁ δῆμος ὁ Πλυαρέων</foreign> in <ref type="inscription" n="1892" target="020506.xml"/> (=BE 1973.398)), found at Aphrodisias; it must certainly have been a nearby place and to some the evidence suggests that it may have been Aphrodisias under an earlier name. This inscription can be taken to support this view.</p>
+            <p>This seems likely to be one of the earliest inscriptions from the site. The letters are atypical but could be of the second century B.C. (though also much later). The deity (presumably Kore, the maiden) is described by an ethnic adjective relating her to a city known only from a text, probably of the second century B.C. (<foreign xml:lang="grc">ὁ δῆμος ὁ Πλυαρέων</foreign> in <ref type="inscription" n="1892" target="020506.xml"/> (=BE 1973.398)), found at Aphrodisias; it must certainly have been a nearby place and to some the evidence suggests that it may have been Aphrodisias under an earlier name. This inscription can be taken to support this view.</p>
          </div>
          <div type="bibliography" n="none">
             <p>Unpublished.</p>

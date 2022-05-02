@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Statue dedication  for emperor Claudius</title>
+            <title>
+               <rs type="textType">Statue dedication</rs>  for <rs type="textType" reg="imperial">emperor</rs> Claudius</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -101,12 +102,6 @@ A.D. 41/54
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">Statue dedication</rs>
-               </term>
-               <term>
-                  <rs type="textType">imperial</rs>
                </term>
             </keywords>
          </textClass>

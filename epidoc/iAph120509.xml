@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary inscription for anonymi</title>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for anonymi</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -89,9 +90,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -108,7 +106,7 @@
 <ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/>  <lb n="2"/> <w lemma="κληρονόμος">κληρονόμων</w> <lb n="3"/> <w lemma="διάδοχος">διαδόχων</w> <w lemma="τε">τε</w> <lb n="4"/> <w lemma="αὐτός">αὐτῶν</w> <w lemma="καί">καὶ</w> <w lemma="εἰμί">ὧν</w> <lb n="5"/> <w lemma="ἐάν">ἂν</w> <w lemma="αὐτός">αὐτοὶ</w> <w lemma="βούλομαι">βου <lb n="6"/> ληθῶσιν</w> <w lemma="ἤ">ἢ</w> <w lemma="διατάσσω">δι<lb n="7" break="no"/>ατάξ<unclear reason="damage">ω</unclear>νται</w>  <g ref="#stop"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 6, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΞΑΝΤΑΙ</foreign> Sherard, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΞΩΝΤΑΙ</foreign> Picenini, Fellows</p>
+            <p>l. 6, <foreign xml:lang="grc">ΞΑΝΤΑΙ</foreign> Sherard, <foreign xml:lang="grc">ΞΩΝΤΑΙ</foreign> Picenini, Fellows</p>
          </div>
          <div n="notyet" type="translation">
             <p>No translation yet (2007)</p>

@@ -7,7 +7,8 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <rs type="textType">Honours</rs>, perhaps <rs type="textType">funerary</rs>,  for  <gap reason="lost" unit="character" extent="unknown"/> Julianos and Flavia Apphia Iuliane</title>
+               <rs type="textType" reg="posthumous honours">
+                  <rs type="textType">Honours</rs>, perhaps <rs type="textType">funerary</rs>, </rs> for  <gap reason="lost" unit="character" extent="unknown"/> Julianos and Flavia Apphia Iuliane</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -38,7 +39,7 @@
                         <support>
                            <p>
                               <material key="marmor">White marble</material>
-                              <objectType reg="block">block</objectType> or <objectType reg="base">statue base</objectType> (<width unit="metre">0.44</width>   × <height unit="metre">0.67</height>   × <depth>0.44</depth>) with drafted edges on the left and right sides. The stone is chipped above and to the right, but complete above.</p>
+                              <objectType key="block">block</objectType> or <objectType key="base">statue base</objectType> (<width unit="metre">0.44</width>   × <height unit="metre">0.67</height>   × <depth>0.44</depth>) with drafted edges on the left and right sides. The stone is chipped above and to the right, but complete above.</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -47,7 +48,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <measure type="length" dim="none">0.0225-0.25</measure>; phi <height unit="metre">0.36</height>
+                        <height>0.0225-0.25</height>; phi <height unit="metre">0.36</height>
                      </handNote>
                   </handDesc>
                </physDesc>
@@ -94,9 +95,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">posthumous honours</rs>
                </term>
             </keywords>
          </textClass>

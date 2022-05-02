@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>List of Jews and godfearers</title>
+            <title>
+               <rs type="textType">List</rs> of Jews and godfearers</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -49,16 +50,16 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>a., letter-heights average <height unit="metre">0.03</height> in ll. 1-5 and <height unit="metre">0.02</height> thereafter; letters were apparently designed freehand, and include
-               both angular and lunate <term lang="grc-Latn">epsilon</term> and <term lang="grc-Latn">sigma</term> (as well as lunate <term lang="la">omega</term>),
-                  <term lang="la">alpha</term> sometimes with a straight, sometimes with a dropped
-               bar, and <term lang="grc-Latn">omicron</term> frequently written small. Ligatured
-                  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΩΝ</foreign> in l. 5; many abbreviations, most of them marked
+               both angular and lunate <term xml:lang="grc-Latn">epsilon</term> and <term xml:lang="grc-Latn">sigma</term> (as well as lunate <term xml:lang="la">omega</term>),
+                  <term xml:lang="la">alpha</term> sometimes with a straight, sometimes with a dropped
+               bar, and <term xml:lang="grc-Latn">omicron</term> frequently written small. Ligatured
+                  <foreign xml:lang="grc">ΩΝ</foreign> in l. 5; many abbreviations, most of them marked
                by a sign—superscript bar, lightning-bolt, s, c, or c (ll. 3-5, 13, 15, 17, 19, 21,
                22)—or by raising the final inscribed letter above the text (l. 10). Graffito at
                bottom of this face (col. ii), letters <height unit="metre">0.06</height>.b., letter-heights <height unit="metre">0.02</height> throughout, cut between visible guidelines; they are also normally
-               consistent in form, with lunate <term lang="la">epsilon</term>, <term lang="la">sigma</term>, and <term lang="grc-Latn">omega</term>, although <term lang="grc-Latn">alpha</term> appears both with straight and dropped bar. Some entried in a later
+               consistent in form, with lunate <term xml:lang="la">epsilon</term>, <term xml:lang="la">sigma</term>, and <term xml:lang="grc-Latn">omega</term>, although <term xml:lang="grc-Latn">alpha</term> appears both with straight and dropped bar. Some entried in a later
                hand, over erasures (ll. 15, 20, 32, 39, 48), or on the original surface (ll. 5, 8,
-               30, 58, 60-1). Abbreviations: downward-slanting line attached to <term lang="grc-Latn">rho</term> at the end of l. 23, round dots after the last
+               30, 58, 60-1). Abbreviations: downward-slanting line attached to <term xml:lang="grc-Latn">rho</term> at the end of l. 23, round dots after the last
                inscribed letters in ll. 26, 27, 41, a slanting stroke attached to one in the middle
                of l. 48, probably s in l. 32 and c at the end of l. 56. Stops in the form of small
                round dots or arrowheads, once a small circle (l. 53). Diaeresis marks, ll. 5, 10,
@@ -114,9 +115,6 @@
                </term>
                <term>
                   <rs type="textType" key="cetera">jewish</rs>
-               </term>
-               <term>
-                  <rs type="textType">List</rs>
                </term>
             </keywords>
          </textClass>
@@ -277,14 +275,12 @@
                <div n="ii" type="textpart" subtype="section">
                   <ab>
                      <lb n="1"/>
-                     <note lang="en" place="not  specified" anchored="yes">If cut when the stele was
-                        standing:</note>
+                     <note place="not  specified" xml:lang="en"/>
                      <w>
                         <orig n="unresolved">ΝΜ<unclear reason="damage">Δ</unclear></orig>
                      </w>
                      <lb n="1a"/>
-                     <note lang="en" place="not  specified" anchored="yes">If cut upside down to the
-                        main text:</note>
+                     <note place="not  specified" xml:lang="en"/>
                      <w>
                         <orig n="unresolved"><unclear reason="damage">Π</unclear>ΩΝ</orig>
                      </w>
@@ -345,7 +341,7 @@
                   <persName type="attested">
                      <name nymRef="#Ἰωφ">Ἰωφ</name>
                   </persName>
-                  <note place="not  specified" anchored="yes">sic</note>
+                  <note place="not  specified" xml:lang=""/>
                   <lb n="6"/>
                   <persName type="attested">
                      <name nymRef="#Ἰούδας">Ἰούδας</name>
@@ -977,7 +973,7 @@
                Gorgonios, son of Oxucholios, Heortasios, son of Achilles, Eusabbathios, son of
                Oxucholios, Paregorios, Heortasios, son of Zotikos, Sumeon, son of Zenon </p>
             <p>
-               <note>6 lines blank</note>
+               <note xml:lang=""/>
             </p>
             <p>And the following Godfearers: Zenon, councillor, Tertullos, councillor, Diogenes,
                councillor, Onesimos, councillor, Zenon, son of Longianos, councillor, Antipeos,

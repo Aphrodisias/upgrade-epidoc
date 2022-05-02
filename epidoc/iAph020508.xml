@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary honours for Kastor son of Menekrates</title>
+            <title>
+               <rs type="textType">Funerary</rs>
+               <rs type="textType">honours</rs> for Kastor son of Menekrates</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +48,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.025</height>; ligatured <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΤ</foreign> in  l. 8.</handNote>
+                        <height unit="metre">0.025</height>; ligatured <foreign xml:lang="grc">ΝΤ</foreign> in  l. 8.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -93,12 +95,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -121,7 +117,7 @@
             <p>[?The Council and the People honoured] with the finest [honours] Kastor son of Menekrates Iason, son of Kastor son of Menekrates, hero, a young man, fine and good, who lived in accordance with every perfect virtue. Julius [..?..] erected the honour to Kastor his friend.</p>
          </div>
          <div type="commentary">
-            <p>L. 2 indicates that the honours paid were public and therefore decreed by public bodies—probably, therefore, the city council, people, and/or perhaps gerousia, possibly the youth as well (<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">οἱ νεοί</foreign>) since the honorand is a youth.</p>
+            <p>L. 2 indicates that the honours paid were public and therefore decreed by public bodies—probably, therefore, the city council, people, and/or perhaps gerousia, possibly the youth as well (<foreign xml:lang="grc">οἱ νεοί</foreign>) since the honorand is a youth.</p>
             <p>The honorand is named with his father, grandfather, and great-grandfather, one of whom had the second name Iason—probably his father Menekrates who had the same name as <emph>his</emph> grandfather and will have needed a second name to distinguish him. The honour was in fact set up by a friend whose name sugests that he had Roman citizenship, probably given to him or to his family by Augustus or a Julio-Claudian emperor—not quite impossibly C. Julius Zoilos or a descendant of his.</p>
             <p>The family also probably figures in <ref type="inscription" n="1020" target="110006.xml"/> (=MAMA 488).</p>
          </div>

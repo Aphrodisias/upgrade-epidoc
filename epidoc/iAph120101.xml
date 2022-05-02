@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>i. Honours for Flavius Constantius, <rs type="personType">governor</rs>, for building the wall; ii. Flavius Ampelios restores the gate</title>
+            <title>i. <rs type="textType">Honours</rs> for Flavius Constantius, <rs type="personType">governor</rs>, for <rs type="textType" reg="building inscription">building the wall</rs>; ii. Flavius Ampelios restores the gate</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -42,24 +42,24 @@ A <material>white marble</material>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-i. is cut on the upper fascia, and ii. on the lower. A cross flanked by an <term lang="grc-Latn">alpha</term> and an <term lang="grc-Latn">omega</term> within a circle was later cut over i., probably at the time that ii. was cut, or perhaps when it was emended.</layout>
+i. is cut on the upper fascia, and ii. on the lower. A cross flanked by an <term xml:lang="grc-Latn">alpha</term> and an <term xml:lang="grc-Latn">omega</term> within a circle was later cut over i., probably at the time that ii. was cut, or perhaps when it was emended.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote>
-i. l. 1, <height unit="metre">0.07</height>, l. 2, <height unit="metre">0.08</height>; elongated, well-cut and regular; the <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α</foreign> of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἡγεμόνα</foreign> was added above the line, <height>0.03</height>; scroll for abbreviation; b. <height unit="metre">0.04</height>.
+i. l. 1, <height unit="metre">0.07</height>, l. 2, <height unit="metre">0.08</height>; elongated, well-cut and regular; the <foreign xml:lang="grc">Α</foreign> of <foreign xml:lang="grc">ἡγεμόνα</foreign> was added above the line, <height>0.03</height>; scroll for abbreviation; b. <height unit="metre">0.04</height>.
 
-ii. <height unit="metre">0.07</height>; well cut; abbreviations: last letter above line in <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗΤΡΟΠ<hi rend="superscript">ο</hi>, ΕΛΛΟΓΙΜ<hi rend="superscript">ο</hi>, ΣΧ<hi rend="superscript">ο</hi>
-                        </foreign>; scroll in <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+ii. <height unit="metre">0.07</height>; well cut; abbreviations: last letter above line in <foreign xml:lang="grc">ΜΗΤΡΟΠ<hi rend="superscript">ο</hi>, ΕΛΛΟΓΙΜ<hi rend="superscript">ο</hi>, ΣΧ<hi rend="superscript">ο</hi>
+                        </foreign>; scroll in <foreign xml:lang="grc">
                            <expan>
                               <abbr>Φλ</abbr>
-                              <supplied reason="abbreviation">αουίου</supplied>
+                              <ex>αουίου</ex>
                            </expan>, <expan>
                               <abbr>κ</abbr>
-                              <supplied reason="abbreviation">αὶ</supplied>
+                              <ex>αὶ</ex>
                            </expan>, <expan>
                               <abbr>ἰνδ</abbr>
-                              <supplied reason="abbreviation">ικτίωνος</supplied>
+                              <ex>ικτίωνος</ex>
                            </expan>
                         </foreign>.</handNote>
                   </handDesc>
@@ -115,12 +115,6 @@ Findspot (2004)</rs>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
-               <term>
-                  <rs type="textType">building inscription</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -150,7 +144,7 @@ Findspot (2004)</rs>
 <name nymRef="#Κωστάντιος">Κωστάντιον</name></persName> <w lemma="ὁ">τὸν</w> <rs type="dignity" key="clarissimus"><w lemma="λαμπρός">λαμπρότατον</w></rs> <rs type="official-secul" key="praeses"><w lemma="ἡγεμών">ἡγεμόν<add place="supralinear">α</add></w></rs> <rs type="subject" key="CouncilPeople"><w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w></rs> <g ref="#leaf"/><lb n="2"/>
 <g ref="#scroll"/>
 <space dim="horizontal" extent="1" unit="character"/> <w lemma="μετά">μετὰ</w> <w lemma="ὁ">τῶν</w> <w lemma="ἄλλος">ἄλλων</w> <w lemma="ἔργον">ἔργων</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὸ</w> <w lemma="τεῖχος">τεῖχος</w> <w lemma="ἀνίστημι">ἀναστήσαντα</w> <g ref="#star"/></ab></div>
-<div n="b" type="textpart" subtype="section"><ab><lb n="1"/><note place="not specified" anchored="yes">cut over text</note> <w lemma="Α">Α</w> <g ref="#cross"/> <w lemma="Ω">Ω</w></ab></div></div>
+<div n="b" type="textpart" subtype="section"><ab><lb n="1"/><note place="not specified" xml:lang=""/> <w lemma="Α">Α</w> <g ref="#cross"/> <w lemma="Ω">Ω</w></ab></div></div>
 
 <div n="ii" type="textpart" subtype="section"><ab n="scholasticus" type="profession"><lb n="1"/>
 <g ref="#cross"/> <w lemma="ἐπί">ἐπὶ</w> <w lemma="εὐτυχία">εὐτυχίᾳ</w> <w lemma="ὁ">τῆς</w> <rs type="dignity" key="clarus"><w lemma="λαμπρός">λαμπρᾶς</w></rs> <w lemma="Σταυροπολίτης"><placeName nymRef="#Σταυρουπολίτης"><supplied reason="omitted">Σ</supplied>ταυρουπολίτων</placeName></w> <rs type="subject" key="capital"><w lemma="μητρόπολις"><expan><abbr>μητροπ</abbr><ex>όλεως</ex></expan></w></rs> <w lemma="καί">καὶ</w> <w lemma="οὗτος">τοῦτο</w> <w lemma="ὁ">τὸ</w> <w lemma="ἔργον">ἔργον</w> <w lemma="ὁ">τῆς</w> <w lemma="πύλη">πύλης</w> <g ref="#stop"/> <w lemma="ἀνανεόω">ἀναινεώθη</w><lb n="2"/>
@@ -168,11 +162,11 @@ Findspot (2004)</rs>
 </div>
          <div type="apparatus">
             <p>
-i. l.1. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τόν</foreign> omitted by MAMA. The superscript <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α</foreign> was first noted by Reinach.
+i. l.1. <foreign xml:lang="grc">τόν</foreign> omitted by MAMA. The superscript <foreign xml:lang="grc">Α</foreign> was first noted by Reinach.
 </p>
             <p>ii. 
-l.1. After <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">λαμπρᾶς</foreign> the text originally read <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
-                  <del rend="overscore" status="unremarkable">ΑΦ</del>ΡΟ<del rend="overscore" status="unremarkable">ΔΙΣΙΑ</del>ΙΩΝ</foreign>; the letters highlighted here were subsequently erased and replaced, and the <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ι</foreign> of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΙΩΝ</foreign> altered to <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Τ</foreign>, to read <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΑΥΡΟΠΟΛΙΤΩΝ</foreign>.
+l.1. After <foreign xml:lang="grc">λαμπρᾶς</foreign> the text originally read <foreign xml:lang="grc">
+                  <del rend="overscore" status="unremarkable">ΑΦ</del>ΡΟ<del rend="overscore" status="unremarkable">ΔΙΣΙΑ</del>ΙΩΝ</foreign>; the letters highlighted here were subsequently erased and replaced, and the <foreign xml:lang="grc">Ι</foreign> of <foreign xml:lang="grc">ΙΩΝ</foreign> altered to <foreign xml:lang="grc">Τ</foreign>, to read <foreign xml:lang="grc">ΤΑΥΡΟΠΟΛΙΤΩΝ</foreign>.
 </p>
             <p>
 Earlier editors did not record the two stops (simple dots) or the apparent trace of a cross at the beginning of l. 2; the stone is broken here, and the reading is not certain.</p>
@@ -180,9 +174,9 @@ Earlier editors did not record the two stops (simple dots) or the apparent trace
          <div type="translation">
             <p>
 i. The Council and the People <supplied reason="subaudible">have honoured</supplied>
-Fl<supplied reason="abbreviation">avius</supplied> Co<supplied reason="omitted">n</supplied>stantius, <term lang="la">clarissimus praeses</term>, who, as well as his other works, put up the wall.</p>
+Fl<ex>avius</ex> Co<supplied reason="omitted">n</supplied>stantius, <term xml:lang="la">clarissimus praeses</term>, who, as well as his other works, put up the wall.</p>
             <p>ii. 
-For the good fortune of the splendid metropolis of the <supplied reason="omitted">S</supplied>tauropolitans, this work of the gate was also renewed, under Fl<supplied reason="abbreviation">avius</supplied> Ampelios, the most eloquent <term lang="la">scholasticus</term> and <term lang="la">pater</term>, in the eighth indiction.</p>
+For the good fortune of the splendid metropolis of the <supplied reason="omitted">S</supplied>tauropolitans, this work of the gate was also renewed, under Fl<ex>avius</ex> Ampelios, the most eloquent <term xml:lang="la">scholasticus</term> and <term xml:lang="la">pater</term>, in the eighth indiction.</p>
          </div>
          <div type="commentary">
             <p>i: 

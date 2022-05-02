@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Posthumous <rs type="textType">honours</rs> for  Adrastos son of Nikotimos</title>
+            <title>
+               <rs type="textType">Posthumous <rs type="textType">honours</rs>
+               </rs> for  Adrastos son of Nikotimos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -36,7 +38,7 @@
                      <supportDesc>
                         <support>
                            <p>Fragment from the left side of a <material key="marmor">white marble</material>
-                              <objectType reg="base">base</objectType> (<measure type="length" dim="none">0.12</measure> × <measure type="length" dim="none">0.50</measure> × <measure type="depth" dim="none">0.14</measure>).</p>
+                              <objectType key="base">base</objectType> (<height>0.12</height> × <height>0.50</height> × <height>0.14</height>).</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -91,9 +93,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Posthumous honours</rs>
                </term>
             </keywords>
          </textClass>

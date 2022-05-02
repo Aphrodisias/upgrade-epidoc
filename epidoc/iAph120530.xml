@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for Diogenes and Attalos</title>
+            <title>
+               <rs type="textType">Honours</rs> for Diogenes and Attalos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -44,7 +45,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗΝ</foreign> i.1; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗΣ</foreign>, ii.2</handNote>
+                     <handNote>Ligatures: <foreign xml:lang="grc">ΝΗΝ</foreign> i.1; <foreign xml:lang="grc">ΝΗΣ</foreign>, ii.2</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -91,9 +92,6 @@ Second century A.D.
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Honours</rs>
                </term>
             </keywords>
          </textClass>

@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Pavement designs and an acclamation</title>
+            <title>
+               <rs type="textType">Pavement designs</rs> and an <rs type="textType">acclamation</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -84,37 +86,34 @@ Second-tenth century A.D. (<rs type="criteria">context</rs>).</origDate>
       <body>
          <div lang="grc" type="textpart" subtype="section">
             <div n="i" type="textpart" subtype="section">
-               <note>A board, type 3Rows.1, clear-cut graffito, with frame, central line, and circles on central line (<measure dim="height" type="length" unit="metre">0.56</measure> x <measure dim="width" type="length" unit="metre">0.77</measure>). On the south side, 2 crosses (ave. <measure dim="height" type="length" unit="metre">0.055</measure>) have been cut across the frame; between them a monogram appears to have been erased. 
-</note>
+               <note xml:lang=""/>
             </div>
             <div n="ii" type="textpart" subtype="section">
-               <note>A circle, type C.7; diam. 0.53.</note>
+               <note xml:lang=""/>
             </div>
             <div n="iii" type="textpart" subtype="section">
                <ab>
-                  <note>A circle, type C.2, very lightly cut; diam. 0.48. Across it an inscription: 
-</note>
+                  <note xml:lang=""/>
                   <lb n="1"/>
                   <w>Ἡ</w>
                   <w>τύχη</w>
                   <persName type="divine">
                      <expan>
                         <abbr>Οὐρ</abbr>
-                        <supplied reason="abbreviation" cert="low">ανία</supplied>
+                        <ex cert="low">ανία</ex>
                      </expan>
                   </persName>
                </ab>
             </div>
             <div n="iv" type="textpart" subtype="section">
-               <note>A circle type C.2, very worn (diam. 0.56). 
-</note>
+               <note xml:lang=""/>
             </div>
             <div n="v" type="textpart" subtype="section">
-               <note>A circle, type C.7 (diam. 0.35). </note>
+               <note xml:lang=""/>
             </div>
          </div>
          <div type="translation">
-            <p>iii: The fortune <supplied reason="abbreviation" cert="low">is</supplied> Our<supplied reason="abbreviation" cert="low">ania</supplied>
+            <p>iii: The fortune <ex cert="low">is</ex> Our<ex cert="low">ania</ex>
             </p>
          </div>
          <div type="commentary">

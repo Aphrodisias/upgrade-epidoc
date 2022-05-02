@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Seat inscriptions: Stadium Block 37</title>
+            <title>
+               <rs type="textType">Seat inscriptions</rs>: Stadium Block 37</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -95,9 +96,6 @@ Second-sixth century A.D.
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
                </term>
-               <term>
-                  <rs type="textType">Seat inscriptions</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -112,8 +110,7 @@ Second-sixth century A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<div n="X" type="textpart" subtype="section"><note>
-Design, a circle type C7.</note></div><div n="W" type="textpart" subtype="section"><ab><lb n="1"/> 
+<div n="X" type="textpart" subtype="section"><note xml:lang=""/></div><div n="W" type="textpart" subtype="section"><ab><lb n="1"/> 
 
 <w lemma="τόπος">τόπος</w> <w lemma="αὐράριος"><expan><abbr>α<unclear reason="damage">ὐ</unclear>ρ</abbr><ex cert="low">αρίων</ex></expan></w></ab></div>
 </div>

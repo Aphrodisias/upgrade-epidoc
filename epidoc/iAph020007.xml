@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Seat inscriptions, Odeon block C</title>
+            <title>
+               <rs type="textType">Seat inscriptions</rs>, Odeon block C</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -96,9 +97,6 @@ Second-sixth century A.D.
                </term>
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
-               </term>
-               <term>
-                  <rs type="textType">Seat inscriptions</rs>
                </term>
             </keywords>
          </textClass>

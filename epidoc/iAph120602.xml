@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary honours for Geis and Heraios</title>
+            <title>
+               <rs type="textType" cert="low">Funerary</rs>
+               <rs type="textType">honours</rs> for Geis and Heraios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -37,7 +39,7 @@
                         <support>
                            <p>
                               <material key="marmor">White marble</material>
-                              <objectType reg="architrave block">architrave block</objectType> (<height unit="metre">1.22</height> × <width unit="metre">0.42</width> × depth not measurable), with upper moulding chipped away.</p>
+                              <objectType key="architrave block">architrave block</objectType> (<height unit="metre">1.22</height> × <width unit="metre">0.42</width> × depth not measurable), with upper moulding chipped away.</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -95,12 +97,6 @@ First century B.C. - first century A.D. (<rs type="criteria">lettering</rs>)</or
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
-               <term>
-                  <rs type="textType">honours</rs>
                </term>
             </keywords>
          </textClass>

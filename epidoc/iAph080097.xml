@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Lists of Muses</title>
+            <title>
+               <rs type="textType">List</rs>s of Muses</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -106,15 +107,14 @@
 <persName type="divine"><name nymRef="#Πολυμνία">Πολυμνία</name></persName> 
 <lb n="6"/>
 <persName type="divine"><name nymRef="#Μελπομένη">Μελ<unclear reason="damage">π</unclear>ομένη</name></persName> <lb n="7"/>
- <note>sic</note><persName type="divine"><name nymRef="#Τερψικόρη">Τε<unclear reason="damage">ρ</unclear>ψι<unclear reason="damage">κ</unclear>όρη</name></persName> 
+ <note xml:lang=""/><persName type="divine"><name nymRef="#Τερψικόρη">Τε<unclear reason="damage">ρ</unclear>ψι<unclear reason="damage">κ</unclear>όρη</name></persName> 
 <lb n="8"/>
 <persName type="divine"><name nymRef="#Οὐρανία">Οὐρανία</name></persName> 
 <lb n="8"/>
-<persName type="divine"><name nymRef="#Καλλιόπη">Καλλιόπη</name></persName> <g ref="#leaf"/></ab></div><div n="c" type="textpart" subtype="section"><note>
-c: There are further traces of letters further down, and, just above floor level, a graffito of a long-necked <rs type="decoration">bird</rs>.</note></div>
+<persName type="divine"><name nymRef="#Καλλιόπη">Καλλιόπη</name></persName> <g ref="#leaf"/></ab></div><div n="c" type="textpart" subtype="section"><note xml:lang=""/></div>
 </div>
          <div type="apparatus">
-            <p>b, line 1: The E suggests that the cutter started to write <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Εὐτέρπη</foreign>. </p>
+            <p>b, line 1: The E suggests that the cutter started to write <foreign xml:lang="grc">Εὐτέρπη</foreign>. </p>
             <p>l. 7, the rho was squeezed in, and is barely determinable.</p>
          </div>
          <div type="translation">

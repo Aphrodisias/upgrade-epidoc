@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary inscription for Marcus Aurelius Apollonios and his son</title>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for Marcus Aurelius Apollonios and his son</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -47,7 +48,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote> Quite well-designed and cut in the second-to-fourth-century style, l.1, <height unit="metre">0.025</height>; ll. 2ff., <height unit="metre">0.018-0.02</height>. ll. 2, 3, are interrupted by the projections on the lid. Ligatured <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΤ</foreign> (l. 2), <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗΝ</foreign> (l. 3), <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΕ</foreign> (l. 16), <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗΝ</foreign> (l.22), <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΠΠ</foreign> (l. 22), <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΕ</foreign> (l. 22), <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗ</foreign> (l. 22) Star for denarius; slanting strokes before and after the figures in l. 18, bars above the figures in l. 22.</handNote>
+                     <handNote> Quite well-designed and cut in the second-to-fourth-century style, l.1, <height unit="metre">0.025</height>; ll. 2ff., <height unit="metre">0.018-0.02</height>. ll. 2, 3, are interrupted by the projections on the lid. Ligatured <foreign xml:lang="grc">ΝΤ</foreign> (l. 2), <foreign xml:lang="grc">ΤΗΝ</foreign> (l. 3), <foreign xml:lang="grc">ΤΕ</foreign> (l. 16), <foreign xml:lang="grc">ΜΗΝ</foreign> (l.22), <foreign xml:lang="grc">ΠΠ</foreign> (l. 22), <foreign xml:lang="grc">ΤΕ</foreign> (l. 22), <foreign xml:lang="grc">ΝΗ</foreign> (l. 22) Star for denarius; slanting strokes before and after the figures in l. 18, bars above the figures in l. 22.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -98,9 +99,6 @@
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -121,7 +119,7 @@
          </div>
          <div type="commentary">
             <p>he sarcophagus was found in a chamber-tomb along with <ref type="inscription" n="1445" target="130111.xml"/>, <ref type="inscription" n="1446" target="130108.xml"/>, <ref type="inscription" n="1447" target="130109.xml"/> and another (<ref type="inscription" n="1449" target="130101.xml"/>) of a different type, all of which should be approximately contemporary. Their setting strongly suggests that their owners were of modest status (note the case for regarding the owner of <ref type="inscription" n="1445" target="130111.xml"/> as a tradesman)</p>
-            <p>Note that while the family has Roman citizenship it has not fully adapted to the Roman onomastic system; so instead of the formula of filiation Apollonios gives his father's full citizen name after <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">υἱοῦ</foreign>: Aphrodisians liked to spell things out. The owning family seems to have acquired Roman citizenship originally from the emperor Claudius or from Nero, when it was very rare at Aphrodisias; nevertheless the owner refers to no ancestors except his father, which may suggest that he belonged to a subordinate branch, perhaps deriving from a freed slave. His own name suggests that like some others at Aphrodisias and elsewhere he was excited enough by the Edict of Caracalla to take Caracalla's M. Aurelius in preference to the Ti. Claudius of his father (which is perhaps another indication of modest social status); and it should also be observed that he gave his son a Latin name, which is not so common in the city. The tomb consisted of more than the sarcophagus; but the funerary fine is a little below average. This is the first occurrence of the stephanephorus Hermolaos son of Poseidippos, and it is probable that this is a post mortem tenure for him (since his name shoes no signs of the Edict of Caracalla).</p>
+            <p>Note that while the family has Roman citizenship it has not fully adapted to the Roman onomastic system; so instead of the formula of filiation Apollonios gives his father's full citizen name after <foreign xml:lang="grc">υἱοῦ</foreign>: Aphrodisians liked to spell things out. The owning family seems to have acquired Roman citizenship originally from the emperor Claudius or from Nero, when it was very rare at Aphrodisias; nevertheless the owner refers to no ancestors except his father, which may suggest that he belonged to a subordinate branch, perhaps deriving from a freed slave. His own name suggests that like some others at Aphrodisias and elsewhere he was excited enough by the Edict of Caracalla to take Caracalla's M. Aurelius in preference to the Ti. Claudius of his father (which is perhaps another indication of modest social status); and it should also be observed that he gave his son a Latin name, which is not so common in the city. The tomb consisted of more than the sarcophagus; but the funerary fine is a little below average. This is the first occurrence of the stephanephorus Hermolaos son of Poseidippos, and it is probable that this is a post mortem tenure for him (since his name shoes no signs of the Edict of Caracalla).</p>
          </div>
          <div type="bibliography">
             <p>Published by <bibl n="jmr2003">Reynolds and Isik, no. <citedRange>116</citedRange>

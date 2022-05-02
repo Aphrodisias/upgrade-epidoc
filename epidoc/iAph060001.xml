@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Titles for relief sculptures</title>
+            <title>
+               <rs type="textType">Title</rs>s for relief sculptures</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -86,13 +87,13 @@ probably Flavian (<rs type="criteria">lettering</rs>, <rs type="criteria">sculpt
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<div n="a" type="textpart" subtype="block"><div n="i" type="textpart" subtype="section"><note>To the right of a winged horse, to whom the label clearly applies</note><lb n="1"/><ab>
+<div n="a" type="textpart" subtype="block"><div n="i" type="textpart" subtype="section"><note xml:lang=""/><lb n="1"/><ab>
 <lb n="1"/><persName type="divine"><name>Πέγα<lb n="2"/>σος    </name></persName></ab></div>
-<div n="ii" type="textpart" subtype="section"><note>To the right of a male figure in a chlamys, to whom the label clearly applies; with his right hand he reaches out to the bridle of Pegasos, with his left he holds an unidentified object. </note><ab><lb n="1"/><persName type="divine"><name>Βελλερο<lb n="2"/>φόντης</name></persName> </ab></div>
-<div n="iii" type="textpart" subtype="section"><note>To the right of ii, beside a naked male figure, to whom the label clearly applies; he stands on a rock, holding what may be a laurel branch in his right hand, while resting the left on a tripod with a snake coiled around its feet </note><ab><lb n="1"/><persName type="divine"><name>Ἀπόλ<lb n="2"/> λων</name></persName></ab></div>
-</div><div n="b" type="textpart" subtype="block"><note>To the left of a male figure in chiton and himation, to whom the label clearly applies. he holds a staff in one hand and reaches out with the other to an altar; there is an eagle with open wings on the altar, and a barren tree with three branches to the left of it.</note><ab><lb n="1"/><persName type="divine"><name>Νίνος</name></persName> </ab></div><div n="c" type="textpart" subtype="block"><div n="i" type="textpart" subtype="section"><note>To the right of a veiled woman wearing peplos and himation, to whom the label clearly applies; she stands beside an altar holding a staff and a leafy branch</note><ab>
+<div n="ii" type="textpart" subtype="section"><note xml:lang=""/><ab><lb n="1"/><persName type="divine"><name>Βελλερο<lb n="2"/>φόντης</name></persName> </ab></div>
+<div n="iii" type="textpart" subtype="section"><note xml:lang=""/><ab><lb n="1"/><persName type="divine"><name>Ἀπόλ<lb n="2"/> λων</name></persName></ab></div>
+</div><div n="b" type="textpart" subtype="block"><note xml:lang=""/><ab><lb n="1"/><persName type="divine"><name>Νίνος</name></persName> </ab></div><div n="c" type="textpart" subtype="block"><div n="i" type="textpart" subtype="section"><note xml:lang=""/><ab>
 <lb n="1"/><persName type="divine"><name>Σεμειρα<lb n="2"/>μις</name></persName>    </ab></div>
-<div n="ii" type="textpart" subtype="section"><note>To the right of a male figure in armour, to whom the label clearly applies; he seems to be pouring a libation on an altar. </note><ab><lb n="1"/><persName type="divine"><name>Γόρδις</name></persName>  </ab></div></div></div>
+<div n="ii" type="textpart" subtype="section"><note xml:lang=""/><ab><lb n="1"/><persName type="divine"><name>Γόρδις</name></persName>  </ab></div></div></div>
          <div type="translation">
             <p>a.i Pegasos, ii Bellerophon. iii Apollo.</p>
             <p> b.Ninos</p>

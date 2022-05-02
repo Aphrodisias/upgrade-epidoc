@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragments of a consolatory <rs type="textType">decree</rs>
+            <title>Fragments of a <rs type="textType">consolatory <rs type="textType">decree</rs>
+               </rs>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -46,7 +47,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Probably third century A.D. forms; <height unit="metre">0.015-0.02</height>.  Ligature <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗΝ</foreign> l. 2.</handNote>
+                     <handNote>Probably third century A.D. forms; <height unit="metre">0.015-0.02</height>.  Ligature <foreign xml:lang="grc">ΜΗΝ</foreign> l. 2.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -92,9 +93,6 @@ Third century A.D. (<rs type="criteria">lettering</rs>).</origDate>
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">consolatory decree</rs>
                </term>
             </keywords>
          </textClass>

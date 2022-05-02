@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Relief panel illustrating munera</title>
+            <title>Relief panel illustrating <rs type="textType">munera</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -93,9 +94,6 @@ First to fourth centuries A.D. (<rs type="criteria">content</rs>)
                </term>
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
-               </term>
-               <term>
-                  <rs type="textType">munera</rs>
                </term>
             </keywords>
          </textClass>

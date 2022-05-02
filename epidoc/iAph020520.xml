@@ -111,7 +111,7 @@ Second century A.D. (<rs type="criteria">lettering</rs>)
 <ab><lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">η</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">εργα</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">πιδ<unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><del rend="erasure"><gap extent="3" extentmax="4" reason="lost" unit="character"/></del>  <gap reason="lost" extent="unknown" unit="character"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 2,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 2,  <foreign xml:lang="grc">
                   <supplied reason="lost" cert="low">γ</supplied>εγρα<supplied reason="lost">μμένος</supplied>
                </foreign>
             </p>

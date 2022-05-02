@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Seat inscriptions: Stadium Block 23</title>
+            <title>
+               <rs type="textType">Seat inscriptions</rs>: Stadium Block 23</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -95,9 +96,6 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>)
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
                </term>
-               <term>
-                  <rs type="textType">Seat inscriptions</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -113,7 +111,7 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>)
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
 <div n="A" type="textpart" subtype="section"><ab><lb n="1"/>
-<space extent="3"/> <orig n="unresolved">κ<unclear reason="damage">λ</unclear>ι</orig> <space extent="3"/></ab></div><div n="G" type="textpart" subtype="section"><note>Traces of letters</note></div><div n="N" type="textpart" subtype="section"><ab>
+<space extent="3"/> <orig n="unresolved">κ<unclear reason="damage">λ</unclear>ι</orig> <space extent="3"/></ab></div><div n="G" type="textpart" subtype="section"><note xml:lang=""/></div><div n="N" type="textpart" subtype="section"><ab>
 <lb n="1"/><space extent="3"/> <milestone unit="block"/> <w lemma="τόπος">τ<unclear reason="damage">ό</unclear>π<milestone unit="block"/>ος</w> <space extent="3"/> <milestone unit="block"/> <w lemma="αὐράριος">αὐραρί<milestone unit="block"/>ων</w> <space extent="3"/>  <milestone unit="block"/><g ref="#steps"/></ab></div>
 </div>
          <div type="apparatus">
@@ -124,7 +122,7 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>)
          </div>
          <div type="commentary">
             <p>See Performers and Partisans, 45; note that the block was wrongly described as two blocks.</p>
-            <p> For <term lang="la">aurarii</term>, see <ref type="inscription" n="739" target="100021.xml"/>, <ref type="inscription" n="751" target="100033.xml"/>, and  <bibl n="cmr1995">Roueché, ‘Aurarii in the auditorium’, <title>Zeitschrift fur Papyrologie und Epigraphik</title> 105 (1995), 37-50</bibl>; <bibl>J.-M. Carrié, 'Les métiers de labanque entre public et privé (IV-VIIe siècle)', <title>Atti Accademia Romanistica Costantiniana XII Convegno</title> (1998), 65-93</bibl>; <bibl>C. Zuckerman, 'Le cirque, l'argent et le peuple', <title>REB</title> 58 (2000) 69-96</bibl>.</p>
+            <p> For <term xml:lang="la">aurarii</term>, see <ref type="inscription" n="739" target="100021.xml"/>, <ref type="inscription" n="751" target="100033.xml"/>, and  <bibl n="cmr1995">Roueché, ‘Aurarii in the auditorium’, <title>Zeitschrift fur Papyrologie und Epigraphik</title> 105 (1995), 37-50</bibl>; <bibl>J.-M. Carrié, 'Les métiers de labanque entre public et privé (IV-VIIe siècle)', <title>Atti Accademia Romanistica Costantiniana XII Convegno</title> (1998), 65-93</bibl>; <bibl>C. Zuckerman, 'Le cirque, l'argent et le peuple', <title>REB</title> 58 (2000) 69-96</bibl>.</p>
          </div>
          <div type="bibliography">
             <p>Published by <bibl n="PPA">Roueché, PPA <citedRange>45.38</citedRange> and <citedRange>45.39</citedRange>

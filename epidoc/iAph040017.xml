@@ -45,12 +45,12 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <measure type="length" dim="none">1.33</measure> from base.</layout>
+                           <height>1.33</height> from base.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
                      <handNote>Lunate, <height unit="metre">0.055</height>
-(<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Κ</foreign>) to <height unit="metre">0.03</height>. Scroll for abbreviation.</handNote>
+(<foreign xml:lang="grc">Κ</foreign>) to <height unit="metre">0.03</height>. Scroll for abbreviation.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -119,7 +119,7 @@
       </div>
          <div type="translation">
             <ab>
-               <supplied reason="subaudible" cert="low">Place of</supplied> Theok<supplied reason="abbreviation">tistos</supplied>
+               <supplied reason="subaudible" cert="low">Place of</supplied> Theok<ex>tistos</ex>
             </ab>
          </div>
          <div type="commentary">

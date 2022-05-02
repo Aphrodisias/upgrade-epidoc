@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for Attalos and Diogenes, brothers</title>
+            <title>
+               <rs type="textType">Honours</rs> for Attalos and Diogenes, brothers</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -60,7 +61,7 @@ Severan (<rs type="criteria">lettering</rs>)
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList">Bouleuterion/Odeon</rs>: concluding the end balustrades at either side of the <term lang="la">cavea</term>: a to the east and b to the west.</rs>
+                        <rs type="monuList">Bouleuterion/Odeon</rs>: concluding the end balustrades at either side of the <term xml:lang="la">cavea</term>: a to the east and b to the west.</rs>
                   </provenance>
                   <provenance type="observed" when="1978">
                      <rs type="lastLocation">a in situ, b in Museum (1978)</rs>
@@ -94,9 +95,6 @@ Severan (<rs type="criteria">lettering</rs>)
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Honours</rs>
                </term>
             </keywords>
          </textClass>

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for  Chaireas</title>
+            <title>
+               <rs type="textType">Honours</rs> for  Chaireas</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -37,7 +38,7 @@
                         <support>
                            <p>
                               <material key="marmor">White marble</material>
-                              <objectType reg="block">block</objectType> with moulding chipped away above (<height unit="metre">0.515</height> × <width unit="metre">0.75</width> × <depth unit="metre">0.46</depth>).</p>
+                              <objectType key="block">block</objectType> with moulding chipped away above (<height unit="metre">0.515</height> × <width unit="metre">0.75</width> × <depth unit="metre">0.46</depth>).</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -97,9 +98,6 @@ Second century A.D. (<rs type="criteria">lettering</rs>)</origDate>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -117,7 +115,7 @@ Second century A.D. (<rs type="criteria">lettering</rs>)</origDate>
 
 <ab><lb n="0"/><gap id="iaph2005-gap01" reason="lost" unit="line" extent="unknown"/><certainty degree="low" locus="#gi" target="iaph2005-gap01"/><lb n="1"/><w lemma="τιμάω"><orig reg="ἐτίμησεν"><supplied reason="lost">ἐ</supplied><unclear reason="damage">τ</unclear><supplied reason="lost">είμησεν</supplied></orig></w><lb n="2"/><persName nymRef="#Χαιρέας" type="attested"><name nymRef="#Χαιρέας"><supplied reason="lost">Χ</supplied>αιρέαν</name></persName>  <lb n="3"/><w lemma="ὁ">τὸν</w> <w lemma="στεφανηφόρος">στε<lb n="4" break="no"/>φανηφό<lb n="5" break="no"/>ρον</w>.</ab></div>
          <div type="apparatus">
-            <p>Cormack saw the trace of an upright in l. 1, and so read <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>Cormack saw the trace of an upright in l. 1, and so read <foreign xml:lang="grc">
                   <supplied reason="lost">ἐ</supplied>τ<supplied reason="lost">είμησεν</supplied>
                </foreign>; but this might be a trace left by the moulding.</p>
          </div>

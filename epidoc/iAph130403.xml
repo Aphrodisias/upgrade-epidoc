@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary inscription for Publia Calvisia Peritiane</title>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for Publia Calvisia Peritiane</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -92,9 +93,6 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -108,10 +106,10 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/> <w lemma="ὁ"><unclear reason="damage">ἡ</unclear></w> <w lemma="σορός"><unclear reason="damage">σορό</unclear>ς</w> <w lemma="εἰμί">ἐστιν</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="περί">περὶ</w> <w lemma="αὐτός">αὐτὴν</w> <w lemma="πλάτος"><unclear reason="damage">π</unclear>λά<unclear reason="damage">τ</unclear>ος</w> <persName type="attested"><name nymRef="#Ποπλία">Ποπλίας</name> <name nymRef="#Καλβισία">Κα<unclear reason="damage">λ</unclear>βισίας</name></persName> <lb n="2"/> <note>sic</note> <w>ΩΖ <milestone unit="block"/> ΣΙΝ</w> <lb n="3"/> <persName type="attested"><name nymRef="#Περιτιανή">Περιτιανῆς</name></persName> <w lemma="ὁ">τῆς</w> <w lemma="ἔγγονος">ἐγγόνου</w> <persName type="attested"><name nymRef="#Ἰουλιανός">Ἰουλιανοῦ</name></persName> <w lemma="ὁ">τῆς</w> <w lemma="καί">καὶ</w> </ab>
+<ab><lb n="1"/> <w lemma="ὁ"><unclear reason="damage">ἡ</unclear></w> <w lemma="σορός"><unclear reason="damage">σορό</unclear>ς</w> <w lemma="εἰμί">ἐστιν</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="περί">περὶ</w> <w lemma="αὐτός">αὐτὴν</w> <w lemma="πλάτος"><unclear reason="damage">π</unclear>λά<unclear reason="damage">τ</unclear>ος</w> <persName type="attested"><name nymRef="#Ποπλία">Ποπλίας</name> <name nymRef="#Καλβισία">Κα<unclear reason="damage">λ</unclear>βισίας</name></persName> <lb n="2"/> <note xml:lang=""/> <w>ΩΖ <milestone unit="block"/> ΣΙΝ</w> <lb n="3"/> <persName type="attested"><name nymRef="#Περιτιανή">Περιτιανῆς</name></persName> <w lemma="ὁ">τῆς</w> <w lemma="ἔγγονος">ἐγγόνου</w> <persName type="attested"><name nymRef="#Ἰουλιανός">Ἰουλιανοῦ</name></persName> <w lemma="ὁ">τῆς</w> <w lemma="καί">καὶ</w> </ab>
 </div>
          <div type="apparatus">
-            <p>Line 1: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">πλατός</foreign> is generally taken to be used as an equivalent of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">πλατάς</foreign>, a platform for a tomb.</p>
+            <p>Line 1: <foreign xml:lang="grc">πλατός</foreign> is generally taken to be used as an equivalent of <foreign xml:lang="grc">πλατάς</foreign>, a platform for a tomb.</p>
             <p>Line 2, clearly misinscribed for ζῶσιν.</p>
             <p>Line 3: the text was presumably completed on the chest of the sarcophagus.</p>
          </div>

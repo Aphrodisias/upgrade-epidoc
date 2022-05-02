@@ -6,8 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary
-           honours for  Hermias Glykon, his wife Apphia, and their daughter Apphia</title>
+            <title>
+               <rs type="textType">Funerary</rs>
+               <rs type="textType"> honours</rs> for  Hermias Glykon, his wife Apphia, and their daughter Apphia</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -96,12 +97,6 @@ First to second century A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
-               <term>
-                  <rs type="textType"> honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -149,7 +144,7 @@ First to second century A.D.
           <w lemma="λαμπρός">λαμπρότατα</w>
           <lb n="10"/>
           <w lemma="καί">καὶ</w>  <w lemma="ὁ">τὰς</w>  <w lemma="μέγας">μεγίστας</w>  <w lemma="ἀρχή">ἀρχὰς</w>  <w lemma="πᾶς">πάσας</w>  <lb n="11"/>
-          <w lemma="ἄρχω">ἄρξαντα</w>  <w lemma="κατά">κατὰ</w>  <w lemma="ὁ">τὸ</w>  <w lemma="καλός">κάλιστον</w>  <note place="not specified" anchored="yes">sic</note>  <w lemma="τελέω">τε<lb n="12" break="no"/>λέσαντα</w>
+          <w lemma="ἄρχω">ἄρξαντα</w>  <w lemma="κατά">κατὰ</w>  <w lemma="ὁ">τὸ</w>  <w lemma="καλός">κάλιστον</w>  <note place="not specified" xml:lang=""/>  <w lemma="τελέω">τε<lb n="12" break="no"/>λέσαντα</w>
           <w lemma="δέ">δὲ</w>  <w lemma="καί">καὶ</w>  <w lemma="πρεσβεία">πρεσβείας</w>  <w lemma="ἄλλος">ἄλλας</w>
           <lb n="13"/>
           <w lemma="τε">τε</w>  <w lemma="πολύς">πλείστας</w>  <w lemma="καί">καὶ</w>  <w lemma="εἰς">εἰς</w>  <placeName nymRef="#Ῥώμη">Ῥώμην</placeName>  <w lemma="καί">καὶ</w>  <w lemma="καθόλου">κα<lb n="14" break="no"/>θόλου</w>  <w lemma="πρός">πρὸς</w>  <w lemma="ὑπόδειγμα">ὑπόδειγμα</w>  <w lemma="πᾶς">πάσης</w>  <w lemma="ἀρετή">ἀρε<lb n="15" break="no"/>τῆς</w>  <w lemma="βιόω">βιώσαντα</w>  <space unit="character" extent="1" dim="horizontal"/>  <w lemma="καθότι">καθότι</w>  <w lemma="καί">καὶ</w>  <w lemma="ἐπί">ἐφ</w>′  <w lemma="ἑκαστος">ἑκάστῳ</w>

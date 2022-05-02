@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Seat inscriptions: Theatre, Block A</title>
+            <title>
+               <rs type="textType">Seat inscriptions</rs>: Theatre, Block A</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -95,9 +96,6 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>)
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
                </term>
-               <term>
-                  <rs type="textType">Seat inscriptions</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -111,17 +109,14 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>)
       <body>
          <div n="text" lang="grc" type="textpart" subtype="section">
             <div n="1" type="textpart" subtype="section">
-               <note>Letters 
-</note>
+               <note xml:lang=""/>
             </div>
             <div n="2" type="textpart" subtype="section">
                <div n="i" type="textpart" subtype="column">
-                  <note>Design, type C1</note>
+                  <note xml:lang=""/>
                </div>
                <div n="ii" type="textpart" subtype="column">
-                  <note>  
-
- Two cross designs </note>
+                  <note xml:lang=""/>
                </div>
                <div n="iii" type="textpart" subtype="column">
                   <ab>
@@ -129,22 +124,20 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>)
                      <w>
                         <expan>
                            <abbr>τό</abbr>
-                           <supplied reason="abbreviation">πος</supplied>
+                           <ex>πος</ex>
                         </expan>
                      </w>
-                     <w>μανδ<supplied reason="abbreviation" cert="low">άτορος</supplied>
+                     <w>μανδ<ex cert="low">άτορος</ex>
                      </w>
                   </ab>
                </div>
             </div>
             <div n="3" type="textpart" subtype="section">
-               <note> 
-
-Design, type R1, with central line omitted </note>
+               <note xml:lang=""/>
             </div>
             <div n="5" type="textpart" subtype="section">
                <div n="i" type="textpart" subtype="column">
-                  <note>Design, type R6 </note>
+                  <note xml:lang=""/>
                </div>
                <div n="ii" type="textpart" subtype="column">
                   <ab>
@@ -164,7 +157,7 @@ Design, type R1, with central line omitted </note>
                </div>
             </div>
             <div n="6" type="textpart" subtype="section">
-               <note>Design, type R6 </note>
+               <note xml:lang=""/>
             </div>
             <div n="7" type="textpart" subtype="section">
                <ab>
@@ -176,13 +169,11 @@ Design, type R1, with central line omitted </note>
 </ab>
             </div>
             <div n="8" type="textpart" subtype="section">
-               <note>on one seat there is a figure, holding a ?stick, with a forked end, in his right hand, and a shorter object in his left 
-</note>
+               <note xml:lang=""/>
             </div>
             <div n="9" type="textpart" subtype="column">
                <div n="i" type="textpart" subtype="column">
-                  <note>
-Design, type R6 </note>
+                  <note xml:lang=""/>
                </div>
                <div n="ii" type="textpart" subtype="column">
                   <lb n="1"/>
@@ -200,17 +191,17 @@ Design, type R6 </note>
             </div>
             <div n="18" type="textpart" subtype="section">
                <div n="i" type="textpart" subtype="column">
-                  <note>Design, type C2</note>
+                  <note xml:lang=""/>
                </div>
                <div n="ii" type="textpart" subtype="column">
-                  <note>Design, type C2</note>
+                  <note xml:lang=""/>
                </div>
             </div>
             <div n="19" type="textpart" subtype="section">
-               <note>Design</note>
+               <note xml:lang=""/>
             </div>
             <div n="20" type="textpart" subtype="section">
-               <note>Design</note>
+               <note xml:lang=""/>
             </div>
             <div n="24" type="textpart" subtype="column">
                <div n="i" type="textpart" subtype="column">
@@ -223,7 +214,7 @@ Design, type R6 </note>
                   </ab>
                </div>
                <div n="ii" type="textpart" subtype="column">
-                  <note>Scattered letters</note>
+                  <note xml:lang=""/>
                </div>
             </div>
             <div n="26" type="textpart" subtype="section">

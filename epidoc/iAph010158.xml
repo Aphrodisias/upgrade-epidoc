@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for  anonymous</title>
+            <title>
+               <rs type="textType">Honours</rs> for  anonymous</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -38,7 +39,7 @@
                      <supportDesc>
                         <support>
                            <p>Seven fragments from the lower part of a <material key="marmor">white marble</material>
-                              <objectType reg="base">statue base shaft</objectType> (width <width unit="metre">0.52</width>, depth <depth unit="metre">0.42</depth>) with moulded panels on at least two sides.  f: (lines 5-8) Left side moulding (<width unit="metre">0.18</width>   × <height unit="metre">0.12</height>   × <depth unit="metre">0.10</depth>).</p>
+                              <objectType key="base">statue base shaft</objectType> (width <width unit="metre">0.52</width>, depth <depth unit="metre">0.42</depth>) with moulded panels on at least two sides.  f: (lines 5-8) Left side moulding (<width unit="metre">0.18</width>   × <height unit="metre">0.12</height>   × <depth unit="metre">0.10</depth>).</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -46,7 +47,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>lines  1-14, <measure type="length" dim="none">00.015-0.02</measure>; lines 15 ff., <height>0.02</height>. Ligatures:  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΝ</foreign>, l.6; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ</foreign>, l.10; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign>, l.22; diairesis on initial <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">I</foreign>, l.10. Dot for stop, and for abbreviation.</handNote>
+                     <handNote>lines  1-14, <height>00.015-0.02</height>; lines 15 ff., <height>0.02</height>. Ligatures:  <foreign xml:lang="grc">ΜΝ</foreign>, l.6; <foreign xml:lang="grc">ΤΗ</foreign>, l.10; <foreign xml:lang="grc">ΗΝ</foreign>, l.22; diairesis on initial <foreign xml:lang="grc">I</foreign>, l.10. Dot for stop, and for abbreviation.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -90,9 +91,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Honours</rs>
                </term>
             </keywords>
          </textClass>

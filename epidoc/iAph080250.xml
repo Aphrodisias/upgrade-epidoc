@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary fragment from Theatre</title>
+            <title>
+               <rs type="textType">Funerary</rs> fragment from Theatre</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +47,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Standard second to third century forms; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΗ</foreign> in ligature, l.2; <height unit="metre">0.025</height>
+                     <handNote>Standard second to third century forms; <foreign xml:lang="grc">ΗΗ</foreign> in ligature, l.2; <height unit="metre">0.025</height>
                      </handNote>
                   </handDesc>
                </physDesc>
@@ -58,7 +59,7 @@
                      <origDate notBefore="0101" notAfter="0300" precision="medium">Second to third centuries A.D. (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">portico E. of <rs type="monuList">Theatre</rs>, at <measure dim="none" type="length" unit="metre">-1.10</measure>.</rs>
+                     <rs type="found">portico E. of <rs type="monuList">Theatre</rs>, at <measure dim="height" type="length" unit="metre">-1.10</measure>.</rs>
                   </provenance>
                   <provenance type="observed" when="1977">
                      <rs type="lastLocation">Museum (1977)</rs>
@@ -92,9 +93,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -111,18 +109,18 @@
 <ab><lb n="0"/>  <gap reason="lost" extent="insaph" unit="line"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ανο<unclear reason="damage">σ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">η</unclear>θ<hi rend="ligature">ηη</hi><unclear reason="damage">σ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">κ</unclear>των</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ε</unclear>πι<unclear reason="damage">θ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="4a"/><gap reason="lost" extent="insaph" unit="line"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 1, <foreign xml:lang="grc">
                   <supplied reason="lost" cert="low">οὓς</supplied> ἂν ὁ <unclear reason="damage">Σ</unclear>
                   <gap reason="lost" extent="unknown" unit="character"/>
                </foreign>
             </p>
-            <p>l. 2, second <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Η</foreign> was perhaps once written as <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ν</foreign>
+            <p>l. 2, second <foreign xml:lang="grc">Η</foreign> was perhaps once written as <foreign xml:lang="grc">Ν</foreign>
             </p>
-            <p>l. 2,  the last letter could be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Δ</foreign>:  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 2,  the last letter could be <foreign xml:lang="grc">Δ</foreign>:  <foreign xml:lang="grc">
                   <supplied reason="lost" cert="low">βουλ</supplied>ηθῆ ἢ <unclear reason="damage">δ</unclear>
                   <supplied reason="lost" cert="low">ιατάξηται</supplied>
                </foreign>.</p>
-            <p>l. 4, no central bar visible in <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Θ</foreign>; might be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ο</foreign>
+            <p>l. 4, no central bar visible in <foreign xml:lang="grc">Θ</foreign>; might be <foreign xml:lang="grc">Ο</foreign>
             </p>
          </div>
          <div type="translation" n="none">

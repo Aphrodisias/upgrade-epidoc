@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary fragment of Marcus Aurelius A<gap reason="lost" unit="character" extent="unknown"/>
+            <title>
+               <rs type="textType">Funerary</rs> fragment of Marcus Aurelius A<gap reason="lost" unit="character" extent="unknown"/>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -92,9 +93,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -113,11 +111,11 @@
          <div type="translation">
             <p>
                <gap reason="lost" extent="unknown" unit="character"/>
-               <supplied reason="lost">Ma</supplied>rcus Aur<supplied reason="abbreviation">elius</supplied> A<gap reason="lost" extent="unknown" unit="character"/>
+               <supplied reason="lost">Ma</supplied>rcus Aur<ex>elius</ex> A<gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
          <div type="commentary">
-            <p>The inscription presumably continued on the sarcophagus itself. The text names a Marcus Aurelius A[.. in the genitive case—not necessarily a filiation (e.g. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἡ σορὸς ἔστι</foreign> + gen.).</p>
+            <p>The inscription presumably continued on the sarcophagus itself. The text names a Marcus Aurelius A[.. in the genitive case—not necessarily a filiation (e.g. <foreign xml:lang="grc">ἡ σορὸς ἔστι</foreign> + gen.).</p>
          </div>
          <div type="bibliography" n="none">
             <p>Unpublished.</p>

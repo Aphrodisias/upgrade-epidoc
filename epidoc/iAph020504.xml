@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Dedication to Theos Hypsistos</title>
+            <title>
+               <rs type="textType">Dedication</rs> to Theos Hypsistos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +47,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Late Hellenistic, unevenly sized and spaced, ave. <height unit="metre">0.015</height>; lunate <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Σ</foreign>, and <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ω</foreign>.</handNote>
+                     <handNote>Late Hellenistic, unevenly sized and spaced, ave. <height unit="metre">0.015</height>; lunate <foreign xml:lang="grc">Ε</foreign>, <foreign xml:lang="grc">Σ</foreign>, and <foreign xml:lang="grc">Ω</foreign>.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -93,9 +94,6 @@
                </term>
                <term>
                   <rs type="textType" key="cetera" cert="low">jewish</rs>
-               </term>
-               <term>
-                  <rs type="textType">Dedication</rs>
                </term>
             </keywords>
          </textClass>

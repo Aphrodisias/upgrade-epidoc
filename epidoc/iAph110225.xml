@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Prayer of Theodoros, 'the Bell'</title>
+            <title>
+               <rs type="textType" reg="prayer/invocation">Prayer</rs> of Theodoros, 'the Bell'</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -98,9 +99,6 @@ letter, for abbreviation.</handNote>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">prayer/invocation</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -125,7 +123,7 @@ letter, for abbreviation.</handNote>
          <div type="translation">
             <ab>Prayer of Theodoros, also called Bell, <seg cert="low">son of</seg>
                <gap reason="lost" unit="character" extent="unknown"/>
-the most pious chief <term lang="la">lector</term> and
+the most pious chief <term xml:lang="la">lector</term> and
 supervisor.</ab>
          </div>
          <div type="commentary">

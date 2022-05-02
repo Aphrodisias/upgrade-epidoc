@@ -49,7 +49,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Ave. <height unit="metre">0.04</height>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ο</foreign>
+                     <handNote>Ave. <height unit="metre">0.04</height>, <foreign xml:lang="grc">Ο</foreign>
                         <height unit="metre">0.025</height>; angular.</handNote>
                   </handDesc>
                </physDesc>

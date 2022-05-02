@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Posthumous <rs type="textType">honours</rs> for Muon and Peritas</title>
+            <title>
+               <rs type="textType">Posthumous <rs type="textType">honours</rs>
+               </rs> for Muon and Peritas</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -37,7 +39,7 @@
                         <support>
                            <p>No description. The <seg cert="low">
                                  <objectType>masonry block</objectType>
-                              </seg> on which this was inscribed formed part of a tomb (<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">μνημεῖον</foreign>, I, 14) 
+                              </seg> on which this was inscribed formed part of a tomb (<foreign xml:lang="grc">μνημεῖον</foreign>, I, 14) 
 </p>
                         </support>
                      </supportDesc>
@@ -96,9 +98,6 @@
                </term>
                <term>
                   <rs type="personType" key="imperatorius">Imperial</rs>
-               </term>
-               <term>
-                  <rs type="textType">Posthumous honours</rs>
                </term>
             </keywords>
          </textClass>

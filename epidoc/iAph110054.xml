@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary inscription for MMM. Aurrr. Peritianos, Eutyches and Herakleios</title>
+            <title>
+               <rs type="textType" reg="funerary">Funerary</rs> inscription for MMM. Aurrr. Peritianos, Eutyches and Herakleios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -98,9 +99,6 @@ expedition during the reconstruction of the dig-house.</rs>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -127,33 +125,33 @@ expedition during the reconstruction of the dig-house.</rs>
          <div type="apparatus">
             <p>l.1. <bibl>
                   <title level="m">MAMA</title>
-               </bibl> omitted one of the initial <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Μ</foreign>s.</p>
+               </bibl> omitted one of the initial <foreign xml:lang="grc">Μ</foreign>s.</p>
             <p>
-               <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+               <foreign xml:lang="grc">
                   <supplied reason="lost">Περι</supplied>τιανοῦ</foreign>
                <title level="m">MAMA</title>. Both Fellows and <title level="m">MAMA</title> read the final <term>sigma</term>
 in this line.</p>
-            <p>l.2. It is not obvious where the letters <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΡΙΔΙΟΥ</foreign> on the second of the projecting supports
-should be read. <title level="m">MAMA</title> read <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΠΕ</foreign>
-where we read <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΠΟ</foreign> at the end of what we are numbering as line 3,
-and then <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΡΙΔΙΟΥ</foreign>, suggesting, very
-tentatively, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">περι<supplied reason="omitted">ι</supplied>δ<supplied reason="omitted">εῖν</supplied>
+            <p>l.2. It is not obvious where the letters <foreign xml:lang="grc">ΡΙΔΙΟΥ</foreign> on the second of the projecting supports
+should be read. <title level="m">MAMA</title> read <foreign xml:lang="grc">ΠΕ</foreign>
+where we read <foreign xml:lang="grc">ΠΟ</foreign> at the end of what we are numbering as line 3,
+and then <foreign xml:lang="grc">ΡΙΔΙΟΥ</foreign>, suggesting, very
+tentatively, <foreign xml:lang="grc">περι<supplied reason="omitted">ι</supplied>δ<supplied reason="omitted">εῖν</supplied>
                </foreign>. If we assume that
 the cutter wrote on the two supports consecutively before returning to
 the recessed area, this provides an ending for the otherwise baffling
-<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΚΩ</foreign> (on which see Robert); but <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΚΩΡΙΔΙΟΥ</foreign> is not otherwise known.</p>
+<foreign xml:lang="grc">ΚΩ</foreign> (on which see Robert); but <foreign xml:lang="grc">ΚΩΡΙΔΙΟΥ</foreign> is not otherwise known.</p>
             <p>l.4. The last word is actually written in line with
 l.5.</p>
             <p>
-               <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τε</foreign>: <title level="m">MAMA</title> read <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΟ</foreign>.</p>
+               <foreign xml:lang="grc">τε</foreign>: <title level="m">MAMA</title> read <foreign xml:lang="grc">ΤΟ</foreign>.</p>
             <p>
-               <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κληρονόμων</foreign>:
-<title level="m">MAMA</title> did not see the second <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ο</foreign>,
+               <foreign xml:lang="grc">κληρονόμων</foreign>:
+<title level="m">MAMA</title> did not see the second <foreign xml:lang="grc">Ο</foreign>,
 which is cut on the side of the projecting support.</p>
             <p>1.5. <bibl>
                   <title level="m">MAMA</title>
-               </bibl> read <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΔΟΣΙ</foreign>
-and <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΔΥΟΥ</foreign>, but there is no doubt about
+               </bibl> read <foreign xml:lang="grc">ΔΟΣΙ</foreign>
+and <foreign xml:lang="grc">ΔΥΟΥ</foreign>, but there is no doubt about
 our readings.</p>
          </div>
          <div type="translation">

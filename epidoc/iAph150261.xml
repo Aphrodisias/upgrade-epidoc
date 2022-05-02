@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Posthumous <rs type="textType">honours</rs> for Diogenes son of Menandros</title>
+            <title>
+               <rs type="textType">Posthumous <rs type="textType">honours</rs>
+               </rs> for Diogenes son of Menandros</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +47,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Ornate apices on <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Φ</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Χ</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ρ</foreign> shown by Boeckh, presumably from Rochette, but not shown by Deering.</handNote>
+                     <handNote>Ornate apices on <foreign xml:lang="grc">Φ</foreign>, <foreign xml:lang="grc">Χ</foreign>, <foreign xml:lang="grc">Ρ</foreign> shown by Boeckh, presumably from Rochette, but not shown by Deering.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -98,9 +100,6 @@ First to second centuries A.D.
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Posthumous honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -120,7 +119,7 @@ First to second centuries A.D.
          <div type="apparatus">
             <p>l. 1, ΕΤΕΙΜΙΣΑΝ Rochette ΕΤΕΙΜΗΣΑΝ Deering</p>
             <p>l. 2, ΜΕΤΙΛΛΑΧΟΤΑ, ΜΕΓΙΣΤΑΤΕ Rochette, ΜΕΤΗΛΛΑΧΟΤΑ, ΜΕΓΙΣΤΑΙΣ Deering</p>
-            <p>ll. 3-4, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΕΝΑ<lb/>ΝΔΡΟΥ</foreign> Rochette, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΕΝΑΝ<lb/>ΔΡΟΥ</foreign> Deering</p>
+            <p>ll. 3-4, <foreign xml:lang="grc">ΜΕΝΑ<lb/>ΝΔΡΟΥ</foreign> Rochette, <foreign xml:lang="grc">ΜΕΝΑΝ<lb/>ΔΡΟΥ</foreign> Deering</p>
             <p>l. 4, ΔΙΟΓΕΝΟΥΓ Rochette, ΔΙΟΓΕΝΟΥΣ Deering</p>
             <p>l. 7, ΚΑΠΕΡΕΥΣΑΝΤΑ Rochette</p>
             <p>l. 9, ΕΣΣΤΙΑΣΣΙΝ Rochette, ΕΣΤΙΑΣΕΙΝ Deering</p>

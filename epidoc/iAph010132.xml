@@ -36,7 +36,7 @@
                      <supportDesc>
                         <support>
                            <p>Fragment of a <material key="marmor">marble</material>
-                              <objectType reg="panel">panel</objectType> (<width unit="metre">0.085</width> × <height unit="metre">0.075</height> × <depth unit="metre">0.025</depth>).  </p>
+                              <objectType key="panel">panel</objectType> (<width unit="metre">0.085</width> × <height unit="metre">0.075</height> × <depth unit="metre">0.025</depth>).  </p>
                         </support>
                      </supportDesc>
                      <layoutDesc>

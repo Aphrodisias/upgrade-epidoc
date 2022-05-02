@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Second decree of the synod of athletes in honour of Kallikrates</title>
+            <title>Second <rs type="textType">decree</rs> of the synod of athletes in honour of Kallikrates</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -101,9 +101,6 @@ A.D. 117-138 (<rs type="criteria">reign</rs>).</origDate>
                </term>
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
-               </term>
-               <term>
-                  <rs type="textType">decree</rs>
                </term>
             </keywords>
          </textClass>

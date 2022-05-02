@@ -60,7 +60,7 @@ elongated. <height unit="metre">0.055</height>.</handNote>
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList" key="Theatre">Theatre</rs>: <term lang="la">post-scaenam</term> area.</rs>
+                        <rs type="monuList" key="Theatre">Theatre</rs>: <term xml:lang="la">post-scaenam</term> area.</rs>
                   </provenance>
                   <provenance type="observed">
                      <rs type="lastLocation">Museum.</rs>

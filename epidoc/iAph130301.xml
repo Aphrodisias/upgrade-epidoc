@@ -7,7 +7,8 @@
       <fileDesc>
          <titleStmt>
             <title>
-          Funerary  honours for  Neaira and Metrodoros</title>
+               <rs type="textType">Funerary</rs>
+               <rs type="textType"> honours</rs> for  Neaira and Metrodoros</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -37,7 +38,7 @@
                      <supportDesc>
                         <support>
                            <p>A plain <material key="marmor">white marble</material>
-                              <objectType reg="block">block</objectType> (<height unit="metre">2.06</height> × <width unit="metre">0.59</width> × depth not measurable).</p>
+                              <objectType key="block">block</objectType> (<height unit="metre">2.06</height> × <width unit="metre">0.59</width> × depth not measurable).</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -98,12 +99,6 @@ i. first half of first century A.D.; ii. second half of first century A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
-               <term>
-                  <rs type="textType"> honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -142,7 +137,7 @@ i. first half of first century A.D.; ii. second half of first century A.D.
           <lb n="1"/>
           <w lemma="ὁ">ἡ</w>  <w lemma="βουλή">βουλὴ</w>  <w lemma="καί">καὶ</w>  <w lemma="ὁ">ὁ</w>  <w lemma="δῆμος">δῆμος</w>  <w lemma="τιμάω"><orig reg="ἐτίμησεν">ἐτείμησεν</orig>
           </w>  <lb n="2"/>
-          <w lemma="καί">καὶ</w>  <w lemma="μεταλλάζω">μετηλλαχχότα</w>  <note place="not specified" anchored="yes">sic</note>  <persName nymRef="#Μητρόδωρος Μητροδώρου Δημήτριος" type="attested"><name nymRef="#Μητρόδωρος">Μητρόδωρον</name>
+          <w lemma="καί">καὶ</w>  <w lemma="μεταλλάζω">μετηλλαχχότα</w>  <note place="not specified" xml:lang=""/>  <persName nymRef="#Μητρόδωρος Μητροδώρου Δημήτριος" type="attested"><name nymRef="#Μητρόδωρος">Μητρόδωρον</name>
             <lb n="3"/>
             <persName type="attested">
               <name nymRef="#Μητρόδωρος">Μητροδώρου</name>

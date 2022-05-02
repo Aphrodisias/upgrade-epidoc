@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Building inscription: restoration of building by ?Eusebes</title>
+            <title>
+               <rs type="textType">Building inscription</rs>: restoration of building by ?Eusebes</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -36,7 +37,7 @@
                      <supportDesc>
                         <support>
                            <p>Two adjoining pieces making up a block from a <material key="marmor">white marble</material>
-                              <objectType reg="architrave block">entablature</objectType> (together <width unit="metre">1.55</width>   × <height unit="metre">0.41</height>   × <depth unit="metre">0.50</depth>).</p>
+                              <objectType key="architrave block">entablature</objectType> (together <width unit="metre">1.55</width>   × <height unit="metre">0.41</height>   × <depth unit="metre">0.50</depth>).</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -92,9 +93,6 @@ Second century A.D. (<rs type="criteria">lettering</rs>).</origDate>
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Building inscription</rs>
                </term>
             </keywords>
          </textClass>

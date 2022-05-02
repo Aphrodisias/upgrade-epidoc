@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>  Funerary inscription for Heraklides, Alexandros, and Apollonios, sons of Zenon</title>
+            <title>
+               <rs type="textType" reg="funerary">Funerary</rs> inscription for Heraklides, Alexandros, and Apollonios, sons of Zenon</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -95,9 +96,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -115,13 +113,13 @@
 <ab><lb n="1"/><w lemma="ὁ">τὸν</w>  <w lemma="πλάτας">πλάτην</w>  <w lemma="κατασκευάζω">κατεσκεύα<lb n="2" break="no"/>σαν</w>  <space unit="character" extent="1" dim="horizontal"/>  <persName type="attested"><name nymRef="#Ἡρακλίδης">Ἡρακλίδης</name>  <persName type="attested"><name nymRef="#Ζήνων">Ζήνωνος</name></persName></persName><lb n="3"/><w lemma="καί">καὶ</w>  <persName type="attested"><name nymRef="#Ἀλένξανδρος">Ἀλένξα<unclear reason="damage">νδ</unclear>ρος</name>  <name nymRef="#Ζήνων">Ζήνωνος</name></persName><lb n="4"/><w lemma="καί">καὶ</w>  <persName type="attested"><name nymRef="#Ἀπολλώνιος">Ἀπολλώ<unclear reason="damage">νι</unclear>ος</name>  <name nymRef="#Ζήνων">Ζήνωνος</name></persName>  <w lemma="ἐπί">ἐ<lb n="5" break="no"/>φ'</w>  <w>ᾧ</w>  <w lemma="τίθημι">τεθήσονται</w>  <w lemma="ὁ">οἱ</w>  <w lemma="κατασκευάζω">κατεσκευά<lb n="6" break="no"/>σαντες</w>  <w lemma="εἰς">εἰς</w>  <w lemma="ὁ">τὴν</w>  <w lemma="μέσος">μέσην</w>  <w lemma="κλίνη">κλείνην</w><lb n="7"/><w lemma="καί">καὶ</w>  <w lemma="γυνή">γυναῖκες</w>  <w lemma="αὐτός">αὐτῶν</w>  <space unit="character" extent="1" dim="horizontal"/>  <w lemma="ἄλλος">ἄλλῳ</w>  <w lemma="δέ">δὲ</w><lb n="8"/><w lemma="οὐδείς">οὐδενὶ</w>  <w lemma="ἔξεστι">ἐξὸν</w>  <w lemma="τίθημι"><unclear reason="damage">τ</unclear>εθῆναι</w>  <w lemma="εἰς">εἰς</w>  <w lemma="ὁ">τὴν</w><lb n="9"/><w lemma="μέσος">μέσην</w>  <w lemma="κλίνη">κλείνην</w>  <space unit="character" extent="1" dim="horizontal"/>  <w lemma="εἰς">εἰς</w>  <w lemma="ὁ">τὰς</w>  <w lemma="παρά">πα<lb n="10" break="no"/>ρ'</w>  <w lemma="ἑκάτερος">ἑκάτερον</w>  <w lemma="κλίνη">κλείνας</w>  <w lemma="τίθημι">τεθήσον<lb n="11" break="no"/>ται</w>  <w lemma="τέκνον">τέκνα</w>  <w lemma="καί">καὶ</w>  <w lemma="ἔγγονος">ἔγγον<supplied reason="omitted">α</supplied></w>  <w lemma="καί">καὶ</w>  <w lemma="γένος">γέν<unclear reason="damage">η</unclear></w><lb n="12"/><w lemma="ἔξεστι"><unclear reason="damage">ἔ</unclear>ξεσται</w>  <w lemma="δέ">δὲ</w>  <w lemma="ἑκαστος">ἑκάστῳ</w>  <w lemma="φίλος">φίλους</w>  <w lemma="τίθημι">θῖναι</w><lb n="13"/><space unit="character" extent="2" dim="horizontal"/>  <w lemma="δύο">δύω</w>  <space unit="character" extent="1" dim="horizontal"/>  <w lemma="χαίρω">χαίρεται</w>  <space unit="character" extent="1" dim="horizontal"/>  <w lemma="ζάω">ζ<supplied reason="lost" cert="low">ῶσι</supplied><unclear reason="damage">ν</unclear></w></ab>
 </div>
          <div type="apparatus">
-            <p>l. 2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ἀλένξα<supplied reason="lost">νδ</supplied>ρος</foreign>  Reinach</p>
-            <p>l. 3, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ἀπολλώ<supplied reason="lost">νι</supplied>ος</foreign>  Reinach</p>
-            <p>l. 4, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΚΑΙ</foreign> probably cut over erasure (deep letters)</p>
-            <p>ll. 5-6, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κατεσκευά<lb/>σαντες</foreign> for <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κατασκευάσαντες</foreign>
+            <p>l. 2, <foreign xml:lang="grc">Ἀλένξα<supplied reason="lost">νδ</supplied>ρος</foreign>  Reinach</p>
+            <p>l. 3, <foreign xml:lang="grc">Ἀπολλώ<supplied reason="lost">νι</supplied>ος</foreign>  Reinach</p>
+            <p>l. 4, <foreign xml:lang="grc">ΚΑΙ</foreign> probably cut over erasure (deep letters)</p>
+            <p>ll. 5-6, <foreign xml:lang="grc">κατεσκευά<lb/>σαντες</foreign> for <foreign xml:lang="grc">κατασκευάσαντες</foreign>
             </p>
-            <p>l. 6, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΤ</foreign> a correction, cut over <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΣΑ</foreign>; first <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε</foreign> added as part of a correction in a markedly early shape</p>
-            <p>l. 13, traces of final <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ν</foreign> seen by NYU</p>
+            <p>l. 6, <foreign xml:lang="grc">ΝΤ</foreign> a correction, cut over <foreign xml:lang="grc">ΣΑ</foreign>; first <foreign xml:lang="grc">Ε</foreign> added as part of a correction in a markedly early shape</p>
+            <p>l. 13, traces of final <foreign xml:lang="grc">Ν</foreign> seen by NYU</p>
          </div>
          <div type="translation">
             <p>Heraclides son of Zenon, Alexandros son of Zenon, and Apollonios son of Zenon prepared the platform where those who prepared it and their wives will be buried in the middle burial place; no one else may be buried in the middle burial place. In the burial places on either side their children and grandchildren and families shall be buried; each shall be allowed to bury two friends there. Farewell, <seg cert="low">to the living</seg>.</p>

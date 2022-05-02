@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Theophylaktos, imperial judge, witnesses a document</title>
+            <title>Theophylaktos, imperial judge, <rs type="textType" reg="testament">witnesses a document</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -36,8 +37,8 @@
                      <supportDesc>
                         <support>
                            <p>
-                              <seg cert="low">A funeral <objectType reg="base">monument</objectType>
-                              </seg>, with <rs type="decoration">sculpture</rs>: 'This, tho' Christian, is cut on an '<term lang="la">ara sepulchrali</term>', big basis, and <supplied reason="explanation" cert="low">with</supplied> the <rs type="decoration">basreliefs</rs>' (Sherard).</p>
+                              <seg cert="low">A funeral <objectType key="base">monument</objectType>
+                              </seg>, with <rs type="decoration">sculpture</rs>: 'This, tho' Christian, is cut on an '<term xml:lang="la">ara sepulchrali</term>', big basis, and <supplied reason="explanation" cert="low">with</supplied> the <rs type="decoration">basreliefs</rs>' (Sherard).</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -45,7 +46,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>No measurements. Abbreviations: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΟΥ</foreign>, scroll, letter above line.</handNote>
+                     <handNote>No measurements. Abbreviations: <foreign xml:lang="grc">ΟΥ</foreign>, scroll, letter above line.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -90,9 +91,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">testament</rs>
                </term>
             </keywords>
          </textClass>
@@ -139,34 +137,34 @@
 		</ab>
       </div>
          <div type="apparatus">
-            <p>ll. 1-2: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τὸν ανόνυ<lb/>μον</foreign> Ramsay.</p>
-            <p>l. 4,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΚΕΚΥΡΕΝΔΟΝ</foreign> Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κεκυρ<supplied reason="lost">ωμέν</supplied>ον</foreign> Kirchhoff; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κὲ κυρ<supplied reason="abbreviation">ωθέντα</supplied>
+            <p>ll. 1-2: <foreign xml:lang="grc">τὸν ανόνυ<lb/>μον</foreign> Ramsay.</p>
+            <p>l. 4,  <foreign xml:lang="grc">ΚΕΚΥΡΕΝΔΟΝ</foreign> Sherard; <foreign xml:lang="grc">κεκυρ<supplied reason="lost">ωμέν</supplied>ον</foreign> Kirchhoff; <foreign xml:lang="grc">κὲ κυρ<ex>ωθέντα</ex>
                </foreign> Ramsay.</p>
-            <p>l. 5,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΥΕΟΦΥΛΑΚΙȢ</foreign> Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Θεοφυλακίου</foreign> Kirchhoff, Ramsay: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Θεοφυλάκτου</foreign> Grégoire.</p>
-            <p>l.8. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΒΙΟΥ</foreign> Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">βίου</foreign>Kirchhoff, Ramsay; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">θίου</foreign> Grégoire.</p>
-            <p>l.11. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΧΑΕΙΟΥ</foreign> Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ἀγαθίου</foreign>? Grégoire.</p>
-            <p>1.13 <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
-                  <gap reason="lost" unit="character" extent="unknown"/>ΝΟΥΣΧΟΣ</foreign> Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
-                  <supplied reason="lost">Μό</supplied>σχος</foreign> Kirchhoff; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 5,  <foreign xml:lang="grc">ΥΕΟΦΥΛΑΚΙȢ</foreign> Sherard; <foreign xml:lang="grc">Θεοφυλακίου</foreign> Kirchhoff, Ramsay: <foreign xml:lang="grc">Θεοφυλάκτου</foreign> Grégoire.</p>
+            <p>l.8. <foreign xml:lang="grc">ΒΙΟΥ</foreign> Sherard; <foreign xml:lang="grc">βίου</foreign>Kirchhoff, Ramsay; <foreign xml:lang="grc">θίου</foreign> Grégoire.</p>
+            <p>l.11. <foreign xml:lang="grc">ΑΧΑΕΙΟΥ</foreign> Sherard; <foreign xml:lang="grc">Ἀγαθίου</foreign>? Grégoire.</p>
+            <p>1.13 <foreign xml:lang="grc">
+                  <gap reason="lost" unit="character" extent="unknown"/>ΝΟΥΣΧΟΣ</foreign> Sherard; <foreign xml:lang="grc">
+                  <supplied reason="lost">Μό</supplied>σχος</foreign> Kirchhoff; <foreign xml:lang="grc">
                   <supplied reason="lost">Παφ</supplied>νού<supplied reason="lost">θι</supplied>ος</foreign>? Grégoire,</p>
             <p>
-               <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Νου<supplied reason="lost">ν</supplied>
+               <foreign xml:lang="grc">Νου<supplied reason="lost">ν</supplied>
                   <unclear reason="undefined">έ</unclear>χ<supplied reason="lost">ι</supplied>ος</foreign> cj. J. M. Reynolds.</p>
-            <p>l.15. After <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Προκόπιος</foreign>, nothing in Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l.15. After <foreign xml:lang="grc">Προκόπιος</foreign>, nothing in Sherard; <foreign xml:lang="grc">
                   <gap reason="lost" unit="character" extent="unknown"/>
-               </foreign> Kirchhoff; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+               </foreign> Kirchhoff; <foreign xml:lang="grc">
                   <supplied reason="lost">ὁ καὶ</supplied>
                </foreign> Ramsay, Grégoire.</p>
-            <p>l.17, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τΗΣΟΡΟΣ</foreign> Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΣΟ</foreign> overlap slightly in the original copy (BL Add. 10101) and markedly in the fair copy (BL Harl. 7509), from which <bibl>Müller</bibl> transcribed <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ω</foreign>, which appears in all the subsequent publications: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἀνα<supplied reason="lost">γ</supplied>νόστη<supplied reason="lost">ς</supplied> Ῥούφ<gap reason="lost" unit="character" extent="unknown"/>
-               </foreign> Kirchhoff; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἀνα<supplied reason="lost">γ</supplied>νόστη<supplied reason="lost">ς ὁ</supplied> Ῥού<supplied reason="lost" cert="low">φου</supplied>
-               </foreign> Ramsay; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἀνα<supplied reason="lost">γ</supplied>νόστη<supplied reason="abbreviation">ς</supplied> Ὥρου</foreign> Grégoire.</p>
-            <p>l.18. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΠΙΑΤΡΟΥ</foreign> Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ἐπιάτρου</foreign> edd.</p>
-            <p>l.19. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΘΕΟΦΥΛΑΚΙΟΣ</foreign> Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Θεοφυλάκιος</foreign> Kirchhoff, Ramsay; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Θεοφύλακτος</foreign> Grégoire.</p>
-            <p>l.23. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΒΕΛΚΙΟΥ</foreign> Sherard; for <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ἀβερκίου</foreign> Ramsay; for <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ἀβεακίου</foreign> Grégoire</p>
+            <p>l.17, <foreign xml:lang="grc">τΗΣΟΡΟΣ</foreign> Sherard; <foreign xml:lang="grc">ΣΟ</foreign> overlap slightly in the original copy (BL Add. 10101) and markedly in the fair copy (BL Harl. 7509), from which <bibl>Müller</bibl> transcribed <foreign xml:lang="grc">Ω</foreign>, which appears in all the subsequent publications: <foreign xml:lang="grc">ἀνα<supplied reason="lost">γ</supplied>νόστη<supplied reason="lost">ς</supplied> Ῥούφ<gap reason="lost" unit="character" extent="unknown"/>
+               </foreign> Kirchhoff; <foreign xml:lang="grc">ἀνα<supplied reason="lost">γ</supplied>νόστη<supplied reason="lost">ς ὁ</supplied> Ῥού<supplied reason="lost" cert="low">φου</supplied>
+               </foreign> Ramsay; <foreign xml:lang="grc">ἀνα<supplied reason="lost">γ</supplied>νόστη<ex>ς</ex> Ὥρου</foreign> Grégoire.</p>
+            <p>l.18. <foreign xml:lang="grc">ΕΠΙΑΤΡΟΥ</foreign> Sherard; <foreign xml:lang="grc">Ἐπιάτρου</foreign> edd.</p>
+            <p>l.19. <foreign xml:lang="grc">ΘΕΟΦΥΛΑΚΙΟΣ</foreign> Sherard; <foreign xml:lang="grc">Θεοφυλάκιος</foreign> Kirchhoff, Ramsay; <foreign xml:lang="grc">Θεοφύλακτος</foreign> Grégoire.</p>
+            <p>l.23. <foreign xml:lang="grc">ΑΒΕΛΚΙΟΥ</foreign> Sherard; for <foreign xml:lang="grc">Ἀβερκίου</foreign> Ramsay; for <foreign xml:lang="grc">Ἀβεακίου</foreign> Grégoire</p>
          </div>
          <div type="translation">
             <ab>
-               <supplied reason="lost" cert="low">Witnesses</supplied> of the things which have taken place and been confirmed under Theophylaktos, <term lang="la">gloriosissimus</term>, ex-prefect and imperial judge, in the first month of the fifteenth indiction. Theocharistos <supplied reason="subaudible">son</supplied> of <seg cert="low">Achaios</seg>; <gap reason="illegible" unit="character" extent="unknown"/> Nounechios <supplied reason="subaudible">son</supplied> of Phaboulios; Prokopios <supplied reason="lost" cert="low">and</supplied> Theodoros. lector, <supplied reason="subaudible" cert="low">sons</supplied> of Rouphos, <seg cert="low">doctor</seg>; Theophylaktos, deacon; Marianos, deacon; Georgios the brother of Abelkios.</ab>
+               <supplied reason="lost" cert="low">Witnesses</supplied> of the things which have taken place and been confirmed under Theophylaktos, <term xml:lang="la">gloriosissimus</term>, ex-prefect and imperial judge, in the first month of the fifteenth indiction. Theocharistos <supplied reason="subaudible">son</supplied> of <seg cert="low">Achaios</seg>; <gap reason="illegible" unit="character" extent="unknown"/> Nounechios <supplied reason="subaudible">son</supplied> of Phaboulios; Prokopios <supplied reason="lost" cert="low">and</supplied> Theodoros. lector, <supplied reason="subaudible" cert="low">sons</supplied> of Rouphos, <seg cert="low">doctor</seg>; Theophylaktos, deacon; Marianos, deacon; Georgios the brother of Abelkios.</ab>
          </div>
          <div type="commentary">
             <p>See discussion at <ref type="eAla-text" n="VI.42" target=".xml"/>.</p>

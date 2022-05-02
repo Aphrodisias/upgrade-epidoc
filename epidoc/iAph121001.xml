@@ -7,7 +7,9 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <rs type="textType">Dedication</rs> to Constantius II and a Caesar by <rs type="personType" reg="governor">Fl. Quint. Eros Monaxios</rs>
+               <rs type="textType" reg="building inscription">
+                  <rs type="textType">Dedication</rs>
+               </rs> to Constantius II and a <rs type="textType" reg="imperial">Caesar</rs> by <rs type="personType" reg="governor">Fl. Quint. Eros Monaxios</rs>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -47,7 +49,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Letters: <height unit="metre">0.075</height>; elongated and decorated; square <term lang="grc-Latn">sigma</term> and <term lang="grc-Latn">epsilon</term>; diacritical dots over <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Υ</foreign> in l. 2 (twice); scroll for abbreviation marks and for stops.</handNote>
+                     <handNote>Letters: <height unit="metre">0.075</height>; elongated and decorated; square <term xml:lang="grc-Latn">sigma</term> and <term xml:lang="grc-Latn">epsilon</term>; diacritical dots over <foreign xml:lang="grc">Υ</foreign> in l. 2 (twice); scroll for abbreviation marks and for stops.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -102,12 +104,6 @@
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">building inscription</rs>
-               </term>
-               <term>
-                  <rs type="textType">imperial</rs>
                </term>
             </keywords>
          </textClass>
@@ -164,22 +160,22 @@
          </div>
          <div type="apparatus">
             <p>The words highlighted have been erased.</p>
-            <p>l.2. Sherard read <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗΜΗΣ</foreign>. Waddington <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Τ<gap extent="1" reason="illegible" unit="character"/>ΧΗΣ</foreign>, but the tau was not copied by any other witnesses, or by us.</p>
+            <p>l.2. Sherard read <foreign xml:lang="grc">ΤΗΜΗΣ</foreign>. Waddington <foreign xml:lang="grc">Τ<gap extent="1" reason="illegible" unit="character"/>ΧΗΣ</foreign>, but the tau was not copied by any other witnesses, or by us.</p>
             <p>l.5. No earlier visitors copied anything in this rasura; we have (with some difficulty) examined it closely, and taken a squeeze.</p>
-            <p>l.6. After <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἡγεμών</foreign> Sherard read <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">το</foreign>, seen by no other witnesses, but reproduced as <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τε</foreign> by Cormack.</p>
-            <p>l.7. At the end <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l.6. After <foreign xml:lang="grc">ἡγεμών</foreign> Sherard read <foreign xml:lang="grc">το</foreign>, seen by no other witnesses, but reproduced as <foreign xml:lang="grc">τε</foreign> by Cormack.</p>
+            <p>l.7. At the end <foreign xml:lang="grc">
                   <gap extent="unknown" reason="lost" unit="character"/>ΝΤΗΛ<gap extent="2" reason="lost" unit="character"/>ΠΡΑ</foreign> was read by most witnesses, but misleadingly set out in <bibl>
                   <title level="m">CIG</title>
                </bibl>, whence it was misunderstood by <bibl>
                   <author>Cormack</author>
                </bibl> (see <bibl>
-                  <author>Robert</author>, loc.cit., 162</bibl>). We took a squeeze of this line. After <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τόν</foreign> there is a trace of a cross-bar. The restoration <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+                  <author>Robert</author>, loc.cit., 162</bibl>). We took a squeeze of this line. After <foreign xml:lang="grc">τόν</foreign> there is a trace of a cross-bar. The restoration <foreign xml:lang="grc">
                   <supplied reason="lost">ἐκ θ</supplied>
                   <unclear reason="damage">εμελί</unclear>ων</foreign>, from the traces which we discerned, is that of Robert; the phrase appears again in the closely contemporary <ref type="inscription" n="20" target="080405.xml"/>.</p>
          </div>
          <div type="translation">
             <p>With Good Fortune. For the health and safety and fortune and victory and eternal endurance of our masters, Flavius Julius Constantius, pious unvanquished Augustus, and <del status="unremarkable">Flavius Claudius <seg cert="low">Iulianus</seg>
-               </del>. the most renowned and most noble Caesar, Flavius Quintilius Eros Monaxios, <term lang="la">perfectissimus praeses</term> and former Cretarch, built <supplied cert="low" reason="lost">the gate</supplied> from the foundations for the splendid <supplied reason="lost">metropolis of <seg cert="low">the Aphrodisians</seg>
+               </del>. the most renowned and most noble Caesar, Flavius Quintilius Eros Monaxios, <term xml:lang="la">perfectissimus praeses</term> and former Cretarch, built <supplied cert="low" reason="lost">the gate</supplied> from the foundations for the splendid <supplied reason="lost">metropolis of <seg cert="low">the Aphrodisians</seg>
                </supplied>, kin to the Cretans <gap extent="unknown" reason="lost" unit="character"/>
             </p>
          </div>

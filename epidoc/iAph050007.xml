@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dedication  of a <seg cert="low">caryatid</seg> by Attalis</title>
+            <title>
+               <rs type="textType">Dedication </rs> of a <seg cert="low">caryatid</seg> by Attalis</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -47,7 +48,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.05-0.055</height>; l. 1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗ</foreign> in ligature; guidelines visible.</handNote>
+                        <height unit="metre">0.05-0.055</height>; l. 1, <foreign xml:lang="grc">ΜΗ</foreign> in ligature; guidelines visible.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -99,9 +100,6 @@ Mid second century A.D.
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Dedication </rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -118,9 +116,9 @@ Mid second century A.D.
 <ab><lb n="1"/>  <persName type="attested"><name nymRef="#Ἀτταλίς">Ἀτταλὶς</name>  <persName type="attested"><name nymRef="#Μηνόδοτος"><hi rend="ligature">Μη</hi><lb n="2" break="no"/>νοδότου</name>    <space extent="1" unit="character" dim="horizontal"/>  <lb n="3"/><w lemma="ὁ">τοῦ</w>  <persName type="attested"><name nymRef="#Νεικόμαχος">Νεικομά<lb n="4" break="no"/>χου</name></persName></persName></persName>  <w lemma="ἀρχιερεύς">ἀρχιερέ  <space extent="1" unit="character" dim="horizontal"/>  <lb n="5" break="no"/>ως</w> <w lemma="ἱέρεια">ἱέρεια</w> <persName type="divine"><w lemma="ἀρετή">Ἀρε<lb n="6" break="no"/>τῆς</w></persName> <w lemma="ὁ">τῷ</w> <w lemma="δῆμος">Δήμῳ</w></ab>
 </div>
          <div type="apparatus">
-            <p>l. 5, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Σ</foreign> cut over <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε</foreign>
+            <p>l. 5, <foreign xml:lang="grc">Σ</foreign> cut over <foreign xml:lang="grc">Ε</foreign>
             </p>
-            <p>l. 6, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Σ</foreign> cut over <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε</foreign>, but the upright has been partially erased</p>
+            <p>l. 6, <foreign xml:lang="grc">Σ</foreign> cut over <foreign xml:lang="grc">Ε</foreign>, but the upright has been partially erased</p>
          </div>
          <div type="translation">
             <p>Attalis daugher of Menodotos the son of Nikomachos, high priest, priestess of Arete, to the People.</p>

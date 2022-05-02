@@ -6,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Verse honours for Ioannes, <seg cert="low">
+            <title>
+               <rs type="textType" reg="building inscription"/>
+               <rs type="textType">Verse</rs>
+               <rs type="textType">honours</rs> for Ioannes, <seg cert="low">
                   <rs type="personType">governor</rs>
                </seg> of Caria</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
@@ -48,7 +51,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.08</height>; ornate, varied; all four blocks have a characteristic <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ρ</foreign> (only partly visible in a); square <term>sigma</term> in d, lunate in a.</handNote>
+                        <height unit="metre">0.08</height>; ornate, varied; all four blocks have a characteristic <foreign xml:lang="grc">Ρ</foreign> (only partly visible in a); square <term>sigma</term> in d, lunate in a.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -61,7 +64,7 @@
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList">City, South-west</rs>: Fields, south-west of the Acropolis: a and c found partly buried, just east of the tall standing wall which lies 75 m east of the Triconch Church. b was found lying loose some 100 m north of a and c. d '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="de">bei der Stadtmauer sudl. der Akropolis</foreign>' (Reichel)</rs>
+                        <rs type="monuList">City, South-west</rs>: Fields, south-west of the Acropolis: a and c found partly buried, just east of the tall standing wall which lies 75 m east of the Triconch Church. b was found lying loose some 100 m north of a and c. d '<foreign xml:lang="de">bei der Stadtmauer sudl. der Akropolis</foreign>' (Reichel)</rs>
                   </provenance>
                   <provenance type="observed" when="1975">
                      <rs type="lastLocation">Findspots (1975).</rs>
@@ -96,15 +99,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">building inscription</rs>
-               </term>
-               <term>
-                  <rs type="textType">Verse</rs>
-               </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -130,8 +124,8 @@
 		</ab></div>
        </div>
          <div type="apparatus">
-            <p n="a">Cormack read the first letter as a <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Λ</foreign>, followed by one space, whence Robert conjectured <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
-                  <supplied reason="lost">Ἑ</supplied>λλ<supplied reason="lost">ά</supplied>διος</foreign>; but although the surface here is in bad condition, examination of the stone and of a squeeze shows that the letter is an <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α</foreign>, with a distinctive scroll dependent on the dropped cross-bar, and measuring <measure type="length" dim="none">0.06</measure>. There is space for two letters between this and the <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Δ</foreign> of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Δῖος</foreign>. Although the surface to the left is only superficially chipped, I can determine no trace of other letters. After <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Δῖος</foreign> there is a thin but clear vertical line traversing the <term>fascia</term>.</p>
+            <p n="a">Cormack read the first letter as a <foreign xml:lang="grc">Λ</foreign>, followed by one space, whence Robert conjectured <foreign xml:lang="grc">
+                  <supplied reason="lost">Ἑ</supplied>λλ<supplied reason="lost">ά</supplied>διος</foreign>; but although the surface here is in bad condition, examination of the stone and of a squeeze shows that the letter is an <foreign xml:lang="grc">Α</foreign>, with a distinctive scroll dependent on the dropped cross-bar, and measuring <measure type="length" dim="height">0.06</measure>. There is space for two letters between this and the <foreign xml:lang="grc">Δ</foreign> of <foreign xml:lang="grc">Δῖος</foreign>. Although the surface to the left is only superficially chipped, I can determine no trace of other letters. After <foreign xml:lang="grc">Δῖος</foreign> there is a thin but clear vertical line traversing the <term>fascia</term>.</p>
          </div>
          <div type="translation">
             <p>

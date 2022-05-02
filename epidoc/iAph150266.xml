@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Honours or dedication</title>
+            <title>
+               <rs type="textType">Honours</rs> or <rs type="textType">dedication</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -92,12 +94,6 @@ First half of I cent. A.D. (<rs type="criteria">lettering</rs>)</origDate>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
-               <term>
-                  <rs type="textType">dedication</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -114,10 +110,10 @@ First half of I cent. A.D. (<rs type="criteria">lettering</rs>)</origDate>
 <ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">οριααδρ</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear>αρητοσ</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">τεπιτα<unclear reason="damage">τ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/></ab>
 </div>
          <div type="apparatus">
-            <p>l. 1,  in view of date, probably <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ἀδρ<supplied reason="lost">αστ</supplied>
+            <p>l. 1,  in view of date, probably <foreign xml:lang="grc">Ἀδρ<supplied reason="lost">αστ</supplied>
                </foreign>
             </p>
-            <p>l. 3,  last letter could be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Γ</foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Π</foreign>
+            <p>l. 3,  last letter could be <foreign xml:lang="grc">Γ</foreign> or <foreign xml:lang="grc">Π</foreign>
             </p>
          </div>
          <div type="translation" n="none">

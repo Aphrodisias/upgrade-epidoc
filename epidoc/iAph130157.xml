@@ -6,8 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragment of <rs type="textType">funerary</rs>
-               <rs type="textType">verse</rs>
+            <title>Fragment of <rs type="textType">
+                  <rs type="textType">funerary</rs>
+                  <rs type="textType">verse</rs>
+               </rs>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -45,7 +47,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> a above and b within a <term lang="la">tabella
+                           <rs type="execution" key="scalpro">Inscribed</rs> a above and b within a <term xml:lang="la">tabella
 ansata</term>.</layout>
                      </layoutDesc>
                   </objectDesc>
@@ -64,7 +66,7 @@ irregular.</handNote>
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList" cert="low">Necropolis, North-east</rs>:  '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="de">
+                        <rs type="monuList" cert="low">Necropolis, North-east</rs>:  '<foreign xml:lang="de">
                            <abbr>ostl.</abbr> von Aphrodisias. Acker
 des Hadji Ibraham = Weinberg</foreign>' (Kubitschek).</rs>
                   </provenance>
@@ -102,9 +104,6 @@ des Hadji Ibraham = Weinberg</foreign>' (Kubitschek).</rs>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">funerary verse</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -140,8 +139,8 @@ des Hadji Ibraham = Weinberg</foreign>' (Kubitschek).</rs>
 		  </lg></div>			
       </div>
          <div type="apparatus">
-            <p>a, l.1. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Μ</foreign> might be
-<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α</foreign>.</p>
+            <p>a, l.1. <foreign xml:lang="grc">Μ</foreign> might be
+<foreign xml:lang="grc">Α</foreign>.</p>
             <p>There is no indication of how much is missing to either
 side in ll. 2 ff.</p>
          </div>

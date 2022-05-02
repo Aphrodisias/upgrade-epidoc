@@ -6,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dedicatory poem <seg cert="low">
+            <title>
+               <rs type="textType" reg="dedication">Dedicatory</rs>
+               <rs type="textType" reg="verse">poem</rs>
+               <seg cert="low">
                   <rs type="textType" reg="building inscription"/>
                </seg>
             </title>
@@ -64,7 +67,7 @@
                      <origDate notBefore="0501" notAfter="0600" precision="medium">Sixth century A.D., or later</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">a. <rs key="Triconch" type="monuList">Martyrion</rs>: section 5, south wall. b. '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">narthex, côté nord</foreign>' <seg cert="low">of the Temple</seg> (Gaudin); found in the <rs type="monuList">Temple/Church</rs> by the NYU expedition (1961: notebook 4, 15); c: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="de">
+                     <rs type="found">a. <rs key="Triconch" type="monuList">Martyrion</rs>: section 5, south wall. b. '<foreign xml:lang="fr">narthex, côté nord</foreign>' <seg cert="low">of the Temple</seg> (Gaudin); found in the <rs type="monuList">Temple/Church</rs> by the NYU expedition (1961: notebook 4, 15); c: '<foreign xml:lang="de">
                            <rs type="monuList" reg="Village">Geira</rs>, Haus des Ishiklar, hoch oben eingemauert</foreign>' (Kubitschek), 'in a house wall' (<title level="s">MAMA</title>), stray find (NYU).</rs>
                   </provenance>
                   <provenance type="observed">
@@ -104,12 +107,6 @@
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">dedication</rs>
-               </term>
-               <term>
-                  <rs type="textType">verse</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -134,15 +131,15 @@
 		</ab></div><div n="b" type="textpart" subtype="fragment"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="θεοδέγμων">θεοδέγμονα</w> <w lemma="κῆπος">κῆπον</w> <space dim="horizontal"/><milestone unit="block"/></ab></div><div n="c" type="textpart" subtype="fragment"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">νι</orig> <w lemma="τίθημι">θῆκα</w> <w lemma="ὁ">τὸ</w> <w lemma="δῶμα">δῶμα</w> <g ref="#cross"/><milestone unit="block"/></ab></div>
       </div>
          <div type="apparatus">
-            <p>b. Reinach read <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΘΕΟΔΕΙΜΟΝΑ</foreign> which was correctly emended by Grégoire.</p>
-            <p>c. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἀνεθήκατο</foreign> Grégoire; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>b. Reinach read <foreign xml:lang="grc">ΘΕΟΔΕΙΜΟΝΑ</foreign> which was correctly emended by Grégoire.</p>
+            <p>c. <foreign xml:lang="grc">ἀνεθήκατο</foreign> Grégoire; <foreign xml:lang="grc">
                   <seg type="damage">
                      <supplied reason="lost">ἀ</supplied>
-                  </seg>νίθηκα τὸ</foreign> ALA ed. 1; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+                  </seg>νίθηκα τὸ</foreign> ALA ed. 1; <foreign xml:lang="grc">
                   <w>
                      <gap reason="lost" unit="character" extent="unknown"/>
                      <orig n="unresolved">νι</orig>
-                  </w> θῆκα τὸ</foreign> Feissel (1991); <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">θήκατο</foreign> Feissel (2002).</p>
+                  </w> θῆκα τὸ</foreign> Feissel (1991); <foreign xml:lang="grc">θήκατο</foreign> Feissel (2002).</p>
          </div>
          <div type="translation">
             <p>

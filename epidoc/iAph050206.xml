@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Column <rs type="textType">dedication</rs> to Demos by Menippos Kodios and Papianos Kodios</title>
+            <title>
+               <rs type="textType">Column <rs type="textType">dedication</rs>
+               </rs> to Demos by Menippos Kodios and Papianos Kodios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -98,9 +100,6 @@ Second to third centuries A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Column dedication</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -121,15 +120,15 @@ Second to third centuries A.D.
 </div>
          <div type="apparatus">
             <p> i. the text highlighted was read by Boulanger and /or Jacopi but not by us</p>
-            <p>i. l. 2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κοδροι</foreign>, Boulanger</p>
+            <p>i. l. 2, <foreign xml:lang="grc">κοδροι</foreign>, Boulanger</p>
          </div>
          <div type="translation">
-            <p>Menippos Kodios and Papianos Kodios, sons of Athenagoras the son of Menippos dedicated the four columns with their <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="la">tori</foreign> and capitals to the Demos from their own funds.</p>
+            <p>Menippos Kodios and Papianos Kodios, sons of Athenagoras the son of Menippos dedicated the four columns with their <foreign xml:lang="la">tori</foreign> and capitals to the Demos from their own funds.</p>
          </div>
          <div type="commentary">
             <p>One of the column base dedications from the west portico of the East Court of the Hadrianic Baths. From north section: <ref type="inscription" n="1114" target="050206.xml"/> (=MiItal 8 i and ii), <ref type="inscription" n="1116" target="050201.xml"/> (=Haussoullier 1), <ref type="iAph" target=".xml"/> (=Boulanger A 73, no.11); from the south section <ref type="iAph" target=".xml"/> (=Boulanger B, 21 no.28).</p>
             <p>
-               <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc-Latn">Speira</foreign> is a standard term for the rounded moulding (torus) in the base of an Ionic or Corinthian column: IG I2 372.64; Sardis 7(1) no 181, Poll. 7.121, Vitruvius 3.5.3.,  <ref type="inscription" n="1117" target="050202.xml"/> (=Museum 154), <ref type="iAph" target=".xml"/> (=Museum 158); cf also <ref type="iAph" target=".xml"/> (=68.272).</p>
+               <foreign xml:lang="grc-Latn">Speira</foreign> is a standard term for the rounded moulding (torus) in the base of an Ionic or Corinthian column: IG I2 372.64; Sardis 7(1) no 181, Poll. 7.121, Vitruvius 3.5.3.,  <ref type="inscription" n="1117" target="050202.xml"/> (=Museum 154), <ref type="iAph" target=".xml"/> (=Museum 158); cf also <ref type="iAph" target=".xml"/> (=68.272).</p>
          </div>
          <div type="bibliography">
             <p>i published by <bibl n="jacopi1940">Jacopi, <title>MonAnt</title> 38, 1939, 227, no. <citedRange>8</citedRange>

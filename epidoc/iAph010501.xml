@@ -110,7 +110,7 @@ First to third centuries A.D. (<rs type="criteria">lettering</rs>)
 <cb n="i"/><ab>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear>βρον</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="1a"/>  <space extent="1" unit="line" dim="vertical"/></ab> <cb n="ii"/><ab> <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">α</unclear>νιον</orig><gap reason="lost" extent="unknown" unit="character"/></ab>
 </div>
          <div type="apparatus">
-            <p>i, perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>i, perhaps <foreign xml:lang="grc">
                   <supplied reason="lost" cert="low">Τ</supplied>ιβ. Ρον<gap reason="lost" unit="character" extent="unknown"/>
                </foreign>
             </p>

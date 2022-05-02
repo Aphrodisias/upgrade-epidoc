@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for Hosidius Ioulianos</title>
+            <title>
+               <rs type="textType">Honours</rs> for Hosidius Ioulianos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -36,7 +37,7 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <p>Three<objectType> frieze</objectType> blocks: a, in two fragments (length, together, <width unit="metre">0.78</width>) has a space with a small moulding above, at the left end, before the text; it has the assembly mark <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+                           <p>Three<objectType> frieze</objectType> blocks: a, in two fragments (length, together, <width unit="metre">0.78</width>) has a space with a small moulding above, at the left end, before the text; it has the assembly mark <foreign xml:lang="grc">
                                  <unclear reason="damage">Η</unclear>Α</foreign>. The other two blocks have no assembly marks; b, broken to the left, is <width unit="metre">0.75</width>; c, broken at the right, is <width unit="metre">0.47</width>.</p>
                         </support>
                      </supportDesc>
@@ -47,7 +48,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.025-0.03</height>; dot for stop; ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΜ</foreign>, l. 1; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗΝ</foreign>, l. 3</handNote>
+                        <height unit="metre">0.025-0.03</height>; dot for stop; ligatures: <foreign xml:lang="grc">ΗΝ</foreign>, <foreign xml:lang="grc">ΗΜ</foreign>, l. 1; <foreign xml:lang="grc">ΗΝ</foreign>, <foreign xml:lang="grc">ΜΗΝ</foreign>, l. 3</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -104,9 +105,6 @@ Second century A.D.
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -124,10 +122,10 @@ Second century A.D.
 <ab><lb n="1"/> <w lemma="ὁ">Ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="τιμάω">ἐτείμησαν</w> <persName type="attested"><name nymRef="#Γάϊος">Γ<milestone unit="block" n="b"/><supplied reason="lost">άιον</supplied></name>  <name nymRef="#Ὁσίδιος">Ὁσίδιο<supplied reason="lost">ν</supplied></name>  <name nymRef="#Ἰουλιανός"><supplied reason="lost">Ἰουλι</supplied><unclear reason="damage">α</unclear>νὸν</name></persName> <w lemma="φιλόπατρις">φιλόπατριν</w> <w lemma="καί">καὶ</w> <w lemma="εὐεργέτης">εὐεργέτην</w> <w lemma="ἀνατίθημι">ἀνα<milestone unit="block" n="c"/>θέντα</w> <w lemma="χρῆμα">χρήματα</w> <w lemma="εἰς">εἰς</w> <w lemma="ἀγών">ἀγῶν<supplied reason="lost">ας</supplied></w>  <w><gap reason="lost" extent="5" unit="character"/><supplied reason="lost">ε</supplied> <lb n="2" break="no"/>τηρικοὺς</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῇ</w> <w lemma="θεά"><supplied reason="lost">θ</supplied>ε<supplied reason="omitted">ᾳ</supplied></w> <persName type="divine"><name nymRef="#Ἀφροδίτη">Ἀφροδίτῃ</name></persName> <w lemma="καταλείπω">κατ<supplied reason="lost">αλιπ</supplied><milestone unit="block" n="b"/>όν<supplied reason="lost">τα</supplied></w> <w lemma="ἀργύρεος"><supplied reason="lost">ἀρ</supplied>γύρεα</w> <w lemma="χρυσένπαιστος">χρυσένπαιστα</w> <w lemma="δηλόω">δηλούμενα</w> <w lemma="διά">διὰ</w> <w lemma="ὁ">τῆ<milestone unit="block" n="c"/>ς</w> <w lemma="διαθήκη">διαθ<unclear reason="damage">η</unclear>κῆς</w> <w lemma="αὐτός">αὐτοῦ</w> stop <w lemma="ὁ">τὸ</w> <w lemma="δέ">δὲ</w> <w lemma="εἰς"><supplied reason="lost">εἰς</supplied></w> <w lemma="ὁ"><supplied reason="lost">τὴν</supplied></w>  <w lemma="τιμή"><supplied reason="lost" cert="low">τεί</supplied> <lb n="3" break="no"/> μην</w> <w lemma="ὁ">τοῦ</w> <orig n="unresolved">αν<unclear reason="damage">λο</unclear></orig><gap reason="lost" extent="1" unit="character"/><orig n="unresolved">ο</orig><gap reason="lost" extent="2" unit="character"/>  <orig n="unresolved"><unclear reason="damage">εγηγ</unclear></orig>  <milestone unit="block"/> <w><gap reason="lost" extent="12" unit="character"/>ῶν</w> <w lemma="πρόσοδος">προσόδων</w> <w lemma="ἐργεπιστατέω">ἐργεπι<unclear reason="damage">σ</unclear><supplied reason="lost">τα</supplied><unclear reason="damage">τή</unclear>σαντος</w>  <persName type="attested"><name nymRef="#Ἀνδρόνεικος">Ἀνδρο<milestone unit="block"/><supplied reason="lost">ν</supplied><unclear reason="damage">εί</unclear>κου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Παρδαλᾶς">Παρδαλᾶ</name> <w lemma="ὁ">τ<supplied reason="lost">οῦ</supplied></w>    <persName type="attested"><name nymRef="#Παπίας"><supplied reason="lost" cert="low">Παπίου</supplied></name></persName></persName></persName></ab>
 </div>
          <div type="apparatus">
-            <p>l  .2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΘΜΚΗ</foreign> lapis.</p>
-            <p>l. 3, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἀν<unclear reason="damage">αθ</unclear>
+            <p>l  .2, <foreign xml:lang="grc">ΘΜΚΗ</foreign> lapis.</p>
+            <p>l. 3, <foreign xml:lang="grc">ἀν<unclear reason="damage">αθ</unclear>
                   <supplied reason="lost">ήματος</supplied>
-               </foreign> ? or perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἀν<unclear reason="damage">δρ</unclear>
+               </foreign> ? or perhaps <foreign xml:lang="grc">ἀν<unclear reason="damage">δρ</unclear>
                   <supplied reason="lost">ιάντος</supplied>
                </foreign>. At the end of the line perhaps a patronymic, perhaps an office.</p>
          </div>

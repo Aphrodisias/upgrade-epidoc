@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Basilica, gameboard</title>
+            <title>Basilica, <rs type="textType">gameboard</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -87,7 +88,7 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>)</origDate>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<note lang="en">A carefully cut board, type 3Rows.4; circles ave. <measure dim="diameter" type="length" unit="metre" precision="circa">0.02</measure>, central rosette in circle  <measure dim="height" type="length" unit="metre" precision="circa">0.09</measure>.</note></div>
+<note xml:lang="en"/></div>
          <div type="translation" n="none">
             <p>No translation possible.</p>
          </div>

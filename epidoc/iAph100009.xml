@@ -112,8 +112,7 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>)</origDate>
       <body>
          <div n="text" lang="grc" type="textpart" subtype="section">
             <div n="C" type="textpart" subtype="section">
-               <note>
-Designs, type C2 and type S3.</note>
+               <note xml:lang=""/>
             </div>
             <div n="P" type="textpart" subtype="section">
                <ab>
@@ -159,13 +158,13 @@ Designs, type C2 and type S3.</note>
                         <name>
                            <expan>
                               <abbr>Κλ</abbr>
-                              <supplied reason="abbreviation">αυδίας</supplied>
+                              <ex>αυδίας</ex>
                            </expan>
                         </name>
                         <milestone unit="block"/>
                         <name>Σελευκεί<milestone unit="block"/>ας</name>
                      </persName>
-                     <w>τό<supplied reason="abbreviation">πος</supplied>
+                     <w>τό<ex>πος</ex>
                      </w>
                      <milestone unit="block"/>
                      <gap reason="lost" extent="1" unit="character"/>
@@ -215,7 +214,7 @@ Designs, type C2 and type S3.</note>
             </div>
          </div>
          <div type="apparatus">
-            <p>Row Y.i: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΟ</foreign> is underlined, perhaps indicating an abbreviation for τόπος; the following letters are more widely spaced, and may belong to a different inscription.</p>
+            <p>Row Y.i: <foreign xml:lang="grc">ΤΟ</foreign> is underlined, perhaps indicating an abbreviation for τόπος; the following letters are more widely spaced, and may belong to a different inscription.</p>
          </div>
          <div type="translation">
             <p>Row P: Place of philo[-...</p>

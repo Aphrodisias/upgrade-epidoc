@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>i. Honours for Pyrron son of Itharos; ii. Verse honours for Hermias, benefactor</title>
+            <title>i. <rs type="textType">Honours</rs> for Pyrron son of Itharos; ii. <rs type="textType">Verse</rs> honours for Hermias, benefactor</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +45,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>i. <height unit="metre">0.02</height>; ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">MNH</foreign> l. 8, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">TH</foreign> l. 8, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">NN</foreign> l. 10, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">NT</foreign> l. 13, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">HN</foreign> l. 20. ii. <height unit="metre">0.03-0.07</height>; very irregular, clearly cut.</handNote>
+                     <handNote>i. <height unit="metre">0.02</height>; ligatures: <foreign xml:lang="grc">MNH</foreign> l. 8, <foreign xml:lang="grc">TH</foreign> l. 8, <foreign xml:lang="grc">NN</foreign> l. 10, <foreign xml:lang="grc">NT</foreign> l. 13, <foreign xml:lang="grc">HN</foreign> l. 20. ii. <height unit="metre">0.03-0.07</height>; very irregular, clearly cut.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -96,12 +96,6 @@
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
-               <term>
-                  <rs type="textType">Verse</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -134,18 +128,18 @@
 		</lg></div>
       </div>
          <div type="apparatus">
-            <p>i. l. 1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">νεωποιοὶ</foreign> LR, D-B.</p>
-            <p>i. l. 3, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">θεᾶς</foreign> LR, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">θεοῦ</foreign> D-B</p>
-            <p>i. l. 12, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">καὶ</foreign> om. LR</p>
+            <p>i. l. 1, <foreign xml:lang="grc">νεωποιοὶ</foreign> LR, D-B.</p>
+            <p>i. l. 3, <foreign xml:lang="grc">θεᾶς</foreign> LR, <foreign xml:lang="grc">θεοῦ</foreign> D-B</p>
+            <p>i. l. 12, <foreign xml:lang="grc">καὶ</foreign> om. LR</p>
             <p>i. l. 12, the second sigma was not read by Boulanger; it was omitted by the mason, and then inserted very lightly.</p>
-            <p>i. l. 14, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Π<unclear reason="damage">ΥΡ</unclear>ΡΩΝΑ</foreign> JMR, D-B, lapis; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Εὔφρωνα</foreign> Boulanger, whence LR.</p>
-            <p>i. l. 18, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΙΛΙ</foreign> Boulanger, corrected by LR</p>
-            <p>i. l. 27, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΓΕΝΟΥΣΕΙΝΟΥ</foreign> Boulanger (A) whence <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">γένους Εὐνου</foreign> (B).</p>
+            <p>i. l. 14, <foreign xml:lang="grc">Π<unclear reason="damage">ΥΡ</unclear>ΡΩΝΑ</foreign> JMR, D-B, lapis; <foreign xml:lang="grc">Εὔφρωνα</foreign> Boulanger, whence LR.</p>
+            <p>i. l. 18, <foreign xml:lang="grc">ΕΙΛΙ</foreign> Boulanger, corrected by LR</p>
+            <p>i. l. 27, <foreign xml:lang="grc">ΓΕΝΟΥΣΕΙΝΟΥ</foreign> Boulanger (A) whence <foreign xml:lang="grc">γένους Εὐνου</foreign> (B).</p>
          </div>
          <div type="translation">
-            <p>i.  [ . .  . ] and the <term lang="grc-Latn">chrysophoroi neopoioi</term> of the most holy god Aphrodite (put up) beside the God who is asylos, according to the decisions conveyed by decrees and instructions of the most powerful Council, the (statue of the) most pure neokoros of the goddess Aphrodite and most trustworthy oikonomos of the City, Pyrron son of Itharos (son of Itharos son of Itharos) son of Menippos, on account of his goodwill andgood faith and integrity and piety towards the God. Marcus Aurelius Aelius Antoninos son of Diogenes son of Solon, archon of the most powerful Council, was responsible for the erection of the statue.</p>
+            <p>i.  [ . .  . ] and the <term xml:lang="grc-Latn">chrysophoroi neopoioi</term> of the most holy god Aphrodite (put up) beside the God who is asylos, according to the decisions conveyed by decrees and instructions of the most powerful Council, the (statue of the) most pure neokoros of the goddess Aphrodite and most trustworthy oikonomos of the City, Pyrron son of Itharos (son of Itharos son of Itharos) son of Menippos, on account of his goodwill andgood faith and integrity and piety towards the God. Marcus Aurelius Aelius Antoninos son of Diogenes son of Solon, archon of the most powerful Council, was responsible for the erection of the statue.</p>
             <p>ii. Hermias gave three thousands of gold to this bath, and obtained an everliving fame <supplied reason="explanation">
-                  <note place="not specified" anchored="yes">lit.</note> memory</supplied>.</p>
+                  <note place="not specified" xml:lang=""/> memory</supplied>.</p>
          </div>
          <div type="commentary">
             <p>i. No commentary yet (2007)</p>

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragmentary honours</title>
+            <title>Fragmentary <rs type="textType" reg="honours" cert="low">honours</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -36,7 +37,7 @@
                      <supportDesc>
                         <support>
                            <p>Upper part of a round-headed <material key="marmor">marble</material>
-                              <objectType reg="stele">stele</objectType>  (<width unit="metre">0.33</width> × <height unit="metre">0.48</height> × <depth unit="metre">0.15</depth>), chipped on either side as well as cut away below; within the head is an incised <rs type="decoration">olive wreath</rs> with pendant <rs type="decoration">taenia</rs> that impinge on the body of the stele, above the text. There is a hole in the underside for attachment to a shaft below, which must also have been inscribed.</p>
+                              <objectType key="stele">stele</objectType>  (<width unit="metre">0.33</width> × <height unit="metre">0.48</height> × <depth unit="metre">0.15</depth>), chipped on either side as well as cut away below; within the head is an incised <rs type="decoration">olive wreath</rs> with pendant <rs type="decoration">taenia</rs> that impinge on the body of the stele, above the text. There is a hole in the underside for attachment to a shaft below, which must also have been inscribed.</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -46,7 +47,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height>0.015</height>; circular letters small; <term>theta</term> with dot in centre; adscript <term lang="grc-Latn">iota</term>.</handNote>
+                        <height>0.015</height>; circular letters small; <term>theta</term> with dot in centre; adscript <term xml:lang="grc-Latn">iota</term>.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -95,9 +96,6 @@
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">honours</rs>
                </term>
             </keywords>
          </textClass>

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for Aelia Julia Apphia</title>
+            <title>
+               <rs type="textType">Honours</rs> for Aelia Julia Apphia</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -92,9 +93,6 @@ Second to third centuries A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -111,7 +109,7 @@ Second to third centuries A.D.
 <ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <lb n="2"/> <persName type="attested"><name nymRef="#Αἰλία">Αἰλίαν</name> <name nymRef="#Ἰουλία">Ἰουλίαν</name> <name nymRef="#Ἀπφία">Ἀπφίαν</name></persName> <lb n="3"/> <w lemma="ματρώνη">ματρώναν</w> <w lemma="στολᾶτος">στολάταν</w> </ab>
 </div>
          <div type="translation">
-            <p>The Council and the People (set up a staue of) Aelia Julia Apphia, <term lang="la">matrona stolata</term> [? ...</p>
+            <p>The Council and the People (set up a staue of) Aelia Julia Apphia, <term xml:lang="la">matrona stolata</term> [? ...</p>
          </div>
          <div type="commentary">
             <p>Reinach, p. 149, suggested that this could be the upper part of <ref type="inscription" n="1037" target="010187.xml"/> ( =MAMA 514); but the text may be complete.</p>

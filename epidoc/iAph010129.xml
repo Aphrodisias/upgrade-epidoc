@@ -111,7 +111,7 @@ Roman period (<rs type="criteria">lettering</rs>).</origDate>
 <ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/><orig n="unresolved"><unclear reason="damage">ν</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><orig n="unresolved">σ</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><orig n="unresolved"><unclear reason="damage">γ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/><orig n="unresolved"><unclear reason="damage">γ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="5"/><orig n="unresolved">α</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="6"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="6a"/><gap reason="lost" extent="unknown" unit="line"/></ab>
 </div>
          <div type="apparatus">
-            <p>ll. 3, 4, perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Π</foreign>
+            <p>ll. 3, 4, perhaps <foreign xml:lang="grc">Π</foreign>
             </p>
          </div>
          <div type="translation" n="none">

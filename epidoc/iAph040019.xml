@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Philippos, <title lang="la">admirandissimus</title>, pays for work in the South Agora </title>
+            <title>Philippos, <title lang="la">admirandissimus</title>, <rs type="textType" reg="building inscription">pays for work</rs> in the South Agora </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -92,9 +92,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">building inscription</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -116,7 +113,7 @@
 		<ab><lb n="1"/><g ref="#cross"/> <persName key="philip1" type="attested"><name nymRef="#Φίλιππος">Φίλιππος</name> <persName key="Herodian" type="attested"><name nymRef="#Ἡροδιανός"><expan><abbr>Ἡροδιαν</abbr><ex>οῦ</ex></expan></name></persName></persName> <w lemma="ὁ">ὁ</w> <rs type="dignity" key="admirandissimus"><w lemma="θαυμάσιος"><expan><abbr>θαυμ</abbr><ex>ασιώτατος</ex></expan></w></rs> <w lemma="εὐχαριστέω">εὐχαριστῶν</w> <w lemma="ὁ">τῇ</w> <w lemma="οἰκία">οἰκίᾳ</w> <w lemma="πατρίς">πατρίδι</w> <w lemma="ὁ">τὰ</w> <num value="2"><hi rend="supraline">β</hi></num> <w lemma="διάχωρον">διάχορα</w> <w lemma="σκεπάζω">ἐσκέπασεν</w> <g ref="#cross"/></ab>
       </div>
          <div type="translation">
-            <ab>Philippos, son of Herodianos, <term lang="la">admirandissimus</term>, returning thanks to his own fatherland, covered <supplied reason="explanation" cert="low">roofed</supplied> the two sections.</ab>
+            <ab>Philippos, son of Herodianos, <term xml:lang="la">admirandissimus</term>, returning thanks to his own fatherland, covered <supplied reason="explanation" cert="low">roofed</supplied> the two sections.</ab>
          </div>
          <div type="commentary">
             <p>See discussion at <ref type="eAla-text" n="V.42" target=".xml"/>.</p>

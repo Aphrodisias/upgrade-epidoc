@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Building dedication for Aphrodite</title>
+            <title>
+               <rs type="textType">Building dedication</rs> for Aphrodite</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -96,9 +97,6 @@ First century A.D.
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Building dedication</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -117,7 +115,7 @@ First century A.D.
 <ab><lb n="1"/><persName type="divine"><name nymRef="#Ἀφροδίτη">Ἀφροδε<unclear reason="damage">ίτ</unclear><supplied reason="lost">ῃ</supplied></name></persName>  <gap extent="unknown" unit="character" reason="lost"/><lb n="2"/> <w lemma="ἐκ">ἐκ</w> <w lemma="θεμέλιος">θεμελίων</w> <orig n="unresolved">σ<unclear reason="damage">με</unclear></orig><gap extent="unknown" unit="character" reason="lost"/></ab>
 </div>
          <div type="apparatus">
-            <p>l. 2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">M</foreign> could be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">N</foreign>, or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Υ</foreign>, giving ? <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">σὺν</foreign>. The final letter is very uncertain</p>
+            <p>l. 2, <foreign xml:lang="grc">M</foreign> could be <foreign xml:lang="grc">N</foreign>, or <foreign xml:lang="grc">Υ</foreign>, giving ? <foreign xml:lang="grc">σὺν</foreign>. The final letter is very uncertain</p>
          </div>
          <div type="translation">
             <p> ?<seg cert="low">To</seg> Aphrodite <gap reason="lost" extent="unknown" unit="character"/>

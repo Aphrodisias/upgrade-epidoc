@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Building <rs type="textType">dedication</rs>s, by Antipatros and by Dionysios,  to Demos</title>
+            <title>
+               <rs type="textType">Building <rs type="textType">dedication</rs>
+               </rs>s, by Antipatros and by Dionysios,  to Demos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -57,7 +59,7 @@ Perhaps first century B.C. to first century A.D. (<rs type="criteria">lettering<
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList">Walls, South-east Gate</rs>: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">au dégagement de la statue de femme</foreign>' Gaudin; reused together to create a course on top of elements of a  tomb at the East gate (which bears <ref type="inscription" n="1009" target="130301.xml"/> [=MAMA 472-3], <ref type="inscription" n="1010" target="130302.xml"/> 474-6], <ref type="inscription" n="1012" target="120609.xml"/> and <ref type="inscription" n="1527" target="120411.xml"/>)</rs>
+                        <rs type="monuList">Walls, South-east Gate</rs>: '<foreign xml:lang="fr">au dégagement de la statue de femme</foreign>' Gaudin; reused together to create a course on top of elements of a  tomb at the East gate (which bears <ref type="inscription" n="1009" target="130301.xml"/> [=MAMA 472-3], <ref type="inscription" n="1010" target="130302.xml"/> 474-6], <ref type="inscription" n="1012" target="120609.xml"/> and <ref type="inscription" n="1527" target="120411.xml"/>)</rs>
                   </provenance>
                   <provenance type="observed" when="1976">
                      <rs type="lastLocation">Findspot (1976)</rs>
@@ -91,9 +93,6 @@ Perhaps first century B.C. to first century A.D. (<rs type="criteria">lettering<
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Building dedication</rs>
                </term>
             </keywords>
          </textClass>

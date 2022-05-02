@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Verse honours for  <seg cert="low">a <rs type="personType">governor</rs>
+            <title>
+               <rs type="textType">Verse</rs>
+               <rs type="textType">honours</rs> for  <seg cert="low">a <rs type="personType">governor</rs>
                </seg>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
@@ -60,7 +62,7 @@
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: main part found standing against a column of the western colonnade of the tetrastoon, immediately south of <ref type="inscription" n="62" target="080410.xml"/>; fragment found in the same area (NPS I) at <measure type="length" dim="none">0.20</measure> above the paving. .</rs>
+                        <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: main part found standing against a column of the western colonnade of the tetrastoon, immediately south of <ref type="inscription" n="62" target="080410.xml"/>; fragment found in the same area (NPS I) at <measure type="length" dim="height">0.20</measure> above the paving. .</rs>
                   </provenance>
                   <provenance type="observed">
                      <rs type="lastLocation">Findspot and Museum.</rs>
@@ -96,12 +98,6 @@
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">Verse</rs>
-               </term>
-               <term>
-                  <rs type="textType">honours</rs>
                </term>
             </keywords>
          </textClass>

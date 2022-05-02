@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Building inscription of <rs type="personType" reg="governor">Helladios</rs>
+            <title>
+               <rs type="textType">Building inscription</rs> of <rs type="personType" reg="governor">Helladios</rs>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -60,7 +61,7 @@ cut, with a flowing line similar to  <ref type="inscription" n="12" target="0503
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList">South Agora</rs>: West Portico: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">Galerie de l'E<supplied reason="abbreviation">st</supplied>, (N<supplied reason="abbreviation">ord</supplied>)</foreign>'
+                        <rs type="monuList">South Agora</rs>: West Portico: '<foreign xml:lang="fr">Galerie de l'E<ex>st</ex>, (N<ex>ord</ex>)</foreign>'
 (Boulanger); found in the same place by the NYU expedition.</rs>
                   </provenance>
                   <provenance type="observed" when="1976">
@@ -95,9 +96,6 @@ cut, with a flowing line similar to  <ref type="inscription" n="12" target="0503
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Building inscription</rs>
                </term>
             </keywords>
          </textClass>

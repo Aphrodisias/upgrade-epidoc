@@ -6,7 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Acclamations of Mardaetus and of the Pytheanitae (<objectType>gameboard</objectType>)</title>
+            <title>
+               <rs type="textType">Acclamation</rs>s of Mardaetus and of the Pytheanitae (<rs type="textType">
+                  <objectType>gameboard</objectType>
+               </rs>)</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -50,7 +53,7 @@ left of it (b). The other end was not inscribed.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>The letters of the two texts are similar—irregular and rough. av. <height unit="metre">0.03</height>—but not identical, a appears to have been cut with a finer point, and has a simple <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Υ</foreign>; b has <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Υ</foreign> with a cross-bar.</handNote>
+                     <handNote>The letters of the two texts are similar—irregular and rough. av. <height unit="metre">0.03</height>—but not identical, a appears to have been cut with a finer point, and has a simple <foreign xml:lang="grc">Υ</foreign>; b has <foreign xml:lang="grc">Υ</foreign> with a cross-bar.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -95,12 +98,6 @@ left of it (b). The other end was not inscribed.</layout>
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Acclamation</rs>
-               </term>
-               <term>
-                  <rs type="textType">gameboard</rs>
                </term>
             </keywords>
          </textClass>

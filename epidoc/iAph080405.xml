@@ -7,7 +7,9 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <rs type="textType">Honours</rs> for Julian by <rs type="personType" reg="governor">Antonius Tatianos</rs>
+               <rs type="textType" reg="building inscription">
+                  <rs type="textType">Honours</rs>
+               </rs> for <rs type="textType" reg="imperial">Julian</rs> by <rs type="personType" reg="governor">Antonius Tatianos</rs>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -48,7 +50,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Elongated and elegant, except for the last word in l.2, which has been inserted in a rasura, and is clumsily cut; l.1, <height unit="metre">0.03</height>; ll.2-3, <height unit="metre">0.025</height>; ll.3-7, 9 ff., <height unit="metre">0.03</height>; 1. 8, <height unit="metre">0.035</height>; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Φ</foreign>, <height unit="metre">0.05</height>; scroll for abbreviation.</handNote>
+                     <handNote>Elongated and elegant, except for the last word in l.2, which has been inserted in a rasura, and is clumsily cut; l.1, <height unit="metre">0.03</height>; ll.2-3, <height unit="metre">0.025</height>; ll.3-7, 9 ff., <height unit="metre">0.03</height>; 1. 8, <height unit="metre">0.035</height>; <foreign xml:lang="grc">Φ</foreign>, <height unit="metre">0.05</height>; scroll for abbreviation.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -102,12 +104,6 @@
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">building inscription</rs>
-               </term>
-               <term>
-                  <rs type="textType">imperial</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -149,10 +145,10 @@
             </ab>
          </div>
          <div type="apparatus">
-            <p>l. 2,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Θεοδόσιον</foreign> added in a later hand, in rasura; the erased name must be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ἰουλιανόν</foreign>.</p>
+            <p>l. 2,  <foreign xml:lang="grc">Θεοδόσιον</foreign> added in a later hand, in rasura; the erased name must be <foreign xml:lang="grc">Ἰουλιανόν</foreign>.</p>
          </div>
          <div type="translation">
-            <p>To Good Fortune. Antonius Tatianos, <term lang="la">clarissimus praeses</term>, having built all the work of the tetrastoon that can be seen from the foundations, and all the surrounding decoration, for the metropolis, <supplied reason="subaudible">set up this statue</supplied> of Flavius Claudius Julianus <note place="not specified" anchored="yes">later emended to Theodosius</note>, the eternal and most pious Augustus.</p>
+            <p>To Good Fortune. Antonius Tatianos, <term xml:lang="la">clarissimus praeses</term>, having built all the work of the tetrastoon that can be seen from the foundations, and all the surrounding decoration, for the metropolis, <supplied reason="subaudible">set up this statue</supplied> of Flavius Claudius Julianus <note place="not specified" xml:lang=""/>, the eternal and most pious Augustus.</p>
          </div>
          <div type="commentary">
             <p>See discussion at <ref type="eAla-text" n="III.10" target=".xml"/>. </p>

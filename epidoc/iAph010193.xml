@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Warning against approaching the bema (verse); invocations</title>
+            <title>
+               <rs type="textType" reg="prohibition">Warning</rs> against approaching the bema (<rs type="textType">verse</rs>); <rs type="textType" reg="prayer/invocation">invocation</rs>s</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -49,10 +50,10 @@ crosses on this block.</layout>
                   </objectDesc>
                   <handDesc>
                      <handNote>i-ii: <height unit="metre">0.0154</height>.045; traces of red paint; iii : <height unit="metre">0.01-0.025</height>; <term>diaereses</term> on
-<term>iotas</term>; first <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ν</foreign> in 1.2 above line.
+<term>iotas</term>; first <foreign xml:lang="grc">Ν</foreign> in 1.2 above line.
 iv: <height unit="metre">0.02</height>, lightly
-scratched. First <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Η</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Τ<supplied reason="abbreviation">ΟΥ</supplied>
-                        </foreign> and final <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Τ</foreign> above line.</handNote>
+scratched. First <foreign xml:lang="grc">Η</foreign>, <foreign xml:lang="grc">Τ<ex>ΟΥ</ex>
+                        </foreign> and final <foreign xml:lang="grc">Τ</foreign> above line.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -102,15 +103,6 @@ scratched. First <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:l
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">prohibition</rs>
-               </term>
-               <term>
-                  <rs type="textType">verse</rs>
-               </term>
-               <term>
-                  <rs type="textType">prayer/invocation</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -141,7 +133,7 @@ scratched. First <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:l
 		<div n="iv" type="textpart" subtype="section"><ab><lb n="1"/><w lemma="νίκη">ν<hi rend="superscript">ή</hi>κη</w> <w lemma="ὁ"><expan><abbr><hi rend="superscript">τ</hi></abbr><ex>οῦ</ex></expan></w> <orig n="unresolved">τξυ<gap extent="1" unit="character" reason="lost"/><unclear reason="damage">πρ</unclear><hi rend="superscript">τ</hi>κ</orig> </ab></div>
       </div>
          <div type="translation">
-            <p>i.  In fear approach the gate of the <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="la">bema</foreign>.</p>
+            <p>i.  In fear approach the gate of the <foreign xml:lang="la">bema</foreign>.</p>
             <p>ii. Jesus Christ is victorious,</p>
             <p>iii. Lord, help your servant Philippos, a sinner. Amen.</p>
             <p>iv. Victory of <gap reason="lost" unit="character" extent="unknown"/>

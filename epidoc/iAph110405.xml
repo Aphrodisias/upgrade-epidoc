@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Honours for a priest of Athena P<supplied reason="lost" cert="low">olias</supplied>
+            <title>
+               <rs type="textType">Honours</rs> for a priest of Athena P<supplied reason="lost" cert="low">olias</supplied>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -101,9 +102,6 @@ First to third centuries A.D. (<rs type="criteria">terminology</rs>)
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">Honours</rs>
                </term>
             </keywords>
          </textClass>

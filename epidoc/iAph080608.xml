@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>i. Verse honours for <rs type="personType" reg="governor">Doulkitios</rs> from Balerianos; ii. Place inscription</title>
+            <title>i. <rs type="textType">Verse</rs>
+               <rs type="textType">honours</rs> for <rs type="personType" reg="governor">Doulkitios</rs> from Balerianos; ii. <rs type="textType">Place inscription</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -90,15 +92,6 @@ traces of red paint. ii. cut with a very shallow, broad line; <height unit="metr
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Verse</rs>
-               </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
-               <term>
-                  <rs type="textType">Place inscription</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -147,9 +140,9 @@ traces of red paint. ii. cut with a very shallow, broad line; <height unit="metr
       </div>
          <div type="apparatus">
             <p>ii. is now (since <date value="2002" notBefore="2002" notAfter="2002" exact="both">2002</date>) in a far better position than before.</p>
-            <p>ii. l. 3,  For <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΝΟ</foreign> in <bibl type="hbi" n="ALA">
+            <p>ii. l. 3,  For <foreign xml:lang="grc">ΕΝΟ</foreign> in <bibl type="hbi" n="ALA">
                   <title level="m" type="abbreviated">ALA</title>
-               </bibl> I now read <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΜΟ</foreign>; at the end of the line the letter might be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Π</foreign>.</p>
+               </bibl> I now read <foreign xml:lang="grc">ΕΜΟ</foreign>; at the end of the line the letter might be <foreign xml:lang="grc">Π</foreign>.</p>
          </div>
          <div type="translation">
             <ab>i. If it was permitted, Balerianos, who was the leader of your troop, would have wished to make even a golden image of your virtue - indeed <supplied reason="subaudible">I swear</supplied> by yourself. Doulkitios, because you were an unbroken tower of lawfulness. But now he has set you in marble in front of the baths, so that the stone may remain as a witness of your labours.</ab>

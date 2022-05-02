@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragmentary honours</title>
+            <title>Fragmentary <rs type="textType">honours</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +47,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.017</height>, the last two lines in counter relief; lunate and square <term lang="grc-Latn">epsilon</term> and three types of <term lang="grc-Latn">sigma</term>: lunate, square, and 4-bar.</handNote>
+                        <height unit="metre">0.017</height>, the last two lines in counter relief; lunate and square <term xml:lang="grc-Latn">epsilon</term> and three types of <term xml:lang="grc-Latn">sigma</term>: lunate, square, and 4-bar.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -95,9 +96,6 @@ Second to fourth centuries A.D.
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">honours</rs>
                </term>
             </keywords>
          </textClass>

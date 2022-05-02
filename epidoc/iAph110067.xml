@@ -50,7 +50,7 @@ face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Very rough and variable, <height unit="metre">0.02</height> (<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ο</foreign>) - <height unit="metre">0.05</height> (<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ι</foreign>). Cursive <term>alpha</term>; diairesis on <term>iota</term>.</handNote>
+                     <handNote>Very rough and variable, <height unit="metre">0.02</height> (<foreign xml:lang="grc">Ο</foreign>) - <height unit="metre">0.05</height> (<foreign xml:lang="grc">Ι</foreign>). Cursive <term>alpha</term>; diairesis on <term>iota</term>.</handNote>
                   </handDesc>
                </physDesc>
                <history>

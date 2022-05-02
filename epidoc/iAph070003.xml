@@ -113,13 +113,13 @@ First to third centuries A.D. (<rs type="criteria">lettering</rs>)
          <div type="apparatus">
             <p>Perhaps <gap reason="lost" extent="unknown" unit="character"/>
                <supplied reason="lost" cert="low">Μ</supplied>αρ<supplied reason="lost" cert="low">κος</supplied> Αὐ<supplied reason="lost">ρ</supplied>
-               <supplied reason="abbreviation" cert="low">ήλιος</supplied>
+               <ex cert="low">ήλιος</ex>
                <gap reason="lost" extent="unknown" unit="character"/>
             </p>
          </div>
          <div type="translation">
             <p>
-               <note>perhaps</note> . . . M]ar(cus) Au[r(elius) . . .</p>
+               <note xml:lang=""/> . . . M]ar(cus) Au[r(elius) . . .</p>
          </div>
          <div type="commentary">
             <p> Presumably a name of which we have lost the cognomen.</p>

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for Ulpia Carminia Claudiana</title>
+            <title>
+               <rs type="textType">Honours</rs> for Ulpia Carminia Claudiana</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +46,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>ll. 1-17, <height unit="metre">0.03</height>; ll. 18-22, <height unit="metre">0.025</height>. ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗ</foreign>, l.2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ</foreign> l.12, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign> l.1, 20, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΕ</foreign> l.22. Star for stop, l. 5; dot for stop elsewhere. Stops for abbreviation.</handNote>
+                     <handNote>ll. 1-17, <height unit="metre">0.03</height>; ll. 18-22, <height unit="metre">0.025</height>. ligatures: <foreign xml:lang="grc">ΜΗ</foreign>, l.2, <foreign xml:lang="grc">ΤΗ</foreign> l.12, <foreign xml:lang="grc">ΗΝ</foreign> l.1, 20, <foreign xml:lang="grc">ΝΕ</foreign> l.22. Star for stop, l. 5; dot for stop elsewhere. Stops for abbreviation.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -97,9 +98,6 @@ Third century A.D. (<rs type="criteria">lettering</rs>, <rs type="criteria">nome
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -120,13 +118,13 @@ Third century A.D. (<rs type="criteria">lettering</rs>, <rs type="criteria">nome
 </div>
          <div type="translation">
             <p> ...? <supplied reason="lost" cert="low">honoured</supplied>
-               <supplied reason="lost">Ulpia Carminia</supplied>] Claudiane, daughter of the city, mother of the senators M<supplied reason="abbreviation">arcus</supplied> Ulp<supplied reason="abbreviation">ius</supplied> Car<supplied reason="abbreviation">minius</supplied> Claudianus, high priest of Asia, high priest (of the city) and Ulp<supplied reason="abbreviation">ia</supplied> Cl<supplied reason="abbreviation">audia</supplied> Car<supplied reason="abbreviation">minia</supplied> Prokle, daughter of the city, high priestess of Asia twice, high priestess (of the city), (both of them) priests for life of the goddess Aphrodite, descended from high priests of Asia and high priests (of the city), cousin of senatorials and consulars. M<supplied reason="abbreviation">arcus</supplied> Aur<supplied reason="abbreviation">elius</supplied> Zenobios, fourth of the name from Zenobios son of Artemidoros, son of Epaphroditos, priest for life of the divine Loves, oversaw provision (of the monument).</p>
+               <supplied reason="lost">Ulpia Carminia</supplied>] Claudiane, daughter of the city, mother of the senators M<ex>arcus</ex> Ulp<ex>ius</ex> Car<ex>minius</ex> Claudianus, high priest of Asia, high priest (of the city) and Ulp<ex>ia</ex> Cl<ex>audia</ex> Car<ex>minia</ex> Prokle, daughter of the city, high priestess of Asia twice, high priestess (of the city), (both of them) priests for life of the goddess Aphrodite, descended from high priests of Asia and high priests (of the city), cousin of senatorials and consulars. M<ex>arcus</ex> Aur<ex>elius</ex> Zenobios, fourth of the name from Zenobios son of Artemidoros, son of Epaphroditos, priest for life of the divine Loves, oversaw provision (of the monument).</p>
          </div>
          <div type="commentary">
-            <p>The mother, Ulpia (<supplied reason="abbreviation">Claudia</supplied>) Carminia Prokla, is also honoured in <ref type="iAph" target=".xml"/> (Museum 100), which was found in the Hadrianic Baths by Boulanger.</p>
+            <p>The mother, Ulpia (<ex>Claudia</ex>) Carminia Prokla, is also honoured in <ref type="iAph" target=".xml"/> (Museum 100), which was found in the Hadrianic Baths by Boulanger.</p>
             <p>The father is presumably not the same as the great donor (<ref type="inscription" n="1769" target="121111.xml"/> =CIG 2782) who was married to Flavia Apphia.</p>
             <p>The daughter is not otherwise known.</p>
-            <p>The epimelete also figures in <ref type="inscription" n="396" target="121011.xml"/> (Walls 162), <ref type="iAph" target=".xml"/> (Walls 9) and <ref type="inscription" n="238" target="050015.xml"/>.i (88.9), but there without Roman citizenship. The use of <term lang="la">tria nomina</term> here suggests that the date is after the Antonine Constitution.</p>
+            <p>The epimelete also figures in <ref type="inscription" n="396" target="121011.xml"/> (Walls 162), <ref type="iAph" target=".xml"/> (Walls 9) and <ref type="inscription" n="238" target="050015.xml"/>.i (88.9), but there without Roman citizenship. The use of <term xml:lang="la">tria nomina</term> here suggests that the date is after the Antonine Constitution.</p>
          </div>
          <div type="bibliography" n="none">
             <p>Unpublished.</p>

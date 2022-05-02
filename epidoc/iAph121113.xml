@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary inscription for Adrastos son of Alexandros</title>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for Adrastos son of Alexandros</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -44,7 +45,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.025</height>; ligatures, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΕ</foreign>, l. 2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗ</foreign> l. 7.</handNote>
+                        <height unit="metre">0.025</height>; ligatures, <foreign xml:lang="grc">ΤΕ</foreign>, l. 2, <foreign xml:lang="grc">ΝΗ</foreign> l. 7.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -93,9 +94,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -112,7 +110,7 @@
     <ab>
      <lb n="1"/>
      <supplied reason="lost">
-      <note>e.g.</note>
+      <note xml:lang=""/>
       <w lemma="ὁ">ἡ</w>
       <w lemma="σορός">σορὸς</w>
       <w lemma="καί">καὶ</w>
@@ -205,7 +203,7 @@
    </div>
          <div type="apparatus">
             <p>The letters highlighted were recorded by Sherard but do not appear on Gaudin's squeeze.</p>
-            <p>l. 5, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 5, <foreign xml:lang="grc">
                   <supplied reason="lost">Σ</supplied>εσστίου</foreign> Sherard</p>
          </div>
          <div type="translation" n="notyet">

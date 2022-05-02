@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary inscription for Theseus</title>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for Theseus</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -94,9 +95,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -110,16 +108,16 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>    <space extent="3" unit="character" dim="horizontal"/><w lemma="ὁ">τοῦ</w> <w lemma="πλάτας">πλάτα</w> <w lemma="καταβαίνω">καταβαινόντων</w> <w lemma="ὁ">τὰ</w> <orig n="unresolved">εν</orig> <gap reason="lost" extent="3" unit="character"/>  <lb n="2"/> <w lemma="ὁ">τὸ</w> <w lemma="ἥμισυς">ἥμισυ</w> <w lemma="μέρος">μέρος</w> <w lemma="σύν">σὺν</w> <w lemma="ὁ">ταῖς</w> <w lemma="ἰσώστη">ἰσώσταις</w> <w lemma="εἰμί">ἐστὶν</w><gap reason="lost" extent="3" unit="character"/>  <lb n="3"/> <persName type="attested"><name nymRef="#Θησεύς">Θησέως</name></persName> <w lemma="καί">καὶ</w> <w lemma="κληρονόμος">κληρονόμων</w> <w lemma="αὐτός">αὐτοῦ</w> <w lemma="κατά">κα<supplied reason="lost" cert="low">τὰ</supplied></w>  <supplied reason="lost"><w lemma="ὁ">τὴν</w>  <note>e.g.</note> <w lemma="γίγνομαι">γενομένην</w></supplied>  <lb n="4"/> <w lemma="αὐτός"><unclear reason="damage">α</unclear>ὐτῷ</w> <w lemma="συγχώρησις">συνχώρησιν</w> <w lemma="διά">διὰ</w> <w lemma="ὁ">τοῦ</w> <w lemma="χρεωφυλάκιον">χρε<supplied reason="lost">οφυλακίου</supplied></w>  <gap reason="lost" extent="3" unit="character"/>  </ab>
+<ab><lb n="1"/>    <space extent="3" unit="character" dim="horizontal"/><w lemma="ὁ">τοῦ</w> <w lemma="πλάτας">πλάτα</w> <w lemma="καταβαίνω">καταβαινόντων</w> <w lemma="ὁ">τὰ</w> <orig n="unresolved">εν</orig> <gap reason="lost" extent="3" unit="character"/>  <lb n="2"/> <w lemma="ὁ">τὸ</w> <w lemma="ἥμισυς">ἥμισυ</w> <w lemma="μέρος">μέρος</w> <w lemma="σύν">σὺν</w> <w lemma="ὁ">ταῖς</w> <w lemma="ἰσώστη">ἰσώσταις</w> <w lemma="εἰμί">ἐστὶν</w><gap reason="lost" extent="3" unit="character"/>  <lb n="3"/> <persName type="attested"><name nymRef="#Θησεύς">Θησέως</name></persName> <w lemma="καί">καὶ</w> <w lemma="κληρονόμος">κληρονόμων</w> <w lemma="αὐτός">αὐτοῦ</w> <w lemma="κατά">κα<supplied reason="lost" cert="low">τὰ</supplied></w>  <supplied reason="lost"><w lemma="ὁ">τὴν</w>  <note xml:lang=""/> <w lemma="γίγνομαι">γενομένην</w></supplied>  <lb n="4"/> <w lemma="αὐτός"><unclear reason="damage">α</unclear>ὐτῷ</w> <w lemma="συγχώρησις">συνχώρησιν</w> <w lemma="διά">διὰ</w> <w lemma="ὁ">τοῦ</w> <w lemma="χρεωφυλάκιον">χρε<supplied reason="lost">οφυλακίου</supplied></w>  <gap reason="lost" extent="3" unit="character"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἐν<supplied reason="lost" cert="low">δέξια</supplied>
+            <p>l. 1, <foreign xml:lang="grc">ἐν<supplied reason="lost" cert="low">δέξια</supplied>
                </foreign> Reinach</p>
-            <p>l. 2,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἐστὶ<supplied reason="lost">ν</supplied>
+            <p>l. 2,  <foreign xml:lang="grc">ἐστὶ<supplied reason="lost">ν</supplied>
                </foreign> Reinach</p>
-            <p>l. 3, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">γενομένην</foreign>, Reinach's conjecture, might be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">δοθεῖσαν</foreign>
+            <p>l. 3, <foreign xml:lang="grc">γενομένην</foreign>, Reinach's conjecture, might be <foreign xml:lang="grc">δοθεῖσαν</foreign>
             </p>
-            <p>l. 4,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 4,  <foreign xml:lang="grc">
                   <supplied reason="lost">α</supplied>ὐτῷ</foreign> Reinach</p>
          </div>
          <div type="translation">

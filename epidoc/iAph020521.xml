@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary fragment from Bishop's Palace</title>
+            <title>
+               <rs type="textType">Funerary</rs> fragment from Bishop's Palace</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -44,7 +45,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>a: ll. 1, 5f., <height unit="metre">0.015</height>; ll. 2-4, <height unit="metre">0.02</height>; lunate <term lang="grc-Latn">sigma</term> in l.1. b: l.1, <height unit="metre">0.02</height>; l.2, <height unit="metre">0.022</height>; l.3, <height unit="metre">0.028</height>; ll.4-5, <height unit="metre">0.025</height>.</handNote>
+                     <handNote>a: ll. 1, 5f., <height unit="metre">0.015</height>; ll. 2-4, <height unit="metre">0.02</height>; lunate <term xml:lang="grc-Latn">sigma</term> in l.1. b: l.1, <height unit="metre">0.02</height>; l.2, <height unit="metre">0.022</height>; l.3, <height unit="metre">0.028</height>; ll.4-5, <height unit="metre">0.025</height>.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -92,9 +93,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -114,18 +112,18 @@
 </div>
          <div type="apparatus">
             <p>a. l. 4, <seg cert="low">
-                  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΚ</foreign> in ligature</seg>
+                  <foreign xml:lang="grc">ΗΚ</foreign> in ligature</seg>
             </p>
-            <p>a. l. 5, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">αὐτοῦ</foreign> CMR, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΥΤΟ<unclear reason="damage">Ι</unclear>Ω</foreign> JMR</p>
-            <p>a. l. 10, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>a. l. 5, <foreign xml:lang="grc">αὐτοῦ</foreign> CMR, <foreign xml:lang="grc">ΑΥΤΟ<unclear reason="damage">Ι</unclear>Ω</foreign> JMR</p>
+            <p>a. l. 10, <foreign xml:lang="grc">
                   <unclear reason="damage">Ι</unclear>ΟΥ</foreign> JMR</p>
          </div>
          <div type="translation" n="none">
             <p>Nothing translatable.</p>
          </div>
          <div type="commentary">
-            <p>a. includes elements from a funerary penalty formula; cf. index <term lang="la">s.v.</term>
-               <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἐκδικέω</foreign> and <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τυμβώρυχος</foreign>.</p>
+            <p>a. includes elements from a funerary penalty formula; cf. index <term xml:lang="la">s.v.</term>
+               <foreign xml:lang="grc">ἐκδικέω</foreign> and <foreign xml:lang="grc">τυμβώρυχος</foreign>.</p>
          </div>
          <div type="bibliography" n="none">
             <p>Unpublished.</p>

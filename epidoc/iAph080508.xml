@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragmentary acclamations</title>
+            <title>Fragmentary <rs type="textType">acclamation</rs>s</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -35,7 +35,7 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <p>Seven <objectType reg="column">column</objectType>s (i, <height>0.54</height> diam.; others all <height>0.29-0.30</height> diam.)
+                           <p>Seven <objectType key="column">column</objectType>s (i, <height>0.54</height> diam.; others all <height>0.29-0.30</height> diam.)
 of <material key="marmor">blue marble</material>, mostly broken at both ends. All showed traces of white
 plaster, apparently applied to form a panel.</p>
                         </support>
@@ -96,9 +96,6 @@ discerned: the readings are fragmentary and unsatisfactory.</layout>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">acclamation</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -117,43 +114,43 @@ discerned: the readings are fragmentary and unsatisfactory.</layout>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
-		<div n="i" type="textpart" subtype="section"><note lang="en" place="not specified" anchored="yes">A complete column (dia. <measure dim="diameter" type="length">0.54</measure>, H. <measure type="length" unit="metre" dim="height">2.14</measure>). On the lowest discernible level of plaster, there are traces of letters and a cross.</note>
-		  <div n="a" type="textpart" subtype="fragment"><note lang="en" place="not specified" anchored="yes">The second level (letters <measure type="length" unit="metre" dim="height">0.03</measure>)</note><ab>
+		<div n="i" type="textpart" subtype="section"><note place="not specified" xml:lang="en"/>
+		  <div n="a" type="textpart" subtype="fragment"><note place="not specified" xml:lang="en"/><ab>
 		  
 		 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">η<unclear reason="damage">λ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear>ασν<unclear reason="damage">ι</unclear></orig>
 		 <lb n="2"/><rs type="dignity" key="magnificentissimus"><w lemma="μεγαλοπρεπής"><expan><abbr><supplied reason="lost">μεγα</supplied>λοπρ</abbr><ex>επεστατ-</ex></expan></w></rs>
 		 <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ων</unclear></orig><gap reason="lost" extent="3" unit="character"/><orig n="unresolved">τικ</orig><gap reason="lost" extent="unknown" unit="character"/>
-		 <lb n="4"/><w lemma="πολύς"><supplied reason="lost">πολ</supplied>λὰ</w> <rs key="acclamations" type="subject"><w lemma="ὁ"><supplied reason="lost">τὰ</supplied></w> <w lemma="ἔτος">ἔτ<supplied reason="lost">η</supplied></w></rs></ab></div><div n="b" type="textpart" subtype="fragment"><note lang="en" place="not specified" anchored="yes">The uppermost layer (letters <measure type="length" unit="metre" dim="height">0.04</measure>)</note><ab>
+		 <lb n="4"/><w lemma="πολύς"><supplied reason="lost">πολ</supplied>λὰ</w> <rs key="acclamations" type="subject"><w lemma="ὁ"><supplied reason="lost">τὰ</supplied></w> <w lemma="ἔτος">ἔτ<supplied reason="lost">η</supplied></w></rs></ab></div><div n="b" type="textpart" subtype="fragment"><note place="not specified" xml:lang="en"/><ab>
 		 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ων</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><seg cert="low"><orig n="unresolved">η</orig></seg><gap reason="lost" extent="unknown" unit="character"/>
 		 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">λ</unclear>ουν</orig>
 		 <lb n="3"/><unclear reason="damage">ο</unclear><gap reason="lost" extent="unknown" unit="character"/>
 		 <lb n="4"/><orig n="unresolved"><unclear reason="damage">ι</unclear>α</orig><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">υ<unclear reason="damage">ιο</unclear></orig>
 		 <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ω</unclear></orig></ab></div>
-		</div><div n="ii" type="textpart" subtype="section"><note lang="en" place="not specified" anchored="yes">A column broken at both ends (diam. <measure dim="diameter" type="length">0.305</measure>, H. <measure type="length" unit="metre" dim="height">1.42</measure>). Letters: <measure type="length" unit="metre" dim="height">0.045-0.05</measure></note>
+		</div><div n="ii" type="textpart" subtype="section"><note place="not specified" xml:lang="en"/>
 		  <div n="a" type="textpart" subtype="fragment"><ab>
-		  <note lang="en" place="not specified" anchored="yes">The lowest level</note>
+		  <note place="not specified" xml:lang="en"/>
 		 <lb n="1"/><rs type="subject" key="acclamations"><w lemma="πολύς">πολλὰ</w>
 		 <lb n="2"/><w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔ<supplied reason="lost">τη</supplied></w></rs>
-		 <lb n="3"/><gap extent="unknown" reason="lost" unit="line"/></ab></div><div n="b" type="textpart" subtype="fragment"><note lang="en" place="not specified" anchored="yes">The second level</note><ab>
+		 <lb n="3"/><gap extent="unknown" reason="lost" unit="line"/></ab></div><div n="b" type="textpart" subtype="fragment"><note place="not specified" xml:lang="en"/><ab>
 		 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">δο</orig>
 		 <lb n="2"/><gap extent="1" reason="lost" unit="line"/>
 		 <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">χο</orig>
 		 <lb n="4"/><gap extent="unknown" reason="lost" unit="line"/>
-		  </ab></div><div n="c" type="textpart" subtype="fragment"><note lang="en" place="not specified" anchored="yes">The uppermost level</note><ab>
+		  </ab></div><div n="c" type="textpart" subtype="fragment"><note place="not specified" xml:lang="en"/><ab>
 		 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">λ</unclear>ο</orig>
 		 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">α</orig>
 		 <lb n="3"/><gap extent="1" reason="lost" unit="line"/>
 		 <lb n="4"/><orig n="unresolved">ο</orig><gap reason="lost" extent="unknown" unit="character"/>
 		  </ab></div></div>
-		<div n="iii" type="textpart" subtype="section"><note lang="en" place="not specified" anchored="yes">A column broken at both ends (diam. <measure dim="diameter" type="length">0.31</measure>, H. <measure type="length" unit="metre" dim="height">1.26</measure>). Letters <measure type="length" unit="metre" dim="height">0.045-0.05</measure></note>
-		  <div n="a" type="textpart" subtype="fragment"><note lang="en" place="not specified" anchored="yes">The lowest level</note><ab>
+		<div n="iii" type="textpart" subtype="section"><note place="not specified" xml:lang="en"/>
+		  <div n="a" type="textpart" subtype="fragment"><note place="not specified" xml:lang="en"/><ab>
 		  
 		 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <g ref="#cross"/>
 		 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">μ</orig><gap reason="lost" extent="unknown" unit="character"/>
 		 <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ο</orig><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ψ</orig><gap reason="lost" extent="unknown" unit="character"/>
 		 <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ο</orig><gap reason="lost" extent="unknown" unit="character"/>
 		 <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ε</orig>
-		  </ab></div><div n="b" type="textpart" subtype="fragment"><note lang="en" place="not specified" anchored="yes">The second, upper level</note><ab>
+		  </ab></div><div n="b" type="textpart" subtype="fragment"><note place="not specified" xml:lang="en"/><ab>
 		 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear>ο<unclear reason="damage">ι</unclear></orig> <space dim="horizontal"/> <orig n="unresolved">σε</orig>
 		 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">οιν<unclear reason="damage">ινδ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
 		 <lb n="3"/><rs type="subject" key="acclamations"><w lemma="ὁ">ὁ</w> <w lemma="θεός">θεὸς</w> <w lemma="καλός">καλο͂ς</w>

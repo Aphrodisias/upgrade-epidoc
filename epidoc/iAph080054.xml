@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Seat inscriptions: Theatre, Block B</title>
+            <title>
+               <rs type="textType">Seat inscriptions</rs>: Theatre, Block B</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -100,9 +101,6 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
                <term>
                   <rs type="textType" key="cetera">Acclamation</rs>
                </term>
-               <term>
-                  <rs type="textType">Seat inscriptions</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -126,27 +124,18 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
 <w lemma="νικάω"><unclear reason="damage">Νι</unclear>κᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> 
 <lb n="3"/>
 <w lemma="ὁ"><unclear reason="damage">των</unclear></w> <w lemma="πράσινος"><supplied reason="lost">Πρασ</supplied>ίνων</w> 
-</ab></div><div n="2" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note>Design, type 3Rows2, within a frame</note></div><div n="ii" type="textpart" subtype="column"><note>Design, type H4, within a frame</note></div><div n="iii" type="textpart" subtype="column"><ab> 
+</ab></div><div n="2" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note xml:lang=""/></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div><div n="iii" type="textpart" subtype="column"><ab> 
 <lb n="1"/>
 <gap reason="lost" extent="unknown" unit="character"/> <orig n="unresolved">μ</orig> <gap reason="lost" extent="2" unit="character"/> <space extent="3" unit="character"/> <orig n="unresolved">η</orig> 
 <lb n="2"/>
 <orig n="unresolved">το<unclear reason="damage">σλι</unclear></orig>
 <gap reason="lost" extent="2" unit="character"/>
-<orig n="unresolved"><unclear reason="damage">σ</unclear>σου</orig><lb n="3"/><orig n="unresolved"><unclear reason="damage">ιω</unclear>ν</orig> <w>κῦρ</w></ab></div></div><div n="6" type="textpart" subtype="section"><note>Design, type C2 </note></div><div n="13" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note>A cross, carefully cut, with triangular ends to each arm</note></div><div n="ii" type="textpart" subtype="column"><ab><note>On the adjacent seat traces of letters</note>.</ab></div></div><div n="14" type="textpart" subtype="section"><note>Design, type C2 
-</note></div><div n="15" type="textpart" subtype="section"><ab><lb n="1"/><w lemma="κατέχω">κ<orig n="unresolved">ρ</orig>α<milestone unit="block"/><supplied reason="lost">τέχεται</supplied></w> ... 
-</ab></div><div n="16" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/><space extent="3"/>ΚΚ<space extent="3"/></ab></div><div n="ii" type="textpart" subtype="column"><note>Traces of letters 
-</note></div></div><div n="19" type="textpart" subtype="section"><ab><lb n="1"/>
- <milestone unit="block"/> <note>Design, type S.1</note><lb n="2"/> 
+<orig n="unresolved"><unclear reason="damage">σ</unclear>σου</orig><lb n="3"/><orig n="unresolved"><unclear reason="damage">ιω</unclear>ν</orig> <w>κῦρ</w></ab></div></div><div n="6" type="textpart" subtype="section"><note xml:lang=""/></div><div n="13" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><note xml:lang=""/></div><div n="ii" type="textpart" subtype="column"><ab><note xml:lang=""/>.</ab></div></div><div n="14" type="textpart" subtype="section"><note xml:lang=""/></div><div n="15" type="textpart" subtype="section"><ab><lb n="1"/><w lemma="κατέχω">κ<orig n="unresolved">ρ</orig>α<milestone unit="block"/><supplied reason="lost">τέχεται</supplied></w> ... 
+</ab></div><div n="16" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/><space extent="3"/>ΚΚ<space extent="3"/></ab></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div></div><div n="19" type="textpart" subtype="section"><ab><lb n="1"/>
+ <milestone unit="block"/> <note xml:lang=""/><lb n="2"/> 
 
 <milestone unit="block"/><w lemma="κατέχω">κατ<milestone unit="block"/><supplied reason="lost">έχεται</supplied></w> 
-</ab></div><div n="21" type="textpart" subtype="section"><note>
-Traces of letters 
-</note></div><div n="22" type="textpart" subtype="section"><note>
-Traces of letters 
-</note></div><div n="23" type="textpart" subtype="section"><note>There is a well-cut picture of a scorpion. 
-</note></div><div n="25" type="textpart" subtype="section"><div n="I" type="textpart" subtype="column"><note>Design, one type C2 
-</note></div><div n="II" type="textpart" subtype="column"><note>Design</note></div></div><div n="26" type="textpart" subtype="section"><note>
-Traces of letters</note></div>
+</ab></div><div n="21" type="textpart" subtype="section"><note xml:lang=""/></div><div n="22" type="textpart" subtype="section"><note xml:lang=""/></div><div n="23" type="textpart" subtype="section"><note xml:lang=""/></div><div n="25" type="textpart" subtype="section"><div n="I" type="textpart" subtype="column"><note xml:lang=""/></div><div n="II" type="textpart" subtype="column"><note xml:lang=""/></div></div><div n="26" type="textpart" subtype="section"><note xml:lang=""/></div>
 </div>
          <div type="apparatus">
             <p/>

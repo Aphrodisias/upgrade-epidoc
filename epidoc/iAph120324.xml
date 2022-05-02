@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Honours for T. Cl. Kapitoleinos</title>
+            <title>
+               <rs type="textType">Honours</rs> for T. Cl. Kapitoleinos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -93,9 +94,6 @@ Third century A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -112,12 +110,12 @@ Third century A.D.
 <ab><lb n="1"/> <w lemma="ὁ">Ἡ</w> <w lemma="πατρίς">πατρὶς</w> <lb n="2"/> <persName type="attested"><name nymRef="#Τιβέριος">Τιβέριον</name> <name nymRef="#Κλαύδιος"><expan><abbr>Κλ</abbr><ex>αύδιον</ex></expan></name> <lb n="3"/> <name nymRef="#Αὐρήλιος">Αὐρήλιον</name> <lb n="4"/> <persName type="attested"><name nymRef="#Τιβέριος">Τιβερίου</name> <lb n="5"/> <name nymRef="#Κλαύδιος">Κλαυδίου</name> <lb n="6"/><name nymRef="#Καπιτωλῖνος">Καπιτωλεί<lb n="7" break="no"/>νου</name></persName> <w lemma="υἱός">ὑὸν</w> <lb n="8"/> <name nymRef="#Κτησίας">Κτησίαν</name></persName> <lb n="9"/> <w lemma="ὁ">τὸν</w> <w>ῥήτορα</w> <lb n="9a"/>  <gap reason="lost" extent="unknown" unit="line"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΚΛ</foreign> Sherard; not reported by Fellows or Waddington</p>
-            <p>l. 6, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΩΛΙ</foreign> Fellows</p>
-            <p>l. 9, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΡΗΤΟ</foreign> Fellows</p>
+            <p>l. 2, <foreign xml:lang="grc">ΚΛ</foreign> Sherard; not reported by Fellows or Waddington</p>
+            <p>l. 6, <foreign xml:lang="grc">ΩΛΙ</foreign> Fellows</p>
+            <p>l. 9, <foreign xml:lang="grc">ΡΗΤΟ</foreign> Fellows</p>
          </div>
          <div type="apparatus">
-            <p>Waddington suggested <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">καὶ σοφιστὴν</foreign> for the tenth line, on a parallel with <ref type="inscription" n="1795" target="140018.xml"/> (=LBW 1598bis); but 'rhetor' appears alone in <ref type="inscription" n="1585" target="120909.xml"/> (=CIG 2845), and it is also possible that the text is complete.</p>
+            <p>Waddington suggested <foreign xml:lang="grc">καὶ σοφιστὴν</foreign> for the tenth line, on a parallel with <ref type="inscription" n="1795" target="140018.xml"/> (=LBW 1598bis); but 'rhetor' appears alone in <ref type="inscription" n="1585" target="120909.xml"/> (=CIG 2845), and it is also possible that the text is complete.</p>
          </div>
          <div type="translation">
             <p>The homeland (set up a statue of) Tiberius Cl(audius) Aurelius Ktesias, son of Tiberius Claudius Kapitoleinos, the rhetor [...]</p>

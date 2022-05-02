@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Eugenios is <rs type="textType" reg="verse">honoured</rs> by <seg cert="low">the <term lang="grc-Latn">boule</term>
+            <title>Eugenios is <rs type="textType" reg="honours">
+                  <rs type="textType" reg="verse">honoured</rs>
+               </rs> by <seg cert="low">the <term xml:lang="grc-Latn">boule</term>
                </seg>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
@@ -62,7 +64,7 @@
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList" key="HadrBath">Hadrianic Baths, East Court</rs>: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">Portique N<supplied reason="abbreviation">ord</supplied>
+                        <rs type="monuList" key="HadrBath">Hadrianic Baths, East Court</rs>: '<foreign xml:lang="fr">Portique N<ex>ord</ex>
                         </foreign>'.</rs>
                   </provenance>
                   <provenance type="observed">
@@ -100,9 +102,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -131,10 +130,10 @@
 		</lg>
       </div>
          <div type="apparatus">
-            <p>l.4. After cutting the first <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Σ</foreign> of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">στῆσεν</foreign> the inscriber began to cut a cross bar, as for <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε</foreign>.</p>
+            <p>l.4. After cutting the first <foreign xml:lang="grc">Σ</foreign> of <foreign xml:lang="grc">στῆσεν</foreign> the inscriber began to cut a cross bar, as for <foreign xml:lang="grc">Ε</foreign>.</p>
          </div>
          <div type="translation">
-            <ab>In return for his benefaction, and for the gifts he has made to his country, the <term lang="la">ordo</term> set up <supplied reason="subaudible">a statue of</supplied> Eugenios, in repayment.</ab>
+            <ab>In return for his benefaction, and for the gifts he has made to his country, the <term xml:lang="la">ordo</term> set up <supplied reason="subaudible">a statue of</supplied> Eugenios, in repayment.</ab>
          </div>
          <div type="commentary">
             <p>See discussion at <ref type="eAla-text" n="VI.32" target=".xml"/>.</p>

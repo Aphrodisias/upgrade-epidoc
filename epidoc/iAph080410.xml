@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>The city honours Fl. Palmatos, <rs type="personType">governor</rs>
+            <title>The city <rs type="textType">honours</rs> Fl. Palmatos, <rs type="personType">governor</rs>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -47,8 +47,8 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Av. <height unit="metre">0.04</height>, clear but irregular; abbreviations: scroll in ll.5, 6, 7, 8, 9, 10: letter above line in ll. 3, 6, 10; l. 6, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Κ<g ref="#scroll"/>
-                        </foreign>, line above second <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ο</foreign> in <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΠΑΙΧΟ</foreign>.</handNote>
+                     <handNote>Av. <height unit="metre">0.04</height>, clear but irregular; abbreviations: scroll in ll.5, 6, 7, 8, 9, 10: letter above line in ll. 3, 6, 10; l. 6, <foreign xml:lang="grc">Κ<g ref="#scroll"/>
+                        </foreign>, line above second <foreign xml:lang="grc">Ο</foreign> in <foreign xml:lang="grc">ΕΠΑΙΧΟ</foreign>.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -98,9 +98,6 @@
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -135,8 +132,8 @@
 		</ab>
       </div>
          <div type="translation">
-            <ab>To Good Fortune. The renewer and founder of the metropolis and benefactor of all Caria, Flavius Palmatus, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="la">spectabilis</foreign> consular, also holding the position of the <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="la">magnificentissimus</foreign> vicar; Flavius Atheneus, the <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="la">clarissimus pater</foreign> of the most splendid <supplied reason="explanation">
-                  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="la">clarissima</foreign>
+            <ab>To Good Fortune. The renewer and founder of the metropolis and benefactor of all Caria, Flavius Palmatus, <foreign xml:lang="la">spectabilis</foreign> consular, also holding the position of the <foreign xml:lang="la">magnificentissimus</foreign> vicar; Flavius Atheneus, the <foreign xml:lang="la">clarissimus pater</foreign> of the most splendid <supplied reason="explanation">
+                  <foreign xml:lang="la">clarissima</foreign>
                </supplied> metropolis of the Aphrodisians, set up <supplied reason="subaudible">this statue of Palmatus</supplied> in gratitude.</ab>
          </div>
          <div type="commentary">

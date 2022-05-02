@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Letter of Commodus to Aphrodisias</title>
+            <title>
+               <rs type="textType">Letter</rs> of Commodus to Aphrodisias</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -56,7 +57,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>second to third centuries A.D.; ave <height unit="metre">0.02</height>; ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΕ</foreign> l.3; apices, ll.1, 2; Heightened initial epsilon at the beginning of l.6. Tall initial <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Υ</foreign> in <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">υἱωνός</foreign>, l.1, perhaps to cover an erroneous iota.</handNote>
+                     <handNote>second to third centuries A.D.; ave <height unit="metre">0.02</height>; ligatures: <foreign xml:lang="grc">ΜΕ</foreign> l.3; apices, ll.1, 2; Heightened initial epsilon at the beginning of l.6. Tall initial <foreign xml:lang="grc">Υ</foreign> in <foreign xml:lang="grc">υἱωνός</foreign>, l.1, perhaps to cover an erroneous iota.</handNote>
                   </handDesc>
                </physDesc>
                <history>

@@ -6,8 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>i. Honours for 
-Septimus Severus; ii. <rs type="textType">Building inscription</rs> of <rs type="personType" reg="governor">Antonius Priskos</rs>
+            <title>i. <rs type="textType">Honours</rs> for 
+<rs type="textType" reg="imperial">Septimus Severus</rs>; ii. <rs type="textType" reg="dedication">
+                  <rs type="textType">Building inscription</rs>
+               </rs> of <rs type="personType" reg="governor">Antonius Priskos</rs>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -98,15 +100,6 @@ Septimus Severus; ii. <rs type="textType">Building inscription</rs> of <rs type=
                <term>
                   <rs type="personType" key="imperatorius">Imperial</rs>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
-               <term>
-                  <rs type="textType">imperial</rs>
-               </term>
-               <term>
-                  <rs type="textType">dedication</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -134,14 +127,14 @@ Septimus Severus; ii. <rs type="textType">Building inscription</rs> of <rs type=
 </ab></div>
 </div>
          <div type="apparatus">
-            <p>ii. l. 2. The stone has <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΠΙ</foreign> followed by a scroll as abbreviation mark; it is impossible to interpret this except by reading <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ι</foreign> as an error for <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ρ</foreign>, which might be explained if the cutter had confused the scroll with the bowl of the <term>rho</term>.</p>
+            <p>ii. l. 2. The stone has <foreign xml:lang="grc">ΠΙ</foreign> followed by a scroll as abbreviation mark; it is impossible to interpret this except by reading <foreign xml:lang="grc">Ι</foreign> as an error for <foreign xml:lang="grc">Ρ</foreign>, which might be explained if the cutter had confused the scroll with the bowl of the <term>rho</term>.</p>
          </div>
          <div type="translation">
             <p>i. The People (honoured) Imperator Caesar Lucius Septimius Severus, Pius, Pertinax, Augustus, Arabicus, Adiabenicus, Parthicus Maximus.</p>
-            <p>ii. Antonius Priskos , <term lang="la">clarissimus praeses</term>. set <supplied cert="low" reason="lost">this</supplied> up <supplied reason="subaudible">in</supplied> the metropolis.</p>
+            <p>ii. Antonius Priskos , <term xml:lang="la">clarissimus praeses</term>. set <supplied cert="low" reason="lost">this</supplied> up <supplied reason="subaudible">in</supplied> the metropolis.</p>
          </div>
          <div type="commentary">
-            <p>i. Severus took the title Parthicus Maximus in A.D. 198, when he was already Arabicus and Adiabenicus; he took no other until he became Britannicus Maximus in 210, which is therefore the <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="la">terminus ante quem</foreign> for this text. Aphrodisias recorded publicly two letters of 198 from Severus and his elder son Caracalla, in response to letters of congratualtion from thecity after the defeat of the Partians and the elevation of Caracalla to be Augustus (<ref type="inscription" n="517" target="080036.xml"/>, <ref type="inscription" n="518" target="080037.xml"/>). In the former there is a reference to a festival of celebration by the city with its neighbours, and it could be that this dedication was voted on that same occasion.</p>
+            <p>i. Severus took the title Parthicus Maximus in A.D. 198, when he was already Arabicus and Adiabenicus; he took no other until he became Britannicus Maximus in 210, which is therefore the <foreign xml:lang="la">terminus ante quem</foreign> for this text. Aphrodisias recorded publicly two letters of 198 from Severus and his elder son Caracalla, in response to letters of congratualtion from thecity after the defeat of the Partians and the elevation of Caracalla to be Augustus (<ref type="inscription" n="517" target="080036.xml"/>, <ref type="inscription" n="518" target="080037.xml"/>). In the former there is a reference to a festival of celebration by the city with its neighbours, and it could be that this dedication was voted on that same occasion.</p>
             <p>ii. Antonius Priskos was also responsible for putting up texts <ref type="inscription" n="25" target="050217.xml"/>, <ref type="inscription" n="26" target="040010.xml"/> and <ref type="inscription" n="27" target="040011.xml"/> (between 388-392). See  discussion at <ref type="eAla-text" n="III.30" target=".xml"/>
             </p>
          </div>

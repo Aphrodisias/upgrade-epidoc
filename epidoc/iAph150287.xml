@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Fragment of honours</title>
+            <title> Fragment of <rs type="textType" cert="low">honours</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -94,9 +95,6 @@ second to third centuries A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -114,15 +112,15 @@ second to third centuries A.D.
 <ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">σ</orig>  <space extent="3" unit="character" dim="horizontal"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>  <persName type="attested"><name nymRef="#Αὐρήλιος"><supplied reason="lost">Αὐ</supplied>ρηλι  <lb n="3" break="no"/><gap reason="lost" extent="unknown" unit="character"/></name></persName><orig n="unresolved"><unclear reason="damage">ι</unclear>ιαν</orig>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ατι</orig>  <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">κα</orig>  <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>  <orig n="unresolved">ικι  </orig><lb n="7" break="no"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ρυλ</orig>  <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">π</unclear>ρο</orig>  <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>  <gap reason="illegible" extent="2" unit="character"/><lb n="10"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
 </div>
          <div type="apparatus">
-            <p> l. 6, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p> l. 6, <foreign xml:lang="grc">
                   <supplied reason="lost">ἡλ</supplied>ικί<lb/>α</foreign> is a possiblility here.</p>
-            <p>l. 9, a serif of uncertain shape seems to be visible; perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α</foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Υ</foreign>.</p>
+            <p>l. 9, a serif of uncertain shape seems to be visible; perhaps <foreign xml:lang="grc">Α</foreign> or <foreign xml:lang="grc">Υ</foreign>.</p>
          </div>
          <div type="translation" n="none">
             <p>No translation possible.</p>
          </div>
          <div type="commentary">
-            <p> Possibly an honorary text, as would be suggested by <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἡλικία</foreign> if it is rightly restored in l. 6. Line 2 would indicate that the honorand was an Aurelius/a.</p>
+            <p> Possibly an honorary text, as would be suggested by <foreign xml:lang="grc">ἡλικία</foreign> if it is rightly restored in l. 6. Line 2 would indicate that the honorand was an Aurelius/a.</p>
          </div>
          <div type="bibliography" n="none">
             <p>Unpublished.</p>

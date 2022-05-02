@@ -47,11 +47,11 @@
                      <layoutDesc>
                         <layout>
                            <rs type="execution" key="scalpro">Inscribed</rs>
-                           <measure type="length" dim="none" unit="metre">1.38</measure> above base of column.</layout>
+                           <height unit="metre">1.38</height> above base of column.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Letters lunate, <height unit="metre">0.07</height> (<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Κ</foreign>) to
+                     <handNote>Letters lunate, <height unit="metre">0.07</height> (<foreign xml:lang="grc">Κ</foreign>) to
 <height unit="metre">0.035</height>. Scroll for
 abbreviation.</handNote>
                   </handDesc>

@@ -239,7 +239,8 @@
   
   <xsl:template match="t:rs[@type=('material','objectType')]">
     <xsl:element name="{@type}">
-      <xsl:copy-of select="@*[not(local-name()='type')]"/>
+      <xsl:copy-of select="@*[not(local-name()=('type','reg'))]"/>
+      <xsl:if test="@reg"><xsl:attribute name="key" select="@reg"/></xsl:if>
       <xsl:apply-templates/>
     </xsl:element>
   </xsl:template>
@@ -395,7 +396,8 @@
   
   <xsl:template match="t:note">
     <xsl:copy>
-      <xsl:copy-of select="@*[not(local-name()='anchored')]"/>
+      <xsl:copy-of select="@*[not(local-name()=('anchored','lang'))]"/>
+      <xsl:attribute name="xml:lang" select="@lang"/>
     </xsl:copy>
   </xsl:template>
   

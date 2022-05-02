@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for 
+            <title>
+               <rs type="textType">Honours</rs> for 
 Antoninus Pius</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -61,7 +62,7 @@ A.D. 138-161
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList">South Agora, Agora Gate</rs>: i, at <measure precision="circa" dim="none" type="length" unit="metre">-3.50</measure>; perhaps fallen from the gate.</rs>
+                        <rs type="monuList">South Agora, Agora Gate</rs>: i, at <measure precision="circa" dim="height" type="length" unit="metre">-3.50</measure>; perhaps fallen from the gate.</rs>
                   </provenance>
                   <provenance type="observed" when="1980">
                      <rs type="lastLocation">Museum (1980)</rs>
@@ -97,9 +98,6 @@ A.D. 138-161
                </term>
                <term>
                   <rs type="personType" key="imperatorius">Imperial</rs>
-               </term>
-               <term>
-                  <rs type="textType">Honours</rs>
                </term>
             </keywords>
          </textClass>

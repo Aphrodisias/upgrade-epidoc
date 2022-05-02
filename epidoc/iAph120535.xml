@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for Publius Aelius Hilarianos from his mother</title>
+            <title>
+               <rs type="textType">Honours</rs> for Publius Aelius Hilarianos from his mother</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +47,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.03</height>; ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΤΗΡ</foreign> l. 19; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗ</foreign> l. 20; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΚ</foreign> ll. 13, 20; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΜΗ</foreign> l. 20; circle for stop, ll. 12, 14, 18, 19.</handNote>
+                        <height unit="metre">0.03</height>; ligatures: <foreign xml:lang="grc">ΗΤΗΡ</foreign> l. 19; <foreign xml:lang="grc">ΜΗ</foreign> l. 20; <foreign xml:lang="grc">ΝΚ</foreign> ll. 13, 20; <foreign xml:lang="grc">ΜΜΗ</foreign> l. 20; circle for stop, ll. 12, 14, 18, 19.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -94,9 +95,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -116,13 +114,13 @@
 </div>
          <div type="apparatus">
             <p>The letters seen by us have been highlighted.</p>
-            <p>Line 7: Wood added the E and writes in the margin: The letter interlined is E, which I had forgot in the first writing over; ye two letters wanting look'd like <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΛΗ</foreign>. </p>
+            <p>Line 7: Wood added the E and writes in the margin: The letter interlined is E, which I had forgot in the first writing over; ye two letters wanting look'd like <foreign xml:lang="grc">ΛΗ</foreign>. </p>
             <p>ll. 12, 14, 18, 19: stops shown in Bailie's copy only. Further stops shown in Deering's copy, appear to be annotations ?by Leake.</p>
-            <p>ll. 18/19: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΛΙΤΟΙΣ</foreign> Sherard; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Λητωίς</foreign> Boeckh, confirmed by later copyists;  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΛΗΤΟΙΣ</foreign> Le Bas.</p>
+            <p>ll. 18/19: <foreign xml:lang="grc">ΛΙΤΟΙΣ</foreign> Sherard; <foreign xml:lang="grc">Λητωίς</foreign> Boeckh, confirmed by later copyists;  <foreign xml:lang="grc">ΛΗΤΟΙΣ</foreign> Le Bas.</p>
             <p>l. 23,   leaf only in Sherard's copy.</p>
          </div>
          <div type="translation">
-            <p>Publius Aelius Hilarianos, <term lang="la">eques romanus</term>, son of Publius Aelius Apollonianos <term lang="la">primipilarius</term>, grandson of Publius Aelius Hilarianos consular, relative of many senatorials and consulars.</p>
+            <p>Publius Aelius Hilarianos, <term xml:lang="la">eques romanus</term>, son of Publius Aelius Apollonianos <term xml:lang="la">primipilarius</term>, grandson of Publius Aelius Hilarianos consular, relative of many senatorials and consulars.</p>
             <p>Tiberia Julia Antonia Letois, mother and grandmother of senatorials, (set up the statue of) her very dear son.</p>
          </div>
          <div type="commentary">

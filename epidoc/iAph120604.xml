@@ -116,7 +116,7 @@
             <p>No words discernible.</p>
          </div>
          <div type="commentary">
-            <p>Probably funerary and perhaps referring to a <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">θρέπτος</foreign>.</p>
+            <p>Probably funerary and perhaps referring to a <foreign xml:lang="grc">θρέπτος</foreign>.</p>
          </div>
          <div type="bibliography" n="none">
             <p>Unpublished.</p>

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Place inscription of Heptamenios <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="la">et al.</foreign>
+            <title>
+               <rs type="textType">Place inscription</rs> of Heptamenios <foreign xml:lang="la">et al.</foreign>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -96,9 +97,6 @@ the reconstruction of the Tetrapylon in the late fourth century.</rs>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Place inscription</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -120,7 +118,7 @@ the reconstruction of the Tetrapylon in the late fourth century.</rs>
 		<ab> <lb n="1"/><w lemma="τόπος">τόπος</w> <persName key="heptamenius1" type="attested"><name nymRef="#Ἑπταμήνιος">Ἑπταμηνίου</name></persName> <w lemma="καί">κὲ</w> <w lemma="γαμετή">γα<unclear reason="damage">μ</unclear><supplied reason="lost">ετῆς</supplied></w>.</ab>
       </div>
          <div type="apparatus">
-            <p>Reinach read at the end <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΚΕΠΛΝ</foreign> whence Grégoire restored <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κὲ π<supplied reason="lost">α</supplied>ν<supplied reason="lost" cert="low">τὸς τοῦ γένους</supplied>
+            <p>Reinach read at the end <foreign xml:lang="grc">ΚΕΠΛΝ</foreign> whence Grégoire restored <foreign xml:lang="grc">κὲ π<supplied reason="lost">α</supplied>ν<supplied reason="lost" cert="low">τὸς τοῦ γένους</supplied>
                   <gap reason="lost" unit="character" extent="unknown"/>
                </foreign>
             </p>

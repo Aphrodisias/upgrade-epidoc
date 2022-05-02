@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for <seg cert="low">Andreas</seg>, son of Androneikianos, boy runner</title>
+            <title>
+               <rs type="textType">Honours</rs> for <seg cert="low">Andreas</seg>, son of Androneikianos, boy runner</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -44,7 +45,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>A. Letters standard second-/third-century forms, <height unit="metre">0.03</height>; the cutter has overrun the limits of the raised panel in ll.6-9, 11. Ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΕ</foreign>, l.7; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΕ</foreign>, l.9; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ</foreign>, l.10; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΜ</foreign>, l.12. B. A graffito, lunate letters; ll.1-2, <height unit="metre">0.035</height>; ll.3-6, <height unit="metre">0.01-0.02</height>.</handNote>
+                     <handNote>A. Letters standard second-/third-century forms, <height unit="metre">0.03</height>; the cutter has overrun the limits of the raised panel in ll.6-9, 11. Ligatures: <foreign xml:lang="grc">ΤΕ</foreign>, l.7; <foreign xml:lang="grc">ΤΗ</foreign>, <foreign xml:lang="grc">ΤΕ</foreign>, l.9; <foreign xml:lang="grc">ΤΗ</foreign>, l.10; <foreign xml:lang="grc">ΗΜ</foreign>, l.12. B. A graffito, lunate letters; ll.1-2, <height unit="metre">0.035</height>; ll.3-6, <height unit="metre">0.01-0.02</height>.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -94,9 +95,6 @@
                </term>
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
-               </term>
-               <term>
-                  <rs type="textType">Honours</rs>
                </term>
             </keywords>
          </textClass>

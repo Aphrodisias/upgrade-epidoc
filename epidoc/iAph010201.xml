@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Verse honours for <seg cert="low">a <rs type="personType">governor</rs>
+            <title>
+               <rs type="textType">Verse</rs>
+               <rs type="textType">honours</rs> for <seg cert="low">a <rs type="personType">governor</rs>
                </seg>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
@@ -95,12 +97,6 @@ large central room or court. .</rs>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Verse</rs>
-               </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -131,7 +127,7 @@ large central room or court. .</rs>
 </lg>
       </div>
          <div type="apparatus">
-            <p>l.4 <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="la">quae</foreign> for <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="la">que</foreign> (Feissel, JRA, Jones, per litteras).</p>
+            <p>l.4 <foreign xml:lang="la">quae</foreign> for <foreign xml:lang="la">que</foreign> (Feissel, JRA, Jones, per litteras).</p>
          </div>
          <div type="translation">
             <ab>

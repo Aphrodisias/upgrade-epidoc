@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for M. Aur. Cl. Ktesias</title>
+            <title>
+               <rs type="textType">Honours</rs> for M. Aur. Cl. Ktesias</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -37,7 +38,7 @@
                         <support>
                            <p>
                               <material key="marmor">White marble</material>
-                              <objectType reg="statue base">base</objectType> capital with heavy moulding above (top <measure type="length" dim="none">0.68</measure>   × <measure type="length" dim="none">0.70</measure>; shaft <measure type="length" dim="none">0.42</measure>   × <measure type="length" dim="none">0.37</measure>; height <measure type="depth" dim="none">0.32</measure>), broken away to right.</p>
+                              <objectType key="statue base">base</objectType> capital with heavy moulding above (top <height>0.68</height>   × <height>0.70</height>; shaft <height>0.42</height>   × <height>0.37</height>; height <height>0.32</height>), broken away to right.</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -46,7 +47,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Letters: <height unit="metre">0.0175</height>; ligatures, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΜ</foreign> l.1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗ</foreign> l.2; superscript bars for abbreviation, l.4</handNote>
+                     <handNote>Letters: <height unit="metre">0.0175</height>; ligatures, <foreign xml:lang="grc">ΗΜ</foreign> l.1, <foreign xml:lang="grc">ΜΗ</foreign> l.2; superscript bars for abbreviation, l.4</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -91,9 +92,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Honours</rs>
                </term>
             </keywords>
          </textClass>

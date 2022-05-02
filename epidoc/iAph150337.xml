@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragment of  funerary formula, stray find, undated.</title>
+            <title>Fragment of  <rs type="textType">funerary</rs> formula, stray find, undated.</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -95,9 +95,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -119,8 +116,8 @@
             </p>
          </div>
          <div type="commentary">
-            <p>For an example of this kind of formula in a funerary text, see index <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="la">s.v.</foreign>
-               <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τυμβωρύχος</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἐκδικέω</foreign>.</p>
+            <p>For an example of this kind of formula in a funerary text, see index <foreign xml:lang="la">s.v.</foreign>
+               <foreign xml:lang="grc">τυμβωρύχος</foreign>, <foreign xml:lang="grc">ἐκδικέω</foreign>.</p>
          </div>
          <div type="bibliography" n="none">
             <p>Unpublished.</p>

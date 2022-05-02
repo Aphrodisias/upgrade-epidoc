@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Honours for Aurelia Apphia daughter of Epiktetos</title>
+            <title>
+               <rs type="textType">Honours</rs> for Aurelia Apphia daughter of Epiktetos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -48,7 +49,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.025</height>; ligatures <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗΝ</foreign>, l.7; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign>, l.9; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ</foreign>, l.12. apices on first <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ι</foreign>, l.7, second <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε</foreign>, l.11.</handNote>
+                        <height unit="metre">0.025</height>; ligatures <foreign xml:lang="grc">ΤΗΝ</foreign>, l.7; <foreign xml:lang="grc">ΗΝ</foreign>, l.9; <foreign xml:lang="grc">ΤΗ</foreign>, l.12. apices on first <foreign xml:lang="grc">Ι</foreign>, l.7, second <foreign xml:lang="grc">Ε</foreign>, l.11.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -97,9 +98,6 @@ Third century A.D. (<rs type="criteria">nomenclature</rs>).</origDate>
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">Honours</rs>
                </term>
             </keywords>
          </textClass>

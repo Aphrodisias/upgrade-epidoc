@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragments from a poem <seg cert="low">
+            <title>Fragments from a <rs type="textType" reg="verse">poem</rs>
+               <seg cert="low">
                   <rs type="textType" reg="building inscription">decorating a feature</rs>
                </seg> in the Temple-Church</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
@@ -49,7 +50,7 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <p>Twenty-two <material key="marmor">white marble</material> fragments, some joining, from the outer rim of a large <objectType reg="circular crowning feature">circular feature</objectType> (outer diam. <dim type="diameter">3</dim> m, inner <dim type="diameter">2.55</dim>). The blocks were designed to be seen from below, and have elaborately ornamented trapezoidal panels on the underside (each <measure precision="circa" type="length" dim="none">0.98</measure> long); the panels each have a different pattern, which enables the grouping together of several fragments which do not join. The blocks are slightly convex, and the outer edge slopes outwards from bottom to top (H. <height unit="metre">0.16</height>); on it are a series of bosses with an ornamental cross (<measure precision="circa" type="length" dim="none">0.40</measure> apart).</p>
+                           <p>Twenty-two <material key="marmor">white marble</material> fragments, some joining, from the outer rim of a large <objectType key="circular crowning feature">circular feature</objectType> (outer diam. <dim type="diameter">3</dim> m, inner <dim type="diameter">2.55</dim>). The blocks were designed to be seen from below, and have elaborately ornamented trapezoidal panels on the underside (each <height>0.98</height> long); the panels each have a different pattern, which enables the grouping together of several fragments which do not join. The blocks are slightly convex, and the outer edge slopes outwards from bottom to top (H. <height unit="metre">0.16</height>); on it are a series of bosses with an ornamental cross (<height>0.40</height> apart).</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -57,7 +58,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>av. <height unit="metre">0.09</height>; deep triangular trenches; elongated and ornate. Colon for stop in a after <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">φύσιν</foreign>, and in b: semi-colon in a after <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΡΙΣ</foreign>; horizontal line over abbreviation in k.</handNote>
+                     <handNote>av. <height unit="metre">0.09</height>; deep triangular trenches; elongated and ornate. Colon for stop in a after <foreign xml:lang="grc">φύσιν</foreign>, and in b: semi-colon in a after <foreign xml:lang="grc">ΡΙΣ</foreign>; horizontal line over abbreviation in k.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -107,9 +108,6 @@
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">verse</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -136,7 +134,7 @@
 		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <g ref="#boss"/> <orig n="unresolved">ου</orig> <w lemma="θυηπόλος">θυηπό <g ref="#boss"/> λ<unclear reason="damage">ο</unclear><supplied reason="lost">υ</supplied></w> <gap reason="lost" extent="unknown" unit="character"/>
 		</ab></div><div n="d" type="textpart" subtype="fragment"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <orig n="unresolved"><unclear reason="damage">ω</unclear>σφψ</orig> <g ref="#boss"/> <gap reason="lost" extent="unknown" unit="character"/>
 		</ab></div><div n="e" type="textpart" subtype="fragment"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <persName key="Christ" type="divine"><name><unclear reason="damage">Χ</unclear>ριστῷ</name></persName> <gap reason="lost" extent="unknown" unit="character"/>
-		</ab></div><div n="f" type="textpart" subtype="fragment"><note lang="en" place="not specified" anchored="yes">(perhaps from the end of a)</note><ab><lb n="1"/>
+		</ab></div><div n="f" type="textpart" subtype="fragment"><note place="not specified" xml:lang="en"/><ab><lb n="1"/>
 		<gap reason="lost" extent="unknown" unit="character"/> <g ref="#boss"/> <orig n="unresolved">αυλ</orig><gap reason="lost" extent="unknown" unit="character"/>
 		</ab></div><div n="g" type="textpart" subtype="fragment"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">α</unclear>λλ</orig><gap reason="lost" extent="unknown" unit="character"/>
 		</ab></div><div n="h" type="textpart" subtype="fragment"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">τισ<unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
@@ -146,7 +144,7 @@
 		</ab></div>
       </div>
          <div type="apparatus">
-            <p>f. Perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">αὐλ<supplied reason="lost">η</supplied>
+            <p>f. Perhaps <foreign xml:lang="grc">αὐλ<supplied reason="lost">η</supplied>
                   <gap reason="lost" unit="character" extent="unknown"/>
                </foreign>
             </p>

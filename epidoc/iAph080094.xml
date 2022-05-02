@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Graffiti</title>
+            <title>
+               <rs type="textType">Graffiti</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -89,7 +91,7 @@
 
 <persName type="attested"><name nymRef="#Ζήνων">Ζήνων</name></persName> <w lemma="γράφω">ἔγρ 
 <lb n="2" break="no"/>
- αφε</w></ab><cb n="b"/><note>Drawings of ?fish or ?phalli</note>
+ αφε</w></ab><cb n="b"/><note xml:lang=""/>
 </div>
          <div type="translation">
             <p>Zenon wrote (this)</p>

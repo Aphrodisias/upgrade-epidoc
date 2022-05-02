@@ -45,7 +45,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <measure type="length" dim="none">1.35</measure> above base of column.</layout>
+                           <height>1.35</height> above base of column.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>

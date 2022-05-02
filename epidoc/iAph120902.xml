@@ -6,8 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Statue dedication to the
-Emperor</title>
+            <title>
+               <rs type="textType">Statue dedication</rs> to the
+<rs type="textType" reg="imperial">Emperor</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -103,12 +105,6 @@ Emperor</title>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Statue dedication</rs>
-               </term>
-               <term>
-                  <rs type="textType">imperial</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -124,7 +120,7 @@ Emperor</title>
 <ab><lb n="1"/>  <persName type="emperor"><persName nymRef="#Ζεύς" type="divine"><name nymRef="#Ζεύς">Δία</name>  <w lemma="πατρῷος">Πατρῷον</w></persName>  <lb n="2"/><w lemma="σεβαστός">Σεβαστὸν</w>  <name nymRef="#Καῖσαρ">Καίσαρα</name></persName>  <lb n="2a"/><space unit="line" extent="1" dim="horizontal"/></ab>
 </div>
          <div type="apparatus">
-            <p>l. 1, Reinach, with an incomplete squeeze, and not knowing that the stone was complete proposed <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 1, Reinach, with an incomplete squeeze, and not knowing that the stone was complete proposed <foreign xml:lang="grc">
                   <supplied reason="lost">Ἀπόλλω</supplied>
                   <unclear reason="damage">ν</unclear>α Πατρῷον</foreign>; Robert corrected this (in his first article) and then saw that Kubitschek and Reichel already gave the corect reading.</p>
          </div>
@@ -134,12 +130,12 @@ Emperor</title>
          <div type="commentary">
             <p>For the expression cf:
 Nero at Smyrna, Smyrna 1, l. 5, 
-<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Τιβερίου Κλαυδίου Ἡρω<supplied reason="lost">^  ἀρχιερέως</supplied> καὶ σεβαστοφάντου καὶ [διὰ βίου ἀγωνοθέτου] θεᾶς Ῥώμης καὶ θεοῦ [Σεβαστοῦ Καίσαρος] 
+<foreign xml:lang="grc">Τιβερίου Κλαυδίου Ἡρω<supplied reason="lost">^  ἀρχιερέως</supplied> καὶ σεβαστοφάντου καὶ [διὰ βίου ἀγωνοθέτου] θεᾶς Ῥώμης καὶ θεοῦ [Σεβαστοῦ Καίσαρος] 
 Διὸς Πατρ'ου αὐτοκ[ράτορος καὶ ἀρχιερέως] μεγίστου, πατρὸς τῆ[ς πατρίδος καὶ σωτῆρος?] τοῦ σύμπαντος ἀν<unclear reason="damage">θ</unclear>[ρώπων γένους
 </foreign>
             </p>
             <p>Halicarnassus: GIBM894, 4-7
-<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Καίσαρα τὸν Σεβαστὸν ἐνεν[κ]αμένη [τ]ὸ[ν] τῷ καθ′ ἡμᾶς εὐδαίμονι βίωι πατέρα μὲν τῆς [ἑαυ]τοῦ πατ[ρ]ίδος θεᾶς Ῥώμης, Δία δὲ πατρῶον καὶ σωτῆρα τοῦ κο[ι] [ν]οῦ τῶν ἀνθρώπων γένους</foreign>
+<foreign xml:lang="grc">Καίσαρα τὸν Σεβαστὸν ἐνεν[κ]αμένη [τ]ὸ[ν] τῷ καθ′ ἡμᾶς εὐδαίμονι βίωι πατέρα μὲν τῆς [ἑαυ]τοῦ πατ[ρ]ίδος θεᾶς Ῥώμης, Δία δὲ πατρῶον καὶ σωτῆρα τοῦ κο[ι] [ν]οῦ τῶν ἀνθρώπων γένους</foreign>
             </p>
          </div>
          <div type="bibliography">

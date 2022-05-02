@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Prayer of Theodoros</title>
+            <title>
+               <rs type="textType" reg="prayer/invocation">Prayer</rs> of Theodoros</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -47,7 +48,7 @@ away at the right.</p>
                      <handNote>
                         <height unit="metre">0.02-0.03</height>;
 simple; scroll for abbreviation. A cross has been superimposed on the
-second line, cut over <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Β</foreign>; a similar cross
+second line, cut over <foreign xml:lang="grc">Β</foreign>; a similar cross
 was cut, presumably at the same time, on the socle of the column
 above.</handNote>
                   </handDesc>
@@ -96,9 +97,6 @@ east, on the south face of the base, cut on the upper moulding: .</rs>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">prayer/invocation</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -123,16 +121,16 @@ east, on the south face of the base, cut on the upper moulding: .</rs>
 		  </ab>
       </div>
          <div type="apparatus">
-            <p>l. 1,  After <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Θεοδώρου</foreign>,
-Reinach read <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 1,  After <foreign xml:lang="grc">Θεοδώρου</foreign>,
+Reinach read <foreign xml:lang="grc">
                   <unclear reason="damage">Κ</unclear>
                   <gap reason="lost" unit="character" extent="unknown"/>ΕΤΗΣ</foreign>, whence
-Grégoire restored <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κ<supplied reason="lost">
-                     <supplied reason="abbreviation">αὶ</supplied> Ἀρ</supplied>ετῆς</foreign>; but the first letter is definitely a
-round one (<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ο</foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Σ</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε</foreign>).</p>
+Grégoire restored <foreign xml:lang="grc">κ<supplied reason="lost">
+                     <ex>αὶ</ex> Ἀρ</supplied>ετῆς</foreign>; but the first letter is definitely a
+round one (<foreign xml:lang="grc">Ο</foreign> or <foreign xml:lang="grc">Σ</foreign>, <foreign xml:lang="grc">Ε</foreign>).</p>
             <p>2. Kubitschek read another cross at the beginning of line
-2, probably a double reading of the <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Τ</foreign>.
-Reinach, misled by the superimposed cross, read <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τῆς θυ<supplied reason="lost">γ</supplied>ατρός</foreign>.</p>
+2, probably a double reading of the <foreign xml:lang="grc">Τ</foreign>.
+Reinach, misled by the superimposed cross, read <foreign xml:lang="grc">τῆς θυ<supplied reason="lost">γ</supplied>ατρός</foreign>.</p>
          </div>
          <div type="translation">
             <ab> Prayer of Theodoros, <seg cert="low">son of <gap reason="lost" unit="character" extent="unknown"/>ete</seg>, the most

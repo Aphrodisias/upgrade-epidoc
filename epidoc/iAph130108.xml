@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary inscription for Aurelia Zotike and her father</title>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for Aurelia Zotike and her father</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +47,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote> Reasonably well designed and aligned, in the second-to-fourth-century style; l. 1, <height unit="metre">0.015-0.02</height>; ll. 2 ff., ave. <height unit="metre">0.02</height>. Ligatured <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΜΗ</foreign> (l. 5); <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ</foreign> (ll. 2, 8, 13); <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗΡ</foreign> (l. 8). Unconventional spelling in ll. 9, 10, 11, 12; slanting line before the figure in l. 14.</handNote>
+                     <handNote> Reasonably well designed and aligned, in the second-to-fourth-century style; l. 1, <height unit="metre">0.015-0.02</height>; ll. 2 ff., ave. <height unit="metre">0.02</height>. Ligatured <foreign xml:lang="grc">ΗΜΗ</foreign> (l. 5); <foreign xml:lang="grc">ΤΗ</foreign> (ll. 2, 8, 13); <foreign xml:lang="grc">ΤΗΡ</foreign> (l. 8). Unconventional spelling in ll. 9, 10, 11, 12; slanting line before the figure in l. 14.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -96,9 +97,6 @@ Probably  first half of the third century
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -118,7 +116,7 @@ Probably  first half of the third century
             <p>The sarcophagus is the property of Aurelia Zotike also called daughter of Zotikos son of Pankrates who was also called Demetrios, in which she shall be buried herself and Aurelius Zotikos her father; but no-one else shall have the right to bury anyone in it or to remove anyone since (if he does) he will pay the goddess Aphrodite 5000 denarii, of which one third is to belong to the prosecutor.</p>
          </div>
          <div type="commentary">
-            <p>It is virtually certain that one line has dropped out between ll. 2 and 3, so that Zotike's second name and the beginning of her father's gentile name have been omitted. In l. 12 letters 4-7 probably show a misunderstanding or mistranscription of the phrase <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἐπεὶ ἐσται ἀσεβὴς καὶ ἐπάρατος καὶ τυμβωρύχος καὶ ἀποτείσει</foreign>.The father looks likely to have been the first Roman citizen in the family, no doubt obtaining citizenship in 212. The names suggest a comparatively modest social status. Nothing is said of anything but the sarcophagus, but the funerary fine is a little above average.</p>
+            <p>It is virtually certain that one line has dropped out between ll. 2 and 3, so that Zotike's second name and the beginning of her father's gentile name have been omitted. In l. 12 letters 4-7 probably show a misunderstanding or mistranscription of the phrase <foreign xml:lang="grc">ἐπεὶ ἐσται ἀσεβὴς καὶ ἐπάρατος καὶ τυμβωρύχος καὶ ἀποτείσει</foreign>.The father looks likely to have been the first Roman citizen in the family, no doubt obtaining citizenship in 212. The names suggest a comparatively modest social status. Nothing is said of anything but the sarcophagus, but the funerary fine is a little above average.</p>
             <p>The sarcophagus was found in a chamber-tomb along with <ref type="inscription" n="1445" target="130111.xml"/>, <ref type="inscription" n="1447" target="130109.xml"/>, <ref type="inscription" n="1448" target="130110.xml"/> and another (<ref type="inscription" n="1449" target="130101.xml"/>) of a different type. The inscriptions ought to be of approximately the same period; they are certainly all of the third century, probably all of its first half. The owner's father was perhaps the first of the family to obtain Roman citizenship, doing so under the Edict of Caracalla in A.D. 212. That is the obvious explanation for her alternative nomenclature, which is that of a non-citizen. Despite her genealogy the family sounds of comparatively modest status.</p>
          </div>
          <div type="bibliography">

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary for M. Aurelius Adrastos son of Deiomedes</title>
+            <title>
+               <rs type="textType">Funerary</rs> for M. Aurelius Adrastos son of Deiomedes</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +47,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Square <term lang="grc-Latn">sigma</term>, cursive <term lang="grc-Latn">mu</term> and <term lang="grc-Latn">omega</term>; <height unit="metre">0.025</height>
+                     <handNote>Square <term xml:lang="grc-Latn">sigma</term>, cursive <term xml:lang="grc-Latn">mu</term> and <term xml:lang="grc-Latn">omega</term>; <height unit="metre">0.025</height>
                      </handNote>
                   </handDesc>
                </physDesc>
@@ -94,9 +95,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -113,7 +111,7 @@
 <ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="σορός">σορός</w> <w lemma="εἰμί">ἐστιν</w> <w lemma="καί">καὶ</w> <lb n="2"/> <w lemma="ὁ">τὸν</w> <w lemma="ὑπόκειμαι">ὑποκείμενον</w> <lb n="3"/> <w lemma="ἡρῶος">ἡρῶον</w> <persName type="attested"><name nymRef="#Μᾶρκος">Μάρκου</name>  <name nymRef="#Αὐρήλιος">Αὐ<lb n="4" break="no"/>ρηλείου</name>  <name nymRef="#Ἄδραστος">Ἀδράστο<lb n="5" break="no"/>υ</name> <w lemma="ὁ">τοῦ</w> <name nymRef="#Διομήδης">Δειομήδο<lb n="6" break="no"/>υς</name> <w lemma="τρίς">τρὶς</w> <w lemma="ὁ">τοῦ</w> <name nymRef="#Ἀρτεμίδωρος">Ἀρτ<lb n="7" break="no"/><space extent="1" unit="character" dim="horizontal"/>εμειδώρου</name></persName> <lb n="7a"/>  <space extent="3" unit="character" dim="horizontal"/>  </ab>
 </div>
          <div type="translation">
-            <p>This tomb and the <term lang="grc-Latn">heroon</term> beneath it belong to Marcus Aurelius Adrastos son of Deiomedes son of Deiomedes son of Deiomedes son of Artemidoros.</p>
+            <p>This tomb and the <term xml:lang="grc-Latn">heroon</term> beneath it belong to Marcus Aurelius Adrastos son of Deiomedes son of Deiomedes son of Deiomedes son of Artemidoros.</p>
          </div>
          <div type="commentary">
             <p>[[... spellings?  ...]]</p>

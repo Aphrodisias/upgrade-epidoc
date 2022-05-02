@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Posthumous <rs type="textType">honours</rs> for  Zenon son of Zenon</title>
+            <title>
+               <rs type="textType">Posthumous <rs type="textType">honours</rs>
+               </rs> for  Zenon son of Zenon</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -36,7 +38,7 @@
                      <supportDesc>
                         <support>
                            <p>Fragment from the right hand side of a <material key="marmor">white marble</material>
-                              <objectType reg="base">statue base shaft</objectType> (<width unit="metre">0.20</width>   × <height unit="metre">0.47</height>   × <depth unit="metre">0.36</depth>).  </p>
+                              <objectType key="base">statue base shaft</objectType> (<width unit="metre">0.20</width>   × <height unit="metre">0.47</height>   × <depth unit="metre">0.36</depth>).  </p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -46,7 +48,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <measure type="length" dim="none">0.02-0.025</measure>; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΝ</foreign> in ligature, l.9.</handNote>
+                        <height>0.02-0.025</height>; <foreign xml:lang="grc">ΜΝ</foreign> in ligature, l.9.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -92,9 +94,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Posthumous honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -110,9 +109,9 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
 
-<ab><lb n="0"/><supplied reason="lost"><note place="not  specified" anchored="yes">e.g.</note> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <lb n="0a"/><w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="τιμάω">ἐτείμησαν</w></supplied>  <lb n="1"/><persName type="attested"><name nymRef="#Ζήνων"><supplied reason="lost">Ζήνω</supplied>να</name>  <w lemma="τετρακίς">τετρά<lb n="2" break="no"/><supplied reason="lost">κις</supplied></w>      <persName type="attested"><name nymRef="#Ὑψικλῆς"><supplied reason="lost">Ὑ</supplied>ψικλέους</name>  <lb n="3"/><w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <persName type="attested"><name nymRef="#Ὑψικλῆς"><supplied reason="lost">Ὑψ</supplied>ικλέους</name>  <lb n="4"/><w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <persName type="attested"><name nymRef="#Μένανδρος"><supplied reason="lost">Με</supplied>νάνδρου</name>  <lb n="5"/><w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <persName type="attested"><name nymRef="#Ζήνων"><supplied reason="lost">Ζή</supplied>νωνος</name></persName></persName></persName></persName>  <lb n="6"/><supplied reason="lost"><space extent="2" unit="character" dim="horizontal"/></supplied>  <name nymRef="#Ὑψικλῆς"><supplied reason="lost">Ὑψι</supplied><unclear reason="damage">κ</unclear>λέα</name></persName>  <space extent="2" unit="character" dim="horizontal"/><lb n="7"/><gap extent="5" reason="lost" unit="character"/><orig n="unresolved">ου</orig>  <w lemma="καί">καὶ</w>  <lb n="8"/><gap extent="5" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear>ωναι</orig><lb n="9" break="no"/><gap extent="7" reason="lost" unit="character"/>  <w lemma="γυμνασίαρχος">γυ<hi rend="ligature">μν</hi>α<lb n="10" break="no"/><supplied reason="lost">σίαρχ</supplied><gap extent="2" reason="lost" unit="character"/></w>  <w lemma="στεφανηφόρος"><supplied reason="lost">σ</supplied>τεφα<lb n="11" break="no"/><supplied reason="lost">νηφόρ</supplied><gap extent="unknown" reason="lost" unit="character"/></w><lb n="11a"/><gap extent="unknown" reason="lost" unit="line"/></ab></div>
+<ab><lb n="0"/><supplied reason="lost"><note place="not  specified" xml:lang=""/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <lb n="0a"/><w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="τιμάω">ἐτείμησαν</w></supplied>  <lb n="1"/><persName type="attested"><name nymRef="#Ζήνων"><supplied reason="lost">Ζήνω</supplied>να</name>  <w lemma="τετρακίς">τετρά<lb n="2" break="no"/><supplied reason="lost">κις</supplied></w>      <persName type="attested"><name nymRef="#Ὑψικλῆς"><supplied reason="lost">Ὑ</supplied>ψικλέους</name>  <lb n="3"/><w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <persName type="attested"><name nymRef="#Ὑψικλῆς"><supplied reason="lost">Ὑψ</supplied>ικλέους</name>  <lb n="4"/><w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <persName type="attested"><name nymRef="#Μένανδρος"><supplied reason="lost">Με</supplied>νάνδρου</name>  <lb n="5"/><w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <persName type="attested"><name nymRef="#Ζήνων"><supplied reason="lost">Ζή</supplied>νωνος</name></persName></persName></persName></persName>  <lb n="6"/><supplied reason="lost"><space extent="2" unit="character" dim="horizontal"/></supplied>  <name nymRef="#Ὑψικλῆς"><supplied reason="lost">Ὑψι</supplied><unclear reason="damage">κ</unclear>λέα</name></persName>  <space extent="2" unit="character" dim="horizontal"/><lb n="7"/><gap extent="5" reason="lost" unit="character"/><orig n="unresolved">ου</orig>  <w lemma="καί">καὶ</w>  <lb n="8"/><gap extent="5" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear>ωναι</orig><lb n="9" break="no"/><gap extent="7" reason="lost" unit="character"/>  <w lemma="γυμνασίαρχος">γυ<hi rend="ligature">μν</hi>α<lb n="10" break="no"/><supplied reason="lost">σίαρχ</supplied><gap extent="2" reason="lost" unit="character"/></w>  <w lemma="στεφανηφόρος"><supplied reason="lost">σ</supplied>τεφα<lb n="11" break="no"/><supplied reason="lost">νηφόρ</supplied><gap extent="unknown" reason="lost" unit="character"/></w><lb n="11a"/><gap extent="unknown" reason="lost" unit="line"/></ab></div>
          <div type="apparatus">
-            <p>ll. 7-9, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>ll. 7-9, <foreign xml:lang="grc">
                   <supplied reason="lost">τὸν δήμ</supplied>ου καὶ <lb/>
                   <supplied reason="lost">βουλῆς υ</supplied>ἱῶν ἀ<lb/>
                   <supplied reason="lost">πόγονον</supplied>

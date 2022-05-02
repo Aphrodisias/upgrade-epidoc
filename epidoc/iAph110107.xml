@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary fragment</title>
+            <title>
+               <rs type="textType">Funerary</rs> fragment</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +46,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>standard forms;  <height unit="metre">0.02</height>; ligatured <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign>, l.1.</handNote>
+                     <handNote>standard forms;  <height unit="metre">0.02</height>; ligatured <foreign xml:lang="grc">ΗΝ</foreign>, l.1.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -93,9 +94,6 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -113,7 +111,7 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
 <ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>  <persName type="attested"><name nymRef="#Ἀθηναγόρας"><supplied reason="lost">Ἀ</supplied>θ<hi rend="ligature">ην</hi>αγόρου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name>Ἀν<gap reason="lost" extent="unknown" unit="character"/></name><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/>ρέου</name></persName></persName></persName> <w lemma="ὁ">τοῦ</w> <orig n="unresolved">α<unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">λιο</orig><gap reason="lost" extent="4" unit="character"/><orig n="unresolved">ου</orig><gap reason="lost" extent="2" unit="character"/><orig n="unresolved">υ</orig> <w lemma="καί">καὶ</w> <persName cert="low" type="attested"><orig n="unresolved"><name>θησ</name></orig><gap reason="lost" extent="unknown" unit="character"/></persName>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 2,   <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 2,   <foreign xml:lang="grc">
                   <supplied reason="lost">το</supplied>ῦ καὶ Θησ<supplied reason="lost" cert="low">εως</supplied>
                </foreign>
             </p>

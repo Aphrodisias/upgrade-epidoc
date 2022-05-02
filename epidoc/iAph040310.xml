@@ -6,8 +6,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>i. <rs type="textType">Verse</rs>
-               <rs type="textType">honours</rs> for Anthemios; ii. Invocation</title>
+            <title>i. <rs type="textType" reg="prayer/invocation">
+                  <rs type="textType">Verse</rs>
+                  <rs type="textType">honours</rs>
+               </rs> for Anthemios; ii. Invocation</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -93,9 +95,6 @@
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">prayer/invocation</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -130,31 +129,31 @@
       </div>
          <div type="translation">
             <ab n="036">i. The array <supplied reason="subaudible" cert="low">of the Carians</supplied> set up your statue, prefect, giving a small reward for your benefactions; for, Anthemios, saving peoples and cities, you also rescued the order of the Carians, which was being destroyed, to whom <supplied reason="subaudible">the Carians</supplied> Beronikianos, occupying the seat of governor, gave instructions to make a marble statue.</ab>
-            <ab n="144">ii. Light! Life! <persName key="Mary" type="divine" full="yes">M<supplied reason="abbreviation">ary</supplied>
-               </persName> b<supplied reason="abbreviation">ore</supplied>
-               <persName key="Christ" type="divine" full="yes">Ch<supplied reason="abbreviation">rist</supplied>
+            <ab n="144">ii. Light! Life! <persName key="Mary" type="divine" full="yes">M<ex>ary</ex>
+               </persName> b<ex>ore</ex>
+               <persName key="Christ" type="divine" full="yes">Ch<ex>rist</ex>
                </persName>.</ab>
          </div>
          <div type="apparatus">
-            <p n="036">i. l. 1,  Perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p n="036">i. l. 1,  Perhaps <foreign xml:lang="grc">
                   <unclear reason="damage">Κα</unclear>ρ<unclear reason="damage">ῶ</unclear>ν σε φάλαγξ</foreign>, although this seems clumsily repetitious.</p>
             <p n="144">ii. There are traces around the cross which might be decoration or a monogram.</p>
-            <p>ii. l. 1, perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>ii. l. 1, perhaps <foreign xml:lang="grc">
                   <persName key="Christ" type="divine" full="yes">
                      <expan>
                         <abbr>Χ</abbr>
-                        <supplied reason="abbreviation">ριστὸν</supplied>
+                        <ex>ριστὸν</ex>
                      </expan>
                   </persName>
                   <persName key="Mary" type="divine" full="yes">
                      <expan>
                         <abbr>Μ</abbr>
-                        <supplied reason="abbreviation">αρία</supplied>
+                        <ex>αρία</ex>
                      </expan>
                   </persName>
                   <expan>
                      <abbr>Γ</abbr>
-                     <supplied reason="abbreviation">εννᾳ</supplied>
+                     <ex>εννᾳ</ex>
                   </expan>
                </foreign>
             </p>

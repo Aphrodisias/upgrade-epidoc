@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary  fragment</title>
+            <title>
+               <rs type="textType">Funerary</rs>  fragment</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -93,9 +94,6 @@ First to third centuries A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -113,7 +111,7 @@ First to third centuries A.D.
 <ab><lb n="0"/><gap reason="lost" extent="unknown" unit="character"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="αὐτός">αὐτῷ</w>  ΟΙ<unclear reason="damage">Ι</unclear><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">Ρ</unclear>ΟΣΘΕ<gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>? <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">προσθεν</foreign> or something from <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">προστιθημι</foreign>
+            <p>? <foreign xml:lang="grc">προσθεν</foreign> or something from <foreign xml:lang="grc">προστιθημι</foreign>
             </p>
          </div>
          <div type="translation">

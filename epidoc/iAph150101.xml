@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Votive to Hekate Euantetos</title>
+            <title>
+               <rs type="textType" reg="votive">Votive</rs> to Hekate Euantetos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +46,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Rough; lunate <term lang="la">epsilon</term>, <term lang="la">sigma</term>, <term lang="la">omega</term>; unevenly aligned.</handNote>
+                     <handNote>Rough; lunate <term xml:lang="la">epsilon</term>, <term xml:lang="la">sigma</term>, <term xml:lang="la">omega</term>; unevenly aligned.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -95,9 +96,6 @@
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">votive</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -122,7 +120,7 @@
 </ab>
 </div>
          <div type="apparatus">
-            <p>l. 2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ν</foreign> is written backwards.</p>
+            <p>l. 2, <foreign xml:lang="grc">Ν</foreign> is written backwards.</p>
          </div>
          <div type="translation">
             <p>Zotikos pays his vow to the deity who is kindly to meet.</p>

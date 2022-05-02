@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dedication by Dionysios on behalf of Ammia</title>
+            <title>
+               <rs type="textType">Dedication</rs> by Dionysios on behalf of Ammia</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +46,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Lightly <rs type="execution" key="litteris scariphatis">scratched</rs>, lunate <term lang="grc-Latn">epsilon</term> and <term lang="grc-Latn">sigma</term>, cursive <term lang="grc-Latn">alpha</term>; l.1, <height>0.01</height>; ll. 2-4, <height>0.007-8</height>.  Uneven in height and alignment. It presumably initiated a poorly written cursive document.</handNote>
+                     <handNote>Lightly <rs type="execution" key="litteris scariphatis">scratched</rs>, lunate <term xml:lang="grc-Latn">epsilon</term> and <term xml:lang="grc-Latn">sigma</term>, cursive <term xml:lang="grc-Latn">alpha</term>; l.1, <height>0.01</height>; ll. 2-4, <height>0.007-8</height>.  Uneven in height and alignment. It presumably initiated a poorly written cursive document.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -92,9 +93,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Dedication</rs>
                </term>
             </keywords>
          </textClass>

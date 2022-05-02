@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for P. Aelius Septimius Mannus, <rs type="personType">governor</rs>
+            <title>
+               <rs type="textType">Honours</rs> for P. Aelius Septimius Mannus, <rs type="personType">governor</rs>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -47,7 +48,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Standard third century forms, <height unit="metre">0.025-0.03</height>. Ligature: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗ</foreign> (l.5). There are apices over initial aspirated vowels, including the initial <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α</foreign> of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἁπάσης</foreign> (l. 9).</handNote>
+                     <handNote>Standard third century forms, <height unit="metre">0.025-0.03</height>. Ligature: <foreign xml:lang="grc">ΝΗ</foreign> (l.5). There are apices over initial aspirated vowels, including the initial <foreign xml:lang="grc">Α</foreign> of <foreign xml:lang="grc">ἁπάσης</foreign> (l. 9).</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -94,9 +95,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -132,7 +130,7 @@
          </div>
          <div type="translation">
             <ab>
-               <supplied reason="lost">So-and-so honoured</supplied> Publius Aelius Septimius Mannus, the <term lang="la">clarissimus</term>, governor (<term lang="la">praeses</term>), consular, distinguished, brave, pure, generous, having achieved all virtue, his/its benefactor <gap extent="unknown" reason="lost" unit="character"/>
+               <supplied reason="lost">So-and-so honoured</supplied> Publius Aelius Septimius Mannus, the <term xml:lang="la">clarissimus</term>, governor (<term xml:lang="la">praeses</term>), consular, distinguished, brave, pure, generous, having achieved all virtue, his/its benefactor <gap extent="unknown" reason="lost" unit="character"/>
             </ab>
          </div>
          <div type="commentary">

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dedication by Flavius Eusebios</title>
+            <title>
+               <rs type="textType">Dedication</rs> by Flavius Eusebios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -48,8 +49,8 @@ slightly concave (together, <height unit="metre">1.35</height> × <width unit="m
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Square-cut, but with some late forms (<term lang="grc-Latn">kappa</term>,
-<term lang="grc-Latn">rho</term> and <term lang="grc-Latn">sigma</term>); <height unit="metre">0.03</height>.</handNote>
+                     <handNote>Square-cut, but with some late forms (<term xml:lang="grc-Latn">kappa</term>,
+<term xml:lang="grc-Latn">rho</term> and <term xml:lang="grc-Latn">sigma</term>); <height unit="metre">0.03</height>.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -103,9 +104,6 @@ slightly concave (together, <height unit="metre">1.35</height> × <width unit="m
                <term>
                   <rs type="textType" key="cetera" cert="low">jewish</rs>
                </term>
-               <term>
-                  <rs type="textType">Dedication</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -131,10 +129,10 @@ slightly concave (together, <height unit="metre">1.35</height> × <width unit="m
 		<lb n="6"/><w lemma="διάστυλος">διάστυλον</w> <w lemma="ποιέω">ἐποίησεν</w>.</ab>
 	  </div>
          <div type="apparatus">
-            <p>l. 1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΘΕ</foreign> is cut over an erasure of c. 4 letters.</p>
+            <p>l. 1, <foreign xml:lang="grc">ΘΕ</foreign> is cut over an erasure of c. 4 letters.</p>
          </div>
          <div type="translation">
-            <ab>To God who listens, Fl<supplied reason="abbreviation">avius</supplied> Eusebios, <term lang="la">e primipilaribus</term>, from the gifts of God made the
+            <ab>To God who listens, Fl<ex>avius</ex> Eusebios, <term xml:lang="la">e primipilaribus</term>, from the gifts of God made the
 first and third intercolumniation.</ab>
          </div>
          <div type="commentary">

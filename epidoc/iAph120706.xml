@@ -7,8 +7,8 @@
       <fileDesc>
          <titleStmt>
             <title>
-          
-            Honours for  Aristokles Molossos</title>
+               <rs type="textType">
+            Honours</rs> for  Aristokles Molossos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -39,7 +39,7 @@
                         <support>
                            <p>
                               <material key="marmor">White marble</material>
-                              <objectType reg="statue base">statue base</objectType> without moulding (<height unit="metre">0.545</height> × <width unit="metre">0.92</width> × depth not measurable); the block is broken across the lower face and the surface is badly weathered.</p>
+                              <objectType key="statue base">statue base</objectType> without moulding (<height unit="metre">0.545</height> × <width unit="metre">0.92</width> × depth not measurable); the block is broken across the lower face and the surface is badly weathered.</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -95,10 +95,6 @@ Mid-first century A.D. (<rs type="criteria">prosopography</rs>; but the letterin
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">
-            Honours</rs>
                </term>
             </keywords>
          </textClass>

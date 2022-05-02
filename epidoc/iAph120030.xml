@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Posthumous <rs type="textType">honours</rs> for Aelius Claudius . . .</title>
+            <title>
+               <rs type="textType">Posthumous <rs type="textType">honours</rs>
+               </rs> for Aelius Claudius . . .</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +47,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <measure type="length" dim="none">0.02-0.025</measure>; dots for stops; stops for abbreviation; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΜ</foreign> in ligature, l. 4; from l. 4 letters get smaller and rather more closely squeezed together.</handNote>
+                        <height>0.02-0.025</height>; dots for stops; stops for abbreviation; <foreign xml:lang="grc">ΗΜ</foreign> in ligature, l. 4; from l. 4 letters get smaller and rather more closely squeezed together.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -91,9 +93,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Posthumous honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -112,11 +111,11 @@
 <ab><lb n="0"/><supplied reason="lost" cert="low"><w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w></supplied><lb n="1"/><supplied reason="lost"><w lemma="καί">καὶ</w> <w lemma="ὁ">ἡ</w> γε</supplied>ρουσία  <w lemma="τιμάω">ἐτ<unclear reason="damage">ε</unclear><supplied reason="lost">ί</supplied><lb n="2" break="no"/><supplied reason="lost">μησεν</supplied></w> <w lemma="καί">καὶ</w> <w lemma="μεταλλάζω">μετηλ  <space unit="character" extent="1" dim="horizontal"/><lb n="3" break="no"/><supplied reason="lost">λακχότ</supplied><unclear reason="damage">α</unclear></w>  <g ref="#stop"/> <persName type="attested"><name nymRef="#Αἴλιος">Αἴλιον</name> <g ref="#stop"/> <name nymRef="#Κλαύδιος"><expan><abbr>Κλ</abbr><ex>αύδιον</ex></expan></name> <g ref="#stop"/><lb n="4"/><gap extent="6" reason="lost" unit="character"/> <persName type="attested"><name nymRef="#Ἀγ̣αθήμεροs"><supplied reason="lost">Ἀ</supplied><unclear reason="damage">γ</unclear>̣αθ<hi rend="ligature">ημ</hi>έρου</name></persName></persName>  <lb n="5"/><w lemma="υἱός"><supplied reason="lost">υἱὸν</supplied></w>  <gap extent="18" reason="lost" unit="character"/>  <gap extent="1" reason="illegible" unit="character"/> <w lemma="ζάω">ζήσαντα</w> <lb n="6"/><supplied reason="lost" cert="low">κοσμίως  <w lemma="καί">καὶ</w></supplied>  <w lemma="ἐνάρετος"><supplied reason="lost">ἐ</supplied><unclear reason="damage">ν</unclear>αρέτως</w>  <lb n="7"/><gap extent="14" reason="lost" unit="character"/>  <gap extent="1" reason="illegible" unit="character"/>  <orig n="unresolved">υποτε</orig>  <lb n="8"/><gap extent="18" reason="lost" unit="character"/><orig n="unresolved">πι</orig>  <space unit="character" extent="1" dim="horizontal"/><lb n="8a"/><gap extent="unknown" reason="lost" unit="line"/></ab>
 </div>
          <div type="apparatus">
-            <p>l. 6, supplement suggested by L. Robert, <title>Hellenica</title> 13, 230; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">καλῶς</foreign> Cormack</p>
+            <p>l. 6, supplement suggested by L. Robert, <title>Hellenica</title> 13, 230; <foreign xml:lang="grc">καλῶς</foreign> Cormack</p>
          </div>
          <div type="translation">
             <p>
-               <supplied reason="lost" cert="low">The Council and the People and the ge</supplied>rousia honoured, even after his  death, Aelius Cl<supplied reason="abbreviation">audius</supplied>
+               <supplied reason="lost" cert="low">The Council and the People and the ge</supplied>rousia honoured, even after his  death, Aelius Cl<ex>audius</ex>
                <gap reason="lost" unit="character" extent="unknown"/> son of Agathemeros <gap reason="lost" unit="character" extent="unknown"/> who lived <supplied reason="lost">in a decent and</supplied> virtuous manner <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>

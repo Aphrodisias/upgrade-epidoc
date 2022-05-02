@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Statue dedication by Flavius Zenon</title>
+            <title>
+               <rs type="textType">Statue dedication</rs> by Flavius Zenon</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -47,8 +48,8 @@ partly broken away above.</p>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Elongated; av. <height unit="metre">0.05</height>, <term lang="grc-Latn">phi</term>
-                        <height unit="metre">0.06</height>; standard <term lang="grc-Latn">sigma</term> and <term lang="grc-Latn">omega</term>;
+                     <handNote>Elongated; av. <height unit="metre">0.05</height>, <term xml:lang="grc-Latn">phi</term>
+                        <height unit="metre">0.06</height>; standard <term xml:lang="grc-Latn">sigma</term> and <term xml:lang="grc-Latn">omega</term>;
 the style appears appropriate to the late third or early fourth
 century. Boulanger apparently saw traces of red paint in the letters, but
 none remains.</handNote>
@@ -63,8 +64,8 @@ none remains.</handNote>
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList" key="HadrBath">Hadrianic Baths, East Court</rs>: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">face E<supplied reason="abbreviation">st</supplied> du pilier
-N<supplied reason="abbreviation">ord</supplied>
+                        <rs type="monuList" key="HadrBath">Hadrianic Baths, East Court</rs>: '<foreign xml:lang="fr">face E<ex>st</ex> du pilier
+N<ex>ord</ex>
                         </foreign>' (Boulanger).</rs>
                   </provenance>
                   <provenance type="observed" when="1994">
@@ -105,9 +106,6 @@ N<supplied reason="abbreviation">ord</supplied>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Statue dedication</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -136,7 +134,7 @@ N<supplied reason="abbreviation">ord</supplied>
             <p>l. 2, The first three erased letters remain legible; the rest can safely be resored by comparison with text <ref type="inscription" n="12" target="050302.xml"/>.</p>
          </div>
          <div type="translation">
-            <ab>With Good Fortune. Fl<supplied reason="abbreviation">avius</supplied> Zenon <supplied reason="lost">high priest and</supplied>
+            <ab>With Good Fortune. Fl<ex>avius</ex> Zenon <supplied reason="lost">high priest and</supplied>
                <seg cert="low">comes</seg>, made <supplied reason="subaudible">this</supplied> and set it up for his
 homeland.</ab>
          </div>

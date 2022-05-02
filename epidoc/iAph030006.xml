@@ -7,7 +7,8 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <rs type="personType" reg="governor">Fl. Pelagius Ioannes</rs> gives a column</title>
+               <rs type="personType" reg="governor">Fl. Pelagius Ioannes</rs> gives a <rs type="textType" reg="column dedication">column</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -37,7 +38,7 @@
                      <supportDesc>
                         <support>
                            <p>A <material key="marmor">white marble</material>
-                              <objectType>column</objectType> fluted above and smooth below. '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="de">Höhe: <height>154</height>, Breite: <width>220</width>.</foreign>'.</p>
+                              <objectType>column</objectType> fluted above and smooth below. '<foreign xml:lang="de">Höhe: <height>154</height>, Breite: <width>220</width>.</foreign>'.</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -46,7 +47,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.085</height>; irregular, somewhat elongated; abbreviations: scroll in l.1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ρ</foreign> above line in l. 3.</handNote>
+                        <height unit="metre">0.085</height>; irregular, somewhat elongated; abbreviations: scroll in l.1, <foreign xml:lang="grc">Ρ</foreign> above line in l. 3.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -58,7 +59,7 @@
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList">North Agora</rs>; south portico on the eighth column (counted from the east) '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="de">der Rest der 8. Säule</foreign>' (Kubitschek). .</rs>
+                        <rs type="monuList">North Agora</rs>; south portico on the eighth column (counted from the east) '<foreign xml:lang="de">der Rest der 8. Säule</foreign>' (Kubitschek). .</rs>
                   </provenance>
                   <provenance type="observed">
                      <rs type="lastLocation">This remnant has now disappeared, probably into the nearby water channel, which is lined with column fragments</rs>
@@ -94,9 +95,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">column dedication</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -122,7 +120,7 @@
 </div>
          <div type="translation">
             <p>
-               <supplied cert="low" reason="subaudible">Gift of</supplied> Flavius Pelagius Ioannes, <term lang="la">clarissimus praeses</term>.</p>
+               <supplied cert="low" reason="subaudible">Gift of</supplied> Flavius Pelagius Ioannes, <term xml:lang="la">clarissimus praeses</term>.</p>
          </div>
          <div type="commentary">
             <p>For Fl. Pelagius Ioannes see discussion at <ref type="eAla-text" n="III.32" target=".xml"/>.</p>

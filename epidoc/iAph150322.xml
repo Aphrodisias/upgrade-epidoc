@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for anonymous</title>
+            <title>
+               <rs type="textType">Honours</rs> for anonymous</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -92,9 +93,6 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)</origDate>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -112,7 +110,7 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)</origDate>
 </div>
          <div type="apparatus">
             <p>The letters highlighted were read by Deering, but that side of the fragment had broken away by 1968.</p>
-            <p>ll. 2-3, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἐπὶ παι/δείαι</foreign> Leake</p>
+            <p>ll. 2-3, <foreign xml:lang="grc">ἐπὶ παι/δείαι</foreign> Leake</p>
          </div>
          <div n="notyet" type="translation">
             <p>... </p>

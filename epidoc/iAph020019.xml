@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ampelios, father of the city, restores the 'palaestra'</title>
+            <title>Ampelios, father of the city, <rs type="textType" reg="building inscription">restores</rs> the 'palaestra'</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -41,7 +41,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>Cut along the rim of the stage. The total length of the text is <measure type="length" dim="none" unit="metre" precision="circa">7.65</measure>.</layout>
+                        <layout>Cut along the rim of the stage. The total length of the text is <height unit="metre">7.65</height>.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -93,9 +93,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">building inscription</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -121,20 +118,20 @@
 		</div>
          <div type="apparatus">
             <p>
-               <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἰνδ<supplied reason="abbreviation">ικτίωνος</supplied>
+               <foreign xml:lang="grc">ἰνδ<ex>ικτίωνος</ex>
                   <num value="10">
                      <hi rend="supraline">ι</hi>
-                  </num>, εὐτυχ<supplied reason="abbreviation">ῶς</supplied>
+                  </num>, εὐτυχ<ex>ῶς</ex>
                </foreign> ALA;
-		<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἰνδ<supplied reason="abbreviation">ικτιῶνι</supplied>
+		<foreign xml:lang="grc">ἰνδ<ex>ικτιῶνι</ex>
                   <num value="10">
                      <hi rend="supraline">ι</hi>
-                  </num> εὐτυχ<supplied reason="abbreviation">εστάτῃ</supplied>
+                  </num> εὐτυχ<ex>εστάτῃ</ex>
                </foreign> Feissel.</p>
             <p>The letters on the loose fragments are highlighted in the text.</p>
          </div>
          <div type="translation">
-            <ab>For the good fortune of the splendid metropolis of the Aphrodisians, this work of the <term lang="la">palaestra</term> also took place <supplied reason="lost" cert="low">under Flavius Ampelius</supplied> the most eloquent <term lang="la">scholasticus</term> and <term lang="la">pater</term>, in the tenth indiction. With good fortune.</ab>
+            <ab>For the good fortune of the splendid metropolis of the Aphrodisians, this work of the <term xml:lang="la">palaestra</term> also took place <supplied reason="lost" cert="low">under Flavius Ampelius</supplied> the most eloquent <term xml:lang="la">scholasticus</term> and <term xml:lang="la">pater</term>, in the tenth indiction. With good fortune.</ab>
          </div>
          <div type="commentary">
             <p>See discussion at <ref type="eAla-text" n="IV.21" target=".xml"/> following.</p>

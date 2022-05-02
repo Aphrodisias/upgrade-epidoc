@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary inscription for Epandios and his family</title>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for Epandios and his family</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -97,9 +98,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -134,10 +132,10 @@
 <lb n="19"/>  <name nymRef="#Διογένης">Διογένου</name>  <name nymRef="#Δομετῖνος">Δομετείνου</name></persName> <w lemma="μείς">μηνὸς</w> <rs type="month"><w lemma="Λῶος">Λώου</w></rs> <space extent="3" unit="character" dim="horizontal"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 12 at end, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΣΩ</foreign>, lapis</p>
-            <p> l. 13 beginning, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΙΤΟ</foreign>, lapis</p>
-            <p> l. 17, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τὸ ε´</foreign> C.; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α(ὔλου)</foreign>, C.; both suggest that the line was only partially visible at the time of reading.</p>
-            <p>l. 19, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Διογένου</foreign> sic.</p>
+            <p>l. 12 at end, <foreign xml:lang="grc">ΑΣΩ</foreign>, lapis</p>
+            <p> l. 13 beginning, <foreign xml:lang="grc">ΕΙΤΟ</foreign>, lapis</p>
+            <p> l. 17, <foreign xml:lang="grc">τὸ ε´</foreign> C.; <foreign xml:lang="grc">Α(ὔλου)</foreign>, C.; both suggest that the line was only partially visible at the time of reading.</p>
+            <p>l. 19, <foreign xml:lang="grc">Διογένου</foreign> sic.</p>
          </div>
          <div type="translation">
             <p>[?The sarcophagus and the rest of the tomb belong to .. ? .. Epandios and his wife and son. In the sarcophagus shall be buried Epandios and his wife and .. ? ..] son of Epandios, their son; but no one else shall have the right to place anyone in the sarcophagus or to remove any of those placed in it, since whoever does any of these things is to be (considered) sacrilegious and accursed, and in addition is to pay to the imperial treasury 3000 denarii. In the burial places below shall be buried those whom Epandios may wish or specify. A copy of the inscribed text was deposited in the civic archive in the sixth stephanephorate of L. Claudius Diogenes Dometinos, month Loos.</p>

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Epitaph of <seg cert="low">M. Aur. Leontius Auchenios</seg> and M. Aur. Papaios Polychronios</title>
+            <title>
+               <rs type="textType" reg="funerary">Epitaph</rs> of <seg cert="low">M. Aur. Leontius Auchenios</seg> and M. Aur. Papaios Polychronios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +46,7 @@ description.</p>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the <term lang="la">tabella</term> (<height unit="metre">0.195</height> × <width unit="metre">0.345</width>) from which a
+                           <rs type="execution" key="scalpro">Inscribed</rs> on the <term xml:lang="la">tabella</term> (<height unit="metre">0.195</height> × <width unit="metre">0.345</width>) from which a
 previous inscription has been erased. Line 1 on the upper moulding,
 lines 2 ff. inscribed within the panel; lines 3-6, 9-12 impinge on the
 right moulding. Very worn.</layout>
@@ -99,9 +100,6 @@ and <term>mu</term> used sporadically, square <term>sigma</term>.</handNote>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -138,7 +136,7 @@ and <term>mu</term> used sporadically, square <term>sigma</term>.</handNote>
             <ab>The sarcophagus, and the area surrounding this memorial,
 is (the property of) M. Aurelius Leontius Auchenios, teacher of
 friends, and M. Aurelius Papaios Polychronios, steward of Papias,
-<term lang="la">curialis</term>.</ab>
+<term xml:lang="la">curialis</term>.</ab>
          </div>
          <div type="commentary">
             <p>The principal indication of date is the title of Papias'

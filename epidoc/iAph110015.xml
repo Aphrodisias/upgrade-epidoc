@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Honours for  <supplied reason="lost">Tiberius Claudius Dioge</supplied>nes</title>
+            <title>
+               <rs type="textType">Honours</rs> for  <supplied reason="lost">Tiberius Claudius Dioge</supplied>nes</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +46,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.023</height>; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">R</foreign> for <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ρ</foreign>; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Y</foreign> with slant strokes extended downwards.</handNote>
+                        <height unit="metre">0.023</height>; <foreign xml:lang="grc">R</foreign> for <foreign xml:lang="grc">Ρ</foreign>; <foreign xml:lang="grc">Y</foreign> with slant strokes extended downwards.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -93,9 +94,6 @@ First to second centuries A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -112,14 +110,14 @@ First to second centuries A.D.
 <ab><lb n="0"/><gap extent="unknown" reason="lost" unit="line"/><lb n="1"/>  <persName type="attested"><supplied reason="lost"><name nymRef="#Τιβέριος"><expan><abbr>Τι</abbr><ex>βέριον</ex></expan></name></supplied> <name nymRef="#Κλαύδιος"><supplied reason="lost">Κλαύ</supplied>διο<unclear reason="damage">ν</unclear></name> <lb n="2"/><persName type="attested"><supplied reason="lost"><name nymRef="#Τιβέριος"><expan><abbr>Τι</abbr><ex>βερίου</ex></expan></name></supplied> <supplied reason="lost"><name nymRef="#Κλαύδιος"><expan><abbr>Κλ</abbr><ex>αυδίου</ex></expan></name></supplied> <name nymRef="#Ἄτταλος"><supplied reason="lost">Ἀ</supplied><unclear reason="damage">τ</unclear>τάλου</name></persName>  <w lemma="υἱός">υἱ<lb n="3" break="no"/><supplied reason="lost">ὸν</supplied></w>  <name nymRef="#Διογένης"><supplied reason="lost">Διογέ</supplied>νην</name></persName>  <persName type="attested"><name nymRef="#Ἡφαιστίων">Ἡφαισ<lb n="4" break="no"/><supplied reason="lost">τίων</supplied></name>  <name nymRef="#Διογένης"><supplied reason="lost">Δι</supplied>ογένους</name></persName> <lb n="5"/>  <w lemma="στεφανηφορικός"><supplied reason="lost" cert="low">στεφαν</supplied>ηφορικός</w>  <lb n="6"/><w><gap reason="lost" extent="6" unit="character"/>οντος</w>  <w lemma="ἀδελφός">ἀδελ<lb n="7" break="no"/>  <supplied reason="lost" cert="low"><space extent="6"/></supplied> <supplied reason="lost">φ</supplied>ον</w> <space extent="6"/></ab>
 </div>
          <div type="apparatus">
-            <p>l. 1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Διογ<lb/>
+            <p>l. 1, <foreign xml:lang="grc">Διογ<lb/>
                   <supplied reason="lost">ένην</supplied>
                </foreign>, Reinach</p>
-            <p>l. 3,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
-                  <supplied reason="lost">ὸν και Κλ<supplied reason="abbreviation">αυδίαν</supplied> Τατια</supplied>νὴν</foreign>, Reinach</p>
-            <p>l. 4,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 3,  <foreign xml:lang="grc">
+                  <supplied reason="lost">ὸν και Κλ<ex>αυδίαν</ex> Τατια</supplied>νὴν</foreign>, Reinach</p>
+            <p>l. 4,  <foreign xml:lang="grc">
                   <supplied reason="lost">τίωνος του Δι</supplied>ογένους</foreign> Reinach</p>
-            <p>l. 6,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ον τῆς</foreign> Reinach 'H est regravé sur un O'; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ο</foreign> over <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Η</foreign>, Reynolds.</p>
+            <p>l. 6,  <foreign xml:lang="grc">ον τῆς</foreign> Reinach 'H est regravé sur un O'; <foreign xml:lang="grc">Ο</foreign> over <foreign xml:lang="grc">Η</foreign>, Reynolds.</p>
          </div>
          <div type="translation">
             <p> Hephaistion son of Diogenes, <supplied reason="lost" cert="low">former Stephan</supplied>ephorus, <seg cert="low">

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for T. Claudius Diogenes</title>
+            <title>
+               <rs type="textType">Honours</rs> for T. Claudius Diogenes</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -36,7 +37,7 @@
                      <supportDesc>
                         <support>
                            <p>Two<material> white marble</material>
-                              <objectType>frieze</objectType> blocks: the first (<width unit="metre">0.685</width> long) bears the mark <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΑ</foreign>; the second (<width unit="metre">0.97</width>) has <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+                              <objectType>frieze</objectType> blocks: the first (<width unit="metre">0.685</width> long) bears the mark <foreign xml:lang="grc">ΑΑ</foreign>; the second (<width unit="metre">0.97</width>) has <foreign xml:lang="grc">
                                  <supplied reason="lost" cert="low">Β</supplied>Α</foreign>.</p>
                         </support>
                      </supportDesc>
@@ -95,9 +96,6 @@ Mid to late first century A.D.
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Honours</rs>
                </term>
             </keywords>
          </textClass>

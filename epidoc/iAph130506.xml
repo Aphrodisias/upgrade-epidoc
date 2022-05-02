@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Epitaphs of anonymous, <term lang="la">tabernarius</term>, and of Euarestos</title>
+            <title>
+               <rs type="textType" reg="funerary">Epitaphs</rs> of anonymous, <term xml:lang="la">tabernarius</term>, and of Euarestos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -36,8 +37,8 @@
                      <supportDesc>
                         <support>
                            <p>Upper right corner of a <material key="marmor">white marble</material> funerary <objectType>stele</objectType> (<height unit="metre">0.43</height> x
-<width unit="metre">0.47</width>  × <depth unit="metre">0.10</depth>) in the form of an <term lang="la">aedicula</term>, with simply moulded
-gable and plain <term lang="grc-Latn">acroteria</term>, supported on columns with <rs type="decoration">Corinthian
+<width unit="metre">0.47</width>  × <depth unit="metre">0.10</depth>) in the form of an <term xml:lang="la">aedicula</term>, with simply moulded
+gable and plain <term xml:lang="grc-Latn">acroteria</term>, supported on columns with <rs type="decoration">Corinthian
 capitals</rs>. Within the recess is the <rs type="decoration">bust</rs> of a <rs type="decoration">boy</rs> in relief.</p>
                         </support>
                      </supportDesc>
@@ -98,9 +99,6 @@ Second/third century (<rs type="criteria">lettering</rs>)</origDate>
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">funerary</rs>
                </term>
             </keywords>
          </textClass>

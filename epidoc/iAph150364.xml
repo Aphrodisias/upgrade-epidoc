@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for anonymus, son of Menandros, boy pankratiast</title>
+            <title>
+               <rs type="textType">Honours</rs> for anonymus, son of Menandros, boy pankratiast</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -102,9 +103,6 @@ c. 230-240 (<rs type="criteria">contests</rs>)
                <term>
                   <rs type="textType" key="cetera">Agonistic</rs>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -126,7 +124,7 @@ c. 230-240 (<rs type="criteria">contests</rs>)
             <p>l. 36,   The layout is that shown by Bailie; [.......] Δ . CIG.</p>
          </div>
          <div type="translation">
-            <p>[The Council honoured ?Menandros ] son of Menandros, the <term lang="grc-Latn">oeconomus</term> of (the body responsible), who competed in the boys' pankration with distinction, (at) the celebration of the Philemoniean contest by the <term lang="grc-Latn">neopoioi</term> of the most manifest goddess Aphrodite, led by the most renowned Ant<supplied reason="abbreviation">onius</supplied> Car<supplied reason="abbreviation">minius</supplied> Po<supplied reason="abbreviation">pilius</supplied> Agelaos, chief-neopoios; the erection of the statue took place from the income of the whole Council, (organized) by Antonius Aurelius Euelpistos, the boularch. Which Menandros was crowned, having won (in) the contest also, as is made clear by the other statue of him, put up <seg cert="low">before it.</seg>
+            <p>[The Council honoured ?Menandros ] son of Menandros, the <term xml:lang="grc-Latn">oeconomus</term> of (the body responsible), who competed in the boys' pankration with distinction, (at) the celebration of the Philemoniean contest by the <term xml:lang="grc-Latn">neopoioi</term> of the most manifest goddess Aphrodite, led by the most renowned Ant<ex>onius</ex> Car<ex>minius</ex> Po<ex>pilius</ex> Agelaos, chief-neopoios; the erection of the statue took place from the income of the whole Council, (organized) by Antonius Aurelius Euelpistos, the boularch. Which Menandros was crowned, having won (in) the contest also, as is made clear by the other statue of him, put up <seg cert="low">before it.</seg>
             </p>
          </div>
          <div type="commentary">

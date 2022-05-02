@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Building dedication to Zeus</title>
+            <title>
+               <rs type="textType">Building dedication</rs> to Zeus</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -98,9 +99,6 @@ First century  B.C., probably triumviral, but possibly earlier (<rs type="criter
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Building dedication</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -114,10 +112,10 @@ First century  B.C., probably triumviral, but possibly earlier (<rs type="criter
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <gap extent="unknown" reason="lost" unit="character"/>  <supplied reason="lost" cert="low"><note rend="italic" place="not  specified" anchored="yes">name</note></supplied>    <w lemma="ὁ">τὸ</w>  <w lemma="ἐπιστύλιον">ἐπισ<unclear reason="damage">τ</unclear><supplied reason="lost">ύλιον</supplied></w>  <gap extent="unknown" reason="lost" unit="character"/><lb n="2"/>                  <gap extent="unknown" reason="lost" unit="character"/>  <persName type="divine"><supplied reason="lost" cert="low">Διὶ</supplied>  <placeName><name>Νινευδίῳ</name></placeName></persName>    <gap extent="unknown" reason="lost" unit="character"/></ab>
+<ab><lb n="1"/>  <gap extent="unknown" reason="lost" unit="character"/>  <supplied reason="lost" cert="low"><note rend="italic" place="not  specified" xml:lang=""/></supplied>    <w lemma="ὁ">τὸ</w>  <w lemma="ἐπιστύλιον">ἐπισ<unclear reason="damage">τ</unclear><supplied reason="lost">ύλιον</supplied></w>  <gap extent="unknown" reason="lost" unit="character"/><lb n="2"/>                  <gap extent="unknown" reason="lost" unit="character"/>  <persName type="divine"><supplied reason="lost" cert="low">Διὶ</supplied>  <placeName><name>Νινευδίῳ</name></placeName></persName>    <gap extent="unknown" reason="lost" unit="character"/></ab>
 </div>
          <div type="apparatus">
-            <p>l.1, perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τὸ ἐπισ<unclear reason="damage">τ</unclear>
+            <p>l.1, perhaps <foreign xml:lang="grc">τὸ ἐπισ<unclear reason="damage">τ</unclear>
                   <supplied reason="lost" cert="low">ύλιον καὶ τὸν ἐπ' αὐτοῦ κόσμον</supplied>
                </foreign>; cf. e.g. <ref type="inscription" n="1127" target="120505.xml"/> (=MAMA 439), but the parallel is not exact.</p>
          </div>

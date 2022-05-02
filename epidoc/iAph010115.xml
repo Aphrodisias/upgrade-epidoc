@@ -45,7 +45,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Roughly inscribed,  <height>0.06</height>; cursive <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε</foreign>.</handNote>
+                     <handNote>Roughly inscribed,  <height>0.06</height>; cursive <foreign xml:lang="grc">Ε</foreign>.</handNote>
                   </handDesc>
                </physDesc>
                <history>

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dedication to Aphrodite, from Temple</title>
+            <title>
+               <rs type="textType" reg="dedication">Dedication</rs> to Aphrodite, from Temple</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -53,7 +54,7 @@
                      <origPlace>
                         <rs type="origLocation">Unknown</rs>
                      </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium"> Second to third centuries A.D. (<rs type="criteria">lettering</rs>, especially four-bar <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Σ</foreign> in ll. 3, 4).</origDate>
+                     <origDate notBefore="0101" notAfter="0300" precision="medium"> Second to third centuries A.D. (<rs type="criteria">lettering</rs>, especially four-bar <foreign xml:lang="grc">Σ</foreign> in ll. 3, 4).</origDate>
                   </origin>
                   <provenance type="found">
                      <rs type="found">
@@ -90,9 +91,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">dedication</rs>
                </term>
             </keywords>
          </textClass>

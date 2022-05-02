@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for Aphrodite ancestress of the Augusti</title>
+            <title>
+               <rs type="textType" reg="statue dedication">Honours</rs> for Aphrodite ancestress of the Augusti</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -104,9 +105,6 @@ Julio-Claudian
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">statue dedication</rs>
                </term>
             </keywords>
          </textClass>

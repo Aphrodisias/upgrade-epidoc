@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Place inscription of Ioan<supplied reason="abbreviation">nes</supplied>
+            <title>
+               <rs type="textType">Place inscription</rs> of Ioan<ex>nes</ex>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -42,7 +43,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>Cut at <measure type="length" dim="none">0.39</measure> below fluting.</layout>
+                        <layout>Cut at <height>0.39</height> below fluting.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -94,9 +95,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Place inscription</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -119,7 +117,7 @@
       </div>
          <div type="translation">
             <ab>
-               <supplied reason="subaudible">Place of</supplied> Ioannes, <term lang="la">eloquentissimus</term>.</ab>
+               <supplied reason="subaudible">Place of</supplied> Ioannes, <term xml:lang="la">eloquentissimus</term>.</ab>
          </div>
          <div type="commentary">
             <p>See discussion at <ref type="eAla-text" n="XI.15" target=".xml"/>.</p>

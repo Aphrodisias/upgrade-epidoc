@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Statue dedication by Flavius Andronikos</title>
+            <title>
+               <rs type="textType" reg="statue dedication"> Statue dedication</rs> by Flavius Andronikos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -107,9 +108,6 @@ between rear chambers 4 and 5.</rs>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">statue dedication</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -137,7 +135,7 @@ between rear chambers 4 and 5.</rs>
 </ab>
       </div>
          <div type="translation">
-            <ab>With Good Fortune. Fl<supplied reason="abbreviation">avius</supplied> Andronikos, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="la">perfectissimus</foreign>, made <supplied reason="subaudible">this</supplied> and gave it to his
+            <ab>With Good Fortune. Fl<ex>avius</ex> Andronikos, <foreign xml:lang="la">perfectissimus</foreign>, made <supplied reason="subaudible">this</supplied> and gave it to his
 own homeland.</ab>
          </div>
          <div type="commentary">

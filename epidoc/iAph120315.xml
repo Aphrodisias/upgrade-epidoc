@@ -83,9 +83,7 @@ Second-tenth century A.D. (<rs type="criteria">context</rs>).</origDate>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<note lang="en">
-
-A mill-game, SSS.1 (<measure dim="height" type="length" unit="metre">0.25</measure> x <measure dim="width" type="length" unit="metre">0.25</measure>)</note> 
+<note xml:lang="en"/> 
 </div>
          <div type="translation" n="none">
             <p>No translation possible.</p>

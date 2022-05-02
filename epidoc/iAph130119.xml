@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Votive dedication by children of Hermias</title>
+            <title>
+               <rs type="textType">Votive</rs>
+               <rs type="textType">dedication</rs> by children of Hermias</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +48,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.0175–0.024</height>; square <term lang="la">sigma</term>, lunate <term lang="la">omega</term>
+                        <height unit="metre">0.0175–0.024</height>; square <term xml:lang="la">sigma</term>, lunate <term xml:lang="la">omega</term>
                      </handNote>
                   </handDesc>
                </physDesc>
@@ -94,12 +96,6 @@ First to third centuries A.D. (<rs type="criteria">terminology</rs>)</origDate>
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Votive</rs>
-               </term>
-               <term>
-                  <rs type="textType">dedication</rs>
                </term>
             </keywords>
          </textClass>

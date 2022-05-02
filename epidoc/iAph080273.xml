@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>The city honours Bitianos, <rs type="personType">governor</rs>
+            <title>The city <rs type="textType">honours</rs> Bitianos, <rs type="personType">governor</rs>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -43,7 +43,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the central panel; on the right side panel the letters <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΑ</foreign> have been cut.</layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> on the central panel; on the right side panel the letters <foreign xml:lang="grc">ΤΑ</foreign> have been cut.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -60,7 +60,7 @@
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList" key="Theatre">Theatre</rs>: north <term lang="la">scaena</term>.</rs>
+                        <rs type="monuList" key="Theatre">Theatre</rs>: north <term xml:lang="la">scaena</term>.</rs>
                   </provenance>
                   <provenance type="observed">
                      <rs type="lastLocation">Museum.</rs>
@@ -95,9 +95,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -131,11 +128,11 @@
       </div>
          <div type="apparatus">
             <p>l. 1,  Whatever stood at the beginning of the line—the outline suggests a cross—has been deeply erased.</p>
-            <p>l. 7,  The <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α</foreign> at the end of the line, which conforms to the other letters, might be a numeral or a false start in writing <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἀνέθηκεν</foreign>.</p>
-            <p>1.9: The <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α</foreign> is very roughly written, and has the appearance of a rough graffito addition.</p>
+            <p>l. 7,  The <foreign xml:lang="grc">Α</foreign> at the end of the line, which conforms to the other letters, might be a numeral or a false start in writing <foreign xml:lang="grc">ἀνέθηκεν</foreign>.</p>
+            <p>1.9: The <foreign xml:lang="grc">Α</foreign> is very roughly written, and has the appearance of a rough graffito addition.</p>
          </div>
          <div type="translation">
-            <ab>The splendid and well-known metropolis of the Aphrodisians set up <supplied reason="subaudible">this statue of</supplied> Bitianos, <term lang="la">clarissimus scholasticus</term> and consular, their own benefactor and agonothete.</ab>
+            <ab>The splendid and well-known metropolis of the Aphrodisians set up <supplied reason="subaudible">this statue of</supplied> Bitianos, <term xml:lang="la">clarissimus scholasticus</term> and consular, their own benefactor and agonothete.</ab>
          </div>
          <div type="commentary">
             <p>See discussion at <ref type="eAla-text" n="V.38" target=".xml"/>.</p>

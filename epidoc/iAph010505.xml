@@ -48,11 +48,11 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on a prepared face, apparently within a raised <term lang="la">tabula ansata</term>, of which the lower right corner survives. All the other surfaces are rough.</layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> on a prepared face, apparently within a raised <term xml:lang="la">tabula ansata</term>, of which the lower right corner survives. All the other surfaces are rough.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>very distinctive, averaging <height unit="metre">0.03</height> (<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ο</foreign> is <height unit="metre">0.02</height>); <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Υ</foreign> has a crossbar, and some elements in <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Υ, Α, Μ</foreign> and <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Κ</foreign> are not attached. Scroll for abbreviation.</handNote>
+                     <handNote>very distinctive, averaging <height unit="metre">0.03</height> (<foreign xml:lang="grc">Ο</foreign> is <height unit="metre">0.02</height>); <foreign xml:lang="grc">Υ</foreign> has a crossbar, and some elements in <foreign xml:lang="grc">Υ, Α, Μ</foreign> and <foreign xml:lang="grc">Κ</foreign> are not attached. Scroll for abbreviation.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -129,7 +129,7 @@
          <div type="apparatus">
             <p>Below the last line are some small (<measure type="length" unit="metre" dim="height">0.01</measure>) scratched letters:</p>
             <ab>
-               <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+               <foreign xml:lang="grc">
                   <gap reason="lost" unit="character" extent="unknown"/>
                   <orig n="unresolved">
                      <unclear reason="damage">ια</unclear>φω<unclear reason="damage">ιι</unclear>
@@ -144,7 +144,7 @@
                <gap reason="lost" unit="character" extent="unknown"/>
                <supplied reason="lost" cert="low">and</supplied>
                <supplied reason="lost">He</supplied>rmias, of the household of Bictor <gap reason="lost" unit="character" extent="unknown"/>
-               <term lang="la">?clarissimus</term>, prefect <gap reason="lost" unit="character" extent="unknown"/>
+               <term xml:lang="la">?clarissimus</term>, prefect <gap reason="lost" unit="character" extent="unknown"/>
                <seg cert="low">they set up</seg>.</ab>
          </div>
          <div type="commentary">

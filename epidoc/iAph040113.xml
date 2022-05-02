@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Votive to Asklepios</title>
+            <title>
+               <rs type="textType">Votive</rs> to Asklepios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -44,7 +45,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Some cursive influences: <height>0.05-0.08</height>; square <term lang="la">sigma</term>, lunate <term lang="la">omega</term>.</handNote>
+                     <handNote>Some cursive influences: <height>0.05-0.08</height>; square <term xml:lang="la">sigma</term>, lunate <term xml:lang="la">omega</term>.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -95,9 +96,6 @@ Perhaps early second century A.D.
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">Votive</rs>
                </term>
             </keywords>
          </textClass>

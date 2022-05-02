@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>1. Acclamations for Albinos, <term lang="la">clarissimus</term>; 2. Acclamation for the city</title>
+            <title>1. <rs type="textType">Acclamation</rs>s for Albinos, <term xml:lang="la">clarissimus</term>; 2. Acclamation for the city</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -36,11 +36,11 @@
                      <supportDesc>
                         <support>
                            <p>Nineteen out of an original twenty <material key="marmor">white marble</material>
-                              <objectType>column</objectType>s, all on identical bases. The columns, <dim type="diameter">0.75</dim> in diameter, are smooth to a height of <measure type="length" dim="none">1.73</measure>, and fluted above. They are made in two sections; the join between the two is not always at the same point, being sometimes below, and sometimes above the line where the fluting begins, but the overall effect is uniform and elegant.</p>
+                              <objectType>column</objectType>s, all on identical bases. The columns, <dim type="diameter">0.75</dim> in diameter, are smooth to a height of <height>1.73</height>, and fluted above. They are made in two sections; the join between the two is not always at the same point, being sometimes below, and sometimes above the line where the fluting begins, but the overall effect is uniform and elegant.</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>Each of the surviving columns bears an inscription, cut just below the fluting, at a distance varying from <measure type="length" dim="none">0.3</measure> to <measure type="length" dim="none">0.05</measure>, on the west face of the column. The inscriptions were, therefore, on the face sheltered by the roof of the <term>portico</term>, and have preserved traces of red paint in the letters. They form a series to be read from left to right—that is, from north to south. They were probably carved in that order; the lettering is at its most formal at the northern end of the <term>portico</term>, and becomes more cursive towards the south</layout>
+                        <layout>Each of the surviving columns bears an inscription, cut just below the fluting, at a distance varying from <height>0.3</height> to <height>0.05</height>, on the west face of the column. The inscriptions were, therefore, on the face sheltered by the roof of the <term>portico</term>, and have preserved traces of red paint in the letters. They form a series to be read from left to right—that is, from north to south. They were probably carved in that order; the lettering is at its most formal at the northern end of the <term>portico</term>, and becomes more cursive towards the south</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -56,7 +56,7 @@
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList">South Agora</rs>: west portico: i: 'Galerie de l'E<supplied reason="abbreviation">st</supplied> (partie N<supplied reason="abbreviation">ord</supplied>). iv: 'Galerie de l'E<supplied reason="abbreviation">st</supplied> (partie N<supplied reason="abbreviation">ord</supplied>)' Boulanger; xiii: 'Galerie de l'Est: plus à l'Est' (than <ref type="inscription" n="26" target="040010.xml"/> =ALA 26) (Boulanger).</rs>
+                        <rs type="monuList">South Agora</rs>: west portico: i: 'Galerie de l'E<ex>st</ex> (partie N<ex>ord</ex>). iv: 'Galerie de l'E<ex>st</ex> (partie N<ex>ord</ex>)' Boulanger; xiii: 'Galerie de l'Est: plus à l'Est' (than <ref type="inscription" n="26" target="040010.xml"/> =ALA 26) (Boulanger).</rs>
                   </provenance>
                   <provenance type="observed">
                      <rs type="lastLocation">Findspot (re-erected).</rs>
@@ -94,9 +94,6 @@
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Acclamation</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -131,11 +128,11 @@
 			
 				<div n="vii" type="textpart" subtype="column"><ab><lb n="1"/><rs key="acclamations" type="subject"><w lemma="φιλόπατρις">φιλόπατρει</w><lb n="2"/><rs type="dignity" key="dominus"><w lemma="κύριος">κύρι</w></rs> <space dim="horizontal" extent="1" unit="character"/> <w lemma="διαμείνω">διαμίνης</w><lb n="3"/><space dim="horizontal"/> <w lemma="ἐγώ">ἡμῖν</w></rs></ab></div>
 			
-				<div n="viii" type="textpart" subtype="column"><note lang="en" place="not specified" anchored="yes">The surface is worn, and the upper edge is chipped.</note>
+				<div n="viii" type="textpart" subtype="column"><note place="not specified" xml:lang="en"/>
 				<ab><lb n="1"/><rs key="acclamations" type="subject"><w lemma="ὁ">τὰ</w> <w lemma="σός">σὰ</w> <w lemma="κτίσμα"><supplied reason="lost">κτ</supplied>ίσματα</w><lb n="2"/><w lemma="αἰώνιος">αἰωνία</w> <space dim="horizontal" extent="1" unit="character"/> <w lemma="ὑπόμνησις">ὑπόμνη<lb n="3" break="no"/><space dim="horizontal"/>σις</w><lb n="4"/><persName type="attested"><name nymRef="#Ἀλβῖνος">Ἀλβῖνε</name></persName> <w lemma="φιλοκτίστης">φιλοκτίστα</w></rs></ab></div>
 			
 				
-				<div n="ix" type="textpart" subtype="column"><note lang="en" place="not specified" anchored="yes">This inscription has been almost entirely erased by a large cavity cut into the column, almost certainly intended to lodge one end of a beam; this was presumably done at a time when the portico had fallen into partial disrepair, and was being occupied by squatters.</note><ab><lb n="1"/><rs key="acclamations" type="subject"><gap extent="2" unit="character" reason="lost"/><orig n="unresolved"><unclear reason="damage">ι</unclear>τ<unclear reason="damage">ι</unclear>ζασ</orig><lb n="2"/><gap extent="2" unit="character" reason="lost"/><orig n="unresolved">σ</orig><lb n="3"/><gap extent="2" unit="character" reason="lost"/><orig n="unresolved"><unclear reason="damage">η</unclear>μο</orig><lb n="4"/><orig n="unresolved"><unclear reason="damage">γο</unclear></orig><gap extent="2" unit="character" reason="lost"/><orig n="unresolved"><unclear reason="damage">ιον</unclear></orig><lb n="5"/><persName type="attested"><name nymRef="#Ἀλβῖνος">Ἀλβῖνε</name></persName> <w lemma="λαμπρός"><rs type="dignity" key="clarissimus"><expan><abbr>λαμπρ</abbr><ex>ότατε</ex></expan></rs></w></rs>.
+				<div n="ix" type="textpart" subtype="column"><note place="not specified" xml:lang="en"/><ab><lb n="1"/><rs key="acclamations" type="subject"><gap extent="2" unit="character" reason="lost"/><orig n="unresolved"><unclear reason="damage">ι</unclear>τ<unclear reason="damage">ι</unclear>ζασ</orig><lb n="2"/><gap extent="2" unit="character" reason="lost"/><orig n="unresolved">σ</orig><lb n="3"/><gap extent="2" unit="character" reason="lost"/><orig n="unresolved"><unclear reason="damage">η</unclear>μο</orig><lb n="4"/><orig n="unresolved"><unclear reason="damage">γο</unclear></orig><gap extent="2" unit="character" reason="lost"/><orig n="unresolved"><unclear reason="damage">ιον</unclear></orig><lb n="5"/><persName type="attested"><name nymRef="#Ἀλβῖνος">Ἀλβῖνε</name></persName> <w lemma="λαμπρός"><rs type="dignity" key="clarissimus"><expan><abbr>λαμπρ</abbr><ex>ότατε</ex></expan></rs></w></rs>.
 				</ab></div>
 			
 				<div n="x" type="textpart" subtype="column"><ab><lb n="1"/><rs key="acclamations" type="subject"><orig n="unresolved">περδε</orig><lb n="2"/><persName type="attested"><name nymRef="#Ἀλβῖνος">Ἀλβῖνε</name></persName> <orig n="unresolved">ηδε</orig><lb n="3"/><w lemma="τις">τί</w> <w lemma="χαρίζομαι">ἐχαρίσω</w></rs>.
@@ -145,36 +142,36 @@
 				 <w lemma="λέγω">λέγι</w>· <w lemma="ὁ">τοὺς</w> <w lemma="ἐχθρός">ἐχθρούς</w><lb n="3"/><w lemma="σύ">σου</w> <w lemma="ὁ">τῷ</w> <w lemma="ποταμός">ποταμῷ</w>.<lb n="4"/><persName key="God" type="divine"><w lemma="ὁ">ὁ</w> <w lemma="μέγας">μέγας</w> <w lemma="θεός">θεὸς</w></persName> <w lemma="οὗτος">τοῦτο</w><lb n="5"/><space dim="horizontal"/> <w lemma="παρέχω">παράσχῃ</w></rs>. 
 				</ab></div>
 			
-				<div n="xii" type="textpart" subtype="column"><note lang="en" place="not specified" anchored="yes">This column is lost; but there can be no doubt that it was inscribed.</note></div>
+				<div n="xii" type="textpart" subtype="column"><note place="not specified" xml:lang="en"/></div>
 			<div n="xiii" type="textpart" subtype="column">
-				<note lang="en" place="not specified" anchored="yes">The inscription on this column is divided by the join between the upper and lower sections of the column. Since my first publication of the texts in <date>1984</date>, the upper section of the column has been moved, revealing the whole of the first line. The lower part was copied by Mendel, and published by Grégoire under <bibl>IGC 274</bibl>; he seems to have assumed that it was on the same stone as iv.</note>
+				<note place="not specified" xml:lang="en"/>
 				<ab><lb n="1"/><rs type="subject" key="acclamations"><w lemma="αὔξι">αὔξι</w> <persName type="attested"><name nymRef="#Ἀλβῖνος">Ἀλβῖνος</name></persName><lb n="2"/><w lemma="ὁ">ὁ</w> <rs type="dignity" key="clarissimus"><w lemma="λαμπρός"><orig reg="λαμπρότατε"><expan><abbr>λανπρ</abbr><ex>ότατος</ex></expan></orig></w></rs> <rs key="senate" type="subject"><w lemma="ὁ">τῇ</w> <w lemma="σύγκλητος">συν<lb n="3" break="no"/><space dim="horizontal"/>κλήτῳ</w></rs></rs>.
 				</ab></div>
 			
-				<div n="xiv" type="textpart" subtype="column"><note lang="en" place="not specified" anchored="yes">As in xiii, the inscription spanned the join between the upper and lower sections of the column; the upper section is now lost, and may have contained a further line, although what remains makes sense as it stands. Immediately below the inscription is a small naked female figure—perhaps Tyche?; compare 83.xx.</note>
+				<div n="xiv" type="textpart" subtype="column"><note place="not specified" xml:lang="en"/>
 				<ab><lb n="1"/><gap extent="1" id="gap1" reason="lost" unit="line"/><certainty locus="#gi" target="gap1" degree="low"/><lb n="2"/><rs key="acclamations" type="subject"><w lemma="ὁ">ὁ</w> <w lemma="φθόνος">φθόνος</w> <w lemma="τύχη">τύχη<unclear reason="damage">ν</unclear></w><lb n="3"/><space dim="horizontal"/> <w lemma="οὐ">οὐ</w> <w lemma="νικάω">νικᾷ</w></rs>.
 				</ab></div>
 			
-				<div n="xv" type="textpart" subtype="column"><note lang="en" place="not specified" anchored="yes">This inscription also spans the join between the upper and lower sections of the column, both of which survive.</note>
+				<div n="xv" type="textpart" subtype="column"><note place="not specified" xml:lang="en"/>
 				<ab><lb n="1"/><rs key="acclamations" type="subject"><w lemma="αὔξι">αὔξι</w> <persName type="attested"><name nymRef="#Ἀλβῖνος">Ἀλβῖνος</name></persName><lb n="2"/><w lemma="ὁ">ὁ</w> <w lemma="κτίστης">κτίστης</w> <w lemma="καί">καὶ</w> <w lemma="οὗτος">τούτου</w><lb n="3"/><w lemma="ὁ">τοῦ</w> <w lemma="ἔργον">ἔργου</w></rs>.
 				</ab></div>
 			
-				<div n="xvi" type="textpart" subtype="column"><note lang="en" place="not specified" anchored="yes">The surface is chipped below, at the left.</note>
+				<div n="xvi" type="textpart" subtype="column"><note place="not specified" xml:lang="en"/>
 				<ab><lb n="1"/><rs key="acclamations" type="subject"><w lemma="χρῆμα">χρήματα</w> <w lemma="παροράω">παρίδες</w><lb n="2"/><w lemma="καί">καὶ</w> <w lemma="δόξα">δόξαν</w> <w lemma="κτάομαι">ἐκτήσω</w><lb n="3"/><persName type="attested"><name nymRef="#Ἀλβῖνος"><supplied reason="lost">Ἀλβῖ</supplied>νε</name></persName> <w lemma="λαμπρός"><orig reg="λαμπρότατε"><rs type="dignity" key="clarissimus"><expan><abbr>λανπρ</abbr><ex>ότατε</ex></expan></rs></orig></w></rs>
 				</ab></div>
 			
 				<div n="xvii" type="textpart" subtype="column"><ab><lb n="1"/><rs key="acclamations" type="subject"><w lemma="ἐκ">ἐκ</w> <w lemma="πρόγονος">προγόνων</w><lb n="1"/><w lemma="φιλόπατρις">φιλόπατρι</w> <persName type="attested"><name nymRef="#Ἀλβῖνος">Ἀλβῖνε</name></persName><lb n="1"/><rs type="dignity" key="clarissimus"><w lemma="λαμπρός"><expan><abbr>λανπρ</abbr><ex>ότατε</ex></expan></w></rs> <w lemma="ἄφθονος">ἄφθονά</w> <w lemma="σύ">σοι</w><lb n="1"/><space dim="horizontal"/> <w lemma="γίγνομαι">γένοιτο</w></rs></ab></div>
 			
-				<div n="xviii" type="textpart" subtype="column"><note lang="en" place="not specified" anchored="yes">The column is cracked, and the surface broken away at the left.</note>
+				<div n="xviii" type="textpart" subtype="column"><note place="not specified" xml:lang="en"/>
 				<ab><lb n="1"/><rs key="acclamations" type="subject"><w lemma="κτίσμα"><supplied reason="lost" cert="low">κτίσμα</supplied></w> <w lemma="πόλις">πόλι</w> <w lemma="παρέχω">παρέχων</w><lb n="2"/><supplied cert="low" reason="lost"><w lemma="καί">καὶ</w> <w lemma="ἐν">ἐν</w></supplied> <w lemma="οὗτος"><supplied reason="lost">τ</supplied><unclear reason="damage">ο</unclear>ύτῳ</w> <w lemma="εὐφημέω">εὐφημῖτε</w></rs></ab></div>
 			
 				<div n="xix" type="textpart" subtype="column"><ab><lb n="1"/><rs key="acclamations" type="subject"><w lemma="ὁ">τοῖς</w> <w lemma="κτίσμα">κτίσμασίν</w> <w lemma="σύ">σου</w><lb n="2"/><w lemma="ὁ">τὴν</w> <w lemma="πόλις">πόλιν</w> <w lemma="ἐφαιδρύνω">ἐφέδρυνας</w><lb n="3"/><persName type="attested"><name nymRef="#Ἀλβῖνος">Ἀλβῖνε</name></persName> <w lemma="φιλόπατρις">φιλόπατρι</w></rs></ab></div>
 			
-				<div n="xx" type="textpart" subtype="column"><note lang="en" place="not specified" anchored="yes">The column is cracked, and parts of the surface are lost.</note>
-				<ab><lb n="1"/><rs key="acclamations" type="subject"><rs key="city" type="subject"><w lemma="ὁ">ἡ</w> <w lemma="πόλις">πό<supplied reason="lost">λις</supplied></w></rs> <w lemma="ὅλος"><supplied reason="lost">ὅλ</supplied><unclear reason="damage">η</unclear></w> <w lemma="ὁμοφώνως">ὁμοφώνως</w><lb n="2"/>εὐφη<supplied reason="lost">μ</supplied><unclear reason="damage">ή</unclear><sic n="superfluous">σα</sic>σα <w lemma="λέγω">λέγι</w>· <w lemma="ὁ">ὁ</w> <w lemma="σύ">σοῦ</w><lb n="3"/><w lemma="ληθαργέω">ληθαργῶν</w>, <persName type="attested"><name nymRef="#Ἀλβῖνος">Ἀλβῖνε</name></persName> <rs type="dignity" key="clarissimus"><w lemma="λαμπρός"><expan><abbr>λανπρ</abbr><ex>ότατε</ex></expan></w></rs><lb n="4"/><space dim="horizontal"/> <w lemma="θεός">θεὸν</w> <w lemma="οὐ">οὐκ</w> <w lemma="οἶδα">οἶδεν</w></rs></ab><note lang="en" place="not specified" anchored="yes">Immediately below and to the left is a small seated male figure, holding something in each hand; above this, in small letters, is inscribed</note><ab><lb n="5"/><w>πάπα<lb n="6"/><unclear reason="damage">αι</unclear></w></ab></div>
+				<div n="xx" type="textpart" subtype="column"><note place="not specified" xml:lang="en"/>
+				<ab><lb n="1"/><rs key="acclamations" type="subject"><rs key="city" type="subject"><w lemma="ὁ">ἡ</w> <w lemma="πόλις">πό<supplied reason="lost">λις</supplied></w></rs> <w lemma="ὅλος"><supplied reason="lost">ὅλ</supplied><unclear reason="damage">η</unclear></w> <w lemma="ὁμοφώνως">ὁμοφώνως</w><lb n="2"/>εὐφη<supplied reason="lost">μ</supplied><unclear reason="damage">ή</unclear><sic n="superfluous">σα</sic>σα <w lemma="λέγω">λέγι</w>· <w lemma="ὁ">ὁ</w> <w lemma="σύ">σοῦ</w><lb n="3"/><w lemma="ληθαργέω">ληθαργῶν</w>, <persName type="attested"><name nymRef="#Ἀλβῖνος">Ἀλβῖνε</name></persName> <rs type="dignity" key="clarissimus"><w lemma="λαμπρός"><expan><abbr>λανπρ</abbr><ex>ότατε</ex></expan></w></rs><lb n="4"/><space dim="horizontal"/> <w lemma="θεός">θεὸν</w> <w lemma="οὐ">οὐκ</w> <w lemma="οἶδα">οἶδεν</w></rs></ab><note place="not specified" xml:lang="en"/><ab><lb n="5"/><w>πάπα<lb n="6"/><unclear reason="damage">αι</unclear></w></ab></div>
 		</div>
 		<div n="2" type="textpart" subtype="section">
-				 <note lang="en" place="not specified" anchored="yes">Some way below this is cut a further inscription, in shallow lettering, apparently different from that of 83.xx.</note>
+				 <note place="not specified" xml:lang="en"/>
 			<ab>
 			<lb n="1"/><rs key="acclamations" type="subject"><w lemma="νικάω">νικᾷ</w> <w lemma="ὁ">ἡ</w>
 			<lb n="2"/><w lemma="τύχη">τύχη</w>
@@ -182,12 +179,12 @@
 		</div>
 	</div>
          <div type="apparatus">
-            <p>1. iv and xiii Grégoire wrote <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">συγκλήτου, συγκλήτῳ</foreign>; his copy of
-xiii from Mendel had <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΛΑΝΤΡ.</foreign>
+            <p>1. iv and xiii Grégoire wrote <foreign xml:lang="grc">συγκλήτου, συγκλήτῳ</foreign>; his copy of
+xiii from Mendel had <foreign xml:lang="grc">ΛΑΝΤΡ.</foreign>
             </p>
             <p>1. viii: l.1, where Fellows saw some traces of letters, was
 omitted by Reinach.</p>
-            <p>1. xix: l.2, the <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ο</foreign> of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">πόλιν</foreign> is written above the <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Π</foreign>.</p>
+            <p>1. xix: l.2, the <foreign xml:lang="grc">Ο</foreign> of <foreign xml:lang="grc">πόλιν</foreign> is written above the <foreign xml:lang="grc">Π</foreign>.</p>
          </div>
          <div type="translation">
             <p n="83">1.
@@ -204,7 +201,7 @@ omitted by Reinach.</p>
         </p>
             <p n="83">viii. Your buildings are an eternal reminder, Albinos, you who love to build.
         </p>
-            <p n="83">ix. <gap reason="lost" unit="character" extent="unknown"/> Albinos <term lang="la">clarissimus</term>.
+            <p n="83">ix. <gap reason="lost" unit="character" extent="unknown"/> Albinos <term xml:lang="la">clarissimus</term>.
         </p>
             <p n="83">x. <orig n="unresolved">PERDE</orig> Albinos, behold what you have given!
         </p>
@@ -212,21 +209,21 @@ omitted by Reinach.</p>
         </p>
             <p n="83">xii. is lost.
         </p>
-            <p n="83">xiii. Up with Albinos <term lang="la">clarissimus</term>, to the Senate!
+            <p n="83">xiii. Up with Albinos <term xml:lang="la">clarissimus</term>, to the Senate!
         </p>
             <p n="83">xiv. <gap reason="lost" unit="character" extent="unknown"/> envy does not vanquish fortune.
         </p>
             <p n="83">xv. Up with Albinos, the builder of this work also!
         </p>
-            <p n="83">xvi. You have disregarded wealth and obtained glory, Albinos <term lang="la">clarissimus</term>.
+            <p n="83">xvi. You have disregarded wealth and obtained glory, Albinos <term xml:lang="la">clarissimus</term>.
         </p>
-            <p n="83">xvii.  Albinos <term lang="la">clarissimus</term>, like your ancestors a lover of your country. may you receive plenty.
+            <p n="83">xvii.  Albinos <term xml:lang="la">clarissimus</term>, like your ancestors a lover of your country. may you receive plenty.
         </p>
             <p n="83">xviii. Providing <supplied reason="lost" cert="low">a building</supplied> for the city, he is acclaimed <supplied cert="low" reason="lost">in it also</supplied>.
         </p>
             <p n="83">xix. With your buildings you have made the city brilliant, Albinos, lover of your country.
         </p>
-            <p n="83">xx. The whole city, having acclaimed <supplied reason="subaudible">you</supplied> with one voice, says: 'He who forgets you, Albinos <term lang="la">clarissimus</term>, does not know God.'</p>
+            <p n="83">xx. The whole city, having acclaimed <supplied reason="subaudible">you</supplied> with one voice, says: 'He who forgets you, Albinos <term xml:lang="la">clarissimus</term>, does not know God.'</p>
             <p>2. The fortune of the city triumphs!</p>
          </div>
          <div type="commentary">

@@ -7,7 +7,8 @@
       <fileDesc>
          <titleStmt>
             <title>
-     Funerary inscription for Marcus Aurelius Apolloniοs, chief doctor</title>
+               <rs type="textType">Funerary</rs> inscription for Marcus Aurelius Apolloniοs, chief <rs type="textType">doctor</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -100,12 +101,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
-               <term>
-                  <rs type="textType">doctor</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -184,7 +179,7 @@
    </div>
          <div type="translation">
             <p>Aurelia Flavia Antonia Elpis, daughter of Neikias, by birth of Italikos (buried) Marcus
-     Aurelius Apolloniοs son of Andron (son of Andron son of Andron), <term lang="la">eques</term>,
+     Aurelius Apolloniοs son of Andron (son of Andron son of Andron), <term xml:lang="la">eques</term>,
      chief-doctor, her own husband, in memoriam. </p>
          </div>
          <div type="commentary">

@@ -111,9 +111,9 @@ probably Augustan
 </div>
          <div type="apparatus">
             <p>
-               <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+               <foreign xml:lang="grc">
                   <unclear reason="damage">Σ</unclear>
-               </foreign> might be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε</foreign>.</p>
+               </foreign> might be <foreign xml:lang="grc">Ε</foreign>.</p>
          </div>
          <div type="translation" sample="complete" org="uniform" n="none">
             <p>No words discernible.</p>

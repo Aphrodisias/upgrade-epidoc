@@ -108,7 +108,7 @@ First to third centuries A.D. (<rs type="criteria">lettering</rs>)
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ο<unclear reason="damage">ι</unclear></orig><milestone unit="block"/><gap reason="lost" extent="unknown" unit="character"/>  </ab><note>or</note><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/><milestone unit="block"/><orig n="unresolved"><unclear reason="damage">ι</unclear>ο</orig><gap reason="lost" extent="unknown" unit="character"/>  </ab>
+<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ο<unclear reason="damage">ι</unclear></orig><milestone unit="block"/><gap reason="lost" extent="unknown" unit="character"/>  </ab><note xml:lang=""/><ab><lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/><milestone unit="block"/><orig n="unresolved"><unclear reason="damage">ι</unclear>ο</orig><gap reason="lost" extent="unknown" unit="character"/>  </ab>
 </div>
          <div type="apparatus">
             <p>It is not clear which way up this should be read.</p>

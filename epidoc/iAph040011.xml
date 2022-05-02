@@ -7,7 +7,10 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <rs type="personType" reg="governor">Fl. Eutolmius Tatianos</rs> honours Valentinian II</title>
+               <rs type="personType" reg="governor">Fl. Eutolmius Tatianos</rs>
+               <rs type="textType">honours</rs>
+               <rs type="textType" reg="imperial">Valentinian II</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +49,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Av. <height unit="metre">0.035</height>; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Φ</foreign>, 1, 5, <height unit="metre">0.07</height>; simple, lunate. Scroll for abbreviation.</handNote>
+                     <handNote>Av. <height unit="metre">0.035</height>; <foreign xml:lang="grc">Φ</foreign>, 1, 5, <height unit="metre">0.07</height>; simple, lunate. Scroll for abbreviation.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -58,8 +61,8 @@
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs key="HadrBath" type="monuList">South Agora</rs>: West portico: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">Galerie de l'E<supplied reason="abbreviation">st</supplied>. Colonne à d<supplied reason="abbreviation">roite</supplied> de la porte la <seg cert="low">plus</seg> au N<supplied reason="abbreviation">ord</supplied>, de l'en<gap reason="lost" unit="character" extent="unknown"/>
-                        </foreign>' (Boulanger, notebook A: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">à droite de la porte</foreign>', Notebook B). Found by the current expedition standing apparently in situ in the west portico of the South Agora (although Grégoire, <title level="m">IGC</title> 276. from Mendel's notes, describes it as found fallen near its plinth), flanking, on the north, the steps which descend from the east court of the Hadrianic Baths to the portico. </rs>
+                        <rs key="HadrBath" type="monuList">South Agora</rs>: West portico: '<foreign xml:lang="fr">Galerie de l'E<ex>st</ex>. Colonne à d<ex>roite</ex> de la porte la <seg cert="low">plus</seg> au N<ex>ord</ex>, de l'en<gap reason="lost" unit="character" extent="unknown"/>
+                        </foreign>' (Boulanger, notebook A: '<foreign xml:lang="fr">à droite de la porte</foreign>', Notebook B). Found by the current expedition standing apparently in situ in the west portico of the South Agora (although Grégoire, <title level="m">IGC</title> 276. from Mendel's notes, describes it as found fallen near its plinth), flanking, on the north, the steps which descend from the east court of the Hadrianic Baths to the portico. </rs>
                   </provenance>
                   <provenance type="observed" when="2002">
                      <rs type="lastLocation">Findspot (2002).</rs>
@@ -101,12 +104,6 @@
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
-               <term>
-                  <rs type="textType">imperial</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -134,13 +131,13 @@
 </ab>
 </div>
          <div type="apparatus">
-            <p>l.5. Mendel apparently did not copy <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l.5. Mendel apparently did not copy <foreign xml:lang="grc">
                   <abbr>Φλ</abbr>
-               </foreign> or the superfluous <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">λ</foreign> in <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Οὐαλλεντινιανόν</foreign>; Boulanger recorded both.</p>
+               </foreign> or the superfluous <foreign xml:lang="grc">λ</foreign> in <foreign xml:lang="grc">Οὐαλλεντινιανόν</foreign>; Boulanger recorded both.</p>
             <p>ll. 7-12 have been erased. Grégoire was unaware of this erasure; Mendel saw three lines erased, Boulanger recorded two. Our readings from the stone and from a squeeze are very unclear.</p>
          </div>
          <div type="translation">
-            <p>With Good Fortune. The emperor of <supplied reason="subaudible">all</supplied> the earth under the sun, and our victorious master, Flavius Valentinianus the eternal Augustus. <del status="unremarkable">Flavius Eutolmius Tatianos. <term lang="la">clarissimus</term>, prefect of the sacred <term lang="la">praetorium</term>, dedicated (this statue) with the customary devotion, in the time of Antonius Priskos, <term lang="la">clarissimus praeses</term>.</del>
+            <p>With Good Fortune. The emperor of <supplied reason="subaudible">all</supplied> the earth under the sun, and our victorious master, Flavius Valentinianus the eternal Augustus. <del status="unremarkable">Flavius Eutolmius Tatianos. <term xml:lang="la">clarissimus</term>, prefect of the sacred <term xml:lang="la">praetorium</term>, dedicated (this statue) with the customary devotion, in the time of Antonius Priskos, <term xml:lang="la">clarissimus praeses</term>.</del>
             </p>
          </div>
          <div type="commentary">

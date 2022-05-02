@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary panel for Threptos and Ariston</title>
+            <title>
+               <rs type="textType">Funerary</rs> panel for Threptos and Ariston</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -36,7 +37,7 @@
                      <supportDesc>
                         <support>
                            <p>
-                              <objectType reg="panel">Panel</objectType> broken away above and chipped down the right edge  (<width unit="metre">0.33</width> × <height unit="metre">0.48</height> × <depth unit="metre">0.15</depth>).</p>
+                              <objectType key="panel">Panel</objectType> broken away above and chipped down the right edge  (<width unit="metre">0.33</width> × <height unit="metre">0.48</height> × <depth unit="metre">0.15</depth>).</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -92,9 +93,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -117,7 +115,7 @@
             <p>They are living. The area belongs to T. F(lavius) Threptos and T. F(lavius) Aristo Diogenianos.</p>
          </div>
          <div type="commentary">
-            <p>Presumably a family which acquired Roman citizenship under one of the Flavian emperors, although the abbreviation of the <term lang="la">nomen</term> to <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Φ</foreign> is notable. Perhaps in a text addressed mainly to other Aphrodisians they inclined to stress their local names.</p>
+            <p>Presumably a family which acquired Roman citizenship under one of the Flavian emperors, although the abbreviation of the <term xml:lang="la">nomen</term> to <foreign xml:lang="grc">Φ</foreign> is notable. Perhaps in a text addressed mainly to other Aphrodisians they inclined to stress their local names.</p>
          </div>
          <div type="bibliography" n="none">
             <p>Unpublished.</p>

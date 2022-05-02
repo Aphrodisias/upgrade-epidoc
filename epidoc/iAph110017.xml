@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for Eusebes son of Menandros</title>
+            <title>
+               <rs type="textType">Honours</rs> for Eusebes son of Menandros</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -85,7 +86,7 @@ First century A.D. (<rs type="criteria">prosopography</rs>)</origDate>
 
 <ab>
 <lb n="0"/>
-<supplied reason="lost" cert="low"><note>e.g.</note> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w></supplied><lb n="1"/>
+<supplied reason="lost" cert="low"><note xml:lang=""/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w></supplied><lb n="1"/>
 <w lemma="τιμάω"><unclear reason="damage">ἐτί</unclear>μησεν</w> 
 <lb n="2"/>
 <g ref="#stop"/> <persName type="attested"><name nymRef="#Εὐσεβής">Εὐσεβῆι</name> <space/>

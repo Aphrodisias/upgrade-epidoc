@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Epitaph of Nikolaos</title>
+            <title>
+               <rs type="textType" reg="funerary">Epitaph</rs> of Nikolaos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -59,7 +60,7 @@ abbreviations: last letter above line, and apostrophe.</handNote>
                      <origDate notBefore="0901" notAfter="1000" precision="medium">Tenth century or later (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">, '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="de">W<supplied reason="abbreviation">estlich</supplied> von der Säulenruine</foreign>' (Kubitschek); <rs type="monuList">South Agora, Agora Gate</rs>, during clearing (NYU).</rs>
+                     <rs type="found">, '<foreign xml:lang="de">W<ex>estlich</ex> von der Säulenruine</foreign>' (Kubitschek); <rs type="monuList">South Agora, Agora Gate</rs>, during clearing (NYU).</rs>
                   </provenance>
                   <provenance type="observed" when="1980">
                      <rs type="lastLocation">Museum (1980)</rs>
@@ -94,9 +95,6 @@ abbreviations: last letter above line, and apostrophe.</handNote>
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -120,8 +118,8 @@ abbreviations: last letter above line, and apostrophe.</handNote>
          <div type="apparatus">
             <p>The last letter was read by Kubitschek, but is
 not now visible. As it was written above the line, and with an
-apostrophe, it is presumably an abbreviation of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Νικολά<supplied reason="abbreviation">ου</supplied>
-               </foreign> rather than <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Νικόλα</foreign> read by Cormack.</p>
+apostrophe, it is presumably an abbreviation of <foreign xml:lang="grc">Νικολά<ex>ου</ex>
+               </foreign> rather than <foreign xml:lang="grc">Νικόλα</foreign> read by Cormack.</p>
          </div>
          <div type="translation">
             <ab>Here lie the remains of <persName full="yes">Nikolaos</persName>.</ab>

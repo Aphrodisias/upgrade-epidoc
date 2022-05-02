@@ -116,7 +116,7 @@
             </p>
          </div>
          <div type="commentary">
-            <p>Perhaps from the name <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ἡφαιστίων</foreign>.</p>
+            <p>Perhaps from the name <foreign xml:lang="grc">Ἡφαιστίων</foreign>.</p>
          </div>
          <div type="bibliography" n="none">
             <p>Unpublished.</p>

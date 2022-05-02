@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for Calpurnius Pauleinos and Flavia Pythodoris</title>
+            <title>
+               <rs type="textType">Honours</rs> for Calpurnius Pauleinos and Flavia Pythodoris</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -45,7 +46,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Ligatures: l. 1,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗ</foreign>
+                     <handNote>Ligatures: l. 1,  <foreign xml:lang="grc">ΜΗ</foreign>
                      </handNote>
                   </handDesc>
                </physDesc>
@@ -93,9 +94,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -112,7 +110,7 @@
 <ab><lb n="1"/>  <space extent="3" unit="character" dim="horizontal"/> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="τιμάω">ἐτείμησεν</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="2"/> <persName type="attested"><name nymRef="#Καλπούρνιος">Κα<unclear reason="damage">λ</unclear>πού<unclear reason="damage">ρ</unclear>νιον</name> <name nymRef="#Παυλεῖνος">Παυλεῖνον</name></persName> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Φλαβία">Φλαβία<supplied reason="lost">ν</supplied></name>  <lb n="3"/> <name nymRef="#Πυθοδωρίς">Πυθοδωρίδα</name></persName> <w lemma="ὁ">τοὺς</w> <w lemma="στεφανηφόρος">στεφανηφόρου<supplied reason="lost">ς</supplied></w>  </ab>
 </div>
          <div type="apparatus">
-            <p>Deering has the fullest text. l. 2,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΚΑΙΠΟΥΝΝΙΟΝ</foreign> Deering, Franz</p>
+            <p>Deering has the fullest text. l. 2,  <foreign xml:lang="grc">ΚΑΙΠΟΥΝΝΙΟΝ</foreign> Deering, Franz</p>
          </div>
          <div type="translation">
             <p>The People honoured Calpurnius Pauleinos and Flavia Pythodoris the stephanephoroi.</p>

@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Statue dedication of Aphrodite</title>
+            <title>
+               <rs type="textType">Statue dedication</rs> of Aphrodite</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -37,7 +38,7 @@
                         <support>
                            <p>
                               <material key="marmor">White marble</material>
-                              <objectType reg="statue base">statue base</objectType> upper plinth, with moulding on three sides and roughed out, but not completed, on the back (<width unit="metre">0.36</width> × <height unit="metre">1.20</height>   × <depth unit="metre">1.03</depth>) There is a clamp hole on the underside for an  attachment; the top is not currently visible.    The plinth supported the statue of Aphrodite now in the Aphrodisias Museum.</p>
+                              <objectType key="statue base">statue base</objectType> upper plinth, with moulding on three sides and roughed out, but not completed, on the back (<width unit="metre">0.36</width> × <height unit="metre">1.20</height>   × <depth unit="metre">1.03</depth>) There is a clamp hole on the underside for an  attachment; the top is not currently visible.    The plinth supported the statue of Aphrodite now in the Aphrodisias Museum.</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -96,9 +97,6 @@
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">Statue dedication</rs>
                </term>
             </keywords>
          </textClass>

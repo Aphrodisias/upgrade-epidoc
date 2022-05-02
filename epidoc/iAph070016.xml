@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Monogram capitals from the Triconch Church</title>
+            <title>
+               <rs type="textType">Monogram</rs> capitals from the Triconch Church</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -96,9 +97,6 @@
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Monogram</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -134,7 +132,7 @@
          </div>
          <div type="translation">
             <p>i-iii. John Nesbitt suggested, on the basis of the photographs, the resolution <persName full="yes">
-                  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Συμβατικίου</foreign>
+                  <foreign xml:lang="grc">Συμβατικίου</foreign>
                </persName>, 'of <persName full="yes">Symbaticius</persName>'.</p>
             <p>iv. MX, perhaps for <persName full="yes">Michael</persName>
             </p>

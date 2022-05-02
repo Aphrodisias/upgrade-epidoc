@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Place inscription of Epiktetos, cloakroom-attendant</title>
+            <title>
+               <rs type="textType">Place inscription</rs> of Epiktetos, cloakroom-attendant</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -61,7 +62,7 @@ see, and l.6 is truncated.</layout>
                   <provenance type="found">
                      <rs type="found">
                         <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>: in an inner chamber - perhaps the
-<term lang="la">caldarium</term>.</rs>
+<term xml:lang="la">caldarium</term>.</rs>
                   </provenance>
                   <provenance type="observed">
                      <rs type="lastLocation">Findspot.</rs>
@@ -95,9 +96,6 @@ see, and l.6 is truncated.</layout>
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Place inscription</rs>
                </term>
             </keywords>
          </textClass>

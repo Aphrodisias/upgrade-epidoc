@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary <rs type="textType">verse</rs>
+            <title>
+               <rs type="textType">Funerary <rs type="textType">verse</rs>
+               </rs>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -46,7 +48,7 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>irregular, possibly late; <height unit="metre">0.01</height> (<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ο</foreign>) - <height unit="metre">0.02</height>
+                     <handNote>irregular, possibly late; <height unit="metre">0.01</height> (<foreign xml:lang="grc">ο</foreign>) - <height unit="metre">0.02</height>
                      </handNote>
                   </handDesc>
                </physDesc>
@@ -92,9 +94,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Funerary verse</rs>
                </term>
             </keywords>
          </textClass>

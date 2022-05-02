@@ -110,7 +110,7 @@ First century B.C. to first  century A.D.
 <ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">α</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
 </div>
          <div type="apparatus">
-            <p> l. 1, or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p> l. 1, or <foreign xml:lang="grc">
                   <unclear reason="damage">Μ</unclear>
                </foreign>
             </p>

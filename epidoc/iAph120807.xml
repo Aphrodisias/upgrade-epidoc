@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for Marcus Antonius Popillios Agelaos</title>
+            <title>
+               <rs type="textType">Honours</rs> for Marcus Antonius Popillios Agelaos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -96,9 +97,6 @@
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -120,9 +118,9 @@
             </p>
          </div>
          <div type="commentary">
-            <p>Reinach suggested he might be related to L<supplied reason="abbreviation">ucius</supplied> Antonius Flavianos, father-in-law of C<supplied reason="abbreviation">aius</supplied> Julius Politianos  in <ref type="inscription" n="1783" target="120105.xml"/> (=CIG 2786).</p>
-            <p>He may also be related to M<supplied reason="abbreviation">arcus</supplied> Antonius Zenon Ulpianos, in <ref type="inscription" n="365" target="120708.xml"/> (=Walls 131), found in the same area.</p>
-            <p>Compare also M<supplied reason="abbreviation">arcus</supplied> Antonius Agelaos, stephanephorus in <ref type="inscription" n="1538" target="120414.xml"/>
+            <p>Reinach suggested he might be related to L<ex>ucius</ex> Antonius Flavianos, father-in-law of C<ex>aius</ex> Julius Politianos  in <ref type="inscription" n="1783" target="120105.xml"/> (=CIG 2786).</p>
+            <p>He may also be related to M<ex>arcus</ex> Antonius Zenon Ulpianos, in <ref type="inscription" n="365" target="120708.xml"/> (=Walls 131), found in the same area.</p>
+            <p>Compare also M<ex>arcus</ex> Antonius Agelaos, stephanephorus in <ref type="inscription" n="1538" target="120414.xml"/>
             </p>
          </div>
          <div type="bibliography" n="none">

@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Building dedication to Tiberius and Livia</title>
+            <title>
+               <rs type="textType">Building dedication</rs> to <rs type="textType" reg="imperial">Tiberius and Livia</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -97,12 +99,6 @@ A.D. 14-37
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">Building dedication</rs>
-               </term>
-               <term>
-                  <rs type="textType">imperial</rs>
                </term>
             </keywords>
          </textClass>

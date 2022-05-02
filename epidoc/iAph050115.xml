@@ -110,7 +110,7 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
 <ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><gap reason="lost" extent="3" unit="character"/><orig><unclear reason="damage">σ</unclear>ιε</orig><gap reason="lost" extent="3" unit="character"/>  <lb n="3"/><gap reason="lost" extent="3" unit="character"/><orig>κλε</orig><gap reason="lost" extent="3" unit="character"/>  <lb n="4"/><gap reason="lost" extent="3" unit="character"/><orig>ρου</orig><gap reason="lost" extent="3" unit="character"/>  <lb n="5"/><gap reason="lost" extent="3" unit="character"/><orig><unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="3" unit="character"/>  <lb n="6"/><gap reason="lost" extent="3" unit="character"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 1,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Σ</foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ε</foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ξ</foreign>
+            <p>l. 1,  <foreign xml:lang="grc">Σ</foreign> or <foreign xml:lang="grc">Ε</foreign> or <foreign xml:lang="grc">Ξ</foreign>
             </p>
          </div>
          <div type="translation" n="none">

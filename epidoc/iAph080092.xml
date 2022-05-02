@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Graffiti</title>
+            <title>
+               <rs type="textType">Graffiti</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -87,21 +89,21 @@
 
 <cb n="a"/><ab>
 <lb n="1"/>
-a: <note>Nothing legible</note> 
+a: <note xml:lang=""/> 
 <lb n="2"/>
 b: 
 <lb n="3"/>
-<note>Lightly erased</note>  
+<note xml:lang=""/>  
 <lb n="4"/>
-<note>Lightly erased</note>  
+<note xml:lang=""/>  
 <lb n="5"/>
 <orig n="unresolved">γαι<unclear reason="damage">α</unclear></orig> <gap reason="lost" extent="1" unit="character"/> <orig n="unresolved">ευ<unclear reason="damage">ν</unclear></orig> 
 <lb n="6"/>
- <note>deeply erased</note>  
+ <note xml:lang=""/>  
 <lb n="7"/>
- <note>deeply erased</note>  
+ <note xml:lang=""/>  
 <lb n="8"/>
-5 <note>deeply erased</note>  <orig n="unresolved">στρο</orig> 
+5 <note xml:lang=""/>  <orig n="unresolved">στρο</orig> 
 <lb n="9"/>
 <orig n="unresolved">ο<unclear reason="damage">π</unclear>ω</orig> </ab>
 </div>

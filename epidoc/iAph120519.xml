@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for Myon Menandros</title>
+            <title>
+               <rs type="textType">Honours</rs> for Myon Menandros</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -94,9 +95,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -113,7 +111,7 @@
 <ab><lb n="1"/> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <lb n="2"/> <persName type="attested"><name nymRef="#Μύων">Μύωνα</name> <persName type="attested"><name nymRef="#Ἀγέλαος">Ἀγελάου</name></persName> <lb n="3"/> <w lemma="φύσις">φύσει</w> <w lemma="δέ">δὲ</w> <persName type="attested"><name nymRef="#Εὐσεβής">Εὐσέβους</name></persName> <lb n="4"/> <name nymRef="#Μένανδρος">Μένανδρον</name></persName> </ab>
 </div>
          <div type="apparatus">
-            <p>l. 2, Waddington transcribed <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΓΕΛΛΟΥ</foreign>, corrected in the text.</p>
+            <p>l. 2, Waddington transcribed <foreign xml:lang="grc">ΑΓΕΛΛΟΥ</foreign>, corrected in the text.</p>
          </div>
          <div type="translation">
             <p>The People honoured Myon Menandros, (adoptive) son of Agelaos, by birth son of Eusebes.</p>

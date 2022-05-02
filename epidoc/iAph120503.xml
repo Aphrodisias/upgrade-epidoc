@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Building <rs type="textType">dedication</rs> to Demos</title>
+            <title>
+               <rs type="textType" reg="Building inscription">Building <rs type="textType">dedication</rs>
+               </rs> to Demos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -89,9 +91,6 @@ Early first century B.C. to early first century A.D. (<rs type="criteria">letter
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Building inscription</rs>
                </term>
             </keywords>
          </textClass>

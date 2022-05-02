@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Honours for [...] daughter of ...]lianos</title>
+            <title>
+               <rs type="textType">Honours</rs> for [...] daughter of ...]lianos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -36,7 +37,7 @@
                      <supportDesc>
                         <support>
                            <p>Three joining fragments of a <material key="marmor">white marble</material>
-                              <objectType>statue base</objectType> (together <measure type="length" dim="none">0.51</measure>   × <measure type="length" dim="none">1.38</measure>   × <measure type="depth" dim="none">0.47</measure>) with moulded panels on all four sides. </p>
+                              <objectType>statue base</objectType> (together <height>0.51</height>   × <height>1.38</height>   × <height>0.47</height>) with moulded panels on all four sides. </p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -45,7 +46,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.02-0.0225</height>. Ligatures:  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΝ</foreign>, l.8; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗ</foreign>, l. 9; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΕ</foreign>, l.12; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗΝ</foreign>, l.13; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ</foreign>, ll. 14, 18, 19; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗ</foreign>, ll. 21, 29; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΤ</foreign> l. 25; in l. 14 final <term lang="grc-Latn">iota</term> squeezed in.</handNote>
+                        <height unit="metre">0.02-0.0225</height>. Ligatures:  <foreign xml:lang="grc">ΜΝ</foreign>, l.8; <foreign xml:lang="grc">ΝΗ</foreign>, l. 9; <foreign xml:lang="grc">ΜΕ</foreign>, l.12; <foreign xml:lang="grc">ΤΗΝ</foreign>, l.13; <foreign xml:lang="grc">ΤΗ</foreign>, ll. 14, 18, 19; <foreign xml:lang="grc">ΜΗ</foreign>, ll. 21, 29; <foreign xml:lang="grc">ΝΤ</foreign> l. 25; in l. 14 final <term xml:lang="grc-Latn">iota</term> squeezed in.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -97,9 +98,6 @@
                </term>
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
-               </term>
-               <term>
-                  <rs type="textType">Honours</rs>
                </term>
             </keywords>
          </textClass>
@@ -208,7 +206,7 @@
 </div>
          <div type="apparatus">
             <p>The inscription broke, and was damaged, after Gaudin recorded it; letters highlighted were recorded by Gaudin, but not seen subsequently.</p>
-            <p>12-13: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">πιστευσαμένων δι<lb/>ὰ γένους</foreign> Reinach; MAMA reports reading <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">πιστευσαμένων ἐκ<lb/> γένους</foreign> but the MAMA photograph shows <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">πιστευσα[ . . . . . . . .]<lb/>
+            <p>12-13: <foreign xml:lang="grc">πιστευσαμένων δι<lb/>ὰ γένους</foreign> Reinach; MAMA reports reading <foreign xml:lang="grc">πιστευσαμένων ἐκ<lb/> γένους</foreign> but the MAMA photograph shows <foreign xml:lang="grc">πιστευσα[ . . . . . . . .]<lb/>
                   <gap extent="1" reason="lost" unit="character"/> γένους</foreign>, which is still what can be read.</p>
             <p>It is not clear why the last word in the last line was erased, unless as part of the re-use of the stone.</p>
          </div>

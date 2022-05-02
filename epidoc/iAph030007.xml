@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Menandros, curialis, gives a column</title>
+            <title>Menandros, curialis, <rs type="textType" reg="column dedication">gives a column</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -40,11 +41,11 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>Cut on the smooth surface, <measure type="length" dim="none">0.145</measure> below the fluting.</layout>
+                        <layout>Cut on the smooth surface, <height>0.145</height> below the fluting.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Letters: <height unit="metre">0.055</height>-<height unit="metre">0.065</height>; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ο</foreign> above line for abbreviation in l.2; ligature, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΕ</foreign> in l.1.</handNote>
+                     <handNote>Letters: <height unit="metre">0.055</height>-<height unit="metre">0.065</height>; <foreign xml:lang="grc">Ο</foreign> above line for abbreviation in l.2; ligature, <foreign xml:lang="grc">ΜΕ</foreign> in l.1.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -56,7 +57,7 @@
                   </origin>
                   <provenance type="found">
                      <rs type="found">
-                        <rs type="monuList">North Agora</rs>: south portico on the seventh column (counted from the east): '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="de">die 7. Saüle vom Ostecke ab</foreign>' (Kubitschek). .</rs>
+                        <rs type="monuList">North Agora</rs>: south portico on the seventh column (counted from the east): '<foreign xml:lang="de">die 7. Saüle vom Ostecke ab</foreign>' (Kubitschek). .</rs>
                   </provenance>
                   <provenance type="observed" when="1975">
                      <rs type="lastLocation">Findspot (1975).</rs>
@@ -90,9 +91,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">column dedication</rs>
                </term>
             </keywords>
          </textClass>

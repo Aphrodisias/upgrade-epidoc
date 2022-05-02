@@ -36,7 +36,7 @@
                      <supportDesc>
                         <support>
                            <p>
-                              <objectType reg="revetment">Revetment</objectType> fragment without edges (<width unit="metre">0.11</width> × <height unit="metre">0.145</height> × <depth unit="metre">0.02</depth>).</p>
+                              <objectType key="revetment">Revetment</objectType> fragment without edges (<width unit="metre">0.11</width> × <height unit="metre">0.145</height> × <depth unit="metre">0.02</depth>).</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>

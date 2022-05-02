@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragmentary honours</title>
+            <title>Fragmentary <rs type="textType">honours</rs>
+            </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -92,9 +93,6 @@ First to second centuries A.D.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -111,7 +109,7 @@ First to second centuries A.D.
 <ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἀνάθημα"><supplied reason="lost" cert="low">ἀν</supplied>αθήματ<gap reason="lost" extent="unknown" unit="character"/></w>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ΩΝΑΩΣΚ<unclear reason="damage">Α</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὁ"><supplied reason="lost">τ</supplied>ῇ</w> <w lemma="πατρίς">πατρίδ<supplied reason="lost">ι</supplied></w>  <gap reason="lost" extent="unknown" unit="character"/><lb n="4"/> <gap reason="lost" extent="unknown" unit="character"/>  <persName type="attested"><name nymRef="#Ἀμμία"><supplied reason="lost">Ἀ</supplied>μμίαν</name></persName>  <orig n="unresolved"><unclear reason="damage">Ε</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="5"/> <gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ΑΣ<unclear reason="damage">Α</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="6"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 2,  perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 2,  perhaps <foreign xml:lang="grc">
                   <supplied reason="lost">ἀγ</supplied>ῶνα ὥς κα<supplied reason="lost">ὶ</supplied>
                   <gap reason="lost" extent="unknown" unit="character"/>
                   <supplied reason="lost">τ</supplied>

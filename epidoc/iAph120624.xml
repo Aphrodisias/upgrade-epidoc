@@ -109,7 +109,7 @@ Second to third centuries A.D.
 <ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">λλ</unclear>ου<unclear reason="damage">λ</unclear>ει<unclear reason="damage">τ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="1a"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
 </div>
          <div type="apparatus">
-            <p> l. 1, for <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Λ</foreign>,    ?<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Δ</foreign>. For <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Τ</foreign>, ?<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Σ</foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Π</foreign>.</p>
+            <p> l. 1, for <foreign xml:lang="grc">Λ</foreign>,    ?<foreign xml:lang="grc">Δ</foreign>. For <foreign xml:lang="grc">Τ</foreign>, ?<foreign xml:lang="grc">Σ</foreign> or <foreign xml:lang="grc">Π</foreign>.</p>
          </div>
          <div type="translation" n="none">
             <p>No translation possible.</p>

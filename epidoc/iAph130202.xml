@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Funerary stele for Amyntas and family</title>
+            <title>
+               <rs type="textType">Funerary</rs> stele for Amyntas and family</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -94,9 +95,6 @@ second-early 1st century B.C.
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -113,7 +111,7 @@ second-early 1st century B.C.
 <ab><lb n="1"/> <persName type="attested"><name nymRef="#Ἀμύντας">Ἀμύντας</name> <persName type="attested"><name nymRef="#Μένης">Μένητος</name></persName></persName> <persName type="attested"><name><supplied reason="lost" cert="low">Ὄ</supplied><lb n="2" break="no"/>νασις</name>  <persName type="attested"><name nymRef="#Ἡράκλειτος">Ἡρακλεί<supplied reason="lost" cert="low">του</supplied></name></persName>  <lb n="3"/> <w lemma="γυνή">γυνὴ</w> <w lemma="δέ">δὲ</w> <persName type="attested"><name nymRef="#Ἀμύντας">Ἀμύντ<supplied reason="lost">ο</supplied><unclear reason="damage">υ</unclear></name></persName></persName> <persName type="attested"><name nymRef="#Μενέστρατος">Μενέ<lb n="4" break="no"/>στρατος</name>   <name nymRef="#Ἀμύντας">Ἀμ<supplied reason="lost">ύντου</supplied></name></persName>  <persName type="attested"><name><supplied reason="lost">Β</supplied>ερε  <lb n="5" break="no"/>νίκη</name>  <persName type="attested"><name nymRef="#Μενέστρατος">Μενε<supplied reason="lost">σ</supplied>τ<supplied reason="lost">ράτου</supplied></name></persName> <w lemma="γυνή"><supplied reason="lost">γυν</supplied><unclear reason="damage">ὴ</unclear></w> <w lemma="δέ">δὲ</w> <lb n="6"/><persName type="attested"><name nymRef="#Μενέστρατος"><supplied reason="lost">Μεν</supplied><unclear reason="damage">ε</unclear>σττρά<supplied reason="lost">του</supplied></name></persName></persName> <gap reason="lost" extent="2" unit="character"/>Τ<unclear reason="damage">Ε</unclear>  <lb n="7"/><gap reason="lost" extent="5" unit="character"/>Λ<gap reason="lost" extent="10" unit="character"/>  <lb n="8"/><gap reason="lost" extent="17" unit="character"/>Υ  </ab>
 </div>
          <div type="apparatus">
-            <p>l. 2,  the name could also be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ἡρακλεί[δου]</foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ἡρακλεί[ους]</foreign> (Robert).</p>
+            <p>l. 2,  the name could also be <foreign xml:lang="grc">Ἡρακλεί[δου]</foreign> or <foreign xml:lang="grc">Ἡρακλεί[ους]</foreign> (Robert).</p>
          </div>
          <div type="translation">
             <p>Amyntas (son) of Menes, [...] [O]nasis (daughter of) Herakleitos, wife of Amyntas, Menestratos (son of) Am[yntas, B]erenike (daughter of) Mene[stratos, wife] of ?[Men]estra[tos] [...]</p>

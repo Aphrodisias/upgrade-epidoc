@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Funerary inscription for Aurelia Tate, also called Epithymia</title>
+            <title>
+               <rs type="textType">Funerary</rs> inscription for Aurelia Tate, also called Epithymia</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -42,11 +43,11 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the lid (lines 1-2), on the upper rim (l. 3), on the tabella including its upper and lower mouldings (lines 4 ff). An erased area beside the relief of the woman could have contained an additional short text (perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ζῇ</foreign>, which might have been erased when she died).</layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> on the lid (lines 1-2), on the upper rim (l. 3), on the tabella including its upper and lower mouldings (lines 4 ff). An erased area beside the relief of the woman could have contained an additional short text (perhaps <foreign xml:lang="grc">ζῇ</foreign>, which might have been erased when she died).</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>standard forms; l. 1-3, ave. <height unit="metre">0.03</height>; ll. 4 ff., very poorly aligned and well below the standard of the sculpture. Line 2 is interrupted by the vertical projections on the lid. Ligatures: l. 1 <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign>, l. 2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗ</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗ</foreign>, l. 8 <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ</foreign>, l. 9, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗ</foreign>, l. 14, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ</foreign>, l. 16, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗ</foreign>. Diairesis in ll. 5, 11, 16</handNote>
+                     <handNote>standard forms; l. 1-3, ave. <height unit="metre">0.03</height>; ll. 4 ff., very poorly aligned and well below the standard of the sculpture. Line 2 is interrupted by the vertical projections on the lid. Ligatures: l. 1 <foreign xml:lang="grc">ΗΝ</foreign>, l. 2, <foreign xml:lang="grc">ΝΗ</foreign>, <foreign xml:lang="grc">ΝΗ</foreign>, l. 8 <foreign xml:lang="grc">ΤΗ</foreign>, l. 9, <foreign xml:lang="grc">ΜΗ</foreign>, l. 14, <foreign xml:lang="grc">ΤΗ</foreign>, l. 16, <foreign xml:lang="grc">ΜΗ</foreign>. Diairesis in ll. 5, 11, 16</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -98,9 +99,6 @@ Second to third centuries A.D.
                <term>
                   <rs type="textType" key="sacer">Religious</rs>
                </term>
-               <term>
-                  <rs type="textType">Funerary</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -118,8 +116,8 @@ Second to third centuries A.D.
 <ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="σορός">σορός</w> <w lemma="εἰμί">ἐστιν</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ἡ</w> <w lemma="περί">περὶ</w> <w lemma="αὐτός">αὐτὴν</w> <w lemma="τόπος">τόπος</w> <space extent="1" unit="character" dim="horizontal"/> <persName type="attested"><name nymRef="#Αὐρηλία"><expan><abbr>Αὐρ</abbr><ex>ηλίας</ex></expan></name> <name nymRef="#Τάτη">Τάτης</name> <w lemma="ὁ">τῆς</w> <w lemma="καί">καὶ</w> <name nymRef="#Ἐπιθυμία">Ἐπιθυμίας</name></persName> <space extent="3" unit="character" dim="horizontal"/> <w lemma="ἐν">ἐν</w> <w lemma="ὅς">ᾗ</w> <w lemma="σορός">σορῷ</w> <w lemma="θάπτω">τέ<g ref="#projection"/>θαπται</w> <persName type="attested"><name nymRef="#Αὐρήλιος"><expan><abbr>Αὐρ</abbr><ex>ήλιος</ex></expan></name> <name nymRef="#Ἀκυλεῖνος">Ἀκυλεινὸς</name> <name nymRef="#Πολυχρόνιος">Πολυ<g ref="#projection"/>χρονίου</name> <w lemma="ὁ">τοῦ</w> <lb n="2"/> <name nymRef="#Κλαδαῖος">Κλαδέου</name></persName> <w lemma="ὁ">ὁ</w> <w lemma="γίγνομαι">γενόμενος</w> <w lemma="ἀνήρ">ἀνὴρ</w> <w lemma="αὐτός">αὐτῆς</w> <w lemma="κηδεύω">κηδευθήσεται</w> <w lemma="δέ">δὲ</w> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Αὐρηλία"><expan><abbr>Αὐ<unclear reason="damage">ρ</unclear></abbr><ex>ηλία</ex></expan></name> <name nymRef="#Τάτη"><supplied reason="lost">Τά</supplied><unclear reason="damage">τ</unclear>η</name></persName>  <lb n="3"/> <w lemma="ὅς"><unclear reason="damage">ἣ</unclear></w> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Ἐπιθυμία">Ἐπιθυμία</name></persName> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Αὐρήλιος"><expan><abbr>Αὐρ</abbr><ex>ήλιος</ex></expan></name> <name nymRef="#Ἀκυλεῖνος">Ἀκυλει<lb n="4" break="no"/>νος</name> <name nymRef="#Ἀκυλεῖνος">Ἀκυλεινοῦ</name></persName> <w lemma="ὁ">ὁ</w> <w lemma="υἱός">υἱὸς</w> <w lemma="αὐτός">αὐτῆς</w> <lb n="5"/> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Αὐρηλία"><expan><abbr>Αὐρ</abbr><ex>ηλία</ex></expan></name> <name nymRef="#Ἀπφία">Ἀπφία</name> <name nymRef="#Ἀπολλώνιος ">Ἀπολλωνίου</name></persName> <w lemma="ὁ">ἡ</w> <w lemma="θυγάτηρ">θυγά<lb n="6" break="no"/>τηρ</w> <w lemma="αὐτός">αὐτῆς</w> <w lemma="ἕτερος">ἕτερος</w> <w lemma="δέ">δὲ</w> <w lemma="οὐδείς">οὐδεὶς</w> <w lemma="ἔχω">ἕξει</w> <lb n="7"/> <w lemma="ἐξουσία">ἐξουσίαν</w> <w lemma="ἐνθάπτω">ἐ<supplied reason="omitted">ν</supplied>θάψαι</w> <w lemma="τις">τινα</w> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῇ</w> <w lemma="σορός">σορῷ</w> <w lemma="ἤ">ἢ</w> <lb n="8"/> <w lemma="ἐκθάπτω">ἐκθάψαι</w> <w lemma="ἐπεί">ἐπεὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="τοιοῦτος">τοιοῦτό</w> <w lemma="τις">τι</w> <w lemma="τολμάω">τολμήσας</w> <lb n="9"/> <w lemma="εἰμί">ἔστω</w> <w lemma="ἀσεβής">ἀσεβὴς</w> <w lemma="καί">καὶ</w> <w lemma="ἐπάρατος">ἐπάρατος</w> <w lemma="καί">καὶ</w> <w lemma="τυμβωρύχος">τυμ<lb n="10" break="no"/>βωρύχος</w> <w lemma="καί">καὶ</w> <w lemma="προσαποτίνω">προσαποτεισάτω</w> <w lemma="ἱερός">ἱερὰ</w> <lb n="11"/> <persName type="divine"><name nymRef="#Ἀφροδίτη">Ἀφροδείτῃ</name></persName> <w lemma="ἀργύριον">ἀργυρίου</w> <w lemma="δηνάριον"><expan><abbr><am><g ref="#denarius"/></am></abbr><ex>δηνάρια</ex></expan></w> <num value="3000">γ</num> <w lemma="εἰμί">ὧν</w> <w lemma="ὁ">τὸ</w> <w lemma="τρίτος">τρίτον</w> <lb n="12"/> <w lemma="εἰμί">ἔσται</w> <w lemma="ὁ">τοῦ</w> <w lemma="ἐκδικέω">ἐκδικήσαντος</w> <w lemma="ὁ">τῆς</w> <w lemma="ἐπιγραφή">ἐπιγρα<lb n="13" break="no"/>φῆς</w> <w lemma="ἀποτίθημι">ἀπετέθη</w> <w lemma="ἀντίγραφον">ἀντίγραφον</w> <w lemma="εἰς">εἰς</w> <w lemma="ὁ">τὸ</w> <w lemma="χρεωφυλάκιον">χρε <lb n="14"/> οφυλάκιον</w> <w lemma="ἐπί">ἐπί</w> <persName type="attested"><name nymRef="#Ὑψικλῆς">Ὑψικλέους</name> <w lemma="ὁ">τοῦ</w> <name nymRef="#Ἄδραστος">Ἀδρά<lb n="15" break="no"/>στου</name> <name nymRef="#Ἱέραξ">Ἱέρακος</name></persName> <w lemma="ὁ">τὸ</w> <num value="7">ζ</num> <w lemma="μείς"><expan><abbr>μη</abbr><ex>νὸς</ex></expan></w> <rs type="month"><w lemma="πάνημος">Πανημου</w></rs> <g ref="#scroll"/> </ab>
 </div>
          <div type="apparatus">
-            <p>l. 15, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΤΡΑ</foreign>
-               <term lang="la">lapis</term>
+            <p>l. 15, <foreign xml:lang="grc">ΑΤΡΑ</foreign>
+               <term xml:lang="la">lapis</term>
             </p>
          </div>
          <div type="translation">

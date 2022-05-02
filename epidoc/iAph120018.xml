@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Honours for anonymous</title>
+            <title>
+               <rs type="textType">Honours</rs> for anonymous</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -36,7 +37,7 @@
                      <supportDesc>
                         <support>
                            <p>Fragement from the right side of a<material> white marble</material>
-                              <objectType reg="block">statue base</objectType> without moulding (<width unit="metre">0.18</width>   × <height unit="metre">0.52</height>   × <depth>0.14</depth>).</p>
+                              <objectType key="block">statue base</objectType> without moulding (<width unit="metre">0.18</width>   × <height unit="metre">0.52</height>   × <depth>0.14</depth>).</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
@@ -46,7 +47,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <measure type="length" dim="none">0.02-0.0225</measure>
+                        <height>0.02-0.0225</height>
                      </handNote>
                   </handDesc>
                </physDesc>
@@ -93,9 +94,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -112,11 +110,11 @@
 
 <ab><lb n="0"/><gap extent="unknown" reason="lost" unit="line"/><lb n="1"/><w><gap extent="11" reason="lost" unit="character"/><unclear reason="damage">α</unclear>ντα</w>  <lb n="2"/><w><gap extent="11" reason="lost" unit="character"/>φερον</w>  <lb n="3"/><gap extent="9" reason="lost" unit="character"/>  <w lemma="καί"><supplied reason="lost">κα</supplied>ὶ</w>  <w lemma="πλεῖστος">πλεῖσ<lb n="4" break="no"/><supplied reason="lost">τα</supplied></w>  <gap extent="6" reason="lost" unit="character"/>    <w lemma="παρέχω"><supplied reason="lost">πα</supplied>ρασχό<lb n="5" break="no"/><supplied reason="lost">μενον</supplied></w>  <w><gap extent="6" reason="lost" unit="character"/>ως</w>  <w lemma="πᾶς">παν  <lb n="6" break="no"/></w><w><gap extent="11" reason="lost" unit="character"/>ενον</w>  <space extent="1" unit="character" dim="horizontal"/><lb n="7"/><gap extent="8" reason="lost" unit="character"/>  <w lemma="ἐν"><supplied reason="lost">ἐν</supplied></w>  <w lemma="πᾶς">παντὶ</w>  <lb n="8"/><w lemma="χρήσιμος"><supplied reason="lost">χρήσιμον</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τ</supplied>ῇ</w>  <w lemma="πόλις">πόλει</w>  <lb n="9"/><w><gap extent="11" reason="lost" unit="character"/>αι</w>  <w lemma="ὁ">τῶν</w>  <space extent="1" unit="character" dim="horizontal"/><lb n="10"/><gap extent="11" reason="lost" unit="character"/> <w lemma="νομοθε-">νο<unclear reason="damage">μ</unclear>οθε<lb n="11" break="no"/><gap extent="11" reason="lost" unit="character"/></w>  <w lemma="χωρίον">χωρία</w>  <lb n="12"/><gap extent="11" reason="lost" unit="character"/>  <w lemma="τιμή">τειμὰς</w>  <lb n="13"/><w><gap extent="11" reason="lost" unit="character"/><unclear reason="damage">α</unclear>στος</w>  <lb n="14"/><w><gap extent="11" reason="lost" unit="character"/>τος</w>  <w lemma="αὐτός">αὐ<lb n="14a" break="no"/><supplied reason="lost" cert="low"><space extent="6" unit="character" dim="horizontal"/></supplied>      <supplied reason="lost">τος</supplied></w>  <space extent="6" unit="character" dim="horizontal"/><lb n="14b"/>                        <space extent="1" unit="line" dim="horizontal"/></ab></div>
          <div type="apparatus">
-            <p>ll. 7-8, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>ll. 7-8, <foreign xml:lang="grc">
                   <gap extent="5" reason="lost" unit="character"/>
                   <supplied reason="lost">ἐν</supplied> παντὶ<lb/>
                   <supplied reason="lost">καιρῷ χρήσιμον τ</supplied>ῇ πόλει</foreign>,  cj. MAMA</p>
-            <p>l. 10,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΟΡΙΟΘ</foreign>  Reinach (lecture certaine);  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+            <p>l. 10,  <foreign xml:lang="grc">ΝΟΡΙΟΘ</foreign>  Reinach (lecture certaine);  <foreign xml:lang="grc">
                   <gap reason="lost" unit="character" extent="unknown"/>ν ὁριοθε<supplied reason="lost">σίαν</supplied>
                </foreign> MAMA
 </p>

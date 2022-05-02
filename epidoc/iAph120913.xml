@@ -114,9 +114,9 @@ Second to third centuries A.D.
 <ab><lb n="1"/><orig n="unresolved"><unclear reason="damage">Σ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><orig n="unresolved"><unclear reason="damage">Γ</unclear>Ο<unclear reason="damage">Ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><orig n="unresolved">ΚΤΙ<unclear reason="damage">Σ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/><orig n="unresolved">ΤΕ</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="5"/><gap reason="lost" extent="1" unit="character"/><orig n="unresolved"><unclear reason="damage">Ο</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="5a"/><gap extent="unknown" reason="lost" unit="line"/></ab>
 </div>
          <div type="apparatus">
-            <p>l. 3, the fourth letter shows only an upper horizontal: ? <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κτί<unclear reason="damage">σ</unclear>
+            <p>l. 3, the fourth letter shows only an upper horizontal: ? <foreign xml:lang="grc">κτί<unclear reason="damage">σ</unclear>
                   <supplied reason="lost">της</supplied>
-               </foreign> or <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κτί<unclear reason="damage">σ</unclear>[των</foreign>
+               </foreign> or <foreign xml:lang="grc">κτί<unclear reason="damage">σ</unclear>[των</foreign>
             </p>
          </div>
          <div type="translation" n="none">

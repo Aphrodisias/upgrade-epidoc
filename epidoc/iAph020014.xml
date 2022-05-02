@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Numbering for steps, Odeon</title>
+            <title>
+               <rs type="textType">Numbering</rs> for steps, Odeon</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -41,7 +42,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>1 <rs type="execution" key="scalpro">inscribed</rs> on the lower corridor running round the rim of the orchestra· i. Beside the entry to the staircase adjoining the East <term lang="la">analemma</term>; ii Beside the entry to the second staircase from the West <term lang="la">analemma</term>. iii Behind the West <term lang="la">analemma</term>. 2. On the upper corridor: ii. On the topp step of the second staircase from the West <term lang="la">analemma</term>.</layout>
+                        <layout>1 <rs type="execution" key="scalpro">inscribed</rs> on the lower corridor running round the rim of the orchestra· i. Beside the entry to the staircase adjoining the East <term xml:lang="la">analemma</term>; ii Beside the entry to the second staircase from the West <term xml:lang="la">analemma</term>. iii Behind the West <term xml:lang="la">analemma</term>. 2. On the upper corridor: ii. On the topp step of the second staircase from the West <term xml:lang="la">analemma</term>.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -94,9 +95,6 @@
                   <placeName type="modernFindspot"
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
-               </term>
-               <term>
-                  <rs type="textType">Numbering</rs>
                </term>
             </keywords>
          </textClass>

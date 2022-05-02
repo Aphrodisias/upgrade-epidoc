@@ -109,7 +109,7 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>)
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<div n="i" type="textpart" subtype="section"><note lang="en">A facing figure in a long robe, trimmed at all edges with a hatched line. The left hand extends downwards, holding a horizontal object from which two lines, ending in circles, depend. The right hand holds ?a cornucopia.</note></div><div n="ii" type="textpart" subtype="section"><note n="en">A half-profile of a head, crowned.</note></div><div n="iii" type="textpart" subtype="section"><note lang="en">Head and shoulders of a man, with a fringe and straight hair, wearing ?a simple tunic.</note></div>
+<div n="i" type="textpart" subtype="section"><note xml:lang="en"/></div><div n="ii" type="textpart" subtype="section"><note n="en" xml:lang=""/></div><div n="iii" type="textpart" subtype="section"><note xml:lang="en"/></div>
 </div>
          <div type="translation" n="none">
             <p>No translation required.</p>

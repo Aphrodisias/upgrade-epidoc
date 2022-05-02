@@ -6,7 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragmentary <seg cert="low">honours</seg> from the Gerousia</title>
+            <title>Fragmentary <rs type="textType">
+                  <seg cert="low">honours</seg>
+               </rs> from the Gerousia</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -92,7 +94,7 @@
             <p>...] the elders [...</p>
          </div>
          <div type="commentary">
-            <p>Clearly a dedication by the <term lang="grc-Latn">gerousia</term>. Commonly this body joins the Council and the people in making dedications to benefactors.</p>
+            <p>Clearly a dedication by the <term xml:lang="grc-Latn">gerousia</term>. Commonly this body joins the Council and the people in making dedications to benefactors.</p>
          </div>
          <div type="bibliography" n="none">
             <p>Unpublished</p>

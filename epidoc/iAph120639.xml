@@ -6,7 +6,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Honours for Marcus Aurelius [...]nus son of Artemon</title>
+            <title>
+               <rs type="textType">Honours</rs> for Marcus Aurelius [...]nus son of Artemon</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -46,7 +47,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <height unit="metre">0.017</height>; apices on <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ρ</foreign> and <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α</foreign> in l. 1; ligatured <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign> in ll. 3, 10, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ</foreign> in ll. 4, 7, 8, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΜ</foreign> in l. 5.</handNote>
+                        <height unit="metre">0.017</height>; apices on <foreign xml:lang="grc">Ρ</foreign> and <foreign xml:lang="grc">Α</foreign> in l. 1; ligatured <foreign xml:lang="grc">ΗΝ</foreign> in ll. 3, 10, <foreign xml:lang="grc">ΤΗ</foreign> in ll. 4, 7, 8, <foreign xml:lang="grc">ΗΜ</foreign> in l. 5.</handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -92,9 +93,6 @@
                              key="Geyre"
                              ref="https://sws.geonames.org/314519/">Geyre</placeName>
                </term>
-               <term>
-                  <rs type="textType">Honours</rs>
-               </term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -113,7 +111,7 @@
 <ab><lb n="1"/><persName type="attested"><name nymRef="#Μᾶρκος"><supplied reason="lost">Μ</supplied>ᾶρκον</name>  <name nymRef="#Αὐρήλιος">Αὐρήλιο<unclear reason="damage">ν</unclear></name>  <gap extent="3" reason="lost" unit="character"/><lb n="2"/><name><gap extent="1" reason="lost" unit="character"/>νον</name>  <persName type="attested"><name nymRef="#Ἀρτέμων">Ἀ<unclear reason="damage">ρ</unclear>τέμωνος</name>  <w lemma="ὁ">το<unclear reason="damage">ῦ</unclear></w><lb n="3"/><persName type="attested"><name nymRef="#Καλλικλῆς"><supplied reason="lost">Κ</supplied>αλλικλέους</name></persName></persName>  <w lemma="ἐπίκλην">ἐπίκλην</w><lb n="4"/><name nymRef="#Κωλώτης"><w lemma="κωλώτης">Κωλώτην</w></name></persName>  <w lemma="ἀγαλμαγτοποιός">ἀγαλμα<choice type="correction"><sic>γ</sic><corr>τ</corr></choice>οπο<unclear reason="damage">ι</unclear><lb n="5" break="no"/>ὸν</w> <w lemma="ζάω">ζήσαντα</w> <w lemma="ἐδημόνως">ἐδημόνως</w> <lb n="6"/><w lemma="καί"><unclear reason="damage">κ</unclear>αὶ</w> <w lemma="σώφρων">σωφρόνως</w> <w lemma="πρός">πρὸς</w> <w lemma="ὑπόδειγμα">ὑπό  <lb n="7" break="no"/>δειγμα</w> <w lemma="ἀρετή">ἀρετῆς</w> <g ref="#scroll"/><lb n="7a"/><space unit="line" extent="1" dim="horizontal"/><lb n="8"/> <w lemma="ὁ">τὴν</w> <w lemma="δέ">δὲ</w> <w lemma="ἀνάστασις">ἀνάστασιν</w> <w lemma="ὁ">τοῦ</w><lb n="9"/> <w lemma="ἀνδριάς">ἀνδρείαντος</w> <w lemma="ποιέω">ἐποιήσατο</w><lb n="10"/>  <g ref="#leaf"/>  <persName type="attested"><name nymRef="#Ζηνᾶς">Ζηνᾶς</name></persName>  <w lemma="ὁ">ὁ</w>  <w lemma="υἱός"><orig reg="υἱὸς">ὑειὸς</orig></w> <w lemma="αὐτός">αὐτοῦ</w> <g ref="#leaf"/></ab>
 </div>
          <div type="apparatus">
-            <p>l. 4, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Τ</foreign> executed as a <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Γ</foreign>.</p>
+            <p>l. 4, <foreign xml:lang="grc">Τ</foreign> executed as a <foreign xml:lang="grc">Γ</foreign>.</p>
          </div>
          <div type="translation">
             <p>
