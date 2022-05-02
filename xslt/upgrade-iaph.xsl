@@ -13,7 +13,8 @@
 
   <xsl:template match="t:*">
     <xsl:element name="{local-name()}">
-      <xsl:copy-of select="@*"/>
+      <xsl:copy-of select="@*[not(name()='lang')]"/>
+      <xsl:if test="@lang"><xsl:attribute name="xml:lang" select="@lang"/></xsl:if>
       <xsl:apply-templates/>
     </xsl:element>
   </xsl:template>
@@ -95,7 +96,7 @@
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="/t:TEI/t:teiHeader/t:fileDesc/t:titleStmt/t:title//t:rs[@type='textType']">
+  <xsl:template match="/t:TEI/t:teiHeader/t:fileDesc/t:titleStmt/t:title//t:rs[@type=('textType','personType')]">
     <xsl:apply-templates/>
   </xsl:template>
   
@@ -248,7 +249,7 @@
   <xsl:template match="t:keywords">
     <xsl:copy>
       <xsl:apply-templates/>
-      <xsl:for-each select="t:TEI/t:teiHeader/t:fileDesc/t:titleStmt/t:title//t:rs[@type='textType']">
+      <xsl:for-each select="t:TEI/t:teiHeader/t:fileDesc/t:titleStmt/t:title//t:rs[@type=('textType','personType')]">
         <xsl:element name="term">
           <xsl:copy>
             <xsl:copy-of select="@type"/>
@@ -386,9 +387,18 @@
   
   <xsl:template match="t:gap">
     <xsl:copy>
-      <xsl:copy-of select="@*[not(local-name()='dim')]"/>
+      <xsl:copy-of select="@*[not(local-name()=('dim','precision','extent','extentmax'))]"/>
       <xsl:if test="not(@unit)"><xsl:attribute name="unit" select="'character'"/></xsl:if>
       <xsl:if test="not(@quantity or @extent or (@atLeast and @atMost))"><xsl:attribute name="extent" select="'unknown'"/></xsl:if>
+      <xsl:if test="@precision"><xsl:attribute name="precision" select="'low'"/></xsl:if>
+      <xsl:choose>
+        <xsl:when test="@extent and @extentmax">
+          <xsl:attribute name="atLeast" select="@extent"/>
+          <xsl:attribute name="atMost" select="@extentmax"/>
+        </xsl:when>
+        <xsl:when test="number(@extent)"><xsl:attribute name="quantity" select="@extent"/></xsl:when>
+        <xsl:otherwise><xsl:copy-of select="@extent"/></xsl:otherwise>
+      </xsl:choose>
       <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
