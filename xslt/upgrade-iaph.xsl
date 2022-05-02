@@ -95,7 +95,7 @@
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="/t:TEI/t:teiHeader/t:titleStmt/t:title//t:rs[@type='textType']">
+  <xsl:template match="/t:TEI/t:teiHeader/t:fileDesc/t:titleStmt/t:title//t:rs[@type='textType']">
     <xsl:apply-templates/>
   </xsl:template>
   
@@ -248,7 +248,7 @@
   <xsl:template match="t:keywords">
     <xsl:copy>
       <xsl:apply-templates/>
-      <xsl:for-each select="t:TEI/t:teiHeader/t:titleStmt/t:title//t:rs[@type='textType']">
+      <xsl:for-each select="t:TEI/t:teiHeader/t:fileDesc/t:titleStmt/t:title//t:rs[@type='textType']">
         <xsl:element name="term">
           <xsl:copy>
             <xsl:copy-of select="@type"/>
@@ -362,6 +362,12 @@
       </xsl:if>
       <xsl:apply-templates/>
     </xsl:element>
+  </xsl:template>
+  
+  <xsl:template match="t:choice">
+    <xsl:copy>
+      <xsl:apply-templates/>
+    </xsl:copy>
   </xsl:template>
   
   <xsl:template match="t:foreign[@lang] | t:term[@lang]">
