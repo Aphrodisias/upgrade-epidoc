@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010030" n="iAph0126 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010030" n="iAph0126 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -48,7 +48,7 @@
 
       <div type="description" n="letters">
         <head>Description of Letters</head>
-        <p><measure precision="circa" dim="none">0.025</measure>.</p>
+        <p><measure precision="circa" dim="height">0.025</measure>.</p>
       </div>
 
       <div type="description" n="date">
@@ -56,7 +56,7 @@
         <p><date notAfter="0900" notBefore="0401" cert="low">Fifth-tenth century A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">context</rs>)</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab><lb n="1"/><persName key="onesimus1" type="aphrodisian" full="yes"><name reg="Ὀνήσιμος">Ὀνήσιμος</name></persName>.</ab> 
       </div>

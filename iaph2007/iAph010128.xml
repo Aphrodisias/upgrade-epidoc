@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010128" n="iAph1869 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010128" n="iAph1869 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notAfter="0200" notBefore="0001"> First to second centuries A.D.</date> (<rs type="criteria">lettering</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/>Ι<gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><gap reason="lost" extent="3" unit="character"/>Ρ  <g type="stop"/>  ΑΙΚ<gap reason="lost" extent="3" unit="character"/>  <lb n="3"/><gap reason="lost" extent="3" unit="character"/>  <persName type="aphrodisian"><persName type="aphrodisian"><name reg="Ὑψικλῆς">Ὑψικλ<supplied reason="lost">έους</supplied></name></persName>  <w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <supplied reason="lost"><lb n="4"/>[</supplied><gap reason="lost" extent="3" unit="character"/><name reg="Ὑψικλῆς"><supplied reason="lost">  Ὑψι</supplied>κλέο<supplied reason="lost">υς</supplied></name></persName><gap reason="lost" extent="3" unit="character"/>  <lb n="5"/><gap reason="lost" extent="3" unit="character"/><w lemma="ὁ"><supplied reason="lost">  το</supplied>ῦ</w>  <persName type="aphrodisian"><name reg="Ἀδρι-">Ἀδρι<gap reason="lost" extent="3" unit="character"/></name>  </persName><lb n="6"/><gap reason="lost" extent="3" unit="character"/>ΟΥΤΟΙ<gap reason="lost" extent="3" unit="character"/>  <lb n="7"/><gap reason="lost" extent="3" unit="character"/>  </ab>
 </div>

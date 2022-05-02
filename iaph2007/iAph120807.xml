@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120807" n="iAph1906 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120807" n="iAph1906 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <p>
 <date notAfter="0200" notBefore="0101" exact="none"> Second century A.D.</date> (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <space extent="3" unit="character" dim="horizontal"/> <persName type="divine"><w lemma="ἀγαθός">Ἀγαθῇ</w> <w lemma="τύχη">Τύχῃ</w></persName> <space extent="3" unit="character" dim="horizontal"/>  <lb n="2"/> <persName type="aphrodisian"><name reg="Μᾶρκος">Μᾶρκος</name> <name reg="Ἀντώνιος">Ἀντώνιος</name> <name reg="Ποπίλλιος">Ποπ<unclear reason="damage">ί</unclear>λ<lb n="3" type="worddiv"/><supplied reason="lost">λ</supplied>ιος</name> <name reg="Ἀγέλαος">Ἀγέλαος</name></persName> <w lemma="σοφιστής">σοφιστ<supplied reason="lost">ὴ</supplied>ς</w>  <lb n="4"/><w lemma="πρωτονεωποιός"><supplied reason="lost">πρω</supplied><unclear reason="damage">τ</unclear>ονεωποιὸς</w>  <w><gap reason="lost" extent="6" unit="character"/>ς</w></ab>
 </div>

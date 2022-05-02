@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150355" n="iAph0170 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150355" n="iAph0170 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -54,7 +54,7 @@
         <p><date exact="none" cert="low" notBefore="0401" notAfter="0600">Fifth-sixth century</date> or later (<rs type="criteria">dating</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab>
 		  		<lb n="1"/><g type="cross"/> <w lemma="ἔνθα">ἔνθα</w> <w lemma="κατάκειμαι">κατά<lb n="2" type="worddiv"/>κιτε</w> <persName key="charito1" type="aphrodisian" full="yes"><name reg="Χάριτος">Χαρίτου</name></persName><lb n="3"/> <w lemma="γαμετή">γαμητὴ</w> <persName key="narses1" type="aphrodisian" full="yes"><name reg="Ναρσῆς">Ναρσῆ</name></persName><lb n="4"/> <w lemma="τελευτάω">τελευτᾷ</w> <date><w lemma="ἰνδικτιών"><expan><abbr>ἰ</abbr><supplied reason="abbreviation">ν</supplied><abbr>δ</abbr><supplied reason="abbreviation">ικτίω</supplied><abbr>ν</abbr><supplied reason="abbreviation">ος</supplied></expan></w> <num value="7">ζ</num><lb n="5"/><space dim="horizontal"/> <w lemma="μείς"><expan><abbr>μη</abbr><supplied reason="abbreviation">νός</supplied></expan></w></date>  <space dim="horizontal"/><lb n="6"/><space dim="vertical"/></ab> 

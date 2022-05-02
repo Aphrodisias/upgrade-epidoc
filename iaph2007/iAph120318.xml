@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120318" n="iAph1153 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120318" n="iAph1153 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -22,7 +22,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2007-04-02</date><respStmt><name>Charlotte Tupman</name></respStmt><item>DONE</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2007-04-02</date><respStmt><name>Charlotte Tupman</name></respStmt><item>DONE</item></change><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -39,7 +39,7 @@
 <p>
 <date cert="low" exact="none" notAfter="0200" notBefore="0101">Second century A.D.</date> (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>    <gap reason="lost" extent="unknown" unit="character" dim="left"/>  <w lemma="καί"><supplied reason="lost">κ</supplied>αὶ</w> <w lemma="ὁ">τὰ</w> <w lemma="ἐν">ἐν</w> <w lemma="αὐτός">αὐτοῖς</w> <w lemma="πᾶς">πάντα</w> <g type="stop"/>    <persName type="aphrodisian"><name reg="Εὐσεβής">Εὐσέ<supplied reason="lost" cert="low">βης</supplied></name></persName>  <gap reason="lost" extent="unknown" unit="character" dim="right"/><lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <w lemma="συμφέρω"><supplied reason="lost" cert="low">συν</supplied>ενεχθέντα</w> <w lemma="καί">καὶ</w> <w lemma="συντρίβω">συντριβέντα</w> <gap reason="lost" extent="unknown" unit="character" dim="right"/></ab>
 </div>

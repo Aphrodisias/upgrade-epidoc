@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130010" n="iAph1645 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130010" n="iAph1645 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notBefore="0001" notAfter="0300" exact="none">First to third centuries A.D.</date>
  (<rs type="criteria">nomenclature</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><persName type="aphrodisian"><name reg="Κλαύδιος"><expan><abbr>Κλ</abbr><supplied reason="abbreviation">αυδίῳ</supplied></expan></name>  <name reg="Ἀντώνιος"><expan><abbr>Ἀντ</abbr><supplied reason="abbreviation">ωνίῳ</supplied></expan></name> <name reg="Ἑρμίας">Ἑρμείῳ</name></persName> <orig n="unresolved">υδ</orig> <gap reason="lost" extent="unknown" unit="character" dim="right"/>  </ab>
 </div>

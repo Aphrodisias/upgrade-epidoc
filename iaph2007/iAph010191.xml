@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010191" n="iAph0178 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010191" n="iAph0178 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -54,7 +54,7 @@ moulding (<measure type="length" unit="metre" dim="height">0.52</measure> ×
         <p><date notAfter="0400" exact="none" cert="low" notBefore="0301">Fourth century</date> or later (<rs type="criteria">style</rs>, <rs type="criteria">lettering</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab><lb n="1"/><persName type="aphrodisian" key="mag" full="yes"><name><orig n="unresolved">μαγ</orig></name> <gap dim="right" reason="lost" extent="unknown" unit="character"/></persName></ab>
       </div>

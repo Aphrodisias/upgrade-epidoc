@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Funerary text from a sarcophagus</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph150314</idno>
+            <idno type="IAph2007">iAph150314</idno>
+            <idno type="JMR2004">iAph1637</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>The right half of a <material>white marble</material>
+                              <rs type="decoration">arcaded</rs>
+                              <objectType>sarcophagus</objectType> front, with figures of <rs type="decoration">muses</rs> in the arcades.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> on the upper moulding in one line.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>No measurements</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Unknown</rs>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0300" precision="medium">
+Second to third centuries A.D.
+(<rs type="criteria">lettering</rs>)</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">No location given</rs>
+                  </provenance>
+                  <provenance type="observed" when="1893">
+                     <rs type="lastLocation">Findspot (1893)</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType">Funerary</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
+         <change when="2007-01-01" who="GB">hand tidied</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+<ab><lb n="1"/>  <supplied reason="lost"><w lemma="ὁ">ὁ</w> <w lemma="παρά">παρὰ</w> <w lemma="οὗτος">ταῦτά</w></supplied> <w lemma="τις">τι</w> <w lemma="ποιέω">ποιήσας</w> <w lemma="εἰσ">ἔσστω</w> <w lemma="ἀσεβής">ἀσεβὴς</w> <w lemma="καί">καὶ</w> <w lemma="τυμβωρύχος">τυν<supplied reason="omitted">β</supplied>ω<choice type="correction"><sic>ι</sic><corr>ρ</corr></choice>ύ<choice type="correction"><sic>αι</sic><corr>χο</corr></choice>ς</w> <w lemma="καί">καὶ</w> <w><choice type="correction"><sic>αι</sic><corr>πρ</corr></choice><supplied reason="omitted">ο</supplied>σ<choice type="correction"><sic>ο</sic><corr>α</corr></choice>πο<choice type="correction"><sic>ιο</sic><corr>τε</corr></choice><supplied reason="lost">ισάτω</supplied></w>  <gap reason="lost" extent="unknown" unit="character"/></ab>
+</div>
+         <div type="apparatus">
+            <p>
+               <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΥΝΩΙΥΑΙΣΚΑΙΑΙΣΟΠΟΙΟ</foreign>, Reichel.</p>
+         </div>
+         <div type="translation" n="notyet">
+            <p>...</p>
+         </div>
+         <div type="commentary" n="none">
+            <p>...</p>
+         </div>
+         <div type="bibliography">
+            <p>
+               <bibl n="cormack1964">Cormack, ABSA 59, 1964, 27, no. <citedRange>39</citedRange>
+               </bibl>; discussed <bibl n="robert1966">Robert, <title>AC</title> 35, 1966, 386</bibl>; <bibl n="be">BE <citedRange>1967.545</citedRange>
+               </bibl>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

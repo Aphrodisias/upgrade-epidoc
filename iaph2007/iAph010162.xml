@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010162" n="iAph1261 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010162" n="iAph1261 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -20,7 +20,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="personType" key="imperatorius">Imperial</rs></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2007-01-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2007-01-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -42,7 +42,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><gap unit="character" reason="lost" extent="unknown" dim="left"/>              <persName type="emperor" full="yes"><supplied reason="lost">Σ</supplied>εβαστοῖς</persName><lb n="2"/>        <w><gap unit="character" reason="lost" extent="unknown" dim="left"/>α</w>  <persName type="aphrodisian"><name reg="Καλλικράτης">Καλλικ<unclear reason="damage">ρ</unclear><supplied reason="lost" cert="low">ατ</supplied>  <lb n="2a"/><gap unit="line" reason="lost" extent="unknown" dim="bottom"/></name></persName></ab>
 </div>

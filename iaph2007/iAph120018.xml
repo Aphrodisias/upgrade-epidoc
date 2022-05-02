@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120018" n="iAph1047 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120018" n="iAph1047 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -38,7 +38,7 @@
 
 <div type="description" n="letters">
 <head>Description of Letters</head>
-<p><measure type="length" dim="none">0.02-0.0225</measure></p>
+<p><measure type="length" dim="height">0.02-0.0225</measure></p>
 </div>
 
 <div type="description" n="date">
@@ -46,7 +46,7 @@
 
 <p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="0"/><gap dim="top" extent="unknown" reason="lost" unit="line"/><lb n="1"/><w><gap dim="left" extent="11" reason="lost" unit="character"/><unclear reason="damage">α</unclear>ντα</w>  <lb n="2"/><w><gap dim="left" extent="11" reason="lost" unit="character"/>φερον</w>  <lb n="3"/><gap dim="left" extent="9" reason="lost" unit="character"/>  <w lemma="καί"><supplied reason="lost">κα</supplied>ὶ</w>  <w lemma="πλεῖστος">πλεῖσ<lb n="4" type="worddiv"/><supplied reason="lost">τα</supplied></w>  <gap extent="6" reason="lost" unit="character"/>    <w lemma="παρέχω"><supplied reason="lost">πα</supplied>ρασχό<lb n="5" type="worddiv"/><supplied reason="lost">μενον</supplied></w>  <w><gap dim="left" extent="6" reason="lost" unit="character"/>ως</w>  <w lemma="πᾶς">παν  <lb n="6" type="worddiv"/></w><w><gap dim="left" extent="11" reason="lost" unit="character"/>ενον</w>  <space extent="1" unit="character" dim="horizontal"/><lb n="7"/><gap dim="left" extent="8" reason="lost" unit="character"/>  <w lemma="ἐν"><supplied reason="lost">ἐν</supplied></w>  <w lemma="πᾶς">παντὶ</w>  <lb n="8"/><w lemma="χρήσιμος"><supplied reason="lost">χρήσιμον</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τ</supplied>ῇ</w>  <w lemma="πόλις">πόλει</w>  <lb n="9"/><w><gap dim="left" extent="11" reason="lost" unit="character"/>αι</w>  <w lemma="ὁ">τῶν</w>  <space extent="1" unit="character" dim="horizontal"/><lb n="10"/><gap dim="left" extent="11" reason="lost" unit="character"/> <w lemma="νομοθε-">νο<unclear reason="damage">μ</unclear>οθε<lb n="11" type="worddiv"/><gap dim="left" extent="11" reason="lost" unit="character"/></w>  <w lemma="χωρίον">χωρία</w>  <lb n="12"/><gap dim="left" extent="11" reason="lost" unit="character"/>  <w lemma="τιμή">τειμὰς</w>  <lb n="13"/><w><gap dim="left" extent="11" reason="lost" unit="character"/><unclear reason="damage">α</unclear>στος</w>  <lb n="14"/><w><gap dim="left" extent="11" reason="lost" unit="character"/>τος</w>  <w lemma="αὐτός">αὐ<lb n="14a" type="worddiv"/><supplied reason="lost" cert="low"><space extent="6" unit="character" dim="horizontal"/></supplied>      <supplied reason="lost">τος</supplied></w>  <space extent="6" unit="character" dim="horizontal"/><lb n="14b"/>                        <space extent="1" unit="line" dim="horizontal"/></ab></div>

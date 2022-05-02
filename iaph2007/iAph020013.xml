@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020013" n="iAph1723 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020013" n="iAph1723 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notBefore="0101" notAfter="0200" exact="none">Second century A.D.</date>
  (<rs type="criteria">prosopography</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <div type="textpart_section" n="a"><ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <lb n="2"/> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <lb n="3"/> <persName type="aphrodisian"><name reg="Κλαυδία">Κλαυδίαν</name> <lb n="4"/> <name reg="Ἀντωνία">Ἀντωνίαν</name> <lb n="5"/> <name reg="Τατιανή">Τατιανὴν</name></persName> <lb n="6"/> <w lemma="ὁ">τὴν</w> <w lemma="κράτιστος">κρατίσ<lb n="7" type="worddiv"/>την</w> <w lemma="ἐκ">ἐκ</w> <w lemma="πρόγονος">προ<lb n="8" type="worddiv"/>γόνων</w>  <w lemma="εὐεργέτις">εὐ<lb n="9" type="worddiv"/>εργέτιν</w>  <w lemma="ἀνεψιά">ἀ<lb n="10" type="worddiv"/>νεψιὰν</w> <persName type="aphrodisian"><name reg="Κλαύδιος">Κλ.</name> <lb n="11"/> <name reg="Διογένης">Διογένους</name></persName> <lb n="12"/> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Ἄτταλος">Ἀττάλου</name></persName> <lb n="13"/><w lemma="συνκλητικός">συνκλητι<lb n="14" type="worddiv"/><space extent="3"/>κῶν</w><space extent="3"/>  <lb n="15"/><w lemma="ἐπιμελέω">ἐπιμεληθέν<lb n="16" type="worddiv"/>τος</w> <persName type="aphrodisian"><name reg="Τιβέριος"><expan><abbr>Τι</abbr><supplied reason="abbreviation">ιβερίου</supplied></expan></name> <name reg="Κλαύδιος"><expan><abbr>Κλ</abbr><supplied reason="abbreviation">αυδῐου</supplied></expan></name> <name reg="Καπιτωλῖνος">Καπε<lb n="17" type="worddiv"/>τωλεινοῦ</name></persName></ab></div><div type="textpart_section" n="b">

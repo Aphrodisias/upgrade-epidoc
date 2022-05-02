@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010022" n="iAph0118 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010022" n="iAph0118 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -64,7 +64,7 @@ erased.</p>
         <p><date notAfter="0600" exact="none" notBefore="0401">Fifth-sixth century</date> or later (<rs type="criteria">lettering</rs>, <rs type="criteria">location</rs>).</p>
       </div>
 
-      <div type="edition" lang="grc">
+      <div type="edition" lang="grc" xml:space="preserve">
         <head lang="en">Edition</head>
 		  		        
 		<div type="textpart_section" n="i"><ab>    <lb n="1"/><persName key="petros1" type="aphrodisian" full="yes"><name reg="Πέτρος"><expan><abbr>Πέτρο</abbr><supplied reason="abbreviation">ς</supplied></expan></name></persName>. </ab></div>

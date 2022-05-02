@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010170" n="iAph1859 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010170" n="iAph1859 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <head>Date</head>
 <p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_fragment" n="a"><ab><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/>  <persName reg="Μᾶρκος  Φλάβιος  Αὐρήλιος" full="yes" type="aphrodisian"><name reg="Μᾶρκος"><expan><abbr><supplied reason="lost">Μᾶ</supplied><hi rend="apex">ρ</hi></abbr><supplied reason="abbreviation">κος</supplied></expan></name>  <name type=" " reg="Φλάβιος"><expan><abbr>Φλ</abbr><supplied reason="abbreviation">άουιος</supplied></expan></name>  <name type="nomen" reg="Αὐρήλιος">Α<supplied reason="lost">ὐρήλιος</supplied></name></persName>  <gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="1a"/><gap dim="bottom" extent="unknown" reason="lost" unit="line"/></ab>
 </div><div type="textpart_fragment" n="b"><ab> <lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">αρα<unclear reason="damage">t</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/></ab></div></div><div type="apparatus">

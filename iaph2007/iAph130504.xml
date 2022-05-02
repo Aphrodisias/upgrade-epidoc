@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130504" n="iAph1626 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130504" n="iAph1626 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -42,7 +42,7 @@
 <head>Date</head>
 <p>Perhaps <date notBefore="0001" notAfter="0100" exact="none">First century A.D.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/>Σ<unclear reason="damage">IIΟ</unclear> <lb n="2"/><gap reason="lost" extent="3" unit="character"/>  <w lemma="καί"><supplied reason="lost">κ</supplied>αὶ</w>  <w lemma="τυμβωρύχος">τ<unclear reason="damage">υ</unclear><supplied reason="lost">μβω</supplied><unclear reason="damage">ρ</unclear>υχ<unclear reason="damage">ο</unclear><supplied reason="lost" cert="low">ς</supplied></w> <orig n="unresolved">Κ<unclear reason="damage">Ο</unclear></orig><lb n="3"/><gap reason="lost" extent="3" unit="character"/>  <w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <w lemma="ἐκδικέω"><supplied reason="lost">ἐκδ</supplied>ικήσαν<supplied reason="lost">τος</supplied></w> <w lemma="καί">καὶ</w> <w lemma="οὐδέ">οὐδε<lb n="4"/><gap reason="lost" extent="3" unit="character"/></w>    <w lemma="ἀποτίθημι"><supplied reason="lost">ἀπο</supplied>τεθήσεται</w> <w lemma="εἰς">εἰς</w> <w lemma="ὁ">τὰ</w> <lb n="5"/><w lemma="ἀρχεῖον"><supplied reason="lost">ἀρχεῖα</supplied></w>  <gap reason="lost" extent="3" unit="character"/>  <w lemma="μείς"><supplied reason="lost">μηνὸ</supplied><unclear reason="damage">ς</unclear></w> <w lemma="Καισαρέων">Καισα<unclear reason="damage">ρ</unclear>εῶνος</w> <g type="scroll"/> </ab>
 </div>

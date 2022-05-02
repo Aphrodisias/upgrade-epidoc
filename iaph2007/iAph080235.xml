@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080235" n="iAph0904 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080235" n="iAph0904 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -49,7 +49,7 @@
 <date notAfter="0200" notBefore="0070">Late first or second century</date>
 (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ψηφίζω">ψηφισαμένης</w> <w lemma="ὁ">τῆς</w> <w lemma="κράτιστος">κρατίστης</w> <lb n="2"/><supplied reason="lost">β</supplied>ουλῆς <w lemma="καί">καὶ</w> <w lemma="ὁ">τοῦ</w> <w lemma="δῆμος">δήμου</w> <persName type="aphrodisian"><name reg="Λούκιος" type="praenomen">Λούκιον</name> <lb n="3"/> <gap extent="4" reason="omitted" unit="character"/><name reg="Ἀντώνιος">Ἀντώνιον</name> <persName type="aphrodisian"><name reg="Τίτος" type="praenomen">Τίτου</name> <name reg="Φλάβιος">Φλα<lb type="worddiv" n="4"/><gap extent="4" reason="omitted" unit="character"/>βίου</name>  <name reg="Πάπας">Πάπου</name></persName> <w lemma="υἱός">υἱὸν</w> <name reg="Ζη-">Ζη<lb n="4a"/><gap reason="lost" extent="unknown" unit="character"/></name></persName></ab>
 </div>

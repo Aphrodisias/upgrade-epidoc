@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110513" n="iAph1857 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110513" n="iAph1857 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <p>
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">prosopography</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <persName type="aphrodisian"><name reg="Μᾶρκος"><supplied reason="lost" cert="low"><expan><abbr>Μ</abbr><supplied reason="abbreviation">ᾶρκος</supplied></expan></supplied></name> <supplied reason="lost"><g type="stop"/></supplied> <name reg="Φλάβιος"><supplied reason="lost"><expan><abbr>Φλ</abbr><supplied reason="abbreviation">άβιος</supplied></expan></supplied></name> <supplied reason="lost"><g type="stop"/></supplied> <name reg="Ἀντώνιος"><expan><abbr><supplied reason="lost">Ἀντώ</supplied>ν</abbr><supplied reason="abbreviation">ιος</supplied></expan></name> <g type="stop"/><name reg="Λυσίμαχος">Λυσίμαχος</name></persName><g type="stop"/> <w lemma="σοφιστής">σοφιστὴς</w> <lb n="2"/>  <space extent="3" unit="character" dim="horizontal"/> <w lemma="ἀρχιερεύς">ἀρχιερεύς</w> <space extent="3" unit="character" dim="horizontal"/></ab>
 </div>

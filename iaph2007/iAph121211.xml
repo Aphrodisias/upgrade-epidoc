@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph121211" n="iAph0615 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph121211" n="iAph0615 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <date exact="none" notAfter="0233" notBefore="0166">Late second/early third century</date>
  (<rs type="criteria">prosopography</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <space unit="character" extent="1"/> <persName type="divine"><w lemma="ἀγαθός">Ἀγαθῇ</w> <w lemma="τύχη">Τύχῃ</w></persName> <space unit="character" extent="1"/> <lb n="2"/> <w lemma="ὑπόμνημα">ὑπόμνημα</w> <w lemma="φαμιλία">φαμιλίας</w> <lb n="3"/> <w lemma="καί">καὶ</w> <w lemma="κυνηγέσιον">κυνηγεσίων</w> <persName type="aphrodisian"><name reg="Μᾶρκος"><expan><abbr>Μ</abbr><supplied reason="abbreviation">άρκου</supplied></expan></name> <name reg="Ἀντώνιος">Ἀν<lb n="4" type="worddiv"/> τωνίου</name>  <name reg="Ἀπελλᾶς">Ἀπελλᾶ</name> <name>Σεουη<lb n="5" type="worddiv"/>  ρείνου</name>  <w lemma="ἀρχιερεύς">ἀρχιερέως</w> <w lemma="υἱός">ὑιοῦ</w> <lb n="6"/> <persName type="aphrodisian"><name reg="Μᾶρκος"><expan><abbr>Μ</abbr><supplied reason="abbreviation">άρκου</supplied></expan></name> <name reg="Ἀντώνιος">Ἀντωνίου</name> <name reg="Ὑψικλῆς">Ὑψικλέ<lb n="7" type="worddiv"/> ους</name></persName></persName>  <w lemma="ἀρχιερεύς">ἀρχιερέως</w> <g type="leaf"/>  </ab>
 </div>

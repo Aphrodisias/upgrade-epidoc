@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080267" n="iAph0702 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080267" n="iAph0702 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -49,7 +49,7 @@ Graffiti <rs type="execution" key="scarifato">incised</rs> on the front face.</p
 <p>Possibly <date notBefore="0376" notAfter="0800" exact="none" cert="low">no earlier than last quarter of fourth century</date> (if indiction on l. 3), but very uncertain.</p>
 </div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><gap extent="1" reason="illegible" unit="character"/><orig n="unresolved"><unclear reason="damage">υ</unclear></orig> <space dim="horizontal"/> <orig n="unresolved"><unclear reason="damage">ωρα</unclear></orig>    <w lemma="ὁ">τῷ</w>  <w lemma="οἶκος">οἴκῳ</w><lb n="2"/><w lemma="οὗτος">τούτῳ</w><lb n="3"/><gap extent="1" unit="character" reason="lost" dim="left"/><orig n="unresolved">Ν<unclear reason="damage">Δ</unclear>Ι</orig><lb n="3a"/><gap extent="1" dim="bottom" unit="line" reason="lost"/></ab>
 </div>

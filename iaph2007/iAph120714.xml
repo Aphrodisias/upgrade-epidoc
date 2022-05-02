@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120714" n="iAph1578 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120714" n="iAph1578 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ὁ">τὸ</w> <w lemma="ἡρῶος">ἡρῶόν</w> <w lemma="εἰμί">ἐστιν</w> <w lemma="προγονικός">πρ<unclear reason="damage">ο</unclear>γονικὸν</w> <persName type="aphrodisian"><name reg="Μᾶρκος">Μάρκων</name> <lb n="2"/> <name reg="Αὐρήλιος"><expan><abbr>Αὐρ</abbr><supplied reason="abbreviation">ηλίων</supplied></expan></name> <name reg="Κλαύδιος"><expan><abbr>Κλ</abbr><supplied reason="abbreviation">αυδίων</supplied></expan></name> <name reg="Κάστωρ">Κάστορος</name></persName> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Παπύλος" type="">Παπύλου</name></persName> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Διονύσιος">Διο<lb n="3" type="worddiv"/>νυσίου</name> <w lemma="ὁ">τῶν</w> <name reg="Παπύλος" type="">Παπύλου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Διονύσιος">Διονυσίου</name> <lb n="4"/> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Παπύλος" type="">Παπύλου</name></persName></persName></persName> <w lemma="κληρονόμος">κληρονόμων</w> <w lemma="διάδοχος"><unclear reason="damage">δ</unclear>ιαδόχων</w> <lb n="5"/> <w lemma="τε">τε</w> <w lemma="αὐτός">αὐτῶν</w> <w lemma="καθώς">καθὼς</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὰ</w> <w lemma="ἐγχαράσσω">ἐνκεχαραγμένα</w> <w lemma="καί">καὶ</w> <lb n="6"/> <w lemma="διά">διὰ</w> <w lemma="ὁ">τοῦ</w> <w lemma="ψήφισμα">ψηφίσματος</w> <w lemma="δείκνυμι">δείκνυσιν</w> <g type="scroll"/> </ab>
 </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150345" n="iAph0151 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150345" n="iAph0151 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -57,7 +57,7 @@ and <term>mu</term> used sporadically, square <term>sigma</term>.</p>
         <p><date notAfter="0333" exact="none" notBefore="0268">Late third/early fourth century</date> (titles).</p>
       </div>
 
-      <div type="edition" lang="grc">
+      <div type="edition" lang="grc" xml:space="preserve">
         <head lang="en">Edition</head>
 		  <ab>
 			<lb n="1"/> <w lemma="ὁ">Ἡ</w> <w lemma="σορός">σορὸς</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="περικεῖμαι">πε<unclear reason="damage">ρικίμ</unclear>ε

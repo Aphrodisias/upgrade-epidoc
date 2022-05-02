@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080272" n="iAph0059 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080272" n="iAph0059 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -43,9 +43,9 @@
       <div type="description" n="monument">
         <head>Description of Monument</head>
         <p>Four joining fragments of a <rs type="material" key="marmor">white marble</rs> <rs type="objectType">panel</rs> with a
-raised rim on all sides (1. <measure dim="none">0.89</measure>, W. <measure dim="none">0.65</measure>, <measure dim="none">0. 0.16</measure>), inscribed on the
+raised rim on all sides (1. <measure dim="height">0.89</measure>, W. <measure dim="height">0.65</measure>, <measure dim="height">0. 0.16</measure>), inscribed on the
 face with a board, type 3Rows.4, carefully cut on the central panel
-(<measure dim="none">0.55</measure>  × <measure dim="none">0.75</measure>; circles <measure dim="none">0.04</measure>; central <rs type="decoration">rosette</rs> in circle, <measure dim="none">0.09</measure>). One side
+(<measure dim="height">0.55</measure>  × <measure dim="height">0.75</measure>; circles <measure dim="height">0.04</measure>; central <rs type="decoration">rosette</rs> in circle, <measure dim="height">0.09</measure>). One side
 is entirely preserved, and the two ends survive in part.</p>
       </div>
 
@@ -65,7 +65,7 @@ left of it (b). The other end was not inscribed.</p>
         <p><date exact="none" cert="low" notBefore="0468" notAfter="0500">Late fifth century A.D.</date> (<rs type="criteria">prosopography</rs>)</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<div type="textpart_fragment" n="a"><ab>
 		<lb n="1"/><g type="cross"/> <rs key="acclamations" type="subject"><w lemma="νικάω">νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τοῦ</w> <persName key="Mardaetus" type="aphrodisian" full="yes"><name reg="Μαρδαητος">Μαρ<unclear reason="undefined">δ</unclear>αητ<unclear reason="damage">ου</unclear></name></persName></rs> <g type="cross"/>

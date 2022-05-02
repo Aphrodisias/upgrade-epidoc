@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Funerary formula from sarcophagus</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph020309</idno>
+            <idno type="IAph2007">iAph020309</idno>
+            <idno type="JMR2004">iAph1397</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno>73.266</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Front of a <material key="marmor">white marble</material>
+                              <rs type="decoration">garland</rs>
+                              <objectType>sarcophagus</objectType> (<width unit="metre">2.27</width>   × <height unit="metre">0.96</height>   × <depth unit="metre">0.09</depth>) damaged to the left and at the top along the edge, broken away at right. For description see <bibl n="jmr2003">Isik 100</bibl>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>ll. 1-8 cut on the upper part of the front of the sarcophagus, avoiding the decorative features, except that l. 8 impinges on the upper moulding of the tabella; ll. 9-20 within the tabella. The text probably began on the lid.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Neatly designed, cut and aligned, in the second-to-fourth-century style, without any exaggerated features, ll. 1-10, <height unit="metre">0.03</height>; ll. 11-12, <height unit="metre">0.025</height>; ligatured <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΕ</foreign> (l.6), <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΕ</foreign> (l.11), <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗ</foreign> (ll.1, 20), <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΤ</foreign> (l.14), <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΕ</foreign> (l.4, twice), <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ</foreign> (l.15). Star for denarius; small slanting stroke before the figure.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Unknown</rs>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0233" precision="medium">
+Probably second to early third centuries
+ (<rs type="criteria">lettering</rs>, <rs type="criteria">spelling</rs>)</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList">Bouleuterion/Odeon, North Area</rs>: NE Odeon, 73c</rs>
+                  </provenance>
+                  <provenance type="observed">
+                     <rs type="lastLocation">Museum</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType" key="sacer">Religious</rs>
+               </term>
+               <term>
+                  <rs type="textType">Funerary</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2007-08-07" who="Eleonora-Litta">tidied expan</change>
+         <change when="2006-04-13" who="GB">hand tidied</change>
+         <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+ <ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/><orig n="unresolved"><unclear reason="damage">μ</unclear>ιοανε<unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="3" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear>ε<unclear reason="damage">ρ</unclear>ασ</orig><gap reason="lost" extent="1" unit="character"/>  <w><unclear reason="damage">Οεσ</unclear>ο<unclear reason="damage">μέν</unclear>ω<unclear reason="damage">ν</unclear></w> <w lemma="ἐν">ἐν</w> <w lemma="ὅς">ᾗ</w> <w lemma="σορός">σο<unclear reason="damage">ρῷ</unclear></w>  <w lemma="κηδεύω"><unclear reason="damage">κη</unclear>δ<unclear reason="damage">ευθ</unclear>ήσεται</w> <w lemma="αὐτός">αὐτὸς</w> <gap reason="lost" extent="12" unit="character"/>  <lb n="2"/><w lemma="οὐδείς">οὐδε<space extent="3" unit="character" dim="horizontal"/>  νὶ</w>  <w lemma="δέ">δὲ</w><w lemma="ἔξεστι">ἔξεσ<space extent="3" unit="character" dim="horizontal"/>  ται</w>  <w lemma="ἀπαλλοτριόω">ἀπαλλο<space extent="3" unit="character" dim="horizontal"/>  τριῶσαι</w>  <w lemma="οὗτος">το<space extent="3" unit="character" dim="horizontal"/>  <supplied reason="lost">ῦτο</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τὸ</supplied></w>  <w lemma="ἡρῶος"><supplied reason="lost">ἡ</supplied><lb n="3" break="no"/>ρῶον</w>  <space extent="3" unit="character" dim="horizontal"/> <w lemma="ἤ">ἢ</w> <w lemma="μέρος">μέρ  <space extent="3" unit="character" dim="horizontal"/>  ος</w> <w lemma="τις">τι</w> <w lemma="ἀπό">ἀπ'</w> <w lemma="αὐτός">α  <space extent="3" unit="character" dim="horizontal"/>  ὐτοῦ</w>  <w lemma="οὔτε">οὐ<space extent="3" unit="character" dim="horizontal"/>  <supplied reason="lost">τὲ</supplied></w>  <w lemma="διά"><supplied reason="lost">διὰ</supplied></w>  <w lemma="συγχώρησις"><supplied reason="lost">συν</supplied><lb n="4" break="no"/>χωρή  <space extent="3" unit="character" dim="horizontal"/>  σεως</w>  <space extent="3" unit="character" dim="horizontal"/> <w lemma="οὔτε">οὐτὲ</w> <w lemma="διά">δι'</w> <space extent="3" unit="character" dim="horizontal"/> <w lemma="ἕτερος">ἑτέρας</w> <w lemma="τις">τι  <space extent="3" unit="character" dim="horizontal"/>  <supplied reason="lost">νος</supplied></w>  <w lemma="οἰκονομία"><supplied reason="lost">οἰκο</supplied><lb n="5" break="no"/>νομίας</w>  <space extent="3" unit="character" dim="horizontal"/>  <w lemma="τρόπος">τρό  <space extent="3" unit="character" dim="horizontal"/>  πῳ</w>  <w lemma="οὐδείς">οὐδ  <space extent="3" unit="character" dim="horizontal"/>  ενὶ</w>  <w lemma="οὐδέ">οὐδ  <space extent="3" unit="character" dim="horizontal"/>  ὲ</w>  <w lemma="ἐκθάπτω">ἐ<supplied reason="lost" cert="low">κθάψαι</supplied></w>    <lb n="6"/> <w lemma="τις">τινὰ</w> <w lemma="ὁ">τ  <space extent="3" unit="character" dim="horizontal"/>  ῶν</w>  <w lemma="ἐνθάπτω">ἐν<space extent="3" unit="character" dim="horizontal"/> <w lemma="θάπτω">ταφησο</w> <space extent="3" unit="character" dim="horizontal"/>  μένων</w>  <w lemma="εἰμί">ἔσ  <space extent="3" unit="character" dim="horizontal"/>  τω</w>  <w lemma="ἀσεβής">ἀ<supplied reason="lost">σεβὴς</supplied></w>  <lb n="7"/> <w lemma="καί">καὶ</w> <w lemma="ἐπάρατος">ἐπ  <space extent="3" unit="character" dim="horizontal"/>  άρατος</w>  <space extent="3" unit="character" dim="horizontal"/> <w lemma="καί">καὶ</w> <w lemma="τυμβωρύχος">τυμ<space extent="3" unit="character" dim="horizontal"/><w>βορύχο</w><space extent="3" unit="character" dim="horizontal"/>  ς</w>  <w lemma="καί">κα<unclear reason="damage">ὶ</unclear></w>  <w lemma="προσαποτίνω"><supplied reason="lost">προσ</supplied><lb n="8" break="no"/>ἀποτε  <space extent="3" unit="character" dim="horizontal"/> <w>ι</w> <space extent="1" unit="character" dim="horizontal"/>  σάτω</w>  <space extent="3" unit="character" dim="horizontal"/> <w lemma="ἱερός">ἱερὰ</w> <w lemma="θεά">θεᾷ</w> <space extent="3" unit="character" dim="horizontal"/>  <persName type="divine"><name nymRef="#Ἀφροδίτη">Ἀφροδείτῃ</name></persName>  <space extent="3" unit="character" dim="horizontal"/> <w lemma="εἰς">εἰς</w> <w lemma="τιμή">τ<unclear reason="damage">ε</unclear><supplied reason="lost">ιμὰς</supplied></w>  <lb n="9"/> <w lemma="ὁ">τῶν</w> <w lemma="σεβαστός">Σεβαστῶν</w> <lb n="10"/><w lemma="δηνάριον"><expan><abbr><am><g ref="#denarius"/></am></abbr><ex>δηνάρια</ex></expan></w>  <num value="6000">Ϛ</num> <w lemma="καί">καὶ</w> <w lemma="οὐδείς">οὐδὲν</w> <w lemma="ἥσσων">ἥτ<lb n="11" break="no"/>τον</w> <w lemma="μένω">μένει</w> <w lemma="πᾶς">πᾶν</w> <w lemma="ὁ">τὸ</w> <w lemma="ἡρῶος">ἡ<lb n="12" break="no"/>ρῶον</w> <w lemma="ὁ">τοῦ</w> <w lemma="γένος">γένους</w> <lb n="13"/> <w lemma="ἀνεξαλλοτριωτός">ἀνεξαλλοτριωτὸν</w> <lb n="14"/> <w lemma="εἰς">εἰς</w> <w lemma="ὁ">τὸν</w> <w lemma="ἅπας">ἅπαντα</w> <w lemma="χρόνος">χρό<lb n="15" break="no"/>νον</w> <w lemma="ὁ">τῆς</w> <w lemma="ἐπιγραφή">ἐπιγραφῆς</w> <lb n="16"/> <w lemma="ἀποτίθημι">ἀπέτεθη</w> <w lemma="ἀντίγραφον">ἀντίγρα<lb n="17" break="no"/>φον</w> <w lemma="εἰς">εἰς</w> <w lemma="ὁ">τὸ</w> <w lemma="χρεωφυλάκιον">χρεοφυ<lb n="18" break="no"/>λακιον</w> <w lemma="ἐπί">ἐπὶ</w> <w lemma="στεφανηφόρος">στεφα<lb n="19" break="no"/>νηφόρου</w>  <persName type="attested"><name nymRef="#Ὑψικλῆς">Ὑψικλέ<lb n="20" break="no"/>ους</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Κάστωρ">Κάστορος</name></persName></persName></ab>
+</div>
+         <div type="apparatus">
+            <p>l. 2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">συγχώρησις</foreign> appears in a number of funerary texts (e.g. <ref type="inscription" n="1536" target="110032.xml"/>=MAMA 537) and Cormack was probably right to restore it here, although when a verb is used <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">παραχωρέω</foreign> seems to be preferred at Aphrodisias</p>
+            <p>l. 6, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἐπεί</foreign> has been inserted between the lines; it is possible that a longer formula has been omitted</p>
+         </div>
+         <div type="translation">
+            <p>- - - ] in which sarcophagus he himself [name] shall be buried but no one shall have the right to alienate this heroon (tomb) nor any part of it either by concession or by any other procedure in any way, nor to remove anyone of those who shall be buried in it; for (whoever does so) is to be (considered) sacrilegious and accursed and a tomb-breaker and [in addition] is to pay 6000 denarii (to be) sacred to the goddess Aphrodite, with a view to (erection of) statues of the Augusti; and none the less the whole heroon of the family will remain unalienated for all time. A copy of the inscribed text was deposited in the civic archive in the stephanephorate of Hypsicles son of Castor [in the month ...]</p>
+         </div>
+         <div type="commentary">
+            <p>This tomb, which is (or is to become) a heroon (a place for cult of the heroised dead) clearly comprised a number of burial places which may explain the comparatively large funerary fine. The sarcophagus was probably reserved for the owner since the space is rather small for another name at the end of l. 1.</p>
+            <p>The family was probably a notable one, since the text is comparatively unusual (a) in laying more stress on alienation of the tomb than on unauthorised burial or removal of bodies, but see also nos. <ref type="inscription" n="1508" target="130151.xml"/> (=Isik 162), <ref type="inscription" n="1518" target="110052.xml"/> (=Isik 187), <ref type="inscription" n="1543" target="121108.xml"/> (=MAMA 545) and <ref type="inscription" n="1539" target="121107.xml"/> (=MAMA 554); (b) in specifying that the fine is to provide statues of the emperors, but see also <ref type="inscription" n="1510" target="130156.xml"/> (=MAMA 565); (c) in omitting reference to a payment to the successful prosecutor, but for another omission, partially remedied, see l. 6; (d) in introducing the concept of the heroisation of the dead, but see also <ref type="inscription" n="1518" target="110052.xml"/> (=Isik 187) and <ref type="inscription" n="1543" target="121108.xml"/> (=MAMA 545).</p>
+            <p>The stephanephoros is not otherwise attested at present.</p>
+         </div>
+         <div type="bibliography">
+            <p>Published by <bibl n="jmr2003">Isik and Reynolds, no. <citedRange>100</citedRange>
+               </bibl>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

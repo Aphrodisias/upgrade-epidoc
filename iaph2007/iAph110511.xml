@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110511" n="iAph1698 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110511" n="iAph1698 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@ base.</p>
 <head>Date</head>
 <p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><gap reason="lost" extent="3" unit="character"/><unclear reason="damage">ΙΙ</unclear>ΟΣ<gap reason="lost" extent="3" unit="character"/>  <lb n="3"/><gap reason="lost" extent="3" unit="character"/><unclear reason="damage">Ι</unclear>ΚΟΥ <w lemma="ὁ">τοῦ</w> ΤΕ<gap reason="lost" extent="3" unit="character"/>  <lb n="4"/><gap reason="lost" extent="3" unit="character"/><unclear reason="damage">Ε</unclear> <w lemma="οὐδείς">οὐδεὶς</w> ΚΑ<gap reason="lost" extent="3" unit="character"/>  <lb n="5"/><gap reason="lost" extent="3" unit="character"/>  <w lemma="ὁ"><supplied reason="lost">τῆ</supplied><unclear reason="damage">ς</unclear></w>  <w lemma="ἐπιγραφή">ἐπιγραφῆς</w><gap reason="lost" extent="3" unit="character"/>  <lb n="6"/><gap reason="lost" extent="3" unit="character"/><unclear reason="damage">Λ</unclear> <g type="arabesque"/> <gap reason="lost" extent="3" unit="character"/>  </ab>
 </div>
@@ -61,7 +61,6 @@ base.</p>
 <rs type="found"><rs type="monuList">City, North-west</rs>: in field just E. of west wall.</rs>
 <rs type="lastLocation">Museum</rs>
 <rs type="origLocation">Unknown, presumably Necropolis, East</rs>
-<rs type="lastLocation"> </rs>
 </p>
 </div>
 <div type="history" n="text-constituted-from">

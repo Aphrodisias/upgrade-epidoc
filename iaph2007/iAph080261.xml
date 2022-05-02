@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080261" n="iAph0015 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080261" n="iAph0015 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -59,7 +59,7 @@ simple, elongated, shallowly cut; similar to those of <xref type="inscription" n
         <p><date notAfter="0350" exact="none" cert="low" notBefore="0301">First half of the fourth century</date> (<rs type="criteria">lettering</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 <ab><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ομ</unclear>ν</orig><space dim="horizontal" extent="1" unit="character"/><orig n="unresolved"><unclear reason="damage">οι ιιιι</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="2"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><rs type="dignity" key="amicusprinc"><w lemma="φίλος">φίλον</w> <w lemma="ὁ">τῶν</w> <rs type="official-secul" key="princeps"><w lemma="βασιλεύς">βα<supplied reason="lost">σιλέων</supplied></w></rs></rs><gap dim="right" extent="unknown" reason="lost" unit="character"/>
 </ab>

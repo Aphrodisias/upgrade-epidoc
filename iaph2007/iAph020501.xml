@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020501" n="iAph0852 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020501" n="iAph0852 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -50,7 +50,7 @@
 <p>No useful indication</p>
 </div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>    <gap reason="lost" dim="left" unit="character" extent="unknown"/><orig n="unresolved">ω</orig><gap reason="lost" dim="right" unit="character" extent="unknown"/></ab>
 </div>

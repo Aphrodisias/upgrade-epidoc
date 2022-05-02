@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130401" n="iAph1035 ">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130401" n="iAph1035 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -40,7 +40,7 @@
 
 <div type="description" n="letters">
 <head>Description of Letters</head>
-<p><measure type="length" dim="none">0.0225-0.25</measure>; phi <measure dim="height" type="length" unit="metre">0.36</measure></p>
+<p><measure type="length" dim="height">0.0225-0.25</measure>; phi <measure dim="height" type="length" unit="metre">0.36</measure></p>
 </div>
 
 <div type="description" n="date">
@@ -48,7 +48,7 @@
 
 <p> <date notBefore="0001" notAfter="0200" exact="none" cert="low">First to second A.D.</date> <rs type="criteria">lettering</rs></p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="0"/><gap dim="top" extent="unknown" reason="lost" unit="line"/><lb n="1" type="worddiv"/><persName type="aphrodisian" full="yes"><gap extent="5" reason="lost" unit="character" dim="left"/>  <w lemma="υἱός">υἱὸν</w>  <name reg="Ἰουλιανός"><supplied reason="lost" cert="low">Ἰουλια</supplied><lb n="2"/>νὸν</name>  <w lemma="ἥρως">ἥρωα</w></persName>  <w lemma="καί">καὶ</w>  <persName type="aphrodisian" reg="Φλαβία  Ἀπφία  Ἰουλιανή" full="yes"><name reg="Φλαβία">Φλαβ<supplied reason="lost">ί</supplied><lb n="3" type="worddiv"/>αν</name>  <persName type="aphrodisian" full="yes"><name reg="Σέξστος" type="praenomen">Σέξστου</name>  <name reg="Φλάβιος">Φλαβ<supplied reason="lost">ί</supplied><lb n="4" type="worddiv"/>ου</name>  <name reg="Ἰουλιανός">Ἰουλιανοῦ</name>  <name reg="Διογένης">Διογ<supplied reason="lost">έ</supplied><lb n="5" type="worddiv"/>νους</name></persName>  <w lemma="θυγάτηρ">θυγατέρα</w>  <name reg="Ἀπφία">Ἀπφ<supplied reason="lost">ί</supplied><lb n="6" type="worddiv"/>αν</name>  <name reg="Ἰουλιανή">Ἰουλιανὴν</name>  <w lemma="ἡρωίς">ἡρω<lb n="7" type="worddiv"/><space unit="character" extent="4" dim="horizontal"/>        ίδα</w></persName>  <space unit="character" extent="4" dim="horizontal"/><lb n="8"/><w lemma="ὁ">τὰς</w>  <w lemma="δέ">δὲ</w>  <w lemma="τιμή">τειμὰς</w>  <lb n="9"/><w lemma="ἀνατίθημι">ἀνέθεσαν</w>  <persName type="aphrodisian" reg="Σέξτος  Φλάβιος  Ἰουλίανος  Διογένης" full="yes"><name reg="Σέξστος" type="praenomen">Σέξ<lb n="10" type="worddiv"/>στος</name>  <name reg="Φλάβιος">Φλάβιος</name><g type="stop"/>  <persName type="aphrodisian" reg="Σέξτος  Φλάβιος" full="yes"><name reg="Σέξστος" type="praenomen"><expan><abbr>Σέξ</abbr><supplied reason="abbreviation">στου</supplied></expan></name>  <lb n="11"/><name reg="Φλάβιος"><expan><abbr>Φλ</abbr><supplied reason="abbreviation">αβίου</supplied></expan></name></persName>  <w lemma="υἱός">υἱὸς</w>  <name reg="Ἰουλιανός">Ἰουλιανὸς</name>  <name reg="Διογένης">Δι<lb n="12" type="worddiv"/>ογένης</name></persName>  <w lemma="καί">καὶ</w>  <persName type="aphrodisian" reg="Φλαβία  Ἀπφία" full="yes"><name reg="Φλαβία">Φλαβία</name><g type="stop"/>  <persName type="aphrodisian" reg="Τίτος  Φλάβιος  Γαληνός" full="yes"><name reg="Τίτος" type="praenomen"><expan><abbr>Τί</abbr><supplied reason="abbreviation">του</supplied></expan></name>  <lb n="13"/><name reg="Φλάβιος"><expan><abbr>Φλ</abbr><supplied reason="abbreviation">αβίου</supplied></expan></name>  <name reg="Γαληνός">Γαληνοῦ</name></persName>  <w lemma="θυγάτηρ">θυγά<lb n="14" type="worddiv"/>τηρ</w>  <name reg="Ἀπφία">Ἀπφία</name></persName>  <w lemma="ὁ">οἱ</w>  <w lemma="γονεύς">γονεῖς</w>  <lb n="15"/><w lemma="αὐτός">αὐτῶν</w>  <g type="scroll"/>  <space unit="character" extent="4" dim="horizontal"/></ab></div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080276" n="iAph0108 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080276" n="iAph0108 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -39,9 +39,9 @@
       <div type="description" n="monument">
         <head>Description of Monument</head>
         <p>Three <rs type="material" key="marmor">white marble</rs> fragments which join to form two blocks
-of a composite <rs type="objectType">lintel</rs> (H. <measure dim="none">0.15-0.18</measure>, D. <measure dim="none">0.31-0.35</measure>) with moulding along
+of a composite <rs type="objectType">lintel</rs> (H. <measure dim="height">0.15-0.18</measure>, D. <measure dim="height">0.31-0.35</measure>) with moulding along
 the front and the surviving right edge; probably only a small fragment
-is lost to the left—the total surviving W. <measure precision="circa" dim="none">1.50</measure>.</p>
+is lost to the left—the total surviving W. <measure precision="circa" dim="height">1.50</measure>.</p>
       </div>
 
       <div type="description" n="text">
@@ -60,7 +60,7 @@ moulding, which is chipped away above.</p>
         <p><date exact="none" cert="low" notBefore="0801" notAfter="1000">Ninth to tenth centuries A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">metre</rs>)</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <lg><lb n="1"/><l n="1"><w lemma="ἔνθα"><supplied cert="low" reason="lost">ἔνθ'</supplied></w> <w lemma="ὁράω"><supplied reason="lost">ἴ</supplied>δε</w> <w lemma="ναός">ναὸν</w> <w lemma="ὁ"><unclear reason="damage">τ</unclear>ῶν</w> <persName type="divine" key="saint" full="yes"><w lemma="ἅγιος">ἁ<unclear reason="damage">γ</unclear>ίων</w></persName> <persName type="divine" key="martyrs" full="yes"><w lemma="μάρτυς">μαρ<unclear reason="damage">τ</unclear>ύρων</w></persName></l><l n="2"><persName type="divine" key="Barbara" full="yes"><name reg="Βαρβάρα">Βα<unclear reason="damage">ρ</unclear>βα<unclear reason="damage">ρ</unclear>ας</name></persName> <w lemma="τε">τε</w> <w lemma="φημί">φῆμι</w> <w lemma="καί">κ<supplied reason="lost">αὶ</supplied></w> <persName key="Anastasia" type="divine" full="yes"><name reg="Ἀναστασία"><supplied reason="lost">Ἀ</supplied>ναστασίας</name></persName> <g type="cross"/><space dim="horizontal"/></l></lg>
 </div>

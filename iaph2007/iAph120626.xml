@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120626" n="iAph0856 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120626" n="iAph0856 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -48,7 +48,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
 (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><cb n="text a"/><lb n="0"/><gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/><gap reason="lost" extent="15" unit="character"/><orig n="unresolved"><unclear reason="damage">ν</unclear></orig>  <space unit="character" extent="1"/><lb n="1a"/>  <space extent="3" unit="character" dim="horizontal"/>  <lb n="2"/><w lemma="προνοέομαι"><supplied reason="lost">ἐπιμελησα</supplied>μένου</w>  <lb n="3"/><w lemma="ὁ"><supplied reason="lost">τῆς</supplied></w>  <w lemma="ἀνάστασις"><supplied reason="lost">ἀνα</supplied>στάσεως</w>  <lb n="4"/><supplied reason="lost">τοῦ</supplied>  <w lemma="ἀξιόλογος"><supplied reason="lost">ἀ</supplied><unclear reason="damage">ξ</unclear>ιολογωτά  <lb type="worddiv" n="5"/><g type="scroll"/>του</w> <g type="scroll"/> <lb n="6"/><persName type="aphrodisian"><name reg="Αἰνείας"><unclear reason="damage">Α</unclear>ἰνείου</name></persName> <w lemma="ὁ">τοῦ</w> <w lemma="πρῶτος">πρώ<lb type="worddiv" n="7"/><supplied reason="lost">το</supplied>ῦ</w> <w lemma="ἄρχων">ἄρχοντος</w> <w lemma="ὁ">τῆς</w> <lb n="8"/><space extent="3" unit="character" dim="horizontal"/> <w lemma="πόλις">πόλεως</w> <g type="stop"/> <w lemma="ὁ">τὸ</w> <g type="stop"/> <num value="2">β</num> <g type="stop"/>  <lb n="8a"/>  <space extent="3" unit="character" dim="horizontal"/></ab><ab>  <cb n="text b"/><lb n="1"/> <space extent="6"/> <orig n="unresolved">ε</orig> <space extent="6"/> </ab>
 </div>

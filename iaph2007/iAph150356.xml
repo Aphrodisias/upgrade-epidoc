@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150356" n="iAph0171 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150356" n="iAph0171 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -56,7 +56,7 @@ scroll on lower arm for <foreign lang="grc">καὶ</foreign>.</p>
         <p><date exact="none" cert="low" notBefore="0401" notAfter="0600">Fifth to sixth centuries</date> or later (<rs type="criteria">dating</rs>, <rs type="criteria">lettering</rs>).</p>
       </div>
 
-      <div type="edition" lang="grc">
+      <div type="edition" lang="grc" xml:space="preserve">
         <head lang="en">Edition</head>
         
         <div type="textpart_section" n="a"><ab>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010202" n="iAph0047 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010202" n="iAph0047 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -38,7 +38,7 @@
 
       <div type="description" n="monument">
         <head>Description of Monument</head>
-        <p>Forty-eight fragments, of which a few join, of <rs type="material" key="marmor">white marble</rs> <rs type="objectType">revetment</rs> panelling: thickness av. <measure type="length" dim="none">0.025</measure>.</p>
+        <p>Forty-eight fragments, of which a few join, of <rs type="material" key="marmor">white marble</rs> <rs type="objectType">revetment</rs> panelling: thickness av. <measure type="length" dim="height">0.025</measure>.</p>
       </div>
 
       <div type="description" n="text">
@@ -56,7 +56,7 @@
         <p><date notBefore="0401" notAfter="0500" exact="none">?Fifth century</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <div type="textpart_fragment" n="a"><ab>
 		<lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/> <persName key="Eustochius" type="aphrodisian" full="yes"><name reg="Εὐστόχιος"><supplied reason="lost">Εὐσ</supplied><unclear reason="damage">τ</unclear>όχιο<unclear reason="damage">ς</unclear></name></persName> <orig n="unresolved"><unclear reason="damage">ψ</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/>

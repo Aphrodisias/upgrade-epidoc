@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph060004" n="iAph0235 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph060004" n="iAph0235 ">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,7 +46,7 @@
             <p><date exact="both" cert="low" notBefore="0365" notAfter="0370">A.D. 365/370</date> (<rs type="criteria">prosopography</rs>).</p>
          </div>
 
-         <div n="text" lang="grc" type="edition">
+         <div n="text" lang="grc" type="edition" xml:space="preserve">
             <head lang="en">Edition</head>
             <ab>
               <lb n="1"/><persName key="FlConstantius" reg="Φλάβιος Κωνστάντιος" type="aphrodisian" full="yes"><name reg="Φλάβιος"><supplied reason="lost"><expan><abbr>Φλ</abbr><supplied reason="abbreviation">άβιος</supplied></expan></supplied></name> <name reg="Κωνστάντιος"><supplied reason="lost">Κ</supplied><unclear reason="damage">ω</unclear>νστάντιος</name></persName>

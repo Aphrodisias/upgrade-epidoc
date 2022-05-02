@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph030101" n="iAph0545 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph030101" n="iAph0545 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -48,7 +48,7 @@
 
 <p>  Statue base i: <date notAfter="-0015" notBefore="-0023" exact="both">Augustan</date> (<rs type="criteria">lettering</rs>).  Statue base ii: <date exact="both" notAfter="0037" notBefore="0014">Tiberian</date> (<rs type="criteria">lettering</rs>).</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph070001" n="iAph1816 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph070001" n="iAph1816 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -47,7 +47,7 @@
 <date notAfter="0600" notBefore="0001">First to sixth centuries A.D.</date> (<rs type="criteria">lettering</rs>)
 </p>
 </div>
-<div type="edition" n="text" lang="grc">
+<div type="edition" n="text" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">ιτ</orig></ab>
 </div>

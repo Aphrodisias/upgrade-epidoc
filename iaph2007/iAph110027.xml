@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110027" n="iAph1337 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110027" n="iAph1337 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -41,7 +41,7 @@
 <head>Date</head>
 <p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <persName type="aphrodisian"><name reg="Διονύσιος"><supplied reason="lost" cert="low">Διον</supplied>υσίου</name> <name>Το<gap reason="lost" extent="unknown" unit="character" dim="right"/></name></persName> <lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <w lemma="ἕτερος"><supplied reason="lost">ἕτερος</supplied></w>  <w lemma="δέ"><supplied reason="lost">δ</supplied>ὲ</w> <w lemma="οὐδείς">οὐδεὶς</w> <lb n="3"/><supplied reason="lost">ἕξει</supplied>  <supplied reason="lost">ἐξουσίαν</supplied><note place="not  specified" anchored="yes">e.g. <supplied reason="lost"><foreign lang="grc"><w lemma="ἐνθάπτω">ἐνθάψαι</w> <w lemma="τις">τινα</w></foreign> <gap extent="unknown" reason="lost" unit="character"/> <foreign lang="grc"><w lemma="ἐπεί">ἐπει</w></foreign> <foreign lang="grc"><w lemma="ὅστις">ὁστις</w> <w lemma="ἐναντίος">ἐναντίον</w> <w lemma="τις">τι</w> <w lemma="ποίησις">ποιήση</w> <w lemma="ἀπό">ἀπο</w> <w lemma="τίνω">τείσει</w> <w lemma="ὁ">τῷ</w> <w lemma="ἱερωτός">ἱερωτά</w></foreign></supplied></note> <w lemma="ὁ"><supplied reason="lost">τῷ</supplied></w>  <w lemma="ταμεῖον"><supplied reason="lost">ταμε</supplied>ίῳ</w>  <w lemma="δηνάριον"><expan><abbr><orig><g type="denarius"/></orig></abbr><supplied reason="abbreviation">δηνάρια</supplied></expan></w>  <num value="1000">α</num> <w lemma="εἰμί">ὧν</w> <lb n="3a"/><w lemma="ὁ"><supplied reason="lost">τό</supplied></w>  <w lemma="τριτός"><supplied reason="lost">τριτόν</supplied></w> <w lemma="μέρος"><supplied reason="lost">μέρος</supplied></w> <w lemma="εἰμί"><supplied reason="lost">ἔσται</supplied></w> <w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w> <w lemma="ἐκδικέω"><supplied reason="lost">ἐκδικήσαντος</supplied></w>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  </ab>
 </div>

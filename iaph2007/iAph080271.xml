@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080271" n="iAph0221 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080271" n="iAph0221 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -61,7 +61,7 @@ and <term>epsilon</term>; scroll from bar for abbreviation.</p>
         <p><date notBefore="0401" notAfter="0600" exact="none">Fifth or sixth century</date>.</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab><lb n="1"/> <unclear reason="damage">ς</unclear> <space dim="horizontal"/><lb n="2"/><gap dim="left" reason="lost" extent="unknown" unit="character"/>ω <space dim="horizontal"/><lb n="3"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ρ</unclear>ο<unclear reason="damage">σ</unclear></orig> <space dim="horizontal"/><lb n="4"/><gap dim="left" reason="lost" extent="unknown" unit="character"/> <w lemma="ἐννέα"><supplied reason="lost">ἐν</supplied>νέα</w> <w lemma="καί"><expan><abbr>κ</abbr><supplied reason="abbreviation">αὶ</supplied></expan></w> <w lemma="δέκα">δέκα</w><lb n="5"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ιιι</unclear>ην<unclear reason="damage">ι</unclear></orig><gap dim="right" extent="2" unit="character" reason="lost"/><lb n="6"/><gap dim="bottom" extent="1" unit="line" reason="lost"/></ab>
       </div>

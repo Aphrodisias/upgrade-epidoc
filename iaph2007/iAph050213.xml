@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050213" n="iAph1205 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph050213" n="iAph1205 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -20,7 +20,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -33,7 +33,7 @@
 </div>
 <div type="description" n="letters">
 <head>Letters</head>
-<p>ll.1, 3, <measure dim="none">0.055</measure>; l.2, <measure dim="none">0.06</measure></p>
+<p>ll.1, 3, <measure dim="height">0.055</measure>; l.2, <measure dim="height">0.06</measure></p>
 </div>
 <div type="description" n="date">
 <head>Date</head>
@@ -41,7 +41,7 @@
 <date notBefore="0151" notAfter="0200">Second half of second century A.D.</date>
 (<rs type="criteria">lettering</rs>, <rs type="criteria">monument group</rs>, <rs type="criteria">prosopography</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/><w><gap dim="top" extent="unknown" reason="lost" unit="line"/><lb n="1" type="worddiv"/>  α</w> <w lemma="θυγάτηρ">θυγάτηρ</w> <lb n="2"/> <w lemma="πόλις">πόλεως</w> <lb n="3"/> <w lemma="ὁ">τῇ</w> <w lemma="πατρίς">Πατρίδι</w></ab>
 </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010184" n="iAph1344 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010184" n="iAph1344 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 Unlikely to be earlier than <date notAfter="0300" notBefore="0201">third century A.D.</date>
  (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <persName type="aphrodisian"><name reg="Χρυσάφιος">Χρυσ<supplied reason="lost">α</supplied><lb n="2" type="worddiv"/>φίου</name></persName>  <w lemma="ἀρχιατρός">ἀ<supplied reason="lost">ρ</supplied><lb n="3" type="worddiv"/>χιατρ<unclear reason="damage">ο</unclear><supplied reason="lost">ῦ</supplied></w></ab>
 </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph100029" n="iAph0747 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph100029" n="iAph0747 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -23,7 +23,7 @@
 <textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
 <revisionDesc>
 <change><date>2007-03-26</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
-<change><date>2007-3-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+<change><date>2007-03-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
 </revisionDesc></teiHeader><text>
 <body>
 <div type="description" n="monument">
@@ -44,7 +44,7 @@
 <date notBefore="0101" notAfter="0600" exact="none">Second to sixth centuries A.D.</date> (<rs type="criteria">context</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_section" n="O"><note>Design, circle, type C2.</note></div><div type="textpart_section" n="S"><ab><lb n="1"/>
 <g type="steps"/><milestone unit="block"/> <gap extent="1" unit="character" reason="lost"/> <milestone unit="block"/> <gap extent="1" unit="character" reason="lost"/> <milestone unit="block"/> <gap extent="1" unit="character" reason="lost"/> <milestone unit="block"/> <placeName type="ethnic" reg="Ἀντιοχεύς"><supplied reason="lost" cert="low">Ἀ</supplied><milestone unit="block"/><unclear reason="damage">ν</unclear><milestone unit="block"/>τ<milestone unit="block"/>ι<milestone unit="block"/><unclear reason="damage">ο</unclear><milestone unit="block"/>χ<milestone unit="block"/>ε<milestone unit="block"/><supplied reason="lost">ί</supplied><milestone unit="block"/>ω<milestone unit="block"/>ν</placeName><milestone unit="block"/> <g type="steps"/></ab></div><div type="textpart_section" n="Z"><ab>

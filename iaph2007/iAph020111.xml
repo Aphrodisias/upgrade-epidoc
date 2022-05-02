@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020111" n="iAph0817 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020111" n="iAph0817 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -54,7 +54,7 @@
 </p>
 </div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <w lemma="ὁ">ἡ</w>  <w lemma="βουλή">Βουλὴ</w>  <w lemma="ὁ">τὸν</w>  <w lemma="δῆμος">Δῆμ<supplied reason="lost">ον</supplied></w>  </ab>
 </div>

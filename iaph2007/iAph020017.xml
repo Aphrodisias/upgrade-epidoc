@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020017" n="iAph1718 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020017" n="iAph1718 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notAfter="0250" notBefore="0200"> Early third century A.D.</date> (<rs type="criteria">prosopography</rs>, <rs type="criteria">lettering</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <space extent="3"/><w lemma="ὁ">ἡ</w> <w lemma="πατρίς">πατρίς</w><space extent="3"/> <lb n="2"/><persName type="aphrodisian"><name reg="Λούκιος" type="praenomen"><expan><abbr>Λ</abbr><supplied reason="abbreviation">ούκιον</supplied></expan></name>  <name reg="Ἀντώνιος"><expan><abbr>Ἀντ</abbr><supplied reason="abbreviation">ώνιον</supplied></expan></name>  <name reg="Κλαύδιος"><expan><abbr>Κλ</abbr><supplied reason="abbreviation">αύδιον</supplied></expan></name>  <name reg="Δομετῖνος">Δο<lb n="3" type="worddiv"/>μετεῖνον</name>  <lb n="4"/><name reg="Διογένης">Διογένην</name></persName>  <lb n="5"/> <w lemma="ὁ">τὸν</w> <w lemma="νομοθέτης">νομοθέ<lb n="6" type="worddiv"/>την</w> <w lemma="πατήρ">πατέρα</w> <lb n="7"/> <w lemma="καί">καὶ</w> <w lemma="πάππος">πάππον</w> <lb n="8"/><w lemma="συνκλητικός">συνκλητι<lb n="9" type="worddiv"/><space extent="3"/>κῶν</w>    <space extent="3" unit="character" dim="horizontal"/>  <lb n="9a"/><space extent="12"/> <lb n="10"/> <w lemma="ὁ">τῆς</w> <w lemma="ἀνάστασις">ἀναστάσε<lb n="11" type="worddiv"/>ως</w> <w lemma="ὁ">τοῦ</w> <w lemma="ἀνδρίας">ἀνδριάν<lb n="12" type="worddiv"/>τος</w>  <w lemma="προνοέομαι">προνοησα<lb n="13" type="worddiv"/>μένου</w>  <persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen"><expan><abbr>Τιβ</abbr><supplied reason="abbreviation">ερίου</supplied></expan></name>  <name reg="Κλαύδιος"><expan><abbr>Κλ</abbr><supplied reason="abbreviation">αυδίου</supplied></expan></name>  <lb n="14"/><name reg="Κτησίας">Κτησίου</name></persName>  <w lemma="πρεσβύτερος">πρεσβυ<lb n="15" type="worddiv"/>τέρου</w>  <w lemma="ποιέω">ποιησαμέ<lb n="16" type="worddiv"/>νου</w> <w lemma="δέ">δὲ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὸν</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="17"/> <w lemma="βωμός">βωμὸν</w> <w lemma="αὐτός">αὐτῷ</w> <w lemma="καί">καὶ</w> <lb n="18"/> <w lemma="ὁ">τὰ</w> <w lemma="λοιπός">λοιπὰ</w> <w lemma="παρά">παρ'</w> <w lemma="ἑαυτοῦ">ἑ<lb n="19" type="worddiv"/>αυτοῦ</w>    <space extent="3" unit="character" dim="horizontal"/>.  </ab>
 </div>

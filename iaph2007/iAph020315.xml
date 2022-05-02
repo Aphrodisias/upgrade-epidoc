@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020315" n="iAph0162 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020315" n="iAph0162 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -51,7 +51,7 @@ corner.</p>
         <p><date exact="none" cert="low" notBefore="0401" notAfter="0600">Fifth to sixth centuries A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">metre</rs>).</p>
       </div>
 
-      <div type="edition" lang="grc">
+      <div type="edition" lang="grc" xml:space="preserve">
         <head lang="en">Edition</head>
 		<lg><lb n="1"/><l><supplied reason="lost" cert="low"><w lemma="καί">κὲ</w></supplied> <w lemma="ἐν"><supplied reason="lost">ἐ</supplied><unclear reason="damage">ν</unclear></w> <w lemma="ἔργον">ἔργοις</w><lb n="2"/><w lemma="καί">κὲ</w> <w lemma="ἐν">ἐν</w> <w lemma="πᾶς">πᾶσι</w> <w lemma="τιμητός">τι<lb n="3" type="worddiv"/>μητὸν</w> <w lemma="βίος">βίον</w><lb n="4"/><w lemma="καταλείπω">κατέλιπεν</w></l></lg><ab><lb n="5"/><persName key="arcimus1" type="aphrodisian" full="yes"><name reg="Ἄρκιμος">Ἄρκιμος</name> <w lemma="ὁ">ὁ</w> <persName type="aphrodisian" key="damocharis1" full="yes"><name reg="Δαμόχαρις">Δα<lb n="6" type="worddiv"/>μοχάριδος</name></persName></persName><lb n="7"/><g type="leaf"/></ab>
       </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph040017" n="iAph0204 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph040017" n="iAph0204 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -31,7 +31,7 @@
   <respStmt><name>CMR</name></respStmt>
   <item>tagged, lemmatised and corrected</item>
   </change>
-  <change><date>2004-03-8</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <change><date>2004-03-08</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
   <text>
     <body>
 
@@ -42,7 +42,7 @@
 
       <div type="description" n="text">
         <head>Description of Text</head>
-        <p><measure type="length" dim="none">1.33</measure> from base.</p>
+        <p><measure type="length" dim="height">1.33</measure> from base.</p>
       </div>
 
       <div type="description" n="letters">
@@ -55,7 +55,7 @@
         <head>Date</head>
       <p><date cert="low" notBefore="0401" notAfter="0600">Fifth-sixth century</date> or later (<rs type="criteria">location</rs>)</p></div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab> <lb n="1"/><persName key="theoctistus1" type="aphrodisian" full="yes"><name reg="Θεόκτιστος"><expan><abbr>Θεοκ</abbr><supplied reason="abbreviation">τίστου</supplied></expan></name></persName> </ab>
       </div>

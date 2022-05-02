@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150260" n="iAph1758 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150260" n="iAph1758 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notAfter="0100" notBefore="0001"> First century A.D.</date>
 (prosopography)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <persName type="aphrodisian"><name reg="Ἀτταλίς"><supplied reason="lost">Ἀ</supplied><unclear reason="damage">τταλίδ</unclear>α</name>  <persName type="aphrodisian"><name reg="Μενεκράτης">Μενεκράτ<supplied reason="lost">ους</supplied></name>  <lb n="2"/> <w lemma="ὁ"><unclear reason="damage">τ</unclear>οῦ</w> <persName type="aphrodisian"><name reg="Ἄνδρων">Ἄνδρωνος</name></persName></persName> <name reg="Ἄπφιος">Ἄπφιο<supplied reason="lost">ν</supplied></name></persName>  <lb n="3"/> <w lemma="ἀρχιέρεια"><unclear reason="damage">ἀ</unclear>ρχιέρειαν</w> <w lemma="καί">καὶ</w> <w lemma="ἱέρεια">ἱέρειαν</w> </ab>
 </div>

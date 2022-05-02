@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110407" n="iAph1109 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110407" n="iAph1109 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -21,7 +21,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2007-07-23</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2007-07-23</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -34,7 +34,7 @@
 <p><measure dim="height" type="length" unit="metre">0.095–0.10</measure>.</p>
 </div><div type="description" n="date"><head>Date</head><p><date cert="low" exact="none" notBefore="0067" notAfter="0100">Late first century A.D.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><space extent="1" unit="character" dim="horizontal"/>  <w lemma="ὁ">τὴν</w>  <w lemma="στοά">στοὰν</w>  <persName type="divine" full="yes"><name reg="Ἀφροδίτη">Ἀφ<unclear reason="damage">ρ</unclear><supplied reason="lost">οδίτῃ</supplied></name></persName>  <gap dim="right" extent="unknown" reason="lost" unit="character"/></ab>
 </div>

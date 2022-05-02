@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010130" n="iAph0314 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010130" n="iAph0314 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -41,7 +41,7 @@
 
 <div type="description" n="letters">
 <head>Description of Letters</head>
-<p>l. 1,  <measure dim="none">0.025</measure>; l. 2,  <measure dim="none">0.04</measure>; ll. 3-5,  <measure dim="none">0.035</measure>; l. 6,  <measure dim="none">0.03</measure>; omicron ?added as an afterthought in l. 3.. dots for stops, and for abbreviation: so either side of Τ and Φ (ll. 3 and 4)</p>
+<p>l. 1,  <measure dim="height">0.025</measure>; l. 2,  <measure dim="height">0.04</measure>; ll. 3-5,  <measure dim="height">0.035</measure>; l. 6,  <measure dim="height">0.03</measure>; omicron ?added as an afterthought in l. 3.. dots for stops, and for abbreviation: so either side of Τ and Φ (ll. 3 and 4)</p>
 </div>
 
 <div type="description" n="date">
@@ -49,7 +49,7 @@
 
 <p><date exact="none" notBefore="0067" notAfter="0133">Late first to early second centuries A.D.</date> (<rs type="criteria">nomenclature</rs> and <rs type="criteria">lettering</rs>)</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="1"/><space unit="character" extent="1" dim="horizontal"/>  <w lemma="ζάω">ζῶσιν</w><space unit="character" extent="1" dim="horizontal"/><lb n="2"/> <w lemma="ὁ">ὁ</w> <w lemma="πλάτας">πλάτας</w> <g type="stop"/><w lemma="εἰμί">ἐσ<lb n="3" type="worddiv"/>τιν</w>  <g type="stop"/><persName type="aphrodisian" full="yes"><name reg="Τίτος" type="praenomen"><expan><abbr>Τ</abbr><supplied reason="abbreviation">ίτου</supplied></expan></name>  <g type="stop"/>  <name reg="Φλάβιος"><expan><abbr>Φ</abbr><supplied reason="abbreviation">λαβίου</supplied></expan></name>  <g type="stop"/>  <name reg="Θρέπτος">Θρέπτου</name></persName><lb n="4"/> <w lemma="καί">καὶ</w> <g type="stop"/>  <persName type="aphrodisian" full="yes"><name reg="Τίτος" type="praenomen"><expan><abbr>Τ</abbr><supplied reason="abbreviation">ίτου</supplied></expan></name>  <g type="stop"/>  <name reg="Φλάβιος"><expan><abbr>Φ</abbr><supplied reason="abbreviation">λαβίου</supplied></expan></name>  <g type="stop"/>  <name reg="Ἀρίστων">Ἀρίστω<lb n="5" type="worddiv"/>νος</name>  <name reg="Διογενιανός">Διογενι<lb n="6" type="worddiv"/><space unit="character" extent="1" dim="horizontal"/>ανοῦ</name></persName>  <space unit="character" extent="1" dim="horizontal"/></ab>

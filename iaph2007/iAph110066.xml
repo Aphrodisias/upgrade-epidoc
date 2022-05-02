@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110066" n="iAph0010 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110066" n="iAph0010 ">
   <teiHeader><fileDesc>
       <titleStmt>
         <title><rs type="textType">Dedication</rs> by Flavius Eusebios</title>
@@ -50,7 +50,7 @@ slightly concave (together, <measure type="length" unit="metre" dim="height">1.3
         <p><date notAfter="0350" exact="none" cert="low" notBefore="0326">Second quarter of the fourth century</date> (<rs type="criteria">titulature</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab>
 		<lb n="1"/><persName key="God" type="divine" full="yes"><w lemma="θεός"><del status="unremarkable"><gap dim="left" extent="1" unit="character" reason="lost"/></del><add place="overstrike">Θε</add><del status="unremarkable"><gap extent="1" unit="character" reason="lost"/></del>ῷ</w> <w lemma="ἐπήκοος">ἐπηκόῳ</w></persName> <persName type="aphrodisian" key="eusebius1" full="yes"><name reg="Φλάβιος"><expan><abbr>Φλ</abbr><supplied reason="abbreviation">άβιος</supplied></expan></name>

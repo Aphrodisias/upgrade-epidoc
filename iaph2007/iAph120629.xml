@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120629" n="iAph1412 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120629" n="iAph1412 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -41,7 +41,7 @@
 <head>Date</head>
 <p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_column" n="i"><note>To left of head</note><ab><lb n="1"/><del rend="erasure"><gap reason="illegible" extent="4" unit="character"/></del><lb n="2"/><del rend="erasure"><gap reason="illegible" extent="4" unit="character"/></del><lb n="3"/><w lemma="ἐμποριάρχης">ἐνπο<lb n="4" type="worddiv"/>ριαρχης</w></ab></div><div type="textpart_column" n="ii"><note>To right of head</note><ab><lb n="1"/>   <w lemma="ὁ">τῇ</w>  <w lemma="συντεχνία">συν<lb n="2" type="worddiv"/>τεχνί<lb n="3" type="worddiv"/>ᾳ</w>   <w lemma="ὁ">τῶν</w> <w lemma="λινουργός">λι<lb n="4" type="worddiv"/>νουργῶ<lb n="5" type="worddiv"/><space extent="2"/>ν</w>    <lb n="6"/><note>Below bust</note> <w lemma="καί">καὶ</w> <w lemma="ὁ">τοῖς</w> <w>παρό<lb n="7" type="worddiv"/><note>sic</note> δοις</w> <w lemma="χαιρέω">χαιρει</w></ab></div>
 </div>

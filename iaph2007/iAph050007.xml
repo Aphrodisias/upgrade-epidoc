@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050007" n="iAph1185 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph050007" n="iAph1185 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -21,7 +21,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -42,7 +42,7 @@
 <date notBefore="0134" notAfter="0166" exact="none">Mid second century A.D.</date>
 (<rs type="criteria">lettering</rs>, <rs type="criteria">monument group</rs>, <rs type="criteria">prosopography</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <persName type="aphrodisian" full="yes"><name reg="Ἀτταλίς">Ἀτταλὶς</name>  <persName type="aphrodisian" full="yes"><name reg="Μηνόδοτος"><hi rend="ligature">Μη</hi><lb n="2" type="worddiv"/>νοδότου</name>    <space extent="1" unit="character" dim="horizontal"/>  <lb n="3"/><w lemma="ὁ">τοῦ</w>  <persName type="aphrodisian"><name reg="Νεικόμαχος">Νεικομά<lb n="4" type="worddiv"/>χου</name></persName></persName></persName>  <w lemma="ἀρχιερεύς">ἀρχιερέ  <space extent="1" unit="character" dim="horizontal"/>  <lb n="5" type="worddiv"/>ως</w> <w lemma="ἱέρεια">ἱέρεια</w> <persName type="divine" full="yes"><w lemma="ἀρετή">Ἀρε<lb n="6" type="worddiv"/>τῆς</w></persName> <w lemma="ὁ">τῷ</w> <w lemma="δῆμος">Δήμῳ</w></ab>
 </div>

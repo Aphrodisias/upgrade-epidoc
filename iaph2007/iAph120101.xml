@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120101" n="iAph0022 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120101" n="iAph0022 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -72,7 +72,7 @@ ii (and i.b): <date notAfter="0467" exact="none" cert="low" notBefore="0434">Mid
 (<rs type="criteria">titulature</rs>, <rs type="criteria">prosopography</rs>).</p>
 
 </div>
-<div lang="grc" n="text" type="edition">
+<div lang="grc" n="text" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <div type="textpart_section" n="i"><div type="textpart_section" n="a"><ab><lb n="1"/>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Honours for <seg cert="low">Andreas</seg>, son of Androneikianos, boy runner</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph110222</idno>
+            <idno type="IAph2007">iAph110222</idno>
+            <idno type="JMR2004">iAph0680</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>A plain <objectType>statue base</objectType> shaft (<height unit="metre">1.00</height> x <width unit="metre">0.365</width> x <depth unit="metre">0.335</depth>) with a recessed edge. The upper edge survives.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> (A) on the face, and (B) on the right side. The first element of the victor's name must therefore have been inscribed on a crowning feature.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>A. Letters standard second-/third-century forms, <height unit="metre">0.03</height>; the cutter has overrun the limits of the raised panel in ll.6-9, 11. Ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΕ</foreign>, l.7; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΕ</foreign>, l.9; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ</foreign>, l.10; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΜ</foreign>, l.12. B. A graffito, lunate letters; ll.1-2, <height unit="metre">0.035</height>; ll.3-6, <height unit="metre">0.01-0.02</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Unknown</rs>
+                     </origPlace>
+                     <origDate notBefore="0185" notAfter="0195" precision="medium">
+ A.D. 190
+(<rs type="criteria">contests</rs>).</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">excavation of the <rs type="monuList">City, Water Channel area</rs>
+                     </rs>
+                  </provenance>
+                  <provenance type="observed">
+                     <rs type="lastLocation">Museum</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType" key="cetera">Agonistic</rs>
+               </term>
+               <term>
+                  <rs type="textType">Honours</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2007-01-17" who="Charlotte-Tupman">hand tidied</change>
+         <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
+         <change when="2007-01-01" who="GB">hand tidied</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+<ab part="N" type="scroll"><cb n="a"/>  <lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/> <persName type="attested"><persName type="attested"><name nymRef="#Ἀνδρονεικιανός">Ἀνδρονεικι<lb n="2" break="no"/>ανοῦ</name></persName>  <g ref="#stop"/> <w lemma="υἱός">ὑιὸν</w> <g/> <lb n="3"/> <name nymRef="#Ἀνδρέας">Ἀνδρέαν</name></persName> <space extent="3" unit="character" dim="horizontal"/>  <lb n="4"/> <w lemma="νικάω">νεικήσαν<lb n="5" break="no"/>τα</w>  <w lemma="παῖς">παίδων</w> <lb n="6"/> <w lemma="στάδιον">στάδιον</w> <w lemma="ὁ">τῷ</w> <lb n="7"/> <w lemma="ἐπιτελέω">ἐπιτελεσθέν<lb n="8" break="no"/>τι</w> <w lemma="ἀγών">ἀγῶνι</w> <w lemma="ὁ">τῆς</w> <lb n="9"/> <w lemma="τρίτος">τρίτης</w> <w lemma="τετραετηρίς">τετραε<lb n="10" break="no"/>τηρίδος</w> <w lemma="Ἀφροδεισίηα">Ἀφρο<lb n="11" break="no"/><space extent="3" unit="character" dim="horizontal"/>δεισιήων</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="12"/> <w lemma="Φιλημονίηον">Φιλημονιήων</w></ab><ab part="N" type="scroll"> <cb n="b"/> <lb n="1"/> <orig n="unresolved">λ</orig> <lb n="2"/> <orig n="unresolved">ο</orig> <lb n="2a"/>  <space extent="3" unit="character" dim="horizontal"/>  <lb n="3"/><persName type="attested"><name nymRef="#Φίλιππος">Φί<unclear reason="damage">λ</unclear>ι  <lb n="4" break="no"/>πος</name></persName>  <orig n="unresolved"><unclear reason="damage">ευ</unclear></orig>  <lb n="5"/>  <orig n="unresolved">κα</orig> <gap reason="lost" extent="4" unit="character"/> <orig n="unresolved">σσι</orig> <lb n="6"/><orig n="unresolved">σ<unclear reason="damage">θε</unclear></orig> <space unit="character" extent="1"/> <orig n="unresolved">μονοσ<unclear reason="damage">ι</unclear></orig></ab>
+</div>
+         <div type="apparatus">
+            <p>... </p>
+         </div>
+         <div type="translation">
+            <p>A. [ - - ]Andreas, son of Androneikianos, who won the boys' running-race in the contest celebrated for the third four-year occurrence of the Aphrodeisiea Philemoniea.</p>
+            <p>B. Only the name Philippos can be made out; it seems likely that l.6 includes a reference to the name Molossos, or a derivative.</p>
+         </div>
+         <div n="notyet" type="commentary">
+            <p> ...</p>
+         </div>
+         <div type="bibliography">
+            <p>Published by <bibl n="PPA">Roueché, PPA <citedRange>80</citedRange>
+               </bibl>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120030" n="iAph1025 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120030" n="iAph1025 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -40,7 +40,7 @@
 
 <div type="description" n="letters">
 <head>Description of Letters</head>
-<p><measure type="length" dim="none">0.02-0.025</measure>; dots for stops; stops for abbreviation; <foreign lang="grc">ΗΜ</foreign> in ligature, l. 4; from l. 4 letters get smaller and rather more closely squeezed together.</p>
+<p><measure type="length" dim="height">0.02-0.025</measure>; dots for stops; stops for abbreviation; <foreign lang="grc">ΗΜ</foreign> in ligature, l. 4; from l. 4 letters get smaller and rather more closely squeezed together.</p>
 </div>
 
 <div type="description" n="date">
@@ -48,7 +48,7 @@
 
 <p><date exact="none" notAfter="0233" notBefore="0167">Later second/early third century A.D.</date> (<rs type="criteria">lettering</rs> and <rs type="criteria">nomen</rs>)</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="0"/><supplied reason="lost" cert="low"><w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w></supplied><lb n="1"/><supplied reason="lost"><w lemma="καί">καὶ</w> <w lemma="ὁ">ἡ</w> γε</supplied>ρουσία  <w lemma="τιμάω">ἐτ<unclear reason="damage">ε</unclear><supplied reason="lost">ί</supplied><lb n="2" type="worddiv"/><supplied reason="lost">μησεν</supplied></w> <w lemma="καί">καὶ</w> <w lemma="μεταλλάζω">μετηλ  <space unit="character" extent="1" dim="horizontal"/><lb n="3" type="worddiv"/><supplied reason="lost">λακχότ</supplied><unclear reason="damage">α</unclear></w>  <g type="stop"/> <persName type="aphrodisian"><name reg="Αἴλιος">Αἴλιον</name> <g type="stop"/> <name reg="Κλαύδιος"><expan><abbr>Κλ</abbr><supplied reason="abbreviation">αύδιον</supplied></expan></name> <g type="stop"/><lb n="4"/><gap extent="6" dim="left" reason="lost" unit="character"/> <persName type="aphrodisian"><name reg="Ἀγ̣αθήμεροs"><supplied reason="lost">Ἀ</supplied><unclear reason="damage">γ</unclear>̣αθ<hi rend="ligature">ημ</hi>έρου</name></persName></persName>  <lb n="5"/><w lemma="υἱός"><supplied reason="lost">υἱὸν</supplied></w>  <gap extent="18" dim="left" reason="lost" unit="character"/>  <gap extent="1" reason="illegible" unit="character"/> <w lemma="ζάω">ζήσαντα</w> <lb n="6"/><supplied reason="lost" cert="low">κοσμίως  <w lemma="καί">καὶ</w></supplied>  <w lemma="ἐνάρετος"><supplied reason="lost">ἐ</supplied><unclear reason="damage">ν</unclear>αρέτως</w>  <lb n="7"/><gap extent="14" dim="left" reason="lost" unit="character"/>  <gap extent="1" reason="illegible" unit="character"/>  <orig n="unresolved">υποτε</orig>  <lb n="8"/><gap extent="18" dim="left" reason="lost" unit="character"/><orig n="unresolved">πι</orig>  <space unit="character" extent="1" dim="horizontal"/><lb n="8a"/><gap dim="bottom" extent="unknown" reason="lost" unit="line"/></ab>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010012" n="iAph0092 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010012" n="iAph0092 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -63,7 +63,7 @@
         <p><date notAfter="0600" exact="none" notBefore="0401">Fifth to sixth centuries A.D.</date> (<rs type="criteria">location</rs>, <rs type="criteria">script</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab>
 		<lb n="1"/><persName key="Gabriel" type="divine" full="yes"><num><gap dim="left" reason="lost" extent="unknown" unit="character"/><unclear reason="damage">ι</unclear>ὴλ</num></persName> <w lemma="βοηθέω">βοήθησον</w> <w lemma="ὁ">τοῖς</w> <w lemma="δοῦλος">δούλοις</w> <w lemma="σύ">σου</w> <persName type="aphrodisian" key="theodoretus1" full="yes"><name reg="Θεοδώρητος">Θεοδωρήτῳ</name></persName> <w lemma="καί"><expan><abbr>κ</abbr><supplied reason="abbreviation">αὶ</supplied></expan></w> <persName key="Cyriacus1" type="aphrodisian" full="yes"><name reg="Κυριακός">Κυριακῷ</name></persName> <g type="cross"/> <g type="leaf"/> <space dim="horizontal"/>

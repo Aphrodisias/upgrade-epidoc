@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010037" n="iAph0099 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010037" n="iAph0099 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -45,7 +45,7 @@
 
       <div type="description" n="monument">
         <head>Description of Monument</head>
-        <p>Twenty-two <rs type="material" key="marmor">white marble</rs> fragments, some joining, from the outer rim of a large <rs type="objectType" reg="circular crowning feature">circular feature</rs> (outer diam. <measure dim="diameter" type="length">3</measure> m, inner <measure dim="diameter" type="length">2.55</measure>). The blocks were designed to be seen from below, and have elaborately ornamented trapezoidal panels on the underside (each <measure precision="circa" type="length" dim="none">0.98</measure> long); the panels each have a different pattern, which enables the grouping together of several fragments which do not join. The blocks are slightly convex, and the outer edge slopes outwards from bottom to top (H. <measure type="length" unit="metre" dim="height">0.16</measure>); on it are a series of bosses with an ornamental cross (<measure precision="circa" type="length" dim="none">0.40</measure> apart).</p>
+        <p>Twenty-two <rs type="material" key="marmor">white marble</rs> fragments, some joining, from the outer rim of a large <rs type="objectType" reg="circular crowning feature">circular feature</rs> (outer diam. <measure dim="diameter" type="length">3</measure> m, inner <measure dim="diameter" type="length">2.55</measure>). The blocks were designed to be seen from below, and have elaborately ornamented trapezoidal panels on the underside (each <measure precision="circa" type="length" dim="height">0.98</measure> long); the panels each have a different pattern, which enables the grouping together of several fragments which do not join. The blocks are slightly convex, and the outer edge slopes outwards from bottom to top (H. <measure type="length" unit="metre" dim="height">0.16</measure>); on it are a series of bosses with an ornamental cross (<measure precision="circa" type="length" dim="height">0.40</measure> apart).</p>
       </div>
 
       <div type="description" n="text">
@@ -63,7 +63,7 @@
         <p><date notAfter="1000" exact="none" notBefore="0901">Tenth century A.D.</date> (<rs type="criteria">architecture</rs>, <rs type="criteria">terminology</rs>)</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<div type="textpart_fragment" n="a"><ab>
 		<lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear>ν</orig> <g type="boss"/> <gap dim="internal" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig> <g type="boss"/><orig n="unresolved">κωσ</orig> <w lemma="φύσις">φύσιν</w> <g type="stop"/> <g type="boss"/> <orig n="unresolved">γε</orig> <gap dim="internal" reason="lost" extent="unknown" unit="character"/> <seg type="damage"><supplied reason="lost"><g type="boss"/></supplied><gap dim="internal" reason="lost" extent="unknown" unit="character"/></seg> <g type="boss"/><orig n="unresolved">ρισ</orig> <g type="stop"/> <persName type="divine" key="archangel" full="yes"><persName type="divine" key="angel" full="yes"><w lemma="ἄγγελος">ἄγγέλ <g type="boss"/> ων</w></persName> <w lemma="πρωτοστάτης">πρω<unclear reason="damage">τ</unclear><supplied reason="lost">ο <g type="boss"/></supplied> στά<unclear reason="damage">τη</unclear><supplied reason="lost">ς</supplied></w></persName> <gap dim="right" reason="lost" extent="unknown" unit="character"/>

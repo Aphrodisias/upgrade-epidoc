@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010190" n="iAph0175 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010190" n="iAph0175 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -53,7 +53,7 @@ sides, and upper left corner broken away.</p>
         <p><date notAfter="0400" exact="none" cert="low" notBefore="0301">Fourth century</date> or later (lettering, cross).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab><lb n="1"/><supplied reason="lost"><g type="cross"/></supplied> <persName key="asclepiodotus1" type="aphrodisian" full="yes"><name reg="Ἀσκληπιόδοτος"><supplied reason="lost">Ἀ</supplied>σκληπιοδότου</name></persName> <g type="cross"/>. </ab>
       </div>

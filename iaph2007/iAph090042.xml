@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph090042" n="iAph0894 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph090042" n="iAph0894 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -47,7 +47,7 @@
 <date notBefore="0054" notAfter="0068" exact="none">54-68 A.D.</date>
 (<rs type="criteria">lettering</rs>, <rs type="criteria">emperor</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <cb n="a"/><ab>  <lb n="1"/><persName type="emperor"><del rend="erasure"><name reg="Νέρων">Νέρων</name></del> <name reg="Κλαύδιος">Κλαύδιος</name> <lb n="2"/> <name reg="Δροῦσος">Δροῦσος</name> <name reg="Καῖσαρ">Καῖσαρ</name><lb n="3"/> <w lemma="σεβαστός">Σεβασστός</w></persName>    <cb n="b"/><lb n="1"/> <persName type="divine"><name>Ἥλιος</name></persName> </ab>
 </div>

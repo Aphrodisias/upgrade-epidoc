@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph140002" n="iAph1480 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph140002" n="iAph1480 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notAfter="0200" notBefore="0150" cert="low"> Probably second half of the second century</date>
  (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab>  <lb n="0"/><gap reason="lost" dim="top" extent="unknown" unit="line"/>  <lb n="3"/><gap reason="lost" extent="1" unit="character"/><orig n="unresolved"><unclear reason="damage">ολ</unclear>ω</orig>  <gap reason="lost" extent="8" unit="character"/>  <lb n="4"/> <w lemma="ὁ">τοῖς</w> <persName type="aphrodisian"><name reg="Ἑρμόλαος">Ἑ<unclear reason="damage">ρμολά</unclear>ου</name></persName> <lb n="5"/> <persName type="aphrodisian"><name reg="Λυσίας">Λ<unclear reason="damage">υ</unclear>σίας</name><persName type="aphrodisian"><name reg="Ἑρμόλαος">Ἑρ<unclear reason="damage">μ</unclear>ο<unclear reason="damage">λ</unclear>άου</name> <lb n="6"/> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Λυσίας">Λυσίου</name></persName></persName></persName> <w lemma="ὁ">τοῖς</w> <lb n="7"/> <w lemma="ἀδελφός"><unclear reason="damage">ἀ</unclear>δελφ<unclear reason="damage">ο</unclear>ῖς</w></ab>
 </div>

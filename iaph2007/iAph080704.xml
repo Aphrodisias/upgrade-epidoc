@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080704" n="iAph0844 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080704" n="iAph0844 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -48,7 +48,7 @@
 <date notAfter="0400" notBefore="0001" exact="none">Second to third centuries A.D.</date>
 (<rs type="criteria">lettering</rs>, <rs type="criteria">emperor</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <persName type="aphrodisian"><name reg="Αὐρήλιος"><unclear reason="damage">Αὐρη</unclear><supplied reason="lost">λι</supplied>  <gap reason="lost" extent="unknown" unit="character" dim="right"/></name></persName>  <lb n="1a"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/>  </ab>
 </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010404" n="iAph0185 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010404" n="iAph0185 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -44,14 +44,14 @@
 
       <div type="description" n="letters">
         <head>Description of Letters</head>
-        <p>Total height of inscription <measure type="length" unit="metre" dim="height">0.18</measure>, width <measure dim="none">0.15</measure></p>
+        <p>Total height of inscription <measure type="length" unit="metre" dim="height">0.18</measure>, width <measure dim="height">0.15</measure></p>
       </div>
 
       <div n="date" type="description">
         <head>Date </head>
       <p><date notBefore="0401" notAfter="0600">Fifth-sixth century</date> (content)</p></div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab> <lb n="1"/><rs type="subject" key="factions"><expan><abbr><orig><g type="monogram"/></orig></abbr><supplied reason="abbreviation"><rs type="subject" key="acclamations"><w lemma="νικάω">νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w></rs> <w lemma="ὁ">τῶν</w> <w lemma="πράσινος">Πρασίνων</w>.</supplied></expan> </rs></ab>
       </div>

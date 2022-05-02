@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010132" n="iAph0302 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010132" n="iAph0302 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -49,7 +49,7 @@
 
 <p><date exact="none" notAfter="0200" notBefore="0101" cert="low">Second century A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="0"/><gap unit="line" reason="lost" extent="unknown" dim="top"/><lb n="1"/><gap unit="character" reason="lost" extent="unknown" dim="left"/><orig n="unresolved">βα</orig><gap unit="character" reason="lost" extent="unknown" dim="right"/><lb n="2"/><gap unit="character" reason="lost" extent="unknown" dim="left"/><orig n="unresolved">σ</orig><gap unit="character" reason="lost" extent="unknown" dim="right"/><lb n="2a"/><gap unit="line" reason="lost" extent="unknown" dim="bottom"/></ab>

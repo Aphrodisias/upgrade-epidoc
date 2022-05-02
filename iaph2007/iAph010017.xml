@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010017" n="iAph0097 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010017" n="iAph0097 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -63,7 +63,7 @@
 		<p><date notAfter="0600" notBefore="0401" cert="low">Fifth-sixth century A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>)</p>
        </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab>
 		<lb n="1"/><gap dim="left" reason="lost" unit="character" extent="unknown"/> <persName key="Lord" type="divine" full="yes"><w lemma="κύριος"><unclear reason="damage">Κ</unclear>ύριε</w></persName> <w lemma="βοηθέω">βοήθι</w> <orig n="unresolved"><unclear reason="undefined">τ</unclear></orig><gap dim="right" reason="lost" unit="character" extent="unknown"/>

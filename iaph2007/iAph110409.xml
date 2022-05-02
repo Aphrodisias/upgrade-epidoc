@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110409" n="iAph1005 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110409" n="iAph1005 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -54,7 +54,7 @@ Inscribed</rs> on the face.</p>
 <date notBefore="0101" notAfter="0200" exact="none">Second century A.D.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="0"/><gap id="iaph2005-gap01" reason="lost" dim="top" unit="line" extent="unknown"/><certainty degree="low" locus="#gi" target="iaph2005-gap01"/><lb n="1"/><w lemma="τιμάω"><orig reg="ἐτίμησεν"><supplied reason="lost">ἐ</supplied><unclear reason="damage">τ</unclear><supplied reason="lost">είμησεν</supplied></orig></w><lb n="2"/><persName reg="Χαιρέας" full="yes" type="aphrodisian"><name reg="Χαιρέας"><supplied reason="lost">Χ</supplied>αιρέαν</name></persName>  <lb n="3"/><w lemma="ὁ">τὸν</w> <w lemma="στεφανηφόρος">στε<lb n="4" type="worddiv"/>φανηφό<lb n="5" type="worddiv"/>ρον</w>.</ab></div>

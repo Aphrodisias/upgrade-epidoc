@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020531" n="iAph0222 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020531" n="iAph0222 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -57,7 +57,7 @@ b: <measure type="length" unit="metre" dim="height">0.13</measure> × <measure t
         <p><date notBefore="0401" notAfter="0600" exact="none">Fifth or sixth century</date> or later (<rs type="criteria">lettering</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab><cb n="a"/><lb n="1"/>
         <gap dim="left" reason="lost" extent="unknown" unit="character"/><persName key="eulamius1" type="aphrodisian" full="yes"><name reg="Εὐλάμιος"><supplied reason="lost" cert="low">Ε</supplied>ὐλαμίου</name></persName> <orig n="unresolved"><unclear reason="undefined">ο</unclear></orig><gap dim="right" reason="lost" extent="unknown" unit="character"/>

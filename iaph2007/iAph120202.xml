@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120202" n="iAph0666 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120202" n="iAph0666 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -42,7 +42,7 @@
 <p>
 <date notBefore="0001" notAfter="0200" exact="none">First to second centuries A.D.</date>(<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><w lemma="ὁ"><supplied reason="lost">ἡ</supplied></w>  <w lemma="βουλή"><unclear reason="damage">β</unclear>ουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆ<unclear reason="damage">μ</unclear><supplied reason="lost">ος</supplied></w>  <lb n="2"/> <w lemma="καί"><app type="previouslyread">
 <rdg resp="autopsy">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110001" n="iAph1524 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110001" n="iAph1524 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 No indication
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <persName type="aphrodisian"><name reg="Θησεύς">Θησσεὺς</name></persName> <w lemma="κτηνείτης">κτηνείτης</w> <w lemma="ὁ">ὁ</w> <w lemma="λαλέω">λαλούμενος</w> <w lemma="ἐνθάδε">ἐνθ<supplied reason="lost">ά</supplied><lb n="2" type="worddiv"/>δε</w> <w lemma="κεῖμαι">κεῖται</w> <w lemma="ὅς">ὅς</w> <w lemma="πᾶς">πάσης</w> <w lemma="ἀρετή">ἀρετῆς</w> <w lemma="εἰμί">ὢν</w> <w lemma="ἀκροδίκαιος">ἀκροδικαι<lb n="3" type="worddiv"/>ότερος</w> <w lemma="ὦ">ὦ</w> <w lemma="παροδίτης">παροδεῖτα</w> <w lemma="μή">μή</w> <w lemma="ἐγώ">με</w> <w lemma="παρέρχομαι">παρέ<unclear reason="damage">λ</unclear><lb n="4" type="worddiv"/>θῃς</w> <w lemma="πρίν">πρίν</w> <w lemma="σύ">σε</w> <w lemma="μανθάνω">μαθεῖν</w> <w lemma="στήλη">στήλης</w> <w lemma="ὁ">τὰ</w> <w lemma="γράφω">γε<lb n="5" type="worddiv"/>γραμμένα</w> <w lemma="ὡς">ὡς</w> <w lemma="ζάω">ζῇς</w> <w lemma="εὐφραίνω">εὐφραίνου</w> <w lemma="ἐσθίω">ἔσθιε</w> <lb n="6"/> <w lemma="πίνω">πεῖνε</w> <w lemma="τρυφάω">τρύφα</w> <w lemma="περιλαμβάνω">περιλάμβανε</w> <w lemma="οὗτος">τοῦτο</w> <w lemma="γάρ">γὰρ</w> <lb n="7"/> <w lemma="εἰμί">ἦν</w> <w lemma="ὁ">τὸ</w> <w lemma="τέλος">τέλος</w> <gap reason="lost" extent="3" unit="character"/> <w lemma="χράω2"><unclear reason="damage">χ</unclear>ρησάμενος</w> <gap reason="lost" extent="3" unit="character"/>  </ab>
 </div>

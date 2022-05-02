@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph140017" n="iAph1640 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph140017" n="iAph1640 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
  <ab><lb n="0"/>  <gap reason="lost" extent="22" unit="character"/>  <w lemma="τυμβωρύχος"><supplied reason="lost">τυμ</supplied><lb n="1" type="worddiv"/>βωρύχος</w>  <supplied reason="lost"><w lemma="καί">καὶ</w> <w lemma="προσαποτίνω">προσαποτεισάτω</w></supplied>    <gap reason="lost" extent="4" unit="character"/><orig n="unresolved">οι</orig>  <w lemma="καῖσαρ"><unclear reason="damage">κ</unclear>αί<lb n="2" type="worddiv"/>σαρος</w> <w lemma="φίσκος">φίσκῳ</w> <w lemma="ἀργύριον">ἀργυρίου</w> <w lemma="δηνάριον"><expan><abbr><orig><g type="denarius"/></orig></abbr><supplied reason="abbreviation">δηνάρια</supplied></expan></w> <num value="6000">Ϛ</num> <w lemma="ἐξουσία"><unclear reason="damage">ἐ</unclear><supplied reason="lost">ξ</supplied>ουσίας</w> <w lemma="εἰμί">οὔσης</w> <w lemma="πᾶς">παν<lb n="3" type="worddiv"/>τὶ</w> <w lemma="ὁ">τῷ</w> <w lemma="βούλομαι">βουλομένῳ</w> <w lemma="ἐκδικέω">ἐγδικεῖν</w> <w lemma="ἐπί">ἐπὶ</w> <w lemma="τρίτος">τρίτῳ</w> <w lemma="μέρος">μέρει</w> <w lemma="ὁ">τῆς</w> <lb n="4"/> <w lemma="ἐπιγραφή">ἐπιγραφῆς</w> <w lemma="οὗτος">ταύτης</w> <w lemma="ἀντίγραφον">ἀντίγραφον</w> <w lemma="ἀποτίθημι">ἀπετέθη</w> <w lemma="εἰς">εἰς</w> <lb n="5"/> <w lemma="ὁ">τὸ</w> <w lemma="χρεωφυλάκιον">χρεωφυλάκιον</w> <w lemma="ἐπί">ἐπὶ</w> <w lemma="στεφανηφόρος">στεφανηφόρου</w> <persName type="aphrodisian"><name reg="Ἄτταλος">Ἀττάλου</name> <lb n="6"/> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἄδραστος">Ἀδράστου</name></persName></persName> <w lemma="ἥρως">ἥρωος</w> <w lemma="ὁ">το</w> <num value="3">γ</num><w lemma="μείς">μηνὸς</w> <rs type="month"><w lemma="Λῶος">Λώου</w> <name reg="Ἁδριανός">Ἀδριανοῦ</name></rs> </ab>
 </div>

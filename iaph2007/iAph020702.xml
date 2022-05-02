@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020702" n="iAph0824 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020702" n="iAph0824 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <p>
 <date notAfter="0100" notBefore="0001" exact="none">?Early 1st century A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">sculpture</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <persName type="aphrodisian"><name reg="Ἀπολλώνιος">Ἀπολλώ<lb type="worddiv" n="2"/>νιος</name>  <persName type="aphrodisian"><name reg="Χρύσιππος">Χρυσίπ<lb type="worddiv" n="3"/>που</name></persName>  <name reg="Ἀστήρ">Ἀστὴρ</name></persName> <lb n="4"/> <w>ἐποίησεν</w> </ab>
 </div>

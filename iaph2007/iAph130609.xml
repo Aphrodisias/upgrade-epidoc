@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130609" n="iAph0546 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130609" n="iAph0546 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -46,7 +46,7 @@
 <date notAfter="0077" exact="both" notBefore="0077" value="0077">77 A.D.</date>
 (<rs type="criteria">prosopography</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen"><unclear reason="damage">Τ</unclear>ιβέριος</name> <name reg="Κάτιος">Κάτιος</name> <name>Ἀ<supplied reason="lost">σ</supplied>κ<unclear reason="damage">ώ</unclear>  <lb type="worddiv" n="2"/>νιος</name> <name reg="Σείλιος">Σείλιος</name> <name reg="Ἰταλικός">Εἰταλικὸς</name></persName> <lb n="3"/> <w lemma="ἀνθύπατος">ἀνθύπατος</w> <w lemma="λέγω">λέγει</w> <w lemma="καί">κα<supplied reason="lost">ὶ</supplied></w>  <lb n="4"/> <w lemma="ψήφισμα">ψηφισμάτων</w> <w lemma="εἰμί">ὄντων</w> <lb n="5"/>  <w lemma="καθά">καθὰ</w> <w lemma="κωλύω">κωλύεται</w> <w lemma="συνλαμβάνω">συνλαμ <lb type="worddiv" n="6"/><unclear reason="damage">βάν</unclear><supplied reason="lost">ειν</supplied></w> <w lemma="τρέφω">τρέφειν</w> <w lemma="σοβέω">σοβεῖν</w> <lb n="7"/><w lemma="ἐν"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">ἐ</supplied>ν</w> <w lemma="ὁ">τῇ</w> <w lemma="πόλις">πόλει</w> <w lemma="ὁ">τὰ<unclear reason="damage">ς</unclear></w>  <lb n="8"/><w lemma="περιστερά"><supplied reason="lost">περιστερὰ</supplied>ς</w> <w lemma="ὁ">τῆς</w> <w lemma="τε">τε</w> <w lemma="θρησκεία">θρησ<lb type="worddiv" n="9"/><supplied reason="lost">κείας</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τῆς</supplied></w>  <w lemma="περί"><supplied reason="lost">πε</supplied>ρὶ</w> <w lemma="ὁ">τὴν</w> <w lemma="θεός">θεὸν</w> <lb n="10"/> <gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">εσθατι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="10α"/><gap reason="lost" extent="unknown" unit="character"/>  </ab>
 </div>

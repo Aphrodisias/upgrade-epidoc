@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120307" n="iAph1014 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120307" n="iAph1014 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -32,7 +32,7 @@
 
 <div type="description" n="monument">
 <head>Description of Monument</head>
-<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType" reg="base">statue base</rs> without moulding, with lower part still buried(<measure type="length" dim="none">0.57</measure>   × <measure type="length" dim="none">0.86</measure> measurable x <measure type="depth" dim="none">0.47</measure>); damaged along the upper edge since the eighteenth century</p>
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType" reg="base">statue base</rs> without moulding, with lower part still buried(<measure type="length" dim="height">0.57</measure>   × <measure type="length" dim="height">0.86</measure> measurable x <measure type="depth" dim="height">0.47</measure>); damaged along the upper edge since the eighteenth century</p>
 </div>
 
 <div type="description" n="text">
@@ -50,7 +50,7 @@
 
 <p><date notAfter="0100" notBefore="0001" exact="none">First century A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="1"/><app type="previouslyread"><rdg resp="previous"><w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w><w lemma="δῆμος"> δῆμος</w></rdg><rdg resp="autopsy"><gap reason="lost" unit="line" extent="1" dim="top"/></rdg></app><lb n="2"/><w lemma="τιμάω"><app type="previouslyread"><rdg resp="previous">ἐ</rdg><rdg resp="autopsy"><gap reason="lost" unit="character" extent="1" dim="left"/></rdg></app>τ<unclear reason="damage">ε</unclear>ι<unclear reason="damage">μησ</unclear>εν</w> <w lemma="ὁ">ταῖς</w> <w lemma="καλός">καλ<unclear reason="damage">λ</unclear><app type="previouslyread"><rdg resp="previous">ίσ</rdg><rdg resp="autopsy"><gap reason="lost" unit="character" extent="2" dim="right"/></rdg></app><lb n="3" type="worddiv"/>ταις</w> <w lemma="τιμή">τειμαῖς</w> <persName reg="Διονύσιος  Ἀρτεμιδώρου  Μενίππου  Διονυσίου  Δημητρίου" full="yes" type="aphrodisian"><name reg="Διονύσιος">Διον<unclear reason="damage">ύ</unclear><lb n="4" type="worddiv"/>σιον</name> <persName reg="Ἀρτεμίδωρος  Μενίππου  Διονυσίου  Δημητρίου" full="yes" type="aphrodisian"><name reg="Ἀρτεμίδωρος">Ἀρτεμιδώρ<unclear reason="damage">ο</unclear><app type="previouslyread"><rdg resp="previous">υ</rdg><rdg resp="autopsy"><gap reason="lost" unit="character" extent="1" dim="right"/></rdg></app></name>  <lb n="5"/> <w lemma="ὁ">τοῦ</w> <persName reg="Μένιππος  Διονυσίου  Δημητρίου" full="yes" type="aphrodisian"><name type="        " reg="Μένιππος">Μενίππου</name> <w lemma="ὁ">το<app type="previouslyread"><rdg resp="previous">ῦ</rdg><rdg resp="autopsy"><gap reason="lost" unit="character" extent="1" dim="right"/></rdg></app></w><lb n="6"/><persName reg="Διονύσιος  Δημητρίου" full="yes" type="aphrodisian"><name reg="Διονύσιος">Διονυσίου</name> <w lemma="ὁ">τοῦ</w> <persName reg="Δημήτριος" full="yes" type="aphrodisian"><name reg="Δημήτριος">Δη<lb n="7" type="worddiv"/>μητρίου</name></persName></persName> </persName></persName></persName> <w lemma="ζάω">ζήσαντα</w> <lb n="8"/> <w lemma="κόσμιος">κοσμίως</w> <w lemma="καί">καὶ</w> <w lemma="πρός">πρὸς</w> <w lemma="ὅς">ᾑ</w> <del status="unremarkable"><gap reason="lost" unit="character" extent="unknown" dim="right"/></del><lb n="9"/> <w lemma="ὑπόδειγμα">ὑπόδειγμα</w> <w lemma="ἀρετή">ἀρετῆς</w> <lb n="9a"/><space unit="line" dim="vertical"/></ab>

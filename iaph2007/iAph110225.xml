@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110225" n="iAph0115 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110225" n="iAph0115 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -63,7 +63,7 @@ letter, for abbreviation.</p>
         <head>Date</head>
       <p><date notAfter="0900" notBefore="0401" cert="low">Fifth-tenth century A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>)</p></div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab><lb n="1"/><unclear reason="undefined"><g type="cross"/></unclear> <w lemma="εὐχή">εὐχὴ</w> <persName key="Theodore3" type="aphrodisian" full="yes"><name reg="Θεόδωρος">Θεοδώρου</name></persName> <w lemma="ὁ">τοῦ</w> <w lemma="καί">καὶ</w> <persName key="kodon" type="aphrodisian" full="yes"><name reg="Κώδων">Κώδωνος</name></persName><lb n="2"/><gap reason="lost" dim="left" extent="2" unit="character"/><orig n="unresolved"><unclear reason="undefined">ιιι</unclear>ρο<unclear reason="damage">δο</unclear>νε<hi rend="ligature">ου</hi></orig> <w lemma="ὁ">τοῦ</w> <rs type="dignity" key="eulabestatos"><w lemma="εὐλαβής"><expan><abbr>εὐλαβ</abbr><supplied reason="abbreviation">εστάτου</supplied></expan></w></rs> <rs type="official-relig" key="protolector"><w lemma="πρωταναγνώστης"><expan><abbr>πρωταναγν</abbr><supplied reason="abbreviation">ώστου</supplied></expan></w></rs> <w lemma="καί"><expan><abbr>κ</abbr><supplied reason="abbreviation">αὶ</supplied></expan></w> <rs type="official-relig" key="superintendent"><w lemma="ἐφέστως">ἐφεστῶτο<supplied reason="lost">ς</supplied></w></rs>. </ab>
       </div>

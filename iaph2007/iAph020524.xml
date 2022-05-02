@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020524" n="iAph0220 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020524" n="iAph0220 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -56,7 +56,7 @@ surviving.</p>
         <p><date notBefore="0201" notAfter="0400" cert="low" exact="none">Third-fourth century</date> (<rs type="criteria">language</rs>, <rs type="criteria">lettering</rs>).</p>
       </div>
 
-      <div n="text" lang="la" type="edition">
+      <div n="text" lang="la" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
        	<ab> 
 		  	<lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><w lemma="sacrilegium"><supplied reason="lost">s</supplied><seg>acrilegi</seg><gap reason="lost" dim="right" extent="unknown" unit="character"/></w>

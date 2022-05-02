@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050118" n="iAph0018 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph050118" n="iAph0018 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -62,7 +62,7 @@ continued onto an adjacent block.</p>
         <p><date exact="none" cert="low" notBefore="0301" notAfter="0350">First half of the fourth century</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">prosopography</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 <ab><lb n="1"/><space dim="horizontal" extent="1" unit="character"/> <w lemma="καί ἐγώ" type="crasis">κἀμὲ</w> <persName key="Helladius" type="aphrodisian" full="yes"><name reg="Ἑλλάδιος">Ἑλλάδιος</name></persName> <w lemma="ὁ">ὁ</w> <w lemma="ἁγνός">ἁγνό<unclear reason="damage">ς</unclear></w> <gap dim="right" reason="lost" extent="unknown" unit="character"/></ab>
       </div>

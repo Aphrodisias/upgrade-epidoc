@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120010" n="iAph1894 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120010" n="iAph1894 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notBefore="0001" notAfter="0300" exact="none">First to third centuries A.D.</date>
  (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <lb n="2"/> <w lemma="ὁ">τὸν</w> <persName type="other"><name>Τρωΐλον</name></persName> <w lemma="καί">καὶ</w> <lb n="3"/><w lemma="ὁ"><supplied reason="lost">τὸν</supplied></w>  <w lemma="ἵππος"><supplied reason="lost">ἵπ</supplied>πον</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὸν</w> <persName type="other"><name reg="Ἀχιλλεύς">Ἀχιλλέα</name></persName></ab>
 </div>

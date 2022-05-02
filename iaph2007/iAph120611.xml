@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120611" n="iAph1477 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120611" n="iAph1477 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -41,7 +41,7 @@
 <head>Date</head>
 <p><date notBefore="0001" notAfter="0200" exact="none">First to second centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ὁ">τὸ</w> <w lemma="μνημεῖον">μνημεῖο<supplied reason="lost">ν</supplied></w>  <supplied reason="lost">καὶ</supplied>  <supplied reason="lost">τὴν</supplied>  <w lemma="ἐπίκειμαι"><supplied reason="lost">ἐ</supplied>πὶ<lb n="2" type="worddiv"/>κειμένην</w>  <w lemma="αὐτός">α<supplied reason="lost">ὐτῷ</supplied></w>  <w lemma="σορός"><supplied reason="lost">σορὸν</supplied></w>  <w lemma="καί"><supplied reason="lost">κ</supplied>αὶ</w>  <lb n="3"/> <w lemma="ὁ">τὰς</w> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῷ</w> <w lemma="μνημεῖον">μν<supplied reason="lost">ημείῳ</supplied></w>  <w lemma="εἰσώστη"><supplied reason="lost">εἰσώ</supplied><lb n="4" type="worddiv"/>στας</w>  <w lemma="κατασκευάζω">κατεσ<supplied reason="lost">κεύασεν</supplied></w>  <persName type="aphrodisian"><name reg="Τίτος" type="praenomen"><supplied reason="lost">Τ</supplied>ί<lb n="5" type="worddiv"/>τος</name>  <name reg="Φλάβιος">Φλάβιο<supplied reason="lost">ς</supplied></name>  <gap reason="lost" extent="5" unit="character"/></persName><unclear reason="damage">Α</unclear>Σ  <g type="stop"/>  <w lemma="ἑαυτοῦ">ἑ<lb n="6" type="worddiv"/>αυτῷ</w> <w lemma="καί">καὶ</w> <w lemma="ὅς">οἷ<supplied reason="lost">ς</supplied></w>  <w lemma="ἐάν"><supplied reason="lost">ἂν</supplied></w>  <w lemma="αὐτός"><supplied reason="lost">α</supplied><unclear reason="damage">ὐ</unclear>τὸς</w>  <lb n="7"/> <w lemma="βούλομαι">βουλήθη</w> <w lemma="ἤ">ἢ</w> <w lemma="διατάσσω"><supplied reason="lost">διατάξ</supplied>ηται</w>  </ab>
 </div>

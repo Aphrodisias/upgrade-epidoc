@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType" reg="prayer/invocation">Text</rs> at an entrance</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph110516</idno>
+            <idno type="IAph2007">iAph110516</idno>
+            <idno type="JMR2004">iAph0219</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Two <material key="marmor">blue marble</material>
+                              <objectType>column</objectType>s (diam. <dim type="diameter">0.53</dim> × i: H. <height unit="metre">0.85</height>, ii: H.
+<height unit="metre">3.62</height>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>i: Inscribed at <measure type="length" dim="none">0.37</measure> above base. ii: repaired in antiquity
+at the right. Inscribed at 0.96 above the lower end.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Irregular, <height unit="metre">0.03-0.04</height>, lunate; very worn.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Unknown.</rs>
+                     </origPlace>
+                     <origDate notBefore="0501" notAfter="0900">Sixth-tenth century A.D. (<rs type="criteria">monogram</rs>)</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList">City, North-west</rs>: field c. 200 m  north-west of the Temple-Church,
+half-buried.</rs>
+                  </provenance>
+                  <provenance type="observed">
+                     <rs type="lastLocation">Findspot.</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType">monogram</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
+         <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
+         <change when="2004-02-29" who="#CMR">checked; image refs.</change>
+         <change when="2003-11-04" who="John-Lavagnino">Converted beta code to Unicode</change>
+         <change when="2003-09-03" who="#CMR">tagged and corrected</change>
+         <change when="2003-06-02" who="#GB">tidied and corrected</change>
+         <change when="2003-04-30" who="Juan-Garcés">tagged Greek; tidied</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+        
+        <cb n="i"/>
+        		<ab> <lb n="1"/><orig n="unresolved"><expan><abbr><am><g ref="#monogram"/></am></abbr><ex>αβκο</ex></expan></orig> </ab> 
+			<cb n="ii"/>        
+				<ab>
+	<lb n="1"/> <w lemma="εἰμί">ἐστὶν</w> <w lemma="ὁ">ἡ</w> <w lemma="εἴσοδος">εἴσοδος</w> <w lemma="ὁ">τοῦ</w> 
+	<lb n="2"/> <orig n="unresolved">κ<gap extent="1" unit="character" reason="lost"/>ι<gap extent="1" unit="character" reason="lost"/><unclear reason="damage">λ</unclear>οθ<gap extent="1" unit="character" reason="lost"/>ατα<gap extent="1" unit="character" reason="lost"/>ου</orig> 
+	<lb n="3"/><orig n="unresolved"><unclear reason="damage">λ</unclear>ονος</orig> <w lemma="οὗτος"><supplied reason="lost">το</supplied>ύτου</w> <gap extent="3" reason="lost" unit="character"/></ab> 
+      </div>
+         <div type="apparatus">
+            <p>ii: ll. 2-3. Perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+                  <supplied reason="lost">κ</supplied>ατὰ <supplied reason="lost">τ</supplied>οῦ <supplied reason="lost">πυ</supplied>λο͂νος <supplied reason="lost">το</supplied>ύτου</foreign>; but I cannot make out
+any traces of letters before <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+                  <unclear reason="undefined">Λ</unclear>ΟΝΟΣ</foreign> in
+l. 3.</p>
+         </div>
+         <div type="translation">
+            <ab>ii. The entrance of the <gap reason="illegible" unit="character" extent="unknown"/> is <gap reason="lost" unit="character" extent="unknown"/>
+            </ab>
+         </div>
+         <div type="bibliography">
+            <p>Published by <bibl type="hbi" n="ALA">
+                  <author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title>
+no. <citedRange>219</citedRange>
+               </bibl>, whence <bibl n="PHI">
+                  <author>McCabe</author>
+                  <title level="m">PHI Aphrodisias</title>
+                  <citedRange n="257765">879</citedRange>, <citedRange n="257766">880</citedRange>
+               </bibl>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010011" n="iAph0187 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010011" n="iAph0187 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -48,7 +48,7 @@ face.</p>
         <p>Deep, irregular; <measure type="length" unit="metre" dim="height">0.035-0.065</measure>.</p>
       </div>
 
-      <div type="description" n="date"><head>Date</head><p><date notBefore="0401" notAfter="0600" exact="none">Fifth to sixth centuries A.D.</date> or later (<rs type="criteria">content</rs>, <rs type="criteria">location</rs>)</p></div><div n="text" lang="grc" type="edition">
+      <div type="description" n="date"><head>Date</head><p><date notBefore="0401" notAfter="0600" exact="none">Fifth to sixth centuries A.D.</date> or later (<rs type="criteria">content</rs>, <rs type="criteria">location</rs>)</p></div><div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab>
 		  		<lb n="1"/><g type="cross"/> <abbr>ΧΜΓ</abbr><lb n="2"/> <w lemma="τόπος">τόπος</w> <persName type="aphrodisian" key="lucas1" full="yes"><name reg="Λουκᾶς">Λου<lb n="3" type="worddiv"/>κᾶ</name></persName> <rs type="subject" key="philoponoi"><w lemma="φιλόπονος">φιλο<lb n="4" type="worddiv"/>πόνου</w></rs></ab> 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110224" n="iAph0681 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110224" n="iAph0681 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <p>
 <date cert="low" notAfter="0196" notBefore="0196">c. 196 A.D.</date>(<rs type="criteria">contests</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="2"/><gap reason="lost" extent="4" unit="character"/>  <w lemma="νικάω"><supplied reason="lost">νεικήσαν</supplied><lb type="worddiv" n="3"/><supplied reason="lost">τα</supplied></w>  <w lemma="παῖς"><supplied reason="lost">παίδων</supplied></w>  <w lemma="στάδιον"><supplied reason="lost">στάδι</supplied>  <lb type="worddiv" n="4"/>ον</w>  <w lemma="ὁ"><unclear reason="damage">τῷ</unclear></w>  <w lemma="ἐπιτελέω"><supplied reason="lost">ἐπιτελεσ</supplied>  <lb type="worddiv" n="5"/>θέντι</w>  <g type="stop"/> <w lemma="ἀγών">ἀγῶνι</w> <w lemma="ὁ">τῆς</w> <lb n="6"/>  <w lemma="τρίτος">τρίτης</w> <w lemma="τετραετηρίς">τετραε<lb type="worddiv" n="7"/>τηρίδος</w>  <g type="stop"/> <w type="ethnic" lemma="Ἀφροδεισίηα">Ἀφροδεισι<lb type="worddiv" n="8"/>ήων</w> <w lemma="Φιλημονίηον">Φιλημονήων</w> <g type="stop"/> <w lemma="ἀγωνοθετέω">ἀ<lb type="worddiv" n="9"/>γωνοθετούντων</w>   <lb n="10"/> <w lemma="ὁ">τῶν</w> <w lemma="νεοποιός">νεοποιῶν</w> <w lemma="ὁ">τῶν</w> <lb n="11"/>  <w lemma="περί">περὶ</w> <persName type="aphrodisian"><name reg="Μᾶρκος">Μᾶρκον</name> <name reg="Ἀντώνιος">Ἀντω<lb type="worddiv" n="12"/>νιον</name> <name reg="Ἀπελλᾶς">Ἀπελλᾶν</name> <name reg="Σεβηρεῖνος">Σε<lb type="worddiv" n="13"/>βηρεῖνον</name></persName>  <g type="stop"/> <w lemma="ὁ">τὴν</w> <w lemma="δέ">δὲ</w> <w lemma="Α">Α</w> <lb n="14"/>  <space extent="3" unit="character" dim="horizontal"/>  </ab>
 </div>

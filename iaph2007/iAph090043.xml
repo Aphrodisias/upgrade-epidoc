@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph090043" n="iAph0001 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph090043" n="iAph0001 ">
 
 <teiHeader>
 <fileDesc>
@@ -82,7 +82,7 @@ Characteristic of Aphrodisian public inscriptions of the mid third century A.D.;
 <p><date value="0257" notBefore="0257" notAfter="0257" exact="both">A.D. 257</date> (see commentary).</p>
 </div>
 
-<div lang="grc" n="text" type="edition">
+<div lang="grc" n="text" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <div type="textpart_fragment" n="i"><ab><lb n="1"/><space dim="horizontal" extent="6"/> <persName key="agty" type="divine" reg="Ἀγαθὴ Τύχη" full="yes"><w lemma="ἀγαθός">Ἀγαθῇ</w> <g type="star"/> <supplied reason="lost"><w lemma="τύχη">Τύχῃ</w></supplied></persName>

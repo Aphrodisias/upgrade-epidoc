@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120518" n="iAph1798 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120518" n="iAph1798 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notAfter="0200" notBefore="0100" cert="low"> First to second centuries A.D.</date>
 (<rs type="criteria">nomenclature</rs>, <rs type="criteria">prosopography</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καΐ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="τιμάω">ἐτεί<lb n="2" type="worddiv"/>μησαν</w> <w lemma="καί">καὶ</w> <w lemma="μεταλλάσσω">μετηλλαχυῖ<lb n="3" type="worddiv"/>αν</w> <persName type="aphrodisian"><name reg="Κλαυδία">Κλαυδίαν</name> <persName type="aphrodisian"><name reg="Κλαύδιος">Κλαυδίου</name> <name reg="Ἀπολλώνιος ">Ἀπολ<lb n="4" type="worddiv"/>λωνίου</name></persName></persName> <w lemma="ἀρχιερεύς">ἀρχιερέως</w> <w lemma="θυγάτηρ">θυγατέρα</w> <lb n="5"/> <persName type="aphrodisian"><name reg="Τρυφῶσα">Τρυφῶσαν</name> <name reg="Παυλεῖνα">Παυλεῖναν</name></persName> <w lemma="ἀρχιέρεια">ἀρχι<lb n="6" type="worddiv"/>έρειαν</w> <w lemma="διά">διά</w> <w lemma="τε">τε</w> <w lemma="ὁ">τὴν</w> <w lemma="ὁ">τοῦ</w> <w lemma="πατήρ">πατρὸς</w> <lb n="7"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῶν</w> <w lemma="πρόγονος">προγόνων</w> <w lemma="αὐτός">αὐτῆς</w> <w lemma="εἰς">εἰς</w> <lb n="8"/> <w lemma="ὁ">τὴν</w> <w lemma="πατρίς">πατρίδα</w> <w lemma="ἐν">ἐν</w> <w lemma="πᾶς">πᾶσι</w> <w lemma="φιλοτιμία">φιλοτει<lb n="9" type="worddiv"/>μείαν</w> <w lemma="καί">καὶ</w> <w lemma="διά">διὰ</w> <w lemma="ὁ">τὴν</w> <w lemma="ἑαυτοῦ">ἑαυτῆς</w> <w lemma="κοσμιότης">κοσ<lb n="10" type="worddiv"/>μιότητα</w> <w lemma="κάλλος">κάλλει</w> <w lemma="διαφέρω">διενενκοῦ<lb n="11" type="worddiv"/>σαν</w> <w lemma="καί">καὶ</w> <w lemma="τελευτάω">τελευτήσασαν</w> <w lemma="παρθένος">παρ<lb n="12" type="worddiv"/>  <space extent="3" unit="character" dim="horizontal"/> θένον</w> <w lemma="ἔτι">ἔτι</w> <g type="leaf"/>  </ab>
 </div>

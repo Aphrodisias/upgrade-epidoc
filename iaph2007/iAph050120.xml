@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050120" n="iAph0033 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph050120" n="iAph0033 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -67,7 +67,7 @@
 <p><date exact="none" cert="low" notBefore="0334" notAfter="0400">Mid to late fourth century</date> (<rs type="criteria">lettering</rs>).</p>
 </div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 <lg met="elegaic"><lb n="1"/><l><w lemma="ὁ">τὸν</w> <w lemma="σοφός">σοφὸν</w> <w lemma="ὅδε">ἥδε</w><lb n="2"/><rs type="subject" key="city"><w lemma="πόλις">πόλις</w></rs> <persName key="Eupeithius" type="aphrodisian" full="yes"><name reg="Εὐπείθιος">Εὐπείθιον</name></persName><lb n="3"/><w lemma="ἕνεκα">εἵνεκα</w> <w lemma="πᾶς">πάντων</w></l><lb n="4"/><l><w lemma="ἵστημι">στήσατο</w> <w met="LAI/NEOS2" lemma="λαίνεος">λαϊνέ<hi rend="ligature">ην</hi></w><lb n="5"/><w lemma="εἰκών">εἰκόνα</w> <w lemma="δέμω">δειμαμένη</w> <g type="leaf"/></l><lb n="6"/><l><w lemma="μνάομαι">μνωομένη</w> <w lemma="μετά">μετὰ</w><lb n="7"/><w lemma="πότμος">πότμον</w> <w lemma="ὅτι">ὅτ'</w> <w lemma="ἀνήρ">ἀνδρά<lb n="8" type="worddiv"/>σιν</w> <w lemma="αἶνος">αἶνος</w> <w lemma="ἀληθής">ἀληθὴς</w> <g type="leaf"/></l><lb n="9"/><l><w lemma="τίνω">τίνεται</w> <w lemma="ἀνδρόμεος">ἀνδρομέ<lb n="10" type="worddiv"/>ης</w> <w lemma="ἔκτοθι">ἔκτοθι</w> <w lemma="βασκανία">βασκα<lb n="11" type="worddiv"/>νίης</w> <g type="leaf"/></l>
 </lg>

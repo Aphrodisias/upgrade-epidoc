@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120927" n="iAph0661 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120927" n="iAph0661 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <date notBefore="0225" notAfter="0275"> Mid third century</date>
 (<rs type="criteria">prosopography</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="ὁ">τῆς</w> <w lemma="λαμπρός">λαμ<lb type="worddiv" n="2"/>προτάτης</w> <placeName type="ethnic" reg="Ἀφροδεισιεύς">Ἀφρο<lb type="worddiv" n="3"/>δεισιέων</placeName> <w lemma="πόλις">πόλε<lb type="worddiv" n="4"/>ως</w> <w lemma="ὁ">τὸν</w> <w lemma="λαμπρός">λαμπρό<lb type="worddiv" n="5"/>τατον</w> <w lemma="δῆμος">δῆμον</w> <lb n="6"/> <placeName type="ethnic" reg="Ἀπολλωνιάτης">Ἀπολλωνιατῶν</placeName> <lb n="7"/> <w lemma="ὁ">τῶν</w> <w lemma="ἀπό">ἀπὸ</w> <placeName reg="Σαλβάκη">Σαλβά<lb type="worddiv" n="8"/>κης</placeName> <w lemma="συνθύω">συνθύσαν<lb type="worddiv" n="9"/>τα</w> <w lemma="ἐπί">ἐπὶ</w> <w lemma="ὁ">τῇ</w> <w>δεδομέ</w> <lb type="worddiv" n="10"/><w>νῃ</w> <w lemma="ὁ">τοῦ</w> <w lemma="ἱερός">ἱεροῦ</w> <w lemma="ἀγών">ἀγῶ<lb type="worddiv" n="11"/>νος</w> <w lemma="δωρεά">δωρεᾷ</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="12"/>  <space extent="3" unit="character" dim="horizontal"/>  <lb n="13"/> <w lemma="προνοέομαι">προνοησαμένου</w> <lb n="14"/><persName type="aphrodisian"><name reg="Μᾶρκος"><expan><abbr>Μ</abbr><supplied reason="abbreviation">άρκου</supplied></expan></name>  <name reg="Ἀντώνιος"><expan><abbr>Ἀντ</abbr><supplied reason="abbreviation">ωνίου</supplied></expan></name>  <name reg="Νεικόμαχος">Νε<supplied reason="lost">ι</supplied><unclear reason="damage">κ</unclear>ομάχου</name>  <lb n="15"/> <name reg="Βλάστος">Βλάστου</name></persName> <w lemma="πρωτόλογος">πρ<unclear reason="damage">ω</unclear>τολόγου</w>  <lb n="16"/>  <w lemma="ἄρχων">ἄρχοντος</w> <w lemma="ὁ">τὸ</w> <num value="3">γ</num> <lb n="17"/>  <space extent="3" unit="character" dim="horizontal"/>  </ab>
 </div>

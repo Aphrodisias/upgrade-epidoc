@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050216" n="iAph0023 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph050216" n="iAph0023 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -62,7 +62,7 @@
 <p><date notAfter="0386" exact="both" notBefore="0383">A.D. 383-386</date> (<rs type="criteria">prosopography</rs>, <rs type="criteria">titulature</rs>).</p>
 </div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab type="official-secul"><lb n="1"/><w lemma="ὁ"><supplied reason="lost">τ</supplied>ὴν</w> <w lemma="αἰώνιος">αἰωνίαν</w> <w lemma="καί">καὶ</w> <rs type="dignity" key="theophilestatos"><w lemma="θεοφιλής">θεοφιλε<lb n="2" type="worddiv"/><supplied reason="lost">σ</supplied>τάτην</w></rs> <rs type="dignity" key="augusta"><persName type="emperor"><name reg="Αὔγουστα">Αὔγουσταν</name></persName></rs> <space extent="1" unit="character" dim="horizontal"/> <persName key="AeliaFlaccilla" type="emperor" full="yes"><name reg="Αἰλία">Αἰλίαν</name><lb n="3"/><name reg="Φλαβία">Φλαβίαν</name> <space extent="1" unit="character" dim="horizontal"/> <name reg="Φλακκίλλα">Φλακ<unclear reason="damage">κ</unclear>ίλλαν</name></persName><lb n="4"/><w lemma="ὁ">τὴν</w> <rs type="official-secul" key="despot"><w lemma="δέσποινα">δέσποιναν</w></rs> <w lemma="ὁ">τῆς</w> <w lemma="οἰμουμένη">οἰκουμένης</w><lb n="5"/><rs type="subject" key="koinon"><w lemma="Κᾶρ">Κᾶρες</w></rs> <w lemma="ἱδρύω">ἵδρυσαν</w> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῇ</w> <space extent="1" unit="character" dim="horizontal"/> <w lemma="ἑαυτοῦ">ἑαυτῶν</w><lb n="6"/><space extent="unknown" unit="character" dim="horizontal"/> <rs type="subject" key="capital"><w lemma="μητρόπολις">μητροπόλει</w></rs> <space extent="unknown" unit="character" dim="horizontal"/><lb n="7"/><space extent="unknown" unit="character" dim="horizontal"/> <g type="cross"/> <space extent="unknown" unit="character" dim="horizontal"/>
 </ab>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Honours for ?, son of Apollonios, victor in a contest for sculptors at the first celebration of the Lysimachea Tatianea</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph120031</idno>
+            <idno type="IAph2007">iAph120031</idno>
+            <idno type="JMR2004">iAph0676</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>A plain <objectType>statue base</objectType> shaft, complete on all sides (<height unit="metre">1.06</height> x <width unit="metre">0.58</width>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> on the face; the text must have begun on a crowning feature.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Standard second-/third-century forms, but rather irregular in height, <height unit="metre">0.03-0.35</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Unknown</rs>
+                     </origPlace>
+                     <origDate notBefore="0201" notAfter="0233" precision="medium">
+early third century
+(<rs type="criteria">contests</rs>).</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList">Walls, North</rs>: in wall at the north side of the Stadium.</rs>
+                  </provenance>
+                  <provenance type="observed">
+                     <rs type="lastLocation">Findspot</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType" key="cetera">Agonistic</rs>
+               </term>
+               <term>
+                  <rs type="textType">Honours</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2007-08-07" who="Eleonora-Litta">tidied xrefs</change>
+         <change when="2007-01-17" who="Charlotte-Tupman">hand tidied</change>
+         <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
+         <change when="2007-01-01" who="GB">hand tidied</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+<ab><lb n="1"/><persName type="attested"><gap reason="lost" extent="6" unit="character"/>  <persName type="attested"><name nymRef="#Ἀπολλώνιος "><supplied reason="lost" cert="low">Ἀπολλω</supplied><lb n="2" break="no"/> νίου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Ἀθηναγόρας">Ἀθηναγό<lb n="3" break="no"/>ρου</name></persName></persName></persName> <w lemma="νικάω">νεικήσας</w> <w lemma="ὁ">τὸν</w> <lb n="4"/> <w lemma="ἀγών">ἀγῶνα</w> <w lemma="ὁ">τῶν</w> <w lemma="ἀγαλματοποιός">ἀγαλμα<lb n="5" break="no"/>τοποιῶν</w> <w lemma="ὁ">τῶν</w> <w lemma="Λυσιμαχῆον">Λυσιμα<lb n="6" break="no"/>χήων</w>  <w lemma="Τατιανῆον">Τατιανήων</w> <w lemma="ὁ">τῷ</w> <lb n="7"/> ἀγάλματι <w lemma="ὁ">τῆς</w> <num value="1">α</num> <w lemma="τετραετηρίς">τετρα<lb n="8" break="no"/>ετηρίδος</w> <w lemma="κατά">κατὰ</w> <w lemma="ὁ">τὸ</w> <w lemma="γίγνομαι">γενά<lb n="9" break="no"/>μενον</w> <w lemma="ψήφισμα">ψήφισμα</w> <w lemma="ὑπό">ὑπὸ</w> <lb n="10"/> <w lemma="ὁ"><unclear reason="damage">τ</unclear>ῆς</w> <w lemma="βουλή">βουλῆς</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τοῦ</w> <lb n="11"/> <w lemma="δῆμος">δήμου</w> <w lemma="ἀνά,εἰσ">ἀνέσ<sic n="superfluous">σ</sic>τησεν</w> <lb n="12"/> <w lemma="ἀγωνοθετέω">ἀγωνοθετοῦντος</w> <lb n="13"/> <persName type="attested"><name nymRef="#Μίλων">Μίλωνος</name> <num value="4"><unclear>δ</unclear></num> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Ἑρμίας">Ἑρμίου</name></persName></persName></ab>
+</div>
+         <div type="apparatus">
+            <p>l. 13,  Reinach did not read the delta.</p>
+         </div>
+         <div type="translation">
+            <p>?son of Apollo]nios son of Athenagoras, who won the contest of statue-makers of the Lysimachea Tatianea with the statue ?of the first four-year cycle, according to the decree of the Council and the People, put (it) up, when Milon son of Milon son of Milon son of Milon son of Hermias was contest-president.</p>
+         </div>
+         <div type="commentary">
+            <p> See bibliography.</p>
+         </div>
+         <div type="bibliography">
+            <p>Published by <bibl n="reinach">Reinach, from Gaudin's squeeze, no. <citedRange>147</citedRange>
+               </bibl>, whence <bibl n="squarciapino1943">M. Squarciapino, La scuola di Afrodisia (Rome, 1943) 11, no.<citedRange>1</citedRange>
+               </bibl>; by <bibl n="MAMA8">J. M. R. Cormack, from the MAMA records, MAMA VIII.<citedRange>519</citedRange>
+               </bibl>; by <bibl n="ktejmr1991">K. T. Erim and J. M. Reynolds, 'Sculptors of Aphrodisias', 529-31, no. <citedRange>17</citedRange>
+               </bibl>; by <bibl n="PPA">Roueché, PPA <citedRange>76</citedRange>
+               </bibl>. Discussed by<bibl> T. Ritti, <series>Rend. Acad. Lincei</series> (1971), 189-97</bibl>, on which see <bibl n="be">BullÉp <citedRange>1972.414</citedRange>
+               </bibl>; by M. Donderer in <title>Fremde Zeiten. Festschrift für Jürgen Borchhardt</title> (Vienna, 1996), 329-38, with <bibl n="be">BullÉp <citedRange>1997.94</citedRange>
+               </bibl>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120023" n="iAph1809 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120023" n="iAph1809 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><gap reason="lost" extent="3" unit="character"/>Θ<unclear reason="damage">ΑΙ</unclear><gap reason="lost" extent="3" unit="character"/>  <lb n="3"/><gap reason="lost" extent="3" unit="character"/><unclear reason="damage">Ι</unclear>ΚΟΤ<unclear reason="damage">Ι</unclear><gap reason="lost" extent="6" unit="character"/>  <lb n="4"/><space extent="3" unit="character" dim="horizontal"/>  Α<unclear reason="damage">Τ</unclear><gap reason="lost" extent="6" unit="character"/>  <lb n="5"/>  <space extent="3" unit="character" dim="horizontal"/> <unclear reason="damage"> </unclear><gap reason="lost" extent="3" unit="character"/>  </ab>
 </div>

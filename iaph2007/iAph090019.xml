@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph090019" n="iAph1535 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph090019" n="iAph1535 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date cert="low" notAfter="0200" notBefore="0001">First century A.D.</date>
 (<rs type="criteria">reign</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><gap reason="lost" extent="14" unit="character"/>να <w lemma="ἀρχιερεύς">ἀρχιερέως</w> <lb n="2"/><persName type="emperor"><w lemma="θεός"><supplied reason="lost">θεοῦ</supplied></w>  <w lemma="σεβαστός"><supplied reason="lost">Σεβαστοῦ</supplied></w> <name reg="Καῖσαρ">Καίσαρος</name></persName></ab>
 </div>

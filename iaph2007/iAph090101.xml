@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph090101" n="iAph0898 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph090101" n="iAph0898 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -47,7 +47,7 @@
 <date notBefore="0001" notAfter="0300" exact="none">First to third centuries A.D.</date>
 (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <persName type="aphrodisian"><name reg="Λούκιος" type="praenomen"><supplied reason="lost">Λο</supplied>υκίου</name> <persName type="aphrodisian"><name reg="Τατια-">Τατια<supplied reason="lost" cert="low">νοῦ</supplied> <gap reason="lost" extent="unknown" unit="character" dim="right"/></name></persName></persName>  <g type="stop"/> <w lemma="υἱός">υἱοῦ</w>     <lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <persName type="aphrodisian"><name reg="Κλαυδία"><expan><abbr>Κλαυ</abbr><supplied reason="abbreviation" cert="low">δίας</supplied></expan></name> <name reg="Αὐρηλία"><expan><abbr>Αὐρ</abbr><supplied reason="abbreviation" cert="low">ηλίας</supplied></expan></name> </persName><persName type="aphrodisian"><name reg="Τατιανή">Τατιανῆ<supplied reason="lost" cert="low">ς</supplied><gap reason="lost" extent="unknown" unit="character" dim="right"/></name></persName>    <lb n="3"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">ττ</unclear></orig>  <gap reason="lost" extent="5" unit="character"/><orig n="unresolved">α</orig>  <g type="stop"/>  <orig n="unresolved"><unclear reason="damage">λτ</unclear></orig><gap extent="1" reason="illegible" unit="character"/><orig n="unresolved"><unclear reason="damage">τ</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="3a"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/>  </ab>
 </div>

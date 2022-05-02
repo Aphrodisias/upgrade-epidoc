@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080236" n="iAph1284 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080236" n="iAph1284 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -21,7 +21,7 @@
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="personType" key="imperatorius">Imperial</rs></term></keywords></textClass></profileDesc>
 <revisionDesc><change><date>2007-07-18</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change>
-<change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -39,7 +39,7 @@
 <date notBefore="0084" notAfter="0096" exact="both">A.D. early 84-96</date>
 (<rs type="criteria">reign, titulature</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><persName type="emperor" full="yes"><w lemma="αὐτοκράτωρ"><supplied reason="lost">α</supplied>ὐτοκρ<supplied reason="lost">ά</supplied>τ<supplied reason="lost">ορα</supplied></w>  <name reg="Καῖσαρ">Καί<supplied reason="lost">σαρα</supplied></name>    <lb n="2"/><name reg="Δομιτιανός">Δομιτιανὸν</name>  <w lemma="σεβαστός">Σεβαστὸν</w>  <lb n="3"/><name reg="Γερμανικός">Γερμανικὸν</name></persName>  <w lemma="ὁ">ὁ</w>  <w lemma="δῆμος">δῆμος</w>  <w lemma="καθιερόω">καθι<lb n="4" type="worddiv"/>έρωσεν</w>  <w lemma="ἐπιμελέω">ἐπιμεληθέντος</w>  <lb n="5"/><persName type="aphrodisian" full="yes"><name reg="Διογένης">Διογένου</name>  <w lemma="ὁ">τ<supplied reason="lost">ο</supplied>ῦ</w>  <persName type="aphrodisian" full="yes"><name reg="Εὐκλῆς">Εὐκλέους</name>  <lb n="6"/><w lemma="ὁ">τοῦ</w>  <persName type="aphrodisian" full="yes"><name reg="Διογένης">Διογένου</name></persName></persName></persName>  <g type="scroll"/></ab>
 </div>

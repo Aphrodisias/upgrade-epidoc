@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120638" n="iAph1241 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120638" n="iAph1241 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -49,7 +49,7 @@
 
 <p>     <date notAfter="0300" notBefore="0192" exact="notBefore">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>).</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="1"/><w lemma="ὁ"><supplied reason="lost">τῷ</supplied></w>  <persName type="divine" full="yes"><name>Ὓπνῳ</name></persName><lb n="2"/><persName type="aphrodisian"><name reg="Σεπτίμιος"><unclear reason="damage">Σε</unclear>πτίμιος</name><lb n="3"/><space extent="1" unit="character" dim="horizontal"/>  <name reg="Αὐρήλιος" type="nomen"><expan><abbr>Αὐ<orig><g type="tilde"/></orig></abbr><supplied reason="abbreviation">ρήλιος</supplied></expan></name>  <name reg="Φλάβιος"><expan><abbr>Φλ<orig><g type="tilde"/></orig></abbr><supplied reason="abbreviation">άουιος</supplied></expan></name>  <space extent="1" unit="character" dim="horizontal"/><lb n="4"/><name reg="Οὐενίδιος">Οὐενίδιος</name><lb n="5"/><name reg="Ὑψικλῆς">Ὑψικλῆς</name>  <space extent="1" unit="character" dim="horizontal"/><lb n="6"/><name reg="Εὔφρων">Εὔφρων</name></persName>  <space extent="1" unit="character" dim="horizontal"/><lb n="7"/><w lemma="ἀρχιερεύς">ἀρχ<supplied reason="lost">ι</supplied><unclear reason="damage">ε</unclear>ρεὺς</w><lb n="8"/> <w lemma="ὁ">ὁ</w> <w lemma="ἱερεύς">ἱε<supplied reason="lost">ρεὺ</supplied>ς</w>  <w lemma="ὁ">τοῦ</w><lb n="9"/><persName type="divine" full="yes"><name>Ἀσ<supplied reason="lost">κληπ</supplied><unclear reason="damage">ί</unclear>ου</name></persName></ab>

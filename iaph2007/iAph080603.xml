@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080603" n="iAph0142 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080603" n="iAph0142 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -37,7 +37,7 @@
 
       <div type="description" n="text">
         <head>Description of Text</head>
-        <p>The inscription is cut <measure dim="none">0.26</measure> above the lower end of the
+        <p>The inscription is cut <measure dim="height">0.26</measure> above the lower end of the
 column, and the inscribed area measures <measure dim="height" type="length" unit="metre">0.43</measure> × <measure dim="width" type="length" unit="metre">0.23</measure>. Above the text
 is a depiction of a Christian sanctuary: two spiral columns support an
 arch, with a pointed roof surmounted by a cross. From the arch hangs a
@@ -58,7 +58,7 @@ have been cut with a fine-pointed implement.</p>
         <p><date notAfter="0400" exact="none" notBefore="0301">Fourth century A.D.</date> or later (<rs type="criteria">content</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
       <ab>
 			<lb n="1"/><persName key="Lord" type="divine" full="yes"><w lemma="κύριος">Κύριε</w></persName> <w lemma="ὁ">ὁ</w> <w lemma="θεός"><persName key="God" type="divine" full="yes">θεὸς</persName></w>

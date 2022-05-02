@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150334" n="iAph0150 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150334" n="iAph0150 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -54,7 +54,7 @@ decoration.</p>
         <p><date exact="none" cert="low" notBefore="0201" notAfter="0400">Third-fourth century</date> (formulae, penalty).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab>
 		<lb n="1"/><w lemma="ὁ">ὁ</w> <w lemma="τόπος">τόπος</w> <w lemma="εἰμί">ἐστὶν</w> <w lemma="καί">καὶ</w><lb n="2"/><w lemma="ὁ">ὁ</w> <w lemma="πλάτας">πλάτας</w> <persName full="yes" type="aphrodisian" key="vitus1"><name reg="Βίτος">Βίτου</name> <orig n="unresolved"><unclear reason="damage">μονη</unclear></orig><lb n="3"/><persName key="*roticus" type="aphrodisian" full="yes"><name><gap reason="lost" extent="6" unit="character" dim="left"/><unclear reason="damage">ρ</unclear>ωτικου</name> <w lemma="ὁ">τοῦ</w><lb n="4"/><persName key="praulius" type="aphrodisian" full="yes"><name reg="Πραύλιος"><unclear reason="damage">Πρα</unclear>υλίου</name></persName> <w lemma="ὁ">τοῦ</w> <w lemma="καί">καὶ</w> <persName key="asterius2" type="aphrodisian" full="yes"><name reg="Ἀστέριος">Ἀστ<unclear reason="damage">ε</unclear><lb n="5" type="worddiv"/><unclear reason="damage">ρ</unclear>ίου</name></persName></persName></persName> <rs key="cursor" type="profession"><w lemma="κούρσωρ">κούρσορος</w></rs> <w lemma="ὁ">τῶν</w><lb n="6"/><rs type="dignity" key="semnotatos"><w lemma="σεμνός">σεμνοτάτων</w></rs> <rs type="subject" key="tribes"><w lemma="φυλή">φυλῶν</w></rs>.<lb n="7"/><w lemma="εἰ">εἴ</w> <w lemma="τις">τις</w> <w lemma="δέ"><unclear reason="damage">δὲ</unclear></w> <w lemma="βούλομαι">βου<unclear reason="damage">λ</unclear>ηθείη</w> <unclear reason="damage">Ι</unclear><lb n="8"/><w lemma="χωρίς">χωρὶς</w> <w lemma="γνῶσις"><unclear reason="damage">γνώσ</unclear>εως</w> <w lemma="ἐμός">ἐ<lb n="9" type="worddiv"/>μῆς</w> <w lemma="ἐνθάπτω">ἐνθάψαι</w> <w lemma="τις">τινὰ</w><lb n="10"/><w lemma="δίδωμι">δώσει</w> <w lemma="ὁ">τῷ</w> <rs type="dignity" key="sanctissimus"><w lemma="ἱερός">ἱερωτάτῳ</w></rs><lb n="11"/><w lemma="ταμεῖον">ταμεί<unclear reason="damage">ῳ</unclear></w> <w lemma="χρυσός">χρυσοῦ</w><lb n="12"/><w lemma="λίτρα">λίτραν</w> <w lemma="εἷς">μίαν</w>.</ab> 

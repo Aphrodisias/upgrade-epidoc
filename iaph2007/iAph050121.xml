@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050121" n="iAph0024 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph050121" n="iAph0024 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -63,7 +63,7 @@
 <p><date notAfter="0388" exact="both" cert="low" notBefore="0385">A.D. 385/388</date> (<rs type="criteria">prosopography</rs>).</p>
 </div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 <lg><lb n="1"/><l><g type="leaf"/> <rs type="subject" key="boule"><w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w></rs> <w lemma="ὁ">τὸν</w> <w lemma="πᾶς">πᾶσι</w> <w lemma="προσηνής">προς<lb n="2" type="worddiv"/>ηνέα</w> <w lemma="ὅδε">τόνδε</w> <persName type="aphrodisian" key="Menander1" full="yes"><name reg="Μένανδρος">Μένανδρον</name></persName></l><lb n="3"/><l><w lemma="πολύς">πολλῶν</w> <w lemma="ἀντί">ἀντ'</w> <w lemma="ἀγαθός">ἀγαθῶν</w><lb n="4"/><w lemma="ἵστημι">στῆσεν</w> <w lemma="ἀμείβομαι">ἀμειβομένη</w></l><lb n="5"/><l><w lemma="ὅς">ὃς</w> <w lemma="μέγας">μεγάλῃ</w> <w lemma="χαρίεις">χαρίεντα</w> <rs type="subject" key="city"><w lemma="πόλις">πόλι</w></rs><lb n="6"/><w lemma="θρεπτήριος">θρεπτήρια</w> <w lemma="τίς">τίνων</w></l><lb n="7"/><l><w lemma="δασμός">δασμοὺς</w> <w lemma="πραύνω">πρηΰνας</w> <w lemma="πᾶς">πᾶσιν</w><lb n="8"/><w lemma="τίθημι">ἔθηκε</w> <w lemma="φάος">φάος</w> <g type="leaf"/></l>
 </lg>

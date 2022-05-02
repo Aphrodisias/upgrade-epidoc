@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080046" n="iAph0579 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080046" n="iAph0579 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -23,7 +23,7 @@
 </profileDesc>
 <revisionDesc>
 <change><date>2007-03-14</date><respStmt><name>GB</name></respStmt><item>DONE</item></change>
-<change><date>2007-3-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+<change><date>2007-03-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
 </revisionDesc></teiHeader><text>
 <body>
 <div type="description" n="monument">
@@ -44,7 +44,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
  (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab>
 <lb n="0"/>

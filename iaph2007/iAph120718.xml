@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120718" n="iAph0211 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120718" n="iAph0211 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -56,7 +56,7 @@ abbreviation.</p>
         <head>Date</head><p><date notBefore="0401" notAfter="0600" cert="low">Fifth to sixth centuries A.D.</date>, or later (<rs type="criteria">content</rs>)</p>
       </div>
 
-      <div type="edition" lang="grc">
+      <div type="edition" lang="grc" xml:space="preserve">
         <head lang="en">Edition</head>
         	
         		<div type="textpart_section" n="i"><ab>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130204" n="iAph1639 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130204" n="iAph1639 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <date notBefore="0101" notAfter="0400" exact="none">Second to fourth century A.D.</date>(<rs type="criteria">lettering</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <persName type="aphrodisian"><name reg="Ἄτταλος">Ἄτταλος</name> <persName type="aphrodisian"><name reg="Ἐπάγαθος">Ἐπαγά<lb n="2"/>θου</name></persName></persName> <w lemma="ὁ">τοῦ</w> <w lemma="ἀδελφός">ἀδ <lb n="3"/> ελφοῦ</w> <w lemma="μνεία">μνεί<unclear>α</unclear><supplied reason="lost">ς</supplied></w><lb n="4"/>  <w lemma="χάρις">χάριν</w> <w lemma="ποιέω">ἐπόησε</w><lb n="5"/><w lemma="ὁ">τὸ</w> <w lemma="μνημόριον">μνη<lb n="6"/>μόριν</w><lb n="7"/>  <space extent="3" unit="character" dim="horizontal"/>  </ab>
 </div>

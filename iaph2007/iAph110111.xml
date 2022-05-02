@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110111" n="iAph0141 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110111" n="iAph0141 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -53,7 +53,7 @@ trés incorrects</foreign>'. (Texier)</p>
         <p><date notAfter="0400" notBefore="0301" exact="none">Fourth century</date> or later (content).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab><lb n="1"/><persName type="divine" key="God" full="yes"><w lemma="θεός"><expan><abbr>Θ</abbr><supplied reason="abbreviation">ε</supplied><abbr>ὲ</abbr></expan></w></persName> <w lemma="βοηθέω">βοήθι</w> <w lemma="ὁ">τῷ</w> <w lemma="κόσμος">κόσμο</w><lb n="2"/><w lemma="σήμερον">σέμερον</w> <w lemma="καί"><orig reg="καὶ">κὲ</orig></w> <orig n="unresolved">νια</orig><lb n="3"/><w lemma="καί">κὲ</w> <orig n="unresolved">αυρενπισιεγω</orig></ab>
       </div>

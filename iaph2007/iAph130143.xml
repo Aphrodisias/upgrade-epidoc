@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130143" n="iAph1629 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130143" n="iAph1629 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -41,7 +41,7 @@
  <head>Date</head>
 <p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
  </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_section" n="i"><ab><lb n="1"/>  <gap reason="lost" extent="20" unit="character" precision="circa"/><orig n="unresolved">αι</orig> <w lemma="εἰμί">ἐστι</w> <persName type="aphrodisian"><name reg="Μᾶρκος">Μάρκου</name> <name reg="Αὐρήλιος" type="nomen">Α<unclear reason="damage">ὐ</unclear>ρη<unclear reason="damage">λ</unclear>ίου</name> <name reg="Ἰουλιανός">Ἰουλιανοῦ</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἰουλιανός"><app type="previouslyread">
 <rdg resp="autopsy">

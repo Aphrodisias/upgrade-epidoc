@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080610" n="iAph0057 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080610" n="iAph0057 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -56,7 +56,7 @@
         <p><date notAfter="0500" exact="none" notBefore="0468">Late fifth century</date> (<rs type="criteria">prosopography</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab>
 		<lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/> <persName key="Pytheas" type="aphrodisian" full="yes"><name reg="Πυθέας"><supplied reason="lost">Π</supplied>υθέας</name></persName> <w lemma="τρισόλβιος">τρισό<unclear reason="damage">λ</unclear><supplied reason="lost">βιος</supplied></w> <gap dim="right" extent="unknown" reason="lost" unit="character"/>

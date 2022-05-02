@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <title>
+                  <rs type="textType">Seat inscriptions</rs>, Odeon block D</title>
+            </title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph020018</idno>
+            <idno type="IAph2007">iAph020018</idno>
+            <idno type="JMR2004">iAph0695</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Odeon, <objectType>seat</objectType>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Row 6: <rs type="execution" key="scalpro">Inscribed</rs> on one seat, whose surface has subsequently been chipped, as if for plastering. </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> l.1, <height unit="metre">0.002-0.045</height>; l.2, <height unit="metre">0.02-0.035</height>; irregular, square.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Findspot</rs>
+                     </origPlace>
+                     <origDate notBefore="0401" notAfter="0600" precision="medium">
+Fifth to sixth centuries A.D.
+(<rs type="criteria">context</rs>, <rs type="criteria">content</rs>).</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList">Bouleuterion/Odeon</rs>: seats, Block D.</rs>
+                  </provenance>
+                  <provenance type="observed">
+                     <rs type="lastLocation">Findspot</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType" key="cetera">Agonistic</rs>
+               </term>
+               <term>
+                  <rs type="textType" key="cetera">jewish</rs>
+               </term>
+               <term>
+                  <rs type="textType" key="cetera">Factional</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2007-03-24" who="Charlotte-Tupman">tidied</change>
+         <change when="2007-03-13" who="Elliott-Hall">Batch converted Word2XML</change>
+         <change when="2007-01-01" who="GB">hand tidied</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+<div n="6" type="textpart" subtype="section"><ab>
+
+<lb n="1"/>
+<w lemma="τόπος">τόπος</w> <w lemma="βένετος">Βενέτων</w> 
+<lb n="2"/>
+<placeName nymRef="#Ἑβραῖος">Ἑβρ<unclear reason="damage">έ</unclear>ων</placeName> <w lemma="ὁ">τῶν</w> <w lemma="παλαιός"><unclear reason="damage">πα</unclear>λεῶν</w></ab>
+</div></div>
+         <div type="apparatus">
+            <p>The alignment here, and a slight difference in the design of the two betas, may suggest that the word Βενέτων was cut by a different hand - whether earlier or later is uncertain; but this cannot be regarded as proven, given the roughness of the whole.</p>
+         </div>
+         <div type="translation">
+            <p>Row 6: Place of Blues, of the elder Jews.</p>
+         </div>
+         <div type="commentary">
+            <p>See <title>Performers and Partisans,</title> 47.</p>
+         </div>
+         <div type="bibliography">
+            <p>Cited by <bibl n="cameron1976">Alan Cameron, <title>Circus Factions</title>, 79, 135</bibl>; published, <bibl n="JandG">Jews and Godfearers, Appendix, <citedRange>1a</citedRange>
+               </bibl>; published by <bibl n="ALA">Roueché, ALA <citedRange>180.iii</citedRange>
+               </bibl>, and again, <bibl n="PPA">PPA <citedRange>47.2.D</citedRange>
+               </bibl>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

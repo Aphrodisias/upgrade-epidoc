@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120539" n="iAph1033 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120539" n="iAph1033 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -30,7 +30,7 @@
 
 <div type="description" n="monument">
 <head>Description of Monument</head>
-<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType" reg="statue base">base</rs> capital with heavy moulding above (top <measure type="length" dim="none">0.68</measure>   × <measure type="length" dim="none">0.70</measure>; shaft <measure type="length" dim="none">0.42</measure>   × <measure type="length" dim="none">0.37</measure>; height <measure type="depth" dim="none">0.32</measure>), broken away to right.</p>
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType" reg="statue base">base</rs> capital with heavy moulding above (top <measure type="length" dim="height">0.68</measure>   × <measure type="length" dim="height">0.70</measure>; shaft <measure type="length" dim="height">0.42</measure>   × <measure type="length" dim="height">0.37</measure>; height <measure type="depth" dim="height">0.32</measure>), broken away to right.</p>
 </div>
 
 <div type="description" n="text">
@@ -48,7 +48,7 @@
 
 <p>Probably <date exact="none" notAfter="0300" notBefore="0201">third century</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>).</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="1"/><w lemma="ὁ">ἡ</w>  <w lemma="βουλή">βουλὴ</w>  <w lemma="καί">καὶ</w>  <w lemma="ὁ">ὁ</w>  <w lemma="δῆμος">δ<hi rend="ligature">ῆμ</hi><unclear reason="damage">ο</unclear><supplied reason="lost">ς</supplied></w>  <supplied reason="lost"><w lemma="καί">καὶ</w>  <w lemma="ὁ">ἡ</w>  <w lemma="γερουσία">γερουσία</w></supplied>  <lb n="2"/><w lemma="τιμάω">ἐτεί<hi rend="ligature">μη</hi>σαν</w>  <w lemma="ὁ">ταῖς</w>  <w lemma="καλός">καλ<supplied reason="lost">λίσταις</supplied></w>  <w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <lb n="3"/><w lemma="πρέπω">πρεπούσαις</w>  <w lemma="τιμή">τειμαῖ<supplied reason="lost">ς</supplied></w><lb n="4"/><persName full="yes" reg="Μᾶρκος  Αὐρήλιος  Κλαύδιος  Κτησίας  Διογᾶς" type="aphrodisian"><name reg="Μᾶρκος"><expan><abbr>Μᾶρ</abbr><supplied reason="abbreviation">κον</supplied></expan></name>  <name type="nomen" reg="Αὐρήλιος"><expan><abbr>Αὐρ</abbr><supplied reason="abbreviation">ήλιον</supplied></expan></name>  <name reg="Κλαύδιος"><expan><abbr>Κλ</abbr><supplied reason="abbreviation">αύδιον</supplied></expan></name>  <name reg="Κτησίας">Κτησία<unclear reason="damage">ν</unclear></name>  <persName type="aphrodisian"><name reg="Διογᾶς"><supplied reason="lost">Δι</supplied><lb type="worddiv" n="5"/>ογᾶ</name>  <w lemma="ὁ">τοῦ</w>  <persName type="aphrodisian"><name type="        " reg="Ἡλιόδωρος">Ἡλιοδώρ<supplied reason="lost">ου</supplied></name></persName></persName></persName><lb n="5a"/><gap unit="line" reason="lost" extent="unknown" dim="bottom"/></ab>

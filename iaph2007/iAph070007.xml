@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph070007" n="iAph1666 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph070007" n="iAph1666 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notBefore="0001" notAfter="0400" exact="none">First to fourth centuries A.D.</date> (<rs type="criteria">lettering</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <cb n="a"/><ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/><orig n="unresolved"><unclear reason="damage">νουνω</unclear>νοσ</orig> <rs type="month"><w lemma="λαῖος"><unclear reason="damage">Λα</unclear>ίου</w></rs></ab><cb n="b"/><ab> <lb n="1"/> <note>below:   a <seg cert="low">graffito</seg></note> <orig n="unresolved">νικ</orig></ab>
 </div>

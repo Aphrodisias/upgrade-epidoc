@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120702" n="iAph1584 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120702" n="iAph1584 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notAfter="099" notBefore="-099"><seg cert="low">I B.C. - I A.D.</seg></date>
 (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <persName type="aphrodisian"><name reg="Ἑρμόλαος">Ἑρμόλαος</name></persName> <w lemma="πορφυρᾶς">πορφυ<lb n="2" type="worddiv"/>ρᾶς</w> <w lemma="ὁ">τὸ</w> <w lemma="στεγνός">στεγνὸν</w><lb n="3"/> <space extent="3"/><w lemma="ποιέω">ἐποίει</w> <space extent="3"/></ab>
 </div>

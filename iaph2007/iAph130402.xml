@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130402" n="iAph0366 ">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130402" n="iAph0366 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -51,7 +51,7 @@
 
 <p><date notAfter="0300" notBefore="0101" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>).</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
  <ab><lb n="1"/><space unit="character" extent="5" dim="horizontal"/>  <w lemma="ἀνατίθημι">ἀναθέντος</w>  <w lemma="δέ">δὲ</w>  <w lemma="καί">καὶ</w>  <persName type="aphrodisian" full="yes"><name reg="Τίτος" type="praenomen">Τίτου</name>  <name reg="Αἴλιος">Αἰ<supplied reason="lost">λίου</supplied></name>  <name><gap dim="right" extent="23" reason="lost" unit="character"/><lb n="2" type="worddiv"/><space unit="character" extent="5" dim="horizontal"/>  διανοῦ</name></persName> <w lemma="ὁ">τῇ</w> <w lemma="βουλή">βουλῇ</w> <w lemma="εἰς">εἰς</w> <w lemma="αἰώνιος">αἰωνίο<supplied reason="lost">υς</supplied></w>  <supplied reason="lost"><w lemma="κλῆρος">κληροὺς</w>  <w lemma="καθώς">καθῶς</w>  <w lemma="διά">διὰ</w>  <w lemma="ὁ">τῆς</w></supplied>  <w lemma="ἀνάθεσις"><supplied reason="lost">ἀνα</supplied><lb n="3" type="worddiv"/><space unit="character" extent="15" dim="horizontal"/>  θέσεως</w>  <w lemma="δηλόω">δη<supplied reason="lost">λοῦται</supplied></w>  <gap dim="bottom" extent="unknown" unit="line" reason="lost"/><supplied reason="lost" cert="low"><space unit="character" extent="15" dim="horizontal"/></supplied><gap dim="bottom" extent="unknown" unit="line" reason="lost"/><lb n="3a"/><space unit="line" extent="1" dim="vertical"/>  <gap dim="bottom" extent="unknown" unit="line" reason="lost"/></ab>

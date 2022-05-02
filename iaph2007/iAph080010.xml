@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080010" n="iAph0704 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080010" n="iAph0704 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -24,7 +24,7 @@
 </profileDesc>
 <revisionDesc>
 <change><date>2007-08-07</date><respStmt><name>Eleonora Litta</name></respStmt><item>tidied expan</item></change><change><date>2007-03-23</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
-<change><date>2007-3-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+<change><date>2007-03-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
 </revisionDesc></teiHeader><text>
 <body>
 <div type="description" n="monument">
@@ -44,7 +44,7 @@
 <p>
 <date notBefore="0001" notAfter="0600" exact="none">First to sixth centuries A.D.</date> (<rs type="criteria">context</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_section" n="a"><ab>
 <lb n="1"/>

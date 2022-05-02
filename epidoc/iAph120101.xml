@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>i. Honours for Flavius Constantius, <rs type="personType">governor</rs>, for building the wall; ii. Flavius Ampelios restores the gate</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph120101</idno>
+            <idno type="IAph2007">iAph120101</idno>
+            <idno type="JMR2004">iAph0022</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+A <material>white marble</material>
+                              <objectType>lintel</objectType> block with <rs type="decoration">egg and dart moulding</rs> above two stepped fasciae (<height unit="metre">0.75</height> × <width unit="metre">4.95</width> × <depth unit="metre">0.95</depth>); the condition of the stone appears not to have altered since it was first recorded.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+i. is cut on the upper fascia, and ii. on the lower. A cross flanked by an <term lang="grc-Latn">alpha</term> and an <term lang="grc-Latn">omega</term> within a circle was later cut over i., probably at the time that ii. was cut, or perhaps when it was emended.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+i. l. 1, <height unit="metre">0.07</height>, l. 2, <height unit="metre">0.08</height>; elongated, well-cut and regular; the <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α</foreign> of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἡγεμόνα</foreign> was added above the line, <height>0.03</height>; scroll for abbreviation; b. <height unit="metre">0.04</height>.
+
+ii. <height unit="metre">0.07</height>; well cut; abbreviations: last letter above line in <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗΤΡΟΠ<hi rend="superscript">ο</hi>, ΕΛΛΟΓΙΜ<hi rend="superscript">ο</hi>, ΣΧ<hi rend="superscript">ο</hi>
+                        </foreign>; scroll in <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+                           <expan>
+                              <abbr>Φλ</abbr>
+                              <supplied reason="abbreviation">αουίου</supplied>
+                           </expan>, <expan>
+                              <abbr>κ</abbr>
+                              <supplied reason="abbreviation">αὶ</supplied>
+                           </expan>, <expan>
+                              <abbr>ἰνδ</abbr>
+                              <supplied reason="abbreviation">ικτίωνος</supplied>
+                           </expan>
+                        </foreign>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">
+Findspot</rs>
+                     </origPlace>
+                     <origDate notBefore="0434" notAfter="0467" precision="medium">
+i: A.D. 365/370
+(<rs type="criteria">titulature</rs>)
+ii (and i.b): Mid fifth century
+(<rs type="criteria">titulature</rs>, <rs type="criteria">prosopography</rs>).</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList">Walls, North-east</rs>: over the North-east Gate in the city wall, with the inscription on the west (inner) face; see .</rs>
+                  </provenance>
+                  <provenance type="observed" when="&#xA;2004">
+                     <rs type="lastLocation">
+Findspot (2004)</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType">Honours</rs>
+               </term>
+               <term>
+                  <rs type="textType">building inscription</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2007-08-07" who="Eleonora-Litta">expan tidied</change>
+         <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
+         <change when="2004-04-19" who="#GB">Added zero line numbers, and fixed column/fragment breaks</change>
+         <change when="2004-03-22" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
+         <change when="2004-01-16" who="#CMR">tidied; image refs</change>
+         <change when="2003-11-04" who="John-Lavagnino">Converted beta code to Unicode</change>
+         <change when="2003-08-20" who="#CMR">name tags reduced</change>
+         <change when="2003-07-14" who="JLG">Lemmatised</change>
+         <change when="2003-06-22" who="#CMR">tagged, tidied and corrected</change>
+         <change when="2003-05-27" who="#GB">tidied and corrected</change>
+         <change when="2003-05-27" who="#GB">Typed and marked-up Greek</change>
+         <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+
+<div n="i" type="textpart" subtype="section"><div n="a" type="textpart" subtype="section"><ab><lb n="1"/>
+<persName key="FlConstantius" type="attested"><name nymRef="#Φλάβιος"><expan><abbr>Φλ</abbr><ex>άουιον</ex></expan></name>
+<name nymRef="#Κωστάντιος">Κωστάντιον</name></persName> <w lemma="ὁ">τὸν</w> <rs type="dignity" key="clarissimus"><w lemma="λαμπρός">λαμπρότατον</w></rs> <rs type="official-secul" key="praeses"><w lemma="ἡγεμών">ἡγεμόν<add place="supralinear">α</add></w></rs> <rs type="subject" key="CouncilPeople"><w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w></rs> <g ref="#leaf"/><lb n="2"/>
+<g ref="#scroll"/>
+<space dim="horizontal" extent="1" unit="character"/> <w lemma="μετά">μετὰ</w> <w lemma="ὁ">τῶν</w> <w lemma="ἄλλος">ἄλλων</w> <w lemma="ἔργον">ἔργων</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὸ</w> <w lemma="τεῖχος">τεῖχος</w> <w lemma="ἀνίστημι">ἀναστήσαντα</w> <g ref="#star"/></ab></div>
+<div n="b" type="textpart" subtype="section"><ab><lb n="1"/><note place="not specified" anchored="yes">cut over text</note> <w lemma="Α">Α</w> <g ref="#cross"/> <w lemma="Ω">Ω</w></ab></div></div>
+
+<div n="ii" type="textpart" subtype="section"><ab n="scholasticus" type="profession"><lb n="1"/>
+<g ref="#cross"/> <w lemma="ἐπί">ἐπὶ</w> <w lemma="εὐτυχία">εὐτυχίᾳ</w> <w lemma="ὁ">τῆς</w> <rs type="dignity" key="clarus"><w lemma="λαμπρός">λαμπρᾶς</w></rs> <w lemma="Σταυροπολίτης"><placeName nymRef="#Σταυρουπολίτης"><supplied reason="omitted">Σ</supplied>ταυρουπολίτων</placeName></w> <rs type="subject" key="capital"><w lemma="μητρόπολις"><expan><abbr>μητροπ</abbr><ex>όλεως</ex></expan></w></rs> <w lemma="καί">καὶ</w> <w lemma="οὗτος">τοῦτο</w> <w lemma="ὁ">τὸ</w> <w lemma="ἔργον">ἔργον</w> <w lemma="ὁ">τῆς</w> <w lemma="πύλη">πύλης</w> <g ref="#stop"/> <w lemma="ἀνανεόω">ἀναινεώθη</w><lb n="2"/>
+
+<g ref="#cross"/>
+ <w lemma="ἐπί">ἐπὶ</w> <persName key="Ampelius" type="attested"><name nymRef="#Φλάβιος"><expan><abbr>Φλ</abbr><ex>αουίου</ex></expan></name> <name nymRef="#Ἀμπέλιος">Ἀμπελίου</name></persName> <w lemma="ὁ">τοῦ</w> <rs type="dignity" key="eloquentissimus"><w lemma="ἐλλόγιμος"><expan><abbr>ἐλλογιμ<am><hi rend="superscript">ο</hi></am></abbr><ex>ωτάτου</ex></expan></w></rs>
+<rs type="profession" key="scholasticus"><w lemma="σχολαστικός"><expan><abbr>σχ<hi rend="superscript">ο</hi></abbr><ex>λαστικοῦ</ex></expan></w></rs>
+<w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <rs type="official-secul" key="pater"><w lemma="πατήρ">πατρός</w></rs> <g ref="#stop"/><rs type="subject" key="dating">
+<w lemma="ἰνδικτιών"><expan><abbr>ἰνδ</abbr><ex>ικτίωνος</ex></expan></w>
+<num value="8">
+<hi rend="supraline">η</hi></num></rs>
+<g ref="#cross"/>
+</ab></div>
+
+</div>
+         <div type="apparatus">
+            <p>
+i. l.1. <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">τόν</foreign> omitted by MAMA. The superscript <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Α</foreign> was first noted by Reinach.
+</p>
+            <p>ii. 
+l.1. After <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">λαμπρᾶς</foreign> the text originally read <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+                  <del rend="overscore" status="unremarkable">ΑΦ</del>ΡΟ<del rend="overscore" status="unremarkable">ΔΙΣΙΑ</del>ΙΩΝ</foreign>; the letters highlighted here were subsequently erased and replaced, and the <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ι</foreign> of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΙΩΝ</foreign> altered to <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Τ</foreign>, to read <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΑΥΡΟΠΟΛΙΤΩΝ</foreign>.
+</p>
+            <p>
+Earlier editors did not record the two stops (simple dots) or the apparent trace of a cross at the beginning of l. 2; the stone is broken here, and the reading is not certain.</p>
+         </div>
+         <div type="translation">
+            <p>
+i. The Council and the People <supplied reason="subaudible">have honoured</supplied>
+Fl<supplied reason="abbreviation">avius</supplied> Co<supplied reason="omitted">n</supplied>stantius, <term lang="la">clarissimus praeses</term>, who, as well as his other works, put up the wall.</p>
+            <p>ii. 
+For the good fortune of the splendid metropolis of the <supplied reason="omitted">S</supplied>tauropolitans, this work of the gate was also renewed, under Fl<supplied reason="abbreviation">avius</supplied> Ampelios, the most eloquent <term lang="la">scholasticus</term> and <term lang="la">pater</term>, in the eighth indiction.</p>
+         </div>
+         <div type="commentary">
+            <p>i: 
+For Flavius Constantius see also <ref type="inscription" n="235" target="060004.xml"/>, and discussion at <ref type="eAla-text" n="III.16" target=".xml"/>.</p>
+            <p>ii: For Flavius Ampelios see also <ref type="inscription" n="38" target="040202.xml"/>, <ref type="inscription" n="43" target="020019.xml"/>, <ref type="inscription" n="44" target="080609.xml"/> and discussion at <ref type="eAla-text" n="IV.33" target=".xml"/>..</p>
+         </div>
+         <div type="bibliography">
+            <p>
+Published by <bibl type="hbi" n="sestini1807">
+                  <author>Sestini</author> (<title level="m">Viaggi</title>, <citedRange>113</citedRange>)</bibl>; by <bibl>
+                  <author>F. Graese</author> from <author>Gell</author> (<title level="m">Act. Acad. Petrop.</title> VIII, 706)</bibl>; by <bibl type="hbi" n="francke1830">
+                  <author>Francke</author> from Gell and von Richter, 428 nos. <citedRange>74</citedRange> and <citedRange>75</citedRange>
+               </bibl>; by <bibl type="hbi" n="CIGII">
+                  <author>Boeckh</author>, <title level="m">CIG</title>
+                  <citedRange>2745</citedRange>, <citedRange>2746</citedRange>
+               </bibl>, from all these and the Sherard papers, <seg cert="low">whence</seg>
+               <bibl type="hbi" n="texier1839">
+                  <author>Texier</author>, <title level="m">As. Min.</title> iii 159, no. <citedRange>2</citedRange>
+               </bibl>; cited by <bibl type="hbi" n="fellows1841">
+                  <author>Fellows</author>,pp.  35-6, no. <citedRange>17</citedRange>
+               </bibl>; published by <bibl type="hbi" n="bailie1846">
+                  <author>Bailie</author>, <title level="m">Fasc</title>. ii 16-17 and 272-274, no. <citedRange>45</citedRange>
+               </bibl>; by <bibl type="hbi" n="LBW">
+                  <author>Waddington</author>, from Le Bas, LBW <citedRange>593</citedRange>, <citedRange>594</citedRange>
+               </bibl>; cited by <bibl type="hbi" n="kubreich1893">
+                  <author>Kubitschek and Reichel</author> (<title level="m">Anz. Wien. Akad.</title> 1893, p. 103)</bibl>; published from Gaudin's squeeze, <bibl type="hbi" n="reinach">
+                  <author>Reinach</author>, <title level="m">REG</title> 19, <date value="1906" notBefore="1906" notAfter="1906" exact="both">1906</date>, 227-230, no. <citedRange>136</citedRange>
+               </bibl>, whence <bibl type="hbi" n="IGC">
+                  <author>Grégoire</author>, <title level="m">Rec</title>. <citedRange>270</citedRange>
+               </bibl>; cited and a photograph published by <bibl type="hbi" n="hell4">
+                  <author>Robert</author>, <title level="m">Hellenica</title> 4, <citedRange>61</citedRange> note 2 and <citedRange>130</citedRange> note 5</bibl>, whence <bibl n="be">
+                  <title level="m">BE</title>
+                  <citedRange>1949.178</citedRange>
+               </bibl>, <bibl n="be">
+                  <title level="m">BE</title>
+                  <citedRange>1956.277</citedRange>
+               </bibl>; published by <bibl type="hbi" n="MAMA8">
+                  <author>Cormack</author>, from the MAMA records, <title level="m">MAMA</title> 8, no. <citedRange>427</citedRange>
+               </bibl>; by <bibl type="hbi" n="ALA">
+                  <author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> nos. <citedRange>22</citedRange> (i), <citedRange>42</citedRange> (ii) and plate vi</bibl>, whence <bibl n="PHI">
+                  <author>McCabe</author>
+                  <title level="m">PHI Aphrodisias</title>
+                  <citedRange n="257490">609</citedRange>, <citedRange n="257501">619</citedRange>
+               </bibl>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

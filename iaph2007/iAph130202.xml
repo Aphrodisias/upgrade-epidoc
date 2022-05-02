@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130202" n="iAph1606 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130202" n="iAph1606 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notAfter="-0080" notBefore="-0200">second-early 1st century B.C.</date>
  (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <persName type="aphrodisian"><name reg="Ἀμύντας">Ἀμύντας</name> <persName type="aphrodisian"><name reg="Μένης">Μένητος</name></persName></persName> <persName type="aphrodisian"><name><supplied reason="lost" cert="low">Ὄ</supplied><lb type="worddiv" n="2"/>νασις</name>  <persName type="aphrodisian"><name reg="Ἡράκλειτος">Ἡρακλεί<supplied reason="lost" cert="low">του</supplied></name></persName>  <lb n="3"/> <w lemma="γυνή">γυνὴ</w> <w lemma="δέ">δὲ</w> <persName type="aphrodisian"><name reg="Ἀμύντας">Ἀμύντ<supplied reason="lost">ο</supplied><unclear reason="damage">υ</unclear></name></persName></persName> <persName type="aphrodisian"><name reg="Μενέστρατος">Μενέ<lb type="worddiv" n="4"/>στρατος</name>   <name reg="Ἀμύντας">Ἀμ<supplied reason="lost">ύντου</supplied></name></persName>  <persName type="aphrodisian"><name><supplied reason="lost">Β</supplied>ερε  <lb type="worddiv" n="5"/>νίκη</name>  <persName type="aphrodisian"><name reg="Μενέστρατος">Μενε<supplied reason="lost">σ</supplied>τ<supplied reason="lost">ράτου</supplied></name></persName> <w lemma="γυνή"><supplied reason="lost">γυν</supplied><unclear reason="damage">ὴ</unclear></w> <w lemma="δέ">δὲ</w> <lb n="6"/><persName type="aphrodisian"><name reg="Μενέστρατος"><supplied reason="lost">Μεν</supplied><unclear reason="damage">ε</unclear>σττρά<supplied reason="lost">του</supplied></name></persName></persName> <gap reason="lost" extent="2" unit="character"/>Τ<unclear reason="damage">Ε</unclear>  <lb n="7"/><gap reason="lost" extent="5" unit="character"/>Λ<gap reason="lost" extent="10" unit="character"/>  <lb n="8"/><gap reason="lost" extent="17" unit="character"/>Υ  </ab>
 </div>

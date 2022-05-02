@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110102" n="iAph0910 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110102" n="iAph0910 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -46,7 +46,7 @@
 <date notAfter="0100" notBefore="0001"> I</date>
 (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">Κ</unclear><unclear reason="damage">Ι</unclear>ΩΝΕΙ<unclear reason="damage">Ω</unclear><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ΝΗΣΤΟΝ<unclear reason="damage">Ι</unclear><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>ΥΗΣΑΣ<unclear reason="damage">Ι</unclear><unclear reason="damage">Ξ</unclear><gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">Ρ</unclear>  ἀποτ<supplied reason="lost">είσεται</supplied>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">Ι</unclear><unclear reason="damage">Ε</unclear><unclear reason="damage">Τ</unclear><gap reason="lost" extent="unknown" unit="character"/>  </ab></div><div type="apparatus" n="text"><head>Apparatus</head><p>l. 1, ΚΙ or Η? Only seriph of omega survives. </p><p>l. 5, Only upper horizontal of Ε and Τ survive. </p>
 </div>

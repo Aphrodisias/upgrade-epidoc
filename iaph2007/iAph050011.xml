@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050011" n="iAph0190 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph050011" n="iAph0190 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -53,7 +53,7 @@ see, and l.6 is truncated.</p>
         <head>Date</head><ab><date notAfter="0600" notBefore="0301" cert="low">Fourth-fifth century A.D.</date> (<rs type="criteria">context</rs>, <rs type="criteria">content</rs>)</ab>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab>
 		  		<lb n="1"/><g type="cross"/><space dim="horizontal"/><g type="cross"/>

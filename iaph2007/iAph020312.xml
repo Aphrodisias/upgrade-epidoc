@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020312" n="iAph1670 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020312" n="iAph1670 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date exact="none" cert="low" notAfter="0300" notBefore="0201"> Probably third century A.D.</date>
 (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <w lemma="ὁ">τὴν</w> <w lemma="σορός">σ<supplied reason="lost">ο</supplied>ρὸν</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὰς</w> <supplied reason="lost">εν αὐτ<unclear reason="damage">ῇ</unclear></supplied>  <w lemma="εἰσώστη">εἰσῶστας</w> <w lemma="κατασκευάζω">κατε<supplied reason="lost">σ</supplied>κεύασεν</w> <persName type="aphrodisian"><name reg="Τίτος" type="praenomen">Τίτος</name> <gap reason="lost" extent="unknown" unit="character"/> <name reg="Αἴλιος">Αἴλιος</name> <name reg="Ζωτικός" type="        ">Ζωτ<supplied reason="lost">ικ</supplied>ὸ<unclear reason="damage">ς</unclear></name></persName> <g type="arabesque"/> <lb n="2"/>  <w lemma="εἰς">εἰς</w> <w lemma="ὅς">ἣν</w> <w lemma="σορός">σορὸν</w> <w lemma="θάπτω">τεθά<supplied reason="lost"><space extent="8" precision="circa"/></supplied>πται</w> <persName type="aphrodisian"><name reg="Φίλητος"><unclear>Φ</unclear>ίλητος</name></persName> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Ἀμμία">Ἀ<hi rend="ligature">μμ</hi>ία</name></persName> <w lemma="τέκνον">τέκνα</w> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Αἴλιος"><supplied reason="lost" cert="low">Αἰλίου</supplied></name> <name reg="Ζωτικός">Ζωτικοῦ</name></persName> <w lemma="οὐδείς">οὐδεὶς</w> <w lemma="δέ">δὲ</w> <lb n="2a"/><supplied reason="lost"><w lemma="ἕτερος">ἕτερος</w> <note>κτλ.</note></supplied>  </ab>
 </div>

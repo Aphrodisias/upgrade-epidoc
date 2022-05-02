@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph090014" n="iAph0895 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph090014" n="iAph0895 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notAfter="0100" notBefore="0001">1st century A.D.</date>
 (<rs type="criteria">lettering</rs>, <rs type="criteria">context</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <cb n="a"/><ab>  <lb n="1"/> <placeName reg="Ἀρμενία">Ἀρμενία</placeName>   <cb n="b"/><lb n="1"/>  <persName type="emperor"><name reg="Νέρων"><del rend="erasure">Νέρων<sic n="superfluous">ι</sic></del></name><lb n="2"/> <name reg="Κλαύδιος">Κλαύδιος</name> <lb n="3"/> <name reg="Δροῦσος">Δροῦσος</name><lb n="4"/> <name reg="Καῖσαρ">Καῖσαρ</name> <w lemma="σεβαστός">Σεβ<lb type="worddiv" n="5"/>αστὸς</w>  <w lemma="Γερμανικός">Γε<lb type="worddiv" n="6"/>ρμανικός</w></persName>   <g type="stop"/>  </ab>
 </div>

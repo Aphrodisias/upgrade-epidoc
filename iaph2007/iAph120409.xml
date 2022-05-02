@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120409" n="iAph0369 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120409" n="iAph0369 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -48,7 +48,7 @@
 
 <p><date notAfter="0200" notBefore="0001" exact="none">First to second century A.D.</date> (<rs type="criteria">lettering</rs>).</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="1"/><gap dim="left" extent="5" reason="lost" unit="character"/><gap extent="1" reason="illegible" unit="character"/>  <orig n="unresolved"><unclear reason="damage">ε</unclear></orig>  <gap extent="1" reason="lost" unit="character"/>  <space unit="character" extent="5" dim="horizontal"/><lb n="2"/><persName type="aphrodisian"><name reg="Φλαβία"><expan><abbr><supplied reason="lost">Φ</supplied>λ</abbr><supplied reason="abbreviation">αβία</supplied></expan></name>  <g type="stop"/>  <name reg="Ἀπφία">  Ἀπφία</name>  <g type="stop"/> <w lemma="γυνή">γυνὴ</w> <g type="stop"/>  <persName type="aphrodisian"><name reg="Φλάβιος"><expan><abbr>Φλ</abbr><supplied reason="abbreviation">αβίου</supplied></expan></name>  <g type="stop"/>    <name reg="Μιθραδάτης">Μ<supplied reason="lost">ι</supplied><lb n="3" type="worddiv"/>θριδάτου</name>  <persName type="aphrodisian"><name reg="Ἀγαθός">Ἀ <g type="stop"/> γαθοῦ</name></persName></persName>  <space extent="1" unit="character" dim="horizontal"/><lb n="4"/> <w lemma="θυγάτηρ">θυγατὴρ</w> <g type="stop"/>  <persName type="aphrodisian"><name reg="Μηνόδοτος">Μηνοδό<lb n="5" type="worddiv"/>του</name>  <persName type="aphrodisian"><name reg="Βραβεύς">Βραβέως</name></persName></persName></persName>  <g type="leaf" id="mark01"/><certainty target="mark01" locus="type" degree="low" assertedValue="stop"/>    <g type="flower"/>  <g type="leaf" id="mark02"/><certainty target="mark02" locus="type" degree="low" assertedValue="stop"/><lb n="6a"/><space extent="1" unit="line" dim="horizontal"/></ab>

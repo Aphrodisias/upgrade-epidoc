@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080088" n="iAph0675 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080088" n="iAph0675 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date cert="low" notAfter="0300" notBefore="0200">Third century</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">sculpture</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <cb n="i"/><ab><lb n="1"/> <persName type="aphrodisian"><name reg="Πίσεας">Πίσεαν</name> <persName type="aphrodisian"><name reg="Πίσεας">Πισέου</name></persName></persName> <lb n="2"/> <w lemma="περιοδονίκης">περιοδονίκην</w> <lb n="3"/><g type="leaf"/> <w lemma="ὁ">ἡ</w> <w lemma="πατρίς">πατρίς</w> <g type="leaf"/>  </ab>
 <cb n="ii"/><ab><lb n="1"/><persName type="aphrodisian"><name reg="Πολυνείκης">Πολυνείκ<supplied reason="lost">ης</supplied></name> <w lemma="Ἀφροδεισιεύς"><supplied reason="lost">Ἀφρ</supplied>οδεισιεὺς</w></persName><lb n="2"/><space extent="5"/> <w lemma="ποιέω">ἐποί<supplied reason="lost">ει</supplied></w> <space extent="8"/></ab></div>

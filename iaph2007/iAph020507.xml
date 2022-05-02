@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020507" n="iAph0345 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020507" n="iAph0345 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -41,7 +41,7 @@
 
 <div type="description" n="letters">
 <head>Description of Letters</head>
-<p>Ave. <measure dim="none">0.025</measure>; traces of red paint.</p>
+<p>Ave. <measure dim="height">0.025</measure>; traces of red paint.</p>
 </div>
 
 <div type="description" n="date">
@@ -49,7 +49,7 @@
 
 <p> Probably <date exact="none" notAfter="0100" notBefore="0001" cert="low">first century A.D.</date> (<rs type="criteria">lettering</rs>).</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="1"/><persName type="aphrodisian" full="yes"><name reg="Διογένης"><supplied reason="lost" cert="low">Διογέ</supplied>νης</name>  <name reg="Πάμφιλος">Παμφίλου</name></persName>  <w lemma="γυμνασιαρχέω">γυμνασιαρχήσας</w><lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><space unit="character" extent="unknown" dim="horizontal"/>  <w lemma="ὁ">τὸγ</w>  <w lemma="κίων">κίονα</w>  <w lemma="ὁ">τοῖς</w>  <w lemma="νέος">νέοις</w>  <space unit="character" extent="unknown" dim="horizontal"/></ab>

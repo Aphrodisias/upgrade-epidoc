@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010403" n="iAph0184 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010403" n="iAph0184 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,7 +52,7 @@ edge.</p>
         <head>Date</head><p><date notBefore="0401" notAfter="0600">Fifth-sixth century</date> (content)</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab>
 			<lb n="1"/><rs key="factions" type="subject"><rs type="subject" key="acclamations"><w lemma="νικάω">νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w></rs><lb n="2"/><w lemma="ὁ">τῶν</w> <w lemma="πράσινος">Πρασί

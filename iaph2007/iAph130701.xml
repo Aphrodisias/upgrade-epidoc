@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130701" n="iAph0357 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130701" n="iAph0357 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -48,7 +48,7 @@
 
 <p>      <date exact="none" notAfter="0100" notBefore="0001" cert="low">First century A.D.</date> (<rs type="criteria">lettering</rs>).</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <lb n="2"/> <w lemma="τιμάω">ἐτείμησαν</w> <w lemma="καί">καὶ</w> <w lemma="μεταλλάσσω">με<lb n="3" type="worddiv"/>τηλλαχότα</w>  <g type="stop"/>  <persName type="aphrodisian"><name reg="Ἐπίχαρμος">Ἐπί<lb n="4" type="worddiv"/>χαρμον</name>  <persName type="aphrodisian"><name type="" reg="Χρυσάορος">Χρυσάορος</name>  <lb n="5"/> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἐπίχαρμος  ">Ἐπιχάρμου</name>  <w lemma="ὁ">τοῦ</w><lb n="6"/><persName type="aphrodisian"><name type="" reg="Χρύσιππος">Χρυσίππου</name></persName></persName></persName></persName>  <w lemma="ἀνήρ">ἄνδρα</w>  <lb n="7"/><w lemma="φιλότιμος">φιλότειμον</w>  <w lemma="γίγνομαι">γενό<lb n="8" type="worddiv"/>μενον</w> <w lemma="εἰς">εἰς</w> <w lemma="ὁ">τὴν</w> <w lemma="πατρίς">πα<lb n="9" type="worddiv"/><space extent="5" unit="character" dim="horizontal"/>τρίδα</w>  <space extent="3" unit="character" dim="horizontal"/></ab> 

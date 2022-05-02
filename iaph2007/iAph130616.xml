@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130616" n="iAph0677 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130616" n="iAph0677 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notAfter="0250" notBefore="0200">?early third century</date>
  (<rs type="criteria">contests</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="2"/><w lemma="παλαιστής">π<supplied reason="lost">α</supplied>λαιστὴν</w>  <lb n="3"/> <w lemma="νικάω">νεικήσαντα</w> <lb n="4"/> <w>Ἀφροδεισίηα </w><lb n="5"/> <w>Ἀδώνηα</w> <persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen">Τιβέ<lb type="worddiv" n="6"/>ριος</name> <name reg="Κλαύδιος">Κλαύδι<lb type="worddiv" n="7"/>ος</name>  <name reg="Αὐρήλιος" type="nomen">Αὐρήλιος</name> <lb n="8"/> <name reg="Μουκιανός">Μουκιανὸς</name> <lb n="9"/> <name reg="Ἀπολλώνιος ">Ἀπολλώνιος</name> <lb n="10"/> <name reg="Βερονικιανός">Βερονεικια<lb type="worddiv" n="11"/>νος</name></persName> <w lemma="ὁ">ὁ</w> <w lemma="κράτιστος">κράτι<lb type="worddiv" n="12"/>στος</w> <w lemma="ἀντινεοποιός">ἀντινε<lb type="worddiv" n="13"/>οποιὸς</w> <persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen">Τιβε<lb type="worddiv" n="14"/>ρίου</name> <name reg="Κλαύδιος">Κλαυδί<lb type="worddiv" n="15"/>ου</name> <name reg="Ἀπολλώνιος ">Ἀπολλωνί<lb type="worddiv" n="16"/>ου</name> <name reg="Βερονικιανός">Βερονεικι<lb type="worddiv" n="17"/>ανοῦ</name><name reg="Ἀκάσσων">  Ἀκάσσω<lb type="worddiv" n="18"/>νος</name></persName> <w lemma="ἀρχιερεύς">ἀρχιερέ<lb type="worddiv" n="19"/>ως</w> <w lemma="πάππος">πάππου</w> <lb n="20"/> <w lemma="ἴδιος">ἰδίου</w> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῇ</w> <w lemma="πρῶτος">πρώ<lb type="worddiv" n="21"/>τῃ</w> <w lemma="περίοδος">περιόδῳ</w> <w lemma="ὁ">τῆς</w> <lb n="22"/> <w lemma="ἐπί">ἐπὶ</w> <w lemma="ὁ">τῇ</w> <w lemma="ἀπόλειψις">ἀπολεί<lb type="worddiv" n="23"/>ψει</w> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἀπολλώνιος ">Ἀπολ<lb type="worddiv" n="24"/>λωνίου</name></persName> <w>ἀρχι</w> <lb type="worddiv" n="25"/><w lemma="νεοποιία">νεοποιίας</w> <w lemma="παρά">πα<lb type="worddiv" n="26"/>ρ</w>'   <w lemma="ἑαυτός">ἑαυτοῦ</w> <w lemma="ἀνίστημι">ἀνέ<lb n="26" type="worddiv"/><space extent="2"/>στησεν</w><space extent="3"/></ab>
 </div>

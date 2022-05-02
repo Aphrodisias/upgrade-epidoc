@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010176" n="iAph1048 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010176" n="iAph1048 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -48,7 +48,7 @@
 
 <p><date notBefore="0167" notAfter="0233">Late second or early third century A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab/>                  <ab>                                                  <lb n="0"/><gap reason="lost" dim="top" extent="unknown" unit="line"/><lb n="1"/><w lemma="ταμίας"><supplied reason="lost">τα</supplied>μίαν</w>  <w lemma="ἀρχινεωποιός">ἀ<supplied reason="lost">ρχι</supplied><lb n="2" type="worddiv"/><supplied reason="lost">νε</supplied>οποιόν</w>  <w lemma="πρωτόλογος">π<supplied reason="lost">ρω</supplied><lb n="3" type="worddiv"/><supplied reason="lost">τό</supplied>λογον</w>  <w lemma="ἄρχων">ἄ<supplied reason="lost">ρ</supplied><lb n="4" type="worddiv"/><supplied reason="lost">χ</supplied>οντα</w> <w lemma="ὁ">τὸ</w> <num value="2"><hi rend="supraline">β</hi></num>  <lb n="5"/><w lemma="γραμματεύς"><supplied reason="lost">γρα</supplied>μμ<unclear reason="damage">α</unclear><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" extent="unknown" unit="character"/></rdg><rdg resp="previous">τ</rdg></app><supplied reason="lost">έα</supplied></w>  <lb n="6"/><supplied reason="lost" cert="low"><w lemma="ὁ">τοῦ</w>  <w lemma="δῆμος">δήμου</w></supplied>  <gap reason="lost" dim="right" extent="unknown" unit="character"/><lb n="6α"/><gap reason="lost" dim="bottom" extent="unknown" unit="line"/></ab>

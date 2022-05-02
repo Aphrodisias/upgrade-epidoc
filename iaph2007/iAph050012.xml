@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050012" n="iAph0233 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph050012" n="iAph0233 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -45,7 +45,7 @@
         <p>i: <date exact="none" cert="low" notBefore="0301" notAfter="0600">Fourth to sixth century</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">metre</rs>); ii; later than i.</p>
       </div>
 
-      <div lang="grc" n="text" type="edition">
+      <div lang="grc" n="text" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<div n="iAph0233" type="inscrNo">
 		<ab>

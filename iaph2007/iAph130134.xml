@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130134" n="iAph1457 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130134" n="iAph1457 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <supplied reason="lost"><w lemma="ὁ">ἡ</w>  <w lemma="σορός">σορὸς</w>  <w lemma="καί">καὶ</w></supplied> <w lemma="ὁ">ὁ</w> <w lemma="τόπος">τόπος</w> <w lemma="κατά">καθ'</w> <w lemma="ὅς">οὗ</w> <w lemma="ἐπίκειμαι">ἐπικεῖται</w> <w lemma="ὁ">ἡ</w> <w lemma="σορός">σορ<supplied reason="lost">ὸ</supplied>ς</w>  <w lemma="καί">καὶ</w> <w>ΕΙ</w> <w lemma="ἰσώστη">ἰσῶσται</w> <w lemma="εἰμί">εἰσιν</w> <persName type="aphrodisian"><name reg="Μᾶρκος">Μάρκο<supplied reason="lost">υ</supplied></name>  <name reg="Αὐρήλιος" type="nomen"><supplied reason="lost">Αὐρηλίου</supplied></name>  <lb n="2"/>  <gap reason="lost" extent="3" unit="character"/>  <name reg="Ἀπολλώνιος "><supplied reason="lost">Ἀπολλω</supplied>νίου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Δημήτριος">Δημητρίου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἀπολλώνιος ">Ἀπολλωνίου</name></persName></persName></persName><lb n="3"/>  <gap reason="lost" extent="3" unit="character"/><orig n="unresolved">ασ</orig> <w lemma="καί">καὶ</w> <w lemma="σύνβιος">συνβιος</w> <w lemma="αὐτός">αὐτοῦ</w> <persName type="aphrodisian"><name reg="Αὐρηλία">Αὐρηλία</name></persName> </ab>
 </div>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Honours for anonymous, having held every office in the city</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph120413</idno>
+            <idno type="IAph2007">iAph120413</idno>
+            <idno type="JMR2004">iAph1786</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>…</repository>
+                  <idno>72.488</idno>
+                  <idno>74.256</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>A <material>white marble</material>
+                              <objectType>statue base</objectType> without mouldings.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> on the face</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>ll. 1-18, <height unit="metre">0.025</height>; ll. 19ff, <height unit="metre">0.02</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Unknown</rs>
+                     </origPlace>
+                     <origDate notBefore="0001" notAfter="0200" precision="medium">
+First to second centuries A.D.
+(<rs type="criteria">lettering</rs>)</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList" cert="low">Walls, South-east Gate</rs>: 'ad austrum, propius ad ad orientalem urbis portam', (Picenini) 'on the east side' (Sherard)</rs>
+                  </provenance>
+                  <provenance type="observed">
+                     <rs type="lastLocation">All fragments now in the Museum</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType">Honours</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
+         <change when="2007-01-01" who="GB">hand tidied</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+<ab><lb n="1"/>  <gap reason="lost" extent="4" unit="character"/>  <lb n="2"/><w lemma="ἱερατεύω">ἱερατε<supplied reason="lost">ύσαντα</supplied></w>  <lb n="3"/><w lemma="διά"><supplied reason="lost">δ</supplied>ιὰ</w> <w lemma="βίος">βίου</w> <w lemma="γυμνασιαρχέω">γυμνασ<lb n="4" break="no"/><supplied reason="lost">ι</supplied>αρχήσαντα</w> <w lemma="δίς">δίς</w> <lb n="5"/><w lemma="στεφανηφορέω">στεφανηφορήσαν<lb n="6" break="no"/>τα</w> <w lemma="δίς">δίς</w> <w lemma="ἀγωνοθετέω">ἀγωνοθέτη<lb n="7" break="no"/>σαντα</w> <w lemma="τρίς">τρίς</w> <w lemma="ἑστιάω">ἑσστιά<lb n="8" break="no"/>σαντα</w> <w lemma="ὁ">τὸν</w> <w lemma="δῆμος">δῆμον</w> <lb n="9"/> <w>τετρακίς</w> <w lemma="πρεσβεύω">πρ<seg type="autopsy">εσβε</seg>ύ<lb n="10" break="no"/>σαντα</w> <w lemma="πολλάκις">πο<seg type="autopsy">λλάκις</seg></w> <lb n="11"/> <w lemma="ἄρχω">ἄρξαντα</w> <seg type="autopsy"><w lemma="ὁ">τὰς</w> <w lemma="ἐν">ἐν</w></seg> <lb n="12"/> <w lemma="ὁ">τῇ</w> <w lemma="πόλις">πόλει</w> <w lemma="ἀρχή">ἀ<seg type="autopsy">ρχὰς</seg></w> <w lemma="ἅπας"><seg type="autopsy">ἁ</seg> <lb n="13"/> πάσας</w> <w lemma="διά">δι<seg type="autopsy">ὰ</seg></w> <w lemma="πᾶς"><seg type="autopsy">παν</seg><lb n="14" break="no"/>τὸς</w> <w lemma="λέγω">λέγον<seg type="autopsy">τα</seg></w> <w lemma="καί"><seg type="autopsy">καὶ</seg></w> <lb n="15"/> <w lemma="πράσσω">πράσσοντ<seg type="autopsy">α</seg></w> <seg type="autopsy"><w lemma="καί">καὶ</w></seg> <w lemma="ψηφίζω"><seg type="autopsy">ψη</seg><lb n="16" break="no"/>φιζόμενον</w> <seg type="autopsy"><w lemma="ἀεί">ἀεὶ</w> <w lemma="ὁ">τὰ</w></seg> <lb n="17"/> <w lemma="συμφέρω"><seg type="autopsy">συνφέ</seg>ροντα</w> <w lemma="ὁ">τῷ</w> <w lemma="δῆμος">δή<lb n="18" break="no"/><seg type="autopsy">μῳ</seg></w> <w lemma="ἀγαθός"><seg type="autopsy">ἀγαθ</seg>ὸν</w> <w lemma="καί">καὶ</w> <w lemma="εὔνους">εὔ<lb n="19" break="no"/><seg type="autopsy">νουν</seg></w> <w lemma="ὁ"><seg type="autopsy">τ</seg>ῇ</w> <w lemma="πατρίς">πατρίδι</w> <lb n="20"/>  <space extent="3" unit="character" dim="horizontal"/>  <lb n="21"/> <seg type="autopsy"><w lemma="ὁ">τῆς</w> <w lemma="δέ">δὲ</w></seg> <w><seg type="autopsy">κ</seg>ατασκευ<lb n="22" break="no"/><seg type="autopsy">ῆς</seg></w> <seg type="autopsy"><w lemma="ὁ">τοῦ</w> <w lemma="τε">τε</w></seg> <w lemma="ἀνδρίας">ἀνδρι<lb n="23" break="no"/><seg type="autopsy">άντος</seg></w> <w lemma="καί"><seg type="autopsy">κα</seg>ὶ</w> <w lemma="ὁ">τῆς</w> <w lemma="ἀνάστασις">ἀ<lb n="24" break="no"/>ν<seg type="autopsy">αστάσε</seg>ως</w>  <w lemma="αὐτός">αὐ<lb n="25" break="no"/><supplied reason="lost">το</supplied><seg type="autopsy">ῦ</seg></w> <w lemma="ἐπιμελέομαι"><seg type="autopsy">ἐπεμ</seg>ελήθη</w> <lb n="26"/><persName type="attested"><name nymRef="#Τιβέριος"><supplied reason="lost">Τι</supplied><seg type="autopsy">βέριος</seg></name> <name nymRef="#Κλαύδιος">Κλαύδιος</name> <lb n="27"/> <persName type="attested"><name nymRef="#Μαρίων"><seg type="autopsy">Μαρίωνο</seg>ς</name></persName> <w lemma="υἱός">υἱὸς</w> <name nymRef="#Κυρείνα">Κυ<lb n="28" break="no"/><seg type="autopsy">ρίνᾳ</seg></name> <name nymRef="#Μένανδρος"><seg type="autopsy">Μέ</seg>νανδρος</name></persName> <lb n="29"/> <seg type="autopsy"><w lemma="ὁ">ὁ</w></seg> <w lemma="ἔγγονος"><seg type="autopsy">ἔγγον</seg>ος</w> <w lemma="αὐτός">αὐτοῦ</w> </ab>
+</div>
+         <div type="apparatus">
+            <p>The letters seen by us have been indicated.</p>
+            <p>l. 1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">
+                  <gap extent="4" reason="lost" unit="character"/> ΙΕΡΑΤΕ <gap extent="5" reason="lost" unit="character"/>
+               </foreign>
+            </p>
+            <p>l. 6, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΣ<gap extent="1" reason="lost" unit="character"/>ΤΙΑ</foreign> 1705; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΣΣΤΙΑ</foreign> 1716</p>
+         </div>
+         <div n="notyet" type="translation">
+            <p>No translation yet (2007)</p>
+         </div>
+         <div n="notyet" type="commentary">
+            <p>No commentary yet (2007)</p>
+         </div>
+         <div type="bibliography">
+            <p>Published from Sherard's 1716 copy by <bibl n="CIGII">Boeckh, CIG <citedRange>2789</citedRange>
+               </bibl>, whence <bibl n="liermann1889">Liermann 45-47, no. <citedRange>7</citedRange>
+               </bibl>, <bibl n="PHI">
+                  <author>McCabe</author>
+                  <title level="m">PHI Aphrodisias</title>
+                  <citedRange n="257178">299</citedRange>
+               </bibl>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

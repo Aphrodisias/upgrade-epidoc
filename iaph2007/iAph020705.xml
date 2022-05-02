@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020705" n="iAph0464 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020705" n="iAph0464 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -46,7 +46,7 @@
 <date exact="none" notAfter="0300" notBefore="0201">Third century A.D.</date> (<rs type="criteria">lettering</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <persName type="aphrodisian"><name reg="Μᾶρκος"><supplied reason="lost" cert="low">Μάρκο</supplied>υ</name>  <name reg="Αὐρήλιος" type="nomen">Αὐ<supplied reason="lost">ρηλίου</supplied></name></persName>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <persName type="aphrodisian"><name reg="Αὐρήλιος"><supplied reason="lost">Αὐ</supplied>ρηλι<gap reason="lost" extent="unknown" unit="character" dim="right"/></name></persName>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">Τ</unclear>ΙΔ<unclear reason="damage">Ι</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">ΥΙ</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  </ab>
 </div>

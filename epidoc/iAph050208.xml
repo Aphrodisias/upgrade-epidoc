@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Building dedication to Aphrodite and Hadrian by Pereitas Attalos</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph050208</idno>
+            <idno type="IAph2007">iAph050208</idno>
+            <idno type="JMR2004">iAph1558</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <material>White marble</material>
+                              <objectType>lintel</objectType> block, with <rs type="decoration">egg and dart</rs> moulding above three fasciae, now broken into two fragments.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> on all three fasciae, two lines on the upper fascia and one each on the lower two.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Regular hand, without the variations in size of the matching inscription, <ref type="inscription" n="1555" target="050207.xml"/> (=168a); <height unit="metre">0.025</height>; ligatures: in l.3, second <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΚΕ</foreign>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">
+                           <rs type="monuList">Hadrianic Baths, East Court</rs> over the north door</rs>
+                     </origPlace>
+                     <origDate notBefore="0117" notAfter="0138">
+A.D. 117-138 (<rs type="criteria">reign</rs>)
+</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList">Hadrianic Baths, East Court</rs>: fallen at the north doorway, connecting the Galerie de l'Est with the south portico of the court.</rs>
+                  </provenance>
+                  <provenance type="observed">
+                     <rs type="lastLocation">Findspot</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="personType" key="imperatorius">Imperial</rs>
+               </term>
+               <term>
+                  <rs type="textType" key="sacer">Religious</rs>
+               </term>
+               <term>
+                  <rs type="textType">dedication</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
+         <change when="2007-01-01" who="GB">hand tidied</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+<ab><lb n="1"/> <w lemma="θεά"><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="3" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">θεᾷ
+</rdg>
+</app></w> <persName type="divine"><name nymRef="#Ἀφροδίτη"><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="4" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">Ἀφρο
+</rdg>
+</app>δείτῃ</name></persName> <w lemma="καί">καὶ</w> <persName type="emperor"><w lemma="αὐτοκράτωρ">Αὐ<app type="previouslyread"><rdg resp="autopsy">
+<gap extent="5" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">τοκρά</rdg>
+</app>τορι</w> <name nymRef="#Καῖσαρ">Καίσαρι</name> <w lemma="θεός">θεοῦ</w> <name nymRef="#Τραιανός">Τραϊανοῦ</name> <w lemma="υἱός">υἱῷ</w> <w lemma="θεός">θεοῦ</w> <name nymRef="#Νέρβα">Νέρβα</name> <lb n="2"/>  <space extent="3" unit="character" dim="horizontal"/> <w lemma="υἱωνός">υἱωνῷ</w> <name nymRef="#Τραιανός">Τ<app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="5" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">ραϊαν
+</rdg>
+</app>ῷ</name> <name nymRef="#Ἁδριανός">Ἁδριανῷ</name> <w lemma="σεβαστός">Σεβαστῷ</w></persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῷ</w> <w lemma="δῆμος">δήμῳ</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="3"/> <persName type="attested"><name nymRef="#Περίτας"><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="3" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">
+Περ</rdg>
+</app>είτας</name> <persName type="attested"><name nymRef="#Ζήνων">Ζήνωνος</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Ζήνων">Ζ<hi rend="ligature">ήν</hi>ωνος</name></persName></persName> <name nymRef="#Ἄτταλος">Ἄτταλος</name></persName> <w lemma="ὁ">το</w> <w lemma="περιφλίωμα">περιφλίωμα</w> <w lemma="ἀνατίθημι">ἀνέθη<hi rend="ligature">κε</hi></w> <lb n="4"/>  <space extent="3" unit="character" dim="horizontal"/>  <w lemma="ἐκ">ἐ<supplied reason="lost">κ</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τῶν</supplied></w> <w lemma="ἴδιος">ἰδίων</w> <space extent="3" unit="character" dim="horizontal"/>  </ab>
+</div>
+         <div type="apparatus">
+            <p>Letters highlighted were recorded by Boulanger, but not subsequently.</p>
+         </div>
+         <div type="translation">
+            <p>To the goddess Aphrodite, to the Imperator Hadrian Augustus son of the god Trajan, grandson of the god Nerva, to the People: Pereitas Attalos son of Zenon the son of Zenon dedicated the ?decoration of the doorway at his own expense.</p>
+         </div>
+         <div type="commentary">
+            <p>The same text was inscribed on the south-east doorway (<ref type="inscription" n="1555" target="050207.xml"/> = Mendel, 168a) with differences in layout and a different hand.</p>
+         </div>
+         <div type="bibliography">
+            <p>Published by <bibl n="mendel1906">Mendel, CRAI 1906, <citedRange>168</citedRange> note 1b</bibl>, whence <bibl n="PHI">
+                  <author>McCabe</author>
+                  <title level="m">PHI Aphrodisias</title>
+                  <citedRange n="256991">113</citedRange>
+               </bibl>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

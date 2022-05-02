@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph060005" n="iAph0045 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph060005" n="iAph0045 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -60,7 +60,7 @@
         <p><date exact="none" cert="low" notBefore="0401" notAfter="0500">Fifth century</date> (<rs type="criteria">lettering</rs>; <rs type="criteria">titulature</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<div type="textpart_fragment" n="a"><ab>
 		<lb n="1"/><space dim="horizontal" id="space1"/><certainty locus="#gi" target="space1" assertedValue="gap" degree="low"/> <orig n="unresolved">Α</orig><gap dim="internal" extent="2" reason="lost" unit="character"/> <w lemma="δῖος">Δῖος</w> <g type="vertical line"/> <persName key="Ioannes2" type="aphrodisian" full="yes"><name reg="Ἰωάννης">Ἰωάννης</name> <placeName key="Caria" full="yes" type="admin" reg="Καρία">Καρίης</placeName></persName>
@@ -72,7 +72,7 @@
 
       <div type="apparatus">
         <head>Apparatus</head>
-        <p n="a">Cormack read the first letter as a <foreign lang="grc">Λ</foreign>, followed by one space, whence Robert conjectured <foreign lang="grc"><supplied reason="lost">Ἑ</supplied>λλ<supplied reason="lost">ά</supplied>διος</foreign>; but although the surface here is in bad condition, examination of the stone and of a squeeze shows that the letter is an <foreign lang="grc">Α</foreign>, with a distinctive scroll dependent on the dropped cross-bar, and measuring <measure type="length" dim="none">0.06</measure>. There is space for two letters between this and the <foreign lang="grc">Δ</foreign> of <foreign lang="grc">Δῖος</foreign>. Although the surface to the left is only superficially chipped, I can determine no trace of other letters. After <foreign lang="grc">Δῖος</foreign> there is a thin but clear vertical line traversing the <term>fascia</term>.</p>
+        <p n="a">Cormack read the first letter as a <foreign lang="grc">Λ</foreign>, followed by one space, whence Robert conjectured <foreign lang="grc"><supplied reason="lost">Ἑ</supplied>λλ<supplied reason="lost">ά</supplied>διος</foreign>; but although the surface here is in bad condition, examination of the stone and of a squeeze shows that the letter is an <foreign lang="grc">Α</foreign>, with a distinctive scroll dependent on the dropped cross-bar, and measuring <measure type="length" dim="height">0.06</measure>. There is space for two letters between this and the <foreign lang="grc">Δ</foreign> of <foreign lang="grc">Δῖος</foreign>. Although the surface to the left is only superficially chipped, I can determine no trace of other letters. After <foreign lang="grc">Δῖος</foreign> there is a thin but clear vertical line traversing the <term>fascia</term>.</p>
       </div>
 
       <div type="translation">

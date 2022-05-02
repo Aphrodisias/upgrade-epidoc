@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150362" n="iAph0157 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150362" n="iAph0157 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -57,7 +57,7 @@ irregular.</p>
         <p><date value="0543" notBefore="0543" notAfter="0543" exact="both">A.D. 543</date> or <date value="0558" notBefore="0558" notAfter="0558" exact="both">A.D. 558</date> (<rs type="criteria">indiction</rs>, <rs type="criteria">emperor</rs>).</p>
       </div>
 
-      <div type="edition" lang="grc">
+      <div type="edition" lang="grc" xml:space="preserve">
         <head lang="en">Edition</head>
         
 		

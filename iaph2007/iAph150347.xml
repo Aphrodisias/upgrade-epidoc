@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150347" n="iAph0153 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150347" n="iAph0153 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -55,7 +55,7 @@ clear, lunate.</p>
         <p><date exact="none" cert="low" notBefore="0301" notAfter="0600">Fourth-sixth century</date> (<rs type="criteria">content</rs>, <rs type="criteria">metre</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 			
 			<div type="textpart_fragment" n="a"><lg met="dactylic hexameter"><lb n="1"/><l><g type="cross"/> <w lemma="ἀντί">ἀντὶ</w> <w lemma="φιλοξενίa">φιλοξενί<unclear reason="damage">η</unclear><supplied reason="lost">ς</supplied></w> 

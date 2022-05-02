@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Graffiti: insults and acclamations</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph020003</idno>
+            <idno type="IAph2007">iAph020003</idno>
+            <idno type="JMR2004">iAph0712</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno>64.447</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <material>Wall plaster</material> fragments: a section of plaster very heavily covered with graffiti; there are many other indeterminate traces beyond those described here.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Scratched into the plaster. i: In the upper register. ii: In the upper register, to the right of i. iii: In the next register, below and to the left of i. iv: To the right of iii, below the first crowned figure in ii. v: In the third register, below and to right of iii,</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>graffito: i. <height unit="metre">0.015</height>; ii. <height unit="metre">0.015-0.02</height>; iv: <height unit="metre">0.05-0.015</height>; abbreviations, ο above Π, Κ with scroll.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Findspot</rs>
+                     </origPlace>
+                     <origDate notBefore="0001" notAfter="0600" precision="medium">
+First to sixth centuries A.D. (<rs type="criteria">context</rs>)</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList">Bouleuterion/Odeon</rs>: The easternmost recess behind the backstage corridor.</rs>
+                  </provenance>
+                  <provenance type="observed">
+                     <rs type="lastLocation">Museum</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType" key="cetera">Agonistic</rs>
+               </term>
+               <term>
+                  <rs type="textType">Graffiti</rs>
+               </term>
+               <term>
+                  <rs type="textType">insults</rs>
+               </term>
+               <term>
+                  <rs type="textType">acclamation</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2007-08-07" who="Eleonora-Litta">tidied expan</change>
+         <change when="2007-03-23" who="Charlotte-Tupman">hand tidied</change>
+         <change when="2007-03-13" who="Elliott-Hall">Batch converted Word2XML</change>
+         <change when="2007-01-01" who="GB">hand tidied</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+<div n="i" type="textpart" subtype="section"><note lang="en">To the left, a large cross (c. <measure dim="height" type="length" unit="metre">0. 20</measure>) drawn in outline, and filled in with hatching; it stands on a horizontal, from which a short line depends, perhaps depicting some kind of access.</note><ab>
+
+ 
+<lb n="1"/>
+<persName type="attested"><name nymRef="#Καρμιδιανός">Καρ<supplied reason="lost">μ</supplied>ιδιανός</name></persName> <orig n="unresolved">και<unclear reason="damage">ω</unclear>ν</orig> 
+<lb n="2"/>
+<w lemma="παθικός">παθηκός</w> <space extent="3" unit="character"/> <orig n="unresolved">κυδιαΣ</orig><gap reason="lost" extent="1" unit="character"/></ab></div><div n="ii" type="textpart" subtype="section"><note lang="en">
+Three representations of facing figures; each figure wears a radiate crown with a halo, and faces forward, with his left hand extended holding an orb surmounted by a cross. The first figure, which is damaged by later scratches, wears a toga, and stands on a rectangular support; his right hand cannot be made out. The second is seated on a throne with a back support and a cushioned seat; his feet are on a foot-rest, and his right arm appears to be across his chest. The third is also seated, with a foot-rest but no back support; he holds an orb which is marked with hatching. and apparently with his right arm supports ?a sceptre, with a round decorated top, which leans on his right shoulder; a text runs above the image, in apparent association with it - - perhaps the name of the man who drew it.</note><ab> 
+<lb n="1"/>
+<persName type="attested"><name nymRef="#Καρμιλιαινός">Καρμ<unclear reason="damage">ι</unclear>λ<unclear reason="damage">ι</unclear>αινός</name></persName></ab></div><div n="iii" type="textpart" subtype="section"><note lang="en">In the next register, below and to the left of i, a design of an organ, with a hatched upper edge, above a row of uprights terminating in circles.</note></div><div n="iv" type="textpart" subtype="section"><note lang="en">A sketch of a seated figure seen from the rear; his right arm and right leg are extended, the left arm is not visible, and the left leg is drawn up. He is naked, except for a cloak which covers his left shoulder and left leg. To the left is a text, which need not be associated with the figure.</note><ab>
+ 
+<lb n="1"/>
+<w lemma="νικάω"><unclear reason="damage">Ν</unclear>
+<unclear reason="damage">ι</unclear>κᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύ 
+<lb n="2" break="no"/>
+χη</w> <w lemma="ὁ">τῆς</w> <w lemma="πόλις"><expan><abbr>πό</abbr><ex>λεως</ex></expan></w> <w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w lemma="ὁ">τοῦ</w> 
+<lb n="3"/>
+<w lemma="γράφω">γράψαντος</w></ab></div><div n="v" type="textpart" subtype="section"><note lang="en">
+In the third register, below and to right of iii, an image of an organ on a support. The vertical support is carefully hatched; the horizontal resting on it bears a series of uprights of graduated height, sloping upwards from left to right. There is a second virtually identical image some way below, to the left, and perhaps the sketchy outlines of a third.</note></div>
+</div>
+         <div type="apparatus">
+            <p>i: Καρ̣μιδ κιος̣ ALA.</p>
+         </div>
+         <div type="translation">
+            <p>i: ?Kar[m]idianos (is a) queer. [ . . .] Karmidakios. ii: Karmilianos. iv: The fortune of the city, and of the writer, triumphs!</p>
+         </div>
+         <div type="commentary">
+            <p>See Performers and Partisans, ad loc.</p>
+         </div>
+         <div type="bibliography">
+            <p>Published by <bibl n="ALA">Roueché, ALA <citedRange>218</citedRange>
+               </bibl>, whence <bibl n="PHI">
+                  <author>McCabe</author>
+                  <title level="m">PHI Aphrodisias</title>
+                  <citedRange n="257668">782</citedRange>, <citedRange n="257669">783</citedRange>, <citedRange n="257674">788</citedRange>
+               </bibl>, and again as <bibl n="PPA">PPA <citedRange>11.A</citedRange>
+               </bibl>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

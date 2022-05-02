@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050024" n="iAph0061 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph050024" n="iAph0061 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -61,7 +61,7 @@
         <p><date precision="circa" value="0583" notBefore="0583" notAfter="0583" exact="both">A.D. 583</date> or <date exact="both" cert="low" notBefore="0491" notAfter="0518">A.D. 491 - 518</date> (emperors).</p>
       </div>
 
-      <div type="edition" lang="grc">
+      <div type="edition" lang="grc" xml:space="preserve">
         <head lang="en">Edition</head>
 		
 		<div type="textpart_section" n="i"><note place="not specified" anchored="yes">Two joining fragments, with garland at both sides.</note><ab>

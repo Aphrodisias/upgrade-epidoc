@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Names with <objectType>gameboard</objectType>s</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph010010</idno>
+            <idno type="IAph2007">iAph010010</idno>
+            <idno type="JMR2004">iAph0217</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <material key="marmor">White marble</material>
+                              <objectType>step</objectType>s.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Cut on upper face, each next to a gameboard: i. A board,
+H.4, deeply cut, (<height unit="metre">0.13</height> × <width unit="metre">0.28</width>). ii. To the west of i, a mill game,
+SSS.1 (<height unit="metre">0.26</height> × <width unit="metre">0.27</width>); iii. To the west of this, two concentric squares,
+apparently cut for an uncompleted board, type SSS.1 or 2 (<height unit="metre">0.181</height> ×<width unit="metre">0.186</width>).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>i: roughly cut letters, with broad trenches, <height unit="metre">0.03-0.04</height>; ii, roughly cut,
+<height unit="metre">0.07</height>; iii, <height unit="metre">0.03-0.04</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Findspot.</rs>
+                     </origPlace>
+                     <origDate notBefore="0301" notAfter="0500">Fourth to fifth centuries A.D. or later (<rs type="criteria">nomenclature</rs>).</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList">Temple/Church</rs>; temenos: top step up to south colonnade,
+towards east end: .</rs>
+                  </provenance>
+                  <provenance type="observed">
+                     <rs type="lastLocation">Findspot.</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType" key="sacer">Religious</rs>
+               </term>
+               <term>
+                  <rs type="textType">gameboard</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
+         <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
+         <change when="2004-02-29" who="#CMR">checked; image refs.</change>
+         <change when="2003-11-04" who="John-Lavagnino">Converted beta code to Unicode</change>
+         <change when="2003-08-30" who="#CMR">tagged, lemmatised and corrected</change>
+         <change when="2003-06-02" who="#GB">tidied and corrected</change>
+         <change when="2003-04-30" who="Juan-Garcés">tagged Greek; tidied</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+        
+        <cb n="i"/>
+		  		<ab> <lb n="1"/><persName key="nicetas1" type="attested"><name nymRef="#Νικήτας">Νηκήτας</name></persName> </ab>
+			<cb n="ii"/>        
+        		<ab><lb n="1"/><persName key="Michael" type="divine"><persName key="michael7" type="attested"><name nymRef="#Μιχαήλ"> Μηχαήλ</name></persName></persName> </ab>
+			<cb n="iii"/>
+				<ab>
+	<lb n="1"/> <persName key="zerkounes" type="attested"><name nymRef="#Ζερκούνης"><expan><abbr>Ζερκ</abbr><ex>ού</ex><abbr>νης</abbr></expan></name><lb n="2"/> <name nymRef="#Μιχαήλ">Μιχαήλ</name></persName> </ab>      
+      </div>
+         <div type="apparatus">
+            <p>i and ii published as a single text in <bibl n="ALA">ALA</bibl>, without i.</p>
+         </div>
+         <div type="translation">
+            <ab>i: Niketas</ab>
+            <ab>ii. Michael</ab>
+            <ab>iii. Zerkounes. Michael</ab>
+         </div>
+         <div type="bibliography">
+            <p>i and ii published by <bibl n="ALA" type="hbi" rend="primary">
+                  <author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <citedRange>217</citedRange> and plate xliv</bibl>, whence <bibl n="PHI">
+                  <author>McCabe</author>
+                  <title level="m">PHI Aphrodisias</title>
+                  <citedRange n="257477">596</citedRange>
+               </bibl>; i,
+ii and iii published by <bibl n="cmr2004">
+                  <author>Roueché</author>, <title level="m">Gameboards</title>
+                  <citedRange>10</citedRange>
+               </bibl>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

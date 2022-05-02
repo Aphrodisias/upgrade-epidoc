@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150350" n="iAph1482 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150350" n="iAph1482 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -42,7 +42,7 @@
 <p>
 The sarcophagus could well be markedly earlier than the letters, which are difficult to date, but perhaps of the <date cert="low" exact="none" notAfter="0400" notBefore="0301"> fourth century A.D.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>    <space extent="3" unit="character" dim="horizontal"/>  <persName type="aphrodisian"><name reg="Χρηστιανός">Χρησ<supplied reason="lost">τι</supplied>ανο<unclear reason="damage">ῦ</unclear></name></persName>    <space extent="3" unit="character" dim="horizontal"/>  </ab>
 </div>

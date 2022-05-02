@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120303" n="iAph1706 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120303" n="iAph1706 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <head>Date</head>
 <p> a. <date notBefore="-0033" notAfter="0033" exact="none" cert="low">perhaps late first century B.C. or early Julio-Claudian</date>; b. undateable; c. <date notAfter="0068" notBefore="-0027" exact="none" cert="low">perhaps Julio-Claudian</date> (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_fragment" n="a"><ab>  <lb n="0"/><gap reason="lost" extent="3" unit="character"/>  <lb n="1"/> <w lemma="χαίρω">χαῖρε</w></ab></div><div type="textpart_fragment" n="b"><ab>   <lb n="1"/> <orig n="unresolved">α<unclear reason="damage">ιι</unclear></orig> <space extent="3" unit="character" dim="horizontal"/>  </ab></div><div type="textpart_fragment" n="c"><ab>   <lb n="1"/><persName type="aphrodisian"><name reg="Μηνόδοτος"><supplied reason="lost" cert="low">Μη</supplied>νόδοτος</name></persName>  <lb n="2"/><persName type="aphrodisian"><name reg="Ἀλέξανδρος"><supplied reason="lost">Ἀ</supplied><unclear reason="damage">λ</unclear>εξάνδρου</name></persName>  <lb n="3"/><w><gap reason="lost" extent="1" unit="character"/>ιος</w> <w lemma="χαίρω">χαῖρε</w> </ab></div>
 </div>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Honours for anonymous, boy runner victor at the
+     fifteenth Philemoniea</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph110058</idno>
+            <idno type="IAph2007">iAph110058</idno>
+            <idno type="JMR2004">iAph0683</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno>76.84</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>A <material>white marble</material>
+                              <objectType>statue base</objectType> shaft with moulded panels (<height unit="metre">0.99</height> x <width unit="metre">0.40</width> x <depth unit="metre">0.37</depth>), chipped on
+     all edges; there is a hole on the top for the attachment of a crowning feature</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> on the face. L.1 is inscribed on the upper
+     moulding, but was not seen by earlier copyists; the text must have begun on the crowning
+     feature.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Standard second-/third-century forms, <height unit="metre">0.02</height>. Apices: on Η, l.9.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Unknown</rs>
+                     </origPlace>
+                     <origDate notBefore="0226" notAfter="0226">
+     A.D. 226 (<rs type="criteria">contests</rs>)</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList">City, Village</rs>: in the ruins of a house north east of
+      the Tetrapylon, slightly west of the Water Channel area</rs>
+                  </provenance>
+                  <provenance type="observed">
+                     <rs type="lastLocation">Museum</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType" key="cetera">Agonistic</rs>
+               </term>
+               <term>
+                  <rs type="textType">Honours</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2007-01-17" who="&#xA;-----Charlotte-Tupman&#xA;----">hand tidied</change>
+         <change when="2006-11-07" who="&#xA;-----Elliott-Hall&#xA;----">Batch converted Word2XML</change>
+         <change when="2007-01-01" who="&#xA;-----GB&#xA;----">hand tidied</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+    
+    <ab part="N" type="scroll ">
+     <lb n="1"/>
+     <w lemma="ὁ">
+      <supplied reason="lost">τὸν</supplied>
+     </w>
+     <w lemma="δεῖνα">
+      <supplied reason="lost">δεῖνα</supplied>
+     </w>
+     <gap reason="lost" extent="unknown" unit="character"/>
+     <w lemma="στεφανόω"><supplied reason="lost">στ</supplied><lb n="2" break="no"/><supplied reason="lost">εφ</supplied>ανωθέ<unclear reason="damage">ν</unclear><supplied reason="lost">τα</supplied></w>
+     <lb n="3"/>
+     <w lemma="παῖς">παίδων</w>
+     <w lemma="στάδιον">στάδι<lb n="4" break="no"/>ον</w>
+     <w lemma="ὁ">τῷ</w>
+     <w lemma="ἐπιτελέω">ἐπιτελε<lb n="5" break="no"/>σθέντι</w>
+     <w lemma="ἀγών">ἀγῶνι</w>
+     <lb n="6"/>
+     <w lemma="ὁ">τῆς</w>
+     <w lemma="πεντεκαιδέκατος">πεντε<lb n="7" break="no"/>καιδεκάτης</w>
+     <lb n="8"/>
+     <w lemma="τετραετηρίς">τετραετηρίδος</w>
+     <lb n="9"/>
+     <placeName nymRef="#Αφροδισιεύς">
+      <w>Ἀφρoδεισιήων</w>
+     </placeName>
+     <lb n="10"/>
+     <w lemma="Φιλημονίηον">Φιλημονιήων</w>
+     <lb n="11"/>
+     <w lemma="ἀγωνοθετέω">ἀγωνοθετούν<lb n="12" break="no"/>των</w>
+     <w lemma="ὁ">τῶν</w>
+     <w lemma="περί">περὶ</w>
+     <lb n="13"/>
+     <persName type="attested">
+      <name nymRef="#Ἰούλιος">Ἰούλιον</name>
+      <name nymRef="#Αὐρήλιος">Αὐρήλι<lb n="14" break="no"/>ον</name>
+      <persName type="attested">
+       <name nymRef="#Ζῆλος">Ζήλου</name>
+      </persName>
+      <w lemma="ἀρχιερεύς">ἀρχι<lb n="15" break="no"/>ερέως</w>
+      <w lemma="υἱός">υἱὸν</w>
+      <name nymRef="#Χαρίδημος">Χα<lb n="16" break="no"/>ρίδημον</name>
+     </persName>
+     <w lemma="νεοποιός">νεο<lb n="17" break="no"/>ποιῶν</w>
+     <g ref="#stop"/>
+     <w lemma="ὁ">τὴν</w>
+     <w lemma="δέ">δὲ</w>
+     <w lemma="ἀνάστασις"><app type="previouslyread"><rdg resp="autopsy"><gap extent="1" reason="lost" unit="character"/></rdg><rdg resp="previous">ἀ</rdg></app><lb n="18" break="no"/>νάστασιν</w>
+     <w lemma="ὁ">το<unclear reason="damage">ῦ</unclear></w>
+     <lb n="19"/>
+     <w lemma="ἀνδρίας">ἀνδριάντος</w>
+     <lb n="20"/>
+     <w lemma="ποιέω">ποιησαμένου</w>
+     <lb n="21"/>
+     <persName type="attested">
+      <name nymRef="#Ἰούλιος">Ἰουλίου</name>
+      <name nymRef="#Κράτερος">Κρατε<lb n="22" break="no"/>ρου</name>
+     </persName>
+     <w lemma="ὁ">τοῦ</w>
+     <w lemma="πατήρ">πατρὸς</w>
+     <lb n="23"/>
+     <g/>
+     <w lemma="αὐτός">αὐτοῦ</w>
+     <g/>
+    </ab>
+   </div>
+         <div type="apparatus">
+            <p>Line 17: the letter which earlier copyists read but we did not has been highlighted.</p>
+         </div>
+         <div type="translation">
+            <p>[- -], who won the boys' running-race in the contest celebrated for the fifteenth four-year
+     occurrence of the Aphrodeisiea Philemoniea; the contest-presidents were the neopoioi led by
+     Julius Aurelius Charidemos, son of Zelos, high-priest. Julius Krateros, his father, undertook
+     the erection of the statue.</p>
+         </div>
+         <div n="notyet" type="commentary">
+            <p> See bibliography.</p>
+         </div>
+         <div type="bibliography">
+            <p>Published, from Borrell's copy and possibly one of his own, by <bibl>Bailie, no.
+       <citedRange>49</citedRange>
+               </bibl>; by <bibl n="LBW">Waddington, from Le Bas, LBW
+       <citedRange>596</citedRange>
+               </bibl>, whence <bibl n="liermann1889">Liermann, Analecta
+       <citedRange>25</citedRange>
+               </bibl>. Published by <bibl n="PPA">Roueché, PPA
+      <citedRange>83</citedRange>
+               </bibl>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

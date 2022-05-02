@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020019" n="iAph0043 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020019" n="iAph0043 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -47,7 +47,7 @@
 
       <div type="description" n="text">
         <head>Description of Text</head>
-        <p>Cut along the rim of the stage. The total length of the text is <measure type="length" dim="none" unit="metre" precision="circa">7.65</measure>.</p>
+        <p>Cut along the rim of the stage. The total length of the text is <measure type="length" dim="height" unit="metre" precision="circa">7.65</measure>.</p>
       </div>
 
       <div type="description" n="letters">
@@ -60,7 +60,7 @@
         <p><date exact="none" cert="low" notBefore="0434" notAfter="0467">Mid fifth century</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">titulature</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab>
 		<lb n="1"/><w lemma="ἐπί">ἐπὶ</w> <w lemma="εὐτυχία">εὐτυχίᾳ</w> <w lemma="ὁ"><unclear reason="undefined">τ</unclear>ῆς</w> <rs key="clarus" type="dignity"><w lemma="λαμπρός">λαμπρᾶς</w></rs> <w lemma="Ἀφροδεισιεύς"><placeName type="ethnic" full="yes" reg="Ἀφροδεισιεύς">Ἀφροδισιαί<supplied reason="lost">ων</supplied></placeName></w> <rs key="capital" type="subject"><w lemma="μητρόπολις"><supplied reason="lost">μητροπό</supplied><seg type="fragment">λεω</seg><supplied reason="lost">ς</supplied></w></rs> <w lemma="καί">καὶ</w> <w lemma="οὗτος"><supplied reason="lost">το</supplied>ῦτο</w> <w lemma="ὁ">τὸ</w> <w lemma="ἔργον">ἔργον</w> <w lemma="ὁ">τῆς</w> <w lemma="παλαίστρα">πα<unclear reason="damage">λ</unclear>έσ<unclear reason="damage">τ</unclear><seg type="fragment">ρας</seg></w> <w lemma="γίγνομαι">ἐγέν<supplied reason="lost">ετο</supplied></w> <w lemma="ἐπί"><supplied reason="lost">ἐπὶ</supplied></w> <persName type="aphrodisian" key="Ampelius" full="yes"><supplied reason="lost" cert="low"><name reg="Φλάβιος">Φλαβίου</name></supplied> <supplied reason="lost"><name reg="Ἀμπέλιος">Ἀμπελίου</name></supplied></persName> <w lemma="ὁ"><unclear reason="damage">τ</unclear>ο<supplied reason="lost">ῦ</supplied></w> <w lemma="ἐλλόγιμος"><rs type="dignity" key="eloquentissimus"><expan><abbr>ἐλλογιμ</abbr><supplied reason="abbreviation">ωτάτου</supplied></expan></rs></w> <seg type="fragment"><w lemma="σχολαστικός"><rs key="scholasticus" type="profession"><expan><abbr>σχ</abbr><supplied reason="abbreviation">ολαστικοῦ</supplied></expan></rs></w> <w lemma="καί">καὶ</w></seg> <rs key="pater" type="official-secul"><w lemma="πατήρ"><seg>π</seg><supplied reason="lost">ατρ</supplied>ός</w></rs> <w lemma="ἰνδικτιών"><expan><abbr>ἰνδ</abbr><supplied reason="abbreviation">ικτιῶνι</supplied></expan></w> <num value="10"><hi rend="supraline">ι</hi></num> <w lemma="εὐτυχής"><expan><abbr>εὐτυχ</abbr><supplied reason="abbreviation">εστάτῃ</supplied></expan></w>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150359" n="iAph0239 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150359" n="iAph0239 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -44,7 +44,7 @@
         <p><date notAfter="0600" exact="none" notBefore="0401">Fifth/sixth century</date> or later (<rs type="criteria">lettering</rs>).</p>
 	  </div>
 
-	  <div type="edition" lang="grc">
+	  <div type="edition" lang="grc" xml:space="preserve">
 		<head lang="en">Edition</head>
 		<ab>
 		<lb n="1"/><space dim="horizontal"/> <persName key="eutychianos1" reg="Εὐτυχιανος" type="aphrodisian" full="yes"><name reg="Εὐτυχιανός">Εὐτυχιανο<gap dim="right" reason="lost" extent="unknown" unit="character"/></name></persName>

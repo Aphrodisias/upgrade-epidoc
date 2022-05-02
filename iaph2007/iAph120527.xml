@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120527" n="iAph1630 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120527" n="iAph1630 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -41,7 +41,7 @@
 <head>Date</head>
 <p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ὁ">ὁ</w> <w lemma="πλάτας">πλάτας</w> <w lemma="εἰμί">ἐστὶν</w> <persName type="aphrodisian"><name reg="Ζωΐλος">Ζωίλου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἀπολλώνιος ">Ἀπολλωνίου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Χάρης">Χάρητος</name> <lb n="2"/> <name reg="Τρύφων"><app type="previouslyread">
 <rdg resp="autopsy">

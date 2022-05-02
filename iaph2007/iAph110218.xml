@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110218" n="iAph1715 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110218" n="iAph1715 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
 (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">ετ</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <w lemma="πατρίς"><supplied reason="lost">πα</supplied><unclear reason="damage">τ</unclear>ριδ<gap reason="lost" extent="unknown" unit="character" dim="right"/></w>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <w lemma="καί">κα<unclear reason="damage">ὶ</unclear></w> <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="5"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">ε</unclear>σ</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="5a"/><gap reason="lost" extent="unknown" unit="line" dim="top"/>  </ab>
 </div>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dedication by Kallikles son of Kallikles via his brother Molossos</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph110105</idno>
+            <idno type="IAph2007">iAph110105</idno>
+            <idno type="JMR2004">iAph0353</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Upper part of a plain  <material key="marmor">white marble</material>
+                              <objectType>base</objectType> (<width unit="metre">0.43</width> × <height unit="metre">0.47</height> × <depth unit="metre">0.50</depth>); there are traces of a groove along the top.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs>  on the visible face; chipped along the right and broken away below. The text must have begun on a lost block or capital above.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height unit="metre">0.025</height>; some letters at the right side are condensed; diaeretic dots on either side of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Η</foreign> in ll. 2, 6 and <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Υ</foreign> in ll. 4, 10.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Unknown</rs>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0200" precision="medium">     Second century A.D. (<rs type="criteria">prosopography</rs>).</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList">City, North-east</rs>: re-used in a field wall north of the Tetrapylon</rs>
+                  </provenance>
+                  <provenance type="observed" when="1983">
+                     <rs type="lastLocation">Findspot (1983)</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType">Dedication</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2007-04-27" who="Charlotte-Tupman">DONE</change>
+         <change when="2007-03-01" who="#GB">tidied: needs prosopography</change>
+         <change when="2005-05-31" who="#GB">transferred to XML</change>
+         <change when="2004-11-18" who="#GB">Created dummy file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+
+<ab><lb n="0"/><gap extent="unknown" reason="lost" unit="line"/><lb n="1"/><persName type="attested"><name nymRef="#Καλλικλῆς">Καλλικλῆς</name>  <persName type="attested"><name nymRef="#Καλλικλῆς">Κα<unclear reason="damage">λ</unclear><supplied reason="lost">λι</supplied><lb n="2" break="no"/>κλέους</name>  <w lemma="ὁ">τοῦ</w>  <persName type="attested"><name nymRef="#Ἡρακλίδης">Ἡρα <supplied reason="lost"><space extent="1" unit="character" dim="horizontal"/></supplied><lb n="3" break="no"/>κλείδου</name>  <w lemma="ὁ">τοῦ</w>  <persName type="attested"><name nymRef="#Λεοντεύς">Λεον<lb n="4" break="no"/>τέως</name></persName></persName></persName></persName>  <w lemma="ὑπό">ὑπὸ</w>  <persName type="attested"><name nymRef="#Μολοσσός">Μολοσσ<unclear reason="damage">ο</unclear><supplied reason="lost">ῦ</supplied></name><lb n="5"/> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Καλλικλῆς">Καλλικλέους</name> <supplied reason="lost"><space extent="1" unit="character" dim="horizontal"/></supplied><lb n="6"/> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Ἡρακλίδης">Ἡρακλείδου</name>  <w lemma="ὁ"><unclear reason="damage">τ</unclear><supplied reason="lost">οῦ</supplied></w><lb n="7"/><persName type="attested"><name nymRef="#Λεοντεύς">Λεοντέως</name>  <w lemma="ὁ">τοῦ</w>  <name nymRef="#Ἄδραστος">Ἀδ<supplied reason="lost">ράσ</supplied><lb n="8" break="no"/><supplied reason="lost">τ</supplied>ου</name></persName></persName></persName></persName> <w lemma="καθώς">καθὼς</w>  <persName type="attested"><name nymRef="#Καλλικλῆς">Καλλικλ<unclear reason="damage">ῆ</unclear><supplied reason="lost">ς</supplied></name></persName><lb n="9"/><w lemma="διατάσσω">διετάξατο</w>  <w lemma="καί">καὶ</w>  <w lemma="κατακυρόω">κατα<supplied reason="lost"><space extent="1" unit="character" dim="horizontal"/></supplied><lb n="10" break="no"/>κεκυρωμένον</w>  <w lemma="ὑπό">ὑπὸ</w> <supplied reason="lost"><space extent="1" unit="character" dim="horizontal"/></supplied><lb n="11"/><gap extent="7" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ιτι</unclear></orig><gap extent="4" reason="lost" unit="character"/><lb n="11a"/><gap extent="unknown" reason="lost" unit="line"/></ab>
+</div>
+         <div type="apparatus">
+            <p>l. 11, perhaps perhaps contained a reference to Kallikles' will.</p>
+         </div>
+         <div type="translation">
+            <p>
+               <supplied reason="lost">This was given by</supplied> Kallikles son of Kallikles son of Herakleides son of Leonteus by means of Molossos son of Kallikles son of Herakleides son of Leonteus son of Adrastos, as Kallikles instructed, and was confirmed by <gap extent="unknown" reason="lost" unit="line"/>
+            </p>
+         </div>
+         <div type="commentary">
+            <p>For the family see Person index.</p>
+         </div>
+         <div type="bibliography" n="none">
+            <p>Unpublished.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

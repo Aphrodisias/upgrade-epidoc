@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110515" n="iAph0087 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110515" n="iAph0087 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -60,7 +60,7 @@
         <p><date notAfter="0600" exact="none" notBefore="0501">Sixth century</date>(<rs type="criteria">prosopography</rs>, titulature).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab>
 		<lb n="1"/><persName key="agty" type="divine" full="yes"><w lemma="ἀγαθός">Ἀγαθῇ</w> <w lemma="τύχη"><app type="previouslyread"><rdg resp="previous">Τύ</rdg><rdg resp="autopsy"><gap reason="lost" unit="character" extent="2" dim="internal"/></rdg></app>χῃ</w></persName>·

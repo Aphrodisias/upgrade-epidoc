@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130146" n="iAph1787 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130146" n="iAph1787 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
 (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ὁ"><seg type="autopsy">ἡ</seg></w> <w lemma="βουλή"><seg type="autopsy">βο</seg>υλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆ<lb n="2" type="worddiv"/><seg type="autopsy">μος</seg></w> <persName type="aphrodisian"><name reg="Λούκιος"><expan><abbr>Λ</abbr><supplied reason="abbreviation">ούκιον</supplied></expan></name> <name reg="Κλαύδιος"><expan><abbr>Κλ</abbr><supplied reason="abbreviation">αύδιον</supplied></expan></name> <w>Ἰβηρεῖ<lb n="3" type="worddiv"/><seg type="autopsy">νον</seg></w> <name reg="Εὐδαίμων">Εὐδαίμονα</name></persName> <lb n="4"/><seg type="autopsy"><space extent="1" unit="character" dim="horizontal"/></seg> <w lemma="ὁ"><seg type="autopsy">τὸν</seg></w> <w lemma="κράτιστος">κράτιστον</w> <lb n="5"/> <w lemma="γίγνομαι"><seg type="autopsy">γεν</seg>όμενον</w> <w lemma="καί">καὶ</w> <lb n="6"/> <w lemma="ὁ"><seg type="autopsy">τῆς</seg></w> <w lemma="ἡμέτερος">ἡμετέρας</w> <lb n="7"/> <w lemma="πόλις"><seg type="autopsy">πόλ</seg>εως</w> <w lemma="λογιστής">λογισ<lb n="8" type="worddiv"/><seg type="autopsy">τὴν</seg></w> <w lemma="καί">καὶ</w> <w lemma="εὐεργέτης">εὐεργέ<lb n="9" type="worddiv"/><seg type="autopsy"><g type="scroll"/></seg>την</w> <g type="scroll"/> </ab>
 </div>

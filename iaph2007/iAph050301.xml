@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050301" n="iAph0011 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph050301" n="iAph0011 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -62,7 +62,7 @@ none remains.</p>
         <p>c. <date notAfter="0350" exact="both" precision="circa" notBefore="0324">A.D. 324-350</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 <ab><lb n="1"/><persName type="divine" key="agty" full="yes"><w lemma="ἀγαθός">Ἀγαθῇ</w> <w lemma="τύχη">Τύχῃ</w></persName><lb n="2"/><persName key="FlZeno" type="aphrodisian" full="yes"><name reg="Φλάβιος"><expan><abbr>Φλ</abbr><supplied reason="abbreviation">άουιος</supplied></expan></name> <name reg="Ζήνων">Ζήνων</name></persName> <rs type="official-relig" key="highpriest"><w lemma="ἀρχιερεύς"><del status="unremarkable"><unclear reason="damage">ἀρχ</unclear><supplied reason="lost">ιε</supplied></del><lb n="3" type="worddiv"/><supplied reason="lost"><del status="unremarkable">ρεὺς</del></supplied></w></rs> <supplied reason="lost"><del status="unremarkable"><w lemma="καί">καὶ</w></del></supplied> <rs type="dignity" key="comes"><w lemma="κόμης">κόμης</w></rs><lb n="4"/><w lemma="ποιέω">ἐποίει</w> <w lemma="καί">καὶ</w> <w lemma="ἀνατίθημι">ἀνέ<lb n="5" type="worddiv"/>θηκεν</w> <w lemma="ὁ">τῇ</w> <w lemma="πατρίς">πα<lb n="6" type="worddiv"/>τρίδι</w> <g type="leaf"/>
 </ab>

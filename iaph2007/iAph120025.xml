@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120025" n="iAph0552 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120025" n="iAph0552 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notAfter="0116" notBefore="0102" exact="both">102-116</date>
  (imperial titles)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><cb n="i"/><lb n="1"/>  <persName type="aphrodisian"><name reg="Ἰούλιος">Ἰούλιος</name> <name reg="Κέλερ">Κέλερ</name></persName> <w lemma="ταμίας">ταμίας</w> <w lemma="καί">καὶ</w> <w lemma="ἀντιστράτηγος">ἀντιστράτηγος</w> <lb n="2"/> <placeName type="ethnic" reg="Ἀφροδεισιεύς">Ἀφροδισιέων</placeName> <w lemma="ἄρχων">ἄρχουσι</w> <space extent="3" unit="character"/> <w lemma="χαίρω">χαίρειν</w></ab><ab><cb n="ii"/> <lb n="1"/><persName type="emperor"><w lemma="αὐτοκράτωρ"><supplied reason="lost">Αὐ</supplied>τοκράτορι</w> <name reg="Νέρβα">Νέρβᾳ</name> <name reg="Τραιανός">Τραϊα<unclear reason="damage">ν</unclear><supplied reason="lost">ῷ</supplied></name>  <w lemma="σεβαστός"><supplied reason="lost">Σεβαστῷ</supplied></w>  <lb n="2"/><name reg="Γερμανικός"><supplied reason="lost">Γ</supplied>ερμανικῷ</name> <name reg="Δακικός">Δακικῷ</name></persName> <w lemma="ἔντευξις">ἔντε<unclear reason="damage">υ</unclear><supplied reason="lost">ξις</supplied></w>  <persName type="aphrodisian"><name reg="Γάϊος"><supplied reason="lost">Γαΐου</supplied></name>  <name reg="Ἰούλιος"><supplied reason="lost">Ἰου</supplied>  <lb type="worddiv" n="3"/><supplied reason="lost">λ</supplied>ίου</name> <name reg="Γάϊος">Γαΐου</name> <space extent="3" unit="character"/> <w lemma="υἱός">υἱοῦ</w> <name reg="Φαβία">Φαβία</name></persName> <gap reason="lost" extent="8" unit="character" precision="circa"/></ab>
 </div>

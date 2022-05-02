@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110203" n="iAph0431 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110203" n="iAph0431 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -46,7 +46,7 @@ roughly cut, trenches unpolished.</p>
 <p>
 Not datable.</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/><gap reason="lost" extent="1" unit="character"/><orig n="unresolved"><unclear reason="damage">γ</unclear>α</orig><gap reason="lost" extent="2" unit="character"/>  <lb n="2"/><gap reason="lost" extent="4" unit="character" dim="left"/><orig n="unresolved">ν</orig>  <space extent="1" unit="character" dim="horizontal"/>  <lb n="3"/><orig n="unresolved">τ</orig><gap reason="lost" extent="4" unit="character"/>  <lb n="3a"/><gap reason="lost" extent="1" unit="line"/>  <lb n="4"/><orig n="unresolved"><unclear reason="damage">ε</unclear></orig><gap reason="lost" extent="4" unit="line"/><lb n="5"/><space extent="2" unit="character" dim="horizontal"/> <orig n="unresolved"><unclear reason="damage">νι</unclear></orig> <space extent="1" unit="character" dim="horizontal"/></ab>
 </div>

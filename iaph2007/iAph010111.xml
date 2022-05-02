@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010111" n="iAph0312 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010111" n="iAph0312 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -41,7 +41,7 @@
 
 <div type="description" n="letters">
 <head>Description of Letters</head>
-<p> <measure dim="none">0.03</measure>.</p>
+<p> <measure dim="height">0.03</measure>.</p>
 </div>
 
 <div type="description" n="date">
@@ -49,7 +49,7 @@
 
 <p><date exact="none" notBefore="0001" notAfter="0100" cert="low">First century A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="1"/><gap reason="lost" dim="left" extent="unknown" unit="character"/><orig n="unresolved">ε<unclear reason="damage">ιιφ</unclear></orig><gap reason="lost" dim="right" extent="unknown" unit="character"/><lb n="2"/><gap reason="lost" dim="left" extent="unknown" unit="character"/><orig n="unresolved">ω</orig>  <space extent="unknown" unit="character" dim="horizontal"/><gap reason="lost" dim="right" extent="unknown" unit="character"/></ab>

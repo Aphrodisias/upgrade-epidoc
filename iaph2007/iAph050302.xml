@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050302" n="iAph0012 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph050302" n="iAph0012 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -69,7 +69,7 @@ Clearly cut in a fluid style; <measure type="length" unit="metre" dim="height">0
 c. <date notAfter="0350" exact="both" precision="circa" notBefore="0324">A.D. 324-350</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>).</p>
 </div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><persName type="aphrodisian" key="FlZeno" full="yes"><name reg="Φλάβιος"><expan><abbr>Φλ</abbr><supplied reason="abbreviation">άβιος</supplied></expan></name> <name reg="Ζήνων">Ζήνων</name></persName> <rs type="official-relig" key="highpriest"><w lemma="ἀρχιερεύς">ἀρχιερεὺς</w></rs> <w lemma="καί">καὶ</w><lb n="2"/><rs type="dignity" key="comes"><w lemma="κόμης">κόμης</w></rs> <w lemma="ποιέω">ἐποίει</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῇ</w> <w lemma="ἑαυτός">ἑαυ<lb n="3" type="worddiv"/>τοῦ</w> <w lemma="πατρίς">πατρίδι</w> <w lemma="προῖκα">προῖκα</w> <w lemma="κατά">κα<lb n="4" type="worddiv"/>τὰ</w> <w lemma="διαθήκη">διαθήκας</w> <w lemma="διά">διὰ</w> <w lemma="ὁ">τῶν</w> <w lemma="ἑαυτός"><expan><abbr>ἑαυτ</abbr><supplied reason="abbreviation">οῦ</supplied></expan></w><lb n="5"/><w lemma="παῖς">παίδων</w> <w lemma="ἀνατίθημι">ἀνέθηκεν</w> <g type="leaf"/>
 </ab>

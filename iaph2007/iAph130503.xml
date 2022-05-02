@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130503" n="iAph1129 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130503" n="iAph1129 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -21,7 +21,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -38,7 +38,7 @@
 <p>
 <date exact="none" notAfter="-1" notBefore="-33">Late first century B.C.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
  
 <ab><lb n="1"/><persName type="aphrodisian" full="yes"><name reg="Μένανδρος">Μένανδρος</name>  <persName type="aphrodisian"><name reg="Ἄτταλος">Ἀττάλου</name></persName></persName>  <supplied reason="lost"><w lemma="ὁ">τὰ</w>  <w lemma="ἐπιστύλιον">ἐπιστύλια</w></supplied><lb n="2"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὸν</w> <w>ἐπ′</w> <w lemma="αὐτός">αὐτῶν</w> <supplied reason="lost"><w lemma="κόσμος">κόσμον</w> <w lemma="ὁ">τῶι</w> <w lemma="δῆμος">Δήμωι</w></supplied>    </ab>

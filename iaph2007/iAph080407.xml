@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080407" n="iAph0064 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080407" n="iAph0064 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -60,7 +60,7 @@
         <p><date exact="none" cert="low" notBefore="0401" notAfter="0500">Fifth century</date> (<rs type="criteria">lettering</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<lg>
 		<lb n="1"/>
@@ -88,7 +88,7 @@
         <p>See discussion at <xref type="eAla-text" n="V.37">V.37</xref>.</p>
       </div>
 
-      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: main part found standing against a column of the western colonnade of the tetrastoon, immediately south of <xref type="inscription" n="62" href="080410">8.410</xref>; fragment found in the same area (NPS I) at <measure type="length" dim="none">0.20</measure> above the paving. .</rs>. Original location: <rs type="origLocation">Findspot.</rs>. Last recorded location: <rs type="lastLocation">Findspot and Museum.</rs>. </p></div>
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: main part found standing against a column of the western colonnade of the tetrastoon, immediately south of <xref type="inscription" n="62" href="080410">8.410</xref>; fragment found in the same area (NPS I) at <measure type="length" dim="height">0.20</measure> above the paving. .</rs>. Original location: <rs type="origLocation">Findspot.</rs>. Last recorded location: <rs type="lastLocation">Findspot and Museum.</rs>. </p></div>
 
       
 

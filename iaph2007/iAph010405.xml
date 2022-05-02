@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010405" n="iAph0248 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010405" n="iAph0248 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -44,7 +44,7 @@
         <p><date notAfter="0600" cert="low" exact="none" notBefore="0401">Fifth to sixth century</date>, or later (<rs type="criteria">content</rs>, <rs type="criteria">lettering</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab>
 		<lb n="1"/><gap dim="left" extent="10" reason="lost" unit="character"/> <supplied reason="lost"><w lemma="ὑπέρ">ὑπὲρ</w></supplied> <w lemma="σωτηρία"><supplied reason="lost">σωτ</supplied><unclear reason="damage">η</unclear>ρίας</w> <w lemma="ὁ">το<hi rend="superscript">ῦ</hi></w> <w lemma="ἀρχιεπίσκοπος">ἀρχ<hi rend="superscript">ι</hi><unclear reason="damage">ε</unclear><supplied reason="lost">πισκόπου</supplied></w> <gap dim="right" extent="10-15" unit="character" reason="lost"/></ab>

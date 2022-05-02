@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010032" n="iAph0131 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010032" n="iAph0131 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -51,7 +51,7 @@ very worn.</p>
         <p><date notAfter="0600" notBefore="0401" exact="none">Fifth-sixth century</date> or later (<rs type="criteria">content</rs>, <rs type="criteria">location</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab><lb n="1"/><persName type="aphrodisian" key="george2" full="yes"><name>Γεώργ<unclear reason="damage">η</unclear>ος</name></persName><lb n="2"/><persName type="aphrodisian" full="yes"><name>Γηόργης</name></persName> <space dim="horizontal"/><orig n="unresolved">ρσκ</orig><lb n="3"/><orig n="unresolved"><unclear reason="damage">ιι</unclear></orig> <persName key="leon4" type="aphrodisian" full="yes"><name reg="Λέων">Λέον</name></persName> <orig n="unresolved"><unclear reason="damage">ιι</unclear></orig> <rs type="official-secul" key="domesticus"><w lemma="δομεστικός"><expan><abbr><unclear reason="damage">δ</unclear>ομ</abbr><supplied reason="abbreviation">εστικός</supplied></expan></w></rs><lb n="4"/><gap reason="lost" dim="left" extent="unknown" unit="character"/><orig n="unresolved">οσ</orig><gap reason="lost" dim="right" extent="unknown" unit="character"/></ab>	
       </div>

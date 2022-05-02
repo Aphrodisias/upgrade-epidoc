@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020516" n="iAph0708 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020516" n="iAph0708 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -49,7 +49,7 @@ Inscribed on two adjacent faces (ll. 1-4 on a., 5-7 on  b) with a text that runs
 <p> <date cert="low" notBefore="0001" notAfter="0800">First century A.D. or later</date> (<rs type="criteria">nomenclature</rs>).</p>
 </div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_section" n="a"><ab><lb n="1"/><persName type="aphrodisian" full="yes"><name reg="Μαρκιανός">Μα<lb n="2" type="worddiv"/>ρκια<lb n="3" type="worddiv"/><supplied reason="lost">ν</supplied>ὸς</name></persName><lb n="4"/><persName type="divine"><w lemma="θεός">θεο῀ι</w> </persName></ab></div><div type="textpart_section" n="b"><ab><lb n="5"/><persName type="divine"><w lemma="ὕψιστος">ὑψισ<lb n="6" type="worddiv"/>τοι</w></persName>  <w lemma="εὐχή">ε<supplied reason="lost">ὐ</supplied><lb n="7" type="worddiv"/>χή</w></ab></div>
 </div>

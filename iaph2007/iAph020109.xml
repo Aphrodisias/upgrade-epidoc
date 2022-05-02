@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020109" n="iAph0802 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020109" n="iAph0802 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -52,7 +52,7 @@
 <p><date notBefore="0167" notAfter="0233" exact="none" cert="low">Late second to early third centuries A.D.</date> (<rs type="criteria">lettering</rs>).</p>
 </div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><w lemma="θεά">θεὰν</w>  <persName full="yes" type="divine"><name>Ἀφροδεί<lb n="1a" type="worddiv"/><supplied reason="lost">ταν</supplied></name></persName>  <gap reason="lost" dim="right" unit="character" extent="unknown"/></ab>
 </div>

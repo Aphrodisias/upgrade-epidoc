@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120416" n="iAph1781 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120416" n="iAph1781 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">prosopography</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <orig>αμ</orig><gap reason="lost" extent="6" unit="character"/>  <lb n="2"/><persName type="aphrodisian"><name><gap reason="lost" extent="2" unit="character"/>τεινον</name>  <name reg="Διογένης">Διογέ<lb n="3" type="worddiv"/>νην</name></persName> <placeName reg="Ἀσία">Ἀσίας</placeName> <w lemma="ἀρχιερεύς">ἀρχ<lb n="4" type="worddiv"/>ιερῆ</w>  <w lemma="νομοθέτης">νομοθέ<lb n="5" type="worddiv"/>την</w>  <w lemma="γυμνασίαρχος">γυμνασί<lb n="6" type="worddiv"/>αρχον</w> <w>δι´</w> <w lemma="αἰών">αἰῶνος</w> <lb n="7"/> <w lemma="ὁ">τὸν</w> <w lemma="εὐεργέτης">εὐεργέτην</w> <lb n="8"/> <w lemma="ὁ">ἡ</w> <w lemma="πατρίς">πατρίς</w> <g type="scroll"/> <lb n="9"/><w lemma="ἐπιμελέομαι">ἐπιμεληθεν<lb n="10" type="worddiv"/>τος</w> <w lemma="ὁ">τῆς</w> <w lemma="ἀνάστασις">ἀναστά<lb n="11" type="worddiv"/>σεως</w> <w lemma="ὁ">τοῦ</w> <w lemma="ἀνδριάς">ἀνδρι <lb n="12"/> αντος</w> <persName type="aphrodisian"><name reg="Ἡφαιστίων">Ἡφαιστι<lb n="13" type="worddiv"/>ωνος</name> <num value="2">β</num> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Δημήτριος">Δη<lb n="14" type="worddiv"/>μητρίου</name></persName></persName> <w lemma="ὁ">τοῦ</w> <lb n="15"/> <w lemma="πρωτόλογος">πρωτολόγου</w> <w lemma="ἄρχων">ἄρ<lb n="16" type="worddiv"/>χοντος</w> <g type="scroll"/> <g type="leaf"/>  </ab>
 </div>

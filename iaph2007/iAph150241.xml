@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150241" n="iAph1330 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150241" n="iAph1330 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -22,7 +22,7 @@
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
 <revisionDesc>
-<change><date>2007-7-26</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-07-26</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
 <change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
 </revisionDesc></teiHeader><text>
 <body>
@@ -42,7 +42,7 @@
 <head>Date</head>
 <p><date cert="low" exact="none" notAfter="0200" notBefore="0001">First to second centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <orig n="unresolved">επιβ<unclear reason="damage">ο</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  </ab>
 </div>

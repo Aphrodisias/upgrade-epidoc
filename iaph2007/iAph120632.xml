@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120632" n="iAph1700 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120632" n="iAph1700 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@ the monument which this feature crowned.</p>
 <p>
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="σορός">σορὸς</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">αἱ</w> <w lemma="ὑπόκειμαι">ὑποκείμεναι</w> <w lemma="ἰσώστη">ἰσῶσται</w> <w lemma="τέσσαρες"><hi rend="ligature">τέ</hi>σσαρες</w> <w lemma="κατασκευάζω">κα<lb n="2" type="worddiv"/>τεσκευασμέναι</w> <w lemma="εἰμί">εἰσὶν</w> <w lemma="ὑπό">ὑπὸ</w> <persName type="aphrodisian"><name reg="Αὐρήλιος">Αὐρηλ<supplied reason="lost">ί-</supplied></name></persName>  <gap reason="lost" extent="3" unit="character"/></ab>
 </div>

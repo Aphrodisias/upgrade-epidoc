@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110059" n="iAph1494 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110059" n="iAph1494 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@ See further Isik, loc. cit.</p>
 Probably  <date notBefore="0234" notAfter="0267" exact="none" cert="low">middle third century A.D.</date>
  (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_section" n="a"><ab>  <lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="σορός">σορ  <g type="bust"/>  ὸς</w>  <w lemma="διαφέρω">δια<lb n="2" type="worddiv"/>φέρι</w>  <persName type="aphrodisian"><name reg="Μᾶρκος">Μάρ<g type="bust"/>κῳ</name>  <name reg="Αὐρήλιος">Αὐρη<lb n="3" type="worddiv"/>λίῳ</name>  <name reg="Ζήνων">Ζή<g type="bust"/>νωνι</name></persName>  <lb n="4"/><w lemma="βουλευτής"><expan><abbr>βουλ</abbr><supplied reason="abbreviation">ευτῇ</supplied></expan></w></ab></div><div type="textpart_section" n="b"><ab><lb n="1"/><w lemma="καί"><app type="previouslyread">
 <rdg resp="autopsy">

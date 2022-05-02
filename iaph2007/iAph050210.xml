@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050210" n="iAph1189 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph050210" n="iAph1189 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -21,7 +21,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -43,7 +43,7 @@
 <date notBefore="0134" notAfter="0166" exact="none">Mid second century A.D.</date>
 (<rs type="criteria">lettering</rs>, <rs type="criteria">monument group</rs>, <rs type="criteria">prosopography</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_section" n="i"><ab><lb n="1"/>  <persName reg="Ἰουλία  Παῦλα" full="yes" type="aphrodisian"><name reg="Ἰουλία">Ἰουλία</name>  <persName type="aphrodisian" full="yes"><name reg="Γάϊος">Γαί<lb n="2" type="worddiv"/>ου</name>  <name reg="Ἀπολλόδοτος">Ἀπολλο<lb n="3" type="worddiv"/>δότου</name></persName>  <w lemma="θυγάτηρ">θυ<lb n="4" type="worddiv"/>γάτηρ</w>  <name reg="Παῦλα">Παῦ<lb n="5" type="worddiv"/>λα</name></persName>  <w lemma="ἀρχιέρεια">ἀρχιέρει<lb n="6" type="worddiv"/>α</w>  <w lemma="ἀνθηφόρος">ἀνθηφό<lb n="7" type="worddiv"/>ρος</w></ab></div><div type="textpart_section" n="ii"><ab><lb n="1"/><persName type="aphrodisian" full="yes"><name reg="Ἀνδρόνεικος">Ἀνδρόνει<lb n="2" type="worddiv"/>κος</name></persName>  <w lemma="ποιέω">ἐποί<lb n="3" type="worddiv"/>ει</w></ab></div>
 </div>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Building inscription of Pytheas, in verse</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph050303</idno>
+            <idno type="IAph2007">iAph050303</idno>
+            <idno type="JMR2004">iAph0058</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository>…</repository>
+                  <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Three fragments, not joining, from an <material key="marmor">white marble</material>
+                              <objectType>architrave</objectType> with decoration (which is broken away) above three stepped <term>fasciae</term>, diminishing in height; a and c: not measured; b: <height unit="metre">0.52</height> × <width unit="metre">1.37</width> × <depth unit="metre">0.54</depth>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> on the upper two <term>fasciae</term>.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Upper <term>fascia</term>
+                        <height unit="metre">0.10</height>, lower <term>fascia</term>
+                        <height unit="metre">0.08</height>; elongated, ornate.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Unknown.</rs>
+                     </origPlace>
+                     <origDate notBefore="0468" notAfter="0500" precision="medium">Late fifth century (<rs type="criteria">prosopography</rs>)</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs key="HadrBath" type="monuList">Hadrianic Baths, East Court</rs>: a: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">Dans le 2e entrée à partir du S<supplied reason="abbreviation">ud</supplied> du portique O<supplied reason="abbreviation">uest</supplied>, s<supplied reason="abbreviation">ud</supplied>
+                        </foreign>' (Boulanger); b: '<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="fr">Term. S<supplied reason="abbreviation">ud</supplied> du portique O<supplied reason="abbreviation">uest</supplied>
+                        </foreign>'. (Boulanger).</rs>
+                  </provenance>
+                  <provenance type="observed">
+                     <rs type="lastLocation">Among the material from the French excavations in the East Court.</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType">Building inscription</rs>
+               </term>
+               <term>
+                  <rs type="textType">verse</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2007-08-07" who="Eleonora-Litta">tidied expan</change>
+         <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
+         <change when="2004-03-24" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
+         <change when="2004-01-28" who="#CMR">tidied; image refs</change>
+         <change when="2003-11-04" who="John-Lavagnino">Converted beta code to Unicode</change>
+         <change when="2003-08-21" who="#CMR">tagged and corrected</change>
+         <change when="2003-07-17" who="Juan-Garcés">lemmatised</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+        
+		<div n="a" type="textpart" subtype="fragment"><ab>
+		<lb n="1"/><gap extent="unknown" reason="lost" unit="character"/> <w lemma="παστάς">παστάδα</w> <w lemma="κίων">κίον'</w> <w lemma="ἐκ">ἐκ</w> <orig n="unresolved"><unclear reason="damage">ιι</unclear></orig><gap extent="unknown" reason="lost" unit="character"/>
+		<lb n="2"/><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">τ</unclear></orig> <persName key="Pytheas" type="attested"><name nymRef="#Πυθέας">Πυθέας</name></persName> <orig n="unresolved"><unclear reason="damage">ορσιιιυ</unclear></orig><gap extent="unknown" reason="lost" unit="character"/>
+		</ab></div><div n="b" type="textpart" subtype="fragment"><ab><lb n="1"/><gap extent="unknown" reason="lost" unit="character"/> <w lemma="κάμνω">καμνοῦσαν</w> <w lemma="ἀνάγκη">ἀνάγκῃ</w> <orig n="unresolved"><unclear reason="damage">κ</unclear></orig><gap extent="unknown" reason="lost" unit="character"/>
+		<lb n="2"/><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig> <w lemma="ἔχω">ἔσχε</w> <w lemma="νόος">νόον</w> <space dim="horizontal"/> <gap extent="unknown" reason="lost" unit="character"/>
+		</ab></div><div n="c" type="textpart" subtype="fragment"><ab><lb n="1"/><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">α</unclear></orig><gap extent="unknown" reason="lost" unit="character"/>
+		<lb n="2"/><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved">δι<unclear reason="damage">ι</unclear></orig><gap extent="unknown" reason="lost" unit="character"/>
+		</ab></div>
+      </div>
+         <div type="translation">
+            <p>
+		a. <gap extent="unknown" reason="lost" unit="character"/>
+               <supplied reason="lost" cert="low">built the</supplied> colonnade <supplied reason="subaudible">with</supplied> column from <gap extent="unknown" reason="lost" unit="character"/> Pytheas <gap extent="unknown" reason="lost" unit="character"/>
+            </p>
+            <p>b. <gap extent="unknown" reason="lost" unit="character"/>suffering from necessity <gap extent="unknown" reason="lost" unit="character"/> had a mind.</p>
+         </div>
+         <div type="commentary">
+            <p>For Pytheas see <ref type="inscription" n="55" target="110070.xml"/>, <ref type="inscription" n="56" target="020020.xml"/>, <ref type="inscription" n="57" target="080610.xml"/>, <ref type="inscription" n="250" target="150361.xml"/> and discussion at <ref type="eAla-text" n="V.18" target=".xml"/>.</p>
+         </div>
+         <div type="bibliography">
+            <p>a and b published by <bibl type="hbi" n="ALA">
+                  <author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <citedRange>58</citedRange> and plate xiv</bibl>, whence <bibl n="PHI">
+                  <author>McCabe</author>
+                  <title level="m">PHI Aphrodisias</title>
+                  <citedRange n="257595">708</citedRange>
+               </bibl>, <bibl type="hbi" n="steinepig">
+                  <title level="m">Steinepigramme</title>
+                  <citedRange>02/09/20</citedRange>
+               </bibl>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

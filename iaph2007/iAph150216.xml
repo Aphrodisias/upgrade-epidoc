@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150216" n="iAph1730 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150216" n="iAph1730 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notBefore="-0300" notAfter="-0201" exact="none">third century B.C.</date>, or even earlier
  (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/><space unit="line" extent="1"/><gap dim="right" extent="unknown" reason="lost" unit="character" id="gap01"/><certainty target="gap01" locus="#gi" assertedValue="space" degree="low"/><lb n="1"/><orig n="unresolved"><unclear reason="damage">αλ</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="2"/><orig n="unresolved">πα</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="3"/><orig n="unresolved">αμ<unclear reason="damage">π</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="4"/><orig n="unresolved">και<unclear reason="damage">π</unclear></orig>  <gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="5"/><orig n="unresolved">δορ</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="5a"/><gap reason="lost" dim="bottom" extent="unknown" unit="line"/></ab>
 </div><div type="apparatus"><head>Apparatus</head><p>l. 1, the lettering is not quite clear and might be better interpreted as <foreign lang="grc">Μ</foreign> (although it does not closely resemble the <foreign lang="grc">Μ</foreign> in l. 3)</p><p>ll. 3, 4, final <foreign lang="grc"><unclear reason="damage">Π</unclear></foreign> could also be <foreign lang="grc">Γ</foreign></p></div>

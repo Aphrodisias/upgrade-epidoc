@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130001" n="iAph1564 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130001" n="iAph1564 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  o<gap reason="lost" extent="3" unit="character"/>Ε<unclear reason="damage">ΙΣ</unclear>Ε<gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><gap reason="lost" extent="3" unit="character"/>  <w lemma="εἰς"><supplied reason="lost">εἰς</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τ</supplied>ὰς</w>  <w lemma="εἰσώστη"><supplied reason="lost">εἰσ</supplied>ώστας</w>  <w lemma="ἐνθάπτω">ἐντ<supplied reason="lost">αφῆναι</supplied></w>  <gap reason="lost" extent="3" unit="character"/>  <lb n="3"/><gap reason="lost" extent="3" unit="character"/>  <w lemma="συγχωρέω"><supplied reason="lost">συνχωρήσ</supplied>η</w>  <w lemma="ἐνγράφως">ἐν<supplied reason="lost">γ</supplied>ράφως</w> <w lemma="ἕτερος">ἕτερος</w> <supplied reason="lost">δὲ</supplied>  <supplied reason="lost">οὐδεὶς</supplied>  <supplied reason="lost">ἕξει</supplied>  <supplied reason="lost">ἐξουσίαν</supplied>  <gap reason="lost" extent="3" unit="character"/>  <lb n="4"/><gap reason="lost" extent="3" unit="character"/>  <w lemma="πρόστιμον"><supplied reason="lost">προστ</supplied>είμῳ</w> <w lemma="ὁ">τῆς</w> <w lemma="ἐπιγραφή">ἐπιγραφῆς</w> <w lemma="οὗτος">τ<supplied reason="lost">αύτης</supplied></w>  <supplied reason="lost">ἀπετέθη</supplied>  <gap reason="lost" extent="3" unit="character"/>  <lb n="5"/><supplied reason="lost">ἐπὶ</supplied>  <w lemma="στεφανηφόρος"><supplied reason="lost">στεφαν</supplied>ηφόρου</w> <w lemma="ὁ">τὸ</w> <num value="2">β</num> <persName type="aphrodisian"><name reg="Τίτος" type="praenomen">Τίτου</name></persName> <gap reason="lost" extent="3" unit="character"/>  <lb n="6"/><gap reason="lost" extent="4" unit="character"/>    <space extent="3" unit="character" dim="horizontal"/>  </ab>
 </div>

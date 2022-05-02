@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120515" n="iAph1282 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120515" n="iAph1282 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -20,7 +20,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="personType" key="imperatorius">Imperial</rs></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2007-01-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2007-01-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -39,7 +39,7 @@
 <date notBefore="0041" notAfter="0054" exact="both">A.D. 41/54</date>
 (<rs type="criteria">reign</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>        <persName type="emperor" full="yes"><name reg="Τιβέριος" type="praenomen">Τιβέριον</name>  <name reg="Κλαύδιος">Κλαύδιον</name>  <name reg="Καῖσαρ">Καίσαρα</name>    <lb n="2"/><w lemma="σεβαστός"><app type="previouslyread"><rdg resp="previous">Σε</rdg><rdg resp="autopsy"><gap extent="2" reason="lost" unit="character"/></rdg></app>βαστὸν</w>  <name reg="Γερμανικός">Γερμανικὸν</name>  <w lemma="αὐτοκράτωρ">αὐτοκράτορα</w>  </persName><lb n="3"/><w lemma="ὁ"><supplied reason="lost">ὁ</supplied></w>  <w lemma="δῆμος"><supplied reason="lost">δ</supplied>ῆμος</w>  <w lemma="καί">καὶ</w>  <persName type="aphrodisian" full="yes"><name reg="Μένανδρος">Μένανδρος</name>  <persName type="aphrodisian" full="yes"><name reg="Διογένης">Διογένους</name><lb n="4"/><w lemma="ὁ"><app type="previouslyread"><rdg resp="previous">τ</rdg><rdg resp="autopsy"><gap extent="1" reason="lost" unit="character"/></rdg></app>οῦ</w>  <persName type="aphrodisian" full="yes"><name reg="Ζήνων">Ζήνωνος</name></persName></persName></persName>  <w lemma="ἀρχιερεύς">ἀρχιερεὺς</w>  <w lemma="αὐτός">αὐτοῦ</w>  <w lemma="καί">καὶ</w>  <space extent="1" unit="character" dim="horizontal"/>  <lb n="5"/>  <space extent="8" unit="character" dim="horizontal"/>  <persName type="divine" full="yes"><name>Διονύσου</name></persName>    <space extent="8" unit="character" dim="horizontal"/>  </ab>
 </div>

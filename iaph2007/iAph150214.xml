@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150214" n="iAph0901 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150214" n="iAph0901 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -47,7 +47,7 @@
 <date notBefore="-0199" notAfter="-0001" exact="none" cert="low">Second or first century B.C.</date>
  (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/><gap reason="lost" extent="unknown" unit="character"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>  <supplied reason="lost" cert="low">Πα</supplied>πίαν  <space extent="4"/><lb n="2"/>  <supplied reason="lost" cert="low"><w lemma="ἀνήρ">ἄνδρα</w>  <w lemma="καλός">καλὸν</w></supplied>  <w lemma="καί"><supplied reason="lost">κα</supplied>ὶ</w> <w lemma="ἀγαθός">ἀγαθὸν</w> <space extent="1"/> <lb n="3"/>    <gap reason="lost" extent="12" unit="character" precision="circa"/> <w lemma="πρός">πρὸς</w> <w lemma="ὁ">τὴν</w> <space unit="character" extent="1"/><lb n="4"/><w lemma="πατρίς"><supplied reason="lost" cert="low">πατρίδα</supplied></w>  <w lemma="γίγνομαι"><supplied reason="lost">γεγον</supplied>οτα</w>  <space extent="2"/><lb n="5"/>  <gap reason="lost" extent="12" unit="character" precision="circa"/>ΦΙΛΟΥ  <lb n="6"/><gap reason="lost" extent="12" unit="character" precision="circa"/> <orig n="unresolved"><unclear reason="damage">Α</unclear>Τ<unclear reason="damage">Α</unclear></orig>  <lb n="6a"/><gap reason="lost" extent="unknown" unit="character"/>  </ab>
 </div>

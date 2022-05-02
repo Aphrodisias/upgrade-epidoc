@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150342" n="iAph1650 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150342" n="iAph1650 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -46,7 +46,7 @@
 <date notBefore="0201" notAfter="0300" exact="none">Third century A.D.</date>
 (<rs type="criteria">nomenclature</rs>, <rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <orig n="unresolved">η<unclear reason="damage">γο</unclear>ω</orig><gap reason="lost" extent="5" unit="character"/><orig n="unresolved"><unclear reason="damage">ΙΝ</unclear></orig>  <gap reason="lost" extent="1" unit="character"/><orig n="unresolved"><unclear reason="damage">Ο</unclear>ΠΟΤΑΝ</orig> <w lemma="συγχώρησις">συνχωρήσιν</w> <lb n="2"/> <w lemma="μετακομίζω">μετακομισθῆναι</w> <lb n="3"/> <persName type="aphrodisian"><name reg="Αὐρήλιος" type="nomen">Αὐρήλιος</name> <name reg="Νεικοις">Νεικοις</name></persName> <lb n="4"/> <w lemma="ὁ">ὁ</w> <w lemma="πρόμοιρος">πρόμοιρος</w> <w lemma="υἱός">υἱὸς</w> <lb n="5"/> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Κλαυδία">Κλαυδία</name> <name reg="Ἰουλία">Ἰο<unclear reason="damage">υ</unclear>λί<unclear reason="damage">α</unclear></name>   <name reg="Ἀσκωνίς"><supplied reason="lost" cert="low">Ἀσ</supplied><lb n="6" type="worddiv"/>κωνις</name></persName> <w lemma="ὁ">ἡ</w> <w lemma="γίγνομαι">γενο<supplied reason="lost">μένη</supplied></w>  <lb n="7"/> <w lemma="ὁ">τοῦ</w> <w lemma="υἱός">υἱοῦ</w> <orig n="unresolved"><unclear reason="damage">Υ</unclear></orig><gap reason="lost" extent="6" unit="character"/>  <lb n="7a"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/>  </ab>
 </div>

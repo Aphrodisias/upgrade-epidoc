@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120919" n="iAph1865 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120919" n="iAph1865 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <orig n="unresolved">ια</orig><unclear reason="damage"> </unclear><gap reason="lost" extent="13" unit="character"/>  <lb n="2"/> <w lemma="καί">καὶ</w> <w lemma="μέγας">μ<supplied reason="lost">εγίσταις</supplied></w>  <w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <lb n="3"/><w lemma="πρέπω">πρεπ<supplied reason="lost">ούσαις</supplied></w>  <w lemma="τιμή"><supplied reason="lost">τειμαῖς</supplied></w>  <lb n="4"/><persName type="aphrodisian"><name reg="Ὑψίκλεια">Ὑψίκλ<supplied reason="lost" cert="low">ειαν</supplied></name>  <gap reason="lost" extent="6" unit="character"/>  <lb n="5"/> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Νεικότειμος">Ν<supplied reason="lost" cert="low">εικοτείμου</supplied></name></persName>    <lb n="6"/>  <name reg="Ἀπφία">Ἀπφία<supplied reason="lost">ν</supplied></name></persName>  <w lemma="ζάω"><supplied reason="lost">ζήσασαν</supplied></w>  <w lemma="κόσμιος"><supplied reason="lost" cert="low">κοσ</supplied><lb n="7" type="worddiv"/>μίως</w>  <w lemma="καί">κ<supplied reason="lost" cert="low">αὶ</supplied></w>    <gap reason="lost" extent="4" unit="character"/><lb n="8"/> <w lemma="καί">καὶ</w> <w lemma="πρός">πρὸ<supplied reason="lost">ς</supplied></w>  <w lemma="ὑπόδειγμα"><supplied reason="lost">ὑπόδει</supplied><lb n="9" type="worddiv"/><g type="scroll"/>γμ<supplied reason="lost">α</supplied></w>  <w lemma="ἀρετή"><supplied reason="lost">ἀρετῆς</supplied></w></ab>
 </div>

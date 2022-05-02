@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080406" n="iAph0021 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080406" n="iAph0021 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -63,7 +63,7 @@
 <p><date precision="circa" value="0364" notBefore="0364" notAfter="0364" exact="both">A.D. 364</date> (<rs type="criteria">reign</rs>).</p>
 </div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_section" n="ii"><ab><lb n="1"/><persName key="Valens" type="emperor" full="yes"><name reg="Φλάβιος"><expan><abbr>Φλ</abbr><supplied reason="abbreviation">άουιον</supplied></expan></name> <name reg="Κλαύδιος"><expan><abbr>Κλ</abbr><supplied reason="abbreviation">αύδιον</supplied></expan></name> <name reg="Βάλης">Βάλητα</name></persName><lb n="2"/><space extent="1" unit="character" dim="horizontal"/> <rs type="dignity" key="augustus">Αὔγουστον</rs><lb n="3"/><persName type="aphrodisian" key="TatianusAnt" full="yes"><name reg="Ἀντώνιος"><expan><abbr>Ἀντ</abbr><supplied reason="abbreviation">ώνιος</supplied></expan></name> <name reg="Τατιανός">Τατιανὸς</name></persName><lb n="4"/><w lemma="ὁ">ὁ</w> <rs type="dignity" key="clarissimus"><w lemma="λαμπρός"><expan><abbr>λαμπρ</abbr><supplied reason="abbreviation">ότατος</supplied></expan></w></rs> <rs type="official-secul" key="praeses"><w lemma="ἡγεμών">ἡγεμὼν</w></rs><lb n="5"/><rs type="admin" key="Caria"><w lemma="ἐπαρχεία">ἐπαρχείας</w><lb n="6"/><space extent="1" unit="character" dim="horizontal"/> <placeName reg="Καρία">Καρίας</placeName></rs> <g type="leaf"/>
 </ab></div>

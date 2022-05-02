@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110033" n="iAph1542 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110033" n="iAph1542 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -41,7 +41,7 @@
 <head>Date</head>
 <p> <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="0"/><space extent="1" unit="line" dim="horizontal"/><lb n="1"/><w lemma="ὁ"><supplied reason="lost">ὁ</supplied></w>  <gap extent="5" reason="lost" unit="character"/>  <w lemma="καί"><supplied reason="lost">κ</supplied>αὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="πλάτας">πλάτας</w> <w lemma="ὁ">ὁ</w> <w lemma="παράκειμαι">παρακείμενος</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <supplied reason="lost"><w lemma="περί">περὶ</w>  <w lemma="αὐτός">αὐτοὺς</w></supplied><lb n="2"/>  <w lemma="περίκειμαι"><supplied reason="lost">περικεί</supplied><unclear reason="damage">μ</unclear>ενος</w> <w lemma="τόπος">τόπος</w> <w lemma="εἰμί">εἰσὶν</w> <persName type="aphrodisian" full="yes"><name reg="Τιβέριος" type="praenomen"><expan><abbr>Τιβ</abbr><supplied reason="abbreviation">ερίου</supplied></expan></name>  <name reg="Κλαύδιος"><expan><abbr>Κλ</abbr><supplied reason="abbreviation">αυδίου</supplied></expan></name>  <name reg="Ἀντέρως">Ἀντέρωτος</name></persName>  <supplied reason="lost"><w lemma="καί">καὶ</w> <w lemma="ὁ">τῶν</w> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῷ</w></supplied>  <w lemma="διατάγμα"><supplied reason="lost">δια</supplied><lb n="3" type="worddiv"/>  <supplied reason="lost">τάγματι</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τ</supplied>ῷ</w> <w lemma="διά">διὰ</w> <w lemma="ὁ">τοῦ</w> <w lemma="χρεωφυλάκιον">χρεοφυλακίου</w> <w lemma="δηλόω">δηλουμένω<unclear reason="damage">ν</unclear></w>  <gap extent="unknown" dim="right" reason="lost" unit="character"/><lb n="3a"/><space extent="1" unit="line" dim="horizontal"/></ab>

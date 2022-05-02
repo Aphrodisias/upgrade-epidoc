@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150332" n="iAph1771 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150332" n="iAph1771 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@ No description; <seg cert="low">apparently a rectangular <rs type="objectType">s
 <date notAfter="0300" notBefore="0200">Second-third centuries A.D.</date>
 (<rs type="criteria">terminology</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/>  <lb n="2"/> <w lemma="ταμίας">ταμίαν</w> <w lemma="ἀρχινεωποιός">ἀρχινεο<lb n="3" type="worddiv"/>ποιὸν</w> <w lemma="πατήρ">πατρὸς</w> <lb n="4"/><w lemma="καί"><supplied reason="lost">καὶ</supplied></w> <w lemma="πάππος">πάππου</w> <w lemma="καί">καὶ</w> <lb n="5"/><w lemma="πρόγονος"><supplied reason="lost">πρ</supplied>ογόνων</w>  <w lemma="ἀρχιερεύς">ἀρχι<lb n="6" type="worddiv"/>ερέων</w> <w lemma="καί">καὶ</w> <w lemma="στεφανηφόρος">στεφα<lb n="7" type="worddiv"/><supplied reason="lost">ν</supplied>ηφόρων</w> <w lemma="πᾶς">πάσας</w> <lb n="8"/><w lemma="ἀρχή"><supplied reason="lost">ἀ</supplied>ρχὰς</w> <w lemma="καί">καὶ</w> <w lemma="λειτουργία">λειτουρ<lb n="9" type="worddiv"/><supplied reason="lost">γ</supplied>ίας</w>  <w lemma="πληρόω">πληρώσαν</w><lb n="10" type="worddiv"/><w lemma="ὁ"><supplied reason="lost">τ</supplied>α</w> <w lemma="πολύς">πολλὰ</w> <w lemma="κατορθόω">κατορ<lb n="11" type="worddiv"/><supplied reason="lost">θ</supplied>ώσαντα</w> <w lemma="ὁ">τῇ</w> <w lemma="πατρίς">πατρί<lb n="12" type="worddiv"/>δι</w> <w lemma="ἐν">ἐν</w> <w lemma="συνηγορία">συνηγορίαις</w> <lb n="13"/><w lemma="μάλιστα"><supplied reason="lost">μ</supplied>άλιστα</w>  <w lemma="θαυμάζω">θαυμασ<lb n="14" type="worddiv"/><supplied reason="lost">θ</supplied>έντα</w> <w lemma="ἐπί">ἐπὶ</w> <w lemma="παιδεία">παιδείᾳ</w> <lb n="15"/><w lemma="καί"><supplied reason="lost">κα</supplied>ὶ</w> <w lemma="χρηστότης">χρηστότητι</w> <lb n="16"/><w lemma="καί"><supplied reason="lost">κα</supplied>ὶ</w> <w lemma="ἐπιείκεια">ἐπιεικείᾳ</w> <w lemma="βίος">βίου</w> <lb n="17"/><gap reason="lost" extent="3" unit="character"/>  </ab>
 </div>

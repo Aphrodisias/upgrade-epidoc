@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph070002" n="iAph0100 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph070002" n="iAph0100 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -63,7 +63,7 @@
         <p><date notAfter="0600" exact="none" notBefore="0501">Sixth century A.D.</date>, or later</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<div type="textpart_fragment" n="a"><ab>
 		<lb n="1"/><milestone unit="block"/><g type="cross"/> <w lemma="ἐκ">ἐκ</w> <persName key="Mary" type="divine" full="yes"><name>Μαρίης</name></persName> <w lemma="θεόπαις">θεοπαῖδος</w> <w lemma="ἀπηνής">ἀπηνέος</w> <gap dim="right" reason="lost" extent="unknown" unit="character"/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010144" n="iAph0321 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010144" n="iAph0321 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -49,7 +49,7 @@
 
 <p> <date exact="none" notBefore="0101" notAfter="0300">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>, especially four-bar <foreign lang="grc">Σ</foreign> in ll. 3, 4).</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="1"/><gap dim="left" extent="2" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">λ</unclear>υ</orig><gap dim="internal" extent="1" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ε</unclear></orig><lb n="2"/><orig n="unresolved"><unclear reason="damage">τ</unclear>ι</orig><gap dim="internal" extent="1" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ωι</unclear></orig><gap dim="right" extent="3" reason="lost" unit="line"/><lb n="3"/><w lemma="ὁ">τοὺς</w>  <w lemma="δύο">δύ<unclear reason="damage">ω</unclear></w><lb n="4"/><w lemma="λουτήρ"><unclear reason="damage">λο</unclear>υτῆρας</w><lb n="5"/><w lemma="ἀνατίθημι">ἀνέθηκε</w></ab>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110401" n="iAph1230 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110401" n="iAph1230 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -20,7 +20,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2007-07-04</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2007-07-04</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -28,7 +28,7 @@
 
 
 </head>
-<p>Plain <rs type="material" key="marmor">white marble</rs> <seg cert="low"><rs type="objectType">statue base shaft</rs></seg> (<measure dim="none">0.46</measure>–<measure dim="none">0.43</measure> × <measure dim="none">0.83</measure> × <measure dim="none">0.445</measure>–<measure dim="none">0.43</measure>).</p></div><div type="description" n="text"><head>Description of Text</head><p><rs type="execution" key="scalpro">Inscribed</rs> on one face within a panel outlined by an incised line. Below is a slightly rougher area clearly not intended to be visible. The text must have begun on a crowning feature.</p>
+<p>Plain <rs type="material" key="marmor">white marble</rs> <seg cert="low"><rs type="objectType">statue base shaft</rs></seg> (<measure dim="height">0.46</measure>–<measure dim="height">0.43</measure> × <measure dim="height">0.83</measure> × <measure dim="height">0.445</measure>–<measure dim="height">0.43</measure>).</p></div><div type="description" n="text"><head>Description of Text</head><p><rs type="execution" key="scalpro">Inscribed</rs> on one face within a panel outlined by an incised line. Below is a slightly rougher area clearly not intended to be visible. The text must have begun on a crowning feature.</p>
 </div>
 <div type="description" n="letters">
 <head>Letters</head>
@@ -39,7 +39,7 @@
 <p>
 <date notBefore="0001" notAfter="0200" exact="none" cert="low">First to second centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/>  <persName type="aphrodisian" full="yes"><name reg="Τίτος" type="praenomen"><supplied reason="lost">Τίτος</supplied></name>  <name reg="Φλάβιος"><supplied reason="lost">Φλάβιος</supplied></name>  <name reg="Σταβεριανός"><supplied reason="lost">Στα</supplied><lb n="1" type="worddiv"/>βεριανὸς</name></persName> <w lemma="ὁ">τὸν</w> <persName type="divine" full="yes">Ἀσ<lb n="2" type="worddiv"/>κλεπιὸν</persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τ<hi rend="ligature">ὴν</hi></w><lb n="3"/><persName type="divine" full="yes"><name>Ὑγείαν</name></persName> <w lemma="σύν">σὺν</w> <w lemma="ὁ">τοὺς</w> <lb n="4"/> <w lemma="βωμός">βωμοὺς</w> <w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τῶν</w> <w>φι<lb n="5" type="worddiv"/>δίων</w> <w lemma="ἀνατίθημι">ἀνέθηκε</w> <w lemma="ὁ">τῷ</w><lb n="6"/> <w lemma="δῆμος">Δήμῳ</w> <w lemma="καθώς">καθῶς</w> <lb n="7"/><persName type="aphrodisian" full="yes"><name reg="Τίτος" type="praenomen">Τίτος</name>  <name reg="Φλάβιος">Φλάβιος</name>  <lb n="8"/><name reg="Σταβεριανός">Σταβερίανος</name></persName>  <w lemma="ἀρχιατρός">ἀρ<lb n="9" type="worddiv"/>χιατρὸς</w>  <w lemma="πόλις">πόλε<lb n="10" type="worddiv"/>ως</w> <w lemma="ὁ">ὁ</w> <w lemma="πατήρ">πατὴρ</w> <w lemma="αὐτός">αὐτοῦ</w><lb n="11"/><w lemma="ὑπισχνέομαι">ὑπέσχετο</w></ab>
 </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120602" n="iAph1004 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120602" n="iAph1004 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -54,7 +54,7 @@ Inscribed</rs> on a single fasci, i. to the left of ii. The block appeara comple
 <date cert="low" notAfter="0100" notBefore="-0100">First century B.C. - first century A.D.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_section" n="i"><ab><lb n="0"/><space unit="line" extent="1" dim="vertical"/><lb n="1"/><supplied reason="lost"><w lemma="ὁ">ἡ</w>  <w lemma="βουλή">βουλὴ</w></supplied>  <w lemma="καί"><supplied reason="lost">κ</supplied><unclear reason="damage">α</unclear>ί</w>  <w lemma="ὁ">ὁ</w>  <w lemma="δῆμος">δῆ<lb n="2" type="worddiv"/><supplied reason="lost" cert="low">μος</supplied></w>  <gap reason="lost" dim="left" extent="unknown" id="gap01" unit="character"/><certainty target="gap01" locus="#gi" degree="low"/>  <w lemma="τιμάω"><orig reg="ἐτίμησεν"><supplied reason="lost">ἐτ</supplied>είμη<lb n="3" type="worddiv"/><supplied reason="lost">σε</supplied>ν</orig></w>  <persName reg="Ἡραῖος" full="yes" type="aphrodisian"><name reg="Ἡραῖος">Ἡραῖ<lb n="4" type="worddiv"/><supplied reason="lost">ον</supplied></name></persName>  <space unit="character" extent="unknown" dim="horizontal"/>  </ab></div><div type="textpart_section" n="ii"><ab><lb n="0"/><space unit="line" extent="1" dim="vertical"/><lb n="1"/><w lemma="ὁ">ἡ</w>  <w lemma="βουλή">βουλὴ</w>  <w lemma="καί">καὶ</w>  <w lemma="ὁ">ὁ</w>  <w lemma="δῆμος">δῆμος</w><lb n="2"/><w lemma="τιμάω"><orig reg="ἐτίμησεν">ἐτείμησεν</orig></w>  <persName reg="Γεις  Ἀττάλου" full="yes" type="aphrodisian"><name reg="Γεις">Γειν</name>  <persName type="aphrodisian"><name reg="Ἄτταλος">Ἀτ<lb n="3" type="worddiv"/>τάλου</name></persName></persName>  <w lemma="γυνή">γυναῖκα</w>  <space unit="character" extent="unknown" dim="horizontal"/><lb n="4"/>  <space unit="character" extent="unknown" dim="horizontal"/>  <persName reg="Ἡραῖος" full="yes" type="aphrodisian"><name reg="Ἡραῖος">Ἡραίου</name></persName>  <space unit="character" extent="unknown" dim="horizontal"/></ab></div></div>
 

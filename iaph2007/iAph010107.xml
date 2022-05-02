@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010107" n="iAph0313 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010107" n="iAph0313 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -41,7 +41,7 @@
 
 <div type="description" n="letters">
 <head>Description of Letters</head>
-<p> <measure dim="none">0.015</measure>; circular letters small; <term>theta</term> with dot in centre; adscript <term lang="grc-Latn">iota</term>.</p>
+<p> <measure dim="height">0.015</measure>; circular letters small; <term>theta</term> with dot in centre; adscript <term lang="grc-Latn">iota</term>.</p>
 </div>
 
 <div type="description" n="date">
@@ -49,7 +49,7 @@
 
 <p>Perhaps <date exact="none" notBefore="-0300" notAfter="-0101" cert="low">third to second centuries B.C.</date> (<rs type="criteria">lettering</rs>)</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="1"/><persName reg="Ἀγαθὴ  Τύχη" full="yes" type="divine"><w lemma="ἀγαθός">Ἀγαθῆι</w>  <w lemma="τύχη">Τύχηι</w></persName><lb n="2"/><w lemma="στεφανόω">στεφανοῦσιν</w>  <w lemma="ὁ">οἱ</w><lb n="3"/><w lemma="Ἀφροδεισιεύς"><supplied reason="lost">Ἀ</supplied><unclear reason="damage">φροδι</unclear>σ<unclear reason="damage">ιε</unclear>ῖς</w>  <w lemma="ἱερεύς">ἱερ<supplied reason="lost" cert="low">εῖς</supplied></w><lb n="3a"/><gap reason="lost" extent="unknown" unit="character"/></ab>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph121018" n="iAph1782 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph121018" n="iAph1782 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">prosopography</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <persName type="aphrodisian"><name reg="Μᾶρκος"><expan><abbr>Μᾶρ</abbr><supplied reason="abbreviation">κον</supplied></expan></name> <name reg="Φλάβιος"><expan><abbr>Φλ</abbr><supplied reason="abbreviation">άβιον</supplied></expan></name> <name reg="Καρμίνιος"><expan><abbr>Καρμ</abbr><supplied reason="abbreviation">ίνιον</supplied></expan></name> <lb n="2"/> <name reg="Ἀθηναγόρας">Ἀθηναγόραν</name> <lb n="3"/> <name reg="Λιβιανός">Λειουιανόν</name></persName> <lb n="4"/> <w lemma="συνκλητικός">συνκλητικὸν</w> <lb n="5"/> <w lemma="ὁ">τὸν</w> <w lemma="κράτιστος">κράτιστον</w> <lb n="6"/> <w lemma="ὁ">τόν</w> <w lemma="ἑαυτοῦ">ἑαυτῆς</w> <lb n="7"/> <w lemma="εὐεργέτης">εὐεργέτην</w> <lb n="8"/> <w lemma="ἐν">ἐν</w> <w lemma="πᾶς">πᾶσιν</w> <persName type="aphrodisian"><name reg="Καρμίνιος"><expan><abbr>Καρ</abbr><supplied reason="abbreviation">μινίου</supplied></expan></name> <lb n="9"/> <name reg="Ἀθηναγόρας">Ἀθηναγόρου</name> </persName><lb n="10"/> <w lemma="ὑπατικός">ὑπατικοῦ</w> <w lemma="υἱός">υἱ<lb n="11" type="worddiv"/>  <space extent="3" unit="character" dim="horizontal"/> ὸν</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="12"/> <w lemma="προνοέομαι">προνοησαμένου</w> <w lemma="ὁ">τῆς</w> <lb n="13"/> <w lemma="τιμή">τειμῆς</w> <persName type="aphrodisian"><name reg="Φλαβιανός">Φλαβιανοῦ</name></persName> <lb n="14"/> <w lemma="ὁ">τοῦ</w> <w lemma="φίλος">φίλου</w> <w lemma="αὐτός">αὐτοῦ</w> <lb n="15"/> <persName type="aphrodisian"><name reg="Καρμίνιος"><expan><abbr>Καρ</abbr><supplied reason="abbreviation">μινίου</supplied></expan></name> <name reg="Ἀθηναγόρας">Ἀθηναγόρου</name></persName> </ab>
 </div>

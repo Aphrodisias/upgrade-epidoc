@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010194" n="iAph0130 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010194" n="iAph0130 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -51,7 +51,7 @@ in ligature, <measure type="length" unit="metre" dim="height">0.08</measure>.</p
         <p><date notAfter="0600" exact="none" notBefore="0401">Fifth-sixth century</date> or later (<rs type="criteria">lettering</rs>, <rs type="criteria">location</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab><lb n="1"/><gap reason="lost" dim="left" extent="unknown" unit="character"/><orig n="unresolved">ν<unclear reason="damage">ιρ</unclear>κιτ<unclear reason="damage">υ</unclear>ε<hi rend="ligature">πρ</hi><unclear reason="damage">ιλιλ</unclear></orig> </ab>
       </div>

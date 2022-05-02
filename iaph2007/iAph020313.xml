@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020313" n="iAph0214 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020313" n="iAph0214 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -60,7 +60,7 @@
         <p><date notAfter="0600" cert="low" notBefore="0301">Fourth-sixth century</date> (<rs type="criteria">content</rs>)</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		 <ab>
 		 	<lb n="1"/> <persName key="polychronius3" type="aphrodisian" full="yes"><name reg="Πολυχρόνιος">Πολυχρονίου</name></persName> <rs type="profession" key="boxer"><w lemma="πύκτης">πύκτου</w></rs> <w lemma="νόμισμα">νομισμάτων</w> <w lemma="δύο">δύο</w> <w lemma="τρίτος">τρίτου</w>. 

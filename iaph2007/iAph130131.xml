@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130131" n="iAph1453 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130131" n="iAph1453 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -42,7 +42,7 @@
 <p>
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><cb n="a"/>  <lb n="1"/>  <gap reason="lost" unit="character" extent="28" precision="circa"/> <orig n="unresolved"><unclear reason="damage">διι</unclear></orig> <gap reason="lost" extent="6" precision="circa" unit="character"/> <w><orig n="unresolved"><unclear reason="damage">λ</unclear></orig></w> <gap reason="lost" extent="3" unit="character"/> <w><orig n="unresolved"><unclear reason="damage">ηυμων</unclear></orig></w> <gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ον</orig> <w lemma="ἐπί"><unclear reason="damage">ἐ</unclear>πὶ</w> <w lemma="στεφανηφόρος"><unclear reason="damage">σ</unclear>τε<supplied reason="lost">φ</supplied>ανη<supplied reason="lost">φόρου</supplied></w>  <gap reason="lost" extent="unknown" unit="character"/>  <orig n="unresolved"><unclear reason="damage">ου</unclear></orig>  <gap reason="lost" extent="1" unit="character"/><persName type="aphrodisian"><name><supplied reason="lost">Ἑ</supplied><unclear reason="damage">ρμο</unclear>  <gap reason="lost" extent="2" unit="character"/>  <cb n="b"/><lb n="1" type="worddiv"/> κρά <g type="head"/> τους</name></persName>  <lb n="2"/> <w lemma="μείς">μηνὸς</w> <g type="head"/> <rs type="month"><w lemma="Κλαυδιῆος">Κλαυδι<lb n="3" type="worddiv"/>ήου</w></rs></ab>
 </div>

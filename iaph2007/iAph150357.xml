@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150357" n="iAph0172 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150357" n="iAph0172 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -55,7 +55,7 @@ many points, enabling us to correct some errors. Cursive forms. In ll.
         <p><date exact="none" cert="low" notBefore="0401" notAfter="0600">Fifth/sixth century</date> or later (<rs type="criteria">content</rs>, <rs type="criteria">lettering</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab>
 		  		<lb n="1"/><g type="cross"/> <w lemma="ἔνθα">ἔνθα</w> <w lemma="κατάκειμαι">κα<lb n="2" type="worddiv"/>τάκιτε</w><lb n="3"/><persName key="eutychia1" type="aphrodisian" full="yes"><name reg="Εὐτυχία">Εὐτυχία</name></persName><lb n="4"/><w lemma="γίγνομαι">γεναμ<unclear reason="damage">έ</unclear><lb n="5" type="worddiv"/>νι</w> <w lemma="τρέφω">θρέψα<lb n="6" type="worddiv"/>σα</w> <w lemma="καί">κὲ</w> <w lemma="εὐπρεπής">εὐπρε<lb n="7" type="worddiv"/>πὲς</w> <w lemma="μετά">με<lb n="8" type="worddiv"/>τὰ</w> <w lemma="ὁ">τῶν</w> <w lemma="πέδιον">πε<lb n="9" type="worddiv"/>δίων</w> <w lemma="αὐτός">αὐ<lb n="10" type="worddiv"/>τῆς</w>· <persName key="Lord" type="divine" full="yes"><w lemma="κύριος">Κύριε</w></persName><lb n="11"/><w lemma="μνάομαι">μνήσθιθι</w><lb n="12"/><w lemma="αὐτός">αὐτῆς</w> <persName key="Lord" type="divine" full="yes"><w lemma="κύριος"><expan><abbr>Κ</abbr><supplied reason="abbreviation">ύρι</supplied><abbr>ε</abbr></expan></w></persName>.</ab> 

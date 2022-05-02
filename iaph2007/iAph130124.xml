@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130124" n="iAph0693 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130124" n="iAph0693 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
 (<rs type="criteria">lettering</rs>, <rs type="criteria">institutions</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ἡ</w> γερουσί<supplied reason="lost">α</supplied>  <supplied reason="lost">καὶ</supplied>  <lb n="2"/> <w lemma="ὁ">οἱ</w> <w lemma="ἀπό">ἀπὸ</w> <w lemma="ὁ">τῆς</w> <w lemma="οἰμουμένη">οἰκουμένης</w> <w>ἱε</w> <lb type="worddiv" n="3"/>ρονεῖκαι <w lemma="πλειστονείκης">πλειστονεῖκαι</w> <w>στε</w> <lb type="worddiv" n="4"/><supplied reason="lost">φανειταί</supplied>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  </ab>
 </div>

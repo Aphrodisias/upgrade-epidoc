@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph121008" n="iAph0367 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph121008" n="iAph0367 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -49,7 +49,7 @@
 
 <p><date notAfter="0300" notBefore="0101" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
  <ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <g type="stop"/> <w lemma="καί">καὶ</w> <g type="stop"/> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w><lb n="2"/> <w lemma="καί">καὶ</w> <g type="stop"/> <w lemma="ὁ">ἡ</w> <w lemma="γερουσία">γερουσία</w> <g type="stop"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">οἱ</w> <lb n="2a"/><supplied reason="lost"><w lemma="νέος">νέοι</w> <w lemma="τιμάω">ἐτείμησαν</w> <w>κτλ.</w></supplied>  <gap reason="lost" dim="right" extent="unknown" unit="character"/></ab>

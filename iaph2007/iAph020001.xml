@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020001" n="iAph1926 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020001" n="iAph1926 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -41,7 +41,7 @@
 <head>Date</head>
 <p>Undateable</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_block" n="a"><ab n="b"><lb n="1"/> <persName type="aphrodisian"><name reg="Πρόβατος"><w lemma="πρόβατον">Προβάτο<supplied reason="lost">υ</supplied></w></name></persName></ab></div><div type="textpart_block" n="b"><ab n="b"><lb n="1"/> <persName type="aphrodisian"><name reg="Πρόβατος"><w lemma="πρόβατον">Προβάτου</w></name></persName></ab></div><div type="textpart_block" n="c"><ab n="b"><lb n="1"/> <persName type="aphrodisian"><name reg="Πρόβατος"><w lemma="προβατός">ΠΡΟΒΑΒΑΤΟΥ</w></name></persName></ab></div><div type="textpart_block" n="d"><ab n="b"><lb n="1"/> <persName type="aphrodisian"><name reg="Πρόβατος"><w lemma="πρόβατον">Προβ<supplied reason="lost">ά</supplied>το<supplied reason="lost">υ</supplied></w></name></persName></ab></div><div type="textpart_block" n="e"><ab n="b"><lb n="1"/> <persName type="aphrodisian"><name reg="Πρόβατος"><w lemma="πρόβατον">Π<supplied reason="lost">ρ</supplied>ο<supplied reason="lost" cert="low">βάτου</supplied></w></name></persName></ab></div></div>
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130603" n="iAph1442 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130603" n="iAph1442 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <date notBefore="0201" notAfter="0300" exact="none" cert="low"> third century A.D.</date>
  (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <w lemma="ὁ">ἡ</w>  <w lemma="σορός">σορός</w>    <w lemma="εἰμί">ἐστιν</w>  <lb n="2"/><w lemma="καί">καὶ</w>  <w lemma="ὁ">ὁ</w>  <w lemma="τόπος">τόπος</w>    <persName type="aphrodisian" full="yes"><name reg="Μᾶρκος"><expan><abbr>Μάρ</abbr><supplied reason="abbreviation">κου</supplied></expan></name>  <lb n="3"/><name reg="Αὐρήλιος" type="nomen"><expan><abbr>Αὐρ</abbr><supplied reason="abbreviation">ηλίου</supplied></expan></name>  <g type="stop"/>  <name reg="Ἀττικός">Ἀττικοῦ</name>  <g type="stop"/>  <w lemma="ὁ">τοῦ</w>  <lb n="4"/><persName type="aphrodisian" full="yes"><name reg="Ἀττικός">Ἀττικοῦ</name>  <w lemma="ὁ">τοῦ</w>  <space extent="3" unit="character" dim="horizontal"/>  <lb n="5"/><persName type="aphrodisian" full="yes"><name reg="Ὀφέλλιος">Ὀφελλίου</name>  <space extent="4" unit="character" id="space2" dim="horizontal"/><certainty target="space2" locus="#gi" degree="low"/><lb n="6"/><del cert="low"><gap reason="lost" extent="2" unit="character"/></del> <unclear reason="damage"><g type="handle"/></unclear>  <name reg="Χριστός">Χριστου</name></persName></persName></persName>   <g type="handle"/><note place="not  specified" anchored="yes">  of  tabella  ansata</note>  <lb n="7"/><g type="leaf"/></ab>
 </div>

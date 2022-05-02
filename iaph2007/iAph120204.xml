@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120204" n="iAph1256 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120204" n="iAph1256 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -20,7 +20,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -38,7 +38,7 @@
 <date notBefore="0001" notAfter="0200" exact="none">First to second centuries A.D.</date>
 (<rs type="criteria">prosopography</rs>, <rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <persName type="divine" full="yes"><name reg="Ἀφροδίτη">Ἀφροδείτῃ</name></persName> <w lemma="καί">καὶ</w> <w lemma="θεός">θεοῖς</w>  <lb n="2"/><w lemma="σεβαστός">Σεβαστοῖς</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῷ</w> <w lemma="δῆμος">Δήμῳ</w> <lb n="3"/><persName type="aphrodisian" full="yes"><name reg="Ἀρτεμίδωρος">Ἀρτεμίδωρος</name>  <persName type="aphrodisian" full="yes"><name reg="Διονύσιος">Διονυσί<lb n="4" type="worddiv"/>ου</name></persName> <w lemma="φύσις">φύσει</w> <w lemma="δέ">δὲ</w> <persName type="aphrodisian" full="yes"><name reg="Ἀρτεμίδωρος">Ἀρτεμιδώ<lb n="5" type="worddiv"/>ρου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian" full="yes"><name reg="Διογένης">Διογένους</name></persName></persName><lb n="6"/>         <space extent="2"/><name reg="Πηδισας">Πηδισας</name></persName><space extent="2"/><lb n="7"/><w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τῶν</w> <w lemma="ἴδιος">ἰδίων</w> <w lemma="ἀνατίθημι">ἀνέθηκε</w>  <lb n="8"/><w lemma="ὁ">τὸν</w> <persName type="divine" full="yes"><name>Ἑρμῆ</name></persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὴν</w> <w lemma="ἐπίχρυσος">ἐπίχρυ<lb n="9" type="worddiv"/>σον</w>  <persName type="divine" full="yes"><name>Ἀφροδείτην</name></persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τοὺς</w>  <lb n="10"/><w lemma="παρά">παρ'</w> <w lemma="ἑκάτερος">ἑκάτερα</w> <persName type="divine" full="yes"><w>Ἔρωτας</w></persName>  <w lemma="λαμπαδηφόρος">λαμ<lb n="11" type="worddiv"/>παδηφόρους</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὸν</w> <w lemma="πρό">πρὸ</w> <lb n="12"/> <w lemma="αὐτός">αὐτοῦ</w> <persName type="divine" full="yes"><name>Ἔρωτα</name></persName> <w lemma="μαρμάρινος">μαρμάρινον</w> <lb n="13"/> <w lemma="καθώς">καθὼς</w> <w lemma="ὑπισχνέομαι">ὑπέσχετο</w> <w lemma="καί">καὶ</w> <w lemma="αὐτός">αὐτὸς</w>  <lb n="14"/><w lemma="κατασκευάζω">κατασκευαζομένου</w> <w lemma="ὁ">τοῦ</w> <lb n="15"/> <w lemma="φοινικόεις">φοινεικοῦντος</w> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῷ</w> <w lemma="ὁ">τῆς</w>  <lb n="16"/><w lemma="στρατηγία">στρατηγίας</w> <w lemma="αὐτός">αὐτοῦ</w> <w lemma="χρόνος">χρόν<supplied reason="lost">ῳ</supplied></w></ab>
 </div>

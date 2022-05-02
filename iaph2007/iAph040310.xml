@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph040310" n="iAph0036 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph040310" n="iAph0036 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -53,7 +53,7 @@
         <p n="036">i. <date notAfter="0414" exact="both" precision="circa" notBefore="0405">A.D. 405/414</date> (<rs type="criteria">prosopography</rs>); ii. <date notAfter="0600" exact="none" notBefore="0401">fifth to sixth centuries A.D.</date> or later (<rs type="criteria">lettering</rs>)</p>
       </div>
 
-      <div lang="grc" n="text" type="edition">
+      <div lang="grc" n="text" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <div type="textpart_section" n="i"><lg met="elegaic">
        <lb n="1"/><l met="hexameter"><orig n="unresolved"><unclear reason="damage">θεμ</unclear><gap agent="damage" extent="1" reason="lost" unit="character"/><unclear reason="damage">ιι</unclear>ι<gap agent="damage" extent="1" reason="lost" unit="character"/><unclear reason="damage">καιιι</unclear>ιν</orig> <w lemma="σύ">σε</w> <w lemma="φάλαγξ">φάλαγξ</w> <w lemma="ἵστημι">ἔστησεν</w>, <rs type="official-secul" key="PPO"><w lemma="ὕπαρχος">ὕπαρχε</w></rs>,</l>

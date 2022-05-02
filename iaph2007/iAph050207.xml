@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050207" n="iAph1555 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph050207" n="iAph1555 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <date notAfter="0138" notBefore="0117">A.D. 117-138</date> (<rs type="criteria">reign</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="θεά">θεᾷ</w> <persName type="divine"><name reg="Ἀφροδίτη">Ἀφροδείτῃ</name></persName> <g type="star"/> <w lemma="καί">καὶ</w> <persName type="emperor"><w lemma="αὐτοκράτωρ">Αὐτοκράτορι</w> <name reg="Καῖσαρ">Καίσαρι</name> <w lemma="θεός">θεοῦ</w> <name reg="Τραιανός">Τραϊανοῦ</name> <w lemma="υἱός">υἱῷ</w> <w lemma="θεός">θεοῦ</w> <name reg="Νέρβα">Νέρβα</name> <lb n="2"/><w lemma="υἱωνός"><supplied reason="lost">υἱ</supplied>ωνῷ</w> <name reg="Τραιανός">Τραϊανῷ</name> <name reg="Ἁδριανός">Ἁδριανῷ</name> <w lemma="σεβαστός">Σεβαστῷ</w></persName><w lemma="καί">καὶ</w> <w lemma="ὁ">τῷ</w> <w lemma="δῆμος">δήμῳ</w> <g type="star"/> <persName type="aphrodisian"><name reg="Περίτας">Περείτας</name> <name reg="Ζήνων">Ζήνωνος</name> <w lemma="ὁ">τοῦ</w> <name reg="Ζήνων">Ζήνωνος</name> <lb n="3"/><space extent="3" unit="character" dim="horizontal"/> <name reg="Ἄτταλος">Ἄτταλος</name></persName> <w lemma="ὁ">τὸ</w> <w lemma="περιφλίωμα">περιφλίωμα</w> <g type="hole"/> <w>ἐκ<sic n="superfluous">κ</sic></w> <w lemma="ὁ">τῶν</w><w lemma="ἴδιος"> ἰδίων</w> <space extent="1" unit="character" dim="horizontal"/> <w lemma="ἀνατίθημι">ἀνέθηκεν</w> <g type="scroll"/> </ab>
 </div>

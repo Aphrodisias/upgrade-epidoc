@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010145" n="iAph0322 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010145" n="iAph0322 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -49,7 +49,7 @@
 
 <p> <date exact="none" notBefore="0101" notAfter="0200">Second century A.D.</date> (<rs type="criteria">lettering</rs>).</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="0"/><gap dim="top" extent="unknown" unit="character" reason="lost"/> <w lemma="εἰς"><supplied reason="lost" cert="low">εἰς</supplied></w>  <w lemma="ὅς"><supplied reason="lost" cert="low">ἣν</supplied></w>  <w lemma="σορός"><supplied reason="lost" cert="low">σορὸν</supplied></w>  <w lemma="κηδεύω"><supplied reason="lost" cert="low">κηδευθήσεται</supplied></w><lb n="1"/><w lemma="αὐτός">αὐτὴ</w>  <persName type="aphrodisian" full="yes"><name reg="Τατιανή">Τατία<unclear reason="damage">ν</unclear><supplied reason="lost" cert="low">η</supplied></name></persName>  <gap reason="lost" extent="unknown" unit="character" dim="internal"/>  <w lemma="ἤ"><supplied reason="lost">ἢ</supplied></w>  <w lemma="ἐκθάπτω"><supplied reason="lost">ἐκθά</supplied><lb n="2" type="worddiv"/>ψαι</w>  <w lemma="ἀπό">ἀπὸ</w>  <w lemma="αὐτός"><unclear reason="damage">αὐ</unclear><supplied reason="lost" cert="low">της</supplied></w>  <gap reason="lost" extent="unknown" dim="right" unit="character"/></ab>

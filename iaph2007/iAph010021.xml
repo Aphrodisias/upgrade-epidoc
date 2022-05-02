@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010021" n="iAph0117 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010021" n="iAph0117 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -65,7 +65,7 @@ circle.</p>
         <p><date notAfter="0600" notBefore="0401" exact="none">Fifth-sixth century</date> or later (lettering, location).</p>
       </div>
 
-      <div lang="grc" n="text" type="edition">
+      <div lang="grc" n="text" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         
 		<div type="textpart_section" n="i"><ab><lb n="1"/><persName key="theophilus1" type="aphrodisian" full="yes"><name reg="Θεόφιλος"><expan><abbr>Θεοφ</abbr><supplied reason="abbreviation">ί</supplied><abbr>λ</abbr><supplied reason="abbreviation">ῳ</supplied></expan></name></persName><lb n="2"/><persName type="divine" key="Lord" full="yes"><w lemma="κύριος"><expan><abbr>Κ</abbr><supplied reason="abbreviation">ύρι</supplied><abbr>ε</abbr></expan></w></persName> <w lemma="βοηθέω">βωΐθι</w> <w lemma="ὁ">το͂ </w> <w lemma="σός">σο͂</w> <w lemma="δοῦλος"><expan><abbr>δ</abbr><supplied reason="abbreviation">ού</supplied><abbr>λο</abbr></expan></w><lb n="3"/><rs type="profession" key="butcher"><w lemma="μακελάριος"><expan><abbr>μα</abbr><supplied reason="abbreviation">κε</supplied><abbr>λαρή</abbr><supplied reason="abbreviation">ῳ</supplied></expan></w></rs><g type="cross"/></ab></div>

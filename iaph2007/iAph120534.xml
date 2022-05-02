@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120534" n="iAph1780 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120534" n="iAph1780 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>) 
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/>    <supplied reason="lost" cert="low"><note>e.g.</note>  <w lemma="κατά">κατὰ</w>  <w lemma="ὁ">τὰ</w>  <w lemma="ψηφίζω">ἐψηφισμένα</w></supplied>  <lb n="0a"/>  <supplied reason="lost" cert="low"><w lemma="ὑπό">ὑπὸ  </w><w lemma="ὁ">τῆς</w>  <w lemma="βουλή">βουλῆς</w></supplied>  <lb n="1"/> <seg type="autopsy"><w lemma="καί">καὶ</w> <w lemma="ὁ">τοῦ</w> <w lemma="δῆμος">δήμου</w> 
 </seg><lb n="2"/> <persName type="aphrodisian"><seg type="autopsy"><name reg="Μᾶρκος">Μᾶρκον</name> <name reg="Αὐρήλιος" type="nomen">Αὐρήλιον</name> <name reg="Ἀρίστων"> Ἀρίστωνα</name></seg> 

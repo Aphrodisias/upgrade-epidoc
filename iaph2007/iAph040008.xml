@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph040008" n="iAph0203 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph040008" n="iAph0203 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,7 +26,7 @@
   <respStmt><name>Juan Garcés</name></respStmt>
   <item>tagged Greek; tidied</item>
   </change>
-  <change><date>2003-08-30</date><respStmt><name>CMR</name></respStmt><item>tagged, lemmatised and corrected</item></change><change><date>2004-03-8</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <change><date>2003-08-30</date><respStmt><name>CMR</name></respStmt><item>tagged, lemmatised and corrected</item></change><change><date>2004-03-08</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
   <text>
     <body>
 
@@ -37,7 +37,7 @@
 
       <div type="description" n="text">
         <head>Description of Text</head>
-        <p><rs type="execution" key="scalpro">Inscribed</rs> <measure type="length" dim="none" unit="metre">1.38</measure> above base of column.</p>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> <measure type="length" dim="height" unit="metre">1.38</measure> above base of column.</p>
       </div>
 
       <div type="description" n="letters">
@@ -51,7 +51,7 @@ abbreviation.</p>
         <head>Date</head><p><date precision="exact" exact="none" notBefore="0301" notAfter="0600">Fourth to sixth centuries A.D.</date> or later (<rs type="criteria">lettering</rs>)</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
        <ab><lb n="1"/><persName key="kes" type="aphrodisian" full="abb"><name><orig n="unresolved">κησ</orig></name></persName> <g type="scroll"/></ab> 
       </div>

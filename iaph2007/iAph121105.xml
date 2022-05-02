@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph121105" n="iAph1470 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph121105" n="iAph1470 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -41,7 +41,7 @@
 <head>Date</head>
 <p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">nomenclature</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/>  <w lemma="εἰμί"><supplied reason="lost">ἐσ</supplied>τιν</w> <persName type="aphrodisian"><name reg="Αἴλιος">Αἰλίου</name> <name reg="Κλαύδιος">Κλαυδίου</name> <name reg="Φιλήτης">Φιλήτου</name></persName> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Αἰλία">Αἰλίας</name> <name reg="Κλαυδία">Κλαύδίας</name></persName> <gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><gap reason="lost" extent="3" unit="character"/>  <w lemma="βούλομαι"><supplied reason="lost">βουλη</supplied>θῶσιν</w> <w lemma="ἕτερος">ἕτερος</w> <w lemma="δέ">δὲ</w> <w lemma="οὐδείς">οὐδεὶς</w> <w lemma="ἔχω">ἕξει</w> <w lemma="ἐξουσία">ἐξουσίαν</w> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῇ</w> <w lemma="σορός">σ<supplied reason="lost">ορῷ</supplied></w><gap reason="lost" extent="3" unit="character"/>  <lb n="3"/><gap reason="lost" extent="3" unit="character"/><w lemma="ὁ">ὁ</w> <w lemma="δέ">δὲ</w> <w lemma="ἐνθάπτω">ἐνθάψας</w> <w lemma="τις">τινὰ</w> <w lemma="ἕτερος">ἕτερον</w> <w lemma="ἤ">ἢ</w> <w lemma="κινέω">κεινήσας</w> <w lemma="ἤ">ἢ</w> <w lemma="μετατίθημι">μεταθεὶς</w> <gap reason="lost" extent="3" unit="character"/>  <lb n="4"/><gap reason="lost" extent="3" unit="character"/><w lemma="ἀποτίνω">ἀποτείσει</w> <w lemma="ὁ">τῷ</w> <w lemma="ὁ">τῶν</w> <w lemma="κύριος">κυρίων</w> <w lemma="αὐτοκράτωρ">αὐτοκρατόρων</w> <w lemma="φίσκος">φίσκῳ</w> <w lemma="ἀργύριον">ἀρ<supplied reason="lost">γυρίου</supplied></w>  <gap reason="lost" extent="3" unit="character"/>  <lb n="5"/><gap reason="lost" extent="3" unit="character"/><w lemma="ἀντίγραφον"><supplied reason="lost">ἀντίγρα</supplied>φον</w> <w lemma="ἀποτίθημι">ἀπετέθη</w> <w lemma="εἰς">εἰς</w> <w lemma="τε">τὲ</w> <w lemma="ἀρχεῖον">ἀρχεῖα</w> <g type="leaf"/>  </ab>
 </div>

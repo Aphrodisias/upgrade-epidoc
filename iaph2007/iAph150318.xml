@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150318" n="iAph1657 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150318" n="iAph1657 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -46,7 +46,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>  (<rs type="criteria">lettering</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><gap reason="lost" extent="3" unit="character"/><unclear reason="damage">Ο</unclear>  <gap reason="lost" extent="1" unit="character"/><unclear reason="damage">ΙΑΙΙΚΜΑΥΙ</unclear><gap reason="lost" extent="2" unit="character"/><unclear reason="damage">ΙΙΟ</unclear><gap reason="lost" extent="3" unit="character"/>  <lb n="3"/><gap reason="lost" extent="3" unit="character"/>ΤΟΥ <w lemma="κεῖμαι">κειμένη</w> <w lemma="εἰς">εἰς</w> <w>ΤΟ</w> <gap reason="lost" extent="1" unit="character"/>ΝΠ<gap reason="lost" extent="3" unit="character"/>  <lb n="4"/><gap reason="lost" extent="3" unit="character"/>  <persName type="aphrodisian"><name reg="Ζήνων"><supplied reason="lost">Ζή</supplied>νωνος</name></persName> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Ζήνων">Ζήνων</name></persName> <gap reason="lost" extent="3" unit="character"/>  <lb n="5"/><gap reason="lost" extent="3" unit="character"/>  <persName type="aphrodisian"><name reg="Πολυχρόνιος"><supplied reason="lost">Πο</supplied><unclear reason="damage">λυχ</unclear><supplied reason="lost">ρ</supplied><unclear reason="damage">ο</unclear>νιος</name></persName>  Τ<gap reason="lost" extent="3" unit="character"/>  <lb n="6"/><gap reason="lost" extent="3" unit="character"/>  </ab>
 </div>

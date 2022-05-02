@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph121208" n="iAph1050 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph121208" n="iAph1050 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -38,7 +38,7 @@
 
 <div type="description" n="letters">
 <head>Description of Letters</head>
-<p><measure type="length" dim="none">0.0375-0.04</measure></p>
+<p><measure type="length" dim="height">0.0375-0.04</measure></p>
 </div>
 
 <div type="description" n="date">
@@ -46,7 +46,7 @@
 
 <p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <div type="textpart_section" n="a"><ab><lb n="1"/>        <gap dim="left" extent="unknown" reason="lost" unit="character"/>  <persName type="aphrodisian"><name reg="Ἀπολλ-">Ἀπο<supplied reason="lost">λλ</supplied><lb n="2" type="worddiv"/>  <gap dim="left" extent="unknown" reason="lost" unit="character"/></name></persName> <orig n="unresolved"><unclear reason="damage">υ</unclear></orig>  <persName type="aphrodisian"><name reg="Ἀντωνία">Ἀντω<supplied reason="lost">νι</supplied><lb n="3" type="worddiv"/>        <gap dim="left" extent="unknown" reason="lost" unit="character"/></name></persName><orig n="unresolved">ουκα</orig><gap dim="right" extent="1" reason="lost" unit="character"/><lb n="4"/>                              <gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">σα<unclear reason="damage">σ</unclear></orig><lb n="5"/>                              <gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">α<unclear reason="damage">ι</unclear></orig><gap dim="right" extent="1" reason="lost" unit="character"/><lb n="5a"/><gap dim="bottom" extent="unknown" reason="lost" unit="line"/></ab></div><div type="textpart_section" n="b"><ab><lb n="0"/><gap dim="top" extent="unknown" reason="lost" unit="line"/><lb n="1"/>              <gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">ονομ</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="2"/><gap dim="left" extent="unknown" reason="lost" unit="character"/>  <w lemma="καί"><unclear reason="damage">κ</unclear>αὶ</w>  <w lemma="λειτουργία">λειτου<unclear reason="damage">ρ</unclear><supplied reason="lost">γία</supplied><gap dim="right" extent="unknown" reason="lost" unit="character"/></w><lb n="3"/><gap dim="left" extent="unknown" reason="lost" unit="character"/>  <w lemma="πατρίς">πατρίδι</w>  <gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="4"/>  <gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">υ</unclear>πο</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="4a"/><gap dim="bottom" extent="unknown" reason="lost" unit="line"/></ab></div></div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph040302" n="iAph1067 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph040302" n="iAph1067 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date cert="low" exact="none" notAfter="0100" notBefore="0001">First century A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">sculpture</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><persName type="aphrodisian"><name reg="Μηνόδοτος"><supplied reason="lost">Μηνόδοτος</supplied></name>  <gap reason="lost" extent="unknown" unit="character"/>  <persName type="aphrodisian"><name><gap reason="lost" extent="unknown" unit="character"/>μάχου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Μηνόδοτος">Μηνοδό<unclear reason="damage">τ</unclear><supplied reason="lost">ου</supplied></name></persName></persName></persName>  <lb n="2"/><space extent="3" unit="character" dim="horizontal"/> <w>ἐποίει</w> <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <supplied reason="lost" cert="low"><space extent="3"/></supplied>    <space extent="3" unit="character" dim="horizontal"/>  </ab>
 </div>

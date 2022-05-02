@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120613" n="iAph1905 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120613" n="iAph1905 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date cert="low" notAfter="0100" notBefore="0051" exact="none">Second half of first century A.D.</date>
  (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_section" n="i"><ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character" dim="left"/> <persName type="aphrodisian"><name reg="Γάϊος">Γαίον</name>  <lb n="2"/><w><gap reason="lost" extent="unknown" unit="character" dim="left"/><supplied reason="lost">ο</supplied>υς</w> <w lemma="υἱός">υἱὸν</w></persName> <lb n="3"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <w lemma="λεγιών">λεγιῶ<lb n="4" type="worddiv"/><supplied reason="lost">νος</supplied></w> <gap reason="lost" extent="unknown" unit="character" dim="left"/> <space extent="3" unit="character" dim="horizontal"/></ab></div><div type="textpart_section" n="ii"><ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <lb n="2"/> <w lemma="τιμάω">ἐτείμησαν</w> <g type="star"/>  <persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen">Τιβέρι<lb n="3" type="worddiv"/>ον</name> <name reg="Κλαύδιος">Κλαύδιον</name> <persName type="aphrodisian"><name reg="Ἀριστοκλῆς">Ἀριστο<lb n="4" type="worddiv"/>κλέους</name></persName> <w lemma="υἱός">υἱὸν</w> <name type="tribe" reg="Κυρείνα">Κυρίνᾳ</name> <space extent="3" unit="character" dim="horizontal"/>  <lb n="5"/><space extent="3" unit="character" dim="horizontal"/>  <name reg="Ἱεροκλῆς">Ἱεροκ<supplied reason="lost">λέα</supplied></name></persName>  <space extent="3" unit="character" dim="horizontal"/></ab></div>
 </div>

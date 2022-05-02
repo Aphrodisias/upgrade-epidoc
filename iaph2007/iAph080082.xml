@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080082" n="iAph1157 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080082" n="iAph1157 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -21,7 +21,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2007-04-27</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2007-04-27</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -39,7 +39,7 @@
 Probably <date notAfter="0100" notBefore="0101" exact="none" cert="low">first century A.D.</date>
 (<rs type="criteria">letter-forms</rs>, <rs type="criteria">content</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>      <space unit="character" extent="3" dim="horizontal"/>  <persName type="divine"><name>Νεμέ<supplied reason="lost">σει</supplied></name></persName> <w lemma="θεά">θεᾷ</w> <w lemma="ἐπήκοος">ἐ<unclear reason="damage">π</unclear><supplied reason="lost">ηκόῳ</supplied></w>    <w lemma="ὁ"><supplied reason="lost" cert="low">ὁ</supplied></w>  <w lemma="δεῖνα"><supplied reason="lost" cert="low">δεῖνα</supplied></w>  <gap dim="internal" extent="unknown" reason="lost" unit="character"/>  <persName type="aphrodisian" full="yes"><name reg="Ἀρτεμίδωρος"><supplied reason="lost">Ἀρτεμιδ</supplied><unclear reason="damage">ώ</unclear>ρου</name>  <persName type="aphrodisian"><name reg="Μολοσσός">Μολοσσοῦ</name></persName></persName>  <gap dim="right" extent="unknown" reason="lost" unit="character"/></ab>
 </div>

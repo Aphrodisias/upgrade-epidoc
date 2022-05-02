@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010167" n="iAph1728 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010167" n="iAph1728 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -47,7 +47,7 @@
 <date notBefore="0101" notAfter="0250" exact="none">Second to early third century A.D.</date> (<rs type="criteria">lettering</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><gap reason="lost" extent="10" unit="character"/> <orig n="unresolved">σ</orig><gap reason="lost" extent="2" unit="character"/>  <lb n="3"/><gap reason="lost" extent="5" unit="character"/><w lemma="ὁ"><supplied reason="lost">τὸ</supplied><unclear reason="damage">ν</unclear></w> <w lemma="παῖς">παῖδα</w> <lb n="4"/><supplied reason="lost"><w lemma="αὐτός">αὐτοῦ</w></supplied> <w lemma="διά">διὰ</w>  <w lemma="ψήφισμα">ψηφίσ<lb n="5" type="worddiv"/><supplied reason="lost">ματ</supplied>ος</w> <w lemma="καί">καὶ</w> <w lemma="μεταλλάζω">μετηλ<lb n="6" type="worddiv"/><supplied reason="lost">λά</supplied>κοτα</w>  <w lemma="τιμάω">τειμηθῆ<lb n="7" type="worddiv"/><supplied reason="lost">ναι δὲ</supplied></w> <w lemma="καί">καὶ</w> <w lemma="αὐτός">αὐτὸν</w> <g type="star"/>  <lb n="8"/><w lemma="ὑπό"><supplied reason="lost">ὑπὸ</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τ</supplied>ῆς</w> <w lemma="βουλή">βουλῆς</w> <lb n="9"/>καὶ τοῦ<w lemma="δῆμος"><unclear reason="damage">δήμ</unclear><supplied reason="lost">ου</supplied></w> <gap extent="4" reason="lost" unit="character"/>  <lb n="10"/><gap reason="lost" extent="3" unit="character"/>  </ab>
 </div>

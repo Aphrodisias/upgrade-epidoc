@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130611" n="iAph1051 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130611" n="iAph1051 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -47,7 +47,7 @@
 
 <p><date exact="none" notAfter="0300" notBefore="0101">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>).</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="0"/><gap dim="top" extent="unknown" reason="lost" unit="line"/><lb n="1"/>              <gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">σ</unclear>α<unclear reason="damage">σ</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="2"/><w><gap dim="left" extent="unknown" reason="lost" unit="character"/><unclear reason="damage">ν</unclear>ο<unclear reason="damage">ν</unclear></w>  <w>με<unclear reason="damage">ν</unclear><gap dim="right" extent="unknown" reason="lost" unit="character"/></w><lb n="3"/><gap dim="left" extent="unknown" reason="lost" unit="character"/>  <w lemma="ἁπαλος">ἁπάλαι<unclear reason="damage">ς</unclear></w>      <gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="4"/>  <w><gap dim="left" extent="unknown" reason="lost" unit="character"/><unclear reason="damage">εσο</unclear>ντα<unclear reason="damage">ι</unclear></w>  <gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="4a"/><gap dim="bottom" extent="unknown" reason="lost" unit="line"/></ab>

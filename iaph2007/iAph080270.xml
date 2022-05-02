@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080270" n="iAph0156 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080270" n="iAph0156 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -54,7 +54,7 @@ irregular, lunate.</p>
         <p><date exact="none" cert="low" notBefore="0401" notAfter="0600">Fifth/sixth century</date> (content, metre).</p>
       </div>
 
-      <div lang="grc" n="text" type="edition">
+      <div lang="grc" n="text" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
        <lg met="dactylic hexameter">
 			<lb n="1"/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130305" n="iAph1687 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130305" n="iAph1687 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <p>
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>   <persName type="aphrodisian"><name reg="Μᾶρκος"><expan><abbr>Μ</abbr><supplied reason="abbreviation">ᾶρκος</supplied></expan></name> <name reg="Αὐρήλιος" type="nomen"><expan><abbr>Αὐρ</abbr><supplied reason="abbreviation">ήλιος</supplied></expan></name> <name reg="Ἀντώνιος"><expan><abbr>Ἀντ</abbr><supplied reason="abbreviation">ώνιος</supplied></expan></name></persName> <orig n="unresolved">ρ<unclear reason="damage">οι</unclear></orig><gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><orig n="unresolved">τι<unclear reason="damage">λκυ</unclear></orig><gap reason="lost" extent="3" unit="character"/>  <lb n="3"/><gap reason="lost" extent="7" unit="character"/> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Αὐρήλιος"><expan><abbr>Αὐρ</abbr><supplied reason="abbreviation" cert="low">ηλιος</supplied></expan></name></persName>  <gap reason="lost" extent="3" unit="character"/>  <lb n="4"/><gap reason="lost" extent="7" unit="character"/><orig n="unresolved"><unclear reason="damage">οαιι</unclear></orig>  <gap reason="lost" extent="3" unit="character"/></ab>
 </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010183" n="iAph1038 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010183" n="iAph1038 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -40,7 +40,7 @@
 
 <div type="description" n="letters">
 <head>Description of Letters</head>
-<p><measure type="length" dim="none">0.0275</measure>-<measure type="length" dim="none">0.03</measure></p>
+<p><measure type="length" dim="height">0.0275</measure>-<measure type="length" dim="height">0.03</measure></p>
 </div>
 
 <div type="description" n="date">
@@ -48,7 +48,7 @@
 
 <p>Probably <date cert="low" exact="none" notAfter="0300" notBefore="0201">third century A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βο<unclear reason="damage">υλὴ</unclear></w>  <unclear reason="damage">κ</unclear><supplied reason="lost">αὶ  ὁ</supplied>  <lb n="2"/> <w lemma="δῆμος">δῆμος</w> <w lemma="τιμάω">ἐτεί<lb n="3" type="worddiv"/>μησαν</w> <w lemma="ὁ">ταῖς</w> <w lemma="καλός">καλ<lb n="4" type="worddiv"/>λίσταις</w> <w lemma="καί">καὶ</w> <w lemma="πρέπω">π<supplied reason="lost">ρε</supplied><lb n="5" type="worddiv"/>πούσαις</w>  <w lemma="τιμή">τε<supplied reason="lost">ι</supplied>  <lb n="6" type="worddiv"/>μαῖς</w>  <persName type="aphrodisian"><name reg="Αὐρηλία">Αὐρηλί<app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" extent="unknown" unit="character"/></rdg><rdg resp="previous">αν</rdg></app></name><lb n="7"/><name reg="Κελεστεῖνα"><supplied reason="lost">Κ</supplied><unclear reason="damage">ε</unclear>λε<supplied reason="lost">σ</supplied><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" extent="6" unit="character"/></rdg><rdg resp="previous">τείναν</rdg></app></name></persName><lb n="8"/><w lemma="γυνή">γυνα<supplied reason="lost">ῖ</supplied><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" extent="2" unit="character"/></rdg><rdg resp="previous">κα</rdg></app></w>  <persName type="aphrodisian" full="yes"><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" extent="unknown" unit="character"/></rdg><rdg resp="previous"><name reg="Μᾶρκος"><expan><abbr>Μ</abbr><supplied reason="abbreviation">άρκου</supplied></expan></name>  <name reg="Αὐρήλιος" type="nomen"><expan><abbr>Αὐρ</abbr><supplied reason="abbreviation">ηλίου</supplied></expan></name></rdg></app><lb n="9"/><name reg="Γαιτυλικός">Γαιτ<supplied reason="lost">υλι</supplied><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" extent="3" unit="character"/></rdg><rdg resp="previous">κοῦ</rdg></app></name></persName><lb n="10"/><w lemma="ἀπελεύθερος"><supplied reason="lost">ἀ</supplied><unclear reason="damage">π</unclear>ελ<supplied reason="lost">ευθέρου</supplied></w><lb n="11"/><w lemma="καί"><supplied reason="lost">κ</supplied>αὶ</w>  <w lemma="ἐπίτροπος">ἐπιτ<unclear reason="damage">ρ</unclear><supplied reason="lost">όπου</supplied></w><lb n="12"/><w lemma="ὁ"><supplied reason="lost">τ</supplied>ῶν</w>  <w lemma="σεβαστός">Σεβασ<supplied reason="lost">τῶν</supplied></w><lb n="13"/><w lemma="ὁ"><supplied reason="lost">τ</supplied>ὴν</w>  <w lemma="ἀξιόλογος">ἀξιολογω<lb n="14" type="worddiv"/><supplied reason="lost">τ</supplied>άτην</w>  <w lemma="ἀνθηφόρος">ἀνθηφό<lb n="15" type="worddiv"/>ρον</w> <w lemma="καί">καὶ</w> <w lemma="θυγάτηρ">θυγατ<unclear reason="damage">έ</unclear><lb n="16" type="worddiv"/>ρα</w>  <w lemma="ὁ">τ<supplied reason="lost">ῆς</supplied></w>  <w lemma="πόλις"><supplied reason="lost">πό</supplied>λεως</w><lb n="16a"/>    <space unit="line" dim="vertical" extent="1"/></ab> 

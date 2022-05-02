@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120109" n="iAph0140 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120109" n="iAph0140 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -49,7 +49,7 @@ lunate <term lang="grc-Latn">sigma</term>, square <term lang="grc-Latn">epsilon<
         <p><date notAfter="0350" notBefore="0301" cert="low" exact="none">First half fourth century</date> (<rs type="criteria">content</rs>, <rs type="criteria">location</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab><lb n="1"/><rs key="acclamations" type="subject"><w lemma="εἷς">εἷς</w> <persName key="God" type="divine" full="yes"><w lemma="θεός">Θεὸς</w></persName></rs><lb n="2"/><w lemma="ὁ">ὁ</w> <w lemma="μόνος">μόνος</w><lb n="3"/><w lemma="σῴζω">σῶζε</w> <persName key="constantine4" type="aphrodisian" full="yes"><name reg="Κωσταντεν">Κωσταντεν</name></persName>.</ab>
       </div>

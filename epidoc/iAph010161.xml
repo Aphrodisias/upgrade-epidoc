@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Ηonours for anonymous, who has established a foundation</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph010161</idno>
+            <idno type="IAph2007">iAph010161</idno>
+            <idno type="JMR2004">iAph1044</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Upper part of a <material key="marmor">white marble</material>
+                              <objectType>statue base</objectType> shaft with moulded panels on at least two sides (<width unit="metre">0.55</width>   × <width unit="metre">0.54</width>   × <depth>0.36</depth>), damaged above and broken away below.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> on the face (<width unit="metre">0.35</width> x <height unit="metre">0.42</height>), which is very weathered.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height unit="metre">0.02</height>; ligatures: ΝΤ, l.2; ΤΗ l. 3; ΜΕ l.10; ΤΗΝ l.12; ΝΗ l.12.  Apex on initial A, l.2.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Unknown</rs>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0300" precision="medium">Second to third centuries A.D. (<rs type="criteria">lettering</rs>)</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList">Temple/Church</rs>: probably reused in the south side of the Byzantine bema-rail</rs>
+                  </provenance>
+                  <provenance type="observed">
+                     <rs type="lastLocation">Findspot</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="grc-Latn">Transliterated Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType">Ηonours</rs>
+               </term>
+               <term>
+                  <rs type="textType">foundation</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2005-02-16" who="Artemis-Papakostouli">transferred to XML</change>
+         <change when="2004-11-18" who="#GB">Created dummy file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+
+                <ab><lb n="0"/>  <gap extent="unknown" reason="lost" unit="line"/><lb n="0a"/><supplied reason="lost"><note place="not  specified" anchored="yes">e.g.</note> <w lemma="πᾶς">πάσας</w> <w lemma="ἀρχή">ἀρχὰς</w> <w lemma="καί">καὶ</w></supplied>  <w lemma="λειτουργία"><supplied reason="lost">λει</supplied><lb n="1" break="no"/>τ<unclear reason="damage">ο</unclear><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" extent="unknown" unit="character"/></rdg><rdg resp="previous">υ</rdg></app><unclear reason="damage">ργίας</unclear></w>  <gap extent="unknown" unit="character" reason="lost"/>  <w lemma="ἐκτελέω"><supplied reason="lost" cert="low">ἐκτελέ</supplied><lb n="2" break="no"/><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" extent="3" unit="character"/></rdg><rdg resp="previous">σα<hi rend="ligature" id="hi1">ν</hi></rdg></app><link targets="hi1  hi2"/><hi rend="ligature" id="hi2"><unclear reason="damage">τ</unclear></hi>ος</w>  <g ref="#stop"/>  <w lemma="ἀνατίθημι">ἀνα<app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" extent="1" unit="character"/></rdg><rdg resp="previous">θ</rdg></app><supplied reason="lost">έντος</supplied></w><lb n="3"/><w lemma="δέ"><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" extent="2" unit="character"/></rdg><rdg resp="previous">δὲ</rdg></app></w>  <w lemma="καί"><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" extent="1" unit="character"/></rdg><rdg resp="previous">κ</rdg></app>αὶ</w>  <w lemma="ὁ"><hi rend="ligature">τῇ</hi></w>  <w lemma="κράτιστος">κρατί<supplied reason="lost">στῃ</supplied></w><lb n="4"/><w lemma="βουλή"><unclear reason="damage">β</unclear><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" extent="2" unit="character"/></rdg><rdg resp="previous">ου</rdg></app><unclear reason="damage">λ</unclear>ῇ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῷ</w> <w lemma="σεμνός"><unclear reason="damage">σ</unclear><supplied reason="lost">ε</supplied><lb n="5" break="no"/>μνοτάτ<unclear reason="damage">ῳ</unclear></w> <w lemma="καί">καὶ</w> <w lemma="ἀρχαῖος">ἀρχ<supplied reason="lost">αι</supplied><lb n="6" break="no"/>οτάτ<unclear reason="damage">ῳ</unclear></w>  <w lemma="συνέδριον"><unclear reason="damage">σ</unclear>υνεδρίῳ</w>  <lb n="7"/> <w lemma="ὁ">τῶν</w> <w lemma="χρυσοφόρος"><unclear reason="damage">χ</unclear>ρυσοφόρων</w>  <lb n="8"/><w lemma="νεοποιός"><unclear reason="damage">νεοπ</unclear>οιῶν</w> <w lemma="εἰς">εἰς</w> <w lemma="αἰώνιος">αἰω<lb n="9" break="no"/>ν<unclear reason="damage">ί</unclear>ους</w>  <w lemma="κλῆρος">κλ<unclear reason="damage">ήρ</unclear>ους</w>  <w lemma="ἀργύριον">ἀρ<lb n="10" break="no"/>γύριον</w>  <w lemma="γίγνομαι">γε<unclear reason="damage">ν</unclear>ό<hi rend="ligature">με</hi>νον</w>  <lb n="11"/> <w lemma="καί">καὶ</w> <w lemma="αὐτός">αὐτὸν</w> <w lemma="βουλευτής">βουλευ<lb n="12" break="no"/><hi rend="ligature">τήν</hi></w>  <g ref="#stop"/>  <w lemma="ἀλαιωνέω">ἐλεω<hi rend="ligature">νή</hi>σαντα</w>  <lb n="13"/> <w lemma="καί">καὶ</w> <w lemma="νεοποιέω">ν<unclear reason="damage">ε</unclear>οπυήσαντα</w>  <lb n="14"/><w lemma="φιλοτίμως">φιλοτεί<unclear reason="damage">μ</unclear>ως</w>  <g ref="#star"/>  <w lemma="καί">καὶ</w>  <lb n="15"/><w lemma="παραφυλάσσω"><supplied reason="lost">παραφυλ</supplied><unclear reason="damage">άξαντα</unclear></w><lb n="15a"/><gap unit="line" reason="lost" extent="unknown"/></ab> 
+</div>
+         <div type="apparatus">
+            <p>The letters highlighted were seen by earlier readers, but not by the NYU expedition.</p>
+            <p>ll.1-3 [πάσας ἀρχὰς καὶ λει]/ τουργίας [ἐκτελέ]/σαντος ἀναθ[έντος]/ δὲ καὶ τῇ κρατίστῃ/ βούλῃ MAMA: the highlighted letters were read from K&amp;R.</p>
+            <p>l. 2,  σαντος ἀναθ[έντος] K&amp;R;  [ . . . .]<unclear reason="damage">Ο</unclear>ΣΑΝΤΑΦ[ . . . . .] Reinach.  We read Σ stop ΑΝ[
+l.15 [ . . . . . [ΑΡΞΑΝΤA Reinach; [παραφυλ]<unclear reason="damage">άξαντα</unclear> MAMA; [παραφυ]<unclear reason="damage">λάξαν</unclear>[τα] MB [[who?]]
+</p>
+         </div>
+         <div type="translation">
+            <p>... who had] filled [?all magistracies and] liturgies and havng dedicated money to the most powerful council and the most holy and ancient commission of the gold-wearing <term lang="grc-Latn">neopoioi</term> (?temple-builders) with a view to perpetual distributions by lot, he himself having been, with distinction, a councillor, ?a provider of oil, a neopoios; and having ?guarded [...</p>
+         </div>
+         <div n="notyet" type="commentary">
+            <p>No commentary yet (2007)</p>
+         </div>
+         <div type="bibliography">
+            <p>Published by <bibl n="reinach">Reinach, from Gaudin's squeeze, REG 19, 1906, 208, no. <citedRange>86</citedRange>
+               </bibl>, whence <bibl n="laum1914">Laum, no. <citedRange>115</citedRange>
+               </bibl>, and discussed by L. Robert, <title level="j">Études Anatoliennes</title> 317; by <bibl n="MAMA8">Cormack, from the MAMA records and from Kubitschek, MAMA 8, no. <citedRange>523</citedRange>
+               </bibl>, whence <bibl n="PHI">
+                  <author>McCabe</author>
+                  <title level="m">PHI Aphrodisias</title>
+                  <citedRange n="257240">362</citedRange>
+               </bibl>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

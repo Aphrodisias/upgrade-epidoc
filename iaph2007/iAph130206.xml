@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130206" n="iAph1492 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130206" n="iAph1492 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notAfter="0300" notBefore="0240"> Middle to second half of the third century</date>
  (<rs type="criteria">lettering</rs>, <rs type="criteria">stephanephoros</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/> <gap dim="top" extent="unknown" reason="lost" unit="line"/>  
 <lb n="1"/> <persName type="aphrodisian"><name reg="Ἐπάνδιος">Ἐπανδίου</name></persName> <w lemma="ὁ">ὁ</w> <w lemma="υἱός">υἱὸς</w> 

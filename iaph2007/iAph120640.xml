@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120640" n="iAph1415 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120640" n="iAph1415 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -42,7 +42,7 @@
 <head>Date</head>
 <p><date notBefore="0201" notAfter="0300" exact="none">Third century A.D.</date> (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <w><gap reason="lost" extent="unknown" unit="character" dim="left"/>ειν</w> <w lemma="ἐξωτικός">ἐξωτικῷ</w> <orig n="unresolved">π<unclear reason="damage">ρ</unclear></orig><gap reason="lost" extent="2" unit="character" dim="right"/>  <lb n="2"/><persName type="aphrodisian"><name><gap reason="lost" extent="unknown" unit="character" dim="left"/>νεικοῦ</name></persName> <w lemma="ὁ">ἡ</w> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Κλαύδιος">Κλαυδ<lb n="3" type="worddiv"/><supplied reason="lost">ίου</supplied></name></persName> <supplied reason="lost"><w lemma="γυνή">γυνή</w></supplied>  <gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">ε</unclear></orig><gap reason="lost" extent="1" unit="character"/><orig n="unresolved"><unclear reason="damage">εειεεε</unclear></orig><gap reason="lost" extent="1" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="1" unit="character"/><orig n="unresolved">α<unclear reason="damage">ν</unclear></orig><lb n="3a"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/>  </ab>
 </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150271" n="iAph0341 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150271" n="iAph0341 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -49,7 +49,7 @@
 
 <p> <date exact="none" notAfter="0300" notBefore="0101">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>).</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="0"/><gap reason="lost" dim="top" extent="unknown" unit="line"/><lb n="1"/><gap reason="lost" dim="left" extent="11" unit="character"/><gap reason="illegible" extent="1" unit="character"/>  <persName type="aphrodisian" full="yes"><name reg="Ἀπολλώνιος">Ἀπο<supplied cert="low" reason="lost">λλώνιος</supplied></name></persName><lb n="2"/><gap reason="lost" dim="left" extent="9" unit="character"/><w lemma="διάδοχος">διάδο<supplied reason="lost">χος</supplied></w>  <w lemma="αὐτός"><supplied reason="lost" cert="low">αὐτοῦ</supplied></w><lb n="3"/><supplied reason="lost"><w lemma="καί">καὶ</w>  <w lemma="ὅς">οὓς</w>  <w lemma="ἐάν">ἂν</w></supplied>  <w lemma="αὐτός">αὐτὸς</w>  <w lemma="βούλομαι">β<supplied reason="lost">ουληθῇ</supplied></w><lb n="4"/><w lemma="ὁ"><supplied reason="lost">τῆς</supplied></w>  <w lemma="ἐπιγραφή"><supplied reason="lost">ἐπιγρα</supplied>φῆς</w>  <w lemma="ἀντίγραφον">ἀν<unclear reason="damage">τ</unclear><supplied reason="lost">ίγραφον</supplied></w><lb n="5"/><w lemma="ἀποτίθημι"><supplied reason="lost">ἀπετέθη</supplied></w>  <w lemma="εἰς"><supplied reason="lost">εἰ</supplied>ς</w>  <w lemma="ὁ">τὸ</w>  <w lemma="χρεωφυλάκιον">χρ<unclear reason="damage">ε</unclear><supplied reason="lost">οφυλάκιον</supplied></w><lb n="6"/><w lemma="ἐπί"><supplied reason="lost">ἐπὶ</supplied></w>  <w lemma="στεφανηφόρος"><supplied reason="lost">στεφαν</supplied><unclear reason="damage">η</unclear>φ<unclear reason="damage">ό</unclear><supplied reason="lost">ρου</supplied></w>  <supplied reason="lost"><w lemma="ὁ">τοῦ</w>  <w lemma="δεῖνα">δεῖνος</w></supplied><lb n="6a"/><gap reason="lost" dim="bottom" extent="unknown" unit="line"/></ab>

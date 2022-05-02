@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph040120" n="iAph0017 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph040120" n="iAph0017 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -59,7 +59,7 @@ cut, with a flowing line similar to  <xref type="inscription" n="12" href="05030
         <p><date notAfter="0350" exact="none" cert="low" notBefore="0301">First half of the fourth century</date> (<rs type="criteria">lettering</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 <ab><lb n="1"/><w lemma="τίθημι">θῆκε</w> <w lemma="καί ἐγώ">κἀμὲ</w> <w lemma="ἐνθάδε">ἐνθάδε</w> <persName key="Helladius" type="aphrodisian" reg="Ἑλλάδιος" full="yes"><name reg="Ἑλλάδιος">Ἑλλάδιος</name></persName> <w lemma="ὁ">ὁ</w><lb n="2"/><w lemma="ἀνανεωτής">ἀνανεωτὴς</w> <w lemma="ὁ">τῆς</w> <rs type="dignity" key="clarus"><w lemma="λαμπρός">λαμπρᾶς</w></rs> <rs type="subject" key="capital"><w lemma="μητρόπολις">μητροπόλεως</w></rs>.
 </ab>

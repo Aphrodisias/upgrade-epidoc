@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Funerary inscription for Aurelia Tate, also called Epithymia</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph130101</idno>
+            <idno type="IAph2007">iAph130101</idno>
+            <idno type="JMR2004">iAph1449</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <material key="marmor">White marble</material>
+                              <objectType>sarcophagus</objectType>, with lid, (length <width unit="metre">2.13</width>). On either side of the central <rs type="decoration">tabella</rs> (<width unit="metre">0.80-0.73</width> × <height unit="metre">0.41</height>) are standing draped <rs type="decoration">figure</rs>s of a woman (left) and a man. Below the tabella are two roughish downward projections at either side and, between them, a <rs type="decoration">relief</rs> scene in which two men sit on either side of what appears to be an <rs type="decoration">oven</rs>. The left-hand man holds something rectangular and flat which appears to be fed into the 'oven'; the right-hand one holds a tubular object up to his face and down to the 'oven' perhaps a <rs type="decoration">glass-blower's tube</rs> (? or a <rs type="decoration">bellows</rs>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> on the lid (lines 1-2), on the upper rim (l. 3), on the tabella including its upper and lower mouldings (lines 4 ff). An erased area beside the relief of the woman could have contained an additional short text (perhaps <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ζῇ</foreign>, which might have been erased when she died).</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>standard forms; l. 1-3, ave. <height unit="metre">0.03</height>; ll. 4 ff., very poorly aligned and well below the standard of the sculpture. Line 2 is interrupted by the vertical projections on the lid. Ligatures: l. 1 <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign>, l. 2, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗ</foreign>, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΗ</foreign>, l. 8 <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ</foreign>, l. 9, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗ</foreign>, l. 14, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ</foreign>, l. 16, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΗ</foreign>. Diairesis in ll. 5, 11, 16</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Findspot</rs>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0300" precision="medium">
+Second to third centuries A.D.
+ (<rs type="criteria">lettering</rs>)</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList">Necropolis, North-east</rs>: chamber tomb, with <ref type="inscription" n="1445" target="130111.xml"/> (=410), <ref type="inscription" n="1446" target="130108.xml"/> (=411), <ref type="inscription" n="1447" target="130109.xml"/> (=412), <ref type="inscription" n="1448" target="130110.xml"/> (=414).</rs>
+                  </provenance>
+                  <provenance type="observed" when="1994">
+                     <rs type="lastLocation">Museum (1994)</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType" key="sacer">Religious</rs>
+               </term>
+               <term>
+                  <rs type="textType">Funerary</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2007-08-07" who="Eleonora-Litta">tidied expan</change>
+         <change when="2007-04-04" who="GB">DONE</change>
+         <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+<ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="σορός">σορός</w> <w lemma="εἰμί">ἐστιν</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ἡ</w> <w lemma="περί">περὶ</w> <w lemma="αὐτός">αὐτὴν</w> <w lemma="τόπος">τόπος</w> <space extent="1" unit="character" dim="horizontal"/> <persName type="attested"><name nymRef="#Αὐρηλία"><expan><abbr>Αὐρ</abbr><ex>ηλίας</ex></expan></name> <name nymRef="#Τάτη">Τάτης</name> <w lemma="ὁ">τῆς</w> <w lemma="καί">καὶ</w> <name nymRef="#Ἐπιθυμία">Ἐπιθυμίας</name></persName> <space extent="3" unit="character" dim="horizontal"/> <w lemma="ἐν">ἐν</w> <w lemma="ὅς">ᾗ</w> <w lemma="σορός">σορῷ</w> <w lemma="θάπτω">τέ<g ref="#projection"/>θαπται</w> <persName type="attested"><name nymRef="#Αὐρήλιος"><expan><abbr>Αὐρ</abbr><ex>ήλιος</ex></expan></name> <name nymRef="#Ἀκυλεῖνος">Ἀκυλεινὸς</name> <name nymRef="#Πολυχρόνιος">Πολυ<g ref="#projection"/>χρονίου</name> <w lemma="ὁ">τοῦ</w> <lb n="2"/> <name nymRef="#Κλαδαῖος">Κλαδέου</name></persName> <w lemma="ὁ">ὁ</w> <w lemma="γίγνομαι">γενόμενος</w> <w lemma="ἀνήρ">ἀνὴρ</w> <w lemma="αὐτός">αὐτῆς</w> <w lemma="κηδεύω">κηδευθήσεται</w> <w lemma="δέ">δὲ</w> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Αὐρηλία"><expan><abbr>Αὐ<unclear reason="damage">ρ</unclear></abbr><ex>ηλία</ex></expan></name> <name nymRef="#Τάτη"><supplied reason="lost">Τά</supplied><unclear reason="damage">τ</unclear>η</name></persName>  <lb n="3"/> <w lemma="ὅς"><unclear reason="damage">ἣ</unclear></w> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Ἐπιθυμία">Ἐπιθυμία</name></persName> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Αὐρήλιος"><expan><abbr>Αὐρ</abbr><ex>ήλιος</ex></expan></name> <name nymRef="#Ἀκυλεῖνος">Ἀκυλει<lb n="4" break="no"/>νος</name> <name nymRef="#Ἀκυλεῖνος">Ἀκυλεινοῦ</name></persName> <w lemma="ὁ">ὁ</w> <w lemma="υἱός">υἱὸς</w> <w lemma="αὐτός">αὐτῆς</w> <lb n="5"/> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Αὐρηλία"><expan><abbr>Αὐρ</abbr><ex>ηλία</ex></expan></name> <name nymRef="#Ἀπφία">Ἀπφία</name> <name nymRef="#Ἀπολλώνιος ">Ἀπολλωνίου</name></persName> <w lemma="ὁ">ἡ</w> <w lemma="θυγάτηρ">θυγά<lb n="6" break="no"/>τηρ</w> <w lemma="αὐτός">αὐτῆς</w> <w lemma="ἕτερος">ἕτερος</w> <w lemma="δέ">δὲ</w> <w lemma="οὐδείς">οὐδεὶς</w> <w lemma="ἔχω">ἕξει</w> <lb n="7"/> <w lemma="ἐξουσία">ἐξουσίαν</w> <w lemma="ἐνθάπτω">ἐ<supplied reason="omitted">ν</supplied>θάψαι</w> <w lemma="τις">τινα</w> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῇ</w> <w lemma="σορός">σορῷ</w> <w lemma="ἤ">ἢ</w> <lb n="8"/> <w lemma="ἐκθάπτω">ἐκθάψαι</w> <w lemma="ἐπεί">ἐπεὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="τοιοῦτος">τοιοῦτό</w> <w lemma="τις">τι</w> <w lemma="τολμάω">τολμήσας</w> <lb n="9"/> <w lemma="εἰμί">ἔστω</w> <w lemma="ἀσεβής">ἀσεβὴς</w> <w lemma="καί">καὶ</w> <w lemma="ἐπάρατος">ἐπάρατος</w> <w lemma="καί">καὶ</w> <w lemma="τυμβωρύχος">τυμ<lb n="10" break="no"/>βωρύχος</w> <w lemma="καί">καὶ</w> <w lemma="προσαποτίνω">προσαποτεισάτω</w> <w lemma="ἱερός">ἱερὰ</w> <lb n="11"/> <persName type="divine"><name nymRef="#Ἀφροδίτη">Ἀφροδείτῃ</name></persName> <w lemma="ἀργύριον">ἀργυρίου</w> <w lemma="δηνάριον"><expan><abbr><am><g ref="#denarius"/></am></abbr><ex>δηνάρια</ex></expan></w> <num value="3000">γ</num> <w lemma="εἰμί">ὧν</w> <w lemma="ὁ">τὸ</w> <w lemma="τρίτος">τρίτον</w> <lb n="12"/> <w lemma="εἰμί">ἔσται</w> <w lemma="ὁ">τοῦ</w> <w lemma="ἐκδικέω">ἐκδικήσαντος</w> <w lemma="ὁ">τῆς</w> <w lemma="ἐπιγραφή">ἐπιγρα<lb n="13" break="no"/>φῆς</w> <w lemma="ἀποτίθημι">ἀπετέθη</w> <w lemma="ἀντίγραφον">ἀντίγραφον</w> <w lemma="εἰς">εἰς</w> <w lemma="ὁ">τὸ</w> <w lemma="χρεωφυλάκιον">χρε <lb n="14"/> οφυλάκιον</w> <w lemma="ἐπί">ἐπί</w> <persName type="attested"><name nymRef="#Ὑψικλῆς">Ὑψικλέους</name> <w lemma="ὁ">τοῦ</w> <name nymRef="#Ἄδραστος">Ἀδρά<lb n="15" break="no"/>στου</name> <name nymRef="#Ἱέραξ">Ἱέρακος</name></persName> <w lemma="ὁ">τὸ</w> <num value="7">ζ</num> <w lemma="μείς"><expan><abbr>μη</abbr><ex>νὸς</ex></expan></w> <rs type="month"><w lemma="πάνημος">Πανημου</w></rs> <g ref="#scroll"/> </ab>
+</div>
+         <div type="apparatus">
+            <p>l. 15, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΤΡΑ</foreign>
+               <term lang="la">lapis</term>
+            </p>
+         </div>
+         <div type="translation">
+            <p>The sarcophagus and the area around it is the property of Aurelia Tate, also called Epithymia, in which sarcophagus Aurelius Aquilinos son of Polychronios and grandson of Kladaios who was her husband has been buried, and there shall be buried Aurelia Tate, also called Epithymia and Aurelius Aquilinos son of Aquilinos, her son and Aurelia Apphia daughter of Apollonios, her daughter. No-one else shall have the right to bury anyone in the sarcophagus or to take anyone out of it, since whoever dares to do such a thing is to be sacrilegious, accursed and a tomb-breaker, and in addition to pay as moneys sacred to Aphrodite 3000 denarii, of which the third part will belong to the prosecutor. A copy of the inscription was placed in the Record office in the seventh year of Hypsikles, son of Adrastos Hierax, month of Panemos.</p>
+         </div>
+         <div type="commentary">
+            <p>The nomenclature suggests that the Edict of Caracalla on citizenship fell within the lifetime of the principals here, after the death of Apollonios (l.6) who must have been Aurelia Tate's first husband. It would be a reasonable conjecture that she commissioned the tomb on the death of her second husband Aurelius Aquilinos (ll.2-3), by which time she had a son by him (ll. 4-5); but there is no way of estimating how long after 212 that will have been. The stephanephorus in whose year a copy of the document was deposited in the Record-Office was certainly holding office post mortem and gives no clue to the date. </p>
+            <p>The relief may be interpreted as a scene of glass-blowing: on this see see <bibl>E. Sironen, <title>Horos</title> 8/9 (1990-91), 83-5</bibl>
+            </p>
+         </div>
+         <div type="bibliography">
+            <p>Inscription unpublished; sarcophagus published by <bibl n="rrrs2006">
+                  <author>Smith</author>, <title>Roman Portrait Statuary from Aphrodisias</title>,  <citedRange>Sarcophagus 6</citedRange>
+               </bibl>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

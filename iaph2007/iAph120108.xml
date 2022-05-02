@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120108" n="iAph0009 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120108" n="iAph0009 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -42,7 +42,7 @@
         <p>A <rs type="material" key="marmor">white marble</rs> <rs type="objectType"><rs type="objectType">statue base</rs> shaft</rs> (<measure type="length" unit="metre" dim="height">0.42</measure> × <measure type="length" unit="metre" dim="width">1.77</measure> × <measure type="length" unit="metre" dim="depth">0.46</measure>) which is broken below and at the top
 left-hand corner. The inscribed face was turned inwards when the stone
 was re-used, and has been revealed only by the collapse of the
-adjoining wall; only the upper part is visible, to about <measure type="length" dim="none">0.70</measure> from the
+adjoining wall; only the upper part is visible, to about <measure type="length" dim="height">0.70</measure> from the
 upper edge.</p>
       </div>
 
@@ -59,8 +59,8 @@ upper edge.</p>
 		(<foreign lang="grc">Ν</foreign> throughout, <foreign lang="grc">Η</foreign> in l. 5 but not in l. 1); <term>omega</term> is in an
 		unusual form; and there is a square <term>sigma</term> in line 5. The
 		lettering of the last two lines is less correct. The interlinear
-		space, <measure precision="circa" type="length" dim="none">0.015</measure> between
-		lines 1-3, increases to <measure type="length" dim="none">0.04-0.05</measure> between lines 3-5, giving an
+		space, <measure precision="circa" type="length" dim="height">0.015</measure> between
+		lines 1-3, increases to <measure type="length" dim="height">0.04-0.05</measure> between lines 3-5, giving an
 		inelegant overall appearance; a possible explanation is that the mason
 		initially omitted l. 2, and then inserted it.</p>
       </div>
@@ -70,7 +70,7 @@ upper edge.</p>
         <p><date notAfter="0311" exact="both" notBefore="0293">A.D. 293-311</date> (<rs type="criteria">reign</rs>s).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab>
 		<lb n="1"/><w lemma="ὑπέρ"><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" extent="2" unit="character"/></rdg><rdg resp="previous">ὑπ</rdg></app>ὲρ</w> <w lemma="ὁ">τῆς</w> <w lemma="ὁ">τῶν</w>

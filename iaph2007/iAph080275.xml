@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080275" n="iAph0174 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080275" n="iAph0174 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -55,7 +55,7 @@ that it is difficult to know what length of lines to assume.</p>
         <p><date notAfter="0600" exact="none" cert="low" notBefore="0501">Sixth century A.D.</date> or later (<rs type="criteria">lettering</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab>
 		  		<lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ωον<unclear reason="damage">ι</unclear></orig><gap dim="right" reason="lost" extent="unknown" unit="character"/><lb n="2"/><gap dim="left" extent="2" unit="character" reason="lost"/><orig n="unresolved"><unclear reason="damage">ο</unclear>υ</orig> <w lemma="ἀναπαύω">ἀναπ<supplied reason="lost">α</supplied><lb n="3" type="worddiv"/><supplied reason="lost">ῦ</supplied><unclear reason="damage">σ</unclear>ε</w> <persName key="theodocius1" type="aphrodisian" full="yes"><name reg="Θεοδόκιος">Θεω<unclear reason="damage">δ</unclear><lb n="4" type="worddiv"/><supplied reason="lost">ο</supplied>κίου</name></persName>· <w lemma="μνάομαι">μνή<supplied reason="lost">σθη</supplied><lb n="5" type="worddiv"/>τι</w> <w lemma="αὐτός">αὐτὸν</w> <persName key="Lord" type="divine" full="yes"><w lemma="κύριος"><expan><abbr>Κ</abbr><supplied reason="abbreviation">ύρι</supplied><abbr><supplied reason="lost">ε</supplied></abbr></expan></w></persName><lb n="6"/><w lemma="βοηθέω"><unclear reason="damage" cert="low">βοί</unclear>τι</w> <persName key="Lord" type="divine" full="yes"><w lemma="κύριος"><expan><abbr>Κ</abbr><supplied reason="abbreviation">ύρι</supplied><abbr>ε</abbr></expan></w></persName> <w lemma="καί">κ<unclear reason="damage">ὲ</unclear></w><lb n="7"/><gap dim="left" reason="lost" extent="3" unit="character"/><orig n="unresolved"><unclear reason="damage">ς</unclear></orig> <w lemma="αὐτός">αὐτοῦ</w> <orig n="unresolved"><unclear reason="damage">μ</unclear></orig><lb n="8"/><gap dim="left" extent="1" unit="character" reason="lost"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig> <space dim="horizontal"/></ab>

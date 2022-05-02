@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050109" n="iAph1227 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph050109" n="iAph1227 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -20,7 +20,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -39,7 +39,7 @@
 
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/>  <del status="unremarkable"><persName type="divine" full="yes"><name reg="Ἀφροδίτη">Ἀφροδείτῃ</name></persName>  <w lemma="θεά">θεᾷ</w></del><lb n="0a"/><w lemma="ἐπιφανής"><del status="unremarkable">ἐπιφανεστάτῃ</del></w><lb n="1"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῇ</w> <w lemma="πατρίς">πατρίδι</w> <lb n="2"/><persName type="aphrodisian" full="yes"><name reg="Ζήνων">Ζήνων</name>  <persName type="aphrodisian"><name reg="Ζήνων">Ζήνωνος</name>  <lb n="3"/> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ζήνων">Ζήνωνος</name> <w lemma="ὁ">τοῦ</w> <lb n="4"/><persName type="aphrodisian"><name type=" " reg="Ἀρτέμων">Ἀρτέμωνος</name> <w lemma="ὁ">τοῦ</w> <lb n="5"/><persName type="aphrodisian"><name reg="Αἰνήας">Αἰνήου</name></persName></persName></persName></persName></persName> <w lemma="νεοποιός">νεοποιῶν</w> <lb n="6"/> <w lemma="ὁ">τὰς</w> <persName type="divine" reg="Ὥρα">Ὥρας</persName> <w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τῶν</w> <lb n="7"/> <w lemma="ἴδιος">ἰδίων</w> <w lemma="ἀνατίθημι">ἀνέθηκεν</w> <lb n="8"/> <w lemma="σύν">σὺν</w> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Ἀπφία">Ἀπφίᾳ</name><lb n="9"/><persName type="aphrodisian"><name reg="Ἄδραστος">Ἀδράστου</name></persName></persName> <w lemma="ὁ">τῇ</w> <w lemma="γυνή">γυ<lb n="10" type="worddiv"/>ναικὶ</w> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Ζήνων">Ζήνωνι</name></persName>  <lb n="11"/> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Μένανδρος">Μενάνδρῳ</name></persName>  <lb n="12"/><g type="scroll"/> <w lemma="ὁ">τοῖς</w> <w lemma="υἱός">υἱοῖς</w> <g type="scroll"/></ab>
 </div>

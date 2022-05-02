@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph090124" n="iAph0102 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph090124" n="iAph0102 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -63,7 +63,7 @@
         <p><date exact="none" cert="low" notBefore="0401" notAfter="0600">Fifth/sixth century</date> (form of monogram).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab><lb n="1"/><persName key="Theochares" type="aphrodisian" full="yes"><name reg="Θεοχάρης"><expan><abbr><orig><g type="monogram"/></orig></abbr><supplied reason="abbreviation">Θεοχάρης</supplied></expan></name></persName></ab>
       </div>

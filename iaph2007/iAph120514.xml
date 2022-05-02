@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120514" n="iAph1281 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120514" n="iAph1281 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -20,7 +20,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="personType" key="imperatorius">Imperial</rs></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -40,7 +40,7 @@
 <date notBefore="0014" notAfter="0037" exact="both">14-37 A.D.</date> (<rs type="criteria">reign</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>          <persName type="emperor" full="yes"><name reg="Τιβέριος" type="praenomen">Τιβέριον</name>  <name reg="Καῖσαρ">Καίσαρα</name>  <lb n="2"/>        <w lemma="θεός">θεοῦ</w>  <w lemma="υἱός">υἱὸν</w>  <w lemma="σεβαστός">Σεβαστὸν</w></persName>  <lb n="3"/><persName type="aphrodisian" full="yes"><name reg="Ἰουλία"><supplied reason="lost">Ἰ</supplied>ουλία</name>  <name reg="Παῦλα">Παῦλα</name></persName>  <w lemma="καί">καὶ</w>  <persName type="aphrodisian" full="yes"><name reg="Ἰουλία">Ἰ<unclear reason="damage">ου</unclear><supplied reason="lost">λ</supplied><unclear reason="damage">ία</unclear></name></persName>  <lb n="4"/><gap extent="9" dim="left" reason="lost" unit="character"/>  <w><supplied reason="lost">θ</supplied><unclear reason="damage">υ</unclear></w></ab><ab><w><unclear reason="damage">γάτ</unclear><supplied reason="lost">ερες</supplied></w>  <gap extent="3" dim="right" reason="lost" unit="character"/><lb n="4a"/><gap unit="line" reason="lost" extent="unknown" dim="bottom"/></ab>
 </div>

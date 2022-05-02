@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph121019" n="iAph1026 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph121019" n="iAph1026 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -40,7 +40,7 @@
 
 <div type="description" n="letters">
 <head>Description of Letters</head>
-<p><measure type="length" dim="none">0.035</measure>-<measure type="length" dim="none">0.04</measure></p>
+<p><measure type="length" dim="height">0.035</measure>-<measure type="length" dim="height">0.04</measure></p>
 </div>
 
 <div type="description" n="date">
@@ -48,7 +48,7 @@
 
 <p><date notBefore="0134" notAfter="0200" exact="none">Middle to later second century A.D.</date> (<rs type="criteria">lettering</rs> and <rs type="criteria">prosopography</rs>)</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab n="7"><lb n="0"/>    <supplied reason="lost" cert="low"><w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w></supplied><lb n="1"/><space unit="character" dim="horizontal"/> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆ<unclear reason="damage">μ</unclear><supplied reason="lost">ος</supplied></w>  <supplied reason="lost"><space unit="character" dim="horizontal"/></supplied><lb n="2"/><persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen"><supplied reason="lost">Τι</supplied>βέριον</name>  <name reg="Κλαύδιος">Κλ<supplied reason="lost">αύδιον</supplied></name>  <lb n="3"/><name reg="Ἀντώνιος"><supplied reason="lost">Ἀ</supplied><unclear reason="damage">ν</unclear>τώνιον</name>  <name reg="Διογένης">Δ<supplied reason="lost" cert="low">ιογένην</supplied></name><lb n="4" type="worddiv"/><name reg="Ἀμμιανός"><supplied reason="lost">Ἀ</supplied><unclear reason="damage">μ</unclear>μιανὸν</name>  <g type="stop"/>  <w lemma="υἱός">υ<supplied reason="lost">ἱὸν</supplied></w>    <supplied reason="lost"><space unit="character" dim="horizontal"/></supplied><lb n="5"/><persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen"><supplied reason="lost">Τι</supplied>βερίου</name>  <name reg="Κλαύδιος">Κλα<supplied reason="lost">υδίου</supplied></name>  <lb n="6"/><name reg="Ἀντώνιος"><supplied reason="lost">Ἀ</supplied>ντωνίου</name>  <name reg="Δομετῖνος">Δο<supplied reason="lost" cert="low">μετι</supplied><lb type="worddiv" n="7"/><supplied reason="lost"><space unit="character" dim="horizontal"/></supplied>  <g type="leaf"/>  <g type="stop"/>  νοῦ</name>  <name reg="Ἑρμίας">Ἑρμί<unclear reason="damage">ο</unclear><supplied reason="lost" cert="low">υ</supplied></name></persName></persName>  </ab>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010034" n="iAph0133 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010034" n="iAph0133 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -53,7 +53,7 @@ of <foreign lang="grc">ΑΠΩ</foreign> in ii.3.</p>
         <p><date notAfter="0600" exact="none" notBefore="0401">Fifth-sixth century</date> or later (content, location).</p>
       </div>
 
-      <div type="edition" lang="grc">
+      <div type="edition" lang="grc" xml:space="preserve">
         <head lang="en">Edition</head>
         
 		<div type="textpart_section" n="i"><ab><lb n="1"/><persName type="aphrodisian" key="nicephorus1" full="yes"><name reg="Νικηφόρος"><expan><abbr><supplied reason="lost">Νι</supplied>κηφ</abbr><supplied reason="abbreviation">όρος</supplied></expan></name></persName>

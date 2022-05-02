@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110214" n="iAph0442 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110214" n="iAph0442 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -46,7 +46,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="2"/>ΡΟΣ<unclear reason="damage">Ι</unclear><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="3"/>ΛΩΞΙΟ<gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="4"/><persName type="emperor"><name reg="Σεβαστός"><unclear reason="damage">Σ</unclear>εβασ<supplied reason="lost">τ</supplied></name></persName>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="5"/><gap reason="lost" extent="1" unit="character"/>ΝΙΑ<unclear reason="damage">Σ</unclear><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="6"/><gap reason="lost" extent="2" unit="character"/>Ν<unclear reason="damage">Υ</unclear><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="7"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/>  </ab>
 </div>

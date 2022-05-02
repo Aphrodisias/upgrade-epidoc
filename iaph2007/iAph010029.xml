@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010029" n="iAph0125 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010029" n="iAph0125 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -57,7 +57,7 @@ rough.</p>
         <p><date notAfter="0600" exact="none" notBefore="0401">Fifth-sixth century</date> or later (<rs type="criteria">content</rs>, <rs type="criteria">location</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab><lb n="1"/><persName key="leon3" type="aphrodisian" full="yes"><name reg="Λέων"><expan><abbr>Λέω</abbr><supplied reason="abbreviation">ν</supplied></expan></name></persName>.  <persName key="Lord" type="divine" full="yes"><w lemma="κύριος"><expan><abbr>Κ</abbr><supplied reason="abbreviation">ύρι</supplied><abbr>ε</abbr></expan></w></persName> <w lemma="βοηθέω"><unclear reason="damage">β</unclear>οε</w> <space dim="horizontal"/></ab> 
       </div>

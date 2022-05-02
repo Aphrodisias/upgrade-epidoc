@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120715" n="iAph1908 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120715" n="iAph1908 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notBefore="0101" notAfter="0400" exact="none">Second to fourth centuries A.D.</date>
 <rs type="criteria">(<rs type="criteria">lettering</rs>).</rs></p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <gap reason="lost" extent="1" unit="character" dim="left"/>  <w lemma="γυμνασίαρχος"><supplied reason="lost" cert="low">γυμνα</supplied><unclear reason="damage">σ</unclear>ιάρχου</w>  <orig n="unresolved"><unclear reason="damage">α</unclear></orig><lb n="2" type="worddiv"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <w lemma="καί">καὶ</w>  <w lemma="ἐφήβαρχος">ἐφηβαρ<lb n="3" type="worddiv"/><supplied reason="lost">χου</supplied></w>  <w><gap reason="lost" extent="unknown" unit="character"/>έους</w> <w lemma="καί">καὶ</w> <lb n="4"/><w><gap reason="lost" extent="unknown" unit="character" dim="left"/><unclear reason="damage">ο</unclear>σ</w> <w>ἐμησ</w><lb n="5"/><w><gap reason="lost" extent="unknown" unit="character" dim="left"/>ων</w>  <w lemma="σύν">συν</w>  <lb n="6"/><w><gap reason="lost" extent="unknown" unit="character" dim="left"/>νίας</w>  <w>κα<lb n="7" type="worddiv"/><gap reason="lost" extent="unknown" unit="character" dim="left"/></w><orig n="unresolved"><unclear reason="damage">ο</unclear>σ<unclear reason="damage">φα</unclear>ν<unclear reason="damage">ι</unclear></orig>  <lb n="8"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <w><supplied reason="lost" cert="low">νι</supplied><unclear reason="damage">κ</unclear>ηφορ<unclear reason="damage">ο</unclear></w>  <lb n="9"/><w><gap reason="lost" extent="unknown" unit="character" dim="left"/><supplied reason="lost">ο</supplied>υμενο<lb n="10" type="worddiv"/><gap reason="lost" extent="unknown" unit="character" dim="left"/></w><orig n="unresolved">εεμου</orig><space extent="2"/></ab>
 </div>

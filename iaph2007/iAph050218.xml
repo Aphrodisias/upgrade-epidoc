@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050218" n="iAph0037 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph050218" n="iAph0037 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -53,7 +53,7 @@
         <p><date notAfter="0450" exact="none" notBefore="0401">First half of the fifth century A.D.</date> (<rs type="criteria">prosopography</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<lg>
 		<lb n="1"/><l n="1"><w lemma="τίς">τίς</w>; <w lemma="πόθεν">πόθεν</w>; <w lemma="ἐκ">ἐκ</w> <placeName reg="Λυκία" key="Lycia" full="yes" type="admin">Λυκίης</placeName> <w lemma="μέν">μέ<supplied reason="lost">ν</supplied></w>,

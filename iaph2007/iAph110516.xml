@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110516" n="iAph0219 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110516" n="iAph0219 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -45,7 +45,7 @@
 
       <div type="description" n="text">
         <head>Description of Text</head>
-        <p>i: Inscribed at <measure type="length" dim="none">0.37</measure> above base. ii: repaired in antiquity
+        <p>i: Inscribed at <measure type="length" dim="height">0.37</measure> above base. ii: repaired in antiquity
 at the right. Inscribed at 0.96 above the lower end.</p>
       </div>
 
@@ -59,7 +59,7 @@ at the right. Inscribed at 0.96 above the lower end.</p>
         <p><date notAfter="0900" notBefore="0501" cert="low">Sixth-tenth century A.D.</date> (<rs type="criteria">monogram</rs>)</p>
       </div>
 
-      <div type="edition" lang="grc">
+      <div type="edition" lang="grc" xml:space="preserve">
         <head lang="en">Edition</head>
         <cb n="i"/>
         		<ab> <lb n="1"/><orig n="unresolved"><expan><abbr><orig><g type="monogram"/></orig></abbr><supplied reason="abbreviation">αβκο</supplied></expan></orig> </ab> 

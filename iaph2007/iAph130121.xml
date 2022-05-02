@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130121" n="iAph1556 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130121" n="iAph1556 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <date notBefore="0001" notAfter="0400" exact="none">First to fourth centuries A.D.</date> (<rs type="criteria">terminology</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character"/><w lemma="αὐτός"><unclear reason="damage">α</unclear>ὐτὸς</w> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Ἀντωνία" type="">Ἀντωνία</name> <name reg="Καλλινιανός">Καλλινια<hi rend="ligature">νὴ</hi></name> <persName type="aphrodisian"><name reg="Χαρίδημος">Χα<supplied reason="lost" cert="low">ριδήμου</supplied></name></persName></persName>  <gap reason="lost" extent="unknown" unit="character"/>  <w lemma="κηδεύω"><supplied reason="lost">κηδευ</supplied><lb n="2"/>  <space extent="3" unit="character" dim="horizontal"/>θήσεται</w> </ab>
 </div>

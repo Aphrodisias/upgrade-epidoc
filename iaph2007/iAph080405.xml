@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080405" n="iAph0020 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080405" n="iAph0020 ">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -59,7 +59,7 @@
             <head>Date</head>
             <p><date notAfter="0363" exact="both" precision="circa" notBefore="0361">A.D. 361/363</date> (<rs type="criteria">reign</rs>)</p>
          </div>
-         <div n="text" lang="grc" type="edition">
+         <div n="text" lang="grc" type="edition" xml:space="preserve">
             <head lang="en">Edition</head>
             <ab>
               <lb n="1"/><persName type="divine" key="agty" reg="Ἀγαθὴ Τύχη" full="yes"><w lemma="ἀγαθός">Ἀγαθῆι</w> <w lemma="τύχη">Τύχηι</w></persName><lb n="2"/><persName type="emperor" full="yes" key="TheodosiusII"><name reg="Φλάβιος"><expan><abbr>Φλ</abbr><supplied reason="abbreviation">άουιον</supplied></expan></name> <name reg="Κλαύδιος"><expan><abbr>Κλ</abbr><supplied reason="abbreviation">αύδιον</supplied></expan></name>

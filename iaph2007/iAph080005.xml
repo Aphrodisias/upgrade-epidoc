@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080005" n="iAph0572 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080005" n="iAph0572 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -21,7 +21,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="personType" key="imperatorius">Imperial</rs></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -31,14 +31,14 @@
 </div>
 <div type="description" n="letters">
 <head>Letters</head>
-<p>b. <measure dim="none">0.07-0.075</measure>.</p>
+<p>b. <measure dim="height">0.07-0.075</measure>.</p>
 </div>
 <div type="description" n="date">
 <head>Date</head>
 <p>
 <date precision="circa" value="-0028" notBefore="-0028" notAfter="-0028" exact="both">28 B.C.</date> (<rs type="criteria">prosopography</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <persName type="aphrodisian" full="yes"><name reg="Γάϊος">Γάϊος</name>  <name reg="Ἰούλιος">Ἰο<supplied reason="lost">ύλιο</supplied>ς</name>  <name reg="Ζωΐλος">Ζω<unclear reason="damage">ΐ</unclear>λος</name></persName>  <persName type="emperor" full="yes"><w lemma="θεός"><supplied reason="lost">θε</supplied>οῦ</w>  <name reg="Ἰούλιος">Ἰουλίου</name>  <w lemma="υἱός">υἱ<supplied reason="lost">ο</supplied><milestone unit="block"/>ῦ</w>  <name reg="Καῖσαρ">Καίσαρος</name></persName>  <w lemma="ἀπελεύθερος">ἀ<supplied reason="lost">πελεύθερο</supplied>ς</w> <w lemma="στεφανηφορέω">στεφανοφορήσας</w> <w lemma="ὁ">τὸ</w> <milestone unit="block"/> <w lemma="δέκατος">δέκατον</w> <w lemma="ἔχω">ἑξῆς</w> <space extent="1" unit="character" dim="horizontal"/> <w lemma="ὁ"><supplied reason="lost">τὸ</supplied></w> <w lemma="λογήιον"><unclear reason="damage">λ</unclear>ο<unclear reason="damage">γ</unclear><supplied reason="lost">ήι</supplied>ον</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τ<milestone unit="block"/>ὸ</w>  <w lemma="προσκήνιον">προσ<unclear reason="damage">κ</unclear>ήν<supplied reason="lost">ι</supplied><unclear reason="damage">ο</unclear>ν</w> <w lemma="σύν">σὺν</w> <w lemma="ὁ">τοῖς</w> <milestone unit="block"/> <w lemma="ἐν">ἐν</w> <w lemma="αὐτός">αὐ<supplied reason="lost">τῶι</supplied></w>  <w lemma="προσκόσμημα"><supplied reason="lost">π</supplied>ροσκοσμή<milestone unit="block"/><unclear reason="damage">μα</unclear>σιν</w> <w lemma="πᾶς">πᾶσιν,</w> <space unit="character" dim="horizontal"/>  <persName type="divine" full="yes"><name reg="Ἀφροδίτη">Ἀφροδίτ<milestone unit="block"/>ῃ</name></persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τ<supplied reason="lost">ῶι</supplied></w>  <w lemma="δῆμος"><supplied reason="lost">Δήμωι</supplied></w></ab></div>
 <div type="history" n="text-constituted-from">

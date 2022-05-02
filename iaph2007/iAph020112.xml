@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020112" n="iAph0228 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020112" n="iAph0228 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -59,7 +59,7 @@ surviving (<measure type="length" unit="metre" dim="height">0.36</measure> ×
         <p><date notAfter="0500" exact="none" notBefore="0301">Fourth-fifth century</date> (<rs type="criteria">lettering</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab><lb n="0"/><gap dim="top" reason="lost" extent="unknown" unit="line"/><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">κου</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="2"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">υσ</orig> <g type="cross"/> <gap dim="right" extent="unknown" reason="lost" unit="character"/></ab> 
       </div>

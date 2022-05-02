@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010118" n="iAph0361 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010118" n="iAph0361 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -48,7 +48,7 @@
 
 <p>Perhaps        <date exact="none" notAfter="0100" notBefore="0001">first century A.D.</date> (<rs type="criteria">lettering</rs>).</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="0"/><gap dim="left" extent="unknown" reason="lost" unit="character"/>  <space unit="line" extent="1" dim="vertical"/>  <gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="1"/><w lemma="επιμελέω">ὲπιμελησ<supplied reason="lost">αμένου</supplied></w>  <supplied reason="lost" cert="low"><w lemma="ὁ">τῆς</w>  <w lemma="ἀνάστασις">ἀναστασέως</w></supplied><lb n="2"/><persName type="aphrodisian"><name reg="Μᾶρκος"><expan><abbr>Μ</abbr><supplied reason="abbreviation">άρκου</supplied></expan></name>  <name type="nomen" reg="Αὐρήλιος"><expan><abbr>Αὐρ</abbr><supplied reason="abbreviation">ηλίου</supplied></expan></name>  <name reg="Ζηνᾶς">Ζην<supplied reason="lost">ᾶ</supplied></name>  <supplied reason="lost"><w lemma="υἱός">υἱοῦ</w></supplied> <supplied reason="lost"><persName type="aphrodisian"><name reg="Ζηνᾶς">Ζηνᾶ</name></persName></supplied> <supplied reason="lost"><w lemma="ὁ">τοῦ</w></supplied>  <supplied reason="lost"><persName type="aphrodisian"><name reg="Διονύσιος">Διονυσίου</name></persName></supplied><lb n="3"/> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἀπολλώνιος" rend="Ἀπολλώνιος">Απολλ<supplied reason="lost">ωνίου</supplied></name></persName></persName>  <gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="4"/><w lemma="τις"><supplied reason="lost">το</supplied>υ</w>  <w lemma="νεοποιός">νεοποίο<supplied reason="lost">υ</supplied></w>  <gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="5"/><w><gap dim="left" extent="unknown" reason="lost" unit="character"/><supplied reason="lost">τ</supplied>ρόφου</w>  <orig n="unresolved">α</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/></ab> 

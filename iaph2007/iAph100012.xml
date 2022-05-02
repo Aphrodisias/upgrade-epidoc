@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph100012" n="iAph0730 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph100012" n="iAph0730 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -22,7 +22,7 @@
 <textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
 <revisionDesc>
 <change><date>2007-03-27</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
-<change><date>2007-3-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+<change><date>2007-03-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
 </revisionDesc></teiHeader><text>
 <body>
 <div type="description" n="monument">
@@ -42,7 +42,7 @@
 <p>
 <date exact="none" notAfter="0600" notBefore="0101">Second-sixth century A.D.</date> (<rs type="criteria">context</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_section" n="D"><ab>
 <lb n="1"/><orig n="unresolved">λυ</orig> <milestone unit="block"/> <orig n="unresolved">λυ</orig> <milestone unit="block"/> <orig n="unresolved">λυ</orig> <milestone unit="block"/> <orig n="unresolved">λυ</orig> <milestone unit="block"/> <orig n="unresolved">λυ</orig></ab></div><div type="textpart_section" n="O"><ab><lb n="1"/><g type="steps"/> <milestone unit="block"/> <orig n="unresolved">ερ</orig><milestone unit="block"/><gap extent="1" reason="lost" unit="character"/> <milestone unit="block"/> <orig n="unresolved">κ</orig><milestone unit="block"/><orig n="unresolved">υ</orig> <milestone unit="block"/> <gap extent="1" reason="lost" unit="character"/> <milestone unit="block"/> <gap extent="2" reason="lost" unit="character"/><orig n="unresolved">μ</orig><milestone unit="block"/><gap extent="2" reason="lost" unit="character"/> <milestone unit="block"/> <orig n="unresolved">ε</orig> <milestone unit="block"/><orig n="unresolved">τ</orig> <milestone unit="block"/><orig n="unresolved">ρ</orig><milestone unit="block"/><orig n="unresolved">ιο</orig> <milestone unit="block"/> <orig n="unresolved">υ</orig> <milestone unit="block"/> <g type="steps"/></ab></div><div type="textpart_section" n="R"><ab>

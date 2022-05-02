@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020532" n="iAph0060 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020532" n="iAph0060 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -47,7 +47,7 @@
 
       <div type="description" n="text">
         <head>Description of Text</head>
-        <p><rs type="execution" key="scalpro">Inscribed</rs> in one line, <measure type="length" dim="none">0.165</measure> from lower edge.</p>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> in one line, <measure type="length" dim="height">0.165</measure> from lower edge.</p>
       </div>
 
       <div type="description" n="letters">
@@ -60,7 +60,7 @@
         <p><date notAfter="0533" exact="none" notBefore="0501">Early sixth century</date> (<rs type="criteria">prosopography</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab>
 		<lb n="1"/><g type="cross"/> <w lemma="ἐπί">ἐπὶ</w> <w lemma="ὁ">τοῦ</w> <w lemma="ὅσιος"><rs key="sanctissimus" type="dignity">ὁ<unclear reason="damage">σ</unclear><supplied reason="lost">ιωτάτου</supplied></rs></w> <rs type="official-relig" key="bishop"><w lemma="ἐπίσκοπος"><supplied reason="lost">ἐπισκόπου</supplied></w></rs> <gap dim="internal" extent="unknown" reason="lost" unit="character"/> <persName key="Euphemiusbishop" type="aphrodisian" full="yes"><name reg="Εὐφήμιος"><supplied reason="lost">Εὐφ</supplied><hi rend="ligature">ημ</hi>ίου</name></persName> <g type="cross"/>

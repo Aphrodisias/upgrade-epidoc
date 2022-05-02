@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120017" n="iAph1041 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120017" n="iAph1041 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -48,7 +48,7 @@
 
 <p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
     <ab><lb n="0"/><persName type="aphrodisian" full="yes"><supplied reason="lost"><name reg="Πόπλιος">Πόπλιον</name>  <name reg="Αἴλιος">Αἴλιον</name></supplied>  <lb n="1"/><name reg="Ἱλαριανός"><supplied reason="lost">Ἱ</supplied>λαριανὸν</name></persName>  <w lemma="ἱππικός">ἱππ<supplied reason="lost">ι</supplied><lb n="2" type="worddiv"/>κὸν</w> <persName type="aphrodisian"><name type="praenomen" reg="Πόπλιος">Ποπλίου</name> <name type="gentilicium" reg="Αἴλιος">Αἰ<lb n="3" type="worddiv"/>λίου</name>  <name reg="Ἀπολλωνιανός">Ἀπολλων<lb n="4" type="worddiv"/><supplied reason="lost">ι</supplied>ανοῦ</name>  <w lemma="πριμιπιλάριος">πρειμο<lb n="5" type="worddiv"/>πειλαρίου</w> <w lemma="υἱός"><hi rend="apex">υ</hi><hi rend="apex">ἱ</hi>ὸν</w> <lb n="6" type="worddiv"/><persName type="aphrodisian"><name type="praenomen" reg="Πόπλιος">Ποπλίου</name> <name type="gentilicium" reg="Αἴλιος">Αἰλίου</name> <lb n="7"/> <name type="cognomen" reg="Ἱλαριανός">Ἱλαριανοῦ</name></persName></persName> <w lemma="ὑπατικός">ὑπα<lb n="8" type="worddiv"/>τικοῦ</w> <w lemma="ἔκγονος">ἔκγονον</w> <lb n="9"/> <w lemma="πολύς">πολλῶν</w> <w lemma="ὑπατικός">ὑπατ<unclear reason="damage">ι</unclear><lb n="10" type="worddiv"/><unclear reason="damage">κ</unclear>ῶν</w> <w lemma="καί">καὶ</w> <w lemma="συνκλητικός">συνκλη<lb n="11" type="worddiv"/>τικῶν</w>  <w lemma="συνγενής">συνγεν<supplied reason="lost">ῆ</supplied></w>  <lb n="11a"/>                <space dim="vertical" extent="1" unit="line"/><lb n="12"/> <persName type="aphrodisian"><name type="praenomen" reg="Πόπλιος">Πόπλιος</name> <name type="gentilicium" reg="Αἴλιος">Αἴλιος</name><lb n="13"/> <name reg="Ἀπολλωνιανός">Ἀπολλωνιανὸς</name></persName><lb n="14"/><g type="scroll"/> <w lemma="ὁ">ὁ</w> <w lemma="πατήρ">πατήρ</w> <g type="leaf"/><lb n="14a"/>                <space dim="vertical" extent="1" unit="line"/></ab> 

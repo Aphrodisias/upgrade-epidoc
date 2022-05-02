@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080212" n="iAph0468 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080212" n="iAph0468 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date exact="none" notAfter="0400" notBefore="0001">First to fourth centuries A.D.</date> (<rs type="criteria">lettering</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <cb n="i"/><ab>  <lb n="1"/><orig n="unresolved"><unclear reason="damage">ισ</unclear></orig><gap reason="lost" extent="1" unit="character"/><orig n="unresolved">μι<unclear reason="damage">διι</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/></ab><cb n="ii"/><ab><lb n="1"/>  <persName type="aphrodisian"><name reg="Γάϊος"><expan><abbr>Γ</abbr><supplied reason="abbreviation">άιος</supplied></expan></name>  <name reg="Βολούσιος"><expan><abbr>Βολ</abbr><supplied reason="abbreviation">ούσιος</supplied></expan></name></persName> <w>βιοτι<lb n="5" type="worddiv"/><space extent="3" unit="character" dim="horizontal"/>κ<space extent="3" unit="character" dim="horizontal"/>ός</w></ab><cb n="iii"/><ab>   <lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">χι</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  </ab>
 </div>

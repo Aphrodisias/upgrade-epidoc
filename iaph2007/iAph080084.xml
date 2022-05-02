@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080084" n="iAph0566 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080084" n="iAph0566 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notAfter="0161" notBefore="0139"> 139-161 A.D. </date> (<rs type="criteria">prosopography</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <cb n="1"/><ab><lb n="1"/>  <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ἡ</w> <w lemma="γερουσία">γερο<milestone unit="block"/>υσία</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">οἱ</w> <w lemma="νέος">νέοι</w> <w lemma="τιμάω">ἐτείμησ<unclear reason="damage">α</unclear><milestone unit="block"/>ν</w> <persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen">Τιβέριον</name> <name reg="Κλαύδιος">Κλαύδιον</name> <name reg="Ζῆλος">Ζῆλον</name></persName> <w lemma="ἀρχιερεύς">ἀρχιερέα</w> <w lemma="καί">κ<milestone unit="block"/>αὶ</w> <w lemma="ἱερεύς">ἱερέα</w> <w lemma="διά">διὰ</w> <w lemma="βίος">βίου</w> <w lemma="θεά">θεᾶς</w> <persName type="divine">Ἀφροδείτης</persName> <w lemma="καί">καὶ</w> <space extent="1" unit="character" dim="horizontal"/>  <cb n="2"/><lb n="2"/> <w lemma="ὁ">τοῦ</w> <w lemma="δῆμος">Δήμου,</w> <w lemma="ὁ">τὸν</w> <w lemma="κτίστης">κτίστην</w> <w lemma="καί">καὶ</w> <w lemma="εὐεργέτης">εὐ<milestone unit="block"/>εργέτην</w> <w lemma="ἐν">ἐν</w> <w lemma="πᾶς">πᾶσιν</w> <w lemma="ὁ">τῆς</w> <w lemma="πατρίς">π<milestone unit="block"/>ατρίδος</w> <w lemma="ἐπιμελέω">ἐπιμεληθέντος</w> <persName type="aphrodisian"><name reg="Πόπλιος" type="praenomen">Ποπλίου</name> <name reg="Αἴλιος">Αἰλ<milestone unit="block"/>ίου</name> <name reg="Καλλικράτης">Καλλικράτους</name></persName> <w lemma="ὁ">τοῦ</w> <w lemma="πρωτόλογος">πρωτολόγου</w> <w lemma="ἄρχων">ἄρχοντος</w> </ab>
 </div>

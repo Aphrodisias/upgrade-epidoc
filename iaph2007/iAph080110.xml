@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080110" n="iAph0135 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080110" n="iAph0135 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -50,7 +50,7 @@
         <p><date notAfter="0600" exact="none" notBefore="0401">Fifth-sixth century</date> or later (content).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         
 		<ab><lb n="1"/><persName type="divine" key="God" full="yes"><w lemma="θεός"><expan><abbr>Θ</abbr><supplied reason="abbreviation">ε</supplied><abbr>ὲ</abbr></expan></w></persName> <w lemma="βοηθέω">βοήθι</w> <space dim="horizontal"/></ab>

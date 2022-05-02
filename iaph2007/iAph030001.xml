@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph030001" n="iAph1817 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph030001" n="iAph1817 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <p>
 No indication</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <space extent="1" unit="line" dim="horizontal" id="space1"/>  <certainty target="space1" locus="#gi" degree="low" assertedValue="gap"/><lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <orig n="unresolved"><unclear reason="damage">χ</unclear></orig>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <orig n="unresolved"><unclear reason="damage">υ</unclear>του</orig>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>    <space extent="3" unit="character" dim="horizontal"/>  </ab>
 </div>

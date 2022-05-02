@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010016" n="iAph0096 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010016" n="iAph0096 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -63,7 +63,7 @@
         <p><date notAfter="0600" exact="none" notBefore="0401">Fifth/sixth century</date> (location, lettering).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab>
 		<lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/> <persName key="Lord" type="divine" full="yes"><w lemma="κύριος"><expan><abbr>Κ</abbr><supplied reason="abbreviation">ύρι</supplied><abbr>ε</abbr></expan></w> <persName key="God" type="divine" full="yes"><w lemma="ὁ">ὁ</w> <w lemma="θεός"><expan><abbr>θ</abbr><supplied reason="abbreviation">εό</supplied><abbr>ς</abbr></expan></w></persName></persName> <orig n="unresolved">το</orig><gap dim="right" reason="lost" extent="unknown" unit="character"/>

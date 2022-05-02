@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120502" n="iAph1003 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120502" n="iAph1003 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -55,7 +55,7 @@
 <date cert="low" notBefore="-0100" notAfter="-0001">first century B.C.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><w lemma="ὁ">ἡ</w>  <w lemma="βουλή">βουλὴ</w>  <w lemma="καί">καὶ</w>  <w lemma="ὁ">ὁ</w>  <w lemma="δῆμος">δῆμος</w>  <w lemma="θάπτω">ἔθαψεν</w>  <lb n="2"/><persName reg="Ἐπαίνετος  Φιλοδήμου" full="yes" type="aphrodisian"><name type="        " reg="Ἐπαίνετος">Ἐπαίνετον</name>  <persName type="aphrodisian"><name reg="Φιλόδημος">Φιλοδήμου</name></persName></persName>  <w lemma="γίγνομαι">γε<lb n="3" type="worddiv"/>νόμενον</w>  <w lemma="ἀγαθός">ἀγαθὸν</w>  <w lemma="ἀνήρ">ἄνδρα</w>  <w lemma="καί">καὶ</w><lb n="4"/><w lemma="διαφέρω">διενέγκαντα</w>  <w lemma="εὐταξία">εὐταξίᾳ</w>  <w lemma="καί">καὶ</w><lb n="5"/><w lemma="ἀρετή">ἀρετῇ</w>  <w lemma="ἔτι">ἔτι</w>  <w lemma="παντάπασι">παντάπασι</w>  <space extent="1" unit="character" dim="horizontal"/>  <w lemma="εἰμί">ὄν<lb n="6" type="worddiv"/>τα</w>  <w lemma="νέος">νέον</w>  <w lemma="στεφανόω">ἐστεφάνωσεν</w>  <lb n="7"/><w lemma="δέ">δὲ</w>  <w lemma="καί">καὶ</w>  <w lemma="χρυσός">χρυσῷ</w>  <w lemma="στέφανος">στεφάνῳ</w>  </ab>
 </div>

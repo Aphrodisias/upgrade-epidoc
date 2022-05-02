@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150354" n="iAph0158 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150354" n="iAph0158 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -56,7 +56,7 @@ and square (ll. 4, 5). Two dots for stop, 1.4.</p>
         <p><date exact="none" cert="low" notBefore="0401" notAfter="0600">Fifth or sixth century</date> (content, metre).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab type="stop"><lb n="1"/><g type="cross"/> <w lemma="ἔνθα">ἔνθα</w> <persName key="macedonius1" type="aphrodisian" full="yes"><name reg="Μακηδόνιος">Μακη<supplied reason="lost">δόνιος</supplied></name></persName> <gap reason="lost" dim="right" extent="unknown" unit="character"/><lb n="2"/><orig n="unresolved">ετται</orig> <w lemma="βίοτος">βιοτ<supplied reason="lost">ο</supplied><gap reason="lost" extent="unknown" unit="character"/></w>
 <w><gap reason="lost" dim="right" extent="unknown" unit="character"/><lb n="3" type="worddiv"/>εύσας</w> <orig n="unresolved">αρθ<unclear reason="damage">λ</unclear></orig><gap reason="lost" dim="internal" extent="unknown" unit="character"/> <w lemma="ἄνθρωπος"><supplied reason="lost" cert="low">ἀνθρ</supplied><lb n="4" type="worddiv"/>ώπων</w> <g type="stop"/>  <w>ἐμβο<supplied cert="low" reason="lost">λ</supplied><gap reason="lost" extent="unknown" unit="character"/></w><lb n="5"/><space extent="3" unit="character" dim="horizontal"/><g type="cross"/> <orig n="unresolved">ελεθ<unclear reason="damage">ω</unclear></orig><gap dim="right" reason="lost" extent="unknown" unit="character"/><lb n="6"/> <space dim="vertical" extent="4" unit="line"/></ab>

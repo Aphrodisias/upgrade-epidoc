@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph040007" n="iAph0201 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph040007" n="iAph0201 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -55,7 +55,7 @@ erased.</p>
         <head>Date</head><p><date cert="low" notAfter="0500" notBefore="0300">Third-fourth centuries A.D.</date> (<rs type="criteria">context</rs>)</p>
       </div>
 
-      <div type="edition" lang="grc">
+      <div type="edition" lang="grc" xml:space="preserve">
         <head lang="en">Edition</head>
 			        
 				<div type="textpart_section" n="i"><ab><lb n="1"/> <w lemma="τόπος"><supplied reason="lost">τ</supplied><unclear reason="damage">ό</unclear>πος</w><lb n="2"/> <persName type="aphrodisian" key="eugraphius1" full="yes"><name reg="Εὐγράφιος">Εὐγρα<lb n="3" type="worddiv"/>φίου</name></persName><lb n="4"/> <rs type="official-secul" key="phylarch"><w lemma="φυλάρχης">φυλάρ<lb n="5" type="worddiv"/>χου</w></rs>. </ab></div> 

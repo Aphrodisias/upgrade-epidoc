@@ -95,7 +95,7 @@
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="//t:titleStmt/t:title/t:rs[@type='textType']">
+  <xsl:template match="/t:TEI/t:teiHeader/t:titleStmt/t:title//t:rs[@type='textType']">
     <xsl:apply-templates/>
   </xsl:template>
   
@@ -229,6 +229,14 @@
     </xsl:element>
   </xsl:template>
   
+  <xsl:template match="t:div[@type='description']//t:measure[@dim='diameter']">
+    <xsl:element name="dim">
+      <xsl:copy-of select="@unit"/>
+      <xsl:attribute name="type" select="'diameter'"/>
+      <xsl:apply-templates/>
+    </xsl:element>
+  </xsl:template>
+  
   <xsl:template match="t:rs[@type=('material','objectType')]">
     <xsl:element name="{@type}">
       <xsl:copy-of select="@*[not(local-name()='type')]"/>
@@ -239,7 +247,7 @@
   <xsl:template match="t:keywords">
     <xsl:copy>
       <xsl:apply-templates/>
-      <xsl:for-each select="//t:titleStmt/t:title/t:rs[@type='textType']">
+      <xsl:for-each select="t:TEI/t:teiHeader/t:titleStmt/t:title//t:rs[@type='textType']">
         <xsl:element name="term">
           <xsl:copy>
             <xsl:copy-of select="@type"/>
@@ -307,11 +315,20 @@
     </xsl:element>
   </xsl:template>
   
+  <xsl:template match="t:div[starts-with(@type,'textpart_')]">
+    <xsl:copy>
+      <xsl:copy-of select="@*[not(local-name()='type')]"/>
+      <xsl:attribute name="type" select="'textpart'"/>
+      <xsl:attribute name="subtype" select="substring-after(@type,'_')"/>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+  
   <xsl:template match="t:div/t:head"/>
   
   <xsl:template match="t:div[@type='edition']">
     <xsl:copy>
-      <xsl:copy-of select="@*[not(local-name()=('lang','n'))]"/>
+      <xsl:copy-of select="@*[not(local-name()=('lang','n','space'))]"/>
       <xsl:attribute name="xml:lang" select="@lang"/>
       <xsl:attribute name="xml:space" select="'preserve'"/>
       <xsl:apply-templates/>
@@ -346,6 +363,13 @@
     </xsl:element>
   </xsl:template>
   
+  <xsl:template match="t:foreign[@lang] | t:term[@lang]">
+    <xsl:copy>
+      <xsl:attribute name="xml:lang" select="@lang"/>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+  
   <xsl:template match="t:g[@type]">
     <xsl:copy>
       <xsl:attribute name="ref" select="concat('#',@type)"/>
@@ -369,7 +393,13 @@
     </xsl:copy>
   </xsl:template>
   
-  <xsl:template match="t:div[@type='edition']//t:supplied[@reason='abbreviation']">
+  <xsl:template match="t:note">
+    <xsl:copy>
+      <xsl:copy-of select="@*[not(local-name()='anchored')]"/>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="t:supplied[@reason='abbreviation']">
     <xsl:element name="ex">
       <xsl:if test="@cert"><xsl:attribute name="cert" select="'low'"/></xsl:if>
       <xsl:apply-templates/>

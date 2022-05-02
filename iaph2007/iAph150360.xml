@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150360" n="iAph0063 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150360" n="iAph0063 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -60,7 +60,7 @@
         <p><date exact="none" cert="low" notBefore="0468" notAfter="0533">Late fifth/early sixth century</date> (<rs type="criteria">prosopography</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<lg met="alegaic?">
 		<l n="1" met="hexameter"><w lemma="μνήμων">μνήμονες</w> <w lemma="ὁ">οἱ</w> <rs type="subject" key="koinon"><w lemma="Κᾶρ"><placeName type="ethnic" full="yes" reg="Κάρ">Κᾶρες</placeName></w></rs> <w lemma="πολύς">πολλέων</w> <w lemma="εὐεργεσία">εὐεργεσιάων</w> <space dim="horizontal"/></l>

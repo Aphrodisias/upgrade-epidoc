@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph040018" n="iAph0205 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph040018" n="iAph0205 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -42,7 +42,7 @@
 
       <div type="description" n="text">
         <head>Description of Text</head>
-        <p>Cut at <measure type="length" dim="none">0.39</measure> below fluting.</p>
+        <p>Cut at <measure type="length" dim="height">0.39</measure> below fluting.</p>
       </div>
 
       <div type="description" n="letters">
@@ -54,7 +54,7 @@
         <head>Date</head><p><date cert="low" notBefore="0401" notAfter="0600">Fifth-sixth century</date> (<rs type="criteria">location</rs>, <rs type="criteria">titulature</rs>)</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab> <lb n="1"/><persName key="Ioannes8" type="aphrodisian" full="yes"><name reg="Ἰωάννης"><expan><abbr>Ἰωάν</abbr><supplied reason="abbreviation">νου</supplied></expan></name></persName> <rs type="dignity" key="eloquentissimus"><w lemma="ἐλλόγιμος"><expan><abbr>ἐλλ</abbr><supplied reason="abbreviation">ογιμωτάτου</supplied></expan></w></rs>. </ab>
       </div>

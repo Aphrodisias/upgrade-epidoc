@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050015" n="iAph0238 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph050015" n="iAph0238 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -44,7 +44,7 @@
         <p><date exact="none" cert="low" notBefore="0468" notAfter="0600">Late fifth/sixth century</date> (<rs type="criteria">titulature</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
  		<div type="textpart_section"><ab>
 		<lb n="1"/><g type="cross"/> <g type="cross"/> <w lemma="ἐπί">ἐπὶ</w> <persName key="photius1" reg="Φλάβιος Φώτιος" full="yes" type="aphrodisian"><name reg="Φλάβιος"><expan><abbr>Φλ</abbr><supplied reason="abbreviation">αβίου</supplied></expan></name> <name reg="Φώτιος">Φωτίου</name></persName> <w lemma="σχολαστικός"><rs type="profession" key="scholasticus"><expan><abbr>σχο</abbr><supplied reason="abbreviation">λαστικοῦ</supplied></expan></rs></w> <w lemma="καί"><expan><abbr>κ</abbr><supplied reason="abbreviation">αὶ</supplied></expan></w> <w lemma="πατήρ"><rs type="official-secul" key="pater"><expan><abbr>πατρ</abbr><supplied reason="abbreviation">ός</supplied></expan></rs></w> <g type="cross"/>

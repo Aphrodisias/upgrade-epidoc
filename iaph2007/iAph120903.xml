@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120903" n="iAph1102 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120903" n="iAph1102 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -22,7 +22,7 @@
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
 <revisionDesc><change><date>2007-07-11</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change>
-<change><date>2007-01-19</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<change><date>2007-01-19</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -44,7 +44,7 @@
 <p>
 <date cert="low" exact="none" notAfter="-0001" notBefore="-0033">Late first century B.C.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <gap dim="left" extent="unknown" reason="lost" unit="character"/> <w lemma="ὁ">τὸ</w> <w lemma="πρόδομον">πρόδομον</w> <persName type="aphrodisian" full="yes"><name reg="Ἀρτεμίδωρος">Ἀρτεμί<seg type="autopsy">δ<unclear reason="damage">ω</unclear>ρος</seg></name>  <name reg="Μύων"><seg type="autopsy">Μ</seg>ύ<supplied reason="lost" cert="low">ωνος</supplied></name></persName>  <gap dim="right" extent="unknown" reason="lost" unit="character"/>  <lb n="2"/><gap dim="left" extent="unknown" reason="lost" unit="character"/>    <persName type="aphrodisian" full="yes"><name reg="Ἀπολλώνιος"><supplied reason="lost">Ἀ</supplied>πολλών<supplied reason="omitted">ι</supplied>ος</name>  <persName type="aphrodisian"><name reg="Ἀρτεμίδωρος">Ἀρτεμιδ<unclear reason="damage">ώ</unclear>ρο<seg type="autopsy">υ</seg></name></persName></persName>  <seg type="autopsy"><w lemma="ὁ">οἱ</w>  <w lemma="υἱός">υἱοὶ</w></seg>  <w lemma="αὐτός"><seg type="autopsy">αὐ</seg>το<supplied reason="lost">ῦ</supplied></w>  <gap dim="right" extent="unknown" reason="lost" unit="character"/></ab>
 </div>

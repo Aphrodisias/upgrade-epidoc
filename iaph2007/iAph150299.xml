@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150299" n="iAph1355 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150299" n="iAph1355 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -22,7 +22,7 @@
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
 <revisionDesc>
-<change><date>2007-7-26</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-07-26</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
 <change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
 </revisionDesc></teiHeader><text>
 <body>
@@ -42,7 +42,7 @@
 <head>Date</head>
 <p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">τοσ</orig> <w lemma="ὁ">τῆς</w> <w lemma="ἐπιγραφή">ἐπι<supplied reason="lost">γραφης</supplied></w>  <supplied reason="lost"><note place="not  specified" anchored="yes">κτλ</note></supplied>  <gap reason="lost" extent="unknown" unit="character" dim="right"/><lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">οσ</orig> <w lemma="ὁ">τὸ</w> <num value="7">ζ</num>  <g type="scroll"/> <supplied reason="lost" cert="low"><space extent="6" id="space01"/></supplied></ab>
 </div>

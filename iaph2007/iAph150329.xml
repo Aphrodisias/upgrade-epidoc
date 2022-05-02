@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150329" n="iAph1801 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150329" n="iAph1801 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
  (<rs type="criteria">nomenclature</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="καί">καὶ</w> <w lemma="διά">διὰ</w> <w lemma="ψήφισμα">ψη<supplied reason="lost">φίσ</supplied><lb n="2" type="worddiv"/>ματος</w>  <persName type="aphrodisian"><name reg="Αὐρηλία"><expan><abbr>Α<supplied reason="lost">ὐρ</supplied></abbr><supplied reason="abbreviation">ηλίαν</supplied></expan></name>  <name reg="Φροντεινιανή"><supplied reason="lost" cert="low">Φρον</supplied><lb n="3" type="worddiv"/>τεινια<unclear reason="damage">ν</unclear><supplied reason="lost">ὴν</supplied></name></persName> <gap reason="lost" extent="3" unit="character"/>  <lb n="4"/><w lemma="ζάω">ζήσασα<supplied reason="lost">ν</supplied></w>  <w lemma="κόσμιος"><supplied reason="lost">κοσ</supplied><lb n="5" type="worddiv"/>μίως</w>  <w lemma="καί">κα<supplied reason="lost">ὶ</supplied></w>  <w lemma="σώφρων"><supplied reason="lost">σω</supplied><lb n="6" type="worddiv"/>φρόνως</w>  <supplied reason="lost"><w lemma="καί">καὶ</w> <w lemma="πρός">πρὸς</w></supplied>    <lb n="7"/><w lemma="ὑπόδειγμα">ὑπόδειγ<supplied reason="lost">μα</supplied></w>  <lb n="8"/> <w lemma="ἀρετή">ἀρετῆς</w> <w lemma="ὁ">τὴ<supplied reason="lost">ν</supplied></w>  <lb n="9"/><w lemma="ἀνάστασις">ἀνάστασι<supplied reason="lost">ν</supplied></w>  <lb n="10"/> <w lemma="ὁ">τοῦ</w> <w lemma="ἀνδρίας">ἀνδριά<supplied reason="lost">ντος</supplied></w>  <lb n="11"/> <w lemma="ποιέω">ἐποιήσατο</w> 
  <persName type="aphrodisian"><name reg="Μᾶρκος"><supplied reason="lost">Μ.</supplied></name>  

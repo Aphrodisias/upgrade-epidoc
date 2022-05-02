@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080038" n="iAph0568 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080038" n="iAph0568 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notBefore="0101" notAfter="0200" exact="none">Second century A.D.</date>
 (<rs type="criteria">lettering</rs>, <rs type="criteria">institutions</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_section" n="1"><ab><lb n="1"/> <w lemma="ὁ">Ἡ</w> <w lemma="γερουσία">γερουσία</w> <unclear reason="damage">ἐκ</unclear> <w lemma="ὁ">τῶν</w> <w lemma="ἴδιος">ἰδίων</w> <persName type="aphrodisian"><name reg="Γάϊος" type="praenomen">Γάιον</name> <name reg="Ὁσίδιος">Ὁσίδιον</name><name reg="Ἰουλιανός"> Ἰουλιανὸ<milestone unit="block"/>ν</name></persName> <w lemma="ἀνατίθημι">ἀναθέντα</w> <w lemma="ὁ">τῇ</w> <w lemma="πατρίς">πατρίδι</w> <w lemma="ἀγών">ἀγῶνα</w> <w lemma="ἡμιταλαντιαῖος">εἱμιταλαντιαῖον</w> <g type="stop"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῇ</w> <w lemma="θεός">θεῷ</w> <w lemma="ἀνάθημα">ἀναθήματα</w> </ab></div><div type="textpart_section" n="2"><ab><lb n="2"/><w lemma="ἐπιμελέω">ἐπιμεληθ<unclear reason="damage">έ</unclear><supplied reason="lost">ν</supplied>τος</w> <persName type="aphrodisian"><name reg="Μένανδρος">Μενάνδρου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἀρτεμίδωρος">Ἀρτεμιδ<supplied reason="lost">ώρ</supplied><unclear reason="damage">ου</unclear></name>  <milestone unit="block"/>  <w lemma="ὁ"><supplied reason="lost">το</supplied>ῦ</w> <persName type="aphrodisian"><name reg="Μένανδρος">Μενάνδρου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἀρτεμίδωρος">Ἀρτεμιδώρου</name> <persName type="aphrodisian"><name reg="Κικιννᾶς" n="2">Κικιννᾶ</name></persName></persName></persName></persName></persName> <w lemma="γραμματεύς">γραμμ<unclear reason="damage">α</unclear>τέω<supplied reason="lost">ς</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τ</supplied>ὸ</w> <num value="2">β</num> <g type="leaf"/>  </ab></div>
 </div>

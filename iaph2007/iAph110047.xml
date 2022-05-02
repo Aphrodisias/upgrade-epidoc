@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110047" n="iAph1729 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110047" n="iAph1729 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -46,7 +46,7 @@ Two joining fragments from the left side of a <rs type="material">white marble</
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/><space extent="7" unit="character" dim="horizontal"/>  <gap reason="lost" extent="5" unit="character" extentmax="6" dim="right"/>  <lb n="2"/><w lemma="προνοέομαι">προνοησα<supplied reason="lost">μένου</supplied></w>  <lb n="3"/> <w lemma="ὁ">τῆς</w> <w lemma="ἀνάστασις">ἀνα<supplied reason="lost">στάσεως</supplied></w>  <lb n="4"/> <w lemma="ὁ">τοῦ</w> <w lemma="ἄγαλμα">ἀ<unclear reason="damage">γ</unclear><supplied reason="lost">άλματος</supplied></w>  <lb n="4a"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/>  </ab>
 </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050215" n="iAph0014 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph050215" n="iAph0014 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -72,7 +72,7 @@ A.D.</date>
 (<rs type="criteria">lettering</rs>, <rs type="criteria">titulature</rs>).</p>
 </div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/><gap reason="lost" extent="1" dim="top" unit="line"/>
 <lb n="1"/><w lemma="ὁ">τὸν</w> <rs type="dignity" key="clarissimus"><w lemma="λαμπρός">λαμπρ<supplied reason="lost">ότατον</supplied></w></rs><lb n="2"/><rs type="official-secul" key="comes"><w lemma="κόμης">κόμιτα</w></rs> <space dim="horizontal" extent="1" unit="character"/> <rs key="amicusprinc" type="dignity"><w lemma="φίλος">φίλον</w> <w lemma="ὁ">τῶ<supplied reason="lost">ν</supplied></w><lb n="3"/><rs type="official-secul" key="princeps"><w lemma="βασιλεύς">βασιλέων</w></rs></rs> <w lemma="σωτήρ">σωτῆ<lb n="4" type="worddiv"/>ρα</w> <w lemma="ὁ">τῶν</w> <w lemma="ἔθνος">ἐθνῶν</w> <w lemma="κτίστης">κτί<lb n="5" type="worddiv"/>στην</w> <w lemma="καί">καὶ</w> <w lemma="ἐπανορθωτής">ἐπανορθω<lb n="6" type="worddiv"/>τὴν</w> <w lemma="καί">καὶ</w> <w lemma="ὅδε">τῆσδε</w> <w lemma="ὁ">τῆς</w><lb n="7"/><rs type="subject" key="city"><w lemma="πόλις">πόλεως</w></rs> <space dim="horizontal"/>

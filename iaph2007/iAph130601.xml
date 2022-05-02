@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130601" n="iAph1592 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130601" n="iAph1592 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notBefore="0001" notAfter="0300" exact="none">First to third centuries A.D.</date>
 (<rs type="criteria">formulae</rs>, <rs type="criteria">nomenclature</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character"/><orig>ΟΝΙΩΜΑ</orig> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="ὑπόκειμαι">ὑποκε<supplied reason="lost">ίμενος</supplied></w>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ου <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Φλάβιος"><expan><abbr>Φ</abbr><supplied reason="abbreviation" cert="low">λαουίου</supplied></expan></name></persName><orig> κατου Ἀντω</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>υμητος <w lemma="καί">καὶ</w> <w lemma="ὁ">ἡ</w> <w lemma="γυνή">γυνὴ</w> <w lemma="αὐτός">αὐτοῦ</w> <gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>ου <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Ζωσίμη">Ζωσίμη</name></persName> <w lemma="ὁ">ἡ</w> <w lemma="καί">καὶ</w> <orig>α</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig>δεισε</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig>ασ</orig><gap reason="lost" extent="unknown" unit="character"/><orig>σο</orig><gap reason="lost" extent="unknown" unit="character"/>  </ab>
 </div>

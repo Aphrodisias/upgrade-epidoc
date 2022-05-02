@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110015" n="iAph1854 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110015" n="iAph1854 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notBefore="0001" notAfter="0200" exact="none" cert="low">First to second centuries A.D.</date>
 (<rs type="criteria">lettering</rs>) </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/><gap dim="top" extent="unknown" reason="lost" unit="line"/><lb n="1"/>  <persName type="aphrodisian"><supplied reason="lost"><name reg="Τιβέριος" type="praenomen"><expan><abbr>Τι</abbr><supplied reason="abbreviation">βέριον</supplied></expan></name></supplied> <name reg="Κλαύδιος"><supplied reason="lost">Κλαύ</supplied>διο<unclear reason="damage">ν</unclear></name> <lb n="2"/><persName type="aphrodisian"><supplied reason="lost"><name reg="Τιβέριος" type="praenomen"><expan><abbr>Τι</abbr><supplied reason="abbreviation">βερίου</supplied></expan></name></supplied> <supplied reason="lost"><name reg="Κλαύδιος"><expan><abbr>Κλ</abbr><supplied reason="abbreviation">αυδίου</supplied></expan></name></supplied> <name reg="Ἄτταλος"><supplied reason="lost">Ἀ</supplied><unclear reason="damage">τ</unclear>τάλου</name></persName>  <w lemma="υἱός">υἱ<lb n="3" type="worddiv"/><supplied reason="lost">ὸν</supplied></w>  <name reg="Διογένης"><supplied reason="lost">Διογέ</supplied>νην</name></persName>  <persName type="aphrodisian"><name reg="Ἡφαιστίων">Ἡφαισ<lb n="4" type="worddiv"/><supplied reason="lost">τίων</supplied></name>  <name reg="Διογένης"><supplied reason="lost">Δι</supplied>ογένους</name></persName> <lb n="5"/>  <w lemma="στεφανηφορικός"><supplied reason="lost" cert="low">στεφαν</supplied>ηφορικός</w>  <lb n="6"/><w><gap reason="lost" extent="6" unit="character"/>οντος</w>  <w lemma="ἀδελφός">ἀδελ<lb n="7" type="worddiv"/>  <supplied reason="lost" cert="low"><space extent="6"/></supplied> <supplied reason="lost">φ</supplied>ον</w> <space extent="6"/></ab>
 </div>

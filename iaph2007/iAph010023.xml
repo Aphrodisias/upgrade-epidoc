@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010023" n="iAph0119 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010023" n="iAph0119 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -57,7 +57,7 @@
         <p><date notBefore="0401" exact="none" notAfter="0600">Fifth-sixth century</date> or later (<rs type="criteria">content</rs>, <rs type="criteria">location</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
        <ab><lb n="1"/><g type="cross"/> <persName key="michael1" type="aphrodisian" full="yes"><name reg="Μιχαήλ"><hi rend="ligature">Μη</hi>χαὴλ</name></persName> <w lemma="δοῦλος">δοῦ<lb type="worddiv" n="2"/>
 λος</w> <orig n="unresolved">τη</orig> <g type="cross"/></ab>

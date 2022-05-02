@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010008" n="iAph1125 ">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010008" n="iAph1125 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -23,7 +23,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -47,7 +47,7 @@
 <date notBefore="0034" notAfter="0066" exact="none">Mid first century A.D.</date>
 (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><persName type="aphrodisian" full="yes"><name type=" " reg="Ἄτταλος">Ἄτταλο<seg type="autopsy">ς</seg></name>  <persName type="aphrodisian"><name reg="Μένανδρος"><seg type="autopsy">Μ</seg>εν<lb n="2" type="worddiv"/>άνδρ<seg type="autopsy"><unclear reason="damage">ο</unclear>υ</seg></name>  <w lemma="ὁ"><seg type="autopsy">το</seg>ῦ</w>  <persName type="aphrodisian"><name reg="Ἄτταλος">Ἀτ<lb n="3" type="worddiv"/><seg type="autopsy"><unclear reason="damage">τά</unclear></seg>λ<seg type="autopsy"><unclear reason="damage">ο</unclear></seg>υ</name></persName></persName></persName>  <w lemma="καί">κ<seg type="autopsy">αὶ</seg></w>  <persName type="aphrodisian" full="yes"><name reg="Ἀτταλίς">Ἀ<seg type="autopsy">τ</seg>τα<lb n="4" type="worddiv"/><seg type="autopsy">λὶς</seg></name>  <persName type="aphrodisian"><name reg="Μενεκράτης"><seg type="autopsy">Μ<unclear reason="damage">ε</unclear></seg>ν<seg type="autopsy">εκρ</seg>ά<supplied reason="lost">τους</supplied></name></persName><lb n="5"/><name reg="Ἄπφιος"><seg type="autopsy">Ἄπφιο</seg>ν</name></persName> <w lemma="ὁ">οἱ</w> <w lemma="ἱερεύς"><supplied reason="lost">ἱερ</supplied>εῖς</w>  <lb n="6"/><w lemma="ὁ"><seg type="autopsy">τῆς</seg></w>  <persName type="divine" full="yes"><name reg="Ἀφροδίτη"><seg type="autopsy">Ἀ</seg>φρο<seg type="autopsy">δείτης</seg></name></persName>  <lb n="7"/><w lemma="θεά"><seg type="autopsy"><unclear reason="damage">θ</unclear>εᾷ</seg></w>  <persName type="divine" full="yes"><name reg="Ἀφροδίτη"><seg type="autopsy">Ἀφ</seg>ροδεί<seg type="autopsy">τῃ</seg></name></persName>  <space unit="character" extent="1" dim="horizontal"/><lb n="8"/><supplied reason="lost"><w lemma="καί">καὶ</w>  <w lemma="ὁ">τῷ</w>  <w lemma="δῆμος">Δήμωι</w></supplied>  <space unit="character" extent="5" dim="horizontal"/></ab>
 </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120806" n="iAph1693 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120806" n="iAph1693 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <p>
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/><orig n="unresolved">ου</orig> <w>καθ′</w><w lemma="ὅς">οὗ</w> <w lemma="ἐπίκειμαι">ἐπικεῖται</w> <w lemma="τόπος">τόπου</w> <w lemma="ὁ">τὸ</w> <w lemma="μνῆμα">μνῆμα</w> <w lemma="διά">διὰ</w> <w lemma="τις">του</w><gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><gap reason="lost" extent="3" unit="character"/> <w lemma="σορός">σορῷ</w> <w lemma="γράφω">γεγραμμένα</w> <w lemma="ἐξώλης">ἐξώλης</w> <w lemma="εἰμί">εἶναι</w> <w lemma="καί">καὶ</w> <w lemma="αὐτός">αὐτ<unclear reason="damage">ὸ</unclear><supplied reason="lost">ς</supplied></w>  <gap reason="lost" extent="3" unit="character"/>  <lb n="3"/><gap reason="lost" extent="3" unit="character"/><orig n="unresolved"><unclear reason="damage">α</unclear>ν</orig> <w lemma="μήτε">μήτε</w> <w lemma="γυνή">γυναῖκας</w> <w lemma="τίκτω">τίκτειν</w> <w lemma="κατά">κατὰ</w> <w lemma="φύσις">φύσιν</w> <w lemma="μήτε">μήτε</w> <gap reason="lost" extent="3" unit="character"/>  <lb n="4"/><gap reason="lost" extent="3" unit="character"/><orig n="unresolved"><unclear reason="damage">πι</unclear>η</orig> <w lemma="δέ">δὲ</w> <w lemma="πᾶς">πᾶν</w> <w lemma="γένος">γένος</w> <w lemma="αὐτός">αὐτοῦ</w> <w lemma="βωμός">βωμῶν</w> <w lemma="τε">τε</w> <w lemma="ἱερός">ἱερῶν</w> <gap reason="lost" extent="3" unit="character"/></ab>
 </div>

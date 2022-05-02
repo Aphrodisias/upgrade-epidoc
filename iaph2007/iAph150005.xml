@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150005" n="iAph0148 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150005" n="iAph0148 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -60,7 +60,7 @@ right.</p>
 century</date> (formulae, penalty).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         
 		<ab><cb n="a"/><lb n="1"/> <orig n="unresolved">ται</orig> <w lemma="αὐτός">α<unclear reason="damage">ὐ</unclear>τὴ</w> <w lemma="ἤ">ἢ</w> <orig n="unresolved">τ<unclear reason="damage">ο</unclear></orig><gap reason="lost" dim="internal" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ιιαι</unclear></orig><gap dim="internal" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">νη</orig> <w lemma="καί">καὶ</w> 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130138" n="iAph1560 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130138" n="iAph1560 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
 (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <w lemma="ἐπεί"><supplied reason="lost">ἐ</supplied>πεὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="παρά">παρὰ</w> <w lemma="οὗτος">ταῦ<supplied reason="lost">τά</supplied></w> <supplied reason="lost">τι</supplied> <supplied reason="lost">ποιήσας</supplied>  <supplied reason="lost">ἀσεβὴς</supplied> <gap reason="lost" extent="unknown" unit="character" dim="right"/>   <lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <w lemma="προσαποτίνω">προσαποτει<supplied reason="lost">σάτω</supplied></w>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>   <w lemma="καί"><supplied reason="lost">κ</supplied>αὶ</w>  <w lemma="οὐδείς">οὐδὲ<hi rend="ligature" id="hi1">ν</hi></w><link targets="hi1  hi2"/>  <w lemma="ἥσσων"><hi rend="ligature" id="hi2">ἧ</hi>σ<supplied reason="lost">σον</supplied></w>  <supplied reason="lost">ἔσται</supplied> <supplied reason="lost">ἔνοχος</supplied> <gap reason="lost" extent="unknown" unit="character" dim="right"/> <lb n="4"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">ε</orig>  <w lemma="ὁ"><hi rend="ligature">τὴν</hi></w>  <w lemma="εἰσώστη">εἰσώ<unclear reason="damage">σ</unclear><supplied reason="lost">την</supplied></w>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="4a"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/>  <space extent="9" unit="character" dim="horizontal"/>  </ab>
 </div>

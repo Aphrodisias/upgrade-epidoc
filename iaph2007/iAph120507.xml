@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120507" n="iAph1463 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120507" n="iAph1463 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -41,7 +41,7 @@
 <head>Date</head>
 <p><date notBefore="0001" notAfter="0400" exact="none">First to fourth centuries A.D.</date> (<rs type="criteria">formulae</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ὁ">τὸν</w> <w lemma="πλάτας">πλάτην</w> <w lemma="κατασκευάζω">κατεσκεύασεν</w> <persName type="aphrodisian"><name reg="Γενέθλιος">Γενέθλειος</name> <lb n="2"/> <name reg="Ἑρμᾶς" type="        ">Ἑρμᾶ</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἄδραστος">Ἀδρά<unclear reason="damage">σ</unclear>του</name></persName></persName> <w lemma="ἑαυτοῦ">αὑτῷ</w> <w lemma="καί">καὶ</w> <w lemma="γυνή">γυναικὶ</w> <lb n="3"/> <w lemma="καί">καὶ</w> <w lemma="τέκνον">τέκνοις</w> <w lemma="καί">καὶ</w> <w lemma="ἔγγονος">ἐγγόνοις</w> <w lemma="καί">καὶ</w> <w lemma="θρεπτός">θρεπτοῖς</w> <w lemma="καί">καὶ</w> <w lemma="γυνή">γυ<lb n="4" type="worddiv"/>ναιξὶ</w> <w lemma="αὐτός">αὐτῶν</w> <w lemma="ἄλλος">ἄλλῳ</w> <w lemma="δέ">δὲ</w> <w lemma="οὐ">οὐκ</w> <w lemma="ἔξεστι">ἐξέσται</w> <w lemma="τίθημι">τεθῆ<lb n="5" type="worddiv"/>ναι</w> <w lemma="ἐκτός">ἐκτὸς</w> <w lemma="εἰ">εἰ</w> <w lemma="μή"><unclear reason="damage">μ</unclear>ὴ</w> <w lemma="αὐτός">αὐτός</w> <w lemma="τις">τινι</w> <w lemma="συγχώρησις">συνχώρη<lb n="6" type="worddiv"/>σιν</w> <w>δώ</w> <supplied reason="lost" cert="low">σει</supplied>  <lb n="7"/> <w>ΧΕΙΤΑΙ.</w> <w lemma="ζάω">ζῶσιν</w> </ab>
 </div>

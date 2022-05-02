@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050013" n="iAph0070 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph050013" n="iAph0070 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -60,7 +60,7 @@
         <p><date exact="none" cert="low" notBefore="0401" notAfter="0600">Fifth/sixth century</date> (<rs type="criteria">titulature</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab>
 		<lb n="1"/><g type="cross"/> <w lemma="ἐπί">ἐ<supplied reason="lost">πὶ</supplied></w> <orig n="unresolved"><unclear reason="damage">ο</unclear></orig><gap dim="internal" extent="4" unit="character" reason="lost"/><orig n="unresolved"><unclear reason="damage">γ</unclear>ετου</orig> <rs type="official-secul" key="exceptor"><w lemma="ἐξκέπτωρ"><expan><abbr>ἐξκέπτ</abbr><supplied reason="abbreviation">ορος</supplied></expan></w></rs><lb n="2"/><space dim="horizontal"/> <w lemma="γίγνομαι">ἐγένετο</w> <w lemma="αὐτός">αὐτή</w> <g type="cross"/>

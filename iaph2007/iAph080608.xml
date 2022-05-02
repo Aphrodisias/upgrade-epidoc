@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080608" n="iAph0041 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080608" n="iAph0041 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -56,7 +56,7 @@ traces of red paint. ii. cut with a very shallow, broad line; <measure type="len
         <p>i.<date exact="none" cert="low" notBefore="0434" notAfter="0467">Mid-fifth century</date> (<rs type="criteria">titulature</rs>, <rs type="criteria">prosopography</rs>); ii. <date exact="none" notBefore="0468" notAfter="0700" cert="low">Late fifth century or later</date> (<rs type="criteria">lettering</rs>).</p>
       </div>
 
-      <div lang="grc" n="text" type="edition">
+      <div lang="grc" n="text" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <cb n="i"/>
 		  <lg met="elegaic">

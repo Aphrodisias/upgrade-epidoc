@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph070013" n="iAph1304 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph070013" n="iAph1304 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -23,7 +23,7 @@
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
 <revisionDesc>
-<change><date>2007-7-26</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change>
+<change><date>2007-07-26</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change>
 <change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
 <change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
 </revisionDesc></teiHeader><text>
@@ -47,7 +47,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><cb n="a"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">λ</unclear>σε<unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/> </ab><ab>   <cb n="b"/> <lb n="1"/><orig n="unresolved">η</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/><orig n="unresolved">ου<unclear reason="damage">δ</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="3"/><orig n="unresolved">λη</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="4"/><orig n="unresolved">ευ</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="5"/><orig n="unresolved">ο</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="6"/><orig n="unresolved">ε</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="7"/><orig n="unresolved"><unclear reason="damage">υ</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  </ab>
 </div>

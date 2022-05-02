@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130006" n="iAph1015 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130006" n="iAph1015 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -50,7 +50,7 @@
 
 <p><date notBefore="0167" notAfter="0233" exact="none">Late second/early third century A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>, family history, )</p>  </div>
 
-<div lang="grc" type="edition" sample="complete" org="uniform" n="text">
+<div lang="grc" type="edition" sample="complete" org="uniform" n="text" xml:space="preserve">
 <head lang="en">Edition</head>
 
 

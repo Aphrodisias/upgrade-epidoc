@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120620" n="iAph0422 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120620" n="iAph0422 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -49,7 +49,7 @@
 
 <p>Probably   <date notBefore="0101" notAfter="0300" cert="low" exact="none">second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>; <rs type="criteria">cutting</rs>).</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="1"/>      <gap unit="character" dim="left" extent="unknown" reason="lost"/> <w lemma="ὁ">ταῖς</w> <orig n="unresolved"><unclear reason="damage">ι</unclear></orig><gap unit="character" dim="right" extent="unknown" reason="lost"/></ab>

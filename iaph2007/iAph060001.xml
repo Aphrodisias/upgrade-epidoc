@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph060001" n="iAph0597 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph060001" n="iAph0597 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -23,7 +23,7 @@
 </profileDesc>
 <revisionDesc>
 <change><date>2007-07-24</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date>2007-03-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
-<change><date>2007-3-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+<change><date>2007-03-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
 </revisionDesc></teiHeader><text>
 <body>
 <div type="description" n="monument">
@@ -43,7 +43,7 @@
 <p>
 <date exact="none" notAfter="0096" notBefore="0069">probably Flavian</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">sculpture</rs>, <rs type="criteria">probable text</rs>).</p><p>When the panels were first found, many thought the reliεfs to be of the third century A.D., a view abandoned after their detailed study. Yildirim, however, still regards the lettering as post-Flavian; it is indeed not quite standard in form for the Flavian period, but it is often the case that the lettering of captions is not quite standard for their period, since they were cut, commonly, by the sculptors rather than by professional letterers.</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_block" n="a"><div type="textpart_section" n="i"><note>To the right of a winged horse, to whom the label clearly applies</note><lb n="1"/><ab>
 <lb n="1"/><persName type="divine"><name>Πέγα<lb n="2"/>σος    </name></persName></ab></div>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>
+               <rs type="textType">Honours</rs> for Julian by <rs type="personType" reg="governor">Antonius Tatianos</rs>
+            </title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph080405</idno>
+            <idno type="IAph2007">iAph080405</idno>
+            <idno type="JMR2004">iAph0020</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno>77.136</idno>
+                  <idno>76.112</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>a. A <material key="marmor">white marble</material>
+                              <objectType>statue base</objectType> capital, for a columnar base, and b. the <material key="marmor">white marble</material> columnar shaft of a statue base with simple moulding above and below (H. <height unit="metre">1.16</height>; diam. <dim type="diameter">0.53</dim>). The moulding is cut into on both sides, as is the shaft itself on one side, as if it had served as a support for a balustrade (or perhaps for re-use in the defence wall). The moulding is half smoothed, and half left rough. The statue also survives: see <bibl type="hbi" n="rrrs2001">
+                                 <author>Smith</author> (<date value="1999" notBefore="1999" notAfter="1999" exact="both">2001</date>)</bibl>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>Line 1 is on a simple column capital, inscribed at the top of the drum; lines 2-13 are on the shaft, but the inscription is not centred in respect of the moulding.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Elongated and elegant, except for the last word in l.2, which has been inserted in a rasura, and is clumsily cut; l.1, <height unit="metre">0.03</height>; ll.2-3, <height unit="metre">0.025</height>; ll.3-7, 9 ff., <height unit="metre">0.03</height>; 1. 8, <height unit="metre">0.035</height>; <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Φ</foreign>, <height unit="metre">0.05</height>; scroll for abbreviation.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">
+                           <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>, west portico: A round plinth, on which this stone probably stood, is apparently in its original position, against the west portico, just south of <ref type="inscription" n="62" target="080410.xml"/> and<ref type="iAph" n="065" target=".xml"/>. .</rs>
+                     </origPlace>
+                     <origDate notBefore="0361" notAfter="0363">A.D. 361/363 (<rs type="criteria">reign</rs>)</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: re-used in the northern stretch of the seventh-century defence wall which blocks off the east end of the Theatre. </rs>
+                  </provenance>
+                  <provenance type="observed" when="1983">
+                     <rs type="lastLocation">Museum (1983).</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="personType" key="imperatorius">Imperial</rs>
+               </term>
+               <term>
+                  <rs type="textType" key="sacer">Religious</rs>
+               </term>
+               <term>
+                  <rs type="textType">building inscription</rs>
+               </term>
+               <term>
+                  <rs type="textType">imperial</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
+         <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
+         <change when="2004-03-16" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
+         <change when="2004-01-16" who="#CMR">tidied; image refs</change>
+         <change when="2003-11-04" who="#GB">Corrected errors in Greek</change>
+         <change when="2003-11-04" who="John-Lavagnino">Converted beta code to Unicode</change>
+         <change when="2003-08-20" who="#CMR">name tags reduced</change>
+         <change when="2003-07-14" who="JLG">Lemmatised</change>
+         <change when="2003-06-22" who="#CMR">tagged, tidied and corrected</change>
+         <change when="2003-05-27" who="#GB">tidied and corrected</change>
+         <change when="2003-05-27" who="#GB">Typed and marked-up Greek</change>
+         <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+            
+            <ab>
+              <lb n="1"/><persName key="agty" nymRef="#Ἀγαθὴ Τύχη" type="divine"><w lemma="ἀγαθός">Ἀγαθῆι</w> <w lemma="τύχη">Τύχηι</w></persName><lb n="2"/><persName key="TheodosiusII" type="emperor"><name nymRef="#Φλάβιος"><expan><abbr>Φλ</abbr><ex>άουιον</ex></expan></name> <name nymRef="#Κλαύδιος"><expan><abbr>Κλ</abbr><ex>αύδιον</ex></expan></name>
+               <app type="overstruck">
+                  <rdg>
+                     <del status="unremarkable"><persName key="Julian" type="emperor"><name nymRef="#Ἰουλιανός"><supplied reason="lost">Ἰουλιανὸν</supplied></name></persName></del></rdg>
+                   <rdg>
+                     <add><name nymRef="#Θεοδόσιος">Θεοδόσιον</name></add></rdg>
+               </app></persName>
+              <lb n="3"/>
+               <space extent="1" unit="character" dim="horizontal"/> <w lemma="ὁ">τὸν</w> <w lemma="αἰώνιος">αἰώνιον</w><lb n="4"/><w lemma="καί">καὶ</w> <rs type="dignity" key="pius"><w lemma="εὐσεβής">εὐσεβέστατον</w></rs><lb n="5"/>
+               <space extent="1" unit="character" dim="horizontal"/> <rs type="dignity" key="augustus">Αὔγουστον</rs><lb n="6"/><persName key="TatianusAnt" type="attested"><name nymRef="#Ἀντώνιος">Ἀντώνιος</name> <name nymRef="#Τατιανός">Τατιανὸς</name></persName><lb n="7"/>
+               <space extent="1" unit="character" dim="horizontal"/> <w lemma="ὁ">ὁ</w> <rs type="dignity" key="clarissimus"><w lemma="λαμπρός"><expan><abbr>λαμπρ</abbr><ex>ότατος</ex></expan></w></rs> <rs type="official-secul" key="praeses"><w lemma="ἡγεμών">ἡγεμὼν</w></rs><lb n="8"/><w lemma="πᾶς">πᾶν</w> <w lemma="ὁ">τὸ</w> <w lemma="ὁράω">ὁρώμενον</w><lb n="9"/><w lemma="ἔργον">ἔργον</w> <w lemma="ὁ">τοῦ</w> <w lemma="τετράστωον">τετραστώου</w><lb n="10"/>
+               <space extent="1" unit="character" dim="horizontal"/> <w lemma="ἐκ">ἐκ</w> <w lemma="θεμέλιος">θεμελίων</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὸν</w><lb n="11"/><w lemma="περικεῖμαι">περικειμένον</w> <w lemma="σύμπας">σύμπαν<lb n="12" break="no"/>τα</w> <w lemma="κόσμος">κόσμον</w> <w lemma="ὁ">τῇ</w> <orig reg="μητροπόλει"><rs type="subject" key="capital"><w lemma="μητρόπολις">μητροπόλι</w></rs></orig>
+              <lb n="13"/>
+               <space extent="1" unit="character" dim="horizontal"/> <w lemma="κατασκευάζω">κατασκευάσας</w> <g ref="#leaf"/>
+            </ab>
+         </div>
+         <div type="apparatus">
+            <p>l. 2,  <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Θεοδόσιον</foreign> added in a later hand, in rasura; the erased name must be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Ἰουλιανόν</foreign>.</p>
+         </div>
+         <div type="translation">
+            <p>To Good Fortune. Antonius Tatianos, <term lang="la">clarissimus praeses</term>, having built all the work of the tetrastoon that can be seen from the foundations, and all the surrounding decoration, for the metropolis, <supplied reason="subaudible">set up this statue</supplied> of Flavius Claudius Julianus <note place="not specified" anchored="yes">later emended to Theodosius</note>, the eternal and most pious Augustus.</p>
+         </div>
+         <div type="commentary">
+            <p>See discussion at <ref type="eAla-text" n="III.10" target=".xml"/>. </p>
+         </div>
+         <div type="bibliography">
+            <p>Published by <bibl type="hbi" rend="primary" n="ALA">
+                  <author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <citedRange>20</citedRange>, and Plate vii</bibl>, whence <bibl n="PHI">
+                  <author>McCabe</author>
+                  <title level="m">PHI Aphrodisias</title>
+                  <citedRange n="257540">657</citedRange>
+               </bibl>.</p>
+            <p>Statue: <bibl type="hbi" n="rrrs1999">
+                  <author>R. R. R. Smith</author> (<date>1999</date>) <citedRange>161-2</citedRange>
+               </bibl>; <bibl type="hbi" n="rrrs2001">
+                  <author>R. R. R. Smith</author>, '<title level="a">A portait monument for Julian and Theodosius</title>' in C. Reusser ed. <title level="m">Griechenland in der Kaiserzeit</title> (Berlin, <date>2001</date>) <citedRange>125-136</citedRange>
+               </bibl>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

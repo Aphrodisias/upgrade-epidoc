@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080060" n="iAph0766 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080060" n="iAph0766 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -23,7 +23,7 @@
 <textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
 <revisionDesc>
 <change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
-<change><date>2007-3-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+<change><date>2007-03-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
 </revisionDesc></teiHeader><text>
 <body>
 <div type="description" n="monument">
@@ -43,7 +43,7 @@
 <p>
 <date notAfter="0600" notBefore="0101" exact="none">Second-sixth century A.D.</date> (<rs type="criteria">context</rs>).</p>
 </div>
-<div type="edition" n="text" lang="grc">
+<div type="edition" n="text" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_section" n="3"><note>On one seat there is a rough and incomplete drawing of a figure with what seems to be a net; presumably a retiarius.</note></div><div type="textpart_section" n="4"><div type="textpart_column" n="i"><note>On one seat there is a graffito figure, apparently holding a spear and a shield, probably another gladiator.</note></div><div type="textpart_column" n="ii"><note>Design, a cross.</note></div></div><div type="textpart_section" n="6"><div type="textpart_column" n="i"><ab> 
 
@@ -58,7 +58,7 @@
 <lb n="1"/>
 <persName type="aphrodisian"><name reg="Ἑπταμήνιος"><expan><abbr>Ἑπταμη<unclear reason="damage">ν</unclear></abbr><supplied reason="lost">ί</supplied><abbr>ου</abbr></expan></name></persName></ab></div><div type="textpart_column" n="iii"><note lang="en">a: Based on <foreign lang="grc">E</foreign>; other letters <foreign lang="grc">Ο, Κ, Α</foreign> and <foreign lang="grc">Λ</foreign> or <foreign lang="grc">Δ</foreign>.</note><note>b: Based on <foreign n="grc">Κ</foreign>; other letters <foreign n="grc">Ο, Υ, Ρ</foreign>. 
 </note><note>c: Based on <foreign n="grc">Ε</foreign>; other letters <foreign n="grc">Ο, Δ</foreign> or <foreign lang="grc">Α</foreign>. 
-</note></div></div></div><div type="edition" n="text" lang="grc"><div type="textpart_section" n="9"><div type="textpart_column" n="i"><ab>
+</note></div></div></div><div type="edition" n="text" lang="grc" xml:space="preserve"><div type="textpart_section" n="9"><div type="textpart_column" n="i"><ab>
 <note><lb n="1"/>A head and shoulders, with a circular ?shield in front of the torso;. Inscribed above the shield. Cut later, above the left shoulder, is a rough design ?of a figure, with the letters <foreign lang="grc">ΘΕ</foreign> above, <foreign lang="grc"><expan><abbr>?</abbr><supplied reason="abbreviation">ΟΘ</supplied>
 </expan></foreign>below. <placeName type="ethnic" reg="Θρᾷξ"><w>Θρᾷξ</w></placeName></note> 
 </ab></div><div type="textpart_column" n="ii"><ab>

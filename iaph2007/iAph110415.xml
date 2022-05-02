@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110415" n="iAph0103 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110415" n="iAph0103 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -63,7 +63,7 @@
         <p><date exact="none" cert="low" notBefore="0501" notAfter="0600">Sixth century A.D.</date>, or later (form of monogram).</p>
       </div>
 
-      <div type="edition" lang="grc">
+      <div type="edition" lang="grc" xml:space="preserve">
         <head lang="en">Edition</head>
 		
 		  <div type="textpart_section" n="i"><ab><lb n="1"/><persName key="Mamas" type="aphrodisian" full="yes"><name reg="Μάμας"><expan><abbr><orig><g type="monogram"/></orig></abbr><supplied reason="abbreviation">Μαμᾶ</supplied></expan></name></persName></ab></div>

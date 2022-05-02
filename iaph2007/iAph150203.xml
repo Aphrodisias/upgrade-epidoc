@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150203" n="iAph1483 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150203" n="iAph1483 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 No indication
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <persName type="aphrodisian"><name reg="Ζηνωνίς">Ζηνωνίδι</name> <w lemma="ὁ">τῇ</w> <persName type="aphrodisian"><name reg="Παυσανίας">Παυσανίου</name> <w lemma="ὁ">τοῦ</w> <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/> <persName type="aphrodisian"><name reg="Ἀπελλᾶς">Ἀπέλλα</name></persName></persName> θυγατρ<unclear reason="damage">ὶ</unclear> <w lemma="ἔκγονος">ἐκγόνῃ</w> <persName type="aphrodisian"><name>Δ<gap reason="lost" extent="unknown" unit="character" dim="right"/></name>  <lb n="3"/> <name reg="Ζηνωνίς">Ζηνωνίδος</name></persName></persName> <w lemma="καί">καὶ</w> <w lemma="τέκνον">τέκνοις</w> αὐ<supplied reason="lost">τῆς</supplied>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="4"/> <w lemma="τέκνον">τέκνοις</w> <w lemma="εἰς">εἰς</w> <w lemma="διαδόχη">διαδόχην</w> <supplied reason="lost" cert="low">vac.</supplied>  </ab>
 </div>

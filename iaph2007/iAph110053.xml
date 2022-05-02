@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110053" n="iAph1812 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110053" n="iAph1812 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notAfter="0300" notBefore="0200" precision="circa">? Severan or later.</date>
  (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><unclear reason="damage">Ι</unclear><gap reason="lost" extent="3" unit="character"/>  <lb n="3"/>ΛΗ<unclear reason="damage">Σ</unclear><gap reason="lost" extent="3" unit="character"/>  <lb n="4"/>ΝΑΙ<unclear reason="damage">Δ</unclear><gap reason="lost" extent="3" unit="character"/>  <lb n="5"/>ΤΑΘ<unclear reason="damage">Ι</unclear><gap reason="lost" extent="3" unit="character"/>  <lb n="6"/>Αὐρ. Α<gap reason="lost" extent="3" unit="character"/>  <lb n="7"/><gap reason="lost" extent="3" unit="character"/>  </ab>
 </div>

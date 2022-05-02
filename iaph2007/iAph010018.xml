@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010018" n="iAph0098 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010018" n="iAph0098 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -63,7 +63,7 @@
         <p><date exact="none" cert="low" notBefore="0401" notAfter="0600">Fifth/sixth century</date> or later</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab>
 		<lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/> <space dim="horizontal"/> <persName key="Anatolis" type="aphrodisian" full="yes"><name reg="Ἀνατόλις">Ἀνατόλι<app type="previouslyread"><rdg resp="previous">ς</rdg><rdg resp="autopsy"><gap reason="lost" extent="1" unit="character"/></rdg></app></name></persName> <gap dim="right" reason="lost" extent="unknown" unit="character"/>

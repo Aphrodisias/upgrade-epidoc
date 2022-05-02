@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120533" n="iAph1779 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120533" n="iAph1779 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@ No description; presumably a <rs type="objectType" cert="low">statue base</rs>
 <head>Date</head>
 <p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">nomenclature</rs>, <rs type="criteria">titulature</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <persName type="aphrodisian"><name reg="Αἰλία">Αἰλίαν</name> <name reg="Λαίβιλλα">Λαιβίλλαν</name></persName> <lb n="2"/> <placeName reg="Ἀσία">Ἀσίας</placeName> <w lemma="ἀρχιέρεια">ἀρχιέρειαν</w> <lb n="3"/> <w lemma="καί">καὶ</w> <w lemma="κοσμήτειρα">κοσμήτειραν</w> <w lemma="ὁ"><hi rend="ligature">τῆ</hi>ς</w> <lb n="4"/> <persName type="divine"><w lemma="Εφέσιος">Εφεσίας</w> <name reg="Ἄρτεμις">Ἀρτέμιδος</name></persName> <lb n="5"/> <w lemma="καί">καὶ</w> <w lemma="ἀρχιέρεια">ἀρχιέρειαν</w> <w lemma="ὁ">τῆς</w> <lb n="6"/> <w lemma="λαμπρός">λαμπροτάτης</w> <placeName reg="Ἀφροδεισιεύς"><w lemma="Ἀφροδεισιεύς">Ἀφρο<lb n="7" type="worddiv"/>δισ<unclear reason="damage">ιέ</unclear>ων</w></placeName> <w lemma="πόλις">πόλεως</w> <lb n="8"/> <w lemma="γυνή">γυναῖκα</w> <w lemma="γίγνομαι">γενομένην</w> <lb n="9"/> <persName type="aphrodisian"><name reg="Σεπτίμιος">Σεπτιμίου</name> <name reg="Ὑψικλῆς">Ὑψικλέους</name></persName> <lb n="10"/>  <space extent="3" unit="character" dim="horizontal"/> <w lemma="ἀρχιερεύς">ἀρχιερέως</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="11"/> <persName type="aphrodisian"><name reg="Σεπτιμία">Σεπτιμία</name> <name reg="Αἰλία">Αιλία</name> <name reg="Φλάβιος">Φλα</name> <lb n="12"/><gap reason="lost" extent="2" unit="character"/><orig n="unresolved">ι</orig>  <name reg="Λαίβιλλα">Λαιβίλλα</name></persName> <gap reason="lost" extent="1" unit="character"/> <w lemma="ὁ">αἱ</w> <w lemma="θυγάτηρ">θυγατ<unclear reason="damage">έ</unclear>ρ<unclear reason="damage">ε</unclear>ς</w> </ab>
 </div>

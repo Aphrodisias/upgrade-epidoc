@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080246" n="iAph1365 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080246" n="iAph1365 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <head>Date</head>
 <p><date cert="low" notAfter="0300" notBefore="0101">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">ι</unclear>σ</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">τα</unclear></orig><gap reason="lost" extent="2" unit="character"/>  <orig n="unresolved">σ<unclear reason="damage">λ</unclear></orig> <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">ναε<unclear reason="damage">ιιτρι</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><w lemma="ὁ">τῶν</w>  <w lemma="ὑπόκειμαι">ὑπ<supplied reason="lost">οκειμένων</supplied></w>  <w lemma="εἰσώστη"><supplied reason="lost">εἰσώστων</supplied></w>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="5"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <w lemma="ταμεῖον"><supplied reason="lost" cert="low">ταμεῖ</supplied><unclear reason="damage">ο</unclear>ν</w>  <w lemma="ἀργύριος">αργ<unclear reason="damage">υ</unclear><supplied reason="lost">ρίου</supplied></w>  <gap reason="lost" extent="unknown" unit="character" dim="right"/></ab>
 </div>

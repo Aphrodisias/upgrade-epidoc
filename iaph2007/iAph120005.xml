@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120005" n="iAph1049 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120005" n="iAph1049 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -40,7 +40,7 @@
 
 <div type="description" n="letters">
 <head>Description of Letters</head>
-<p><measure type="length" dim="none">0.025</measure>-<measure type="length" dim="none">0.028</measure></p>
+<p><measure type="length" dim="height">0.025</measure>-<measure type="length" dim="height">0.028</measure></p>
 </div>
 
 <div type="description" n="date">
@@ -48,7 +48,7 @@
 
 <p><date notBefore="0001" notAfter="0100" exact="none">First century A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <seg type="autopsy"><w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w></seg> <lb n="2"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">ἡ</w> <w lemma="γερουσία">γερο<seg type="autopsy">υσία</seg></w> <w lemma="τιμάω"><seg type="autopsy">ἐτεί</seg><lb n="3" type="worddiv"/>μησαν</w> <w lemma="ὁ">ταῖ<seg type="autopsy">ς</seg></w> <w lemma="καλός"><seg type="autopsy">καλλίσ</seg><lb n="4" type="worddiv"/>ταις</w> <w lemma="τιμή">τειμαῖ<seg type="autopsy">ς</seg></w> <persName type="aphrodisian"><seg type="autopsy"><name reg="Ἀμμία">Ἀμμίαν</name></seg><lb n="5"/> <persName type="aphrodisian"><name reg="Ἄτταλος">Ἀττάλου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Πυθέας"><seg type="autopsy">Πυθ</seg>έ<lb n="6" type="worddiv"/>ου</name></persName></persName></persName> <w lemma="γένος">γένους</w> <w lemma="πρῶτος"><seg type="autopsy">πρώτου</seg></w> <lb n="7"/> <w lemma="καί">καὶ</w> <w lemma="συνκτίζω">συνεκτ<seg type="autopsy">ικότος</seg></w> <lb n="8"/> <w lemma="ὁ">τὴν</w> <w lemma="πατρίς">πατρίδα</w> <seg type="autopsy"><w lemma="ἐν">ἐν</w></seg> <w lemma="γυμνασιαρχία"><seg type="autopsy">γυ</seg><lb n="9" type="worddiv"/>μνασιαρχία<seg type="autopsy">ις</seg></w> <seg type="autopsy"><w lemma="καί">καὶ</w></seg> <w lemma="στεφανηφορία"><seg type="autopsy">στε</seg><lb n="10" type="worddiv"/>φανηφορίαις</w>  <w lemma="γίγνομαι"><seg type="autopsy">γεγο</seg>νό<lb n="11" type="worddiv"/>τος</w> <w lemma="γυνή">γυναῖκα</w> <w lemma="γίγνομαι">γενομέ<lb n="12" type="worddiv"/>νην</w> <persName type="aphrodisian"><name reg="Ἄδραστος">Ἀδράστου</name> <w lemma="ὁ">τοῦ</w> <lb n="13"/> <persName type="aphrodisian"><name reg="Νεικότειμος">Νεικοτείμου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἀρτεμίδωρος">Ἀρ<lb n="14" type="worddiv"/>τεμιδόρου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ζήνων"><seg type="autopsy">Ζή</seg>νω<lb n="15"/> νος</name> <name reg="Ἱέραξ">Ἱέρακος</name></persName></persName></persName></persName> <w lemma="ὁ">το<seg type="autopsy">ῦ</seg></w> <w lemma="στεφανηφόρος"><seg type="autopsy">στε</seg>φ<lb n="16" type="worddiv"/>ανηφόρου</w> <w lemma="καί">καὶ</w> <seg type="autopsy"><w lemma="φιλόδοξος">φιλοδόξου</w></seg> <lb n="17"/> <w lemma="ζάω">ζήσασαν</w> <w lemma="σώφρων">σ<seg type="autopsy">ωφρόνως</seg></w> <lb n="18"/> <w lemma="καί">καὶ</w> <w lemma="πρός">πρὸς</w> <w lemma="ὑπόδειγμα">ὑπό<seg type="autopsy">δειγμα</seg></w> <w lemma="ἀρετή">ἀ<lb n="19" type="worddiv"/>ρετῆς</w>  <g type="stop"/> <w lemma="ὁ">τὰς</w> <w lemma="δέ">δ<seg type="autopsy">ὲ</seg></w> <w lemma="τιμή"><seg type="autopsy">τειμὰ</seg>ς</w> <lb n="20"/> <w lemma="ἀνατίθημι">ἀνέθηκεν</w> <persName type="aphrodisian"><name reg="Ἄδραστος"><seg type="autopsy"> Ἄδραστος</seg></name><lb n="21"/> <persName type="aphrodisian"><name reg="Νεικότειμος">Νεικοτείμο<seg type="autopsy">υ</seg></name></persName></persName> <seg type="autopsy"><w lemma="ὁ">ὁ</w> <w lemma="ἀνήρ">ἀνὴρ</w></seg> <lb n="22"/><space extent="unknown" unit="character" dim="horizontal"/> <w lemma="αὐτός">αὐτῆ<seg type="autopsy">ς</seg></w> <space extent="unknown" unit="character" dim="horizontal"/></ab> 

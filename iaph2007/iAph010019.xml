@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010019" n="iAph0113 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010019" n="iAph0113 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,9 +46,9 @@
         <p>Texts i and ii are disposed on either side of a design
 described previously as a table, but in fact a measure. There are
 three of these marked out on the wall: 1. To the left of 113.ii, worn
-at the left; at least <measure dim="none">0.60</measure>. 2. To the right of 113.i; well cut, <measure dim="none">0.29</measure>,
+at the left; at least <measure dim="height">0.60</measure>. 2. To the right of 113.i; well cut, <measure dim="height">0.29</measure>,
 surmounted by a cross. 3. 5th block to east with a central divide -
-<measure dim="none">0.62</measure>, divided into two spans of roughly <measure dim="none">0.305</measure>.</p>
+<measure dim="height">0.62</measure>, divided into two spans of roughly <measure dim="height">0.305</measure>.</p>
         <p>Text i, to the left, impinges slightly on this; text ii is
 to the right.</p>
         
@@ -56,13 +56,13 @@ to the right.</p>
 
       <div type="description" n="letters">
 		<head>Description of letters</head>
-		<p> i: <measure dim="none">0.04-0.09</measure>, deep and clear; ii
-<measure dim="none">0.045</measure>, roughly cut.</p></div><div type="description" n="date">
+		<p> i: <measure dim="height">0.04-0.09</measure>, deep and clear; ii
+<measure dim="height">0.045</measure>, roughly cut.</p></div><div type="description" n="date">
         <head>Date</head>
         <p><date notAfter="0600" exact="none" notBefore="0401">Fifth to sixth centuries</date> or later (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>)</p>
       </div>
 
-      <div type="edition" lang="grc">
+      <div type="edition" lang="grc" xml:space="preserve">
       <head lang="en">Edition</head>
 			
 			<div type="textpart_section" n="i"><ab>

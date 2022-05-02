@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Funerary inscription for Aurelia Zotike and her father</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph130108</idno>
+            <idno type="IAph2007">iAph130108</idno>
+            <idno type="JMR2004">iAph1446</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <material key="marmor">White marble</material>
+                              <objectType>sarcophagus</objectType>, with lid, with <rs type="decoration">garland</rs>s surrounding the <rs type="decoration">bust</rs>s of a woman (left) and a man. For a fuller description see bibliography.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> on the central <rs type="decoration">tabella</rs> (<width unit="metre">0.44</width> x <height unit="metre">0.48</height>), l.1, on the upper moulding, ll. 2 ff. in the tabella impinging on all its mouldings. The lower moulding of the sarcophagus has been damaged, and may once have carried the concluding phrases of the funerary formulae which are missing here.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote> Reasonably well designed and aligned, in the second-to-fourth-century style; l. 1, <height unit="metre">0.015-0.02</height>; ll. 2 ff., ave. <height unit="metre">0.02</height>. Ligatured <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΜΗ</foreign> (l. 5); <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗ</foreign> (ll. 2, 8, 13); <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗΡ</foreign> (l. 8). Unconventional spelling in ll. 9, 10, 11, 12; slanting line before the figure in l. 14.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Findspot</rs>
+                     </origPlace>
+                     <origDate notBefore="0201" notAfter="0250" precision="medium">
+Probably  first half of the third century
+ (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>, <rs type="criteria">spelling</rs>).</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">In <rs type="monuList">Necropolis, North-east</rs> chamber tomb, with <ref type="inscription" n="1445" target="130111.xml"/> (=410), <ref type="inscription" n="1447" target="130109.xml"/> (=412), <ref type="inscription" n="1448" target="130110.xml"/> (=414), <ref type="inscription" n="1449" target="130101.xml"/> (=415).</rs>
+                  </provenance>
+                  <provenance type="observed">
+                     <rs type="lastLocation">Museum</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType" key="sacer">Religious</rs>
+               </term>
+               <term>
+                  <rs type="textType">Funerary</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2007-04-04" who="GB">DONE</change>
+         <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+<ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="σορός">σορός</w> <w lemma="εἰμί">ἐστιν</w> <persName type="attested"><name nymRef="#Αὐρηλία">Αὐρηλίας</name> <lb n="2"/> <name nymRef="#Ζωτική">Ζωτικῆς</name></persName> <w lemma="ὁ"><hi rend="ligature">τῆ</hi>ς</w> <w lemma="καί">κα<unclear reason="damage">ὶ</unclear></w> <lb n="3"/> <persName type="attested"><name nymRef="#Ζωτικός">Ζωτικοῦ</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Πανκράτης">Πα<lb n="4" break="no"/>νκράτου</name> <w lemma="ὁ">τοῦ</w> <w lemma="καί">καὶ</w> <lb n="5"/> <name nymRef="#Δημήτριος">Δ<hi rend="ligature">ημη</hi>τρίου</name></persName></persName> <w lemma="εἰς">εἰς</w> <w lemma="ὅς">ἣ<lb n="6" break="no"/>ν</w> <w lemma="θάπτω">ταφήσεται</w> <w lemma="αὐτός">αὑτὴ</w> <lb n="7"/> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Αὐρήλιος">Αὐρήλιος</name> <name nymRef="#Ζωτικός">Ζωτι<lb n="8" break="no"/>κὸς</name></persName> <w lemma="ὁ">ὁ</w> <w lemma="πατήρ">πά<hi rend="ligature">τηρ</hi></w> <w lemma="αὐτός">αὐ<hi rend="ligature">τῆ</hi>ς</w> <lb n="9"/> <w lemma="ἕτερος">ἕταιρος</w> <w lemma="δέ">δὲ</w> <w lemma="οὐδείς"><orig reg="οὐδεὶς">οὐδὶς</orig></w> <lb n="10"/> <w lemma="ἕξις">ἕξι</w> <w lemma="ἐξουσία">ἐξουσίαν</w> <w lemma="ἐνθάπτω">ἐ<supplied reason="omitted">ν</supplied>θά<lb n="11" break="no"/>ψε</w> <w lemma="τις">τινὰ</w> <w lemma="ἤ">ἢ</w> <w lemma="ἐκθάπτω">ἐχθάψε<sic n="superfluous">ν</sic></w><lb n="12"/> <w lemma="ἐπί">ἐπὶ</w> <sic n="superfluous"><orig n="unresolved">αεπι</orig></sic> <w lemma="ἀποτίνω">ἀποτίσει</w> <w lemma="ὁ">τῇ</w> <lb n="13"/> <w lemma="θεός">θεῷ</w> <persName type="divine"><name nymRef="#Ἀφροδίτη">Ἀφροδί<hi rend="ligature">τῃ</hi></name></persName> <w lemma="δηνάριον">δηνάρι<lb n="14" break="no"/>α</w> <num value="5000">ε</num> <w lemma="εἰμί">ὧν</w> <w lemma="ὁ">τὸ</w> <w lemma="τρίτος">τρίτον</w> <w lemma="εἰμί">ἔστω</w> <lb n="15"/> <w lemma="ὁ">τοῦ</w> <w lemma="ἐκδικέω">ἐκδικήσαντος</w><lb n="15a"/><gap extent="unknown" reason="lost" unit="line"/></ab>
+</div>
+         <div type="translation">
+            <p>The sarcophagus is the property of Aurelia Zotike also called daughter of Zotikos son of Pankrates who was also called Demetrios, in which she shall be buried herself and Aurelius Zotikos her father; but no-one else shall have the right to bury anyone in it or to remove anyone since (if he does) he will pay the goddess Aphrodite 5000 denarii, of which one third is to belong to the prosecutor.</p>
+         </div>
+         <div type="commentary">
+            <p>It is virtually certain that one line has dropped out between ll. 2 and 3, so that Zotike's second name and the beginning of her father's gentile name have been omitted. In l. 12 letters 4-7 probably show a misunderstanding or mistranscription of the phrase <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ἐπεὶ ἐσται ἀσεβὴς καὶ ἐπάρατος καὶ τυμβωρύχος καὶ ἀποτείσει</foreign>.The father looks likely to have been the first Roman citizen in the family, no doubt obtaining citizenship in 212. The names suggest a comparatively modest social status. Nothing is said of anything but the sarcophagus, but the funerary fine is a little above average.</p>
+            <p>The sarcophagus was found in a chamber-tomb along with <ref type="inscription" n="1445" target="130111.xml"/>, <ref type="inscription" n="1447" target="130109.xml"/>, <ref type="inscription" n="1448" target="130110.xml"/> and another (<ref type="inscription" n="1449" target="130101.xml"/>) of a different type. The inscriptions ought to be of approximately the same period; they are certainly all of the third century, probably all of its first half. The owner's father was perhaps the first of the family to obtain Roman citizenship, doing so under the Edict of Caracalla in A.D. 212. That is the obvious explanation for her alternative nomenclature, which is that of a non-citizen. Despite her genealogy the family sounds of comparatively modest status.</p>
+         </div>
+         <div type="bibliography">
+            <p>Published by<bibl n="rrrs2006">
+                  <author>Smith</author>, <title>Roman Portrait Statuary from Aphrodisias</title>,  <citedRange>Sarcophagus 12</citedRange>
+               </bibl>, by <bibl n="jmr2003">
+                  <author>Reynolds and Isik</author>, no. <citedRange>179</citedRange>
+               </bibl>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

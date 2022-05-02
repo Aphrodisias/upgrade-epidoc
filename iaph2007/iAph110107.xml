@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110107" n="iAph1057 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110107" n="iAph1057 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <persName type="aphrodisian"><name reg="Ἀθηναγόρας"><supplied reason="lost">Ἀ</supplied>θ<hi rend="ligature">ην</hi>αγόρου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name>Ἀν<gap reason="lost" extent="unknown" unit="character"/></name><persName type="aphrodisian"><name><gap reason="lost" extent="unknown" unit="character"/>ρέου</name></persName></persName></persName> <w lemma="ὁ">τοῦ</w> <orig n="unresolved">α<unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">λιο</orig><gap reason="lost" extent="4" unit="character"/><orig n="unresolved">ου</orig><gap reason="lost" extent="2" unit="character"/><orig n="unresolved">υ</orig> <w lemma="καί">καὶ</w> <persName type="aphrodisian" cert="low"><orig n="unresolved"><name>θησ</name></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/></persName>  </ab>
 </div>

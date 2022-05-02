@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010139" n="iAph0310 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010139" n="iAph0310 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -41,7 +41,7 @@
 
 <div type="description" n="letters">
 <head>Description of Letters</head>
-<p> l. 1 <measure dim="none">0.035</measure>; ll. 2-4 <measure dim="none">0.03</measure>.</p>
+<p> l. 1 <measure dim="height">0.035</measure>; ll. 2-4 <measure dim="height">0.03</measure>.</p>
 </div>
 
 <div type="description" n="date">
@@ -49,7 +49,7 @@
 
 <p><date exact="none" notBefore="0101" notAfter="0300" cert="low">Second or third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="1"/><orig n="unresolved">α<unclear reason="damage">υ</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="2"/><orig n="unresolved">μ<unclear reason="damage">ε</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="3"/><orig n="unresolved">δ</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="4"/><orig n="unresolved"><unclear reason="damage">μ</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="4a"/><gap dim="bottom" reason="lost" extent="unknown" unit="line"/>  <space unit="line" extent="1" dim="vertical"/></ab>

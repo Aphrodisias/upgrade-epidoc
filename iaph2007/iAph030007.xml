@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph030007" n="iAph0030 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph030007" n="iAph0030 ">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -52,7 +52,7 @@
          </div>
          <div type="description" n="text">
             <head>Description of Text</head>
-            <p>Cut on the smooth surface, <measure type="length" dim="none">0.145</measure> below the fluting.</p>
+            <p>Cut on the smooth surface, <measure type="length" dim="height">0.145</measure> below the fluting.</p>
          </div>
          <div type="description" n="letters">
             <head>Description of Letters</head>
@@ -62,7 +62,7 @@
             <head>Date</head>
             <p><date exact="none" cert="low" notBefore="0368" notAfter="0400">Later fourth century A.D.</date>.</p>
          </div>
-         <div n="text" lang="grc" type="edition">
+         <div n="text" lang="grc" type="edition" xml:space="preserve">
             <head lang="en">Edition</head>
             <ab>
                <lb n="1"/><persName type="aphrodisian" key="Menander2" full="yes"><name reg="Μένανδρος"><hi rend="ligature">Με</hi>νάν<lb n="2" type="worddiv"/>δρου</name></persName> <w lemma="πολιτεύομαι"><expan><abbr>π<hi rend="superscript">ο</hi></abbr><supplied reason="abbreviation">λιτευομένου</supplied></expan></w>

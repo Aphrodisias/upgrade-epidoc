@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph040019" n="iAph0066 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph040019" n="iAph0066 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -60,7 +60,7 @@
         <p><date exact="none" cert="low" notBefore="0468" notAfter="0500">Late fifth century</date>.</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab><lb n="1"/><g type="cross"/> <persName key="philip1" type="aphrodisian" full="yes"><name reg="Φίλιππος">Φίλιππος</name> <persName key="Herodian" type="aphrodisian" full="yes"><name reg="Ἡροδιανός"><expan><abbr>Ἡροδιαν</abbr><supplied reason="abbreviation">οῦ</supplied></expan></name></persName></persName> <w lemma="ὁ">ὁ</w> <rs type="dignity" key="admirandissimus"><w lemma="θαυμάσιος"><expan><abbr>θαυμ</abbr><supplied reason="abbreviation">ασιώτατος</supplied></expan></w></rs> <w lemma="εὐχαριστέω">εὐχαριστῶν</w> <w lemma="ὁ">τῇ</w> <w lemma="οἰκία">οἰκίᾳ</w> <w lemma="πατρίς">πατρίδι</w> <w lemma="ὁ">τὰ</w> <num value="2"><hi rend="supraline">β</hi></num> <w lemma="διάχωρον">διάχορα</w> <w lemma="σκεπάζω">ἐσκέπασεν</w> <g type="cross"/></ab>
       </div>

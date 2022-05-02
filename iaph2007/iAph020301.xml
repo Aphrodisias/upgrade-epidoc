@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020301" n="iAph1734 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020301" n="iAph1734 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notAfter="-0100" notBefore="-0001" exact="none" cert="low">Probably first century B.C.</date>
 (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <persName type="aphrodisian"><name reg="Ἀθηναγόρας">Ἀθηνα<supplied reason="lost">γόρ<gap reason="lost" extent="3" unit="character"/></supplied></name>  <lb n="2"/><w lemma="ὁ"><supplied reason="lost">τ</supplied><unclear reason="damage">ο</unclear>ῦ</w>  <persName type="aphrodisian"><name reg="Εὔμαχος">Εὐ<supplied reason="lost">μάχου</supplied></name></persName></persName>  <lb n="3"/><gap reason="lost" extent="2" unit="character"/><unclear reason="damage">Ξ</unclear>Α<unclear reason="damage">Ο</unclear><gap reason="lost" extent="3" unit="character"/>  <lb n="4"/><gap reason="lost" extent="3" unit="character"/>  </ab>
 </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph040312" n="iAph0173 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph040312" n="iAph0173 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -50,7 +50,7 @@ abbreviations: last letter above line, and apostrophe.</p>
         <p><date notAfter="1000" exact="none" notBefore="0901">Tenth century</date> or later (<rs type="criteria">lettering</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab><lb n="1"/><w lemma="ἐνταῦθα"><expan><abbr><supplied reason="lost">ἐν</supplied>ταῦθ</abbr><supplied reason="abbreviation">α</supplied></expan></w> <w lemma="κεῖμαι"><expan><abbr>κεῖτ</abbr><supplied reason="abbreviation">αι</supplied></expan></w> <w lemma="ὁ">τὸ</w> <w lemma="λείμψανον">λείμψανον</w> <g type="stop"/> <persName type="aphrodisian" key="nicolaus1" full="yes"><name reg="Νικόλαος"><expan><abbr>Νικολ<app type="previouslyread"><rdg resp="previous"><hi rend="superscript">ά</hi></rdg><rdg resp="autopsy"><gap reason="lost" extent="1" unit="character"/></rdg></app></abbr><supplied reason="abbreviation">ου</supplied></expan></name></persName></ab>
 	

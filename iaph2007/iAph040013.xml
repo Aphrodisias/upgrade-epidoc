@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph040013" n="iAph0186 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph040013" n="iAph0186 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,7 +26,7 @@
   <respStmt><name>Juan Garcés</name></respStmt>
   <item>tagged Greek; tidied</item>
   </change>
-  <change><date>2003-08-29</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-03-8</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <change><date>2003-08-29</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-03-08</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
   <text>
     <body>
 
@@ -55,7 +55,7 @@ upright of a cross. They are tall: i, <measure precision="circa" type="length" u
         <head>Date</head><ab><date notBefore="0401" notAfter="0600">Fifth-sixth century</date> (<rs type="criteria">content</rs>)</ab>
       </div>
 
-      <div type="edition" lang="grc">
+      <div type="edition" lang="grc" xml:space="preserve">
         <head lang="en">Edition</head>
         
        <div type="textpart_section" n="i"><ab><lb n="1"/> <rs type="subject" key="factions"><rs type="subject" key="acclamations"><w lemma="νικάω">νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w></rs> <w lemma="ὁ">τῶν</w><lb n="2"/> <w lemma="πράσινος"><expan><abbr><orig><g type="monogram"/></orig></abbr><supplied reason="abbreviation">Πρασίνων</supplied></expan></w> </rs></ab></div>       

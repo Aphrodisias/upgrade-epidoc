@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph040201" n="iAph1300 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph040201" n="iAph1300 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -21,7 +21,7 @@ Antoninus Pius</title>
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="personType" key="imperatorius">Imperial</rs></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2007-03-06</date><respStmt><name>GB</name></respStmt><item>DONE</item></change><change><date>2007-01-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2007-03-06</date><respStmt><name>GB</name></respStmt><item>DONE</item></change><change><date>2007-01-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -40,7 +40,7 @@ Antoninus Pius</title>
 <date notBefore="0138" notAfter="0161" exact="both">A.D. 138-161</date>
 (<rs type="criteria">reign</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <persName type="emperor" full="yes"><w lemma="αὐτοκράτωρ">Αὐτοκράτορα</w>  <lb n="2"/><name reg="Καῖσαρ">Καίσαρα</name>  <name reg="Τίτος" type="praenomen">Τίτον</name>  <lb n="3"/><name reg="Αἴλιος">Αἴλιον</name>  <name reg="Ἁδριανός">Ἁδρια<lb n="4"/>νὸν</name>  <name reg="Ἀντωνεῖνος">Ἀντωνεῖ<lb n="5" type="worddiv"/>νον</name>  <w lemma="σεβαστός">Σεβασ<lb n="6" type="worddiv"/>τὸν</w>  <name reg="Εὐσεβής">Εὐσε<unclear reason="damage">β</unclear>ῆ</name></persName>  <lb n="7"/><space extent="2" unit="character" dim="horizontal"/>  <w lemma="ὁ">ὁ</w>  <w lemma="δῆμος">δῆμ<supplied reason="lost">ο</supplied>ς</w>  <lb n="8"/><w lemma="ἐκ">ἐξ</w>  <w lemma="εἰμί">ὧν</w>  <w lemma="ὑπισχνέομαι">ὑπ<supplied reason="lost">έ</supplied><unclear reason="damage">σ</unclear>χε<lb n="9" type="worddiv"/>το</w>  <persName type="aphrodisian" full="yes"><name reg="Ἄδραστος">Ἄδρα<unclear reason="damage">σ</unclear>τος</name> <lb n="10"/><persName type="aphrodisian"><name reg="Ἄδραστος">Ἀδράστ<unclear reason="damage">ο</unclear>υ</name> <w lemma="ὁ">  τοῦ</w>  <lb n="11"/><persName type="aphrodisian"><name reg="Ἀπολλώνιος"><supplied reason="lost">Ἀ</supplied>πολλωνίου</name> <lb n="12"/><w lemma="ὁ"><supplied reason="lost">τ</supplied>οῦ</w>  <persName type="aphrodisian"><name reg="Ἄνδρων">Ἀνδρῶνος</name><lb n="13"/><supplied reason="lost"><space extent="1" unit="character" dim="horizontal"/></supplied>  <name reg="Ἄτταλος"><supplied reason="lost">Ἀ</supplied>ττάλου</name></persName></persName></persName></persName>  <space extent="1" unit="character" dim="horizontal"/></ab>
 </div>
@@ -56,7 +56,7 @@ Antoninus Pius</title>
 </div>
 <div type="history" n="locations">
 <head>Locations</head>
-<p> <rs type="origLocation"><rs type="monuList">South Agora, Agora Gate</rs>: on the Agora Gate</rs> <rs type="found"><rs type="monuList">South Agora, Agora Gate</rs>: i, at <measure precision="circa" dim="none" type="length" unit="metre">-3.50</measure>; perhaps fallen from the gate.</rs> <rs type="lastLocation">Museum (1980)</rs>
+<p> <rs type="origLocation"><rs type="monuList">South Agora, Agora Gate</rs>: on the Agora Gate</rs> <rs type="found"><rs type="monuList">South Agora, Agora Gate</rs>: i, at <measure precision="circa" dim="height" type="length" unit="metre">-3.50</measure>; perhaps fallen from the gate.</rs> <rs type="lastLocation">Museum (1980)</rs>
 </p>
 </div>
 <div type="history" n="record">

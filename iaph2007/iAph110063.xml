@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110063" n="iAph0079 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110063" n="iAph0079 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -60,7 +60,7 @@
         <p><date exact="none" cert="low" notBefore="0301" notAfter="0500">Fourth/fifth century</date> (<rs type="criteria">lettering</rs>).</p>
       </div>
 
-      <div n="text" lang="la" type="edition">
+      <div n="text" lang="la" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab><lb n="1"/><g type="cross"/> <rs key="acclamations" type="subject"><w lemma="felix">Felix</w> <w lemma="semper">semper </w></rs><g type="head"/> <persName key="Scholasticius" type="aphrodisian" full="yes"><name reg="Scholasticius">Scholast<supplied reason="lost" cert="low">icius</supplied></name></persName></ab>
       </div>

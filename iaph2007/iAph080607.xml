@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080607" n="iAph0111 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080607" n="iAph0111 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -38,8 +38,8 @@
 
       <div type="description" n="monument">
         <head>Description of Monument</head>
-        <p>A smooth <rs type="material" key="marmor">white marble</rs> <rs type="objectType">column</rs> drum (H. <measure dim="none">1,42</measure>, diam.
-<measure dim="none">0.60</measure>).</p>
+        <p>A smooth <rs type="material" key="marmor">white marble</rs> <rs type="objectType">column</rs> drum (H. <measure dim="height">1,42</measure>, diam.
+<measure dim="height">0.60</measure>).</p>
       </div>
 
       <div type="description" n="text">
@@ -58,7 +58,7 @@ simple; square <foreign>sigma</foreign>. There are some traces of further painte
         <p><date notAfter="0600" exact="none" cert="low" notBefore="0401">Fifth/sixth century</date> (lettering, findspot).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab>
 		  		<lb n="1"/><g type="cross"/> <w lemma="ἔχω">σχῇ</w> <w lemma="πρός">πρὸς</w> <w lemma="ὁ">τὸ</w> <w lemma="βῆμα">βῆμα</w> <w lemma="ὁ">τοῦ</w><lb n="2"/> <persName key="Christ" type="divine" full="yes"><name reg="Χριστός">Χριστοῦ</name></persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὴν</w> <w lemma="αἰώνιος">ἐωνίαν</w><lb n="3"/> <w lemma="κρίσις">κρίσιν</w> <w lemma="ὁ">ὁ</w> <w lemma="κλέπτω">κλέπτον</w> <w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τοῦ</w><lb n="4"/> <w lemma="τόπος">τόπου</w> <w lemma="οὗτος">τούτου</w> <w lemma="τις">τί</w> <w lemma="ποτε">ποτε</w>. 

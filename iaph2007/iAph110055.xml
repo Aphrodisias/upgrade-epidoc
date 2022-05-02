@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110055" n="iAph0701 ">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110055" n="iAph0701 ">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -127,7 +127,7 @@
                A.D.</date> (Reynolds/Tannenbaum, <rs type="criteria">lettering</rs>); <date notAfter="0500" notBefore="0468">fifth century A.D.</date> (Chaniotis, <rs type="criteria">nomenclature</rs>).</p>
          </div>
 
-         <div type="edition" lang="grc">
+         <div type="edition" lang="grc" xml:space="preserve">
             <head lang="en">Edition</head>
 
             <div type="textpart_column" n="a">

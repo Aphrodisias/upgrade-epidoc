@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph040304" n="iAph1544 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph040304" n="iAph1544 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <date notAfter="0200" notBefore="0001" exact="none">First to second centuries A.D.</date>
 (<rs type="criteria">lettering</rs>, style of decoration).</p>
 </div>
-<div type="edition" lang="la">
+<div type="edition" lang="la" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/>  <gap reason="lost" extent="1" unit="line"/>  <lb n="1"/> <w>speculator </w> <w><expan><abbr>legion</abbr><supplied reason="abbreviation">is</supplied></expan></w> <num value="3">III</num> <placeName type="ethnic">Gallicae</placeName></ab>
 </div>

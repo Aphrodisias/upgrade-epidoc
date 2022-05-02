@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150298" n="iAph1346 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150298" n="iAph1346 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -42,7 +42,7 @@
 <head>Date</head>
 <p>Probably <date cert="low" exact="none" notAfter="0300" notBefore="0101">second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/>  <gap reason="lost" extent="unknown" dim="left" unit="character"/><w lemma="ἀσεβέω"><supplied reason="lost">ἀ</supplied><lb n="1"/><supplied reason="lost">σέ</supplied><unclear reason="damage">β</unclear>ης</w> κα<supplied reason="lost">ὶ</supplied> <supplied reason="lost"><w lemma="ἐπάρατος">ἐπαρατος</w>  <w lemma="καί">καὶ</w></supplied> <w lemma="τυμβωρύχος">τυμβω  <lb n="2" type="worddiv"/><supplied reason="lost">ρ</supplied><unclear reason="damage">ύ</unclear>χος</w> καὶ π<supplied reason="lost">ροσαποτείσει</supplied><gap extent="unknown" dim="right" reason="lost" unit="character"/><supplied reason="lost" cert="low"><w lemma="πρός">πρὸς</w> <w lemma="ὁ">τὸ</w></supplied>  <lb n="3"/><w lemma="ἱερός"><supplied reason="lost">ἱ</supplied>ερώτατο<unclear reason="damage">ν</unclear></w> <w lemma="ταμεῖον"><supplied reason="lost" cert="low">ταμεῖον</supplied></w> <gap reason="lost" extent="unknown" unit="character" dim="right"/>  </ab>
 </div>
@@ -59,7 +59,6 @@
 <head>Locations</head>
 <p>
 <rs type="found">Stray in 1965</rs>
-<rs type="lastLocation">Museum</rs>
 <rs type="origLocation">Unknown</rs>
 <rs type="lastLocation">Museum (1977)</rs>
 </p>

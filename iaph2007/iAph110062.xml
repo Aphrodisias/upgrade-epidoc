@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110062" n="iAph0002 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110062" n="iAph0002 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -71,7 +71,7 @@ ll.1-2, <measure type="length" unit="metre" dim="height">0.025</measure>; ll.3-5
 (<rs type="criteria">reign</rs>).</p>
 </div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/><persName reg="Σαλωνεῖνα" type="emperor" key="Salonina" full="yes"><name type=" " reg="Ἰουλία"><supplied reason="lost">Ἰουλίαν</supplied></name> <name reg="Κορνηλία"><supplied reason="lost">Κορνη</supplied><lb n="1" type="worddiv"/><unclear reason="damage">λί</unclear>αν</name> <name reg="Σαλωνεῖνα">Σα<unclear reason="damage">λ</unclear>ω<unclear reason="damage">ν</unclear><supplied reason="lost">εῖ</supplied><lb n="2" type="worddiv"/>ναν</name> <rs key="augusta" reg="Augusta" type="dignity"><w lemma="σεβαστός">Σεβαστ<hi rend="ligature">ὴ<unclear reason="damage">ν</unclear></hi></w></rs></persName><lb n="2a"/><space dim="vertical" extent="1" unit="line"/><lb n="3"/><w lemma="ὁ">ἡ</w> <rs key="clarissimus" reg="clarissimus" type="dignity"><w lemma="λαμπρός">λαμπροτά<hi rend="ligature">τη</hi></w></rs> <w lemma="Ἀφροδεισιεύς">Ἀ<lb n="4" type="worddiv"/>φροδει<unclear reason="damage">σ</unclear><supplied reason="lost">ι</supplied>έων</w> <rs type="subject" key="city"><w lemma="πόλις">πό<lb n="5" type="worddiv"/><g type="scroll"/> <supplied reason="lost">λις</supplied></w></rs>
  <g type="scroll"/>

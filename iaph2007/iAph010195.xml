@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010195" n="iAph0159 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010195" n="iAph0159 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -57,7 +57,7 @@ deep, clear and ornate; lunate.</p>
         <p><date notAfter="0600" exact="none" cert="low" notBefore="0401">Fifth/sixth century</date> (content, metre).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab><lb n="1"/><gap dim="left" reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">ικ</unclear>λ<unclear reason="damage">ει</unclear>ανε<unclear reason="damage">λοφ</unclear></orig><gap dim="internal" reason="lost" unit="character" extent="1"/><orig n="unresolved">λομ</orig><gap dim="right" reason="lost" extent="unknown" unit="character"/><lb n="2"/><gap dim="left" reason="lost" unit="character" extent="unknown"/><orig n="unresolved">ην</orig> <w lemma="φθόνος">φθόνος</w> <w lemma="ἁρπάζω">ἁρπάξ<supplied cert="low" reason="lost">ας</supplied></w> <gap dim="right" reason="lost" unit="character" extent="unknown"/></ab>
       </div>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragment of honours, from Temple</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph010112</idno>
+            <idno type="IAph2007">iAph010112</idno>
+            <idno type="JMR2004">iAph0316</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno>65.409</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>  Fragment of <material key="marmor">white marble</material>
+                              <objectType reg="panel">panel</objectType> (<width unit="metre">0.095</width> × <height unit="metre">0.15</height> × <depth unit="metre">0.04</depth>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Ave. <height>0.02</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Unknown</rs>
+                     </origPlace>
+                     <origDate notBefore="0001" notAfter="0200" precision="medium">Perhaps first to second centuries A.D. (<rs type="criteria">lettering</rs>)</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList">Temple/Church</rs>: N. Narthex wall, during clearing of apse</rs>
+                  </provenance>
+                  <provenance type="observed" when="1977">
+                     <rs type="lastLocation">Museum (1977)</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+            <language ident="la">Latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType">honours</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2007-02-27" who="#GB">DONE</change>
+         <change when="2005-03-29" who="#GB">transferred to XML</change>
+         <change when="2004-11-18" who="#GB">Created dummy file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+
+<ab><lb n="0"/><gap extent="unknown" reason="lost" unit="line"/><lb n="1"/><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">α</unclear></orig><gap extent="unknown" reason="lost" unit="character"/><lb n="2"/><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><w lemma="κόσμος">οσμ</w></orig><gap extent="unknown" reason="lost" unit="character"/><lb n="3"/><gap extent="unknown" reason="lost" unit="character"/><gap extent="1" reason="illegible" unit="character"/><orig n="unresolved">αι<unclear reason="damage">γ</unclear></orig><gap extent="unknown" reason="lost" unit="character"/><lb n="4"/><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved">τε</orig><gap extent="unknown" reason="lost" unit="character"/><lb n="5"/><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved">φ</orig><gap extent="1" reason="illegible" unit="character"/><gap extent="unknown" reason="lost" unit="character"/><lb n="5a"/><gap extent="unknown" reason="lost" unit="line"/></ab>
+</div>
+         <div type="apparatus">
+            <p>l. 3, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Γ</foreign> might be <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">Π</foreign>.</p>
+         </div>
+         <div type="translation" n="none">
+            <p>No words discernible.</p>
+         </div>
+         <div type="commentary">
+            <p>The only letter-group strongly suggestive of an interpretation is in l. 2 where presumably we have part of <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κόσμος</foreign>  or a related word. It is a feature of some honorary texts that the subject was praised for living <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">κοσμίως</foreign>, in an orderly way, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="la">vel sim.</foreign>
+            </p>
+         </div>
+         <div type="bibliography" n="none">
+            <p>Unpublished.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020016" n="iAph1874 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020016" n="iAph1874 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notBefore="0168" notAfter="0251" exact="none">Severan</date> (<rs type="criteria">lettering</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_section" n="a"><ab><lb n="0"/>   <persName type="aphrodisian"><supplied reason="lost"><name reg="Τιβέριος" type="praenomen"><expan><abbr>Τιβ</abbr><supplied reason="abbreviation">έριος</supplied></expan></name></supplied> <name reg="Κλαύδιος"><supplied reason="lost">Κλαύ</supplied><lb n="1"/><supplied reason="lost">δ</supplied><unclear reason="damage">ιος</unclear></name>  <name reg="Ἄτταλος">Ἄττα<lb n="2" type="worddiv"/><unclear reason="damage">λος</unclear></name></persName>  <w lemma="συνκλητικός">συνκλη<lb n="3" type="worddiv"/><space extent="1" unit="character" dim="horizontal"/>τικός</w> <space extent="1" unit="character" dim="horizontal"/></ab></div><div type="textpart_section" n="b"><ab> <lb/><persName type="aphrodisian"><supplied cert="low" reason="lost"><persName type="aphrodisian"><name reg="Τιβέριος"><expan><abbr>Τιβ</abbr><supplied reason="abbreviation">έριος</supplied></expan></name></persName></supplied> <supplied reason="lost"><name reg="Κλαύδιος">Κλαύδιος</name></supplied> <lb n="1"/><name reg="Ἄτταλος">Ἄττα<supplied reason="lost">λ</supplied>ο<unclear reason="damage">ς</unclear></name></persName>  <lb n="2"/> <persName type="aphrodisian"><name reg="Διογένης">Διογένην</name></persName> <lb n="3"/> <w lemma="ὁ">τὸν</w> <w lemma="ἀδελφός"><unclear reason="damage">ἀδ</unclear>ε<supplied reason="lost">λ</supplied><lb n="4" type="worddiv"/><space extent="1" unit="character" dim="horizontal"/>φόν</w> <space extent="1" unit="character" dim="horizontal"/>  </ab></div>
 </div>

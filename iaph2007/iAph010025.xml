@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010025" n="iAph0121 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010025" n="iAph0121 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -59,7 +59,7 @@ clear cut.</p>
         <p><date notAfter="0600" exact="none" notBefore="0401">Fifth-sixth centuries A.D.</date> or later (<rs type="criteria">content</rs>, <rs type="criteria">location</rs>).</p>
       </div>
 
-      <div type="edition" lang="grc">
+      <div type="edition" lang="grc" xml:space="preserve">
         <head lang="en">Edition</head>
         <div type="textpart_section" n="i"><ab><lb n="1"/><persName type="aphrodisian" key="stephanus2" full="yes"><name reg="Στέφανος"><expan><abbr>Στέ<lb n="2" type="worddiv"/>φ<lb n="3" type="worddiv"/>α<lb n="4" type="worddiv"/>ν</abbr><supplied reason="abbreviation">ος</supplied></expan></name></persName>. </ab></div>
         

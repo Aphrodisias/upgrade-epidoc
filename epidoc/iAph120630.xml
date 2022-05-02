@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Funerary inscription for Eutychos</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph120630</idno>
+            <idno type="IAph2007">iAph120630</idno>
+            <idno type="JMR2004">iAph1421</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno>76.182</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Rough <material>white marble</material>
+                              <objectType>block</objectType> with chipped upper edge (<width unit="metre">0.44</width>   × <height unit="metre">0.41</height>   × <depth unit="metre">0.23</depth>); a rough raised edge surrounds the <rs type="decoration">bust</rs> of a young man in relief. See further Smith, loc. cit.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> below bust.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>Cursive, irregular; l. 1, <height unit="metre">0.015</height>; ll. 2-4, ave. <height unit="metre">0.01</height>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Unknown</rs>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0300" precision="medium">Second to third centuries A.D. (<rs type="criteria">sculpture</rs>)</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList">Walls, South (east part)</rs>:  excavation, mid area</rs>
+                  </provenance>
+                  <provenance type="observed" when="1978">
+                     <rs type="lastLocation">Museum (1978)</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType">Funerary</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2007-07-26" who="cmr">DONE</change>
+         <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
+         <change when="2007-01-01" who="GB">hand tidied</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+<ab><lb n="1"/>  <persName type="attested"><name nymRef="#Εὔτυχος">Εὔ<g ref="#bust"/>τυ<lb n="2" break="no"/>χος</name></persName> <w lemma="ἔνθαδε">ἔνθαδε</w> <w lemma="κεῖμαι"><orig reg="κεῖμαι">κῖμε</orig></w> <w lemma="ἔτος">ἔτων</w> <lb n="3"/> <w lemma="εἰμί">ὢν</w> <num value="18">ιη</num> <persName type="attested"><name nymRef="#Εὐνόη">Εὐνόε<choice><sic>ε</sic><corr>ς</corr></choice></name></persName> <w lemma="θρεπτός">θρεπτὸς</w> <lb n="4"/> <w lemma="νεώτερος">νεώτερος</w> <w lemma="εἰμί">ὢν</w> <w lemma="θνήσκω">ἔθανεν</w></ab>
+</div>
+         <div type="apparatus">
+            <p>l. 3, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΥΝΟΕΕ</foreign>
+            </p>
+         </div>
+         <div type="translation">
+            <p>I Eutychos lie here, being 18 years old; foster child of Eunoe, he died a young man (Reynolds)</p>
+            <p>or</p>
+            <p>Eutychos lies here, [who died] at the age of 18. Eunoes (?), (his) alumnus, died even younger.
+(Smith)</p>
+         </div>
+         <div n="notyet" type="commentary">
+            <p>
+               <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">νεώτερος</foreign> is used to describe an age class, apparently, but not certainly, interchageably with <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">νέος</foreign>  (see Roueché, PPA, p. 123), and is probably not a comparative.</p>
+         </div>
+         <div type="bibliography">
+            <p>Published by <bibl n="rrrs2006">
+                  <author>Smith</author>, <title>Roman Portrait Statuary from Aphrodisias</title>,  <citedRange>Relief 4</citedRange>
+               </bibl>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

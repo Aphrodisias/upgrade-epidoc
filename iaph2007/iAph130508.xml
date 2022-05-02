@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130508" n="iAph0106 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130508" n="iAph0106 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -59,7 +59,7 @@ and irregular; scroll for abbreviation; <foreign lang="grc">ΩΡ</foreign> in li
         <p><date notAfter="0700" cert="low" notBefore="0401">Fifth to seventh centuries A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">terminology</rs>)</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab><lb n="1"/><space dim="horizontal"/> <g type="cross"/> <persName key="Heliodorus" type="aphrodisian" full="yes"><name reg="Ἡλιόδωρος">Ἡλιόδ<hi rend="ligature">ωρ</hi>ος</name> <w lemma="ὁ">ὁ</w> <rs type="dignity" key="elachistos"><w lemma="ἐλάχιστος"><expan><abbr>ἐλάχ</abbr><supplied reason="abbreviation">ιστος</supplied></expan></w></rs></persName> <gap dim="right" reason="lost" unit="character" extent="unknown"/></ab>
       </div>

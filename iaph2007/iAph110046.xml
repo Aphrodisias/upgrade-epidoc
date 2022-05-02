@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110046" n="iAph1634 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110046" n="iAph1634 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -41,7 +41,7 @@
 <head>Date</head>
 <p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">nomenclature</rs>, <rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/><unclear reason="damage">Ι</unclear><gap reason="lost" extent="4" unit="character"/><unclear reason="damage">ΙΕ</unclear><gap reason="lost" extent="3" unit="character"/><unclear reason="damage">ΙΙΙΟ</unclear>Ρ<unclear reason="damage">.ΔΙ</unclear>Α<unclear reason="damage">ΙΟΙΑ</unclear>  <gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><gap reason="lost" extent="3" unit="character"/> <persName type="aphrodisian"><name reg="Στατίλιος">Στ<unclear reason="damage">α</unclear>τι<unclear reason="damage">λ</unclear>ίου</name> <name reg="Ζωτικός">Ζωτικοῦ</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ζωτικός">Ζωτικοῦ</name></persName></persName> <supplied reason="lost"><w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῇ</w></supplied>    <w lemma="ἰσώστη"><supplied reason="lost">ἰ</supplied>σώστῃ</w> <w lemma="κηδεύω">κεκήδευται</w> <persName type="aphrodisian"><name reg="Τιβέριος">Τιβ.</name> <name reg="Κλαύδιος">Κλαυ.</name></persName> <gap reason="lost" extent="1" unit="character"/>ΑΝΙ  <lb n="3"/><gap reason="lost" extent="3" unit="character"/> <persName type="aphrodisian"><name reg="Αἴλιος">Αἴλιος</name> <name reg="Ἡλιόδωρος">Ἡλιόδωρος</name></persName> <w lemma="ἕτερος"><unclear reason="damage">ἕτ</unclear><supplied reason="lost">ερος</supplied></w>  <supplied reason="lost"><w lemma="δέ">δὲ</w> <w lemma="οὐδείς">οὐδεὶς</w> <w lemma="ἔχω">ἕξει</w></supplied>      <w lemma="ἐξουσία"><supplied reason="lost">ἐ</supplied><unclear reason="damage">ξ</unclear>ουσίαν</w> <w lemma="ἐνθάπτω">ἐνθάψαι</w> <w lemma="τις">τινὰ</w> <w lemma="ἤ">ἢ</w> <w lemma="ἐκθάπτω">ἐκ<lb n="4" type="worddiv"/><supplied reason="lost">θάψαι</supplied></w>  <gap reason="lost" extent="3" unit="character"/>  </ab>
 </div>

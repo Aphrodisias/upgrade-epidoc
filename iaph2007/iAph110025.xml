@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110025" n="iAph1148 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110025" n="iAph1148 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -22,13 +22,13 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2007-04-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>DONE</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2007-04-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>DONE</item></change><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
 <head>Description of Monument</head>
 <p>Two  <rs type="material" key="marmor">white marble</rs> <rs type="objectType">architrave</rs> blocks, one complete  (<measure type="length" unit="metre" dim="width">1.57</measure> × <measure type="length" unit="metre" dim="height">0.42</measure> × <measure type="length" unit="metre" dim="depth">0.58</measure>) and one broken away at the right end and damaged above (<measure dim="width" type="length" unit="metre">0.99</measure> x <measure dim="height" type="length" unit="metre">0.42</measure> x <measure dim="depth" type="length" unit="metre">0.59</measure>), slightly curving, both with simple moulding above and between the two fasciae.</p></div><div type="description" n="text"><head>Description of Text</head><p>The first is <rs type="execution" key="scalpro">inscribed</rs> on both fasciae (ll.1 and 2 on upper, l. 3 on lower), the second on the upper one only; the texts have been erased at the left end of ll. 1 and 2, and are interrupted by a bad flaw in the stone.</p>
-</div><div type="description" n="letters"><head>Description of letters</head><p>Standard forms; ll.1, 2, <measure dim="none">0.048</measure>; l.3, <measure dim="none">0.05</measure>.</p>
+</div><div type="description" n="letters"><head>Description of letters</head><p>Standard forms; ll.1, 2, <measure dim="height">0.048</measure>; l.3, <measure dim="height">0.05</measure>.</p>
 </div>
 <div type="description" n="date">
 <head>Date</head>
@@ -36,7 +36,7 @@
 <date cert="low" notAfter="0150" notBefore="0101" exact="none"> Probably first half of second century A.D.</date>
 (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <gap reason="lost" extent="unknown" dim="left" unit="character"/><w lemma="καί">καὶ</w>  <persName type="aphrodisian" full="yes"><name reg="Μελίτιος">Μελίτιον</name>  <persName type="aphrodisian"><name reg="Πυθίων">Πυθίω<milestone unit="block"/>νος</name></persName></persName>  <lb n="2"/><gap reason="lost" extent="unknown" dim="left" unit="character"/><orig n="unresolved">ν</orig>  <w lemma="καί">καὶ</w>  <w lemma="ὁ">τ<gap extent="1" dim="internal" reason="lost" unit="character" id="gap04"/><certainty target="gap04" locus="#gi" degree="low" assertedValue="space"/>ὰ</w>  <w lemma="ἐν">ἐν</w>  <w lemma="αὐτός">αὐτοῖς</w>  <milestone unit="block"/>    <w lemma="πᾶς">πάντα</w> <lb n="3"/><gap reason="lost" extent="unknown" dim="left" unit="character"/>  <w lemma="ἐκ"><supplied reason="lost">ἐκ</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τ</supplied>ῶν</w>  <w lemma="ἴδιος">ἰδίων</w>  <gap reason="lost" extent="2" unit="character" dim="internal"/><space extent="7" unit="character" dim="horizontal"/><milestone unit="block"/> <space extent="1" unit="line" dim="horizontal"/></ab>
 </div>

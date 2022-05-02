@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080250" n="iAph1395 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080250" n="iAph1395 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <head>Date</head>
 <p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/>  <gap reason="lost" extent="insaph" unit="line" dim="top"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">ανο<unclear reason="damage">σ</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">η</unclear>θ<hi rend="ligature">ηη</hi><unclear reason="damage">σ</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">κ</unclear>των</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">ε</unclear>πι<unclear reason="damage">θ</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="4a"/><gap reason="lost" extent="insaph" unit="line" dim="bottom"/>  </ab>
 </div>
@@ -62,7 +62,7 @@
 <div type="history" n="locations">
 <head>Locations</head>
 <p>
-<rs type="found">portico E. of <rs type="monuList">Theatre</rs>, at <measure dim="none" type="length" unit="metre">-1.10</measure>.</rs>
+<rs type="found">portico E. of <rs type="monuList">Theatre</rs>, at <measure dim="height" type="length" unit="metre">-1.10</measure>.</rs>
 <rs type="lastLocation">Museum (1977)</rs>
 <rs type="origLocation">Unknown</rs>
 </p>

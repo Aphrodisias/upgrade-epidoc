@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph030006" n="iAph0029 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph030006" n="iAph0029 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -67,7 +67,7 @@
 <p><date exact="none" cert="low" notBefore="0368" notAfter="0400">Later fourth century</date> (<rs type="criteria">titulature</rs>, <rs type="criteria">lettering</rs>).</p>
 </div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><persName type="aphrodisian" key="pelagius" full="yes"><name type=" " reg="Φλάβιος"><expan><abbr>Φλ<orig><g type="scroll"/></orig></abbr><supplied reason="abbreviation">αουίου</supplied></expan></name>  <name type=" " reg="Πελάγιος">Πελαγίου</name> <lb n="2"/><name reg="Ἰωάννης">Ἰωάννου</name></persName> <lb n="3"/><w lemma="ὁ">τοῦ</w> <rs type="dignity" key="clarissimus"><w lemma="λαμπρός"><expan><abbr>λαμπ<hi rend="superscript">ρ</hi></abbr><supplied reason="abbreviation">οτάτου</supplied></expan></w></rs> <lb n="4"/><rs type="official-secul" key="praeses"><w lemma="ἡγεμών">ἡγεμόνος</w></rs>
 </ab>

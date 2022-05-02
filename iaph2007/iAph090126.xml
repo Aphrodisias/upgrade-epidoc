@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph090126" n="iAph0110 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph090126" n="iAph0110 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -40,10 +40,10 @@
         <head>Description of Monument</head>
         <p>Four <rs type="material" key="marmor">white marble</rs> fragments from the same <rs type="objectType">crowning feature</rs>, of which
 two join, to form c. The original feature was a slightly convex white
-<rs type="material" key="marmor">marble</rs> block (H. <measure dim="none">0.145</measure>, D. <measure dim="none">0.40</measure>), and decorated with relief patterns
+<rs type="material" key="marmor">marble</rs> block (H. <measure dim="height">0.145</measure>, D. <measure dim="height">0.40</measure>), and decorated with relief patterns
 on the underside; the block was therefore designed to be seen from
-below, and perhaps served a purpose similar to that of <xref type="inscription" n="99" href="010037">1.37</xref>. Length: a: <measure precision="circa" dim="none">0.50</measure>. b:
-<measure dim="none">0.53</measure>. c: two joining fragments. <measure dim="none">0.65</measure>.</p>
+below, and perhaps served a purpose similar to that of <xref type="inscription" n="99" href="010037">1.37</xref>. Length: a: <measure precision="circa" dim="height">0.50</measure>. b:
+<measure dim="height">0.53</measure>. c: two joining fragments. <measure dim="height">0.65</measure>.</p>
       </div>
 
       <div type="description" n="text">
@@ -64,7 +64,7 @@ above the line; star-shaped stop.</p>
         <p><date notAfter="1200" exact="none" notBefore="1101">Twelfth century</date> (<rs type="criteria">lettering</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 				<div type="textpart_fragment" n="a"><ab>
 					<lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">λ</unclear>φο</orig><gap dim="right" reason="lost" extent="unknown" unit="character"/>

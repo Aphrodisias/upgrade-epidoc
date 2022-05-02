@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010175" n="iAph0378 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010175" n="iAph0378 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -48,7 +48,7 @@
 
 <p> <date notAfter="0300" notBefore="0166" exact="none" cert="low">Late second to third centuries A.D.</date> (<rs type="criteria">prosopography</rs>).</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="1"/><gap extent="3" dim="left" reason="lost" unit="character"/><orig n="unresolved">υστ<unclear reason="damage">αμεν</unclear>ουσθε</orig><gap extent="3" dim="internal" reason="lost" unit="character"/>κ<unclear reason="damage">ΟΥΟΣΕΝΔΕΣΙΟ</unclear></ab><ab>ΣΠΙΘΕΝ<gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="2"/><persName type="aphrodisian"><name reg="Νεικόμαχος">Νεικόμαχος</name>  <name reg="Βλάστος">Βλάστος</name>  <w lemma="υἱός">υἱὸς</w>  <persName type="aphrodisian"><name reg="Λούκιος" type="praenomen">Λ<supplied reason="lost">ο</supplied>υκίου</name>  <name reg="Ἀντώνιος">Ἀντωνίου</name>  <name reg="Νεικόμαχος">Νεικομάχου</name>  <name reg="Βλάστος"><supplied reason="lost">Βλάστου</supplied></name></persName></persName> <w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <gap dim="internal" extent="unknown" reason="lost" unit="character"/>  <persName type="aphrodisian"><name reg="Ἀντώνιος"><supplied reason="lost">Ἀντώ</supplied><lb n="3" type="worddiv"/>νιος</name></persName>  <gap extent="13" dim="internal" reason="lost" unit="character"/>  <w lemma="υἱός">υ<supplied reason="lost">ἱ</supplied>ὸς</w>  <w lemma="αὐτός">αὐ<unclear reason="damage">τ</unclear>οῦ</w>  <w lemma="πρόμοιρος">προμο<supplied reason="lost">ίρ</supplied>ως</w>  <w lemma="τελευτάω">τελευτή<supplied reason="lost">σας</supplied></w><lb n="4"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">ου</orig>  <persName type="aphrodisian"><name reg="Κλαύδιος">Κλαυδίου</name></persName>  <orig n="unresolved">συ</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/></ab>

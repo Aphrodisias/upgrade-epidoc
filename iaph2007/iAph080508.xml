@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080508" n="iAph0077 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080508" n="iAph0077 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -43,7 +43,7 @@
 
       <div type="description" n="monument">
         <head>Description of Monument</head>
-        <p>Seven <rs type="objectType" reg="column">column</rs>s (i, <measure dim="none">0.54</measure> diam.; others all <measure dim="none">0.29-0.30</measure> diam.)
+        <p>Seven <rs type="objectType" reg="column">column</rs>s (i, <measure dim="height">0.54</measure> diam.; others all <measure dim="height">0.29-0.30</measure> diam.)
 of <rs type="material" key="marmor">blue marble</rs>, mostly broken at both ends. All showed traces of white
 plaster, apparently applied to form a panel.</p>
       </div>
@@ -68,7 +68,7 @@ discerned: the readings are fragmentary and unsatisfactory.</p>
         <p><date exact="none" cert="low" notBefore="0401" notAfter="0600">Fifth to sixth centuries A.D.</date> (<rs type="criteria">terminology</rs>).</p>
       </div>
 
-      <div type="edition" lang="grc">
+      <div type="edition" lang="grc" xml:space="preserve">
         <head lang="en">Edition</head>
 		<div type="textpart_section" n="i"><note lang="en" place="not specified" anchored="yes">A complete column (dia. <measure dim="diameter" type="length">0.54</measure>, H. <measure type="length" unit="metre" dim="height">2.14</measure>). On the lowest discernible level of plaster, there are traces of letters and a cross.</note>
 		  <div type="textpart_fragment" n="a"><note lang="en" place="not specified" anchored="yes">The second level (letters <measure type="length" unit="metre" dim="height">0.03</measure>)</note><ab>

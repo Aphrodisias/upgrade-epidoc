@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010193" n="iAph0129 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010193" n="iAph0129 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -63,7 +63,7 @@ scratched. First <foreign lang="grc">Η</foreign>, <foreign lang="grc">Τ<suppli
         <p><date notAfter="0600" exact="none" notBefore="0401">Fifth-sixth century</date> or later (content, location).</p>
       </div>
 
-      <div type="edition" lang="grc">
+      <div type="edition" lang="grc" xml:space="preserve">
         <head lang="en">Edition</head>
         
 		<div type="textpart_section" n="i"><lg><l n="1"><lb n="1"/><w lemma="φόβος">φώβῳ</w> <w lemma="προσέρχομαι">πρόσελθε</w><lb n="2"/><w lemma="ὁ">τὴν</w> <w lemma="ὁ"><expan><abbr>τ</abbr><supplied reason="abbreviation">οῦ</supplied></expan></w> <w lemma="βῆμα">βήματως</w><lb n="3"/><w lemma="πύλη">πύλην</w> <g type="cross"/>.</l></lg></div>

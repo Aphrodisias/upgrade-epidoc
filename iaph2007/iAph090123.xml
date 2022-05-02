@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph090123" n="iAph0227 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph090123" n="iAph0227 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -59,7 +59,7 @@ earlier piece is being re-used.</p>
         <p><date notAfter="0600" notBefore="0301" cert="low" exact="none">Fourth to sixth century</date> or later (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
        <ab><lb n="0"/><gap dim="top" extent="unknown" reason="lost" unit="line"/>
 		<lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">α<unclear reason="damage">ι</unclear>ακι</orig><lb n="2"/><gap dim="left" extent="unknown" reason="lost" unit="character"/> <w lemma="αὐτός">αὐτή</w>  <g type="cross"/></ab>

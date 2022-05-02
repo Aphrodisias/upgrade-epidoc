@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110058" n="iAph0683 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110058" n="iAph0683 ">
  <teiHeader>
   <fileDesc>
    <titleStmt>
@@ -89,7 +89,7 @@
     <p>
      <date value="226" precision="circa" cert="low" notAfter="0226" notBefore="0226">A.D. 226</date> (<rs type="criteria">contests</rs>)</p>
    </div>
-   <div type="edition" lang="grc">
+   <div type="edition" lang="grc" xml:space="preserve">
     <head lang="en">Edition</head>
     <ab part="N" type="scroll ">
      <lb n="1"/>

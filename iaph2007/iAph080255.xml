@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080255" n="iAph1880 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080255" n="iAph1880 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notAfter="0300" notBefore="0101" exact="none">Second to third centuries A.D.</date>
 (<rs type="criteria">nomenclature</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><persName type="aphrodisian"><persName type="aphrodisian"><name reg="Αἴλιος"><expan><abbr>Αἰλ</abbr><supplied reason="abbreviation">ίου</supplied></expan></name>  <lb n="2"/> <name reg="Βενουσῖνος">Βενουσί<lb type="worddiv" n="3"/>νου</name></persName></persName>  <w lemma="ἀγαθός"><expan><abbr>κρα</abbr><supplied reason="abbreviation">τίστου</supplied></expan></w>  </ab>
 </div>

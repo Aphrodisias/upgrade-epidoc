@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010033" n="iAph0132 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010033" n="iAph0132 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -49,7 +49,7 @@ along lower edge. There are further traces of letters.</p>
         <p><date notAfter="0600" exact="none" notBefore="0401">Fifth to sixth centuries</date> or later (<rs type="criteria">content</rs>, <rs type="criteria">location</rs>).</p>
       </div>
 
-      <div type="edition" lang="grc">
+      <div type="edition" lang="grc" xml:space="preserve">
         <head lang="en">Edition</head>
         
 		<div type="textpart_section" n="i"><ab><lb n="1"/><gap reason="lost" dim="left" extent="unknown" unit="character"/> <w lemma="ὁ"><expan><abbr>τ</abbr><supplied reason="abbreviation">οῦ</supplied></expan></w> <gap reason="lost" dim="right" extent="unknown" unit="character"/><lb n="2"/><persName key="Theophylact3" type="aphrodisian" full="yes"><name reg="Θεοφύλακτος">Θεοφύλακτος</name></persName> <expan><abbr>τ</abbr><supplied reason="abbreviation">οῦ</supplied></expan> <orig n="unresolved"><unclear reason="damage">ργλχ</unclear></orig> <gap reason="lost" dim="right" extent="unknown" unit="character"/></ab></div> 

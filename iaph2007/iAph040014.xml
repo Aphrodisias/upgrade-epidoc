@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph040014" n="iAph0199 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph040014" n="iAph0199 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,7 +26,7 @@
   <respStmt><name>Juan Garcés</name></respStmt>
   <item>tagged Greek; tidied</item>
   </change>
-  <change><date>2003-08-30</date><respStmt><name>CMR</name></respStmt><item>tagged, lemmatised and corrected</item></change><change><date>2004-03-8</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <change><date>2003-08-30</date><respStmt><name>CMR</name></respStmt><item>tagged, lemmatised and corrected</item></change><change><date>2004-03-08</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
   <text>
     <body>
 
@@ -37,7 +37,7 @@
 
       <div type="description" n="text">
         <head>Description of Text</head>
-        <p>Cut at <measure type="length" dim="none" unit="metre">0.05</measure> below fluting.</p>
+        <p>Cut at <measure type="length" dim="height" unit="metre">0.05</measure> below fluting.</p>
       </div>
 
       <div type="description" n="letters">
@@ -49,7 +49,7 @@
         <head>Date</head><p><date notBefore="0401" notAfter="0600" exact="none">Fifth to sixth centuries A.D.</date> (<rs type="criteria">location</rs>, <rs type="criteria">content</rs>)</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         
 		<ab>

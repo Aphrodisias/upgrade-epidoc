@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120328" n="iAph0112 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120328" n="iAph0112 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -41,14 +41,14 @@
         <p>A <rs type="material" key="marmor">white marble</rs> <rs type="objectType">masonry block</rs>, broken to the right (<measure type="length" unit="metre" dim="height">1.15</measure> × <measure type="length" unit="metre" dim="width">0.95</measure> ×
 <measure type="length" unit="metre" dim="depth">0.30</measure>), with holes for clamps below the upper edge. If, as seems
 likely, the large cross was central to the block, the original width
-of the block was <measure precision="circa" dim="none">2</measure>m, and it extended to the corner of the
+of the block was <measure precision="circa" dim="height">2</measure>m, and it extended to the corner of the
 bastion.</p>
       </div>
 
       <div type="description" n="text">
         <head>Description of Text</head>
         <p>Disposed on either side of a large inscribed cross (H.
-<measure dim="none">0.85</measure>, original W. <measure precision="circa" dim="none">0.50</measure>).</p>
+<measure dim="height">0.85</measure>, original W. <measure precision="circa" dim="height">0.50</measure>).</p>
       </div>
 
       <div type="description" n="letters">
@@ -62,7 +62,7 @@ clear, cursive; in l.3. cross as an abbreviation mark over <foreign lang="grc"><
         <p><date notAfter="0500" exact="none" cert="low" notBefore="0401">Fifth century</date> or later (lettering, content).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab>
 		  		<lb n="1"/><g type="cross"/> <w lemma="ὁ">ὁ</w> <w lemma="ῥίπτω">ῥίπτων</w> <w lemma="χῶμα">χώματα</w> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῷ</w> <g type="cross"/> <w lemma="τείχιον">τιχίῳ</w> <supplied reason="lost"><w lemma="ἔχω">ἔχει</w> <w lemma="ὁ">τὸ</w></supplied>

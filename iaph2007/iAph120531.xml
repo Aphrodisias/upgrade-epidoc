@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120531" n="iAph1777 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120531" n="iAph1777 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
 (<rs type="criteria">nomenclature</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <persName type="aphrodisian"><name reg="Αὐρηλία">Αὐρηλίαν</name> <g type="stop"/>  <name reg="Μεσσουληΐα">Μεσσου<lb n="2" type="worddiv"/>ληίαν</name> <name reg="Σατορνεῖλα">Σατορνεῖλαν</name> <lb n="3"/> <persName><name reg="Διονύσιος">Διονυσίου</name> <w lemma="τρίς">τρὶς</w> <w lemma="ὁ">τοῦ</w> <lb n="4"/> <persName><name reg="Διογένης">Διογένους</name></persName></persName> <name reg="Χρυσαορίς">Χρυσα<lb n="5" type="worddiv"/>ορίδα</name></persName> <w lemma="ὁ">τὴν</w> ἀξιολογω<lb n="6" type="worddiv"/>τάτην <w lemma="καί">καὶ</w> <w lemma="σεμνός">σεμνοτάτην</w> <lb n="7"/> <w lemma="ἀνθηφόρος">ἀνθηφόρον</w> <w lemma="ὁ">τ<unclear reason="damage">ῆς</unclear></w> <w lemma="θεός">θεοῦ</w> <lb n="8"/> <persName type="divine"><name reg="Ἀφροδίτη">Ἀφροδείτης</name></persName> <w lemma="καί">καὶ</w> <w lemma="ἀρχιέρεια">ἀρχι<lb n="9" type="worddiv"/>έρειαν</w> <w lemma="ὁ">τῆς</w> <w lemma="πατρίς">πατρίδος</w> <lb n="10"/> <w lemma="ποιέω">ποιησαμένου</w> <w lemma="ὁ">τὴν</w> <lb n="11"/> <w lemma="ἀνάστασις">ἀνάστασιν</w> <w lemma="ὁ">τοῦ</w> <w lemma="ἀνδρίας">ἀν<lb n="12" type="worddiv"/>δριάντος</w> <persName type="aphrodisian"><name reg="Αὐρήλιος" type="nomen">Αὐρηλίου</name> <lb n="13"/> <name reg="Φλάβιος">Φλ.</name> <name reg="Ἡφαιστίων">Ἡφαιστίωνος</name></persName> <w lemma="ἀρχιερεύς">ἀρ<lb n="14" type="worddiv"/>χιερέως</w> <w lemma="ὁ">τοῦ</w> <w lemma="ἀνήρ">ἀνδρὸς</w> <lb n="15"/>  <space extent="3" unit="character" dim="horizontal"/> <w lemma="αὐτός">αὐτῆς</w> <g type="leaf"/>  </ab>
 </div>

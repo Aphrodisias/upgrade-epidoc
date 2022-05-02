@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150209" n="iAph1652 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150209" n="iAph1652 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <p>
 No date determinable.</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="σορός">σορὸς</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="τόπος">τ<supplied reason="lost">όπος</supplied></w>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/><persName type="aphrodisian"><name reg="Παπια-">Παπι<unclear reason="damage">α</unclear><gap reason="lost" extent="unknown" unit="character" dim="right"/></name></persName>    <lb n="2a"/><gap reason="lost" extent="unknown" unit="line" dim="bottom" id="gap3"/><certainty target="gap3" locus="#gi" degree="low"/></ab>
 </div>

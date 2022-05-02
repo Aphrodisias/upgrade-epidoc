@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130403" n="iAph1691 ">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130403" n="iAph1691 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <p>
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ὁ"><unclear reason="damage">ἡ</unclear></w> <w lemma="σορός"><unclear reason="damage">σορό</unclear>ς</w> <w lemma="εἰμί">ἐστιν</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="περί">περὶ</w> <w lemma="αὐτός">αὐτὴν</w> <w lemma="πλάτος"><unclear reason="damage">π</unclear>λά<unclear reason="damage">τ</unclear>ος</w> <persName type="aphrodisian"><name reg="Ποπλία">Ποπλίας</name> <name reg="Καλβισία">Κα<unclear reason="damage">λ</unclear>βισίας</name></persName> <lb n="2"/> <note>sic</note> <w>ΩΖ <milestone unit="block"/> ΣΙΝ</w> <lb n="3"/> <persName type="aphrodisian"><name reg="Περιτιανή">Περιτιανῆς</name></persName> <w lemma="ὁ">τῆς</w> <w lemma="ἔγγονος">ἐγγόνου</w> <persName type="aphrodisian"><name reg="Ἰουλιανός">Ἰουλιανοῦ</name></persName> <w lemma="ὁ">τῆς</w> <w lemma="καί">καὶ</w> </ab>
 </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110051" n="iAph1245 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110051" n="iAph1245 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -48,7 +48,7 @@
 
 <p>   <date notBefore="0167" notAfter="0200" cert="low">Late second century A.D.</date> (<rs type="criteria">lettering</rs>; <rs type="criteria">nomenclature</rs>).</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="1"/><persName reg="Τιβέριος  Κλαύδιος  Ἀπολλώνιος  Αὐρηλιανός" full="yes" type="aphrodisian"><name reg="Τιβέριος" type="praenomen"><expan><abbr><unclear reason="damage">Τ</unclear>ι</abbr><supplied reason="abbreviation">βέριος</supplied></expan></name><name reg="Κλαύδιος"><expan><abbr>Κλ<orig><g type="stop"/></orig></abbr><supplied reason="abbreviation">αύδιος</supplied></expan></name>  <name reg="Ἀπολλώνιος">Ἀπο<unclear reason="damage">λλ</unclear><supplied reason="lost">ώ</supplied><lb n="2" type="worddiv"/>νιος</name>  <name reg="Αὐρηλιανός">Αὐρηλια<lb n="3" type="worddiv"/>νὸς</name></persName>  <w lemma="ἀρχιερεύς">ἀρχιε  <space extent="1" unit="character" dim="horizontal"/><lb n="4" type="worddiv"/>ρεὺς</w> <w lemma="καί">καὶ</w> <w lemma="ἱερεύς">ἱε<lb n="5" type="worddiv"/>ρεὺς</w> <w lemma="διά">διὰ</w> <w lemma="βίος">βίου</w><lb n="6"/> <w lemma="θεός">θεοῦ</w> <persName type="divine" reg="Διόνυσος" full="yes"><name reg="Διόνυσος">Διονύ<lb n="7" type="worddiv"/><g type="scroll"/>σου</name></persName> <g type="leaf"/></ab>

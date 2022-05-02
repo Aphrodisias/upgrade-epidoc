@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010182" n="iAph0669 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010182" n="iAph0669 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date exact="none" notAfter="0233" notBefore="0201">Εarly third 				century A.D.</date>
 (<rs type="criteria">contests</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_column" n="a"><ab><lb n="0"/>  <supplied reason="lost"><note>e.g</note> <w lemma="ὁ">ἡ</w>  <w lemma="βουλή">βουλὴ</w>  <w lemma="καί">καὶ</w>  <w lemma="ὁ">ὁ</w>  <w lemma="δῆμος">δῆμος</w>  <w lemma="καί">καὶ</w>  <w lemma="ὁ">ἡ</w></supplied>
  <lb n="1"/>

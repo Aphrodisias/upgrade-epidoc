@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020014" n="iAph1924 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020014" n="iAph1924 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -41,7 +41,7 @@
 <head>Date</head>
 <p><date notBefore="0101" notAfter="0500" exact="none">Second to fifth centuries A.D.</date> (<rs type="criteria">context</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_section" n="1"><div type="textpart_block" n="i"><ab><lb n="a"/><g type="cross"/> <lb n="b"/>ΓΖ<space extent="3"/>ΓΙ</ab></div>
 <div type="textpart_block" n="ii"><ab><lb n="1"/>Β<space extent="3"/>Β</ab></div><div type="textpart_block" n="iii"><ab><lb n="1"/>ΓΙ<space extent="3"/>ΓΖ</ab></div></div><div type="textpart_section" n="2"><div type="textpart_block" n="i"><ab><lb n="1"/>Β<space extent="3"/>Β</ab></div></div></div><div type="apparatus">

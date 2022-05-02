@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080086" n="iAph0564 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080086" n="iAph0564 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@ Capitals of the second century A.D.<measure type="length" unit="metre" dim="heig
 <date notAfter="0168" notBefore="0167">A.D. 167-8</date> (<rs type="criteria">prosopography</rs>: Maximus recorded as <term lang="la">quaestor Asiae</term>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><space extent="3" unit="character" dim="horizontal"/> <w lemma="κατά">κατὰ</w> <w lemma="ὁ">τὴν</w> <persName type="aphrodisian"><name reg="Ἰούλιος">Ἰουνίου</name> <name reg="Μάξιμος">Μαξίμου</name></persName> <w lemma="ὁ">τοῦ</w> <w lemma="κράτιστος">κρατίσ<milestone unit="block"/>του</w> <w lemma="ταμίας">ταμίου</w> <w lemma="κρίσις">κρίσιν</w> <w lemma="ὁ">τοὺς</w> <w lemma="δύο">δύο</w> <w lemma="ἀνδριάς">ἀνδριάντ<unclear reason="damage">α</unclear><milestone unit="block"/><supplied reason="lost">ς</supplied></w>  <persName type="aphrodisian"><name reg="Γρύπος"><supplied reason="lost">Γρ</supplied><unclear reason="damage">ύ</unclear>πος</name> <persName type="aphrodisian"><name reg="Ἀρτεμίδωρος">Ἀρτεμιδώρου</name></persName></persName> <w lemma="ἀποκαθίστημι">ἀποκαθέστη<milestone unit="block"/><supplied reason="lost">σ</supplied><unclear reason="damage">ε</unclear>ν</w>  </ab>
 </div>

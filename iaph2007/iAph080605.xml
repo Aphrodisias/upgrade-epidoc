@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080605" n="iAph0191 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080605" n="iAph0191 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -39,7 +39,7 @@
 
       <div type="description" n="text">
         <head>Description of Text</head>
-        <p>Cut at <measure type="length" dim="none">1.66</measure> above ground.</p>
+        <p>Cut at <measure type="length" dim="height">1.66</measure> above ground.</p>
       </div>
 
       <div type="description" n="letters">
@@ -50,7 +50,7 @@
       <div n="date" type="description">
         <head>Date</head><p><date notBefore="0301" notAfter="0600">Fourth-sixth century</date>, or later (<rs type="criteria">context</rs>)</p></div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
        <ab>
 		 	<lb n="1"/><g type="cross"/> <persName key="alexander2" type="aphrodisian" full="yes"><name reg="Ἀλέξανδρος">Ἀλέξαν<lb n="2" type="worddiv"/>δρος</name></persName>

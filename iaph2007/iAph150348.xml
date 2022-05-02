@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150348" n="iAph0161 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150348" n="iAph0161 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -52,7 +52,7 @@ clear, irregular, square.</p>
         <p><date exact="none" cert="low" notBefore="0301" notAfter="0400">Fourth-sixth  century</date> or later (lettering. metre).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab><lb n="1"/><gap dim="top" reason="lost" extent="unknown" unit="line"/><lb n="2"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig> <w lemma="ψυχή">ψυχ<supplied reason="lost" cert="low">ή</supplied></w> <gap dim="right" reason="lost" extent="unknown" unit="character"/><lb n="3"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="undefined">αμον</unclear></orig><gap dim="right" reason="lost" extent="unknown" unit="character"/><lb n="4"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear>νησαν</orig><gap dim="right" reason="lost" extent="unknown" unit="character"/><lb n="5"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ιινκ</unclear>λ</orig><gap dim="right" reason="lost" extent="unknown" unit="character"/><lb n="6"/><gap reason="lost" dim="bottom" extent="unknown" unit="line"/> </ab>
       </div>

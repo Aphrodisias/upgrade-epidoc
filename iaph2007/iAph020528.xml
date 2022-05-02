@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020528" n="iAph0177 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020528" n="iAph0177 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -55,7 +55,7 @@ flat moulding (<measure type="length" unit="metre" dim="height">0.44</measure>
         <p><date notAfter="0400" exact="none" cert="low" notBefore="0301">Fourth century</date> or later (<rs type="criteria">style</rs>, <rs type="criteria">lettering</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab><lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><persName key="rufinia1" full="yes" type="aphrodisian"><name reg="Ῥουφινία"><supplied reason="lost">Ῥ</supplied>ουφινία<supplied cert="low" reason="lost">ς</supplied></name></persName> <gap dim="right" reason="lost" extent="unknown" unit="character"/> </ab>
       </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph090118" n="iAph1430 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph090118" n="iAph1430 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <head>Date</head>
 <p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>)</p>
   </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="character" dim="top"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <w lemma="οὐδείς"><supplied reason="lost">οὐ</supplied>δεὶς</w>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <persName type="aphrodisian"><name reg="Αὐρήλιος">Αὐρη<unclear reason="damage">λ</unclear><supplied reason="lost">ι</supplied><gap reason="lost" extent="unknown" unit="character" dim="right"/></name></persName>    <lb n="3"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><w lemma="ὁ">τ<hi rend="ligature">ὴν</hi></w>  <orig n="unresolved">η</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">δε</orig>  <w lemma="τις">τις</w><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="5"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <w lemma="καί"><supplied reason="lost">κ</supplied>αὶ</w>  <w lemma="τυμβωρύχος">τυν<supplied reason="lost">βωρύχος</supplied></w>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="6"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">το</unclear>α</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="6a"/><gap reason="lost" extent="unknown" unit="character" dim="bottom"/>  </ab>
 </div>

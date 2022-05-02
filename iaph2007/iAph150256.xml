@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150256" n="iAph1742 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150256" n="iAph1742 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date cert="low" exact="none" notAfter="0100" notBefore="0001">First century A.D.</date>
 (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <space extent="3" unit="character" dim="horizontal"/>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <persName type="aphrodisian"><name type="praenomen" reg="Γάϊος"><expan><abbr>Γ</abbr><supplied reason="abbreviation">αιο-</supplied></expan></name> <g type="scroll"/>  <name type="gentilicium">Το<gap reason="lost" extent="unknown" unit="character" dim="right"/></name></persName>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">ιοσ</orig>  <space extent="1" unit="character" dim="horizontal"/> <w lemma="καί">κα<unclear reason="damage">ὶ</unclear></w><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="4"/><w><gap reason="lost" extent="unknown" unit="character" dim="left"/>ωνος</w>   <orig n="unresolved"><unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="5"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">ο</unclear>στ<unclear reason="damage">ι</unclear></orig><gap reason="illegible" extent="1" unit="character"/><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="5a"/><gap reason="lost" extent="unknown" unit="line" dim="left"/>  </ab>
 </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110003" n="iAph1222 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110003" n="iAph1222 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -21,7 +21,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2007-03-02</date><respStmt><name>GB</name></respStmt><item>DONE</item></change><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2007-03-02</date><respStmt><name>GB</name></respStmt><item>DONE</item></change><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -34,7 +34,7 @@
 </div>
 <div type="description" n="letters">
 <head>Letters</head>
-<p>Lightly <rs type="execution" key="litteris scariphatis">scratched</rs>, lunate <term lang="grc-Latn">epsilon</term> and <term lang="grc-Latn">sigma</term>, cursive <term lang="grc-Latn">alpha</term>; l.1, <measure dim="none">0.01</measure>; ll. 2-4, <measure dim="none">0.007-8</measure>.  Uneven in height and alignment. It presumably initiated a poorly written cursive document.</p>
+<p>Lightly <rs type="execution" key="litteris scariphatis">scratched</rs>, lunate <term lang="grc-Latn">epsilon</term> and <term lang="grc-Latn">sigma</term>, cursive <term lang="grc-Latn">alpha</term>; l.1, <measure dim="height">0.01</measure>; ll. 2-4, <measure dim="height">0.007-8</measure>.  Uneven in height and alignment. It presumably initiated a poorly written cursive document.</p>
 </div>
 <div type="description" n="date">
 <head>Date</head>
@@ -43,7 +43,7 @@
 </div>
 
 
-<div type="edition" lang="grc"><head>Text</head><ab><lb n="1"/><persName type="aphrodisian"><name reg="Διονύσιος">Διονύσιος</name></persName>  <lb n="2"/> <w lemma="ὑπέρ">ὑπὲρ</w> <persName type="aphrodisian"><name reg="Ἀμμία">Ἀμ<lb n="3" type="worddiv"/>μίας</name></persName>      <g type="leaf"/><lb n="4"/>    <w lemma="εὐχή">εὐχήν</w></ab></div><div type="translation">
+<div type="edition" lang="grc" xml:space="preserve"><head>Text</head><ab><lb n="1"/><persName type="aphrodisian"><name reg="Διονύσιος">Διονύσιος</name></persName>  <lb n="2"/> <w lemma="ὑπέρ">ὑπὲρ</w> <persName type="aphrodisian"><name reg="Ἀμμία">Ἀμ<lb n="3" type="worddiv"/>μίας</name></persName>      <g type="leaf"/><lb n="4"/>    <w lemma="εὐχή">εὐχήν</w></ab></div><div type="translation">
 <head>Translation</head>
 <p>Dionysios on behalf of Ammia (in payment of) a vow.</p>
 </div>

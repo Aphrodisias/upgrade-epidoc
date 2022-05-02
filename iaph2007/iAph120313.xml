@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120313" n="iAph1703 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120313" n="iAph1703 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <p>
 <date cert="low" notAfter="0133" notBefore="0066" exact="none">Perhaps late first, early second century A.D.</date> (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ὁ">τὸν</w> <w lemma="πλάτας">πλάταν</w> <w lemma="κατασκευάζω">κατεσ<lb n="2" type="worddiv"/>κεύασεν</w> <persName type="aphrodisian"><name reg="Λίβυρνος">Λιβυρνος</name> <name reg="Διοτρέφης">Διο<lb n="3" type="worddiv"/>τρέφους</name></persName> <w lemma="ἐν">ἐν</w> <w>ᾧ</w> <w lemma="πλάτη">πλάτᾳ</w> <lb n="4"/> <w lemma="οὐδείς">οὐδεὶς</w> <w lemma="ἐξουσία">ἐξουσίαν</w> <w lemma="ἔχω">ἕ<lb n="5" type="worddiv"/>ξει </w><w lemma="τίθημι">θεῖναί</w> <w lemma="τις">τινα</w> <w lemma="χωρίς">χωρὶς</w> <lb n="6"/> <w lemma="ὁ">τῆς</w> <w lemma="ὁ">τοῦ</w> <w lemma="κληρονόμος">κληρονόμου</w> <lb n="7"/><space extent="3" unit="character" dim="horizontal"/> <w lemma="ἐγώ">μου</w> <w lemma="γνώμη">γνώμης</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="7a"/>  <space extent="3" unit="character" dim="horizontal"/>  </ab>
 </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph140013" n="iAph1840 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph140013" n="iAph1840 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -48,7 +48,7 @@
 <date notBefore="0201" notAfter="0300" exact="none">Third century A.D.</date>
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="πατρίς">πατρίς</w> <lb n="2"/> <persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen">Τιβέριον</name> <lb n="3"/> <name reg="Κλαύδιος">Κλαύδιον</name> <lb n="4"/> <persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen">Τιβερίου</name> <lb n="5"/><name reg="Κλαύδιος"><supplied reason="lost">Κ</supplied>λαυδίου</name>  <lb n="6"/><name reg="Σμάραγδος"><supplied reason="lost">Σ</supplied>μαράγδου</name></persName>  <lb n="7"/><w lemma="υἱός"><supplied reason="lost">υἱ</supplied>ὸν</w>  <name reg="Καπιτωλῖνος">Καπι<lb n="8" type="worddiv"/>τωλεῖνον</name></persName>  </ab>
 </div>

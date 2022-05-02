@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110022" n="iAph1030 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110022" n="iAph1030 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -38,7 +38,7 @@
 
 <div type="description" n="letters">
 <head>Description of Letters</head>
-<p><measure type="length" dim="none">0.02-0.025</measure>; <foreign lang="grc">ΜΝ</foreign> in ligature, l.9.</p>
+<p><measure type="length" dim="height">0.02-0.025</measure>; <foreign lang="grc">ΜΝ</foreign> in ligature, l.9.</p>
 </div>
 
 <div type="description" n="date">
@@ -46,7 +46,7 @@
 
 <p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="0"/><supplied reason="lost"><note place="not  specified" anchored="yes">e.g.</note> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <lb n="0a"/><w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="τιμάω">ἐτείμησαν</w></supplied>  <lb n="1"/><persName type="aphrodisian"><name reg="Ζήνων"><supplied reason="lost">Ζήνω</supplied>να</name>  <w lemma="τετρακίς">τετρά<lb n="2" type="worddiv"/><supplied reason="lost">κις</supplied></w>      <persName type="aphrodisian"><name reg="Ὑψικλῆς"><supplied reason="lost">Ὑ</supplied>ψικλέους</name>  <lb n="3"/><w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <persName type="aphrodisian"><name reg="Ὑψικλῆς"><supplied reason="lost">Ὑψ</supplied>ικλέους</name>  <lb n="4"/><w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <persName type="aphrodisian"><name reg="Μένανδρος"><supplied reason="lost">Με</supplied>νάνδρου</name>  <lb n="5"/><w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <persName type="aphrodisian"><name reg="Ζήνων"><supplied reason="lost">Ζή</supplied>νωνος</name></persName></persName></persName></persName>  <lb n="6"/><supplied reason="lost"><space extent="2" unit="character" dim="horizontal"/></supplied>  <name reg="Ὑψικλῆς"><supplied reason="lost">Ὑψι</supplied><unclear reason="damage">κ</unclear>λέα</name></persName>  <space extent="2" unit="character" dim="horizontal"/><lb n="7"/><gap extent="5" reason="lost" unit="character" dim="left"/><orig n="unresolved">ου</orig>  <w lemma="καί">καὶ</w>  <lb n="8"/><gap extent="5" reason="lost" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">ι</unclear>ωναι</orig><lb n="9" type="worddiv"/><gap extent="7" reason="lost" unit="character" dim="left"/>  <w lemma="γυμνασίαρχος">γυ<hi rend="ligature">μν</hi>α<lb n="10" type="worddiv"/><supplied reason="lost">σίαρχ</supplied><gap extent="2" reason="lost" unit="character"/></w>  <w lemma="στεφανηφόρος"><supplied reason="lost">σ</supplied>τεφα<lb n="11" type="worddiv"/><supplied reason="lost">νηφόρ</supplied><gap extent="unknown" reason="lost" unit="character"/></w><lb n="11a"/><gap dim="bottom" extent="unknown" reason="lost" unit="line"/></ab></div>

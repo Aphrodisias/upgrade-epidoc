@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Honours for Apollonios the high-priest</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph120417</idno>
+            <idno type="IAph2007">iAph120417</idno>
+            <idno type="JMR2004">iAph0359</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno>76.184</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <material>White marble</material>
+                              <objectType>statue base</objectType> shaft (<width unit="metre">0.56</width>   ×  <height unit="metre">1.18</height>   ×  <depth unit="metre">0.48</depth>) with moulded panels on all four sides.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> on the front panel.
+l. 1 is cut on the upper moulding. The text must have begun on an upper feature, now lost.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>ll. 1-18, <height>0.0275</height>; ll. 19ff, <height>0.03</height>. Ligatures: l.3, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΝΕ</foreign>; l.6, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΜ</foreign>; l.15,<foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc"> ΗΚ</foreign>; l.18, 20, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign>. Omicron in l. 20 cut small.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Unknown</rs>
+                     </origPlace>
+                     <origDate notBefore="0168" notAfter="0300" precision="medium">       Late second to third centuries A.D. (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>).</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList">Walls, South-east gate</rs>: Below modern ground level, east of the gate, with <ref type="inscription" n="616" target="130304.xml"/> (= Reinach 190)</rs>
+                  </provenance>
+                  <provenance type="observed">
+                     <rs type="lastLocation">Museum</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType">Honours</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2007-03-01" who="#GB">DONE</change>
+         <change when="2007-01-11" who="Charlotte-Tupman">tidied</change>
+         <change when="2005-06-06" who="#GB">transferred to XML</change>
+         <change when="2004-11-18" who="#GB">Created dummy file</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+
+<ab><lb n="0"/><supplied reason="lost" cert="low"><w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="τιμάω">ἐτείμησεν</w></supplied><lb n="1"/><space unit="character" extent="2" dim="horizontal"/>  <persName nymRef="#Ἀπολλώνιος" type="attested"><name nymRef="#Ἀπολλώνιος">Ἀπολλωνίου</name></persName>  <space unit="character" extent="2" dim="horizontal"/><lb n="2"/><space unit="character" extent="4" dim="horizontal"/> <w lemma="ἀρχιερεύς">ἀρχιερέα</w> <space unit="character" extent="4" dim="horizontal"/><lb n="3"/> <w lemma="ταμίας">ταμίαν</w> <w lemma="πρωτονεωποιός">πρωτονε<lb n="4" break="no"/>οποιὸν</w>  <w lemma="πρῶτος">πρῶτον</w><lb n="5"/> <w lemma="ἄρχων">ἄρχοντα</w> <w lemma="δίς">δὶς</w> <space unit="character" extent="1" dim="horizontal"/><lb n="6"/> <w lemma="γραμματεύς">γραμματέα</w> <w lemma="ὁ">τοῦ</w> <lb n="7"/> <w lemma="δῆμος">δήμου</w> <w lemma="δίς">δὶς</w> <w lemma="βούλαρχος">βού<lb n="8" break="no"/>λαρχον</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὰς</w> <lb n="9"/> <w lemma="ἄλλος">ἄλλας</w> <w lemma="πᾶς">πάσας</w> <lb n="10"/> <w lemma="ἀρχή">ἀρχὰς</w> <w lemma="καί">καὶ</w> <w lemma="λειτουργία">λει<lb n="11" break="no"/>τουργίας</w>  <w lemma="ἐνδόξως">ἐνδό<lb n="12" break="no"/>ξως</w> <w lemma="ἀπό">ἀπὸ</w> <w lemma="πρόγονος">προγό<lb n="13" break="no"/>νων</w>  <w lemma="ἐκτελέω">ἐκτετελε<lb n="14" break="no"/>κότα</w> <w lemma="ἀνήρ">ἄνδρα</w> <w lemma="πρᾶος">πρᾶ<lb n="15" break="no"/>ον</w> <w lemma="καί">καὶ</w> <w lemma="ἐπιεικής">ἐπ<supplied reason="omitted">ι</supplied>εικῆ</w> <w lemma="καί">καὶ</w> <lb n="16"/> <w lemma="ἐν">ἐν</w> <w lemma="πᾶς">πᾶσιν</w> <w lemma="φιλότιμος">φιλό<lb n="17" break="no"/>τειμον</w> <w lemma="περί">περὶ</w> <space unit="character" extent="1" dim="horizontal"/><lb n="18"/> <w lemma="ὁ">τὴν</w> <w lemma="πατρίς">πατρίδα</w> <lb n="18a"/>              <space unit="line" extent="1" dim="horizontal"/><lb n="18b"/>              <space unit="line" extent="1" dim="horizontal"/><lb n="19"/> <w lemma="ἐπιμελέομαι">ἐπιμελησαμένου</w> <lb n="20"/><persName nymRef="#Μᾶρκος  Αὐρήλιος  Ζηνόβιος  Ἰάσων  ἀρχιερεύς" type="attested"><name nymRef="#Μᾶρκος"><expan><abbr>Μάρ</abbr><ex>κου</ex></expan></name>  <name nymRef="#Αὐρήλιος"><expan><abbr>Αὐρ</abbr><ex>ηλίου</ex></expan></name>  <name nymRef="#Ζηνόβιος">Ζηνοβίου</name>    <lb n="21"/><name nymRef="#Ἰάσων">Εἰάσονος</name>  <w lemma="ἀρχιερεύς">ἀρχιε  <lb n="22" break="no"/>ρέως</w></persName> <w lemma="ὁ">τοῦ</w> <w lemma="γαμβρός">γαμ<lb n="23" break="no"/>βροῦ</w> <w lemma="αὐτός">αὐτοῦ</w> <g ref="#scroll"/></ab>
+ 
+ 
+</div>
+         <div type="translation">
+            <p>
+               <supplied reason="lost">So and so honoured so and so, son/descendant</supplied> of Apollonios, high-priest, treasurer, chief temple-builder, twice chief archon, twice secretary of the People, chief councillor, who has also carried out all the other offices and liturgies honourably <supplied reason="subaudible">in a manner inherited</supplied> from his forefathers; a kind man and moderate and generous in all matters concerning his fatherland.</p>
+            <p>Marcus Aurelius Zenobios Jason, high-priest, his brother-in-law <note place="not specified" anchored="yes">
+                  <seg cert="low">son-in-law</seg>
+               </note>, took responsibility <supplied reason="subaudible">for putting up the monument</supplied>.
+</p>
+         </div>
+         <div type="commentary">
+            <p>The honouring body or bodies were presumably named on a base capital. It is not entirely clear which of the last three offices the honorand performed twice.</p>
+         </div>
+         <div type="bibliography">
+            <p>Published by <bibl n="kubreich1893" type="primary">
+                  <author>K&amp;R</author>, Anz Akad Wien, no. <citedRange>9</citedRange>
+               </bibl>;  from Gaudin's squeeze by <bibl type="primary" n="reinach">
+                  <author>Reinach</author>, <citedRange>77</citedRange>
+               </bibl>, whence <bibl n="PHI">
+                  <author>McCabe</author>
+                  <title level="m">PHI Aphrodisias</title>
+                  <citedRange n="257216">338</citedRange>
+               </bibl>; cited from Reinach by <bibl>Oikonomos, <title level="j">Arch Delt</title> 1921/22, 294</bibl>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph140019" n="iAph1563 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph140019" n="iAph1563 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
 (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <cb n="i"/><ab><lb n="1"/>  <persName type="aphrodisian"><name reg="Τατία">Τατία</name></persName> </ab><cb n="ii"/><ab><lb n="1"/> <persName type="aphrodisian"><name reg="Ἀρτεμᾶς">Ἀρτεμᾶς</name></persName></ab><cb n="iii"/><ab><lb n="1"/> <w lemma="ἐπάρατος"><supplied reason="lost">ἐπάρατ</supplied>ος</w> <w lemma="καί">καὶ</w> <w lemma="ἀποτίνω">ἀ<lb n="2" type="worddiv"/>ποτεισάτω</w> <w lemma="ἱερός">ἱερὰ</w> <w lemma="θεός">θε<lb n="3" type="worddiv"/>ῷ</w> <persName type="divine"><name reg="Ἀφροδίτη">Ἀφροδείτῃ</name></persName> <w lemma="εἰς">εἰς</w> <lb n="4"/>ΧΕΡ<gap reason="lost" extent="5" unit="character"/>ΚΟΥΣΥΝ  <lb n="5"/><gap reason="lost" extent="2" unit="character"/>ας <w lemma="δραχμή">δραχμὰς</w> <w lemma="δισχειλιος">δισ<lb n="6" type="worddiv"/>χειλίας</w> <w lemma="εἰμί">ὧν</w> <w lemma="ὁ">τὸ</w> <w lemma="τρίτος">τρί<lb n="7" type="worddiv"/>τον</w> <w lemma="ὁ">τοῦ</w> <w lemma="ἐκδικέω">ἐκδι<lb n="8" type="worddiv"/>κήσαντος</w>  <w lemma="εἰμί">ἔσ<lb n="9" type="worddiv"/>τω</w> <w lemma="ὁ">τῆς</w> <w lemma="ἐπιγραφή">ἐπιγρα<lb n="10" type="worddiv"/>φῆς</w> <w lemma="ἀντίγραφον">ἀντίγραφον</w> <lb n="11"/> <w lemma="ἀποτίθημι">ἀπετέθη</w> <gap reason="lost" extent="3" unit="character"/>  </ab>
 </div>

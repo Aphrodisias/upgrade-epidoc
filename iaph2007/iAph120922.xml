@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120922" n="iAph1328 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120922" n="iAph1328 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <date notBefore="0201" notAfter="0300" exact="none">Third century A.D.</date>
 (<rs type="criteria">content</rs>, <rs type="criteria">prosopography</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ὁ">τῆς</w> <w lemma="λαμπρός">λαμπροτά</w> <lb type="worddiv" n="2"/>της <placeName type="ethnic" reg="Ἀφροδεισιεύς"><w lemma="Ἀφροδεισιεύς">Ἀφροδεισιέ<lb type="worddiv" n="3"/>ων</w></placeName> <w lemma="πόλις">πόλεως</w> <w lemma="ἄρχων">ἄρ<lb type="worddiv" n="4"/>χοντ<unclear reason="damage">ε</unclear>ς</w>  <w lemma="ὁ">οἱ</w> <w lemma="περί">περὶ</w> <persName type="aphrodisian"><name reg="Αὐρήλιος" type="nomen">Αὐ<lb type="worddiv" n="5"/>ρήλιον</name>   <name reg="Ἀντώνιος">Ἀντ<unclear reason="damage">ώ</unclear>νιον</name>  <lb n="6"/> <name reg="Νικόμαχος">Νεικόμαχον</name> <name reg="Βλάστος">Βλά<lb type="worddiv" n="7"/>στον</name></persName>   <w lemma="πρωτόλογος">πρ<unclear reason="damage">ω</unclear>τόλογον</w>  <lb n="8"/> <w lemma="ἄρχων">ἄρχοντα</w> <w lemma="ὁ">τὸ</w> <w lemma="τρίτος">τρίτον</w> <lb n="9"/> <w lemma="ὁ">τὸν</w> <w lemma="δῆμος">Δῆμον</w> <w lemma="ὁ">τὸν</w> <lb n="10"/> <placeName type="ethnic" reg="Ἀφροδεισιεύς"><w lemma="Ἀφροδεισιεύς">Ἀφροδεισιέων</w></placeName> <lb n="11"/> <w lemma="καθιερόω">καθιέρωσε</w> <lb n="12"/> <w lemma="καί">καὶ</w> <w lemma="ἀνίστημι">ἀνέστησαν</w> </ab>
 </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080709" n="iAph0858 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080709" n="iAph0858 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -49,7 +49,7 @@
 <date notAfter="0300" notBefore="0201" exact="none">Third century A.D.</date>
 (<rs type="criteria">lettering</rs>, <rs type="criteria">prosopography</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <g type="stop"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <g type="stop"/>  <w lemma="τιμάω">ἐτείμησαν</w> <persName type="aphrodisian"><name reg="Φλάβιος">Φλάβιον</name> <name reg="Καρμίνιος">Καρ<lb type="worddiv" n="2"/>μίνιον</name>  <name reg="Ἀθηναγόρας">Ἀθηναγόραν</name></persName> <g type="stop"/>  <w lemma="συνκλητικός">συνκλητικὸν</w> <w lemma="υἱός">ὑὸν</w> <note>sic</note><lb n="3"/> <persName type="aphrodisian"><name reg="Φλαβία">Φλαβίας</name> <g type="stop"/> <name reg="Ἀπφία">Ἀπφίας</name>   <g type="stop"/><placeName reg="Ἀσία">Ἀσίας</placeName></persName>  <g type="stop"/> <w lemma="ἀρχιέρεια">ἀρχιερείας</w> <g type="stop"/> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Καρμίνιος">Καρμι<lb type="worddiv" n="4"/>νίου</name> <name reg="Κλαυδιανός">Κλαυδιανοῦ</name></persName> <g type="stop"/>  <w lemma="νεώτερος">νεωτέρου</w> <g type="stop"/>  <w lemma="ὁ">τὴν</w> <w lemma="δέ">δὲ</w> <g type="stop"/> <w lemma="ἀνάστασις">ἀνά<lb n="5" type="worddiv"/> στασιν</w> <space extent="1" unit="character" dim="horizontal"/> <w lemma="ὁ">τοῦ</w> <w lemma="ἀνδρίας">ἀνδριάντος</w>  <w lemma="ποιέω">ἐποήσατο</w> <persName type="aphrodisian"><name reg="Φλαβία">Φλα<lb type="worddiv" n="6"/>βία</name> <name reg="Ἀπφία"><rs type="criteria">Ἀπφία</rs></name></persName> <w lemma="καθώς">καθὼς</w> <w lemma="ὑπισχνέομαι">ὑπέσχετο</w> <g type="leaf"/>  <space extent="3" unit="character" dim="horizontal"/>  </ab>
 </div>

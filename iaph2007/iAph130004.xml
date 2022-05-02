@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130004" n="iAph1684 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130004" n="iAph1684 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date cert="low" notAfter="0200" notBefore="0101" exact="none">Second century A.D.</date>
  (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/>    <gap dim="left" reason="lost" unit="character" extent="unknown"/><w lemma="μείς"><supplied reason="lost">μηνὸς</supplied></w>  <lb n="1"/><rs type="month"><w lemma="Γορπιαῖος">Γορπιαίο<supplied reason="lost">υ</supplied></w></rs>  </ab>
 </div>

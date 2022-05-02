@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120324" n="iAph1794 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120324" n="iAph1794 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notAfter="0300" notBefore="0168" exact="none">Third century A.D.</date>
 (<rs type="criteria">nomenclature</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ὁ">Ἡ</w> <w lemma="πατρίς">πατρὶς</w> <lb n="2"/> <persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen">Τιβέριον</name> <name reg="Κλαύδιος"><expan><abbr>Κλ</abbr><supplied reason="abbreviation">αύδιον</supplied></expan></name> <lb n="3"/> <name reg="Αὐρήλιος" type="nomen">Αὐρήλιον</name> <lb n="4"/> <persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen">Τιβερίου</name> <lb n="5"/> <name reg="Κλαύδιος">Κλαυδίου</name> <lb n="6"/><name reg="Καπιτωλῖνος">Καπιτωλεί<lb n="7" type="worddiv"/>νου</name></persName> <w lemma="υἱός">ὑὸν</w> <lb n="8"/> <name reg="Κτησίας">Κτησίαν</name></persName> <lb n="9"/> <w lemma="ὁ">τὸν</w> <w>ῥήτορα</w> <lb n="9a"/>  <gap reason="lost" extent="unknown" unit="line" dim="bottom"/>  </ab>
 </div>

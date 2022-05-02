@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020307" n="iAph0551 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020307" n="iAph0551 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
 (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/><gap reason="lost" extent="unknown" unit="character"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><w>εἰσπρά<unclear reason="damage">σσει</unclear></w><gap reason="lost" extent="unknown" unit="character" dim="right"/><lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <w lemma="εἰς"><supplied reason="lost">εἰ</supplied>ς</w> <w lemma="ὁ">τὴν</w> <w lemma="οἰκεῖος">οἰκείαν</w> <w>κομι<unclear reason="damage">δ</unclear><supplied reason="lost">ήν</supplied></w>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="3"/><w><gap reason="lost" extent="unknown" unit="character" dim="left"/>εται</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τοῦ</w> <w lemma="τελώνης">τελών<supplied reason="lost">ου</supplied></w>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <w lemma="κώλυσις"><supplied reason="lost">κ</supplied>ωλύσει</w>  <space extent="3" unit="character"/> <g type="spiral"/> <w lemma="εὐτυχέω">εὐτυχεῖτ<supplied reason="lost">ε</supplied></w>  <supplied reason="lost" cert="low"><space extent="unknown"/></supplied></ab>
 </div>

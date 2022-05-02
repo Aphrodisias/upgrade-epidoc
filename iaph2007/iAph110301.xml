@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110301" n="iAph0531 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph110301" n="iAph0531 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -19,7 +19,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2007-01-12</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2007-01-12</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -40,7 +40,7 @@
 <date cert="low" notBefore="-0031" notAfter="0014" exact="none">Augustan</date>
 (<rs type="criteria">lettering</rs> very similar to <xref type="inscription" n="529" href="120402">12.402</xref>, <xref type="inscription" n="530" href="120701">12.701</xref>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><supplied reason="lost"><space unit="character" extent="1" id="space1" dim="horizontal"/><certainty target="space1" locus="#gi" degree="low"/></supplied>  <persName type="aphrodisian"><name reg="Καλλικράτης"><supplied reason="lost">Καλ</supplied>λικράτης</name>  <space unit="character" extent="1" dim="horizontal"/>  <lb n="2"/><name reg="Πυθόδωρος"><supplied reason="lost">Πυ</supplied>θοδώ<unclear reason="damage">ρου</unclear></name></persName>  <w lemma="ὁ">τὴν</w>  <lb n="3"/><persName type="divine" full="yes"><name><supplied reason="lost">Ν</supplied><unclear reason="damage">ί</unclear>κην</name></persName>  <w lemma="ἐν">ἐν</w>  <w lemma="πᾶς"><unclear reason="damage">π</unclear><supplied reason="lost">ᾶσι</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τοῖς</supplied></w>  <lb n="4"/><w lemma="πόλεμος">πολέμο<supplied reason="lost">ις</supplied></w>  <w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <w lemma="κίνδυνος"><supplied reason="lost">κιν</supplied><lb n="5" type="worddiv"/>δύνοις</w>  <w lemma="ἀγωνίζομαι">ἀγων<supplied reason="lost">ισά</supplied><lb n="6" type="worddiv"/><unclear reason="damage">μεν</unclear><supplied reason="lost">ο</supplied><unclear reason="damage">ς</unclear></w>  <w lemma="ὑπέρ">ὑπὲρ</w>  <w lemma="ὁ">τῆς</w>  <supplied reason="lost"><space unit="character" extent="1" id="space2" dim="horizontal"/><certainty target="space2" locus="#gi" degree="low"/></supplied>  <lb n="7"/><w lemma="πατρίς"><supplied reason="lost">πατρίδ</supplied>ος</w>  <w lemma="συνπαραγίγνομαι">συνπ<supplied reason="lost">αρα</supplied><lb n="8" type="worddiv"/><supplied reason="lost" cert="low">γεγ</supplied><unclear reason="damage">εν</unclear>ημένην</w>  <w lemma="αὐτός">α<supplied reason="lost">ὐ</supplied><lb n="9"/><supplied reason="lost">τῶι</supplied></w>  <w lemma="ἀνατίθημι">ἀνέθηκεν</w><w lemma="ὁ">  τῶι</w>  <lb n="10"/><supplied reason="lost"><space unit="character" extent="2" id="space3" dim="horizontal"/><certainty target="space3" locus="#gi" degree="low"/></supplied>  <space unit="character" extent="2" dim="horizontal"/>  <w lemma="δῆμος">Δή<supplied reason="lost">μ</supplied>ωι</w>  <space unit="character" extent="4" dim="horizontal"/>  </ab>
 </div>

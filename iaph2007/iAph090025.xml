@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph090025" n="iAph0881 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph090025" n="iAph0881 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <p>
 <date notAfter="0054" notBefore="0041" exact="both"> A.D. 41-54</date> (<rs type="criteria">reign</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <milestone unit="block" n="a"/> <persName type="divine"><name>Ἀφροδίτηι</name></persName> <g type="star"/>  <w>θε<gap reason="omitted" extent="1" unit="character"/>ι</w>  <persName type="divine">Σεβαστ<milestone unit="block" n="b"/><gap reason="omitted" extent="unknown" unit="character"/></persName>  <persName type="emperor"><name reg="Τιβέριος" type="praenomen"><supplied reason="omitted">Τιβερ</supplied>ίωι</name> <name reg="Κλαύδιος">Κλαυδίωι</name> <w lemma="καῖσαρ">Κ<milestone unit="block" n="c"/><supplied reason="lost">αί</supplied>σαρι</w></persName><g type="star"/> <w lemma="ὁ">τῶι</w> <w lemma="δῆμος">Δήμωι</w> <g type="dolphin"/><milestone unit="block" n="d"/> <persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen">Τιβέριος</name> <name reg="Κλαύδιος">Κλαύδιος</name> <milestone unit="block" n="e"/><name reg="Διογένης">Διογένης</name></persName> <w lemma="φιλοπολίτης">φιλοπολίτης</w>  <milestone unit="block" n="f"/><w lemma="ὅς">ἃ</w> <w lemma="ἐπαγγέλλω">ἐπηνγείλατο</w> <lb n="2"/>   <milestone unit="block" n="a"/><space extent="3" unit="character" dim="horizontal"/> <persName type="aphrodisian"><name reg="Διογένης">Διογένης</name></persName> <w lemma="ὁ">ὁ</w> <w lemma="πατήρ">πατὴ<milestone unit="block" n="b"/><supplied reason="lost">ρ</supplied></w>  <w lemma="αὐτός"><supplied reason="lost">α</supplied>ὐτοῦ</w> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Ἀτταλίς">Ἀτταλὶς</name></persName> <space unit="character" extent="1"/>  <milestone unit="block" n="c"/> <w lemma="καί">καὶ</w> <w lemma="ὑπέρ">ὑπὲρ</w> <persName type="aphrodisian"><name reg="Ἄτταλος">Ἀττάλ<milestone unit="block" n="d"/>ου</name></persName> <w lemma="ὁ">τοῦ</w> <w lemma="θεῖοσ1">θείου</w> <w lemma="ὁ">τὸ</w> <w lemma="κατά">καθ'</w> <w lemma="ἑαυτοῦ">ἑαυτὸν</w> <w lemma="μέρος">μέρος</w> <space unit="character" extent="1"/> <w>ἀποκα</w>  <w><supplied reason="lost">θ</supplied>έσστησεν</w>    <space extent="3" unit="character" dim="horizontal"/></ab>
 </div>

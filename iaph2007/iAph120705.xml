@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120705" n="iAph1899 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120705" n="iAph1899 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notAfter="0075" notBefore="0025">mid first century A.D</date>
 (<rs type="criteria">prosopography</rs>, <rs type="criteria">spelling</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">νθε</unclear></orig><lb n="2"/><persName type="aphrodisian"><name><gap reason="lost" extent="unknown" unit="character" dim="left"/>ωνος</name></persName> <w lemma="ὁ">τοῦ</w> <lb n="3"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <persName type="aphrodisian"><name reg="Παπίας"><supplied reason="lost">Π</supplied>απίαν</name></persName> <w lemma="ὁ">τὸν</w> <w lemma="καί">καὶ</w> <lb n="4"/><w><gap reason="lost" extent="unknown" unit="character" dim="left"/><unclear reason="damage">π</unclear>πον</w> <w lemma="ἀνά,εἰσ">ἀνέσστη<lb n="5"/><supplied reason="lost">σεν</supplied></w>   <gap reason="lost" extent="unknown" unit="character" dim="left"/> <persName type="aphrodisian"><name reg="Ἀθηναγόρας"><supplied reason="lost">Ἀθ</supplied><unclear reason="damage">η</unclear>ναγορας</name>  <persName type="aphrodisian"><name reg="Ἀθηναγόρας">Ἀθηνα<lb n="6" type="worddiv"/><supplied reason="lost">γόρου</supplied></name> τοῦ <persName type="aphrodisian"><name reg="Εὔμαχος">Εὐμάχου</name></persName>    <w lemma="ὁ"><supplied reason="lost">τ</supplied>οῦ</w> <persName type="aphrodisian"><name reg="Διογένης">Διογένους</name></persName></persName></persName> <space extent="1" unit="character" dim="horizontal"/>  <lb n="7"/><w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w> <gap reason="lost" extent="unknown" unit="character" dim="left"/>  <w lemma="ὁ"><supplied reason="lost">τ</supplied>οῦ</w>  <persName type="aphrodisian"><name><gap reason="lost" extent="2" unit="character"/>ωνος</name></persName>  <lb n="7a"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/>  <space extent="3" unit="character" dim="horizontal"/>  </ab>
 </div>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Funerary inscription for Diomedes <gap reason="lost" unit="character" extent="unknown"/> and Neikephoros </title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph120032</idno>
+            <idno type="IAph2007">iAph120032</idno>
+            <idno type="JMR2004">iAph1466</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Apparently two texts on one monument, which was a block: ' in lapide quadrato'.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>No description.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>No description.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Unknown</rs>
+                     </origPlace>
+                     <origDate notBefore="0212" notAfter="0300">Third century A.D. (<rs type="criteria">nomenclature</rs>)</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList">Walls, North</rs>: 'Ad theatri borealem partem in lapide quadrato inter spinas jacente' (Picenini)</rs>
+                  </provenance>
+                  <provenance type="observed">
+                     <rs type="lastLocation">Findspot</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType">Funerary</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2007-03-07" who="GB">hand tidied</change>
+         <change when="2007-02-06" who="Charlotte-Tupman">Hand tidied</change>
+         <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+<div n="a" type="textpart" subtype="section"><ab><lb n="1"/><gap reason="lost" extent="2" unit="character"/><orig n="unresolved">σησ</orig> <w lemma="αὐτός">αὐτῷ</w> <w lemma="συγχώρησις">συνχωρήσεως</w> <gap reason="lost" extent="2" unit="character"/><orig n="unresolved">οπ</orig><gap reason="lost" extent="1" unit="character"/> <w lemma="ὑπό">ὑπὸ</w> <w lemma="ὁ">τῶν</w> <w lemma="περί">περὶ</w> <gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/> <w lemma="ὁ">τοῦ</w> <w lemma="χρεωφυλάκιον">χρεοφυλακίου</w> <w lemma="εἰς">εἰς</w> <w lemma="ὅς">ἣν</w> <w lemma="σορός">σορὸν</w> <w lemma="κηδεύω">κεκήδευται</w> <persName type="attested"><name nymRef="#Διομήδης">Διομήδης</name></persName> <gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/> <w>ΤΗΣ</w> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Διονυσία">Διονυσία</name></persName> <w lemma="ὁ">ἡ</w> <w lemma="γυνή">γύν<supplied reason="lost">η</supplied></w> <w lemma="αὐτός">αὐτοῦ</w> <w lemma="ἐν">ἐν</w> <w lemma="δέ">δὲ</w> <w lemma="ὁ">ταῖς</w> <w lemma="εἰσώστη">εἰσώσταις</w> <gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/><gap reason="lost" extent="1" unit="character"/>ΟΣ <w lemma="οὔτε">οὔτε</w> <w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τοῦ</w> <w lemma="γένος">γένους</w> <w lemma="αὐτός">αὐτῶν</w> <w lemma="οὔτε">οὔτε</w> <w lemma="κληρονόμος">κληρόνομο<supplied reason="lost">υ</supplied>ς</w>  <w lemma="αὐτός">αὐ<supplied reason="lost">τῶν</supplied></w>  <supplied reason="lost" cert="low">  </supplied>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="5"/><w lemma="εἰς"><supplied reason="lost">ἐ</supplied>ς</w> <w lemma="ὁ">τὴν</w> <w lemma="σορός">σορὸν</w> <w lemma="ἄλλος">ἄλλο</w> <w lemma="σωματεῖον">σωμάτειον</w> <w lemma="οὔτε">οὔτε</w> <w lemma="αὐτός">αὐτοὶ</w> <w lemma="θάπτω">ταφῆναι</w> <gap reason="lost" extent="unknown" unit="character"/>  <w lemma="προδηλόω"><supplied reason="lost">προδηλο</supplied>  <lb n="6"/> υμένους</w> <w lemma="οὐδέ">οὐδὲ</w> <w lemma="συγχώρησις">συνχώρησίν</w> <w lemma="τις">τινι</w> <w lemma="ποιέω">ποιήσασθαι</w> <w lemma="οὔτε">οὔτε</w> <w lemma="ἐγώ">με<gap reason="lost" extent="unknown" unit="character"/></w>  <lb n="7"/> <w lemma="ἤ">ἢ</w> <w lemma="κινέω">κ<unclear reason="damage">ε</unclear>ινῆσαι</w> <w lemma="ὁ">τὴν</w> <w lemma="σορός">σορὸν</w> <w lemma="ἔπειμι1">ἐπεῖ</w> <w lemma="ὁ">ὁ</w> <w lemma="οὗτος">τούτων</w> <w lemma="τις">τι</w> <num value="80">π</num> <w lemma="τολμάω">τολμήσας</w> <gap reason="lost" extent="unknown" unit="character"/>  <w lemma="ὁ"><supplied reason="lost">τῷ</supplied></w>  <w lemma="ἱερός"><supplied reason="lost">ἱε</supplied><lb n="8" break="no"/><supplied reason="lost">ρ</supplied>ωτάτῃ</w> <w lemma="ταμεῖον">ταμείῳ</w> <w lemma="ἀργύριον">ἀργυρίου</w> <w lemma="δηνάριον">δηνάρια</w> <w lemma="πεντακισχίλιοι">πεντακισχειλια</w> <supplied reason="lost">ὧν</supplied>  <supplied reason="lost">τὸν</supplied>  <supplied reason="lost">τρίτον</supplied>  <supplied reason="lost">τοῦ</supplied>  <supplied reason="lost">ἐκδικήσαντος</supplied>  <w lemma="εἰμί"><supplied reason="lost">ἔσ</supplied><lb n="9" break="no"/>τ<unclear reason="damage">ω</unclear></w> <w lemma="ὁ">τῆς</w> <w lemma="ἐπιγραφή">ἐπιγραφῆς</w> <w lemma="οὗτος">ταύτης</w> <w lemma="ἀποτίθημι">ἀπετέθη</w> <w lemma="ἀντίγραφον">ἀντίγρα<supplied reason="lost">φον</supplied></w>  <supplied reason="lost">εἰς</supplied>  <supplied reason="lost">τὸ</supplied>  <supplied reason="lost">χρεοφυλάκιον</supplied>  <supplied reason="lost">ἐπὶ</supplied>  <w lemma="στεφανηφόρος"><supplied reason="lost">στεφανη</supplied><lb n="10" break="no"/>φόρου</w> <persName type="attested"><name nymRef="#Δομιτία">Δομιτίας</name> <name nymRef="#Ἱέραξ">Ἱέρακος</name></persName> <w lemma="θυγάτηρ"><unclear reason="damage">θ</unclear>υ<unclear reason="damage">γ</unclear>ατ<unclear reason="damage">ρ</unclear>ός</w> <persName type="attested"><name nymRef="#Ἀπφία">Ἀπφίας</name></persName> <orig n="unresolved">λεαφ</orig>  </ab></div><div n="b" type="textpart" subtype="section"><ab> <lb n="0"/><lb n="1"/><gap extent="unknown" reason="lost" unit="character"/> <orig n="unresolved">δειου</orig> <w lemma="εἰμί">εἰσὶν</w> <persName type="attested"><name nymRef="#Μᾶρκος">Μά<unclear reason="damage">ρκ</unclear>ου</name> <name nymRef="#Αὐρήλιος">Αὐρηλίου</name> <name nymRef="#Νικηφόρος">Νεικηφόρου</name></persName> <w lemma="τρίς">τρὶς</w> <w lemma="ὁ">τοῦ</w> <gap reason="lost" extent="unknown" unit="character"/>  <persName type="attested"><name nymRef="#Μᾶρκος"><supplied reason="lost">Μάρ</supplied><lb n="2" break="no"/>κου</name> <name nymRef="#Αὐρήλιος">Αὐρηλίου</name> <name nymRef="#Διομήδης">Διομήδους</name> <w lemma="ὁ">τοῦ</w><persName type="attested"> <name nymRef="#Πρεῖμος">Πρείμου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Νικηφόρος">Νεικ<supplied reason="lost">ηφόρου</supplied></name></persName></persName></persName>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="1" unit="character"/> <w lemma="εἰς">ἐς</w> <w lemma="ὅς">ἃς</w> <w lemma="εἰσώστη">εἰσώστας</w> <w lemma="εἰσκηδεύω">εἰσκηδευθήσεται</w> <w lemma="αὐτός">αὐτός</w> <w lemma="τε">τε</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="πατήρ">πατὴρ</w> <w lemma="αὐτός">αὐτοῦ</w> <gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/><w>Σ</w> <w lemma="οὐδείς">οὐδενὶ</w> <w lemma="ἔξεστι">ἐ<unclear reason="damage">ξ</unclear>έσται</w> <w lemma="ἐνθάπτω">ἐνθάψαι</w> <w lemma="τις">τινὰ</w> <w lemma="εἰς">εἰς</w> <w lemma="αὐτός">αὐτὰς</w> <w lemma="ἐπεί">ἐπεὶ</w> <gap reason="lost" extent="unknown" unit="character"/>  <lb n="5"/> <w lemma="οὗτος">τούτου</w> <w lemma="ἀντίγραφον">ἀντίγραφον</w> <w lemma="ἀποτίθημι">ἀπετέθη</w> <w lemma="καί">καὶ</w> <w lemma="εἰς">εἰς</w> <w lemma="ὁ">τὸ</w> <w lemma="χρεωφυλάκιον">χρεο<supplied reason="lost">φυλάκιον</supplied></w>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="6"/> <w>ΩΣ</w> <w lemma="ἐπί">ἐπὶ</w> <w lemma="στεφανηφόρος">στεφανηφόρου</w> <persName type="attested"><name nymRef="#Δημήτριος">Δημητρίου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Πύρρος">Πύρρου</name></persName></persName> <gap reason="lost" extent="unknown" unit="character"/>  <lb n="7"/> <w lemma="ἔτι">ἔτ<unclear reason="damage">ι</unclear></w> <w lemma="βούλομαι"><unclear reason="damage">β</unclear>ού<unclear reason="damage">λ</unclear>ομα<supplied reason="lost">ι</supplied></w> <w lemma="ἐνθάπτω">ἐνταφῆναι</w> <w lemma="εἰς">εἰς</w> <w lemma="ὁ">τὰς</w> <w lemma="εἰσώστη">εἰσώστας</w> <w lemma="καί">καὶ</w> <gap reason="lost" extent="unknown" unit="character"/>  <lb n="8"/><orig n="unresolved">πρ</orig><gap reason="lost" extent="unknown" unit="character"/>  </ab></div>
+</div>
+         <div type="apparatus">
+            <p>a l. 7, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΚΑΙΝΗΣΑΙ</foreign>
+            </p>
+            <p>a l. 8, At the beginning <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΟ</foreign>
+            </p>
+            <p>a l.10, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΙΕΡΑΚΟΣΟΥΣΑΤΙΟΣ</foreign>
+            </p>
+            <p>b l. 1, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΜΑΚΡΟΥ</foreign>. At end <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΤΗΣΤΟΥ</foreign>
+            </p>
+            <p>b l. 3, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΚΛΗΔ</foreign>
+            </p>
+            <p>b l. 4, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΣΕΣΤΑΙ</foreign>
+            </p>
+            <p>b l. 7, <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΕΤ<gap extent="2" reason="lost" unit="character"/>ΟΥΔΟΜΑΕΝΤ</foreign>. In the space <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΙΝ</foreign> has then been written.</p>
+         </div>
+         <div type="translation">
+            <p>No translation  yet (2007)</p>
+         </div>
+         <div type="commentary">
+            <p>No commentary  yet (2007)</p>
+         </div>
+         <div type="bibliography">
+            <p>Transcribed, less well than usually, by Müller, whence published by <bibl n="CIGII">Boeckh, CIG <citedRange>2835</citedRange>
+               </bibl>, whence <bibl n="PHI">
+                  <author>McCabe</author>
+                  <title level="m">PHI Aphrodisias</title>
+                  <citedRange n="257347">469</citedRange>
+(A), <citedRange n="257336">458</citedRange> (B)</bibl> .</p>
+         </div>
+      </body>
+   </text>
+</TEI>

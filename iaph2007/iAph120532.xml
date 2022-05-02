@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120532" n="iAph1778 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120532" n="iAph1778 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
 (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <persName type="aphrodisian"><name reg="Αὐρήλιος"><seg type="autopsy">Α</seg>ὐρ.</name> <name reg="Φλαβία">Φλαβίαν</name> <lb n="2"/> <name reg="Μεσσουληΐα"><seg type="autopsy">Μ</seg>εσσουληίαν</name> <lb n="3"/> <persName type="aphrodisian"><name reg="Ἡφαιστίων"><seg type="autopsy">Ἡφ</seg>αιστίωνος</name></persName></persName> <lb n="4"/> <w lemma="ἀρχιερεύς"><seg type="autopsy">ἀρ</seg>χιερέως</w> <w lemma="καί">καὶ</w> <lb n="5"/> <w lemma="ὁ"><seg type="autopsy">τ</seg>ῆς</w> <w lemma="πόλις">πόλεως</w> <lb n="6"/> <seg type="autopsy"><space unit="character" extent="1"/> </seg><w lemma="θυγάτηρ">θυγατέρα</w> <space unit="character" extent="1"/><lb n="7"/> <persName type="aphrodisian"><name reg="Διογένεια">Διογενείαν</name></persName> <lb n="8"/> <w lemma="ἀνθηφόρος">ἀνθηφόρον</w> <w lemma="ὁ">τῆς</w> <lb n="9"/> <persName type="divine"><name reg="Ἀφροδίτη">Ἀφροδείτης</name></persName> <lb n="10"/> <w lemma="καί">καὶ</w> <w lemma="ἀρχιέρεια">ἀρχιέρειαν</w> <lb n="11"/> <w lemma="ὁ">τῆς</w> <w lemma="πατρίς">πατρίδος</w> <lb n="12"/> <w lemma="ὁ">τὴν</w> <w lemma="ἀξιόλογος">ἀξιολογω<lb n="13" type="worddiv"/>τάτην</w>  <w lemma="ματρώνη">ματρῶ<lb n="14" type="worddiv"/>ναν</w> <w lemma="γυνή">γυναῖκα</w> <lb n="15"/>  <persName type="aphrodisian"><name reg="Αἰμίλιος">Αἰμιλίου</name> <lb n="16"/> <name reg="Ὑψικλῆς">Ὑψικλέους</name></persName> <w lemma="ἱππικός">ἱπ<lb n="17" type="worddiv"/>πικοῦ</w>  <w lemma="ἀρχιερεύς">ἀρχιερέ<lb n="18" type="worddiv"/><g type="leaf"/> ως</w> <g type="leaf"/>  </ab>
 </div>

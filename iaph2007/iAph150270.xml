@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150270" n="iAph0340 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150270" n="iAph0340 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -49,7 +49,7 @@
 
 <p>Perhaps <date exact="none" notAfter="0200" notBefore="0101" cert="low">second century A.D.</date> (<rs type="criteria">lettering</rs>).</p></div>
 
-<div n="text" lang="grc" type="edition">
+<div n="text" lang="grc" type="edition" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="0"/><gap reason="lost" dim="top" extent="unknown" unit="line"/><lb n="1"/><gap reason="lost" dim="left" extent="unknown" unit="character"/><gap reason="illegible" extent="1" unit="character"/><lb n="2"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig><gap dim="internal" extent="1" reason="lost" unit="character"/><orig n="unresolved">ογ<unclear reason="damage">υ</unclear></orig><lb n="3"/><orig n="unresolved">χ</orig><gap dim="internal" extent="2" reason="lost" unit="character"/><gap reason="illegible" extent="2" unit="character"/><lb n="4"/><orig n="unresolved">α</orig><gap dim="internal" extent="2" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig><gap dim="right" extent="2" reason="lost" unit="character"/><lb n="5"/><orig n="unresolved">ο</orig><gap dim="internal" extent="1" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">λισ</unclear></orig><lb n="6"/><orig n="unresolved">δ<unclear reason="damage">ι</unclear></orig><gap dim="internal" extent="1" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig><gap reason="illegible" extent="1" unit="character"/><lb n="7"/><orig n="unresolved"><unclear reason="damage">β</unclear></orig><gap dim="internal" extent="1" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig><gap dim="internal" extent="1" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">γ</unclear></orig><lb n="8"/><orig n="unresolved">α</orig><gap dim="internal" extent="3" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">λ</unclear></orig><lb n="9"/><orig n="unresolved"><unclear reason="damage">ριο</unclear></orig><gap dim="right" extent="1" reason="lost" unit="character"/></ab>

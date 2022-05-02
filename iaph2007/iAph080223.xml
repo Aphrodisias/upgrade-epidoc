@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080223" n="iAph0821 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080223" n="iAph0821 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -49,7 +49,7 @@
 <date notAfter="0400" notBefore="0001" exact="none">First to fourth centuries A.D.</date>
 (<rs type="criteria">lettering</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab> <cb n="a" rend="hand"/><lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <space extent="2" unit="character" dim="horizontal"/> <orig n="unresolved">δημη</orig><space extent="7"/><cb n="b" rend="hand"/> <lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <persName type="aphrodisian"><name reg="Ἀντωνία"><supplied reason="lost">Ἀντ</supplied>ωνίας</name>  <name reg="Σελεύκεια">Σελευκεία<supplied reason="lost" cert="low">ς</supplied></name></persName>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  </ab>
 </div>

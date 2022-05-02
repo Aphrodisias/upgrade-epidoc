@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130406" n="iAph1501 ">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130406" n="iAph1501 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 Perhaps  <date notBefore="0234" notAfter="0267" exact="none" cert="low">middle of the third century</date>
  (<rs type="criteria">lettering</rs>, <rs type="criteria">formulae</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <w lemma="ζάω">ζῶσιν</w> <lb n="2"/> <w lemma="αὐτός">αὑτή</w> <w lemma="εἰμί">ἐστιν</w> <w lemma="ὁ">ἡ</w> <lb n="3"/> <w lemma="σορός">σορὸς</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὸ</w> <w lemma="ὑποκάτω">ὑ<lb n="4" type="worddiv"/>ποκάτω</w>  <w lemma="μνῆμα">μνῆ<lb n="5" type="worddiv"/>μα</w> <persName type="aphrodisian"><name reg="Μᾶρκος">Μάρκου</name> <name reg="Αὐρήλιος">Αὐρ<lb n="6" type="worddiv"/>ηλίου</name>  <name reg="Γλύκων">Γλύκω<lb n="7" type="worddiv"/>νος</name></persName>  <w lemma="ἀγαλματογλύφος">ἀγαλματο<lb n="8" type="worddiv"/>γλύφου</w> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Ἀλέξανδρος"> Ἀλε<lb n="9" type="worddiv"/>ξάνδρου</name></persName>  <w lemma="πιμεντάριος">πιμε<lb n="10" type="worddiv"/>νταρίου</w>  <g type="leaf"/>  </ab>
 </div>

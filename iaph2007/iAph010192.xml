@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010192" n="iAph0107 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010192" n="iAph0107 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -40,8 +40,8 @@
         <head>Description of Monument</head>
         <p>Two fragments, not joining, from a <rs type="material" key="marmor">white marble</rs> <rs type="objectType">balustrade</rs>/parapet rim (of the same
 kind as <xref type="inscription" n="92" href="010012">1.12</xref>-<xref type="inscription" n="96" href="010016">1.16</xref>) with
-a smooth top, moulded front, rough back and lower edge (H. <measure dim="none">0.145</measure>, D.
-<measure dim="none">0.175</measure>; W.: a: <measure dim="none">0.22</measure>; b: <measure dim="none">0.20</measure>).</p>
+a smooth top, moulded front, rough back and lower edge (H. <measure dim="height">0.145</measure>, D.
+<measure dim="height">0.175</measure>; W.: a: <measure dim="height">0.22</measure>; b: <measure dim="height">0.20</measure>).</p>
       </div>
 
       <div type="description" n="text">
@@ -60,7 +60,7 @@ clearly but very irregularly cut; diaeretic dots on <foreign lang="grc">Ι</fore
         <p><date notAfter="0700" exact="none" cert="low" notBefore="0401">Fifth to seventh centuries A.D.</date> (<rs type="criteria">lettering</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 			<div type="textpart_fragment" n="a"><ab>
 				<lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ου</orig> <w lemma="σπουδή">σπουδῇ</w> <persName key="Ioannes5" type="aphrodisian" full="yes"><name reg="Ἰωάννης">Ἰωάννου</name></persName> 

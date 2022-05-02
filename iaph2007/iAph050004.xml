@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050004" n="iAph1636 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph050004" n="iAph1636 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -44,7 +44,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
  (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ἐάν">ἐάν</w> <w lemma="τις">τις</w> <w lemma="ἔχω">ἔχων</w> <lb n="2"/> <w lemma="χαλκός">χαλκὸν</w> <w lemma="μή">μὴ</w> <w lemma="παραδείκνυμι"><choice type="correction"><sic resp="ιι"/><corr>π</corr></choice>α<lb type="worddiv" n="3"/>ραδείξῃ</w>  <w lemma="ἤτε">ἢτε</w> <w lemma="ἐν">ἐν</w> <lb n="4"/> <w lemma="φοῦνδα">φούνδῃ</w> <w lemma="ἤτε">ἢτε</w> <w lemma="ἐν">ἐν</w> <lb n="5"/> <w lemma="κάμπιστρον">καμπίστρῳ</w> <w lemma="αὐτός">αὐ<lb type="worddiv" n="6"/>τὸν</w>  <w lemma="αἰτιάομαι">αἰτιάσεται</w> </ab>
 </div>

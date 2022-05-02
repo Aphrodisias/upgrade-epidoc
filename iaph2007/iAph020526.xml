@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020526" n="iAph1343 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020526" n="iAph1343 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -42,7 +42,7 @@
 <head>Date</head>
 <p><date cert="low" notAfter="0400" notBefore="0201">Third-fourth century A.D.</date> (lettering)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">ιιιυ</unclear></orig><lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">ιμον</orig>  <space extent="2" unit="character" dim="horizontal"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">ιι</unclear>σ</orig> <w lemma="μοῖρα">μοῖρα</w> <lb n="3a"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <space extent="8" unit="character" dim="horizontal"/><lb n="3b"/><space unit="line" dim="vertical" extent="1"/></ab>
 </div>
@@ -61,7 +61,6 @@
 <rs type="found"><rs type="monuList">Bouleuterion/Odeon, West area</rs>: MAB 13, Tr. 2, Str.1</rs>
 <rs type="lastLocation">Museum (1977)</rs>
 <rs type="origLocation">Unknown</rs>
-<rs type="lastLocation">Museum</rs>
 </p>
 </div>
 <div type="history" n="text-constituted-from">

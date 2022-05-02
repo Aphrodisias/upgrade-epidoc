@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010003" n="iAph0128 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010003" n="iAph0128 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -59,7 +59,7 @@ abbreviation.</p>
         <p><date notAfter="1000" notBefore="0001" cert="low">First to tenth centuries A.D.</date> (<rs type="criteria">context</rs>)</p>
       </div>
 
-      <div type="edition" lang="grc">
+      <div type="edition" lang="grc" xml:space="preserve">
         <head lang="en">Edition</head>
         
 		<div type="textpart_section" n="i"><ab><lb n="1"/><orig n="unresolved">λα<unclear reason="damage">ιι</unclear>β</orig> <w lemma="ὁ">οἱ</w> <rs type="profession" key="builder"><w lemma="οἰκοδόμος">οἰκοδόμοι</w></rs>. </ab></div>

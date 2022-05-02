@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150295" n="iAph1324 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150295" n="iAph1324 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -24,7 +24,7 @@
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
 <revisionDesc>
 
-<change><date>2007-7-26</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-07-26</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
 <change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
 </revisionDesc></teiHeader><text>
 <body>
@@ -46,7 +46,7 @@
 <head>Date</head>
 <p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">ΘΗ</orig> <gap reason="illegible" extent="2" unit="character"/> <orig n="unresolved">ΕΤΕ</orig> <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">ΓΡΑΜ</orig> <gap reason="illegible" extent="1" unit="character"/> <orig n="unresolved">ΜΕ</orig> <gap reason="lost" extent="unknown" unit="character" dim="right"/>  </ab>
 </div>

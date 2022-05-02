@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080906" n="iAph0089 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080906" n="iAph0089 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -64,7 +64,7 @@
         <p><date exact="none" cert="low" notBefore="0501" notAfter="0600">Sixth century</date> (titulature).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<ab>
 		<lb n="1"/><supplied reason="lost" cert="low"><g type="cross"/></supplied> <rs type="subject" key="acclamations"><w lemma="αὔξι"><supplied reason="lost">α</supplied><unclear reason="damage">ὔ</unclear>ξι</w> <persName key="Theopompus" type="aphrodisian" full="yes"><name reg="Θεόπομπος">Θεόπομπος</name></persName></rs>

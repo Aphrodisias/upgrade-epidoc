@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120915" n="iAph1336 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120915" n="iAph1336 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">terminology</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <w lemma="ὑπό">ὑπὸ</w> <persName type="aphrodisian"><name reg="Ζήνων">Ζήνωνος</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ζήνων">Ζήνωνος</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἀγαθόπους">Ἀγαθό<supplied reason="lost">ποδος</supplied></name></persName></persName></persName>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <supplied reason="lost">ν</supplied>εοποιοῦ <w lemma="πρῶτος">πρώτου</w> <w lemma="ἄρχων">ἄρχοντος</w> <w lemma="δίς">δὶς</w> γραμ<supplied reason="lost">ματέως</supplied>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/>  </ab>
 </div>

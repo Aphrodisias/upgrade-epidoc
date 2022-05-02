@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010504" n="iAph0152 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph010504" n="iAph0152 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -60,7 +60,7 @@ sarcophagus.</p>
         <p><date notAfter="0333" exact="none" notBefore="0268">Late third/early fourth century</date> (titulature).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <div type="textpart_section" n="i"><ab><lb n="0"/><gap extent="7" reason="lost" unit="character"/> <w lemma="ἀντίγραφον"><supplied reason="lost">ἀντίγ</supplied><lb n="1"/><supplied reason="lost">ρα</supplied>φον</w> <w lemma="ἀνατίθημι">ἀνετέθη</w> <w lemma="εἰς">εις</w>      <lb n="2"/><w lemma="βεκούλον">εις</w> <w lemma="ὁ">τὸ</w> <w lemma="χρεωφυλάκιον">χρεοφυλάκιον</w> <w lemma="ἐπί">ἐπὶ</w><lb n="3"/><w lemma="στεφανηφόρος"><supplied reason="lost">στεφα</supplied>νηφόρου</w> <w lemma="ὁ">τὸ</w> <num value="3">γ</num> <persName type="aphrodisian"><name reg="Ὑψικλῆς">Ὑψικλέους</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἄδραστος">Ἀδράστου</name> <persName type="aphrodisian"><name reg="Νικότιμος">Νεικοτείμου</name> <name reg="Ἱέραξ">Ἱέρακος</name></persName></persName></persName> <w lemma="μείς">μηνὸς</w> <w lemma="Γορπιαῖος">Γορπιήου</w> <num value="9">θ</num>.</ab> 
       </div><div type="textpart_section" n="ii"><ab><lb n="1"/><w lemma="ἐνθάδε">ἐνθάδε</w> <w lemma="κεῖμαι">κεῖτε</w> <persName key="victorinus1" type="aphrodisian" full="yes"><name reg="Βικτωρεῖνος">Βικτωρεῖνος</name></persName> <w lemma="ἀπό">ἀπὸ</w> <rs type="official-secul" key="protector"><w lemma="πρωτήκτορ">πρωτηκτόρων</w></rs> <rs type="official-secul" key="praefvehic"><w lemma="ἔπαρχος">ἔπαρχος</w> <space dim="horizontal"/><lb n="2"/><w lemma="βεκούλον">βεκούλων</w>.</rs></ab> 

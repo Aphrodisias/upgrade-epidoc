@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Honours for the People of Heraklea Salbake</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph120928</idno>
+            <idno type="IAph2007">iAph120928</idno>
+            <idno type="JMR2004">iAph0662</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>No description; presumably a <objectType>statue base</objectType>.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>No description</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>No description</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Unknown</rs>
+                     </origPlace>
+                     <origDate notBefore="0225" notAfter="0275">
+ Mid third century
+(<rs type="criteria">prosopography</rs>)
+</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">Perhaps <rs type="monuList" cert="low">Walls, West</rs>
+                     </rs>
+                  </provenance>
+                  <provenance type="observed">
+                     <rs type="lastLocation">Findspot</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType" key="cetera">Agonistic</rs>
+               </term>
+               <term>
+                  <rs type="textType">Honours</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2007-08-07" who="Eleonora-Litta">tidied expan</change>
+         <change when="2007-01-12" who="Charlotte-Tupman">tidied</change>
+         <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
+         <change when="2007-01-01" who="GB">hand tidied</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+<ab><lb n="1"/><w lemma="ὁ"><supplied reason="lost">ὁ</supplied></w>  <w lemma="δῆμος"><supplied reason="lost">δῆμος</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τῆς</supplied></w>  <w lemma="λαμπρός"><supplied reason="lost">λαμ</supplied><lb n="2" break="no"/>προτάτης</w>  <placeName nymRef="#Ἀφροδεισιεύς"><supplied reason="lost">Ἀφρο</supplied><lb n="3" break="no"/>δεισιέων</placeName> <w lemma="πόλις">πόλε<lb n="4" break="no"/>ως</w> <w lemma="ὁ">τὸν</w> <w lemma="λαμπρός">λαμπρό<lb n="5" break="no"/>τατον</w> <w lemma="δῆμος">δῆμον</w> <lb n="6"/><placeName nymRef="#Ἡρακλεωτής">Ἡρακλ<unclear reason="damage">ε</unclear>ωτῶν</placeName>  <lb n="7"/> <w lemma="συνθύω">συνθύσαντα</w> <lb n="8"/> <w lemma="ἐπί">ἐπὶ</w> <w lemma="ὁ">τῇ</w> <w lemma="δίδωμι">δεδομέ<lb n="9" break="no"/>νῃ</w> <w lemma="ὁ">τοῦ</w> <w lemma="ἱερός">ἱεροῦ</w> <w lemma="ἀγών">ἀγῶ<lb n="10" break="no"/>νος</w> <w lemma="δωρεά">δ<unclear reason="damage">ω</unclear>ρεᾷ</w><g ref="#stop"/> <w lemma="προνοέομαι">προ<lb n="11" break="no"/>νοησαμένου</w>  <persName type="attested"><name nymRef="#Μᾶρκος"><expan><abbr>Μ</abbr><ex>άρκου</ex></expan></name>  <name nymRef="#Αὐρήλιος"><expan><abbr>Αὐρ</abbr><ex>ηλίου</ex></expan></name>  <name nymRef="#Ἀντώνιος"><expan><abbr>Ἀντ</abbr><ex>ωνίου</ex></expan></name>  <name nymRef="#Νεικόμαχος">Νε<supplied reason="lost">ι</supplied><unclear reason="damage">κ</unclear>ομά  <lb n="12" break="no"/>χου</name> <name nymRef="#Βλάστος">Βλάστου</name></persName> <w lemma="πρωτόλογος">πρ<unclear reason="damage">ω</unclear>  <lb n="13" break="no"/>τολόγου</w> <w lemma="ἄρχων">ἄρχον<lb n="14" break="no"/>τος</w>  <w lemma="ὁ">τὸ</w> <num value="3">γ</num> </ab>
+</div>
+         <div type="apparatus">
+            <p>Sherard's copy shows the first two lines of the text as missing; at some time in the transmission of his text the easy restoration was made, and was printed by Boeckh as if it had been read.</p>
+            <p>l. 4,  ΛΗΩΤ S</p>
+            <p>l. 8,  ΔΟΡ S.</p>
+            <p>l. 10· ΠΡΟ S.</p>
+         </div>
+         <div type="translation">
+            <p>The People of the most splendid city of the Aphrodisians (honoured) the most splendid People of the Herakleotes, who joined in the sacrifice for the giving of the grant of the sacred contest. Under the supervision of Marcus Aurelius Antonius Neikomachos Blastos, first Archon for the third time.</p>
+         </div>
+         <div type="commentary">
+            <p>This is one of a group of dedications for neighbouring communities: see <ref type="inscription" n="658" target="120924.xml"/>,  <ref type="inscription" n="659" target="120925.xml"/>, <ref type="inscription" n="660" target="120926.xml"/>, <ref type="inscription" n="661" target="120927.xml"/>, , <ref type="inscription" n="663" target="120929.xml"/> and <ref type="inscription" n="664" target="120930.xml"/>. See further Roueché PPA, ad loc. Heraklea on the Salbake river is the immediate southern neighbour of Aphrodisias; see L. and J. Robert, <title>La Carie</title>, ch. 3.</p>
+         </div>
+         <div type="bibliography">
+            <p>Published by <bibl n="CIGII">Boeckh, from Sherard, CIG <citedRange>2762</citedRange>
+               </bibl>, whence <bibl n="texier1839">?Texier, Description, 156 no.<citedRange>2</citedRange>
+               </bibl>, <bibl n="liermann1889">Liermann, Analecta <citedRange>32</citedRange>
+               </bibl>, <bibl n="LaCarie">J. and L. Robert, La Carie, 202, no.<citedRange>131</citedRange>
+               </bibl>. Published by <bibl n="PPA">Roueché, PPA <citedRange>62</citedRange>
+               </bibl>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

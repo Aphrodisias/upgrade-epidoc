@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120712" n="iAph1228 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120712" n="iAph1228 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -20,7 +20,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -38,7 +38,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
 (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/>  <persName type="aphrodisian" full="yes"><supplied reason="lost"><name reg="Σεπτίμιος">Σεπ</name>  <name type="nomen" reg="Αὐρήλιος">Αυρ</name>  <name reg="Φλάβιος">Φλ</name>  <name reg="Οὐενίδιος">Οὐενιδιος</name>  <name reg="Ὑψικλῆς" type="        ">Ὑψικλης</name></supplied>  <w lemma="τετράκις"><supplied reason="lost">τε</supplied><lb n="1" type="worddiv"/>τράκι</w>    <g type="stop"/>  <w lemma="ὁ">τοῦ</w>  <name reg="Ἀρχιμήδης">Ἀρχι<hi rend="ligature">μή</hi>δους</name>  <name reg="Εὔφρων">Εὔφρων</name></persName>  <g type="stop"/>  <w lemma="ἱερεύς">ἱερεὺς</w>  <w lemma="ὁ">τοῦ</w>  <lb n="2"/><persName type="divine" full="yes"><name>Ἀσκληπιοῦ</name></persName>  <g type="stop"/>  <w lemma="διά">δι'</w>  <persName type="aphrodisian" full="yes"><name reg="Ἀμμία">Ἀ<hi rend="ligature">μμ</hi>ίας</name>  <w lemma="ὁ">τ<supplied reason="omitted">ῆ</supplied>ς</w>    <persName type="aphrodisian" full="yes"><name reg="Ὑψικλῆς"><hi rend="tall">Ὑ</hi>ψικλέους</name>  <w lemma="ὁ">τοῦ</w>    <persName type="aphrodisian"><name reg="Ὑψικλῆς"><hi rend="tall">Ὑ</hi><lb n="3" type="worddiv"/>ψικλέους</name>  <w lemma="ὁ">τοῦ</w>  <w lemma="φύσις">φύσει</w>  <persName type="aphrodisian"><name reg="Ζήνων">Ζήνωνος</name></persName></persName></persName>  <name reg="Ὑψικλίς">Ὑψικλίδος</name></persName>  <w lemma="τετρακίς">τετρά<lb n="4" type="worddiv"/>  κις</w>  <w lemma="ἀρχιέρεια">ἀρχιερείας</w>  <w lemma="θυγάτηρ">θυγατρὸς</w>  <w lemma="πόλις">πόλεως</w>  <w lemma="ὁ">τῆς</w>  <w lemma="μάμμη">μάμ<lb n="5" type="worddiv"/><supplied reason="lost">μ</supplied><unclear reason="damage">η</unclear>ς</w>  <w lemma="αὐτός">αὐτοῦ</w>  <w lemma="καθώς">καθὼς</w>  <w lemma="ὑπέρ">ὑπὲρ</w>  <w lemma="αὐτός">αὐτοῦ</w>  <w lemma="ὑπισχνέομαι">ὑπέσχετο</w>  <w lemma="καί">κ<unclear reason="damage">α</unclear><supplied reason="lost">ὶ</supplied></w><lb n="5a"/><gap reason="lost" extent="unknown" dim="bottom" unit="line"/></ab>
 

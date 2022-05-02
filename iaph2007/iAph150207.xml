@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150207" n="iAph1496 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150207" n="iAph1496 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <p>
  Not determinable.</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><gap extent="unknown" dim="left" reason="lost" unit="character"/>   <w lemma="ὁ"><supplied reason="lost">ἡ</supplied></w>  <w lemma="γυνή"><supplied reason="lost">γ</supplied>υνὴ</w> <w lemma="αὐτός">αὐτοῦ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ"><unclear reason="damage">τὰ</unclear></w> <w lemma="παιδίον">παιδία</w> <w lemma="αὐτός">αὐτ<unclear reason="damage">ῶ</unclear><supplied reason="lost">ν</supplied></w>  <gap extent="unknown" dim="right" reason="lost" unit="character"/>  </ab>
 </div>

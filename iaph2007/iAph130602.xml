@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130602" n="iAph1441 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130602" n="iAph1441 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <date notBefore="0201" notAfter="0300" exact="none" cert="low"> third century A.D.</date>
  (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <w lemma="ὁ">ἡ</w>  <w lemma="σορός">σορός</w>  <w lemma="εἰμί">ἐστιν</w>  <lb n="2"/><w lemma="καί">καὶ</w>  <w lemma="ὁ">ὁ</w>  <w lemma="τόπος">τόπος</w>  <persName type="aphrodisian" full="yes"><name reg="Μᾶρκος">Μάρ<lb n="3" type="worddiv"/>κου</name>  <name reg="Αὐρήλιος" type="nomen">Αὐρηλίου</name>  <lb n="4"/><name reg="Ζήνων">Ζήνωνος</name>  <sic n="superfluous">τοῦ</sic>  <lb n="5"/><w lemma="ὁ">τοῦ</w>  <persName type="aphrodisian" full="yes"><name reg="Ζήνων">Ζήνωνος</name>  <lb n="6"/> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian" full="yes"><name reg="Ὀφέλιος">Ὀφελίου</name>  <lb n="7"/><name reg="Χριστός">Χριστοῦ</name></persName></persName></persName>  <space extent="3" unit="character" dim="horizontal"/>  <lb n="8"/><w lemma="μνήμη">μνήμη<unclear reason="damage">ς</unclear></w>  <lb n="9"/><w lemma="χάρις"><supplied reason="lost">χάριν</supplied></w></ab>
 </div>

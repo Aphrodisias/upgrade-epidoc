@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130156" n="iAph1510 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130156" n="iAph1510 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <date notAfter="0300" notBefore="0234"> Perhaps the mid to late third century A.D.</date>
  (total size of fine).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/><w lemma="ὁ"><supplied reason="lost">ἡ</supplied></w>  <w lemma="σορός"><supplied reason="lost">σορὸς</supplied></w>  <w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <w lemma="ὁ"><supplied reason="lost">αἱ</supplied></w>  <w lemma="ὑπόκειμαι"><supplied reason="lost">ὑποκεί</supplied>μεναι</w> <w lemma="εἰσωθέω">εἰσῶσται</w> <w lemma="δύο">δύο</w> <w lemma="εἰμί">εἰσὶν</w> <persName type="aphrodisian"><name reg="Ἀντώνιος"><expan><abbr>Ἀντ</abbr><supplied reason="abbreviation">ωνίου</supplied></expan></name> <name reg="Ἀντίοχος">Ἀντιόχου</name></persName> <w lemma="καί">καὶ</w>  <persName type="aphrodisian"><name reg="Ἀντωνία"><expan><abbr>Ἀντ</abbr><supplied reason="abbreviation">ωνίας</supplied></expan></name> <name reg="Ἰφιάνασσα">Εἰφιανάσσης</name></persName> <w lemma="γυνή"><supplied reason="lost" cert="low">γυναικὸς</supplied></w>  <w lemma="αὐτός"><supplied reason="lost">αὐτοῦ</supplied></w>  <lb n="2"/><w lemma="ἐν"><supplied reason="lost" cert="low">ἐν</supplied></w>  <w lemma="ὅς"><supplied reason="lost">ᾗ</supplied></w>  <w lemma="σορός"><supplied reason="lost">σορῷ</supplied></w>  <w lemma="κηδεύω"><supplied reason="lost">κεκήδευτ</supplied>αι</w> <persName type="aphrodisian"><name reg="Ἀντώνιος"><expan><abbr>Ἀντ</abbr><supplied reason="abbreviation">ώνιος</supplied></expan></name> <name reg="Ἀντίοχος">Ἀντίοχος</name></persName> <w lemma="κηδεύω">κηδευθήσονται</w> <w lemma="δέ">δὲ</w> <w lemma="καί"><app type="previouslyread">
 <rdg resp="autopsy">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150249" n="iAph1621 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150249" n="iAph1621 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -41,7 +41,7 @@
 <head>Date</head>
 <p>Perhaps<date notAfter="0300" notBefore="0001" cert="low"> first to third century A.D.</date> (<rs type="criteria">formulae</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <w lemma="ὁ"><supplied reason="lost">ὁ</supplied></w>  <w lemma="βωμός"><supplied reason="lost">β</supplied>ωμὸς</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ἡ</w> <w lemma="ἐπίκειμαι">ἐπικειμένη</w> <w lemma="αὐτός">αὐτῷ</w> <w lemma="σορός">σορὸς</w> <lb n="2"/><w lemma="καί"><supplied reason="lost">καὶ</supplied></w> <w lemma="ὁ">αἱ</w> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῷ</w> <w lemma="μνημεῖον">μνημείῳ</w> <w lemma="εἰσωθέω">εἰσῶσταί</w> <w lemma="εἰμί">εἰσιν</w> <persName type="aphrodisian"><name reg="Ἀπολλώνιος">Ἀπολ<supplied reason="lost">λ</supplied><lb n="3" type="worddiv"/><supplied reason="lost">λω</supplied><unclear reason="damage">ν</unclear>ιο<supplied reason="lost">υ</supplied></name> <w lemma="τρίς">τρὶς</w> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἄνδρων">Ἄνδρωνος</name></persName></persName> <gap reason="lost" extent="9" unit="character"/>ΙΔΡ  <lb n="4"/><gap reason="lost" extent="3" unit="character"/>  <w lemma="ὁ"><supplied reason="lost">τῆς</supplied></w> <w lemma="γυνή">γυναικὸς</w> <w lemma="αὐτός"><supplied reason="lost">αὐ</supplied><unclear reason="damage">τ</unclear>οῦ</w> <w lemma="καί">καὶ</w> <w lemma="τέκνον">τέκ<supplied reason="lost">νων</supplied></w>  <gap reason="lost" extent="2" unit="character"/>Υ  <lb n="4a"/><gap reason="lost" extent="3" unit="character"/>  </ab>
 </div>

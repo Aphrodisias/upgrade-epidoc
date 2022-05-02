@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130103" n="iAph1461 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130103" n="iAph1461 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 Perhaps <date notBefore="0101" notAfter="0200" exact="none">second century A.D.</date> (<rs type="criteria">lettering</rs>)
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <w lemma="ὁ">τὸ</w> <w lemma="αἰράριον">ἐράριον</w> <gap reason="lost" extent="29" unit="character"/><w lemma="ὁ"><unclear reason="damage">τ</unclear>ὸ</w>  <w lemma="μνημεῖον">μνη<lb n="2" type="worddiv"/>μεῖον</w> <persName type="aphrodisian"><name reg="Αἴλια">Αἰλίων</name> <name reg="Ἀμμία">Ἀμμίας</name></persName> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Παπίας">Παππίου</name></persName> <w lemma="ὁ">τῶν</w> <w lemma="τέκνον">τέκνων</w> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Παπίας">Παπίου</name></persName> <w lemma="οὗτος">τούτου</w> <w lemma="ἀποτίθημι">ἀπετέθη</w> <w lemma="ἀντίγραφον">ἀντίγραφον</w> <w lemma="εἰς">εἰς</w> <w lemma="ὁ">τὸ</w> <w lemma="χρεωφυλάκιον">χρε<lb n="3" type="worddiv"/><space extent="3" unit="character" dim="horizontal"/>οφυλακιον</w> <w lemma="ἐπί">ἐπὶ</w> <w lemma="στεφανηφόρος">στεφανηφόρου</w> <w lemma="ὁ">τὸ</w> <num value="3">γ</num> <persName type="aphrodisian"><name reg="Τιβέριος"><expan><abbr>Τι</abbr><supplied reason="abbreviation">βέριου</supplied></expan></name> <name reg="Φλάβιος"><expan><abbr>Φλ</abbr><supplied reason="abbreviation">αβίου</supplied></expan></name> <name reg="Χαιρέας" type="        ">Χαιρέου</name></persName>  <w lemma="μείς">μηνὸς</w> <rs type="month"><w lemma="Ξανδικός">Ξανδικοῦ</w></rs> <g type="scroll"/> <space extent="3" unit="character" dim="horizontal"/>  </ab>
 </div>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Statue dedication to 
+empress  Julia Domna</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph120642</idno>
+            <idno type="IAph2007">iAph120642</idno>
+            <idno type="JMR2004">iAph1309</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno>75.325</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>A plain <material key="marmor">white marble</material>
+                              <objectType>
+                                 <objectType>statue base</objectType> shaft</objectType> (<width unit="metre">0.54</width> × <height unit="metre">1.28</height> × <depth unit="metre">0.50</depth>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>ll. 1-10, <height unit="metre">0.045</height>; ll.11 f., <height unit="metre">0.025</height>. Ligatures: <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΗΝ</foreign>, l.2, l.5. Circular stops before and after <foreign xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xsl:lang="grc">ΑΥΡ</foreign>.</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Unknown</rs>
+                     </origPlace>
+                     <origDate notBefore="0211" notAfter="0217">
+A.D. 211-217
+<rs type="criteria">Reign</rs>
+                     </origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList">Walls, South (east part)</rs>: reused in the stretch excavated in 1975.</rs>
+                  </provenance>
+                  <provenance type="observed">
+                     <rs type="lastLocation">Museum</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="personType" key="imperatorius">Imperial</rs>
+               </term>
+               <term>
+                  <rs type="textType">Statue dedication</rs>
+               </term>
+               <term>
+                  <rs type="textType">imperial</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+<ab><lb n="1"/>  <space extent="1" unit="character" dim="horizontal"/>  <persName type="emperor"><name nymRef="#Ἰουλία">Ἰουλία<unclear reason="damage">ν</unclear></name>  <space extent="1" unit="character" dim="horizontal"/><lb n="2"/><name nymRef="#Σεβαστός">Σεβαστ<hi rend="ligature">ὴ<unclear reason="damage">ν</unclear></hi></name></persName><lb n="3"/>  <space unit="character" extent="1" dim="horizontal"/>  <w lemma="μήτηρ">μητέρα</w>  <space unit="character" extent="1" dim="horizontal"/><lb n="4"/><w lemma="κάστρον">κάστρων</w>  <w lemma="ὁ">ὁ</w><lb n="5"/><w lemma="δῆμος">δῆμος</w>  <w lemma="ὁ">τ<hi rend="ligature">ὴν</hi></w>  <lb n="6"/><space extent="1" unit="character" dim="horizontal"/>  <w lemma="ἑαυτοῦ">ἑαυτοῦ</w>    <space extent="1" unit="character" dim="horizontal"/>  <lb n="7"/><w lemma="εὐεργέτις">εὐεργέτιν</w>  <lb n="8"/><w lemma="ἐκ">ἐξ</w>  <w lemma="ἀπόλειψις">ἀπολείψε<lb n="9" break="no"/>ως</w>  <persName type="attested"><name nymRef="#Φλάβιος">Φλαβίου</name>  <lb n="10"/><space extent="1" unit="character" dim="horizontal"/>  <name nymRef="#Ἄτταλος">Ἀττάλ<unclear reason="damage">ο</unclear>υ</name></persName>  <space extent="1" unit="character" dim="horizontal"/>  <lb n="10a"/><space extent="1" unit="line" dim="horizontal"/><lb n="11"/><w lemma="ἐπιμελέω">ἐπιμεληθέντος</w>  <persName type="attested"><name nymRef="#Μᾶρκος">Μάρ<lb n="12" break="no"/>κου</name>  <g ref="#stop"/>  <name nymRef="#Αὐρήλιος"><expan><abbr>Αὐρ</abbr><ex>ηλίου</ex></expan></name>  <g ref="#stop"/>  <name nymRef="#Χρήσιμος">Χρησίμου</name>  <w lemma="ὁ">τοῦ</w><lb n="13"/><space extent="1" unit="character" dim="horizontal"/>  <persName type="attested"><name nymRef="#Ἀπολλώνιος">Ἀπολλωνίου</name></persName></persName>    <space extent="1" unit="character" dim="horizontal"/>  </ab>
+</div>
+         <div type="translation">
+            <p>Julia Augusta mother of the military camps: the People (put up the statue of) their benefactress, from the bequest of Flavius Attalos. Marcus Aurelius Chresimos son of Apollonios took responsibility. </p>
+         </div>
+         <div type="commentary">
+            <p>A statue of Caracalla (<ref type="inscription" n="1312" target="120641.xml"/>=75.326) which is a pair to this, was found in the same area; a further statue of Caracalla (<ref type="inscription" n="1308" target="120326.xml"/>=MAMA 451) was set up from the same bequest; but only Julia Domna is described as a benefactor, although there is no indication of what she might have done</p>
+         </div>
+         <div type="bibliography">
+            <p>Published by <bibl type="primary" n="MAMA8">
+                  <author>Cormack</author>, from the MAMA records, MAMA 8, <citedRange>452</citedRange>
+               </bibl>, whence <bibl n="PHI">
+                  <author>McCabe</author>
+                  <title level="m">PHI Aphrodisias</title>
+                  <citedRange n="257088">209</citedRange>
+               </bibl>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

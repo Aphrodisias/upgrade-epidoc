@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130114" n="iAph0166 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph130114" n="iAph0166 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -56,7 +56,7 @@ of the two words in the genitive.</p>
         <p><date exact="none" cert="low" notBefore="0401" notAfter="0500">Fifth century</date> or later.</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
         <ab>
 		  	<lb n="1"/><w lemma="Α">Α</w> <g type="chi-rho"/> <w lemma="Ω">Ω</w> <persName key="theopropius1" type="aphrodisian" full="yes"><name reg="Θεοπρόπιος">Θεοπρο<unclear reason="damage">π</unclear><supplied reason="lost">ίο</supplied>υ</name></persName> <g type="leaf"/> <w lemma="Α">Α</w> <g type="chi-rho"/> <w lemma="Ω">Ω</w> <w lemma="ζάω"><hi rend="supraline">ζῇ</hi></w><lb n="2"/><rs type="official-relig" key="bishop"><w lemma="ἐπίσκοπος">ἐπισ<unclear reason="damage">κ</unclear><supplied reason="lost">όπο</supplied>υ</w></rs>.</ab>

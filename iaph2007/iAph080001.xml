@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080001" n="iAph0536 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080001" n="iAph0536 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -23,7 +23,7 @@
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="personType" key="imperatorius">Imperial</rs></term><term><rs type="textType" key="sacer">Religious</rs></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
 <revisionDesc><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
 <change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change><change><date>2007-01-12</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
-<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -33,14 +33,14 @@
 </div>
 <div type="description" n="letters">
 <head>Letters</head>
-<p>i. <measure dim="none">0.11</measure>. ii. Elegant, l. 1,  <measure dim="height" type="length" unit="metre">0.05</measure>; l. 2,  <measure dim="height" type="length" unit="metre">0.03</measure>; despite the difference in size, both lines seem to be in the same hand. iii. <measure dim="height" type="length" unit="metre">0.01-0.02</measure>.</p>
+<p>i. <measure dim="height">0.11</measure>. ii. Elegant, l. 1,  <measure dim="height" type="length" unit="metre">0.05</measure>; l. 2,  <measure dim="height" type="length" unit="metre">0.03</measure>; despite the difference in size, both lines seem to be in the same hand. iii. <measure dim="height" type="length" unit="metre">0.01-0.02</measure>.</p>
 </div>
 <div type="description" n="date">
 <head>Date</head>
 <p>
 i. <date precision="circa" value="-0028" notBefore="-0028" notAfter="-0028" exact="both">28 B.C.</date> (<rs type="criteria">prosopography</rs>); ii. &amp; iii. <date notAfter="0600" notBefore="0001">First – sixth century A.D. </date>(<rs type="criteria">context</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <div type="textpart_section" n="i"><ab><lb n="1"/>  <persName type="aphrodisian" full="yes"><name reg="Γάϊος">Γάϊος</name>  <name reg="Ἰούλιος">Ἰούλιος</name>  <name reg="Ζωΐλος">Ζω<unclear reason="damage">ΐ</unclear><milestone unit="block"/>λος</name></persName>  <persName type="emperor" full="yes"><w lemma="θεός">θεοῦ</w>  <name reg="Ἰούλιος">Ἰουλίου</name>  <w lemma="υἱός">υ<supplied reason="lost">ἱ</supplied><milestone unit="block"/>οῦ</w>  <name reg="Καῖσαρ">Καίσαρος</name></persName>  <w lemma="ἀπελεύθερος">ἀπελε<milestone unit="block"/>ύθερος</w>  <w lemma="στεφανηφορέω">στεφανοφο<milestone unit="block"/>ρήσας</w> <w lemma="ὁ">τὸ</w> <w lemma="δέκατος">δέκατον</w> <w lemma="ἔχω">ἑξῆς</w><milestone unit="block"/> <w lemma="ὁ">τὸ</w> <w lemma="λογήιον">λογήιον</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὸ</w> <w lemma="προσκήνιον">προ<milestone unit="block"/>σκήνιον</w> <w lemma="σύν">σὺν</w> <w lemma="ὁ">τοῖς</w> <w lemma="ἐν">ἐν</w> <w lemma="αὐτός">αὐ<milestone unit="block"/>τῶι</w>  <w lemma="προσκόσμημα">προσκοσμή<unclear reason="damage">μ</unclear>ασιν</w>  <milestone unit="block"/><w lemma="πᾶς">πᾶσιν</w>  <persName type="divine" full="yes"><name reg="Ἀφροδίτη">Ἀφ<unclear reason="damage">ρ</unclear><supplied reason="lost">οδίτῃ</supplied></name></persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῶι</w> <w lemma="δῆμος">Δήμωι</w> <space unit="character" dim="horizontal"/></ab></div><div type="textpart_section" n="ii"><ab><lb n="1"/><gap reason="lost" extent="2" unit="character"/>  <orig n="unresolved"><unclear reason="damage">μ</unclear></orig> <persName type="divine"><name reg="Οὐρανία">Οὐρανία</name></persName> <orig n="unresolved"><unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="5" unit="character"/><orig n="unresolved"><unclear reason="damage">ρτιιλ</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/><gap reason="lost" extent="2" unit="character"/> <w lemma="βοηθέω">βοηθι</w> <w lemma="ὁ">τῷ</w> <w lemma="δοῦλος">δουλῳ</w> <w lemma="σύ"><unclear reason="damage">σ</unclear><supplied reason="lost">ου</supplied></w>  <persName type="aphrodisian"><name reg="Νικηφόρος"><unclear reason="damage">Ν</unclear>ικη<unclear reason="damage">φόρ</unclear>ῳ</name></persName>  <gap reason="lost" extent="unknown" unit="character" dim="right"/></ab></div><div type="textpart_section" n="iii"><ab><lb n="1"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <lb n="2"/> <w lemma="ὁ">τῆς</w> <w lemma="πόλις">πόλεως</w></ab></div></div>
 <div type="history" n="text-constituted-from">

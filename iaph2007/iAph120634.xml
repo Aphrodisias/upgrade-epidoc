@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120634" n="iAph1883 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120634" n="iAph1883 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -45,7 +45,7 @@
 <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
  (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>).</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 
 <ab><lb n="1"/><persName type="aphrodisian"><name reg="Αὐρήλιος"><supplied reason="lost">Αὐρήλιοι</supplied></name></persName> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="καί"><supplied reason="lost">καὶ</supplied></w> <persName type="aphrodisian"><name reg="Ζήνων">Ζ<hi rend="ligature">ήν</hi>ων</name></persName> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Ὑψικλῆς">Ὑψικλῆς</name></persName> <w lemma="υἱός">υἱοὶ</w> <persName type="aphrodisian"><name reg="Αὐρήλιος" type="nomen">Αὐρηλίου</name> <name reg="Ζήνων">Ζ<hi rend="ligature">ήν</hi>ωνος</name></persName> <w lemma="ἀρχιερεύς">ἀ<supplied reason="omitted">ρ</supplied>χιερέως</w> <num value="3">γ</num> <w lemma="ὁμοῦ">ὁμοῦ</w> <gap reason="illegible" extent="1" unit="character"/> <w lemma="ἀδελφός">ἀδελφοὶ</w> <w lemma="δέ">δὲ</w> <persName type="aphrodisian"><name reg="Αὐρήλιος" type="nomen">Αὐρηλίου</name> <name reg="Ζήνων">Ζή<supplied reason="lost" cert="low">νωνος</supplied></name></persName> <gap reason="lost" extent="unknown" unit="character" dim="right"/><lb n="2"/>

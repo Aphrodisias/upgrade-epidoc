@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph040021" n="iAph0083 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph040021" n="iAph0083 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -35,12 +35,12 @@
 
       <div type="description" n="monument">
         <head>Description of Monument</head>
-        <p>Nineteen out of an original twenty <rs type="material" key="marmor">white marble</rs> <rs type="objectType">column</rs>s, all on identical bases. The columns, <measure precision="circa" type="length" dim="diameter">0.75</measure> in diameter, are smooth to a height of <measure type="length" dim="none">1.73</measure>, and fluted above. They are made in two sections; the join between the two is not always at the same point, being sometimes below, and sometimes above the line where the fluting begins, but the overall effect is uniform and elegant.</p>
+        <p>Nineteen out of an original twenty <rs type="material" key="marmor">white marble</rs> <rs type="objectType">column</rs>s, all on identical bases. The columns, <measure precision="circa" type="length" dim="diameter">0.75</measure> in diameter, are smooth to a height of <measure type="length" dim="height">1.73</measure>, and fluted above. They are made in two sections; the join between the two is not always at the same point, being sometimes below, and sometimes above the line where the fluting begins, but the overall effect is uniform and elegant.</p>
       </div>
 
       <div type="description" n="text">
         <head>Description of Text</head>
-        <p>Each of the surviving columns bears an inscription, cut just below the fluting, at a distance varying from <measure type="length" dim="none">0.3</measure> to <measure type="length" dim="none">0.05</measure>, on the west face of the column. The inscriptions were, therefore, on the face sheltered by the roof of the <term>portico</term>, and have preserved traces of red paint in the letters. They form a series to be read from left to right—that is, from north to south. They were probably carved in that order; the lettering is at its most formal at the northern end of the <term>portico</term>, and becomes more cursive towards the south</p>
+        <p>Each of the surviving columns bears an inscription, cut just below the fluting, at a distance varying from <measure type="length" dim="height">0.3</measure> to <measure type="length" dim="height">0.05</measure>, on the west face of the column. The inscriptions were, therefore, on the face sheltered by the roof of the <term>portico</term>, and have preserved traces of red paint in the letters. They form a series to be read from left to right—that is, from north to south. They were probably carved in that order; the lettering is at its most formal at the northern end of the <term>portico</term>, and becomes more cursive towards the south</p>
       </div>
 
       <div type="description" n="letters">
@@ -54,7 +54,7 @@
         <p><date notAfter="0600" exact="none" notBefore="0501">Sixth century A.D.</date> (<rs type="criteria">lettering</rs>)</p>
       </div>
 
-      <div lang="grc" n="text" type="edition">
+      <div lang="grc" n="text" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 		<div type="textpart_section" n="1">
 			

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150346" n="iAph1499 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph150346" n="iAph1499 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
  The inscription is certainly secondary, cut markedly later than the original production of the sarcophagus; <date notAfter="0400" notBefore="0300" cert="low">perhaps fourth century</date>, but there is no secure evidence.
 </p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <persName type="aphrodisian"><name><gap reason="lost" extent="3" unit="character"/><unclear reason="damage">δ</unclear>ο<unclear reason="damage">ν</unclear>α<unclear reason="damage">ί</unclear>ου</name></persName> <placeName type="ethnic" reg="Ἀφροδεισιεύς">Ἀφροδισέος</placeName> </ab>
 </div>

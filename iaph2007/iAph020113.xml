@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020113" n="iAph0013 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020113" n="iAph0013 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -68,7 +68,7 @@ in smaller letters (<measure type="length" unit="metre" dim="height">0.03-0.035<
         <p>c. <date notAfter="0350" exact="both" precision="circa" notBefore="0324">A.D. 324-350</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>).</p>
       </div>
 
-      <div n="text" lang="grc" type="edition">
+      <div n="text" lang="grc" type="edition" xml:space="preserve">
         <head lang="en">Edition</head>
 <ab><lb n="1"/><persName type="divine" key="agty" full="yes"><w lemma="ἀγαθός">Ἀγαθῇ</w> <w lemma="τύχη">Τύχῃ</w></persName>·<lb n="2"/><persName type="aphrodisian" key="FlAndronicus" full="yes"><name reg="Φλάβιος"><expan><abbr>Φλ</abbr><supplied reason="abbreviation">άβιος</supplied></expan></name> <name reg="Ἀνδρόνικος">Ἀνδρόνικος</name></persName><lb n="3"/><w lemma="ὁ">ὁ</w> <rs type="dignity" key="perfectissimus"><w lemma="διάσημος">διασημότατο<supplied reason="lost">ς</supplied></w></rs><lb n="4"/><w lemma="ποιέω">ἐποίει</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῇ</w> <w lemma="ἑαυτοῦ">αὑτο<supplied reason="lost">ῦ</supplied></w><lb n="5"/><w lemma="πατρίς">πατρίδι</w> <w lemma="δωρέομαι">ἐδωρήσα<lb n="6" type="worddiv"/>το</w> <g type="leaf"/>
 </ab>

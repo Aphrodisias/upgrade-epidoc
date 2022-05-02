@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+    <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fragment of building inscription, found in village</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph110026</idno>
+            <idno type="IAph2007">iAph110026</idno>
+            <idno type="JMR2004">iAph1176</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno>74.261</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Text constituted from: </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>
+                              <material key="marmor">White marble</material>
+                              <objectType>block</objectType> with curved moulding from an entablature cornice, broken at the right end (<width unit="metre">0.99</width> × <height unit="metre">0.42</height> × <depth unit="metre">0.59</depth>).</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" key="scalpro">Inscribed</rs> on one face of the two fasciae; part of the moulding has been broken away.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height unit="metre">0.06</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="origLocation">Unknown</rs>
+                     </origPlace>
+                     <origDate notBefore="0101" notAfter="0150" precision="medium">
+ First half of second century A.D.
+(<rs type="criteria">lettering</rs>).</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="found">
+                        <rs type="monuList">City, Village</rs>: in area of Museum excavation.</rs>
+                  </provenance>
+                  <provenance type="observed" when="1983">
+                     <rs type="lastLocation">Museum (1983)</rs>
+                  </provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+               <term>
+                  <rs type="textType">building inscription</rs>
+               </term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2007-07-10" who="cmr">DONE</change>
+         <change when="2007-04-24" who="Charlotte-Tupman">hand tidied</change>
+         <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+<ab><lb n="1"/><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved">νοσ</orig>  <space extent="10" unit="character" dim="horizontal"/>    <lb n="2"/><note place="not  specified" anchored="yes">e.g.</note>  <w lemma="κατασκευάζω"><supplied reason="lost" cert="low">κατεσκευάσεν</supplied></w>  <w lemma="ὁ"><supplied reason="lost" cert="low">τὰ</supplied></w> <w lemma="πᾶς">πάντα</w> <space extent="8" unit="character" dim="horizontal"/></ab>
+</div>
+         <div type="translation">
+            <p>
+               <gap extent="unknown" reason="lost" unit="character"/>
+               <supplied reason="lost" cert="low">constructed</supplied> all.</p>
+         </div>
+         <div type="commentary">
+            <p>This fragment cannot be related to any known architectural feature, at present.</p>
+         </div>
+         <div type="bibliography" n="none">
+            <p>Unpublished.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

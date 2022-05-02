@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph040104" n="iAph0613 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph040104" n="iAph0613 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <date exact="none" cert="low" notAfter="0100" notBefore="0001">First century A. D.</date>
  (<rs type="criteria">prosopography</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="φαμιλία">Φαμιλίας</w> <w lemma="μονομάχος">μονομά<lb n="2" type="worddiv"/> χων</w>  <w lemma="καί">καὶ</w> <w lemma="κατάδικος">καταδίκ<lb n="3" type="worddiv"/> ων</w>  <persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen">Τιβερίου</name> <name reg="Κλαύδιος">Κλαυ<lb n="4" type="worddiv"/> δίου</name>  <name reg="Παυλεῖνος">Παυλείνου</name> <lb n="5"/>  <w lemma="ἀρχιερεύς">ἀρχιερέως</w> <w lemma="υἱός">ὑοῦ</w> <persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen">Τι<lb n="6" type="worddiv"/><supplied reason="lost">β</supplied>ερίου</name> <name reg="Κλαύδιος">Κλαυδίου</name></persName></persName> <lb n="7"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/>  </ab>
 </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020522" n="iAph1238 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph020522" n="iAph1238 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -21,7 +21,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2007-02-13</date><respStmt><name>Gabriel Bodard</name></respStmt><item>DONE</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2007-02-13</date><respStmt><name>Gabriel Bodard</name></respStmt><item>DONE</item></change><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -42,7 +42,7 @@
 <p>
 <date notBefore="0167" notAfter="0300" exact="none" cert="low">Late second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character" dim="left"/> <w lemma="θεός">θεῷ</w> <space extent="4" unit="character" dim="horizontal"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">ν</orig>  <w lemma="ὁ">τὸ<hi rend="ligature" id="hi1">ν</hi></w><link targets="hi1  hi2"/>  <w lemma="κράτιστος"><hi rend="ligature" id="hi2">κ</hi>ρά<lb n="3" type="worddiv"/><supplied reason="lost" cert="low">τιστον</supplied></w> <w><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">κ</unclear>ισ</orig></w> <w lemma="ἐπί">ἐπι<lb n="4" type="worddiv"/></w> <w><gap reason="lost" extent="unknown" unit="character" dim="left"/>ριον  <lb n="5" type="worddiv"/><gap reason="lost" extent="unknown" unit="character" dim="left"/></w><orig n="unresolved">λ</orig>  <lb n="5a"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/></ab>
 </div>

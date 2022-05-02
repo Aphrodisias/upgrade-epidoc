@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120214" n="iAph0692 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph120214" n="iAph0692 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -43,7 +43,7 @@
 <date exact="none" notAfter="0169" notBefore="0138" precision="circa">A.D. 138-69</date>
 (<rs type="criteria">emperor</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/><placeName reg="Προυσιάς"> Προυσιάδα </placeName><w lemma="ἀνήρ">ἀνδρῶν</w> <w lemma="πανκράτιον">πανκράτιν,</w><placeName reg="Κλαυδιόπολις"> Κλαυδιόπολιν </placeName><lb n="2"/><placeName><placeName reg="Ἄγκυρα"> Ἄνκυραν </placeName><unclear reason="damage">τ</unclear>ῆς <placeName reg="Γαλατία">Γαλατίας</placeName></placeName>, <placeName reg="Πεσσινοῦς">Πεσσινοῦντα </placeName>, <placeName reg="Δαμασκός">Δαμασκὸν </placeName> <num value="2">β</num>, <lb n="3"/> <placeName reg="Βηρυτός">Βηρυτὸν</placeName>, <placeName reg="Τύρος">Τύρον</placeName>, <placeName><placeName reg="Καισαρεία">Κ<unclear reason="damage">α</unclear>ισαρείαν</placeName> <w lemma="ὁ">τῆς</w> <placeName reg="Στράτων">Στράτωνος</placeName></placeName>, <lb n="4"/> <placeName><placeName reg="Νεάπολις">Νεάπολιν</placeName> <w lemma="ὁ">τῆς</w> <placeName reg="Σαμαρία">Σαμαρίας</placeName></placeName>, <placeName reg="Σκυθόπολις">Σκυθόπολιν</placeName>, <placeName reg="Γάζα">Γάζαν</placeName>, <lb n="5"/>  <placeName><placeName reg="Καισαρεία">Καισάρειαν</placeName><placeName reg="Πανιάς"> Πανιάδα </placeName></placeName> <num value="2">β</num>, <placeName reg="Ἱερόπολις">Ἱερόπολιν</placeName>, <placeName reg="Ἀναζαρβός">Ἀναζαρβὸν</placeName>, <placeName reg="Μοψουεστία">Μοψ <lb type="worddiv" n="6"/>ουεστίαν</placeName>, <placeName><placeName reg="Τρίπολις">Τρίπολιν</placeName> <w lemma="ὁ">τῆς</w> <placeName reg="Συρία">Συρίας</placeName></placeName>, <placeName><placeName reg="Φιλαδελφία">Φιλαδέλφειαν</placeName> <w lemma="ὁ">τῆς</w> <lb n="7"/> <placeName reg="Ἀραβία">Ἀραβίας</placeName></placeName>, <placeName><placeName reg="Ζεῦγμα">Ζεῦγμα</placeName> <w lemma="πρός">πρὸς</w> <w lemma="ὁ">τῷ</w><placeName reg="Εὐφράτης"> Εὐφράτῃ</placeName></placeName>, <placeName reg="Κιβύρα">Κιβύραν</placeName></ab>
 </div>

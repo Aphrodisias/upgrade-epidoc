@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080108" n="iAph1265 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" id="iAph080108" n="iAph1265 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -20,7 +20,7 @@
 <language id="es">Spanish</language>
 <language id="tr">Turkish</language>
 </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="personType" key="imperatorius">Imperial</rs></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
-<revisionDesc><change><date>2007-01-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<revisionDesc><change><date>2007-01-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
 <text>
 <body>
 <div type="description" n="monument">
@@ -37,7 +37,7 @@
 <p>
 <date notBefore="041" notAfter="100">Julio-Claudian</date> (<rs type="criteria">prosopography</rs>, <rs type="criteria">terminology</rs>)</p>
 </div>
-<div type="edition" lang="grc">
+<div type="edition" lang="grc" xml:space="preserve">
 <head lang="en">Edition</head>
 <ab><lb n="1"/> <w lemma="ὁ">τῇ</w> <persName type="divine" full="yes"><name reg="Ἀφροδίτη">Ἀφροδείτῃ</name></persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τοῖς</w> <persName type="emperor" key="anon" full="yes"><w lemma="σεβαστός">Σεβασ<lb n="2" type="worddiv"/>τοῖς</w></persName> <w lemma="ὁ">τὰ</w> <w lemma="ἀνάλημμα">ἀναλήματα</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὰς</w> <lb n="3"/> <w lemma="ἄνοδος">ἀνόδους</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὰ</w> <w lemma="σύστρωμα">συστρώματα</w> <lb n="4"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὰς</w> <w lemma="κερκίς">κερκείδας</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὰς</w> <w lemma="ψελίς">ψελί<lb n="5" type="worddiv"/>δας</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὰ</w> <w lemma="βάθρον">βάθρα</w> <w lemma="πᾶς">πάντα</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="6"/><persName type="aphrodisian" full="yes"><name reg="Ἀριστοκλῆς">Ἀριστοκλῆς</name>  <name reg="Ἀρτεμίδωρος">Ἀρτεμιδώρου</name>  <lb n="7"/><name reg="Μολοσσός">Μολοσσὸς</name>  <name reg="Κάϊκος">Κάικος</name></persName> <w lemma="καί">καὶ</w> <persName type="aphrodisian" full="yes"><name reg="Κάϊκος">Κάικος</name>  <lb n="8"/><persName type="aphrodisian"><name reg="Ἀρτεμίδωρος">Ἀρτεμιδώρου</name></persName>  <name reg="Παπίας" type="">Παπίας</name></persName>    <g type="stop"/> <w lemma="ἐργεπιστατέω">ἐργε <lb n="9" type="worddiv"/>πιστατήσαντος</w>  <persName type="aphrodisian" full="yes"><name reg="Ἑρμᾶς" type="">Ἑρμᾶ</name></persName> <w lemma="κατά">κατὰ</w> <lb n="10"/> <w lemma="ὁ">τὰς</w> <persName type="aphrodisian" full="yes"><name reg="Μολοσσός">Μολοσσοῦ</name></persName> <w lemma="ὁ">τοῦ</w> <w lemma="τρέφω">θρέψαντος</w> <lb n="11"/> <w lemma="διαθήκη">διαθήκας</w> <w lemma="προσεπαγγέλλω">προσεπηγγελμέ<lb n="12" type="worddiv"/>νου</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὸ</w> <w lemma="τρίτος">τρί<space extent="3" unit="character" dim="horizontal"/>τον</w> <w lemma="διάζωσμα">διάζωσμα</w> <lb n="13"/> <w lemma="ὁ">τοῦ</w> <w lemma="θέατρον">θεάτρου</w> <w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τῶν</w> <persName type="aphrodisian" full="yes"><name reg="Μολοσσιανός">Μολοσ<lb n="14" type="worddiv"/><g type="dot"/>  <g type="scroll"/>  <g type="dot"/>σιανῶν</name></persName> <w lemma="πρόσοδος">προσόδων</w> <g type="dot"/>  <g type="flower"/>  <g type="dot"/>  <lb n="15"/></ab>
 </div>
