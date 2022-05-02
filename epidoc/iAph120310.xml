@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">List</rs> of names or <rs type="textType">graffiti</rs>
-            </title>
+            <title> List of names or graffiti</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,7 +106,7 @@ First to fourth centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/> <orig n="unresolved">μην</orig><space extent="5"/> <lb n="2"/> <persName type="attested"><name nymRef="#Διογένης">Διογένης</name><gap reason="lost" extent="3" unit="character"/> <unclear reason="damage">ης</unclear> <lb n="3"/><persName type="attested"><name nymRef="#Διογένης">Διογέν<unclear reason="damage">ο</unclear><supplied reason="lost">υς</supplied></name></persName></persName>  <lb n="4"/>  <space extent="3" unit="character" dim="horizontal"/>  <lb n="5"/><space extent="3" unit="character" dim="horizontal"/><lb n="6"/><gap extent="3" reason="lost" unit="character"/><orig n="υνρεσολνεδ"><unclear reason="damage">μσνης</unclear></orig> </ab>
+<ab><lb n="1"/> <orig n="unresolved">μην</orig><space extent="5"/> <lb n="2"/> <persName type="attested"><name nymRef="#Διογένης">Διογένης</name><gap reason="lost" unit="character" quantity="3"/> <unclear reason="damage">ης</unclear> <lb n="3"/><persName type="attested"><name nymRef="#Διογένης">Διογέν<unclear reason="damage">ο</unclear><supplied reason="lost">υς</supplied></name></persName></persName>  <lb n="4"/>  <space extent="3" unit="character" dim="horizontal"/>  <lb n="5"/><space extent="3" unit="character" dim="horizontal"/><lb n="6"/><gap reason="lost" unit="character" quantity="3"/><orig n="υνρεσολνεδ"><unclear reason="damage">μσνης</unclear></orig> </ab>
 </div>
          <div type="apparatus">
             <p>Line 1: There are traces of a letter to the left of mu, perhaps, but not certainly, an alpha.</p>

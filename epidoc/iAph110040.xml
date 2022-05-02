@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> inscription for Aurelius Aroulios</title>
+            <title>Funerary inscription for Aurelius Aroulios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -110,7 +109,7 @@ Second to third centuries A.D. (<rs type="criteria">nomenclature</rs>)
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="σορός">σορὸς</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὸ</w> <w lemma="ὑπόκειμαι">ὑποκείμενον</w> <orig n="unresolved"><unclear reason="damage">ΙΙ</unclear>ΟΡΕ<unclear reason="damage">Ι</unclear>Ι</orig><gap reason="lost" extent="6" unit="character"/> <w lemma="πλάτας">πλάτα</w> <w lemma="εἰμί">ἐστὶν</w> <persName type="attested"><name nymRef="#Αὐρήλιος"><expan><abbr><supplied reason="lost">Α</supplied>ὐρ</abbr><ex>ηλίου</ex></expan></name> <name nymRef="#Ἀρούλιος">Ἀρουλίου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Ἀρούλιος">Ἀρουλίου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Ἐπαφρόδειτος">Ἐπα<supplied reason="lost">φρ</supplied>οδείτου</name></persName></persName></persName></ab>
+<ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="σορός">σορὸς</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὸ</w> <w lemma="ὑπόκειμαι">ὑποκείμενον</w> <orig n="unresolved"><unclear reason="damage">ΙΙ</unclear>ΟΡΕ<unclear reason="damage">Ι</unclear>Ι</orig><gap reason="lost" unit="character" quantity="6"/> <w lemma="πλάτας">πλάτα</w> <w lemma="εἰμί">ἐστὶν</w> <persName type="attested"><name nymRef="#Αὐρήλιος"><expan><abbr><supplied reason="lost">Α</supplied>ὐρ</abbr><ex>ηλίου</ex></expan></name> <name nymRef="#Ἀρούλιος">Ἀρουλίου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Ἀρούλιος">Ἀρουλίου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Ἐπαφρόδειτος">Ἐπα<supplied reason="lost">φρ</supplied>οδείτου</name></persName></persName></persName></ab>
 </div>
          <div n="notyet" type="translation">
             <p>No translation yet (2007)</p>

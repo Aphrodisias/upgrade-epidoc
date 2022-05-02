@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> inscription for M. Aur. Tatianos</title>
+            <title> Funerary inscription for M. Aur. Tatianos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -110,7 +109,7 @@ Second to third centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <gap reason="lost" extent="12" unit="character" precision="circa"/><orig n="unresolved">α<unclear reason="damage">σ</unclear></orig> <w lemma="εἰμί">ἐστιν</w> <persName type="attested"><name nymRef="#Μᾶρκος"><expan><abbr>Μ<unclear reason="damage">άρ</unclear></abbr><ex>κου</ex></expan></name> <name nymRef="#Αὐρήλιος"><expan><abbr><unclear reason="damage">Α</unclear>ὐρ</abbr><ex>ηλίου</ex></expan></name> <name nymRef="#Τατιανός">Τατιανοῦ</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Παπίας">Παπίου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Μενεσθεύς">Μενεσθέως</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Δέξιππος">Δε<supplied reason="lost">ξ</supplied>ίππου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Μένιππος">Μενίππου</name></persName></persName></persName></persName></persName> <space extent="3" unit="character" dim="horizontal"/>  </ab>
+<ab><lb n="1"/>  <gap reason="lost" unit="character" precision="low" quantity="12"/><orig n="unresolved">α<unclear reason="damage">σ</unclear></orig> <w lemma="εἰμί">ἐστιν</w> <persName type="attested"><name nymRef="#Μᾶρκος"><expan><abbr>Μ<unclear reason="damage">άρ</unclear></abbr><ex>κου</ex></expan></name> <name nymRef="#Αὐρήλιος"><expan><abbr><unclear reason="damage">Α</unclear>ὐρ</abbr><ex>ηλίου</ex></expan></name> <name nymRef="#Τατιανός">Τατιανοῦ</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Παπίας">Παπίου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Μενεσθεύς">Μενεσθέως</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Δέξιππος">Δε<supplied reason="lost">ξ</supplied>ίππου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Μένιππος">Μενίππου</name></persName></persName></persName></persName></persName> <space extent="3" unit="character" dim="horizontal"/>  </ab>
 </div>
          <div type="apparatus">
             <p>

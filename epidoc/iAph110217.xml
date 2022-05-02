@@ -7,8 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <rs type="textType">Funerary</rs> inscription for Marcus Aurelius Apolloniοs, chief <rs type="textType">doctor</rs>
-            </title>
+     Funerary inscription for Marcus Aurelius Apolloniοs, chief doctor</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -153,7 +152,7 @@
         </expan>
        </supplied>
       </name>
-      <gap reason="lost" extent="1" unit="character"/>
+      <gap reason="lost" unit="character" quantity="1"/>
       <lb n="3"/>
       <name nymRef="#Ἀπολλώνιος ">Ἀπολλώνιον</name>
       <num value="3">γ</num>
@@ -171,7 +170,7 @@
      <w lemma="ἀνήρ">ἄνδρα</w>
      <w lemma="μνεία">μνείας</w>
      <w lemma="χάρις">χάριν</w>
-     <gap reason="lost" extent="unknown" unit="character"/>
+     <gap reason="lost" unit="character" extent="unknown"/>
      <supplied reason="lost" cert="low">
       <space unit="character" extent="5" dim="horizontal"/>
      </supplied>

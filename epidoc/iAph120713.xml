@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> fragment from wall excavation</title>
+            <title> Funerary fragment from wall excavation</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -107,7 +106,7 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">τη</unclear>ν</orig><gap extent="1" reason="illegible" unit="character"/><orig n="unresolved">α<unclear reason="damage">ν</unclear>δ<unclear reason="damage">ρ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>  <w lemma="εἰμί"><supplied reason="lost">ἐ</supplied><unclear reason="damage">σ</unclear>τιν</w> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name>Γε<gap reason="lost" extent="unknown" unit="character"/></name></persName>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>  <w lemma="ἀσεβής"><supplied reason="lost">ἀσ</supplied><unclear reason="damage">ε</unclear>βὴς</w> <w lemma="καί">καὶ</w> <w lemma="ἐπάρατος">ἐπά<supplied reason="lost">ρατος</supplied></w>  <supplied reason="lost"><w lemma="καί">και</w> <w lemma="τυμβωρύχος">τυμβωρυχος</w></supplied> <gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">τ<unclear reason="damage">αε</unclear>ισ</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="4a"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
+<ab><lb n="1"/>  <gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">τη</unclear>ν</orig><gap reason="illegible" unit="character" quantity="1"/><orig n="unresolved">α<unclear reason="damage">ν</unclear>δ<unclear reason="damage">ρ</unclear></orig><gap reason="lost" unit="character" extent="unknown"/>  <lb n="2"/><gap reason="lost" unit="character" extent="unknown"/>  <w lemma="εἰμί"><supplied reason="lost">ἐ</supplied><unclear reason="damage">σ</unclear>τιν</w> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name>Γε<gap reason="lost" unit="character" extent="unknown"/></name></persName>  <lb n="3"/><gap reason="lost" unit="character" extent="unknown"/>  <w lemma="ἀσεβής"><supplied reason="lost">ἀσ</supplied><unclear reason="damage">ε</unclear>βὴς</w> <w lemma="καί">καὶ</w> <w lemma="ἐπάρατος">ἐπά<supplied reason="lost">ρατος</supplied></w>  <supplied reason="lost"><w lemma="καί">και</w> <w lemma="τυμβωρύχος">τυμβωρυχος</w></supplied> <gap reason="lost" unit="character" extent="unknown"/>  <lb n="4"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">τ<unclear reason="damage">αε</unclear>ισ</orig><gap reason="lost" unit="character" extent="unknown"/>  <lb n="4a"/><gap reason="lost" unit="line" extent="unknown"/>  </ab>
 </div>
          <div type="translation">
             <p>Eelements from a funerary formula.</p>

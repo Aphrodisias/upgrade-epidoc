@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> fragment</title>
+            <title> Funerary fragment</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,11 +107,11 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">καιτ</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig> <w lemma="καί">καὶ</w> <w lemma="προσαποτίνω">προσα<supplied reason="lost">ποτεισάτω</supplied></w>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>  <w lemma="εἰμί"><supplied reason="lost">ὧ</supplied>ν</w> <w lemma="ὁ">τὸ</w> <w lemma="τρίτος">τρίτον</w> <w lemma="εἰμί">ἔσται</w><supplied reason="lost">  τοῦ</supplied>  <supplied reason="lost">ἐκδικήσαντος</supplied>  <gap reason="lost" extent="unknown" unit="character"/>  </ab>
+<ab><lb n="1"/>  <gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">καιτ</orig><gap reason="lost" unit="character" extent="unknown"/>  <lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig> <w lemma="καί">καὶ</w> <w lemma="προσαποτίνω">προσα<supplied reason="lost">ποτεισάτω</supplied></w>  <gap reason="lost" unit="character" extent="unknown"/>  <lb n="3"/><gap reason="lost" unit="character" extent="unknown"/>  <w lemma="εἰμί"><supplied reason="lost">ὧ</supplied>ν</w> <w lemma="ὁ">τὸ</w> <w lemma="τρίτος">τρίτον</w> <w lemma="εἰμί">ἔσται</w><supplied reason="lost">  τοῦ</supplied>  <supplied reason="lost">ἐκδικήσαντος</supplied>  <gap reason="lost" unit="character" extent="unknown"/>  </ab>
 </div>
          <div type="translation">
             <p>
-               <gap extent="unknown" reason="lost" unit="character"/> and let him pay <gap extent="unknown" reason="lost" unit="character"/>of which a third is the property [of the prosecutor . . .  </p>
+               <gap reason="lost" unit="character" extent="unknown"/> and let him pay <gap reason="lost" unit="character" extent="unknown"/>of which a third is the property [of the prosecutor . . .  </p>
          </div>
          <div type="commentary">
             <p>Elements from a funerary prohibition.</p>

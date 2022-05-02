@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Honours</rs> for <gap reason="lost" extent="unknown" unit="character"/> son of Hypsikles son of Hypsikles</title>
+            <title>Honours for <gap reason="lost" unit="character" extent="unknown"/> son of Hypsikles son of Hypsikles</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,7 +107,7 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/>Ι<gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><gap reason="lost" extent="3" unit="character"/>Ρ  <g ref="#stop"/>  ΑΙΚ<gap reason="lost" extent="3" unit="character"/>  <lb n="3"/><gap reason="lost" extent="3" unit="character"/>  <persName type="attested"><persName type="attested"><name nymRef="#Ὑψικλῆς">Ὑψικλ<supplied reason="lost">έους</supplied></name></persName>  <w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <supplied reason="lost"><lb n="4"/>[</supplied><gap reason="lost" extent="3" unit="character"/><name nymRef="#Ὑψικλῆς"><supplied reason="lost">  Ὑψι</supplied>κλέο<supplied reason="lost">υς</supplied></name></persName><gap reason="lost" extent="3" unit="character"/>  <lb n="5"/><gap reason="lost" extent="3" unit="character"/><w lemma="ὁ"><supplied reason="lost">  το</supplied>ῦ</w>  <persName type="attested"><name nymRef="#Ἀδρι-">Ἀδρι<gap reason="lost" extent="3" unit="character"/></name>  </persName><lb n="6"/><gap reason="lost" extent="3" unit="character"/>ΟΥΤΟΙ<gap reason="lost" extent="3" unit="character"/>  <lb n="7"/><gap reason="lost" extent="3" unit="character"/>  </ab>
+<ab><lb n="1"/>  <gap reason="lost" unit="character" quantity="3"/>Ι<gap reason="lost" unit="character" quantity="3"/>  <lb n="2"/><gap reason="lost" unit="character" quantity="3"/>Ρ  <g ref="#stop"/>  ΑΙΚ<gap reason="lost" unit="character" quantity="3"/>  <lb n="3"/><gap reason="lost" unit="character" quantity="3"/>  <persName type="attested"><persName type="attested"><name nymRef="#Ὑψικλῆς">Ὑψικλ<supplied reason="lost">έους</supplied></name></persName>  <w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <supplied reason="lost"><lb n="4"/>[</supplied><gap reason="lost" unit="character" quantity="3"/><name nymRef="#Ὑψικλῆς"><supplied reason="lost">  Ὑψι</supplied>κλέο<supplied reason="lost">υς</supplied></name></persName><gap reason="lost" unit="character" quantity="3"/>  <lb n="5"/><gap reason="lost" unit="character" quantity="3"/><w lemma="ὁ"><supplied reason="lost">  το</supplied>ῦ</w>  <persName type="attested"><name nymRef="#Ἀδρι-">Ἀδρι<gap reason="lost" unit="character" quantity="3"/></name>  </persName><lb n="6"/><gap reason="lost" unit="character" quantity="3"/>ΟΥΤΟΙ<gap reason="lost" unit="character" quantity="3"/>  <lb n="7"/><gap reason="lost" unit="character" quantity="3"/>  </ab>
 </div>
          <div type="apparatus">
             <p>l.1 not seen by Reinach.</p>
@@ -118,8 +117,8 @@
          <div type="translation">
             <p>
                <supplied reason="lost" cert="low">son of</supplied> Hypsikl<supplied reason="lost">es</supplied>
-               <gap reason="lost" extent="unknown" unit="character"/>
-               <supplied reason="lost">son of Hypis</supplied>kles <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/>
+               <supplied reason="lost">son of Hypis</supplied>kles <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary" n="none">

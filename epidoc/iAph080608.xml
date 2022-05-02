@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>i. <rs type="textType">Verse</rs>
-               <rs type="textType">honours</rs> for <rs type="personType" reg="governor">Doulkitios</rs> from Balerianos; ii. <rs type="textType">Place inscription</rs>
-            </title>
+            <title>i. Verse honours for Doulkitios from Balerianos; ii. Place inscription</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>

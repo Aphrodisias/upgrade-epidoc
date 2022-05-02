@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Honours</rs> for M. Au[relius - ] </title>
+            <title> Honours for M. Au[relius - ] </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,7 +107,7 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)</origDate>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/> <persName type="attested"><name nymRef="#Μᾶρκος"><expan><abbr>Μ</abbr><ex>αρκον</ex></expan></name> <name nymRef="#Αὐρήλιος">Αὐ<supplied reason="lost">ρ(ήλιον)</supplied></name></persName> <gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="3" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
+<ab><lb n="1"/> <persName type="attested"><name nymRef="#Μᾶρκος"><expan><abbr>Μ</abbr><ex>αρκον</ex></expan></name> <name nymRef="#Αὐρήλιος">Αὐ<supplied reason="lost">ρ(ήλιον)</supplied></name></persName> <gap reason="lost" unit="character" quantity="3"/>  <lb n="2"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig><gap reason="lost" unit="character" quantity="3"/>  <lb n="3"/><gap reason="lost" unit="line" extent="unknown"/>  </ab>
 </div>
          <div type="translation">
             <p>Reference to a Marcus Aurelius</p>

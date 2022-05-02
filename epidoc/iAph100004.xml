@@ -7,8 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <title>
-                  <rs type="textType">Seat inscriptions</rs>: Stadium Block 18</title>
+               <title>Seat inscriptions: Stadium Block 18</title>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -116,11 +115,11 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>). A: fifth-sixth cen
 
 <div n="A" type="textpart" subtype="section"><ab> 
 
-<lb n="1"/><gap reason="lost" extent="2" unit="character"/><orig n="unresolved">οι<unclear reason="damage">ε</unclear>ρ<unclear reason="damage">κ</unclear>
+<lb n="1"/><gap reason="lost" unit="character" quantity="2"/><orig n="unresolved">οι<unclear reason="damage">ε</unclear>ρ<unclear reason="damage">κ</unclear>
 <unclear reason="damage">ο</unclear>ν</orig> <w type="ethnic" lemma="πράσινος">Πρασίν<supplied reason="lost">ων</supplied></w></ab></div><div n="O" type="textpart" subtype="section"><ab><lb n="1"/><space unit="line" extent="1"/> <milestone unit="block"/> <w lemma="τόπος">τό<milestone unit="block"/>πος</w> <milestone unit="block"/> <placeName nymRef="#Μασταυροπολίτης">Μα<milestone unit="block"/>σταυ<unclear reason="damage">ρο</unclear><milestone unit="block"/><supplied reason="lost" cert="low">πολίτων</supplied></placeName></ab>
 </div></div>
          <div type="translation">
-            <p>Row A: <gap extent="unknown" reason="lost" unit="character"/> of (the) Greens.</p>
+            <p>Row A: <gap reason="lost" unit="character" extent="unknown"/> of (the) Greens.</p>
             <p>Row O: Place of (the) Mastauro[politans].</p>
          </div>
          <div type="commentary">

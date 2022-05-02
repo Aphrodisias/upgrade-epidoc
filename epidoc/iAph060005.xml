@@ -6,12 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType" reg="building inscription"/>
-               <rs type="textType">Verse</rs>
-               <rs type="textType">honours</rs> for Ioannes, <seg cert="low">
-                  <rs type="personType">governor</rs>
-               </seg> of Caria</title>
+            <title>Verse honours for Ioannes, <seg cert="low">governor</seg> of Caria</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -117,10 +112,10 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
 		<div n="a" type="textpart" subtype="fragment"><ab>
-		<lb n="1"/><space dim="horizontal" id="space1"/><certainty locus="#gi" target="space1" assertedValue="gap" degree="low"/> <orig n="unresolved">Α</orig><gap extent="2" reason="lost" unit="character"/> <w lemma="δῖος">Δῖος</w> <g ref="#vertical line"/> <persName key="Ioannes2" type="attested"><name nymRef="#Ἰωάννης">Ἰωάννης</name> <placeName key="Caria" nymRef="#Καρία">Καρίης</placeName></persName>
-			 <gap extent="unknown" reason="lost" unit="character"/>
-		</ab></div><div n="b" type="textpart" subtype="fragment"><ab><lb n="1"/><gap extent="unknown" reason="lost" unit="character"/> <w lemma="χῶρος">χώρωι</w> <g ref="#cross"/> <space dim="horizontal"/> <g ref="#cross"/> <orig n="unresolved">α<unclear reason="damage">υ</unclear></orig><gap extent="unknown" reason="lost" unit="character"/>
-		</ab></div><div n="c" type="textpart" subtype="fragment"><ab><lb n="1"/><gap extent="unknown" reason="lost" unit="character"/> <g ref="#cross"/> <w lemma="μαρμάρεος">μαρμαρ<supplied reason="lost">ε</supplied><gap extent="unknown" reason="lost" unit="character"/></w></ab></div><div n="d" type="textpart" subtype="fragment"><ab><lb n="1"/><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved">ονα σει<unclear reason="damage">ρ</unclear></orig><gap extent="unknown" reason="lost" unit="character"/>
+		<lb n="1"/><space dim="horizontal" id="space1"/><certainty locus="#gi" target="space1" assertedValue="gap" degree="low"/> <orig n="unresolved">Α</orig><gap reason="lost" unit="character" quantity="2"/> <w lemma="δῖος">Δῖος</w> <g ref="#vertical line"/> <persName key="Ioannes2" type="attested"><name nymRef="#Ἰωάννης">Ἰωάννης</name> <placeName key="Caria" nymRef="#Καρία">Καρίης</placeName></persName>
+			 <gap reason="lost" unit="character" extent="unknown"/>
+		</ab></div><div n="b" type="textpart" subtype="fragment"><ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/> <w lemma="χῶρος">χώρωι</w> <g ref="#cross"/> <space dim="horizontal"/> <g ref="#cross"/> <orig n="unresolved">α<unclear reason="damage">υ</unclear></orig><gap reason="lost" unit="character" extent="unknown"/>
+		</ab></div><div n="c" type="textpart" subtype="fragment"><ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/> <g ref="#cross"/> <w lemma="μαρμάρεος">μαρμαρ<supplied reason="lost">ε</supplied><gap reason="lost" unit="character" extent="unknown"/></w></ab></div><div n="d" type="textpart" subtype="fragment"><ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">ονα σει<unclear reason="damage">ρ</unclear></orig><gap reason="lost" unit="character" extent="unknown"/>
 		</ab></div>
        </div>
          <div type="apparatus">
@@ -129,13 +124,13 @@
          </div>
          <div type="translation">
             <p>
-		a. <gap extent="unknown" reason="lost" unit="character"/> noble Iannes of Caria <gap extent="unknown" reason="lost" unit="character"/>
+		a. <gap reason="lost" unit="character" extent="unknown"/> noble Iannes of Caria <gap reason="lost" unit="character" extent="unknown"/>
             </p>
-            <p>b. <supplied reason="lost" cert="low">to this</supplied> place <gap extent="unknown" reason="lost" unit="character"/>
+            <p>b. <supplied reason="lost" cert="low">to this</supplied> place <gap reason="lost" unit="character" extent="unknown"/>
             </p>
-            <p>c. <gap extent="unknown" reason="lost" unit="character"/> marble <gap extent="unknown" reason="lost" unit="character"/>
+            <p>c. <gap reason="lost" unit="character" extent="unknown"/> marble <gap reason="lost" unit="character" extent="unknown"/>
             </p>
-            <p>d.  ?governor/governors <gap extent="unknown" reason="lost" unit="character"/>
+            <p>d.  ?governor/governors <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary">

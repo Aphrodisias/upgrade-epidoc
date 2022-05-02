@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Place inscription</rs> of Epiktetos, cloakroom-attendant</title>
+            <title>Place inscription of Epiktetos, cloakroom-attendant</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -117,8 +116,8 @@ see, and l.6 is truncated.</layout>
         
         <ab>
 		  		<lb n="1"/><g ref="#cross"/><space dim="horizontal"/><g ref="#cross"/>
-        		<lb n="2"/><del status="unremarkable"><gap reason="lost" extent="8" unit="character"/></del>
-        		<lb n="3"/><del status="unremarkable"><gap reason="lost" extent="10" unit="character"/></del>
+        		<lb n="2"/><del status="unremarkable"><gap reason="lost" unit="character" quantity="8"/></del>
+        		<lb n="3"/><del status="unremarkable"><gap reason="lost" unit="character" quantity="10"/></del>
         		<lb n="4"/><g ref="#cross"/> <w lemma="τόπος">τόπος</w> <persName key="Epictetus" type="attested"><name nymRef="#Ἐπίκτητος">Ἐπικτήτου</name></persName> <g ref="#cross"/><lb n="5"/> <rs type="profession" key="capsarius"><w lemma="κανψάριος">κανψαρίου</w></rs> <g ref="#leaf"/>
         		<lb n="6"/><g ref="#cross"/></ab>
       </div>

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Gladiator memorial</rs> of Eupithanos</title>
+            <title>Gladiator memorial of Eupithanos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -112,7 +111,7 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><persName type="attested"><name nymRef="#Εὐπιθανός"><supplied reason="lost" cert="low">Ε</supplied>ὐπιθανὸς</name></persName> <w lemma="πάλος">πάλου</w> <num value="1">α</num> <lb n="2"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">φ</unclear>ιλυς</name></persName>  <space extent="3" unit="character" dim="horizontal"/>  </ab>
+<ab><lb n="1"/><persName type="attested"><name nymRef="#Εὐπιθανός"><supplied reason="lost" cert="low">Ε</supplied>ὐπιθανὸς</name></persName> <w lemma="πάλος">πάλου</w> <num value="1">α</num> <lb n="2"/><persName type="attested"><name><gap reason="lost" unit="character" extent="unknown"/><unclear reason="damage">φ</unclear>ιλυς</name></persName>  <space extent="3" unit="character" dim="horizontal"/>  </ab>
 </div>
          <div type="translation">
             <p>Eupithanos of brigade 1; [ ? ]philos</p>

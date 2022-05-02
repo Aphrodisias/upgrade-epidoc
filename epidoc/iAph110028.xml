@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> formula from house east of Theatre</title>
+            <title> Funerary formula from house east of Theatre</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -107,11 +106,11 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ε</unclear>λε<unclear reason="damage">σ</unclear>το</orig>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">νω</orig>  <w lemma="μνεία">μνεί<lb n="3" break="no"/><supplied reason="lost">ας</supplied></w>  <w lemma="χάρις"><supplied reason="lost">χάρι</supplied>ν</w>  <g ref="#star"/>  <space extent="4" unit="character" dim="horizontal"/>  <lb n="3a"/><space extent="1" unit="line" dim="vertical"/>  </ab>
+<ab><lb n="0"/>  <gap reason="lost" unit="line" extent="unknown"/>  <lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">ε</unclear>λε<unclear reason="damage">σ</unclear>το</orig>  <lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">νω</orig>  <w lemma="μνεία">μνεί<lb n="3" break="no"/><supplied reason="lost">ας</supplied></w>  <w lemma="χάρις"><supplied reason="lost">χάρι</supplied>ν</w>  <g ref="#star"/>  <space extent="4" unit="character" dim="horizontal"/>  <lb n="3a"/><space extent="1" unit="line" dim="vertical"/>  </ab>
 </div>
          <div type="translation">
             <p>
-               <gap extent="unknown" reason="lost" unit="character"/> in memory.</p>
+               <gap reason="lost" unit="character" extent="unknown"/> in memory.</p>
          </div>
          <div n="none" type="commentary">
             <p> ...</p>

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Graffiti</rs>: <rs type="textType">insults</rs> and <rs type="textType">acclamation</rs>s</title>
+            <title>Graffiti: insults and acclamations</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -116,7 +115,7 @@ First to sixth centuries A.D. (<rs type="criteria">context</rs>)</origDate>
 <lb n="1"/>
 <persName type="attested"><name nymRef="#Καρμιδιανός">Καρ<supplied reason="lost">μ</supplied>ιδιανός</name></persName> <orig n="unresolved">και<unclear reason="damage">ω</unclear>ν</orig> 
 <lb n="2"/>
-<w lemma="παθικός">παθηκός</w> <space extent="3" unit="character"/> <orig n="unresolved">κυδιαΣ</orig><gap reason="lost" extent="1" unit="character"/></ab></div><div n="ii" type="textpart" subtype="section"><note xml:lang="en"/><ab> 
+<w lemma="παθικός">παθηκός</w> <space extent="3" unit="character"/> <orig n="unresolved">κυδιαΣ</orig><gap reason="lost" unit="character" quantity="1"/></ab></div><div n="ii" type="textpart" subtype="section"><note xml:lang="en"/><ab> 
 <lb n="1"/>
 <persName type="attested"><name nymRef="#Καρμιλιαινός">Καρμ<unclear reason="damage">ι</unclear>λ<unclear reason="damage">ι</unclear>αινός</name></persName></ab></div><div n="iii" type="textpart" subtype="section"><note xml:lang="en"/></div><div n="iv" type="textpart" subtype="section"><note xml:lang="en"/><ab>
  

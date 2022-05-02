@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Seat inscriptions</rs>: Theatre, Block E</title>
+            <title>Seat inscriptions: Theatre, Block E</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -135,7 +134,7 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
 <lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">οι</unclear></orig><lb n="2"/>
  <orig n="unresolved"><unclear reason="damage">Υ</unclear>
 <unclear reason="damage">Α</unclear>
-<unclear reason="damage">Η</unclear>ΧΗ</orig> <w lemma="βοηθέω"><expan><abbr>βοή</abbr><ex>θι</ex></expan></w> <w lemma="ὁ">το</w> <unclear reason="damage">σ</unclear> <gap reason="lost" extent="unknown" unit="character"/> 
+<unclear reason="damage">Η</unclear>ΧΗ</orig> <w lemma="βοηθέω"><expan><abbr>βοή</abbr><ex>θι</ex></expan></w> <w lemma="ὁ">το</w> <unclear reason="damage">σ</unclear> <gap reason="lost" unit="character" extent="unknown"/> 
 <lb n="3"/>
  <w lemma="δοῦλος">δούλο</w> <w lemma="σύ"><expan><abbr>σ</abbr><ex>ου</ex></expan></w> <persName type="attested"><name nymRef="#Γεώργιος"><expan><abbr>Γεώ</abbr><ex>ργιο</ex></expan></name></persName> <space extent="3"/></ab></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div></div>
 </div>

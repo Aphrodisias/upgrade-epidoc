@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragmentary <rs type="textType" reg="honours" cert="low">honours</rs>
-            </title>
+            <title>Fragmentary honours</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -113,7 +112,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
 
-<ab><lb n="1"/><persName nymRef="#Ἀγαθὴ  Τύχη" type="divine"><w lemma="ἀγαθός">Ἀγαθῆι</w>  <w lemma="τύχη">Τύχηι</w></persName><lb n="2"/><w lemma="στεφανόω">στεφανοῦσιν</w>  <w lemma="ὁ">οἱ</w><lb n="3"/><w lemma="Ἀφροδεισιεύς"><supplied reason="lost">Ἀ</supplied><unclear reason="damage">φροδι</unclear>σ<unclear reason="damage">ιε</unclear>ῖς</w>  <w lemma="ἱερεύς">ἱερ<supplied reason="lost" cert="low">εῖς</supplied></w><lb n="3a"/><gap reason="lost" extent="unknown" unit="character"/></ab>
+<ab><lb n="1"/><persName nymRef="#Ἀγαθὴ  Τύχη" type="divine"><w lemma="ἀγαθός">Ἀγαθῆι</w>  <w lemma="τύχη">Τύχηι</w></persName><lb n="2"/><w lemma="στεφανόω">στεφανοῦσιν</w>  <w lemma="ὁ">οἱ</w><lb n="3"/><w lemma="Ἀφροδεισιεύς"><supplied reason="lost">Ἀ</supplied><unclear reason="damage">φροδι</unclear>σ<unclear reason="damage">ιε</unclear>ῖς</w>  <w lemma="ἱερεύς">ἱερ<supplied reason="lost" cert="low">εῖς</supplied></w><lb n="3a"/><gap reason="lost" unit="character" extent="unknown"/></ab>
 </div>
          <div type="translation">
             <p>With good fortune. The Aphrodisian <seg cert="low">priests</seg> crown [...</p>

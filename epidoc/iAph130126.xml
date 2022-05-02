@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> fragment</title>
+            <title>Funerary fragment</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -111,13 +110,13 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <space extent="3" unit="character" dim="horizontal"/>  <gap reason="lost" extent="unknown" unit="character"/>  <supplied reason="lost" cert="low">ὃς</supplied>  <supplied reason="lost">ἂν</supplied>  <supplied reason="lost">πα</supplied>  <lb n="2" break="no"/>ρὰ  ταῦτα<gap reason="lost" extent="unknown" unit="character"/>  <supplied reason="lost" cert="low">ἀποτει</supplied>  <lb n="3"/><unclear reason="damage">σ</unclear>άτω  θ<unclear reason="damage">ε</unclear><supplied reason="lost">ᾷ</supplied>  <persName type="divine"><name nymRef="#Ἀφροδίτη"><supplied reason="lost">Ἀφροδείτῃ</supplied></name></persName>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/><unclear reason="damage">Γ</unclear>Ω <w>ΤΟΥ</w> <gap reason="lost" extent="unknown" unit="character"/>  <supplied reason="lost" cert="low"/>  <supplied reason="lost">βουλή</supplied>  <lb n="5"/> <w>θη</w> <w lemma="ἤ">ἢ</w> δ<unclear reason="damage">ια</unclear><supplied reason="lost">τάξηται</supplied>  <gap reason="lost" extent="unknown" unit="character"/>  </ab>
+<ab><lb n="1"/>  <space extent="3" unit="character" dim="horizontal"/>  <gap reason="lost" unit="character" extent="unknown"/>  <supplied reason="lost" cert="low">ὃς</supplied>  <supplied reason="lost">ἂν</supplied>  <supplied reason="lost">πα</supplied>  <lb n="2" break="no"/>ρὰ  ταῦτα<gap reason="lost" unit="character" extent="unknown"/>  <supplied reason="lost" cert="low">ἀποτει</supplied>  <lb n="3"/><unclear reason="damage">σ</unclear>άτω  θ<unclear reason="damage">ε</unclear><supplied reason="lost">ᾷ</supplied>  <persName type="divine"><name nymRef="#Ἀφροδίτη"><supplied reason="lost">Ἀφροδείτῃ</supplied></name></persName>  <gap reason="lost" unit="character" extent="unknown"/>  <lb n="4"/><unclear reason="damage">Γ</unclear>Ω <w>ΤΟΥ</w> <gap reason="lost" unit="character" extent="unknown"/>  <supplied reason="lost" cert="low"/>  <supplied reason="lost">βουλή</supplied>  <lb n="5"/> <w>θη</w> <w lemma="ἤ">ἢ</w> δ<unclear reason="damage">ια</unclear><supplied reason="lost">τάξηται</supplied>  <gap reason="lost" unit="character" extent="unknown"/>  </ab>
 </div>
          <div type="apparatus">
             <p>l. 3, Γ might be Τ</p>
          </div>
          <div type="translation">
-            <p> [ . . .? whover acts] incrtavention of this <gap extent="unknown" reason="lost" unit="character"/> let him pay to the god[dess Aphrodite . . .] whatver he may wish or instruct [ . . .</p>
+            <p> [ . . .? whover acts] incrtavention of this <gap reason="lost" unit="character" extent="unknown"/> let him pay to the god[dess Aphrodite . . .] whatver he may wish or instruct [ . . .</p>
          </div>
          <div type="commentary">
             <p>Fragmetns from a standard funerary formula; perhaps from the same monument as <ref type="inscription" n="1302" target="130128.xml"/>.</p>

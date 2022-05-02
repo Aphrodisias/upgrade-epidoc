@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType" cert="low">Funerary</rs> fragment, from Water Channel area</title>
+            <title>Funerary fragment, from Water Channel area</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -109,7 +108,7 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><space extent="3" unit="character" dim="horizontal"/><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><w lemma="ὁ"><gap reason="lost" extent="unknown" unit="character"/>τοῦ</w>  <persName type="attested"><name nymRef="#Ἄδραστος">Ἀ<unclear reason="damage">δ</unclear><supplied reason="lost" cert="low">ράστου</supplied></name></persName>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">Θ</unclear>ΡΥΒΕ<unclear reason="damage">Ρ</unclear><gap reason="lost" extent="unknown" unit="character"/>  <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/>  <w lemma="τέκνον"><supplied reason="lost">τέ</supplied>κνα</w>  ΠΑ<gap reason="lost" extent="unknown" unit="character"/>  <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">Υ</unclear>Τ<gap reason="lost" extent="unknown" unit="character"/>  <lb n="7"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
+<ab><lb n="1"/><gap reason="lost" unit="line" extent="unknown"/>  <lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><space extent="3" unit="character" dim="horizontal"/><gap reason="lost" unit="character" extent="unknown"/>  <lb n="3"/><w lemma="ὁ"><gap reason="lost" unit="character" extent="unknown"/>τοῦ</w>  <persName type="attested"><name nymRef="#Ἄδραστος">Ἀ<unclear reason="damage">δ</unclear><supplied reason="lost" cert="low">ράστου</supplied></name></persName>  <gap reason="lost" unit="character" extent="unknown"/>  <lb n="4"/><gap reason="lost" unit="character" extent="unknown"/><unclear reason="damage">Θ</unclear>ΡΥΒΕ<unclear reason="damage">Ρ</unclear><gap reason="lost" unit="character" extent="unknown"/>  <lb n="5"/><gap reason="lost" unit="character" extent="unknown"/>  <w lemma="τέκνον"><supplied reason="lost">τέ</supplied>κνα</w>  ΠΑ<gap reason="lost" unit="character" extent="unknown"/>  <lb n="6"/><gap reason="lost" unit="character" extent="unknown"/><unclear reason="damage">Υ</unclear>Τ<gap reason="lost" unit="character" extent="unknown"/>  <lb n="7"/><gap reason="lost" unit="line" extent="unknown"/>  </ab>
 </div>
          <div type="translation">
             <p>[...] of Ad[rastos ? ] ? children [...]</p>

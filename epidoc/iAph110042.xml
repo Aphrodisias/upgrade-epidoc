@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> fragment,  re-used in Mosque</title>
+            <title> Funerary fragment,  re-used in Mosque</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -109,15 +108,15 @@ Second to third centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ιιο</unclear></orig>  <gap reason="lost" extent="2" unit="character"/><orig n="unresolved">ασρ<unclear reason="damage">γ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">τ<unclear reason="damage">λιξ</unclear>λυοτλ</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="ὁ"><supplied reason="lost">τ</supplied>ὸ</w>  <w lemma="ἀντίγραφον"><unclear reason="damage">ἀ</unclear>ντίγ<unclear reason="damage">ρα</unclear>φο<supplied reason="lost">ν</supplied></w>     <w lemma="ἀποτίθημι"><supplied reason="lost">ἀπετέθη</supplied></w> <w lemma="εἰς"><supplied reason="lost">εἰς</supplied></w> <w lemma="ὁ"><supplied reason="lost">τὸ</supplied></w> <w lemma="χρεωφυλάκιον"><supplied reason="lost">χρεοφυλακιον</supplied></w> <w lemma="ἐπί"><supplied reason="lost">ἐπὶ</supplied></w> <w lemma="στεφανηφόρος"><supplied reason="lost">στεφανηφόρου</supplied></w><lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name nymRef="#Τιβέριος"><expan><abbr><supplied reason="lost">Τι</supplied><unclear reason="damage">β</unclear></abbr><ex>εριου</ex></expan></name> <name nymRef="#Κλαύδιος"><expan><abbr>Κλ</abbr><ex>αυδίου</ex></expan></name> <name nymRef="#Διογένης">Διογένους</name>  </persName> <w lemma="μείς">μ<unclear reason="damage">η</unclear><supplied reason="lost">νι</supplied></w><gap reason="lost" extent="unknown" unit="character"/><lb n="4a"/><gap reason="lost" extent="unknown" unit="character"/>    <space extent="12" unit="character" dim="horizontal"/> <gap reason="lost" extent="unknown" unit="character"/> </ab>
+<ab><lb n="0"/><gap reason="lost" unit="line" extent="unknown"/>  <lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">ιιο</unclear></orig>  <gap reason="lost" unit="character" quantity="2"/><orig n="unresolved">ασρ<unclear reason="damage">γ</unclear></orig><gap reason="lost" unit="character" extent="unknown"/>  <lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">τ<unclear reason="damage">λιξ</unclear>λυοτλ</orig><gap reason="lost" unit="character" extent="unknown"/>  <lb n="3"/><gap reason="lost" unit="character" extent="unknown"/><w lemma="ὁ"><supplied reason="lost">τ</supplied>ὸ</w>  <w lemma="ἀντίγραφον"><unclear reason="damage">ἀ</unclear>ντίγ<unclear reason="damage">ρα</unclear>φο<supplied reason="lost">ν</supplied></w>     <w lemma="ἀποτίθημι"><supplied reason="lost">ἀπετέθη</supplied></w> <w lemma="εἰς"><supplied reason="lost">εἰς</supplied></w> <w lemma="ὁ"><supplied reason="lost">τὸ</supplied></w> <w lemma="χρεωφυλάκιον"><supplied reason="lost">χρεοφυλακιον</supplied></w> <w lemma="ἐπί"><supplied reason="lost">ἐπὶ</supplied></w> <w lemma="στεφανηφόρος"><supplied reason="lost">στεφανηφόρου</supplied></w><lb n="4"/><gap reason="lost" unit="character" extent="unknown"/> <persName type="attested"><name nymRef="#Τιβέριος"><expan><abbr><supplied reason="lost">Τι</supplied><unclear reason="damage">β</unclear></abbr><ex>εριου</ex></expan></name> <name nymRef="#Κλαύδιος"><expan><abbr>Κλ</abbr><ex>αυδίου</ex></expan></name> <name nymRef="#Διογένης">Διογένους</name>  </persName> <w lemma="μείς">μ<unclear reason="damage">η</unclear><supplied reason="lost">νι</supplied></w><gap reason="lost" unit="character" extent="unknown"/><lb n="4a"/><gap reason="lost" unit="character" extent="unknown"/>    <space extent="12" unit="character" dim="horizontal"/> <gap reason="lost" unit="character" extent="unknown"/> </ab>
 </div>
          <div n="apparatus">
             <p>l. 4, the last letter could be <foreign xml:lang="grc">Ε</foreign>, and it is possible that the last two begin a second  cognomen (but if so the man is not otherwise known).</p>
          </div>
          <div type="translation">
             <p>
-               <gap unit="character" extent="unknown" reason="lost"/> the copy <supplied reason="lost">of the inscription was deposited in the property-archive in the staphanephorate</supplied> of Tib<ex>erius</ex> Cl<ex>audius</ex> Diogenes, ?month <supplied reason="lost">of</supplied>
-               <gap unit="character" extent="unknown" reason="lost"/>
+               <gap unit="character" reason="lost" extent="unknown"/> the copy <supplied reason="lost">of the inscription was deposited in the property-archive in the staphanephorate</supplied> of Tib<ex>erius</ex> Cl<ex>audius</ex> Diogenes, ?month <supplied reason="lost">of</supplied>
+               <gap unit="character" reason="lost" extent="unknown"/>
             </p>
          </div>
          <div type="commentary">

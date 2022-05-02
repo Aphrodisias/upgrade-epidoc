@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragmentary <rs type="textType">
-                  <seg cert="low">honours</seg>
-               </rs> from the Gerousia</title>
+            <title>Fragmentary <seg cert="low">honours</seg> from the Gerousia</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -88,7 +86,7 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὁ"><unclear reason="damage">ο</unclear>ἱ</w> <w lemma="γεραιός">γεραιοί</w> <space extent="3" unit="character"/>  </ab>
+<ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/> <w lemma="ὁ"><unclear reason="damage">ο</unclear>ἱ</w> <w lemma="γεραιός">γεραιοί</w> <space extent="3" unit="character"/>  </ab>
 </div>
          <div type="translation">
             <p>...] the elders [...</p>

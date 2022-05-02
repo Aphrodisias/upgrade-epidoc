@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> fragment from Theatre</title>
+            <title> Funerary fragment from Theatre</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -106,12 +105,12 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/>  <gap reason="lost" extent="insaph" unit="line"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ανο<unclear reason="damage">σ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">η</unclear>θ<hi rend="ligature">ηη</hi><unclear reason="damage">σ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">κ</unclear>των</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ε</unclear>πι<unclear reason="damage">θ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="4a"/><gap reason="lost" extent="insaph" unit="line"/>  </ab>
+<ab><lb n="0"/>  <gap reason="lost" unit="line" extent="insaph"/>  <lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">ανο<unclear reason="damage">σ</unclear></orig><gap reason="lost" unit="character" extent="unknown"/>  <lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">η</unclear>θ<hi rend="ligature">ηη</hi><unclear reason="damage">σ</unclear></orig><gap reason="lost" unit="character" extent="unknown"/>  <lb n="3"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">κ</unclear>των</orig><gap reason="lost" unit="character" extent="unknown"/>  <lb n="4"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">ε</unclear>πι<unclear reason="damage">θ</unclear></orig><gap reason="lost" unit="character" extent="unknown"/>  <lb n="4a"/><gap reason="lost" unit="line" extent="insaph"/>  </ab>
 </div>
          <div type="apparatus">
             <p>l. 1, <foreign xml:lang="grc">
                   <supplied reason="lost" cert="low">οὓς</supplied> ἂν ὁ <unclear reason="damage">Σ</unclear>
-                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <gap reason="lost" unit="character" extent="unknown"/>
                </foreign>
             </p>
             <p>l. 2, second <foreign xml:lang="grc">Η</foreign> was perhaps once written as <foreign xml:lang="grc">Ν</foreign>

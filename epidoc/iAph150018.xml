@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> fragment</title>
+            <title> Funerary fragment</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -107,7 +106,7 @@ Third century A.D. (<rs type="criteria">lettering</rs>)
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character"/>  <w lemma="εἰμί"><supplied reason="lost">ἐσ</supplied><unclear reason="damage">τ</unclear>ιν</w> <w lemma="ὁ">τῶν</w> <w lemma="κληρονόμος"><expan><abbr>κληρ</abbr><ex>ονόμων</ex></expan></w> <w lemma="κασίγνητος">κασ<unclear reason="damage">ι</unclear><supplied reason="lost">γνήτω</supplied><unclear reason="damage">ν</unclear></w> <w lemma="οὗτος">τούτου</w> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Μασκοῦλος">Μασκούλου</name></persName></ab>
+<ab><lb n="1"/>  <gap reason="lost" unit="character" extent="unknown"/>  <w lemma="εἰμί"><supplied reason="lost">ἐσ</supplied><unclear reason="damage">τ</unclear>ιν</w> <w lemma="ὁ">τῶν</w> <w lemma="κληρονόμος"><expan><abbr>κληρ</abbr><ex>ονόμων</ex></expan></w> <w lemma="κασίγνητος">κασ<unclear reason="damage">ι</unclear><supplied reason="lost">γνήτω</supplied><unclear reason="damage">ν</unclear></w> <w lemma="οὗτος">τούτου</w> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Μασκοῦλος">Μασκούλου</name></persName></ab>
 </div>
          <div type="translation">
             <p>[ . . ]belongs to the heirs (and) siblings of this man and Maskoulos</p>

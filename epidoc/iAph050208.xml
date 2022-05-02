@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Building <rs type="textType">dedication</rs> to Aphrodite and Hadrian by Pereitas Attalos</title>
+            <title>Building dedication to Aphrodite and Hadrian by Pereitas Attalos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -116,29 +116,29 @@ A.D. 117-138 (<rs type="criteria">reign</rs>)
 
 <ab><lb n="1"/> <w lemma="θεά"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">θεᾷ
 </rdg>
 </app></w> <persName type="divine"><name nymRef="#Ἀφροδίτη"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="4" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="4"/>
 </rdg>
 <rdg resp="previous">Ἀφρο
 </rdg>
 </app>δείτῃ</name></persName> <w lemma="καί">καὶ</w> <persName type="emperor"><w lemma="αὐτοκράτωρ">Αὐ<app type="previouslyread"><rdg resp="autopsy">
-<gap extent="5" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="5"/>
 </rdg>
 <rdg resp="previous">τοκρά</rdg>
 </app>τορι</w> <name nymRef="#Καῖσαρ">Καίσαρι</name> <w lemma="θεός">θεοῦ</w> <name nymRef="#Τραιανός">Τραϊανοῦ</name> <w lemma="υἱός">υἱῷ</w> <w lemma="θεός">θεοῦ</w> <name nymRef="#Νέρβα">Νέρβα</name> <lb n="2"/>  <space extent="3" unit="character" dim="horizontal"/> <w lemma="υἱωνός">υἱωνῷ</w> <name nymRef="#Τραιανός">Τ<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="5" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="5"/>
 </rdg>
 <rdg resp="previous">ραϊαν
 </rdg>
 </app>ῷ</name> <name nymRef="#Ἁδριανός">Ἁδριανῷ</name> <w lemma="σεβαστός">Σεβαστῷ</w></persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῷ</w> <w lemma="δῆμος">δήμῳ</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="3"/> <persName type="attested"><name nymRef="#Περίτας"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">
 Περ</rdg>

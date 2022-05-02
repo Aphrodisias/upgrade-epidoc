@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> formula fragment, II-III cent.</title>
+            <title> Funerary formula fragment, II-III cent.</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -105,7 +104,7 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character"/>  <w lemma="ἕτερος"><supplied reason="lost" cert="low">ἕτερος</supplied></w> <w lemma="δέ"><supplied reason="lost" cert="low">δὲ</supplied></w> <w lemma="οὐδείς"><supplied reason="lost" cert="low">οὐδεὶς</supplied></w> <w lemma="ἔχω"><supplied reason="lost">ἕ</supplied><unclear reason="damage">ξ</unclear>ει</w>  <w lemma="ἐξουσία">ἐξουσ<unclear reason="damage">ί</unclear><supplied reason="lost">αν</supplied></w> <w lemma="ἐνθάπτω"><supplied reason="lost">ἐνθάψαι</supplied></w> <w lemma="τις"><supplied reason="lost">τινὰ</supplied></w> <w lemma="ἐπεί"><supplied reason="lost">ἐπεὶ</supplied></w> <w lemma="ὁ"><supplied reason="lost">ὁ</supplied></w>    <w lemma="οὗτος"><supplied reason="lost">τούτων</supplied></w> <w lemma="τις"><supplied reason="lost">τι</supplied></w>  <lb n="2"/><w lemma="ποιέω"><supplied reason="lost">ποιήσας</supplied></w>   <supplied reason="lost">ἔσται</supplied>  <supplied reason="lost">ἀσεβὴς</supplied>  <w lemma="καί"><supplied reason="lost">κ</supplied><unclear reason="damage">α</unclear>ὶ</w>  <w lemma="ἐπάρατος">ἐπάρατος</w> <supplied reason="lost">καὶ</supplied>  <supplied reason="lost">τυμβωρύχος</supplied>  <gap reason="lost" extent="unknown" unit="character"/></ab>
+<ab><lb n="1"/>  <gap reason="lost" unit="character" extent="unknown"/>  <w lemma="ἕτερος"><supplied reason="lost" cert="low">ἕτερος</supplied></w> <w lemma="δέ"><supplied reason="lost" cert="low">δὲ</supplied></w> <w lemma="οὐδείς"><supplied reason="lost" cert="low">οὐδεὶς</supplied></w> <w lemma="ἔχω"><supplied reason="lost">ἕ</supplied><unclear reason="damage">ξ</unclear>ει</w>  <w lemma="ἐξουσία">ἐξουσ<unclear reason="damage">ί</unclear><supplied reason="lost">αν</supplied></w> <w lemma="ἐνθάπτω"><supplied reason="lost">ἐνθάψαι</supplied></w> <w lemma="τις"><supplied reason="lost">τινὰ</supplied></w> <w lemma="ἐπεί"><supplied reason="lost">ἐπεὶ</supplied></w> <w lemma="ὁ"><supplied reason="lost">ὁ</supplied></w>    <w lemma="οὗτος"><supplied reason="lost">τούτων</supplied></w> <w lemma="τις"><supplied reason="lost">τι</supplied></w>  <lb n="2"/><w lemma="ποιέω"><supplied reason="lost">ποιήσας</supplied></w>   <supplied reason="lost">ἔσται</supplied>  <supplied reason="lost">ἀσεβὴς</supplied>  <w lemma="καί"><supplied reason="lost">κ</supplied><unclear reason="damage">α</unclear>ὶ</w>  <w lemma="ἐπάρατος">ἐπάρατος</w> <supplied reason="lost">καὶ</supplied>  <supplied reason="lost">τυμβωρύχος</supplied>  <gap reason="lost" unit="character" extent="unknown"/></ab>
 </div>
          <div type="apparatus">
             <p>The supplements offer standard formulae which give the sense, if not necessarily the precise wording, of the text.</p>
@@ -113,7 +112,7 @@
          <div type="translation">
             <p>
                <supplied reason="lost">No-one else</supplied> shall have the right <supplied reason="lost">to bury in it or to remove a body from it since anyone who does so shall be considered sacrilegious</supplied> and accursed <supplied reason="lost">and a tomb breaker and shall pay</supplied>
-               <gap extent="unknown" reason="lost" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary" n="none">

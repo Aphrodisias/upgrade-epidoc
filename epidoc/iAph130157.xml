@@ -6,11 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragment of <rs type="textType">
-                  <rs type="textType">funerary</rs>
-                  <rs type="textType">verse</rs>
-               </rs>
-            </title>
+            <title>Fragment of funerary verse</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -124,13 +120,13 @@ des Hadji Ibraham = Weinberg</foreign>' (Kubitschek).</rs>
         
         
 		  <div n="a" type="textpart" subtype="fragment"><ab>
-		  	<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/> 
-			<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">μι</unclear>ο<unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/> 
-			<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><space dim="horizontal"/><gap reason="lost" extent="unknown" unit="character"/> 
-			<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><space dim="horizontal"/><gap reason="lost" extent="unknown" unit="character"/> 
-			<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/> <date><orig n="unresolved">εν</orig> <w lemma="εἰκάς">εἰκάδι</w> 
-			<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="μείς"><supplied reason="lost">μ</supplied>ηνὸς</w> </date><orig n="unresolved"><unclear reason="damage">σ</unclear></orig> <space dim="horizontal"/> 
-			<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">οντος</orig> <space dim="horizontal"/></ab></div>
+		  	<lb n="0"/><gap reason="lost" unit="line" extent="unknown"/> 
+			<lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">μι</unclear>ο<unclear reason="damage">ι</unclear></orig><gap reason="lost" unit="character" extent="unknown"/> 
+			<lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><space dim="horizontal"/><gap reason="lost" unit="character" extent="unknown"/> 
+			<lb n="3"/><gap reason="lost" unit="character" extent="unknown"/><space dim="horizontal"/><gap reason="lost" unit="character" extent="unknown"/> 
+			<lb n="4"/><gap reason="lost" unit="character" extent="unknown"/> <date><orig n="unresolved">εν</orig> <w lemma="εἰκάς">εἰκάδι</w> 
+			<lb n="5"/><gap reason="lost" unit="character" extent="unknown"/> <w lemma="μείς"><supplied reason="lost">μ</supplied>ηνὸς</w> </date><orig n="unresolved"><unclear reason="damage">σ</unclear></orig> <space dim="horizontal"/> 
+			<lb n="6"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">οντος</orig> <space dim="horizontal"/></ab></div>
         
 		  <div n="b" type="textpart" subtype="fragment"><lg>
 			<l>
@@ -145,11 +141,11 @@ des Hadji Ibraham = Weinberg</foreign>' (Kubitschek).</rs>
 side in ll. 2 ff.</p>
          </div>
          <div type="translation">
-            <ab>a. <gap reason="lost" extent="1" unit="line"/>
+            <ab>a. <gap reason="lost" unit="line" quantity="1"/>
                <seg cert="low">on the</seg> twentieth
-of the month <gap reason="lost" extent="1" unit="line"/>
+of the month <gap reason="lost" unit="line" quantity="1"/>
             </ab>
-            <ab>b. <gap reason="lost" extent="1" unit="line"/> far from enemies,
+            <ab>b. <gap reason="lost" unit="line" quantity="1"/> far from enemies,
 by the hands of dear friends.</ab>
          </div>
          <div type="commentary">

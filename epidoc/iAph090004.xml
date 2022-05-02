@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Title</rs> for image of the <supplied reason="lost">Ar</supplied>abs</title>
+            <title>Title for image of the <supplied reason="lost">Ar</supplied>abs</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -112,7 +111,7 @@ First century A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><supplied reason="lost"><space extent="2"/></supplied> <w lemma="ἔθνος"><unclear reason="damage">ἔ</unclear>θνους</w>  <space extent="2"/><lb n="2"/><supplied reason="lost"><space extent="3"/></supplied> <placeName nymRef="#Ἄραβες"><supplied reason="lost">Ἀρ</supplied><unclear reason="damage">ά</unclear>βων</placeName><space extent="3"/><lb n="2a"/><gap reason="lost" unit="character" extent="8"/> <space unit="line" dim="vertical"/></ab>
+<ab><lb n="1"/><supplied reason="lost"><space extent="2"/></supplied> <w lemma="ἔθνος"><unclear reason="damage">ἔ</unclear>θνους</w>  <space extent="2"/><lb n="2"/><supplied reason="lost"><space extent="3"/></supplied> <placeName nymRef="#Ἄραβες"><supplied reason="lost">Ἀρ</supplied><unclear reason="damage">ά</unclear>βων</placeName><space extent="3"/><lb n="2a"/><gap reason="lost" unit="character" quantity="8"/> <space unit="line" dim="vertical"/></ab>
 </div>
          <div type="translation">
             <p>People of the [Ara]bs.</p>

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Honours</rs> for anonymous</title>
+            <title>Honours for anonymous</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -109,11 +108,11 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
 
-<ab><lb n="0"/><gap extent="unknown" reason="lost" unit="line"/><lb n="1"/><gap extent="10" reason="lost" unit="character"/><w lemma="καί">καὶ</w>  <w lemma="ἀρχή"><supplied reason="lost">ἀρχ</supplied><lb n="2" break="no"/><supplied reason="lost">ὰς</supplied></w>    <w lemma="ἐκτελέω"><supplied reason="lost">ἐκτελέσ</supplied>αντα</w>  <w lemma="εὖ">ε<supplied reason="lost">ὐ</supplied></w><lb n="3" break="no"/><w><gap extent="10" reason="lost" unit="character"/>ως</w>    <w lemma="καί">κα<unclear reason="damage">ὶ</unclear></w>  <gap extent="2" reason="lost" unit="character"/><lb n="4"/><gap extent="9" reason="lost" unit="character"/><w lemma="καί"><supplied reason="lost">κ</supplied>αὶ</w> <w lemma="πρός">πρὸς</w> <w lemma="ὁ">τ<supplied reason="lost">ὴν</supplied></w><lb n="5"/><w lemma="πατρίς"><supplied reason="lost">πατρίδα</supplied></w>  <w lemma="εὔνους"><supplied reason="lost">εὔν</supplied><unclear reason="damage">ο</unclear>υν</w>  <w lemma="ἑαυτοῦ">ἑαυτὸ<supplied reason="lost">ν</supplied></w><lb n="6"/><supplied reason="lost"><space extent="2" unit="character" dim="horizontal"/></supplied>  <w lemma="παρέχω"><supplied reason="lost">παρά</supplied>σχοντα</w>  <g ref="#stop"/><space extent="2" unit="character" dim="horizontal"/><lb n="6a"/><supplied reason="lost"><space extent="unknown" unit="character" dim="horizontal"/></supplied>  <space extent="1" unit="line" dim="horizontal"/></ab>
+<ab><lb n="0"/><gap reason="lost" unit="line" extent="unknown"/><lb n="1"/><gap reason="lost" unit="character" quantity="10"/><w lemma="καί">καὶ</w>  <w lemma="ἀρχή"><supplied reason="lost">ἀρχ</supplied><lb n="2" break="no"/><supplied reason="lost">ὰς</supplied></w>    <w lemma="ἐκτελέω"><supplied reason="lost">ἐκτελέσ</supplied>αντα</w>  <w lemma="εὖ">ε<supplied reason="lost">ὐ</supplied></w><lb n="3" break="no"/><w><gap reason="lost" unit="character" quantity="10"/>ως</w>    <w lemma="καί">κα<unclear reason="damage">ὶ</unclear></w>  <gap reason="lost" unit="character" quantity="2"/><lb n="4"/><gap reason="lost" unit="character" quantity="9"/><w lemma="καί"><supplied reason="lost">κ</supplied>αὶ</w> <w lemma="πρός">πρὸς</w> <w lemma="ὁ">τ<supplied reason="lost">ὴν</supplied></w><lb n="5"/><w lemma="πατρίς"><supplied reason="lost">πατρίδα</supplied></w>  <w lemma="εὔνους"><supplied reason="lost">εὔν</supplied><unclear reason="damage">ο</unclear>υν</w>  <w lemma="ἑαυτοῦ">ἑαυτὸ<supplied reason="lost">ν</supplied></w><lb n="6"/><supplied reason="lost"><space extent="2" unit="character" dim="horizontal"/></supplied>  <w lemma="παρέχω"><supplied reason="lost">παρά</supplied>σχοντα</w>  <g ref="#stop"/><space extent="2" unit="character" dim="horizontal"/><lb n="6a"/><supplied reason="lost"><space extent="unknown" unit="character" dim="horizontal"/></supplied>  <space extent="1" unit="line" dim="horizontal"/></ab>
 </div>
          <div type="translation">
             <p>
-               <gap extent="unknown" reason="lost" unit="character"/> and having <supplied reason="lost">carried out magistracies</supplied> well <gap reason="lost" unit="character" extent="unknown"/> and <gap reason="lost" unit="character" extent="unknown"/> and offered goodwill to his <supplied reason="lost">fatherland</supplied>
+               <gap reason="lost" unit="character" extent="unknown"/> and having <supplied reason="lost">carried out magistracies</supplied> well <gap reason="lost" unit="character" extent="unknown"/> and <gap reason="lost" unit="character" extent="unknown"/> and offered goodwill to his <supplied reason="lost">fatherland</supplied>
             </p>
          </div>
          <div type="commentary" n="none">

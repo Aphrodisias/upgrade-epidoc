@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Honours</rs> for <rs type="textType" reg="imperial">Licinius Valerianus</rs>
-            </title>
+            <title>Honours for Licinius Valerianus</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -135,7 +133,7 @@ Museum and findspot (1980).</rs>
             <ab>
                <supplied reason="lost">The city <supplied reason="subaudible">has honoured</supplied>
                </supplied>
-               <gap reason="lost" extent="unknown" unit="character"/>us Li<supplied reason="lost">cinius</supplied> Va<supplied reason="lost">lerian</supplied>us, son and brother of the Augusti, her benefactor; the most worthy Antonius Neikomachos, father of the first archon Antonius Claudius Neikomachos, offspring of high-priests, supervised the erection <supplied reason="subaudible">of the monument</supplied>.</ab>
+               <gap reason="lost" unit="character" extent="unknown"/>us Li<supplied reason="lost">cinius</supplied> Va<supplied reason="lost">lerian</supplied>us, son and brother of the Augusti, her benefactor; the most worthy Antonius Neikomachos, father of the first archon Antonius Claudius Neikomachos, offspring of high-priests, supervised the erection <supplied reason="subaudible">of the monument</supplied>.</ab>
          </div>
          <div type="commentary">
             <p>

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Seat inscriptions</rs>: Stadium Block 19</title>
+            <title>Seat inscriptions: Stadium Block 19</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -118,7 +117,7 @@ Second-sixth century A.D.
 
  
 
-<lb n="1"/><milestone unit="block"/><gap reason="lost" extent="3" unit="character"/><unclear reason="damage">ΙΙΙΙ</unclear><w lemma="βένετος">Βενέ<milestone unit="block"/><space extent="5"/><milestone unit="block"/><lb n="2"/><milestone unit="block"/><space extent="10"/><milestone unit="block"/>των</w><space extent="5"/><milestone unit="block"/><lb n="3"/><milestone unit="block"/> <persName type="attested"><name nymRef="#Αὐρήλιος">Αὐρ<gap reason="lost" extent="2" unit="character"/></name></persName>
+<lb n="1"/><milestone unit="block"/><gap reason="lost" unit="character" quantity="3"/><unclear reason="damage">ΙΙΙΙ</unclear><w lemma="βένετος">Βενέ<milestone unit="block"/><space extent="5"/><milestone unit="block"/><lb n="2"/><milestone unit="block"/><space extent="10"/><milestone unit="block"/>των</w><space extent="5"/><milestone unit="block"/><lb n="3"/><milestone unit="block"/> <persName type="attested"><name nymRef="#Αὐρήλιος">Αὐρ<gap reason="lost" unit="character" quantity="2"/></name></persName>
 <orig n="unresolved"><unclear reason="damage">λ</unclear>
 <unclear reason="damage">λ</unclear>ο<milestone unit="block"/> <unclear reason="damage">ι</unclear>
 <unclear reason="damage">ι</unclear>ενιων<milestone unit="block"/></orig></ab></div><div n="O" type="textpart" subtype="section"><note xml:lang=""/></div><div n="P" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/><w lemma="τόπος"><expan><abbr>τ<milestone unit="block"/>ό<milestone unit="block"/><unclear reason="damage">π</unclear></abbr><ex>ος</ex></expan></w> </ab></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div></div><div n="T" type="textpart" subtype="section"><note xml:lang=""/></div><div n="U" type="textpart" subtype="section"><note xml:lang=""/></div><div n="V" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab>

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Seat inscriptions</rs>: Theatre, Block A</title>
+            <title>Seat inscriptions: Theatre, Block A</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -151,7 +150,7 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>)
                      <unclear reason="damage">Λ</unclear>ΤΝΙΡΟΥ 
 <lb n="3"/>
 ΝΙΑ ΤΟΥΝ<unclear reason="damage">Ι</unclear>
-                     <gap reason="lost" extent="2" unit="character"/>
+                     <gap reason="lost" unit="character" quantity="2"/>
                      <unclear reason="damage">Ι</unclear>Ε<unclear reason="damage">Α</unclear>Ο<unclear reason="damage">σ</unclear>
                   </ab>
                </div>

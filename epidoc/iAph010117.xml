@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragmentary  <rs type="textType" reg="honours" cert="low">honours</rs>  from Temple</title>
+            <title>Fragmentary  honours  from Temple</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,7 +108,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
 
-<ab>  <lb n="1"/><orig n="unresolved">τα</orig><gap extent="unknown" reason="lost" unit="character"/><lb n="2"/><orig n="unresolved">ν</orig><gap extent="unknown" reason="lost" unit="character"/><lb n="3"/><orig n="unresolved"><unclear reason="damage">ω</unclear></orig><gap extent="unknown" reason="lost" unit="character"/><lb n="3a"/><gap extent="unknown" reason="lost" unit="line"/></ab>
+<ab>  <lb n="1"/><orig n="unresolved">τα</orig><gap reason="lost" unit="character" extent="unknown"/><lb n="2"/><orig n="unresolved">ν</orig><gap reason="lost" unit="character" extent="unknown"/><lb n="3"/><orig n="unresolved"><unclear reason="damage">ω</unclear></orig><gap reason="lost" unit="character" extent="unknown"/><lb n="3a"/><gap reason="lost" unit="line" extent="unknown"/></ab>
 </div>
          <div type="translation" sample="complete" org="uniform" n="none">
             <p>No words discernible.</p>

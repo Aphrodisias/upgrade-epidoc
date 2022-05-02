@@ -6,10 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> copy of a <rs type="textType">consolatory <rs type="textType">decree</rs>
-               </rs>
-            </title>
+            <title>Funerary copy of a consolatory decree</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -109,103 +106,103 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>    <space extent="3" unit="character" dim="horizontal"/>    <space extent="3" unit="character" dim="horizontal"/>    <space extent="3" unit="character" dim="horizontal"/>  <lb n="2"/><w lemma="δοκέω"><supplied reason="lost">ἔδοξεν</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τῇ</supplied></w>  <w lemma="βουλή"><supplied reason="lost">βουλῇ</supplied></w>  <w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τῷ</supplied></w>  <w lemma="δῆμος"><supplied reason="lost">δήμῳ</supplied></w>  <w lemma="γνώμη"><supplied reason="lost">γνώμῃ</supplied></w>  <gap reason="lost" extent="unknown" unit="character"/> <w lemma="γραμματεύς"><app type="previouslyread">
+<ab><lb n="1"/>    <space extent="3" unit="character" dim="horizontal"/>    <space extent="3" unit="character" dim="horizontal"/>    <space extent="3" unit="character" dim="horizontal"/>  <lb n="2"/><w lemma="δοκέω"><supplied reason="lost">ἔδοξεν</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τῇ</supplied></w>  <w lemma="βουλή"><supplied reason="lost">βουλῇ</supplied></w>  <w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τῷ</supplied></w>  <w lemma="δῆμος"><supplied reason="lost">δήμῳ</supplied></w>  <w lemma="γνώμη"><supplied reason="lost">γνώμῃ</supplied></w>  <gap reason="lost" unit="character" extent="unknown"/> <w lemma="γραμματεύς"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="10" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="10"/>
 </rdg>
 <rdg resp="previous">
 γραμματέως</rdg>
 </app></w> <w lemma="δῆμος"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">δήμ
 </rdg>
-</app>ου</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῶν</w> <w lemma="ἐπί">ἐπὶ</w> <w lemma="ὁ">τῆς</w> <w lemma="χώρα">χώρας</w> <w lemma="στρατηγός">στρατηγῶν</w> <lb n="3"/><w lemma="ἐπεί"><supplied reason="lost">ἐπεί</supplied></w>  <gap reason="lost" extent="25" unit="character" precision="circa"/> <w lemma="διά"><supplied reason="lost">δι</supplied><app type="previouslyread">
+</app>ου</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῶν</w> <w lemma="ἐπί">ἐπὶ</w> <w lemma="ὁ">τῆς</w> <w lemma="χώρα">χώρας</w> <w lemma="στρατηγός">στρατηγῶν</w> <lb n="3"/><w lemma="ἐπεί"><supplied reason="lost">ἐπεί</supplied></w>  <gap reason="lost" unit="character" precision="low" quantity="25"/> <w lemma="διά"><supplied reason="lost">δι</supplied><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">ὰ
 </rdg>
 </app></w> <w lemma="γένος"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="6" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="6"/>
 </rdg>
 <rdg resp="previous">γένους
 </rdg>
 </app></w> <w lemma="λαμπρός"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="7" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="7"/>
 </rdg>
 <rdg resp="previous">
 λαμπροῦ</rdg>
 </app></w> <w lemma="καί"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">
 κ</rdg>
-</app>αὶ</w> <w lemma="ἔνδοξος">ἐνδόξου</w> <w lemma="ἀφαιρέω">ἀφαιρεθείσα</w> <w lemma="ὑπό">ὑπὸ</w> <w lemma="ὁ">τοῦ</w> <lb n="4"/>  <w lemma="δαίμων"><supplied reason="lost" cert="low">δαίμονος</supplied></w>  <gap reason="lost" extent="21" unit="character" precision="circa"/>  <persName type="attested"><name nymRef="#Μολοσσός"><supplied reason="lost">Μ</supplied><app type="previouslyread">
+</app>αὶ</w> <w lemma="ἔνδοξος">ἐνδόξου</w> <w lemma="ἀφαιρέω">ἀφαιρεθείσα</w> <w lemma="ὑπό">ὑπὸ</w> <w lemma="ὁ">τοῦ</w> <lb n="4"/>  <w lemma="δαίμων"><supplied reason="lost" cert="low">δαίμονος</supplied></w>  <gap reason="lost" unit="character" precision="low" quantity="21"/>  <persName type="attested"><name nymRef="#Μολοσσός"><supplied reason="lost">Μ</supplied><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="7" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="7"/>
 </rdg>
 <rdg resp="previous">ολόσσου
 </rdg>
 </app></name></persName> <w lemma="καί"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">καὶ
 </rdg>
 </app></w> <persName type="attested"><name nymRef="#Μηνόδοτος"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="5" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="5"/>
 </rdg>
 <rdg resp="previous">Μηνοδ
 </rdg>
-</app>ότου</name></persName> <w lemma="ὁ">τῶν</w> <w lemma="τέκνον">τέκνων</w> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Μολοσσός">Μολόσσου</name></persName> <lb n="5"/><w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <supplied reason="lost">name</supplied>  <w lemma="ὁ"><supplied reason="lost">τῶν</supplied></w>  <w lemma="ἔκγονος"><supplied reason="lost">ἐκγόνων</supplied></w>  <gap reason="lost" extent="20" unit="character" precision="circa"/>  <w lemma="πρό"><supplied reason="lost">πρὸ</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τῆς</supplied></w> <persName type="attested"><name><app type="previouslyread">
+</app>ότου</name></persName> <w lemma="ὁ">τῶν</w> <w lemma="τέκνον">τέκνων</w> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Μολοσσός">Μολόσσου</name></persName> <lb n="5"/><w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <supplied reason="lost">name</supplied>  <w lemma="ὁ"><supplied reason="lost">τῶν</supplied></w>  <w lemma="ἔκγονος"><supplied reason="lost">ἐκγόνων</supplied></w>  <gap reason="lost" unit="character" precision="low" quantity="20"/>  <w lemma="πρό"><supplied reason="lost">πρὸ</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τῆς</supplied></w> <persName type="attested"><name><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="10" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="10"/>
 </rdg>
 <rdg resp="previous">
 Ἀντιοχικῆς</rdg>
 </app></name></persName> <w lemma="πύλη"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="5" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="5"/>
 </rdg>
 <rdg resp="previous">πύλης
 </rdg>
-</app></w> <w lemma="μνημεῖον">μνημεῖον</w> <w lemma="καί">καὶ</w> <w lemma="σορός">σορὸν</w> <w lemma="λευκόλιθος">λευκόλιθα</w> <lb n="6"/>  <supplied reason="lost" cert="low"><w>ἐφ′</w><w>ᾧ</w></supplied>  <gap reason="lost" extent="28" unit="character" precision="circa"/>  <persName type="attested"><name nymRef="#Μολοσσός"><supplied reason="lost">Μόλ</supplied><app type="previouslyread">
+</app></w> <w lemma="μνημεῖον">μνημεῖον</w> <w lemma="καί">καὶ</w> <w lemma="σορός">σορὸν</w> <w lemma="λευκόλιθος">λευκόλιθα</w> <lb n="6"/>  <supplied reason="lost" cert="low"><w>ἐφ′</w><w>ᾧ</w></supplied>  <gap reason="lost" unit="character" precision="low" quantity="28"/>  <persName type="attested"><name nymRef="#Μολοσσός"><supplied reason="lost">Μόλ</supplied><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="2" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="2"/>
 </rdg>
 <rdg resp="previous">οσ
 </rdg>
 </app><supplied reason="lost">σον</supplied></name></persName> <w lemma="καί"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">καὶ
 </rdg>
 </app></w> <persName type="attested"><name><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="5" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="5"/>
 </rdg>
 <rdg resp="previous">Μηνόδ
 </rdg>
-</app>οτον</name></persName> <w lemma="ὁ">τὰ</w> <w lemma="τέκνον">τέκνα</w> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Μολοσσός">Μόλοσσον</name></persName> <w lemma="καί">καὶ</w> <lb n="7"/><supplied reason="lost"><gap extent="unknown" reason="lost" unit="character"/></supplied>  <w lemma="ὁ"><supplied reason="lost">τοὺς</supplied></w>  <w lemma="ἔκγονος"><supplied reason="lost">ἐκγόνους</supplied></w>  <gap reason="lost" extent="20" unit="character" precision="circa"/>  <w lemma="καί"><supplied reason="lost">κα</supplied>ὶ</w> <w lemma="μετά">μετὰ</w> <w lemma="ὁ">τὸ</w> <w lemma="ἑαυτοῦ">ἑαυτὴν</w> <w lemma="ἐγκηδεύω">ἐνκηδευθῆναι</w> <lb n="8"/><supplied reason="lost">ἐν</supplied>  <supplied reason="lost">αὐτῇ</supplied>  <gap reason="lost" extent="20" unit="character" precision="circa"/> <w lemma="καί">καὶ</w> <w lemma="μηδείς"><unclear reason="damage">μηδεὶ</unclear>ς</w> <w lemma="ἄλλος">ἄλλος</w> <w lemma="ἐξουσία">ἐξουσίαν</w> <lb n="9"/><gap reason="lost" extent="50" unit="character" precision="circa"/> <orig n="unresolved"><unclear reason="damage">δ</unclear></orig>  <gap reason="lost" extent="2" unit="character"/><w lemma="χωρίς">χωρὶς</w> <w lemma="εἰμί">ὧν</w> <w lemma="ἄν">ἄν</w> <w lemma="αὐτός">αὐτος</w> <lb n="10"/><gap reason="lost" extent="50" unit="character" precision="circa"/> <orig n="unresolved"><unclear reason="damage">ων</unclear></orig> <w lemma="καί">καὶ</w> <orig n="unresolved">αυταπ<unclear reason="damage">υ</unclear></orig><gap reason="lost" extent="4" unit="character"/>  <lb n="11"/>      <gap reason="lost" extent="30" unit="character" precision="circa"/>  <space extent="2" unit="character" dim="horizontal"/> <w lemma="δοκέω">δεδόχθαι</w> <w lemma="ὁ">τῇ</w> <w lemma="βουλή">βουλῇ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τ<unclear reason="damage">ῷ</unclear></w> <w lemma="δῆμος"><supplied reason="lost">δήμῳ</supplied></w>  <lb n="12"/><gap reason="lost" extent="30" unit="character" precision="circa"/> <w lemma="ἐπιγράφω"><app type="previouslyread">
+</app>οτον</name></persName> <w lemma="ὁ">τὰ</w> <w lemma="τέκνον">τέκνα</w> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Μολοσσός">Μόλοσσον</name></persName> <w lemma="καί">καὶ</w> <lb n="7"/><supplied reason="lost"><gap reason="lost" unit="character" extent="unknown"/></supplied>  <w lemma="ὁ"><supplied reason="lost">τοὺς</supplied></w>  <w lemma="ἔκγονος"><supplied reason="lost">ἐκγόνους</supplied></w>  <gap reason="lost" unit="character" precision="low" quantity="20"/>  <w lemma="καί"><supplied reason="lost">κα</supplied>ὶ</w> <w lemma="μετά">μετὰ</w> <w lemma="ὁ">τὸ</w> <w lemma="ἑαυτοῦ">ἑαυτὴν</w> <w lemma="ἐγκηδεύω">ἐνκηδευθῆναι</w> <lb n="8"/><supplied reason="lost">ἐν</supplied>  <supplied reason="lost">αὐτῇ</supplied>  <gap reason="lost" unit="character" precision="low" quantity="20"/> <w lemma="καί">καὶ</w> <w lemma="μηδείς"><unclear reason="damage">μηδεὶ</unclear>ς</w> <w lemma="ἄλλος">ἄλλος</w> <w lemma="ἐξουσία">ἐξουσίαν</w> <lb n="9"/><gap reason="lost" unit="character" precision="low" quantity="50"/> <orig n="unresolved"><unclear reason="damage">δ</unclear></orig>  <gap reason="lost" unit="character" quantity="2"/><w lemma="χωρίς">χωρὶς</w> <w lemma="εἰμί">ὧν</w> <w lemma="ἄν">ἄν</w> <w lemma="αὐτός">αὐτος</w> <lb n="10"/><gap reason="lost" unit="character" precision="low" quantity="50"/> <orig n="unresolved"><unclear reason="damage">ων</unclear></orig> <w lemma="καί">καὶ</w> <orig n="unresolved">αυταπ<unclear reason="damage">υ</unclear></orig><gap reason="lost" unit="character" quantity="4"/>  <lb n="11"/>      <gap reason="lost" unit="character" precision="low" quantity="30"/>  <space extent="2" unit="character" dim="horizontal"/> <w lemma="δοκέω">δεδόχθαι</w> <w lemma="ὁ">τῇ</w> <w lemma="βουλή">βουλῇ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τ<unclear reason="damage">ῷ</unclear></w> <w lemma="δῆμος"><supplied reason="lost">δήμῳ</supplied></w>  <lb n="12"/><gap reason="lost" unit="character" precision="low" quantity="30"/> <w lemma="ἐπιγράφω"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="8" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="8"/>
 </rdg>
 <rdg resp="previous">ἐπιγραφῆ
 </rdg>
-</app>ναι</w> <w lemma="ἀντίγραφος">ἀντίγραφα</w> <w lemma="οὗτος">τα<unclear reason="damage">ύ</unclear><supplied reason="lost" cert="low">της</supplied></w>  <lb n="13"/><gap reason="lost" extent="30" unit="character"/> <w lemma="χωρίς">χωρὶς</w> <persName type="attested"><name nymRef="#Μηνόδοτος">Μηνοδότου</name></persName> <w lemma="οὐδείς">ουδεὶς</w> <gap reason="lost" extent="4" unit="character"/>  <lb n="14"/><gap reason="lost" extent="30" unit="character"/>  <w lemma="κηδεύω"><supplied reason="lost">κη</supplied>δευθήσεται</w> <w lemma="ἐν">ἐν</w> <w lemma="αὐτός">αὐτῷ</w> <gap reason="lost" extent="5" unit="character"/>  <lb n="15"/><gap reason="lost" extent="30" unit="character"/>  <w lemma="ὁ"><supplied reason="lost">τῆν</supplied></w>  <w lemma="σορός"><supplied reason="lost">σορ</supplied>ὸν</w> <w lemma="εἰμί">ἔστω</w> <w lemma="ἀσεβής">ἀσεβὴ<supplied reason="lost">ς</supplied></w>  <w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <w lemma="ἐπάρατος"><supplied reason="lost">ἐπάρατος</supplied></w>  <lb n="16"/>  <w lemma="καί"><supplied reason="lost" cert="low">καὶ</supplied></w>  <w lemma="τυμβωρύχος"><supplied reason="lost">τυμβωρύχος</supplied></w>  <gap reason="lost" extent="unknown" unit="character"/>  <app type="previouslyread">
+</app>ναι</w> <w lemma="ἀντίγραφος">ἀντίγραφα</w> <w lemma="οὗτος">τα<unclear reason="damage">ύ</unclear><supplied reason="lost" cert="low">της</supplied></w>  <lb n="13"/><gap reason="lost" unit="character" quantity="30"/> <w lemma="χωρίς">χωρὶς</w> <persName type="attested"><name nymRef="#Μηνόδοτος">Μηνοδότου</name></persName> <w lemma="οὐδείς">ουδεὶς</w> <gap reason="lost" unit="character" quantity="4"/>  <lb n="14"/><gap reason="lost" unit="character" quantity="30"/>  <w lemma="κηδεύω"><supplied reason="lost">κη</supplied>δευθήσεται</w> <w lemma="ἐν">ἐν</w> <w lemma="αὐτός">αὐτῷ</w> <gap reason="lost" unit="character" quantity="5"/>  <lb n="15"/><gap reason="lost" unit="character" quantity="30"/>  <w lemma="ὁ"><supplied reason="lost">τῆν</supplied></w>  <w lemma="σορός"><supplied reason="lost">σορ</supplied>ὸν</w> <w lemma="εἰμί">ἔστω</w> <w lemma="ἀσεβής">ἀσεβὴ<supplied reason="lost">ς</supplied></w>  <w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <w lemma="ἐπάρατος"><supplied reason="lost">ἐπάρατος</supplied></w>  <lb n="16"/>  <w lemma="καί"><supplied reason="lost" cert="low">καὶ</supplied></w>  <w lemma="τυμβωρύχος"><supplied reason="lost">τυμβωρύχος</supplied></w>  <gap reason="lost" unit="character" extent="unknown"/>  <app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="2" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="2"/>
 </rdg>
 <rdg resp="previous"><orig n="unresolved">α<unclear reason="damage">ι</unclear></orig>
 </rdg>
-</app><gap reason="lost" extent="3" unit="character"/>  <lb n="17"/><gap reason="lost" extent="3" unit="character"/>  </ab>
+</app><gap reason="lost" unit="character" quantity="3"/>  <lb n="17"/><gap reason="lost" unit="character" quantity="3"/>  </ab>
 </div>
          <div type="apparatus">
             <p>The letters highlighted were seen by Sherard but not by us.</p>

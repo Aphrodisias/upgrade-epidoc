@@ -6,11 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType" reg="honours">
-                  <rs type="textType">Dedication</rs>
-               </rs> for <rs type="textType" reg="imperial">Emperors and Caesars</rs>
-            </title>
+            <title>Dedication for Emperors and Caesars</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -131,9 +127,9 @@ the Stadium. .</rs>
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
 		<ab>
-		<lb n="1"/><w lemma="ὑπέρ"><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" extent="2" unit="character"/></rdg><rdg resp="previous">ὑπ</rdg></app>ὲρ</w> <w lemma="ὁ">τῆς</w> <w lemma="ὁ">τῶν</w>
-		<lb n="2"/><rs type="dignity" key="dominus"><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" extent="2" unit="character"/></rdg><rdg resp="previous">κυ</rdg></app>ρίων</rs> <rs type="official-secul" key="imperator"><w lemma="αὐτοκράτωρ">Αὐτοκρα
-		<lb n="3" break="no"/><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" extent="1" unit="character"/></rdg><rdg resp="previous">τ</rdg></app>όρων</w></rs> <w lemma="καί">καὶ</w> <rs key="caesar" type="official-secul"><w lemma="καῖσαρ">Καισ<app type="previouslyread"><rdg resp="autopsy"><unclear reason="damage">ά</unclear></rdg><rdg resp="previous">ά</rdg></app>
+		<lb n="1"/><w lemma="ὑπέρ"><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" unit="character" quantity="2"/></rdg><rdg resp="previous">ὑπ</rdg></app>ὲρ</w> <w lemma="ὁ">τῆς</w> <w lemma="ὁ">τῶν</w>
+		<lb n="2"/><rs type="dignity" key="dominus"><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" unit="character" quantity="2"/></rdg><rdg resp="previous">κυ</rdg></app>ρίων</rs> <rs type="official-secul" key="imperator"><w lemma="αὐτοκράτωρ">Αὐτοκρα
+		<lb n="3" break="no"/><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" unit="character" quantity="1"/></rdg><rdg resp="previous">τ</rdg></app>όρων</w></rs> <w lemma="καί">καὶ</w> <rs key="caesar" type="official-secul"><w lemma="καῖσαρ">Καισ<app type="previouslyread"><rdg resp="autopsy"><unclear reason="damage">ά</unclear></rdg><rdg resp="previous">ά</rdg></app>
 		<lb n="4" break="no"/>ρων</w></rs> <w lemma="αἰώνιος">αἰωνίου</w>
 		<lb n="5"/><space dim="horizontal" extent="unknown" unit="character"/> <w lemma="διαμονή">διαμονῆς</w>
 		</ab>

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> inscription for Attalos son of Adrastos</title>
+            <title>Funerary inscription for Attalos son of Adrastos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -105,14 +104,14 @@ First to third centuries A.D. (<rs type="criteria">formulae</rs>)</origDate>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/> <w lemma="γραφή">γραφὴ</w> <w lemma="ὁ">τῆς</w> <w lemma="σορός">σοροῦ</w> <g ref="#stop"/>  <w lemma="ἐπί">ἐ<lb n="2" break="no"/>πὶ</w> <w lemma="στεφανηφόρος">στεφανηφόρου</w> <lb n="3"/> <persName type="attested"><name nymRef="#Ἄτταλος">Ἀττάλου</name> <w lemma="ὁ">τοῦ</w> <name nymRef="#Ἄδραστος">Ἀδρά<lb n="4" break="no"/>στου</name></persName> <w lemma="ὁ">τὸ</w> <w>η'</w> <w lemma="μείς"><expan><abbr>μ</abbr><ex>ηνὸς</ex></expan></w> <rs type="month"><expan><abbr>Πανή</abbr><ex>μου</ex></expan></rs>   <lb n="5"/> <w lemma="γραφή">γραφὴ</w> <gap reason="lost" extent="unknown" unit="character"/></ab>
+<ab><lb n="0"/>  <gap reason="lost" unit="line" extent="unknown"/>  <lb n="1"/> <w lemma="γραφή">γραφὴ</w> <w lemma="ὁ">τῆς</w> <w lemma="σορός">σοροῦ</w> <g ref="#stop"/>  <w lemma="ἐπί">ἐ<lb n="2" break="no"/>πὶ</w> <w lemma="στεφανηφόρος">στεφανηφόρου</w> <lb n="3"/> <persName type="attested"><name nymRef="#Ἄτταλος">Ἀττάλου</name> <w lemma="ὁ">τοῦ</w> <name nymRef="#Ἄδραστος">Ἀδρά<lb n="4" break="no"/>στου</name></persName> <w lemma="ὁ">τὸ</w> <w>η'</w> <w lemma="μείς"><expan><abbr>μ</abbr><ex>ηνὸς</ex></expan></w> <rs type="month"><expan><abbr>Πανή</abbr><ex>μου</ex></expan></rs>   <lb n="5"/> <w lemma="γραφή">γραφὴ</w> <gap reason="lost" unit="character" extent="unknown"/></ab>
 </div>
          <div type="apparatus">
             <p> ...</p>
          </div>
          <div type="translation">
             <p>
-               <gap extent="unknown" reason="lost" unit="character"/> inscription of the sarcophagus. in the ninth stephanephorate of Attalos son of Adrastos, month Panemos. Text [ . . .} </p>
+               <gap reason="lost" unit="character" extent="unknown"/> inscription of the sarcophagus. in the ninth stephanephorate of Attalos son of Adrastos, month Panemos. Text [ . . .} </p>
          </div>
          <div type="commentary">
             <p> No commentary</p>

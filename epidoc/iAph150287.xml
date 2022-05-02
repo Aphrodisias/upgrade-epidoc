@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Fragment of <rs type="textType" cert="low">honours</rs>
-            </title>
+            <title> Fragment of honours</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -109,7 +108,7 @@ second to third centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">σ</orig>  <space extent="3" unit="character" dim="horizontal"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>  <persName type="attested"><name nymRef="#Αὐρήλιος"><supplied reason="lost">Αὐ</supplied>ρηλι  <lb n="3" break="no"/><gap reason="lost" extent="unknown" unit="character"/></name></persName><orig n="unresolved"><unclear reason="damage">ι</unclear>ιαν</orig>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ατι</orig>  <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">κα</orig>  <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>  <orig n="unresolved">ικι  </orig><lb n="7" break="no"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ρυλ</orig>  <lb n="8"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">π</unclear>ρο</orig>  <lb n="9"/><gap reason="lost" extent="unknown" unit="character"/>  <gap reason="illegible" extent="2" unit="character"/><lb n="10"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
+<ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">σ</orig>  <space extent="3" unit="character" dim="horizontal"/>  <lb n="2"/><gap reason="lost" unit="character" extent="unknown"/>  <persName type="attested"><name nymRef="#Αὐρήλιος"><supplied reason="lost">Αὐ</supplied>ρηλι  <lb n="3" break="no"/><gap reason="lost" unit="character" extent="unknown"/></name></persName><orig n="unresolved"><unclear reason="damage">ι</unclear>ιαν</orig>  <lb n="4"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">ατι</orig>  <lb n="5"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">κα</orig>  <lb n="6"/><gap reason="lost" unit="character" extent="unknown"/>  <orig n="unresolved">ικι  </orig><lb n="7" break="no"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">ρυλ</orig>  <lb n="8"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">π</unclear>ρο</orig>  <lb n="9"/><gap reason="lost" unit="character" extent="unknown"/>  <gap reason="illegible" unit="character" quantity="2"/><lb n="10"/><gap reason="lost" unit="line" extent="unknown"/>  </ab>
 </div>
          <div type="apparatus">
             <p> l. 6, <foreign xml:lang="grc">

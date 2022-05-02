@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Honours</rs> for a comes</title>
+            <title>Honours for a comes</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -129,7 +128,7 @@ Findspot; standing at the west side of the East court (1994). </rs>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/><gap reason="lost" extent="1" unit="line"/>
+<ab><lb n="0"/><gap reason="lost" unit="line" quantity="1"/>
 <lb n="1"/><w lemma="ὁ">τὸν</w> <rs type="dignity" key="clarissimus"><w lemma="λαμπρός">λαμπρ<supplied reason="lost">ότατον</supplied></w></rs><lb n="2"/><rs type="official-secul" key="comes"><w lemma="κόμης">κόμιτα</w></rs> <space dim="horizontal" extent="1" unit="character"/> <rs key="amicusprinc" type="dignity"><w lemma="φίλος">φίλον</w> <w lemma="ὁ">τῶ<supplied reason="lost">ν</supplied></w><lb n="3"/><rs type="official-secul" key="princeps"><w lemma="βασιλεύς">βασιλέων</w></rs></rs> <w lemma="σωτήρ">σωτῆ<lb n="4" break="no"/>ρα</w> <w lemma="ὁ">τῶν</w> <w lemma="ἔθνος">ἐθνῶν</w> <w lemma="κτίστης">κτί<lb n="5" break="no"/>στην</w> <w lemma="καί">καὶ</w> <w lemma="ἐπανορθωτής">ἐπανορθω<lb n="6" break="no"/>τὴν</w> <w lemma="καί">καὶ</w> <w lemma="ὅδε">τῆσδε</w> <w lemma="ὁ">τῆς</w><lb n="7"/><rs type="subject" key="city"><w lemma="πόλις">πόλεως</w></rs> <space dim="horizontal"/>
 </ab>
 </div>

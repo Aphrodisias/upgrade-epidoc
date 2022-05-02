@@ -6,10 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">
-                  <rs type="textType" reg="statue dedication">Dedication</rs>
-               </rs> by <supplied reason="omitted">Flavius </supplied>Palladios</title>
+            <title>Dedication by <supplied reason="omitted">Flavius </supplied>Palladios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -119,7 +116,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
 		<ab>
-			<lb n="1"/><gap reason="lost" id="gap1" extent="unknown" unit="character"/><certainty degree="low" locus="extent" target="gap1"/> <persName key="Palladius" nymRef="#Φλαούιος Παλλάδιος" type="attested"><name nymRef="#Παλλάδιος">Παλλάδιος</name></persName> <space dim="horizontal" extent="1" unit="character"/> <w lemma="ποιέω"><unclear cert="low" reason="damage">ἐ</unclear><gap extent="unknown" id="gap2" reason="lost" unit="character"/><certainty degree="low" locus="#gi" target="gap2"/>
+			<lb n="1"/><gap reason="lost" id="gap1" unit="character" extent="unknown"/><certainty degree="low" locus="extent" target="gap1"/> <persName key="Palladius" nymRef="#Φλαούιος Παλλάδιος" type="attested"><name nymRef="#Παλλάδιος">Παλλάδιος</name></persName> <space dim="horizontal" extent="1" unit="character"/> <w lemma="ποιέω"><unclear cert="low" reason="damage">ἐ</unclear><gap id="gap2" reason="lost" unit="character" extent="unknown"/><certainty degree="low" locus="#gi" target="gap2"/>
 			<lb id="lb2" n="2" break="no"/><certainty degree="low" locus="type" target="lb2"/><supplied reason="lost">π</supplied><unclear reason="damage">ο</unclear>ίει</w> <w lemma="καί">καὶ</w> <w lemma="ἀνατίθημι">ἀνέθηκεν</w></ab>
       </div>
          <div type="apparatus">

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragment, possibly <rs type="textType" cert="low">dedication</rs>
-            </title>
+            <title>Fragment, possibly dedication</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -110,7 +109,7 @@ Probably first century B.C.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <persName type="attested"><name nymRef="#Ἀθηναγόρας">Ἀθηνα<supplied reason="lost">γόρ<gap reason="lost" extent="3" unit="character"/></supplied></name>  <lb n="2"/><w lemma="ὁ"><supplied reason="lost">τ</supplied><unclear reason="damage">ο</unclear>ῦ</w>  <persName type="attested"><name nymRef="#Εὔμαχος">Εὐ<supplied reason="lost">μάχου</supplied></name></persName></persName>  <lb n="3"/><gap reason="lost" extent="2" unit="character"/><unclear reason="damage">Ξ</unclear>Α<unclear reason="damage">Ο</unclear><gap reason="lost" extent="3" unit="character"/>  <lb n="4"/><gap reason="lost" extent="3" unit="character"/>  </ab>
+<ab><lb n="1"/>  <persName type="attested"><name nymRef="#Ἀθηναγόρας">Ἀθηνα<supplied reason="lost">γόρ<gap reason="lost" unit="character" quantity="3"/></supplied></name>  <lb n="2"/><w lemma="ὁ"><supplied reason="lost">τ</supplied><unclear reason="damage">ο</unclear>ῦ</w>  <persName type="attested"><name nymRef="#Εὔμαχος">Εὐ<supplied reason="lost">μάχου</supplied></name></persName></persName>  <lb n="3"/><gap reason="lost" unit="character" quantity="2"/><unclear reason="damage">Ξ</unclear>Α<unclear reason="damage">Ο</unclear><gap reason="lost" unit="character" quantity="3"/>  <lb n="4"/><gap reason="lost" unit="character" quantity="3"/>  </ab>
 </div>
          <div type="apparatus">
             <p>l.1, very probably Athenagoras was in the nominative case, but it cannot be excluded on the evidence available that the block was crowned by a moulding which carried the opening of the text, in which case a son or grandson of Athenagoras may have been recorded.</p>
@@ -118,7 +117,7 @@ Probably first century B.C.
          <div type="translation">
             <p>
                <supplied reason="lost" cert="low">Athenagoras son of Athenagoras</supplied> son of  Eu<supplied reason="lost">machos</supplied>
-               <gap extent="unknown" reason="lost" unit="character"/>.</p>
+               <gap reason="lost" unit="character" extent="unknown"/>.</p>
          </div>
          <div type="commentary">
             <p> For Athenagoras son of Athenagoras son of Eumachos, see <ref type="inscription" n="1010" target="130302.xml"/> (= MAMA 475).</p>

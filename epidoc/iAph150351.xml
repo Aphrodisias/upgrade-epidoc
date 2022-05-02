@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Anonymous, <term xml:lang="la">magnificentissimus</term>, <rs type="textType" reg="donor's inscription">gives</rs> a <rs type="textType">
-                  <objectType>gameboard</objectType>
-               </rs>
+            <title>Anonymous, <term xml:lang="la">magnificentissimus</term>, gives a <objectType>gameboard</objectType>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -111,7 +109,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
 		<ab>
-		<lb n="1"/><supplied reason="lost" cert="low"><w lemma="ἐπί">ἐπὶ</w> <w lemma="ὁ">τοῦ</w> <w lemma="δεῖνα">δεῖνος</w></supplied> <w lemma="ὁ"><supplied reason="lost">το</supplied>ῦ</w> <rs type="dignity" key="magnificentissimus"><w lemma="μεγαλοπρεπής">μεγαλο<unclear reason="damage">π</unclear><supplied reason="lost">ρεπεστάτου</supplied></w></rs> <gap reason="lost" extent="unknown" unit="character"/>
+		<lb n="1"/><supplied reason="lost" cert="low"><w lemma="ἐπί">ἐπὶ</w> <w lemma="ὁ">τοῦ</w> <w lemma="δεῖνα">δεῖνος</w></supplied> <w lemma="ὁ"><supplied reason="lost">το</supplied>ῦ</w> <rs type="dignity" key="magnificentissimus"><w lemma="μεγαλοπρεπής">μεγαλο<unclear reason="damage">π</unclear><supplied reason="lost">ρεπεστάτου</supplied></w></rs> <gap reason="lost" unit="character" extent="unknown"/>
 		</ab>
       </div>
          <div type="translation">

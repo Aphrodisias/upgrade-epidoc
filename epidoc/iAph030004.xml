@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>i. <rs type="textType">Dedication</rs> to Patris by Zenon son of Euthymos and others; ii. The Phrygian Metropolis <rs type="textType">honours</rs>
-               <rs type="personType" reg="governor">Alexandros</rs>, in <rs type="textType">verse</rs>
-            </title>
+            <title>i. Dedication to Patris by Zenon son of Euthymos and others; ii. The Phrygian Metropolis honours Alexandros, in verse</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -122,7 +120,7 @@
               <lb n="3"/>
                <l><w lemma="ὁ">ἡ</w> <placeName key="Phrygia" nymRef="#Φρυγία">Φρυγίης</placeName> <w lemma="μήτηρ">μήτηρ</w><lb n="4"/><w lemma="μήτηρ">μητέρι</w> <w lemma="ὁ">τῆι</w> <placeName key="Caria" nymRef="#Καρία">Καρίης</placeName></l>
               <lb n="5"/>
-               <l><w lemma="ὁ">τῆς</w> <w lemma="ζάθεος">ζαθέης</w> <w lemma="ἀρχή">ἀρχής</w> <w lemma="τέκμαρ">τέκμαρ</w><lb n="6"/><w lemma="ἄμβροτος">ἄμβρ<choice type="correction"><sic>θ</sic><corr>ο</corr></choice>τον</w> <w lemma="ἐνθάδε">ἐνθάδ'</w> <w lemma="πέμπω">ἔπεμψεν</w></l>
+               <l><w lemma="ὁ">τῆς</w> <w lemma="ζάθεος">ζαθέης</w> <w lemma="ἀρχή">ἀρχής</w> <w lemma="τέκμαρ">τέκμαρ</w><lb n="6"/><w lemma="ἄμβροτος">ἄμβρ<choice><sic>θ</sic><corr>ο</corr></choice>τον</w> <w lemma="ἐνθάδε">ἐνθάδ'</w> <w lemma="πέμπω">ἔπεμψεν</w></l>
               <lb n="7"/>
                <l><w lemma="πᾶς">πᾶς</w> <w lemma="δέ">δὲ</w> <w lemma="λόγος">λόγος</w> <w lemma="μείω">μείων</w><lb n="8"/><w lemma="τε">τ'</w> <w lemma="ἀνήρ">ἀνδρὸς</w> <w lemma="εὐφροσύνη">εὐφροσύνης</w>.</l>
             </lg>

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Dedication</rs> of trapeza by Kallikrates son of Molossos</title>
+            <title>Dedication of trapeza by Kallikrates son of Molossos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -115,19 +114,19 @@ First to second centuries A.D.
 
 <ab><lb n="1"/>          <persName type="divine"><name>Ἡρακλεῖ</name></persName>  <w lemma="καί"><unclear reason="damage">κ</unclear><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="2" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="2"/>
 </rdg>
 <rdg resp="previous">αὶ
 </rdg>
 </app></w> <w lemma="ὁ">τῷ</w> <w lemma="δῆμος"><supplied reason="lost">Δ</supplied>ή<unclear reason="damage">μ</unclear><supplied reason="lost">ῳ</supplied></w>  <space unit="character" dim="horizontal"/> <w lemma="ὁ">τὴν</w> <w lemma="τράπεζα"><unclear reason="damage">τ</unclear><supplied reason="lost">ρά</supplied><unclear reason="damage">πε</unclear>ζαν</w><lb n="2"/><persName type="attested"><name nymRef="#Καλλικράτης">Καλλικράτης</name>  <persName type="attested"><name nymRef="#Μολοσσός"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">
 Μ</rdg>
 </app>ολο<supplied reason="lost">σσοῦ</supplied></name></persName></persName>  <w lemma="ἱερεύς"><supplied reason="lost">ἱε</supplied><unclear reason="damage">ρε</unclear>ὺ<supplied reason="lost">ς</supplied></w>  <persName type="divine"><name>Μηνὸς<lb n="3"/><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">Ἀ
 </rdg>

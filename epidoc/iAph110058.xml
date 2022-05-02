@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Honours</rs> for anonymous, boy runner victor at the
+            <title>Honours for anonymous, boy runner victor at the
      fifteenth Philemoniea</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -123,7 +122,7 @@
      <w lemma="δεῖνα">
       <supplied reason="lost">δεῖνα</supplied>
      </w>
-     <gap reason="lost" extent="unknown" unit="character"/>
+     <gap reason="lost" unit="character" extent="unknown"/>
      <w lemma="στεφανόω"><supplied reason="lost">στ</supplied><lb n="2" break="no"/><supplied reason="lost">εφ</supplied>ανωθέ<unclear reason="damage">ν</unclear><supplied reason="lost">τα</supplied></w>
      <lb n="3"/>
      <w lemma="παῖς">παίδων</w>
@@ -161,7 +160,7 @@
      <g ref="#stop"/>
      <w lemma="ὁ">τὴν</w>
      <w lemma="δέ">δὲ</w>
-     <w lemma="ἀνάστασις"><app type="previouslyread"><rdg resp="autopsy"><gap extent="1" reason="lost" unit="character"/></rdg><rdg resp="previous">ἀ</rdg></app><lb n="18" break="no"/>νάστασιν</w>
+     <w lemma="ἀνάστασις"><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" unit="character" quantity="1"/></rdg><rdg resp="previous">ἀ</rdg></app><lb n="18" break="no"/>νάστασιν</w>
      <w lemma="ὁ">το<unclear reason="damage">ῦ</unclear></w>
      <lb n="19"/>
      <w lemma="ἀνδρίας">ἀνδριάντος</w>

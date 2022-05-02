@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> formula fragment</title>
+            <title> Funerary formula fragment</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -107,13 +106,13 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">σιασεκιλιι</unclear></orig><lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">νουσ</orig> <w lemma="ἐγώ">μου</w> <orig n="unresolved">εσ<unclear reason="damage">ο</unclear></orig>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="οὐδείς">οὐδένα</w>  <w lemma="μή"><hi rend="ligature">μὴ</hi></w> <w lemma="πρός">προς</w> <lb n="3a"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
+<ab><lb n="0"/>  <gap reason="lost" unit="line" extent="unknown"/>  <lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">σιασεκιλιι</unclear></orig><lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">νουσ</orig> <w lemma="ἐγώ">μου</w> <orig n="unresolved">εσ<unclear reason="damage">ο</unclear></orig>  <lb n="3"/><gap reason="lost" unit="character" extent="unknown"/><w lemma="οὐδείς">οὐδένα</w>  <w lemma="μή"><hi rend="ligature">μὴ</hi></w> <w lemma="πρός">προς</w> <lb n="3a"/><gap reason="lost" unit="line" extent="unknown"/>  </ab>
 </div>
          <div type="apparatus">
             <p>l. 1, <seg cert="low">
                   <foreign xml:lang="grc">
                      <orig n="unresolved">σ<unclear reason="damage">ιασ</unclear>
-                        <gap reason="illegible" unit="character" extent="1"/>ν<unclear reason="damage">ιαφι</unclear>
+                        <gap reason="illegible" unit="character" quantity="1"/>ν<unclear reason="damage">ιαφι</unclear>
                      </orig>
                   </foreign>
                </seg>

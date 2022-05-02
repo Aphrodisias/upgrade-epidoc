@@ -6,11 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">
-                  <rs type="textType">Funerary</rs>
-                  <rs type="textType">verse</rs>
-               </rs> for Claudia</title>
+            <title>Funerary verse for Claudia</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -139,7 +135,7 @@ clear, lunate.</handNote>
 			<lb n="7"/><l><w lemma="κουρίδιος">κουριδίωι</w> <w lemma="συναραρίσκω">ξυνάρη
 			<lb n="8" break="no"/><supplied reason="lost">ρε</supplied></w> <w lemma="καί"><supplied reason="lost">κ</supplied>αὶ</w> <w lemma="οἴχομαι">οἰχομένης</w> 
 			<lb n="9"/><supplied reason="lost"><w lemma="σύν">σὺν</w></supplied> <w lemma="ἀκοίτης">ἀκοίτῃ</w></l>
-			<lb n="10"/><l><w lemma="τύμβος"><supplied reason="lost">τύμβ</supplied>ῳ</w> <w lemma="ὑπό">ὑπ</w>' <w lemma="εὐαγής">εὐαγε<lb n="11" break="no"/><gap extent="unknown" unit="line" reason="lost"/></w></l></lg></div>
+			<lb n="10"/><l><w lemma="τύμβος"><supplied reason="lost">τύμβ</supplied>ῳ</w> <w lemma="ὑπό">ὑπ</w>' <w lemma="εὐαγής">εὐαγε<lb n="11" break="no"/><gap unit="line" reason="lost" extent="unknown"/></w></l></lg></div>
       </div>
          <div type="apparatus">
             <p>a. v. 2, <foreign xml:lang="grc">κυ<supplied reason="lost">δή</supplied>νατο</foreign> is far from certain; although the verb is used in epigrams in this kind of construction, I know of no parallel for its use in the middle voice.</p>

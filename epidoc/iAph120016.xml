@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Gladiator memorial</rs> for [?Margar]eites</title>
+            <title> Gladiator memorial for [?Margar]eites</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -111,7 +110,7 @@ Second to third centuries A.D.(<rs type="criteria">content</rs>, <rs type="crite
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">Ε</unclear>ΙΤΗΣ  </ab>
+<ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><unclear reason="damage">Ε</unclear>ΙΤΗΣ  </ab>
 </div>
          <div type="translation">
             <p>[?Margar]eites.</p>

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Seat inscriptions</rs>: Stadium Block 20</title>
+            <title>Seat inscriptions: Stadium Block 20</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -114,15 +113,15 @@ Second-fifth century A.D.
 <div n="M" type="textpart" subtype="section"><ab><lb n="1"/>
 
 <w lemma="τόπος">τό<milestone unit="block"/>π<milestone unit="block"/>ος</w> <milestone unit="block"/>
-<gap reason="lost" extent="1" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 <milestone unit="block"/>
-<gap reason="lost" extent="1" unit="character"/><orig n="unresolved">φ</orig><gap reason="lost" extent="1" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/><orig n="unresolved">φ</orig><gap reason="lost" unit="character" quantity="1"/>
 <milestone unit="block"/><orig n="unresolved"><unclear reason="damage">λ</unclear></orig><milestone unit="block"/><orig n="unresolved"><unclear reason="damage">ο</unclear></orig><milestone unit="block"/>
 <orig n="unresolved"><unclear reason="damage">κ</unclear></orig>
-<gap reason="lost" extent="1" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 <milestone unit="block"/>
 <orig n="unresolved"><unclear reason="damage">κ</unclear></orig>
-<gap reason="lost" extent="1" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 <milestone unit="block"/><orig n="unresolved"><unclear reason="damage">ω</unclear></orig><milestone unit="block"/><orig n="unresolved">ν</orig> <milestone unit="block"/> <orig n="unresolved"><unclear reason="damage">ρ</unclear></orig>
 <unclear reason="damage">Ν</unclear>
 <milestone unit="block"/>  <space extent="3" unit="character"/> 
@@ -133,7 +132,7 @@ Second-fifth century A.D.
 <milestone unit="block"/> <orig n="unresolved"><unclear reason="damage">φ</unclear>̣<unclear reason="damage">υ</unclear>̣<unclear reason="damage">λ</unclear>
 <milestone unit="block"/>
 <unclear reason="damage">ο</unclear>
-<milestone unit="block"/>ρ</orig><gap extent="unknown" reason="lost" unit="character"/></ab></div><div n="U" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab> 
+<milestone unit="block"/>ρ</orig><gap reason="lost" unit="character" extent="unknown"/></ab></div><div n="U" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab> 
 
 <lb n="1"/><w lemma="φρουμεντάριος"><expan><abbr>φ<unclear reason="damage">ρ</unclear>ου<milestone unit="block"/>μ</abbr><ex cert="low">ενταρίων</ex></expan></w> <w lemma="τόπος"><expan><abbr>τόπο</abbr><ex>ς</ex></expan></w>  <space extent="3" unit="character"/> 
 

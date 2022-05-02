@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> fragment; sarcophagus lid; re-used</title>
+            <title> Funerary fragment; sarcophagus lid; re-used</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -105,14 +104,14 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<div n="a" type="textpart" subtype="section"><ab><lb n="1"/><orig n="unresolved">νι<hi rend="ligature">σι</hi></orig></ab></div><div n="b" type="textpart" subtype="section"><ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character"/>  <w lemma="ὁ"><supplied reason="lost">ὁ</supplied></w>  <w lemma="τόπος"><supplied reason="lost">τ</supplied>όπος</w> <w lemma="εἰμί">ἐσ<unclear reason="damage">τ</unclear>ιν</w> <orig n="unresolved"><unclear reason="damage">μ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/></ab></div>
+<div n="a" type="textpart" subtype="section"><ab><lb n="1"/><orig n="unresolved">νι<hi rend="ligature">σι</hi></orig></ab></div><div n="b" type="textpart" subtype="section"><ab><lb n="1"/>  <gap reason="lost" unit="character" extent="unknown"/>  <w lemma="ὁ"><supplied reason="lost">ὁ</supplied></w>  <w lemma="τόπος"><supplied reason="lost">τ</supplied>όπος</w> <w lemma="εἰμί">ἐσ<unclear reason="damage">τ</unclear>ιν</w> <orig n="unresolved"><unclear reason="damage">μ</unclear></orig><gap reason="lost" unit="character" extent="unknown"/></ab></div>
 </div>
          <div type="translation">
             <p>a. not usefully translatable.</p>
-            <p>b. <gap reason="lost" extent="unknown" unit="character"/>
+            <p>b. <gap reason="lost" unit="character" extent="unknown"/>
                <supplied reason="lost">the</supplied> place <supplied reason="subaudible">belongs to   </supplied>
                <seg cert="low">M</seg>
-               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary">

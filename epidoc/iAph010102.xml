@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Building dedication</rs> to the Divine Augustus by Eusebes son of Menandros</title>
+            <title>Building dedication to the Divine Augustus by Eusebes son of Menandros</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -116,61 +115,61 @@ Julio-Claudian
 
 <ab><lb n="1"/>  <persName type="emperor"><w lemma="αὐτοκράτωρ"><supplied reason="lost">Αὐ</supplied>τοκράτο<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="2" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="2"/>
 </rdg>
 <rdg resp="previous"><unclear reason="damage">ρι</unclear>
 </rdg>
 </app></w> <w lemma="θεός"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">θεῷ
 </rdg>
 </app></w> <w lemma="σεβαστός"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="7" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="7"/>
 </rdg>
 <rdg resp="previous">
 Σεβαστῷ</rdg>
 </app></w> <name nymRef="#Καῖσαρ"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="7" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="7"/>
 </rdg>
 <rdg resp="previous">Καίσαρι
 </rdg>
 </app></name></persName>    <rs type="subject" key="paterpatriae"><w lemma="πατήρ"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="5" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="5"/>
 </rdg>
 <rdg resp="previous">πατρὶ
 </rdg>
 </app></w>  <w lemma="πατρίς">πατρίδο<unclear reason="damage">ς</unclear></w></rs><lb n="2"/><persName type="attested"><name nymRef="#Εὐσεβής"><supplied reason="lost">Εὐσ</supplied>εβὴς</name>  <space extent="1" unit="character" dim="horizontal"/>  <persName type="attested"><name nymRef="#Μένανδρος"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="9" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="9"/>
 </rdg>
 <rdg resp="previous">
 Μενάνδρου</rdg>
 </app></name></persName></persName> <w lemma="φιλόπατρις"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="10" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="10"/>
 </rdg>
 <rdg resp="previous">
 φιλόπατρις</rdg>
 </app></w> <w lemma="καί"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">καὶ
 </rdg>
 </app></w> <persName type="attested"><name nymRef="#Εὔνικος"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="7" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="7"/>
 </rdg>
 <rdg resp="previous">
 Εὔνικος</rdg>
 </app></name><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous"><g ref="#leaf"/>
 </rdg>

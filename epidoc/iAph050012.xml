@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>i. <rs type="textType" reg="building inscription">Fragment of <rs type="textType">verse</rs>
-               </rs>. ii. <rs type="textType">Place inscription</rs> of Synodios</title>
+            <title>i. Fragment of verse. ii. Place inscription of Synodios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -117,8 +116,8 @@
         
 		<div n="iAph0233" type="inscrNo">
 		<ab>
-		<lb n="1"/><gap extent="9" unit="character" reason="lost"/> <w lemma="δύναμαι">δ<g ref="#cross"/>υναμ<unclear reason="damage">ε</unclear></w><gap extent="5" unit="character" reason="lost"/>
-		<lb n="2"/><gap extent="9" unit="character" reason="lost"/> <space dim="horizontal"/> <g ref="#cross"/> <orig n="unresolved">ατε</orig> <space dim="horizontal"/>
+		<lb n="1"/><gap unit="character" reason="lost" quantity="9"/> <w lemma="δύναμαι">δ<g ref="#cross"/>υναμ<unclear reason="damage">ε</unclear></w><gap unit="character" reason="lost" quantity="5"/>
+		<lb n="2"/><gap unit="character" reason="lost" quantity="9"/> <space dim="horizontal"/> <g ref="#cross"/> <orig n="unresolved">ατε</orig> <space dim="horizontal"/>
 		<lb n="3"/><space dim="vertical"/>
 		</ab>
 		</div>

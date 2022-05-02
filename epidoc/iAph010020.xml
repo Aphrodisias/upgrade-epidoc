@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType" reg="prayer/invocation">Prayer</rs> of Theodoros</title>
+            <title>Prayer of Theodoros</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -116,7 +115,7 @@ east, on the south face of the base, cut on the upper moulding: .</rs>
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
 		  <ab>
-		  	<lb n="1"/><g ref="#cross"/> <w lemma="εὐχή">εὐχὴ</w> <persName key="Theodore2" type="attested"><name nymRef="#Θεόδωρος">Θεοδώρου</name></persName> <orig n="unresolved"><unclear reason="damage">ο</unclear><gap extent="2" unit="character" reason="lost"/>ετησ</orig>
+		  	<lb n="1"/><g ref="#cross"/> <w lemma="εὐχή">εὐχὴ</w> <persName key="Theodore2" type="attested"><name nymRef="#Θεόδωρος">Θεοδώρου</name></persName> <orig n="unresolved"><unclear reason="damage">ο</unclear><gap unit="character" reason="lost" quantity="2"/>ετησ</orig>
 			<lb n="2"/><w lemma="ὁ">τῆς</w> <rs type="dignity" key="eulabestatos"><w lemma="εὐλαβής"><expan><abbr>εὐλαβ</abbr><ex>εστάτης</ex></expan></w></rs> <rs type="official-relig" key="deaconess"><w lemma="διακονίσσα">διακονίσης</w></rs> <g ref="#cross"/>
 		  </ab>
       </div>

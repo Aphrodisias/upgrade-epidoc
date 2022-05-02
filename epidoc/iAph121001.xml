@@ -6,11 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType" reg="building inscription">
-                  <rs type="textType">Dedication</rs>
-               </rs> to Constantius II and a <rs type="textType" reg="imperial">Caesar</rs> by <rs type="personType" reg="governor">Fl. Quint. Eros Monaxios</rs>
-            </title>
+            <title>Dedication to Constantius II and a Caesar by Fl. Quint. Eros Monaxios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -144,7 +140,7 @@
                <name nymRef="#Κυιντίλιος"><expan><abbr>Κυιντ<am><g ref="#scroll"/></am></abbr><ex>ίλιος</ex></expan></name> <name nymRef="#Ἔρως">Ἔρως</name> <name nymRef="#Μονάξιος">Μονάξιος</name></persName> <g ref="#stop"/> ὁ <rs type="dignity" key="perfectissimus"><w lemma="διάσημος">διασημότατος</w></rs> <w lemma="ἡγεμών">ἡγε<unclear reason="damage">μὼν</unclear></w>
                <g ref="#stop"/>
               <lb n="7"/><w lemma="καί">καὶ</w> <w lemma="ἀπό">ἀπὸ</w> <placeName nymRef="#Κρητάρχης"><rs type="official-secul" key="Cretarch"><w lemma="Κρητάρχης">Κρητάρχων</w></rs></placeName> <w lemma="ὁ">τὸν</w> <orig n="unresolved"><unclear reason="damage">π</unclear>
-               </orig><gap extent="8" reason="lost" unit="character"/>
+               </orig><gap reason="lost" unit="character" quantity="8"/>
                <supplied reason="lost"><w lemma="ἐκ">ἐκ</w></supplied> <w lemma="θεμέλιος"><supplied reason="lost">θ</supplied><unclear reason="damage">εμελί</unclear>ω<unclear reason="damage">ν</unclear></w> <w lemma="ὁ">τῇ</w> <rs key="clarus" type="dignity"><w lemma="λαμπρός">λ<supplied reason="lost">αμ</supplied>
                <unclear reason="damage">π</unclear>ρᾷ</w></rs> <g ref="#stop"/>
               <lb n="8"/><w lemma="καί">καὶ</w> <w lemma="συγγενής">συγγενεῖ</w> <w lemma="Κρής"><placeName nymRef="#Κρῆς">Κρητῶν</placeName></w> <supplied reason="lost"><rs type="subject" key="capital"><w lemma="μητρόπολις">μητροπόλει</w></rs> <w lemma="ὁ">τῶν</w> <w lemma="Ἀφροδεισιεύς"><placeName nymRef="#Ἀφροδεισιεύς">Ἀφροδεισιέων</placeName></w> <g ref="#stop"/>
@@ -153,18 +149,18 @@
               <lb n="9"/>
                <space dim="horizontal"/><w lemma="κατασκευάζω">κ<unclear reason="damage">α</unclear>τ<unclear reason="damage">εσ</unclear>κ<unclear reason="damage">εύ</unclear>
                <supplied reason="lost">ασεν</supplied></w>
-               <gap extent="12" reason="lost" unit="character"/>
+               <gap reason="lost" unit="character" quantity="12"/>
                <space extent="unknown" id="space3" dim="horizontal"/>
                <certainty target="space3" locus="#gi" degree="low" assertedValue="gap"/>
             </ab>
          </div>
          <div type="apparatus">
             <p>The words highlighted have been erased.</p>
-            <p>l.2. Sherard read <foreign xml:lang="grc">ΤΗΜΗΣ</foreign>. Waddington <foreign xml:lang="grc">Τ<gap extent="1" reason="illegible" unit="character"/>ΧΗΣ</foreign>, but the tau was not copied by any other witnesses, or by us.</p>
+            <p>l.2. Sherard read <foreign xml:lang="grc">ΤΗΜΗΣ</foreign>. Waddington <foreign xml:lang="grc">Τ<gap reason="illegible" unit="character" quantity="1"/>ΧΗΣ</foreign>, but the tau was not copied by any other witnesses, or by us.</p>
             <p>l.5. No earlier visitors copied anything in this rasura; we have (with some difficulty) examined it closely, and taken a squeeze.</p>
             <p>l.6. After <foreign xml:lang="grc">ἡγεμών</foreign> Sherard read <foreign xml:lang="grc">το</foreign>, seen by no other witnesses, but reproduced as <foreign xml:lang="grc">τε</foreign> by Cormack.</p>
             <p>l.7. At the end <foreign xml:lang="grc">
-                  <gap extent="unknown" reason="lost" unit="character"/>ΝΤΗΛ<gap extent="2" reason="lost" unit="character"/>ΠΡΑ</foreign> was read by most witnesses, but misleadingly set out in <bibl>
+                  <gap reason="lost" unit="character" extent="unknown"/>ΝΤΗΛ<gap reason="lost" unit="character" quantity="2"/>ΠΡΑ</foreign> was read by most witnesses, but misleadingly set out in <bibl>
                   <title level="m">CIG</title>
                </bibl>, whence it was misunderstood by <bibl>
                   <author>Cormack</author>
@@ -176,7 +172,7 @@
          <div type="translation">
             <p>With Good Fortune. For the health and safety and fortune and victory and eternal endurance of our masters, Flavius Julius Constantius, pious unvanquished Augustus, and <del status="unremarkable">Flavius Claudius <seg cert="low">Iulianus</seg>
                </del>. the most renowned and most noble Caesar, Flavius Quintilius Eros Monaxios, <term xml:lang="la">perfectissimus praeses</term> and former Cretarch, built <supplied cert="low" reason="lost">the gate</supplied> from the foundations for the splendid <supplied reason="lost">metropolis of <seg cert="low">the Aphrodisians</seg>
-               </supplied>, kin to the Cretans <gap extent="unknown" reason="lost" unit="character"/>
+               </supplied>, kin to the Cretans <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary">

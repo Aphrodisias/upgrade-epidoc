@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> fragment from NE Walls</title>
+            <title> Funerary fragment from NE Walls</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -106,7 +105,7 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <w><gap reason="lost" extent="unknown" unit="character"/>στην</w>  <persName type="attested"><name nymRef="#Τιβερι-">Τιβερ<supplied reason="lost">ι</supplied><gap reason="lost" extent="unknown" unit="character"/></name></persName></ab>
+<ab><lb n="1"/>  <w><gap reason="lost" unit="character" extent="unknown"/>στην</w>  <persName type="attested"><name nymRef="#Τιβερι-">Τιβερ<supplied reason="lost">ι</supplied><gap reason="lost" unit="character" extent="unknown"/></name></persName></ab>
 </div>
          <div type="translation">
             <p>E.g. <foreign xml:lang="grc">

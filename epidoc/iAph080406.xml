@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>i. <rs type="textType">Honours</rs>  for Titus Falvius Sallustios Athenagoras; ii. <rs type="textType">Honours</rs> for Valens by <rs type="personType" reg="governor">Antonius Tatianos</rs>
-            </title>
+            <title>i. Honours  for Titus Falvius Sallustios Athenagoras; ii. Honours for Valens by Antonius Tatianos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragment from a <rs type="textType">decree</rs>
-            </title>
+            <title>Fragment from a decree</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,7 +107,7 @@ First to third centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ωσ</orig> <w lemma="ἐπεί">ἐπεὶ</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ε</unclear>σ</orig><w lemma="καί">καὶ</w> <placeName>Ἀφροδε<unclear reason="damage">ι</unclear><supplied reason="lost">σ</supplied><lb n="3" break="no"/><gap reason="lost" extent="unknown" unit="character"/></placeName>  <orig n="unresolved"><unclear reason="damage">ι</unclear></orig> <w lemma="καί">καὶ</w> <w lemma="εὔνους">εὔνους</w> <w lemma="ὁ">τῆ<unclear reason="damage">ς</unclear></w>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig>  <w lemma="καί">κ<unclear reason="damage">α</unclear><supplied reason="lost">ὶ</supplied></w>  <w lemma="ἐν"><supplied reason="lost">ἐν</supplied></w>  <w lemma="καιρός"><supplied reason="lost">κ</supplied>αιροῖς</w>  <orig n="unresolved"><unclear reason="damage">ψ</unclear></orig><gap reason="lost" extent="2" unit="character"/>  <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ιτο</orig>  <gap reason="lost" extent="4" unit="character"/>  </ab>
+<ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">ωσ</orig> <w lemma="ἐπεί">ἐπεὶ</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">ε</unclear>σ</orig><w lemma="καί">καὶ</w> <placeName>Ἀφροδε<unclear reason="damage">ι</unclear><supplied reason="lost">σ</supplied><lb n="3" break="no"/><gap reason="lost" unit="character" extent="unknown"/></placeName>  <orig n="unresolved"><unclear reason="damage">ι</unclear></orig> <w lemma="καί">καὶ</w> <w lemma="εὔνους">εὔνους</w> <w lemma="ὁ">τῆ<unclear reason="damage">ς</unclear></w>  <lb n="4"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig>  <w lemma="καί">κ<unclear reason="damage">α</unclear><supplied reason="lost">ὶ</supplied></w>  <w lemma="ἐν"><supplied reason="lost">ἐν</supplied></w>  <w lemma="καιρός"><supplied reason="lost">κ</supplied>αιροῖς</w>  <orig n="unresolved"><unclear reason="damage">ψ</unclear></orig><gap reason="lost" unit="character" quantity="2"/>  <lb n="5"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">ιτο</orig>  <gap reason="lost" unit="character" quantity="4"/>  </ab>
 </div>
          <div type="apparatus">
             <p>l. 4, ? <foreign xml:lang="grc">ἀνα]<unclear reason="damage">ν</unclear>κα[ίοις κ]αιροῖς</foreign>
@@ -116,8 +115,8 @@ First to third centuries A.D.
          </div>
          <div type="translation">
             <p>
-               <gap reason="lost" extent="unknown" unit="character"/> since <gap reason="lost" extent="unknown" unit="character"/> and Aphrodi<supplied reason="lost" cert="low">sians</supplied>
-               <gap reason="lost" extent="unknown" unit="character"/> and well-disposed <gap reason="lost" extent="unknown" unit="character"/> and also in <supplied reason="lost" cert="low">difficult</supplied> times <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/> since <gap reason="lost" unit="character" extent="unknown"/> and Aphrodi<supplied reason="lost" cert="low">sians</supplied>
+               <gap reason="lost" unit="character" extent="unknown"/> and well-disposed <gap reason="lost" unit="character" extent="unknown"/> and also in <supplied reason="lost" cert="low">difficult</supplied> times <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary">

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> fragment of Marcus Aurelius A<gap reason="lost" unit="character" extent="unknown"/>
+            <title> Funerary fragment of Marcus Aurelius A<gap reason="lost" unit="character" extent="unknown"/>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -106,12 +105,12 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name nymRef="#Μᾶρκος"><supplied reason="lost">Μά</supplied>ρκου</name>  <name nymRef="#Αὐρήλιος"><expan><abbr>Αὐρ</abbr><ex>ηλίου</ex></expan></name>  <name><unclear reason="damage">Α</unclear><gap reason="lost" extent="unknown" unit="character"/></name></persName>  <lb n="1a"/>  <gap reason="lost" extent="unknown" unit="line" id="gap03"/><certainty target="gap03" degree="low" locus="#gi" assertedValue="space"/></ab>
+<ab><lb n="1"/>  <gap reason="lost" unit="character" extent="unknown"/> <persName type="attested"><name nymRef="#Μᾶρκος"><supplied reason="lost">Μά</supplied>ρκου</name>  <name nymRef="#Αὐρήλιος"><expan><abbr>Αὐρ</abbr><ex>ηλίου</ex></expan></name>  <name><unclear reason="damage">Α</unclear><gap reason="lost" unit="character" extent="unknown"/></name></persName>  <lb n="1a"/>  <gap reason="lost" unit="line" id="gap03" extent="unknown"/><certainty target="gap03" degree="low" locus="#gi" assertedValue="space"/></ab>
 </div>
          <div type="translation">
             <p>
-               <gap reason="lost" extent="unknown" unit="character"/>
-               <supplied reason="lost">Ma</supplied>rcus Aur<ex>elius</ex> A<gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/>
+               <supplied reason="lost">Ma</supplied>rcus Aur<ex>elius</ex> A<gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary">

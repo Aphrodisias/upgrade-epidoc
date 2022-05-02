@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs>
-               <rs type="textType">verse</rs>, for Asklepiodotos</title>
+            <title>Funerary verse, for Asklepiodotos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -119,14 +117,14 @@
 		<lb n="7" break="no"/>ν</w> <placeName key="olympus" nymRef="#Ὄλυμπος">Ὀλύμπωι</placeName></l>
 		<lb n="8"/>
 		<l n="2" met="pentameter"><persName key="AsclepiodotusAph" type="attested"><name nymRef="#Ἀσκληπιόδοτος">Ἀσκληπιόδο
-		<lb n="9" break="no"/>τος</name></persName> <w lemma="τείρας">τείρε<choice type="correction"><sic>ε</sic><corr>σ</corr></choice>ι</w>
+		<lb n="9" break="no"/>τος</name></persName> <w lemma="τείρας">τείρε<choice><sic>ε</sic><corr>σ</corr></choice>ι</w>
 		<lb n="10"/><w lemma="συμφέρω">συνφέρετε</w></l>
 		<lb n="11"/>
 		<l met="hexameter" n="3"><w lemma="οὗτος">οὗτος</w> <w lemma="ὅστις">ὅτις</w>
 		<lb n="12"/><w lemma="δωμάω">δώμησε</w> <w lemma="καί">καὶ</w>
 		<lb n="13"/><w lemma="ἀγλαός">ἀγλαὰ</w> <w lemma="πολύς">πολ
 		<lb n="14" break="no"/>λὰ</w> <w lemma="τιθήνη">τιθήνηι</w></l>
-		<lb n="14a"/><l met="pentameter"><gap extent="1" unit="line" reason="lost"/></l>
+		<lb n="14a"/><l met="pentameter"><gap unit="line" reason="lost" quantity="1"/></l>
 		</lg>
       </div>
          <div type="apparatus">
@@ -134,7 +132,7 @@
             <p>l. 9, <foreign xml:lang="grc">ΤΕΙΡΕΕΙ</foreign>, corrected by Cormack and Robert.</p>
          </div>
          <div type="translation">
-            <ab>He did not die, nor did he see the stream of Acheron, but in Olympus Asklepiodotos is among the stars—he who also built many splendid things for his motherland <gap extent="1" unit="line" reason="lost"/>
+            <ab>He did not die, nor did he see the stream of Acheron, but in Olympus Asklepiodotos is among the stars—he who also built many splendid things for his motherland <gap unit="line" reason="lost" quantity="1"/>
             </ab>
          </div>
          <div type="commentary">

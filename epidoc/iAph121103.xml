@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragmentary <rs type="textType">honours</rs> for anonymous</title>
+            <title>Fragmentary honours for anonymous</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -105,7 +105,7 @@ First to third centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="1"/> <w lemma="ἐν">ἐν</w> <w lemma="πᾶς">πᾶσιν</w> <w lemma="εὐεργέτης"><unclear reason="damage">ε</unclear>ὐεργέτην</w> <orig n="unresolved">μνιμ</orig> <lb n="2"/> <orig n="unresolved">πατ</orig><gap reason="lost" extent="1" unit="character"/><orig n="unresolved">δοσ</orig> <w lemma="καί">καὶ</w> <w lemma="κατά">καθ'</w> <w lemma="εἷς">ἕνα</w> <w lemma="καί">καὶ</w> <lb n="3"/> <w lemma="κοινός">κοινῇ</w> <w lemma="ζάω">ζήσαντα</w> <w lemma="πρός">πρὸς</w> <w lemma="ὑπόδειγμα">ὑ<lb n="4" break="no"/>ποδειγμα</w> <w lemma="ἀρετή">ἀρετῆς</w> <gap reason="lost" extent="unknown" unit="character"/>  </ab>
+<ab><lb n="0"/>  <gap reason="lost" unit="character" extent="unknown"/>  <lb n="1"/> <w lemma="ἐν">ἐν</w> <w lemma="πᾶς">πᾶσιν</w> <w lemma="εὐεργέτης"><unclear reason="damage">ε</unclear>ὐεργέτην</w> <orig n="unresolved">μνιμ</orig> <lb n="2"/> <orig n="unresolved">πατ</orig><gap reason="lost" unit="character" quantity="1"/><orig n="unresolved">δοσ</orig> <w lemma="καί">καὶ</w> <w lemma="κατά">καθ'</w> <w lemma="εἷς">ἕνα</w> <w lemma="καί">καὶ</w> <lb n="3"/> <w lemma="κοινός">κοινῇ</w> <w lemma="ζάω">ζήσαντα</w> <w lemma="πρός">πρὸς</w> <w lemma="ὑπόδειγμα">ὑ<lb n="4" break="no"/>ποδειγμα</w> <w lemma="ἀρετή">ἀρετῆς</w> <gap reason="lost" unit="character" extent="unknown"/>  </ab>
 </div>
          <div type="apparatus">
             <p>l. 1,ΣΥΝΕΡΓΕΤΗΜΝΙΜ. <unclear reason="damage">ε</unclear>ὐεργέτην [ἡ]μ[ῶν τῆς?] πατ[ρί]δος cj. Boeckh</p>

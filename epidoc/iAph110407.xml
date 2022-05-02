@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Building dedication</rs> to Aphrodite</title>
+            <title>Building dedication to Aphrodite</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -110,7 +109,7 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><space extent="1" unit="character" dim="horizontal"/>  <w lemma="ὁ">τὴν</w>  <w lemma="στοά">στοὰν</w>  <persName type="divine"><name nymRef="#Ἀφροδίτη">Ἀφ<unclear reason="damage">ρ</unclear><supplied reason="lost">οδίτῃ</supplied></name></persName>  <gap extent="unknown" reason="lost" unit="character"/></ab>
+<ab><lb n="1"/><space extent="1" unit="character" dim="horizontal"/>  <w lemma="ὁ">τὴν</w>  <w lemma="στοά">στοὰν</w>  <persName type="divine"><name nymRef="#Ἀφροδίτη">Ἀφ<unclear reason="damage">ρ</unclear><supplied reason="lost">οδίτῃ</supplied></name></persName>  <gap reason="lost" unit="character" extent="unknown"/></ab>
 </div>
          <div type="apparatus">
             <p>K&amp;R did not read anything before the first <foreign xml:lang="grc">Ν</foreign>
@@ -118,9 +117,9 @@
          </div>
          <div type="translation">
             <p>
-               <gap extent="unknown" reason="lost" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/>
                <supplied reason="lost">dedicated</supplied> the stoa to Aphr<supplied reason="lost">odite</supplied>
-               <gap extent="unknown" reason="lost" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary">

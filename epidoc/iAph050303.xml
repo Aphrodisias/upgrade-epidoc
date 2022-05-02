@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Building inscription</rs> of Pytheas, in <rs type="textType">verse</rs>
-            </title>
+            <title>Building inscription of Pytheas, in verse</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -117,20 +115,20 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
 		<div n="a" type="textpart" subtype="fragment"><ab>
-		<lb n="1"/><gap extent="unknown" reason="lost" unit="character"/> <w lemma="παστάς">παστάδα</w> <w lemma="κίων">κίον'</w> <w lemma="ἐκ">ἐκ</w> <orig n="unresolved"><unclear reason="damage">ιι</unclear></orig><gap extent="unknown" reason="lost" unit="character"/>
-		<lb n="2"/><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">τ</unclear></orig> <persName key="Pytheas" type="attested"><name nymRef="#Πυθέας">Πυθέας</name></persName> <orig n="unresolved"><unclear reason="damage">ορσιιιυ</unclear></orig><gap extent="unknown" reason="lost" unit="character"/>
-		</ab></div><div n="b" type="textpart" subtype="fragment"><ab><lb n="1"/><gap extent="unknown" reason="lost" unit="character"/> <w lemma="κάμνω">καμνοῦσαν</w> <w lemma="ἀνάγκη">ἀνάγκῃ</w> <orig n="unresolved"><unclear reason="damage">κ</unclear></orig><gap extent="unknown" reason="lost" unit="character"/>
-		<lb n="2"/><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig> <w lemma="ἔχω">ἔσχε</w> <w lemma="νόος">νόον</w> <space dim="horizontal"/> <gap extent="unknown" reason="lost" unit="character"/>
-		</ab></div><div n="c" type="textpart" subtype="fragment"><ab><lb n="1"/><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">α</unclear></orig><gap extent="unknown" reason="lost" unit="character"/>
-		<lb n="2"/><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved">δι<unclear reason="damage">ι</unclear></orig><gap extent="unknown" reason="lost" unit="character"/>
+		<lb n="1"/><gap reason="lost" unit="character" extent="unknown"/> <w lemma="παστάς">παστάδα</w> <w lemma="κίων">κίον'</w> <w lemma="ἐκ">ἐκ</w> <orig n="unresolved"><unclear reason="damage">ιι</unclear></orig><gap reason="lost" unit="character" extent="unknown"/>
+		<lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">τ</unclear></orig> <persName key="Pytheas" type="attested"><name nymRef="#Πυθέας">Πυθέας</name></persName> <orig n="unresolved"><unclear reason="damage">ορσιιιυ</unclear></orig><gap reason="lost" unit="character" extent="unknown"/>
+		</ab></div><div n="b" type="textpart" subtype="fragment"><ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/> <w lemma="κάμνω">καμνοῦσαν</w> <w lemma="ἀνάγκη">ἀνάγκῃ</w> <orig n="unresolved"><unclear reason="damage">κ</unclear></orig><gap reason="lost" unit="character" extent="unknown"/>
+		<lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig> <w lemma="ἔχω">ἔσχε</w> <w lemma="νόος">νόον</w> <space dim="horizontal"/> <gap reason="lost" unit="character" extent="unknown"/>
+		</ab></div><div n="c" type="textpart" subtype="fragment"><ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">α</unclear></orig><gap reason="lost" unit="character" extent="unknown"/>
+		<lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">δι<unclear reason="damage">ι</unclear></orig><gap reason="lost" unit="character" extent="unknown"/>
 		</ab></div>
       </div>
          <div type="translation">
             <p>
-		a. <gap extent="unknown" reason="lost" unit="character"/>
-               <supplied reason="lost" cert="low">built the</supplied> colonnade <supplied reason="subaudible">with</supplied> column from <gap extent="unknown" reason="lost" unit="character"/> Pytheas <gap extent="unknown" reason="lost" unit="character"/>
+		a. <gap reason="lost" unit="character" extent="unknown"/>
+               <supplied reason="lost" cert="low">built the</supplied> colonnade <supplied reason="subaudible">with</supplied> column from <gap reason="lost" unit="character" extent="unknown"/> Pytheas <gap reason="lost" unit="character" extent="unknown"/>
             </p>
-            <p>b. <gap extent="unknown" reason="lost" unit="character"/>suffering from necessity <gap extent="unknown" reason="lost" unit="character"/> had a mind.</p>
+            <p>b. <gap reason="lost" unit="character" extent="unknown"/>suffering from necessity <gap reason="lost" unit="character" extent="unknown"/> had a mind.</p>
          </div>
          <div type="commentary">
             <p>For Pytheas see <ref type="inscription" n="55" target="110070.xml"/>, <ref type="inscription" n="56" target="020020.xml"/>, <ref type="inscription" n="57" target="080610.xml"/>, <ref type="inscription" n="250" target="150361.xml"/> and discussion at <ref type="eAla-text" n="V.18" target=".xml"/>.</p>

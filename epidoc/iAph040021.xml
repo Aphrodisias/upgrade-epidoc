@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>1. <rs type="textType">Acclamation</rs>s for Albinos, <term xml:lang="la">clarissimus</term>; 2. Acclamation for the city</title>
+            <title>1. Acclamations for Albinos, <term xml:lang="la">clarissimus</term>; 2. Acclamation for the city</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -132,7 +132,7 @@
 				<ab><lb n="1"/><rs key="acclamations" type="subject"><w lemma="ὁ">τὰ</w> <w lemma="σός">σὰ</w> <w lemma="κτίσμα"><supplied reason="lost">κτ</supplied>ίσματα</w><lb n="2"/><w lemma="αἰώνιος">αἰωνία</w> <space dim="horizontal" extent="1" unit="character"/> <w lemma="ὑπόμνησις">ὑπόμνη<lb n="3" break="no"/><space dim="horizontal"/>σις</w><lb n="4"/><persName type="attested"><name nymRef="#Ἀλβῖνος">Ἀλβῖνε</name></persName> <w lemma="φιλοκτίστης">φιλοκτίστα</w></rs></ab></div>
 			
 				
-				<div n="ix" type="textpart" subtype="column"><note place="not specified" xml:lang="en"/><ab><lb n="1"/><rs key="acclamations" type="subject"><gap extent="2" unit="character" reason="lost"/><orig n="unresolved"><unclear reason="damage">ι</unclear>τ<unclear reason="damage">ι</unclear>ζασ</orig><lb n="2"/><gap extent="2" unit="character" reason="lost"/><orig n="unresolved">σ</orig><lb n="3"/><gap extent="2" unit="character" reason="lost"/><orig n="unresolved"><unclear reason="damage">η</unclear>μο</orig><lb n="4"/><orig n="unresolved"><unclear reason="damage">γο</unclear></orig><gap extent="2" unit="character" reason="lost"/><orig n="unresolved"><unclear reason="damage">ιον</unclear></orig><lb n="5"/><persName type="attested"><name nymRef="#Ἀλβῖνος">Ἀλβῖνε</name></persName> <w lemma="λαμπρός"><rs type="dignity" key="clarissimus"><expan><abbr>λαμπρ</abbr><ex>ότατε</ex></expan></rs></w></rs>.
+				<div n="ix" type="textpart" subtype="column"><note place="not specified" xml:lang="en"/><ab><lb n="1"/><rs key="acclamations" type="subject"><gap unit="character" reason="lost" quantity="2"/><orig n="unresolved"><unclear reason="damage">ι</unclear>τ<unclear reason="damage">ι</unclear>ζασ</orig><lb n="2"/><gap unit="character" reason="lost" quantity="2"/><orig n="unresolved">σ</orig><lb n="3"/><gap unit="character" reason="lost" quantity="2"/><orig n="unresolved"><unclear reason="damage">η</unclear>μο</orig><lb n="4"/><orig n="unresolved"><unclear reason="damage">γο</unclear></orig><gap unit="character" reason="lost" quantity="2"/><orig n="unresolved"><unclear reason="damage">ιον</unclear></orig><lb n="5"/><persName type="attested"><name nymRef="#Ἀλβῖνος">Ἀλβῖνε</name></persName> <w lemma="λαμπρός"><rs type="dignity" key="clarissimus"><expan><abbr>λαμπρ</abbr><ex>ότατε</ex></expan></rs></w></rs>.
 				</ab></div>
 			
 				<div n="x" type="textpart" subtype="column"><ab><lb n="1"/><rs key="acclamations" type="subject"><orig n="unresolved">περδε</orig><lb n="2"/><persName type="attested"><name nymRef="#Ἀλβῖνος">Ἀλβῖνε</name></persName> <orig n="unresolved">ηδε</orig><lb n="3"/><w lemma="τις">τί</w> <w lemma="χαρίζομαι">ἐχαρίσω</w></rs>.
@@ -149,7 +149,7 @@
 				</ab></div>
 			
 				<div n="xiv" type="textpart" subtype="column"><note place="not specified" xml:lang="en"/>
-				<ab><lb n="1"/><gap extent="1" id="gap1" reason="lost" unit="line"/><certainty locus="#gi" target="gap1" degree="low"/><lb n="2"/><rs key="acclamations" type="subject"><w lemma="ὁ">ὁ</w> <w lemma="φθόνος">φθόνος</w> <w lemma="τύχη">τύχη<unclear reason="damage">ν</unclear></w><lb n="3"/><space dim="horizontal"/> <w lemma="οὐ">οὐ</w> <w lemma="νικάω">νικᾷ</w></rs>.
+				<ab><lb n="1"/><gap id="gap1" reason="lost" unit="line" quantity="1"/><certainty locus="#gi" target="gap1" degree="low"/><lb n="2"/><rs key="acclamations" type="subject"><w lemma="ὁ">ὁ</w> <w lemma="φθόνος">φθόνος</w> <w lemma="τύχη">τύχη<unclear reason="damage">ν</unclear></w><lb n="3"/><space dim="horizontal"/> <w lemma="οὐ">οὐ</w> <w lemma="νικάω">νικᾷ</w></rs>.
 				</ab></div>
 			
 				<div n="xv" type="textpart" subtype="column"><note place="not specified" xml:lang="en"/>

@@ -6,11 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">
-                  <rs type="textType">Funerary</rs>
-                  <rs type="textType">verse</rs>
-               </rs>  for Euphemia</title>
+            <title>Funerary verse  for Euphemia</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -131,7 +127,7 @@ irregular.</handNote>
 			<lb n="4"/><num value="7"><hi rend="supraline">ζ</hi></num> 
 			<lb n="5"/><w lemma="μείς"><expan><abbr>μη</abbr><ex>νὸς</ex></expan></w> 
 			<lb n="6"/><num value="1"><hi rend="supraline"><unclear reason="damage">α</unclear></hi></num></date><lb n="7"/><orig n="unresolved"><unclear reason="damage">π</unclear></orig>ο 
-			<lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> 
+			<lb n="8"/><gap reason="lost" unit="character" extent="unknown"/> 
 			<lb n="9"/><orig n="unresolved"><unclear reason="damage">ικ</unclear></orig> 
 		</ab></div>
 		
@@ -151,7 +147,7 @@ irregular.</handNote>
 			<lb n="9"/><w lemma="εἰς">ἐς</w> <w lemma="χορός">χορὸν</w> <w lemma="ἥκω">ἥκοις</w>.</l>
 			<lb n="10"/>
 			<l n="6"><w lemma="πληρόω">ἐπλήρωσεν</w> <w lemma="ὁ">τὸν</w> <w lemma="βίος">βίον</w> <persName key="euphemia1" type="attested"><name nymRef="#Εὐφημία">Εὐφημία</name></persName> 
-			<lb n="11"/><w lemma="ἔτος">ἐτῶν</w> <num value="18"><hi rend="supraline">ιη</hi></num> <w lemma="ἰνδικτιών"><expan><abbr>ἰν<unclear reason="damage">δ</unclear></abbr><ex>ικτίωνος</ex></expan></w> <supplied reason="lost"><num value="7"><hi rend="supraline">ζ</hi></num></supplied> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="μείς"><expan><abbr><unclear reason="damage">μη</unclear></abbr><ex>νὸς</ex></expan></w> <num value="1"><hi rend="supraline"><unclear reason="damage">α</unclear></hi></num></l>
+			<lb n="11"/><w lemma="ἔτος">ἐτῶν</w> <num value="18"><hi rend="supraline">ιη</hi></num> <w lemma="ἰνδικτιών"><expan><abbr>ἰν<unclear reason="damage">δ</unclear></abbr><ex>ικτίωνος</ex></expan></w> <supplied reason="lost"><num value="7"><hi rend="supraline">ζ</hi></num></supplied> <gap reason="lost" unit="character" extent="unknown"/> <w lemma="μείς"><expan><abbr><unclear reason="damage">μη</unclear></abbr><ex>νὸς</ex></expan></w> <num value="1"><hi rend="supraline"><unclear reason="damage">α</unclear></hi></num></l>
 			</lg></div> 
       </div>
          <div type="apparatus">

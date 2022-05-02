@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> inscription for Epandios and his family</title>
+            <title>Funerary inscription for Epandios and his family</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -111,7 +110,7 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/> <gap extent="unknown" reason="lost" unit="line"/>  
+<ab><lb n="0"/> <gap reason="lost" unit="line" extent="unknown"/>  
 <lb n="1"/> <persName type="attested"><name nymRef="#Ἐπάνδιος">Ἐπανδίου</name></persName> <w lemma="ὁ">ὁ</w> <w lemma="υἱός">υἱὸς</w> 
 <lb n="2"/> <w lemma="αὐτός">αὐτῶν</w> <w lemma="ἕτερος">ἕτερος</w> <w lemma="δέ">δὲ</w> 
 <lb n="3"/> <w lemma="οὐδείς">οὐδεὶς</w> <w lemma="ἔχω">ἕξει</w> <w lemma="ἐξουσία">ἐ

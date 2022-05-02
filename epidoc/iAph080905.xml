@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Panel fragment: <seg cert="low">
-                  <rs type="textType">funerary</rs>
-               </seg>
+            <title>Panel fragment: <seg cert="low">funerary</seg>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -117,8 +115,8 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
         <ab>
-		 <lb n="0"/><gap extent="unknown" reason="lost" unit="line"/>
-		 <lb n="1"/><w lemma="πόλις">πόλε<unclear reason="damage">ω</unclear><supplied cert="low" reason="lost">ς</supplied></w><gap extent="2" unit="character" reason="lost"/>
+		 <lb n="0"/><gap reason="lost" unit="line" extent="unknown"/>
+		 <lb n="1"/><w lemma="πόλις">πόλε<unclear reason="damage">ω</unclear><supplied cert="low" reason="lost">ς</supplied></w><gap unit="character" reason="lost" quantity="2"/>
 		 <lb n="2"/> <orig n="unresolved">σρον</orig> <persName key="Christ" type="divine"><name nymRef="#Χριστός"><expan><abbr>Χρ</abbr><ex>ιστοῦ</ex></expan></name></persName> <w lemma="κονητρον">κο<lb n="3" break="no"/>νητ<unclear reason="damage">ρ</unclear>ον</w> <g ref="#cross"/></ab>
       </div>
          <div type="apparatus">

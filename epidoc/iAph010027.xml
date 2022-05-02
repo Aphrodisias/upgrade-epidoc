@@ -7,9 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <seg cert="low">
-                  <rs type="textType" reg="prayer/invocation">Name</rs>
-               </seg>
+               <seg cert="low">Name</seg>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -117,7 +115,7 @@ clear, irregular.</handNote>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
-		<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">σρισιου</orig> <space dim="horizontal"/></ab>
+		<ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">σρισιου</orig> <space dim="horizontal"/></ab>
 		</div>
          <div type="translation">
             <ab>

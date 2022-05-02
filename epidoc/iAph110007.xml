@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType" cert="low">Funerary</rs> fragment</title>
+            <title>Funerary fragment</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,7 +107,7 @@ First to fourth centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">τα<unclear reason="damage">χ</unclear>εωσ</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">α</unclear>ι</orig>  <w lemma="ζάω">ζωσ<gap reason="lost" extent="unknown" unit="character"/></w>  <lb n="3"/><w><gap reason="lost" extent="unknown" unit="character"/>εται</w>  <orig n="unresolved"><unclear reason="damage">ε</unclear></orig><space/> <orig n="unresolved">ι<unclear>ο</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3a"/><gap reason="lost" extent="unknown" unit="character"/>    <space extent="3" unit="character" dim="horizontal"/>  <gap reason="lost" extent="unknown" unit="character"/>  </ab>
+<ab><lb n="0"/><gap reason="lost" unit="line" extent="unknown"/>  <lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">τα<unclear reason="damage">χ</unclear>εωσ</orig><gap reason="lost" unit="character" extent="unknown"/>  <lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">α</unclear>ι</orig>  <w lemma="ζάω">ζωσ<gap reason="lost" unit="character" extent="unknown"/></w>  <lb n="3"/><w><gap reason="lost" unit="character" extent="unknown"/>εται</w>  <orig n="unresolved"><unclear reason="damage">ε</unclear></orig><space/> <orig n="unresolved">ι<unclear>ο</unclear></orig><gap reason="lost" unit="character" extent="unknown"/>  <lb n="3a"/><gap reason="lost" unit="character" extent="unknown"/>    <space extent="3" unit="character" dim="horizontal"/>  <gap reason="lost" unit="character" extent="unknown"/>  </ab>
 </div>
          <div type="translation">
             <p>[...] quickly? [...] living [...]</p>

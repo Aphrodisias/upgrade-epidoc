@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Honours</rs> for anonymous</title>
+            <title>Honours for anonymous</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,7 +107,7 @@ first century A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>  <w lemma="πόλεμος"><supplied reason="lost">π</supplied><unclear reason="damage">ο</unclear>λέμωι</w>  <orig n="unresolved"><unclear reason="damage">υ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig>  <w lemma="χαλκ-">χαλ<unclear reason="damage">κ</unclear><gap extent="1" reason="illegible" unit="character"/></w> <gap reason="lost" extent="unknown" unit="character"/>  <lb n="2a"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
+<ab><lb n="0"/><gap reason="lost" unit="line" extent="unknown"/>  <lb n="1"/><gap reason="lost" unit="character" extent="unknown"/>  <w lemma="πόλεμος"><supplied reason="lost">π</supplied><unclear reason="damage">ο</unclear>λέμωι</w>  <orig n="unresolved"><unclear reason="damage">υ</unclear></orig><gap reason="lost" unit="character" extent="unknown"/>  <lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig>  <w lemma="χαλκ-">χαλ<unclear reason="damage">κ</unclear><gap reason="illegible" unit="character" quantity="1"/></w> <gap reason="lost" unit="character" extent="unknown"/>  <lb n="2a"/><gap reason="lost" unit="line" extent="unknown"/>  </ab>
 </div>
          <div type="apparatus">
             <p> l. 2, traces of an upright at the end of line make a form of <foreign xml:lang="grc">χάλκη</foreign> attractive...</p>

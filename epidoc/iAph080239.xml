@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Sculptor's signature</rs>
-            </title>
+            <title>Sculptor's signature</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,14 +106,14 @@ Second century A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name nymRef="#Ἀπολλώνιος">Ἀπολλωνίου</name></persName> <gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><w><supplied reason="lost">ἐποί</supplied><unclear reason="damage">ε</unclear><supplied reason="lost">ι</supplied></w>    <space extent="3" unit="character" dim="horizontal"/>  </ab>
+<ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/> <persName type="attested"><name nymRef="#Ἀπολλώνιος">Ἀπολλωνίου</name></persName> <gap reason="lost" unit="character" extent="unknown"/>  <lb n="2"/><w><supplied reason="lost">ἐποί</supplied><unclear reason="damage">ε</unclear><supplied reason="lost">ι</supplied></w>    <space extent="3" unit="character" dim="horizontal"/>  </ab>
 </div>
          <div type="apparatus">
             <p>l. 1, <foreign xml:lang="grc">Ἀπολλώνιος</foreign> Erim</p>
          </div>
          <div type="translation">
             <p>
-               <gap reason="lost" extent="unknown" unit="character"/> son of Apollonios <supplied reason="lost">made <supplied reason="subaudible">this</supplied>
+               <gap reason="lost" unit="character" extent="unknown"/> son of Apollonios <supplied reason="lost">made <supplied reason="subaudible">this</supplied>
                </supplied>.</p>
          </div>
          <div type="commentary">

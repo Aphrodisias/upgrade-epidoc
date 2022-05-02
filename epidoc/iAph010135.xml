@@ -7,8 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <seg cert="low">
-                  <rs type="textType" reg="funerary">Funerary</rs> text for <supplied reason="lost">A</supplied>mmia</seg>
+               <seg cert="low">Funerary text for <supplied reason="lost">A</supplied>mmia</seg>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -110,7 +109,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
 
-<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>  <persName nymRef="#Ἀμμία" type="attested"><name nymRef="#Ἀμμία"><supplied reason="lost">Ἀ</supplied>μμία</name></persName>  <space extent="unknown" dim="horizontal"/></ab>
+<ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/>  <persName nymRef="#Ἀμμία" type="attested"><name nymRef="#Ἀμμία"><supplied reason="lost">Ἀ</supplied>μμία</name></persName>  <space extent="unknown" dim="horizontal"/></ab>
 </div>
          <div type="translation">
             <p>Ammia.</p>

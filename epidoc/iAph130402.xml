@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Dedication</rs> of a <rs type="textType">foundation</rs>  by Titus Aelius <gap unit="character" reason="lost" extent="unknown"/>]dianos</title>
+            <title>Dedication of a foundation  by Titus Aelius <gap unit="character" reason="lost" extent="unknown"/>]dianos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,12 +107,12 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
 
- <ab><lb n="1"/><space unit="character" extent="5" dim="horizontal"/>  <w lemma="ἀνατίθημι">ἀναθέντος</w>  <w lemma="δέ">δὲ</w>  <w lemma="καί">καὶ</w>  <persName type="attested"><name nymRef="#Τίτος">Τίτου</name>  <name nymRef="#Αἴλιος">Αἰ<supplied reason="lost">λίου</supplied></name>  <name><gap extent="23" reason="lost" unit="character"/><lb n="2" break="no"/><space unit="character" extent="5" dim="horizontal"/>  διανοῦ</name></persName> <w lemma="ὁ">τῇ</w> <w lemma="βουλή">βουλῇ</w> <w lemma="εἰς">εἰς</w> <w lemma="αἰώνιος">αἰωνίο<supplied reason="lost">υς</supplied></w>  <supplied reason="lost"><w lemma="κλῆρος">κληροὺς</w>  <w lemma="καθώς">καθῶς</w>  <w lemma="διά">διὰ</w>  <w lemma="ὁ">τῆς</w></supplied>  <w lemma="ἀνάθεσις"><supplied reason="lost">ἀνα</supplied><lb n="3" break="no"/><space unit="character" extent="15" dim="horizontal"/>  θέσεως</w>  <w lemma="δηλόω">δη<supplied reason="lost">λοῦται</supplied></w>  <gap extent="unknown" unit="line" reason="lost"/><supplied reason="lost" cert="low"><space unit="character" extent="15" dim="horizontal"/></supplied><gap extent="unknown" unit="line" reason="lost"/><lb n="3a"/><space unit="line" extent="1" dim="vertical"/>  <gap extent="unknown" unit="line" reason="lost"/></ab>
+ <ab><lb n="1"/><space unit="character" extent="5" dim="horizontal"/>  <w lemma="ἀνατίθημι">ἀναθέντος</w>  <w lemma="δέ">δὲ</w>  <w lemma="καί">καὶ</w>  <persName type="attested"><name nymRef="#Τίτος">Τίτου</name>  <name nymRef="#Αἴλιος">Αἰ<supplied reason="lost">λίου</supplied></name>  <name><gap reason="lost" unit="character" quantity="23"/><lb n="2" break="no"/><space unit="character" extent="5" dim="horizontal"/>  διανοῦ</name></persName> <w lemma="ὁ">τῇ</w> <w lemma="βουλή">βουλῇ</w> <w lemma="εἰς">εἰς</w> <w lemma="αἰώνιος">αἰωνίο<supplied reason="lost">υς</supplied></w>  <supplied reason="lost"><w lemma="κλῆρος">κληροὺς</w>  <w lemma="καθώς">καθῶς</w>  <w lemma="διά">διὰ</w>  <w lemma="ὁ">τῆς</w></supplied>  <w lemma="ἀνάθεσις"><supplied reason="lost">ἀνα</supplied><lb n="3" break="no"/><space unit="character" extent="15" dim="horizontal"/>  θέσεως</w>  <w lemma="δηλόω">δη<supplied reason="lost">λοῦται</supplied></w>  <gap unit="line" reason="lost" extent="unknown"/><supplied reason="lost" cert="low"><space unit="character" extent="15" dim="horizontal"/></supplied><gap unit="line" reason="lost" extent="unknown"/><lb n="3a"/><space unit="line" extent="1" dim="vertical"/>  <gap unit="line" reason="lost" extent="unknown"/></ab>
 </div>
          <div type="translation">
             <p>
-               <gap reason="lost" unit="character" extent="unknown"/> the dedication being by T. Aelius <gap reason="lost" extent="unknown" unit="character"/>
-               <gap reason="lost" extent="unknown" unit="character"/>dianos to the Council with a view to eternal <supplied reason="lost">distributions as is set out in</supplied> the dedicatory document.</p>
+               <gap reason="lost" unit="character" extent="unknown"/> the dedication being by T. Aelius <gap reason="lost" unit="character" extent="unknown"/>
+               <gap reason="lost" unit="character" extent="unknown"/>dianos to the Council with a view to eternal <supplied reason="lost">distributions as is set out in</supplied> the dedicatory document.</p>
          </div>
          <div type="commentary" n="none">
             <p>...</p>

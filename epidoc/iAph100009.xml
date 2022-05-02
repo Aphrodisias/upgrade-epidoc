@@ -7,8 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <title>
-                  <rs type="textType">Seat inscriptions</rs>: Stadium Block 12</title>
+               <title>Seat inscriptions: Stadium Block 12</title>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -124,12 +123,12 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>)</origDate>
                      <unclear reason="damage">λοβ</unclear>
                   </orig>
                   <milestone unit="block"/>
-                  <gap reason="lost" extent="1" unit="character"/>
+                  <gap reason="lost" unit="character" quantity="1"/>
                   <orig n="unresolved">
                      <unclear reason="damage">ν</unclear>
                   </orig>
                   <milestone unit="block"/>
-                  <gap reason="lost" extent="unknown" unit="character"/>
+                  <gap reason="lost" unit="character" extent="unknown"/>
                </ab>
             </div>
             <div n="X" type="textpart" subtype="section">
@@ -152,7 +151,7 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>)</origDate>
                   <ab>
                      <lb n="1"/>
                      <milestone unit="block"/>
-                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <gap reason="lost" unit="character" extent="unknown"/>
                      <milestone unit="block"/>
                      <persName type="aphrodisian">
                         <name>
@@ -167,7 +166,7 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>)</origDate>
                      <w>τό<ex>πος</ex>
                      </w>
                      <milestone unit="block"/>
-                     <gap reason="lost" extent="1" unit="character"/>
+                     <gap reason="lost" unit="character" quantity="1"/>
                      <orig n="unresolved">
                         <unclear reason="damage">χ</unclear>
                      </orig>̣<milestone unit="block"/>
@@ -180,7 +179,7 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>)</origDate>
                         <unclear reason="damage">σ</unclear>
                      </orig>
                      <milestone unit="block"/>
-                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <gap reason="lost" unit="character" extent="unknown"/>
                   </ab>
                </div>
                <div n="ii" type="textpart" subtype="column">
@@ -200,15 +199,15 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>)</origDate>
                      <orig n="unresolved">
                         <unclear reason="damage">ι</unclear>
                         <unclear reason="damage">ι</unclear>ο</orig>
-                     <gap reason="lost" extent="2" unit="character"/>
+                     <gap reason="lost" unit="character" quantity="2"/>
                      <orig n="unresolved">α</orig>
                      <milestone unit="block"/>
-                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <gap reason="lost" unit="character" extent="unknown"/>
                      <orig n="unresolved">
                         <unclear reason="damage">ι</unclear>
                         <unclear reason="damage">ι</unclear>
                      </orig>
-                     <gap reason="lost" extent="unknown" unit="character"/>
+                     <gap reason="lost" unit="character" extent="unknown"/>
                   </ab>
                </div>
             </div>

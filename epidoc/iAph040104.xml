@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Gladiator memorial</rs> for  familia of Tiberius Claudius Pauleinos</title>
+            <title>Gladiator memorial for  familia of Tiberius Claudius Pauleinos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -111,7 +110,7 @@ First century A. D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/> <w lemma="φαμιλία">Φαμιλίας</w> <w lemma="μονομάχος">μονομά<lb n="2" break="no"/> χων</w>  <w lemma="καί">καὶ</w> <w lemma="κατάδικος">καταδίκ<lb n="3" break="no"/> ων</w>  <persName type="attested"><name nymRef="#Τιβέριος">Τιβερίου</name> <name nymRef="#Κλαύδιος">Κλαυ<lb n="4" break="no"/> δίου</name>  <name nymRef="#Παυλεῖνος">Παυλείνου</name> <lb n="5"/>  <w lemma="ἀρχιερεύς">ἀρχιερέως</w> <w lemma="υἱός">ὑοῦ</w> <persName type="attested"><name nymRef="#Τιβέριος">Τι<lb n="6" break="no"/><supplied reason="lost">β</supplied>ερίου</name> <name nymRef="#Κλαύδιος">Κλαυδίου</name></persName></persName> <lb n="7"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
+<ab><lb n="1"/> <w lemma="φαμιλία">Φαμιλίας</w> <w lemma="μονομάχος">μονομά<lb n="2" break="no"/> χων</w>  <w lemma="καί">καὶ</w> <w lemma="κατάδικος">καταδίκ<lb n="3" break="no"/> ων</w>  <persName type="attested"><name nymRef="#Τιβέριος">Τιβερίου</name> <name nymRef="#Κλαύδιος">Κλαυ<lb n="4" break="no"/> δίου</name>  <name nymRef="#Παυλεῖνος">Παυλείνου</name> <lb n="5"/>  <w lemma="ἀρχιερεύς">ἀρχιερέως</w> <w lemma="υἱός">ὑοῦ</w> <persName type="attested"><name nymRef="#Τιβέριος">Τι<lb n="6" break="no"/><supplied reason="lost">β</supplied>ερίου</name> <name nymRef="#Κλαύδιος">Κλαυδίου</name></persName></persName> <lb n="7"/><gap reason="lost" unit="line" extent="unknown"/>  </ab>
 </div>
          <div type="translation">
             <p>(Memorial of) the familia of single-combatants and convicts belonging to Tiberius Claudius Pauleinos, high-priest, son of Tiberius Claudius [...]</p>

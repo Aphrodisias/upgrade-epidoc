@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Honours</rs> for <seg cert="low">Papias</seg>
+            <title>Honours for <seg cert="low">Papias</seg>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -90,7 +89,7 @@ Second or first century B.C.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/><gap reason="lost" extent="unknown" unit="character"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>  <supplied reason="lost" cert="low">Πα</supplied>πίαν  <space extent="4"/><lb n="2"/>  <supplied reason="lost" cert="low"><w lemma="ἀνήρ">ἄνδρα</w>  <w lemma="καλός">καλὸν</w></supplied>  <w lemma="καί"><supplied reason="lost">κα</supplied>ὶ</w> <w lemma="ἀγαθός">ἀγαθὸν</w> <space extent="1"/> <lb n="3"/>    <gap reason="lost" extent="12" unit="character" precision="circa"/> <w lemma="πρός">πρὸς</w> <w lemma="ὁ">τὴν</w> <space unit="character" extent="1"/><lb n="4"/><w lemma="πατρίς"><supplied reason="lost" cert="low">πατρίδα</supplied></w>  <w lemma="γίγνομαι"><supplied reason="lost">γεγον</supplied>οτα</w>  <space extent="2"/><lb n="5"/>  <gap reason="lost" extent="12" unit="character" precision="circa"/>ΦΙΛΟΥ  <lb n="6"/><gap reason="lost" extent="12" unit="character" precision="circa"/> <orig n="unresolved"><unclear reason="damage">Α</unclear>Τ<unclear reason="damage">Α</unclear></orig>  <lb n="6a"/><gap reason="lost" extent="unknown" unit="character"/>  </ab>
+<ab><lb n="0"/><gap reason="lost" unit="character" extent="unknown"/>  <lb n="1"/><gap reason="lost" unit="character" extent="unknown"/>  <supplied reason="lost" cert="low">Πα</supplied>πίαν  <space extent="4"/><lb n="2"/>  <supplied reason="lost" cert="low"><w lemma="ἀνήρ">ἄνδρα</w>  <w lemma="καλός">καλὸν</w></supplied>  <w lemma="καί"><supplied reason="lost">κα</supplied>ὶ</w> <w lemma="ἀγαθός">ἀγαθὸν</w> <space extent="1"/> <lb n="3"/>    <gap reason="lost" unit="character" precision="low" quantity="12"/> <w lemma="πρός">πρὸς</w> <w lemma="ὁ">τὴν</w> <space unit="character" extent="1"/><lb n="4"/><w lemma="πατρίς"><supplied reason="lost" cert="low">πατρίδα</supplied></w>  <w lemma="γίγνομαι"><supplied reason="lost">γεγον</supplied>οτα</w>  <space extent="2"/><lb n="5"/>  <gap reason="lost" unit="character" precision="low" quantity="12"/>ΦΙΛΟΥ  <lb n="6"/><gap reason="lost" unit="character" precision="low" quantity="12"/> <orig n="unresolved"><unclear reason="damage">Α</unclear>Τ<unclear reason="damage">Α</unclear></orig>  <lb n="6a"/><gap reason="lost" unit="character" extent="unknown"/>  </ab>
 </div>
          <div type="translation">
             <p>. . . Pa]pias [ . . a man noble and] good . . . ]towards the [ ?fatherland, having been] . . .</p>

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Building inscription</rs> of <rs type="personType">bishop</rs> Euphemius</title>
+            <title>Building inscription of bishop Euphemius</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -112,7 +111,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
 		<ab>
-		<lb n="1"/><g ref="#cross"/> <w lemma="ἐπί">ἐπὶ</w> <w lemma="ὁ">τοῦ</w> <w lemma="ὅσιος"><rs key="sanctissimus" type="dignity">ὁ<unclear reason="damage">σ</unclear><supplied reason="lost">ιωτάτου</supplied></rs></w> <rs type="official-relig" key="bishop"><w lemma="ἐπίσκοπος"><supplied reason="lost">ἐπισκόπου</supplied></w></rs> <gap extent="unknown" reason="lost" unit="character"/> <persName key="Euphemiusbishop" type="attested"><name nymRef="#Εὐφήμιος"><supplied reason="lost">Εὐφ</supplied><hi rend="ligature">ημ</hi>ίου</name></persName> <g ref="#cross"/>
+		<lb n="1"/><g ref="#cross"/> <w lemma="ἐπί">ἐπὶ</w> <w lemma="ὁ">τοῦ</w> <w lemma="ὅσιος"><rs key="sanctissimus" type="dignity">ὁ<unclear reason="damage">σ</unclear><supplied reason="lost">ιωτάτου</supplied></rs></w> <rs type="official-relig" key="bishop"><w lemma="ἐπίσκοπος"><supplied reason="lost">ἐπισκόπου</supplied></w></rs> <gap reason="lost" unit="character" extent="unknown"/> <persName key="Euphemiusbishop" type="attested"><name nymRef="#Εὐφήμιος"><supplied reason="lost">Εὐφ</supplied><hi rend="ligature">ημ</hi>ίου</name></persName> <g ref="#cross"/>
 		</ab>
 		</div>
          <div type="translation">

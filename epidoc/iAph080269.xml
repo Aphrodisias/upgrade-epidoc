@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType" reg="prayer/invocation">Invocation</rs>
-            </title>
+            <title>Invocation</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -118,10 +116,10 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
-		<ab><lb n="1"/><gap reason="lost" extent="1" unit="line"/><lb n="2"/> <gap reason="lost" extent="unknown" unit="character"/> <space dim="horizontal" extent="1" unit="character"/> <orig n="unresolved"><unclear reason="damage">ειιιοι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><lb n="3"/><gap reason="lost" extent="unknown" unit="character"/> <persName key="Lord" type="divine"><w lemma="κύριος">Κύριε</w></persName> <w lemma="βοηθέω">βοήθι</w> <space dim="horizontal"/></ab>
+		<ab><lb n="1"/><gap reason="lost" unit="line" quantity="1"/><lb n="2"/> <gap reason="lost" unit="character" extent="unknown"/> <space dim="horizontal" extent="1" unit="character"/> <orig n="unresolved"><unclear reason="damage">ειιιοι</unclear></orig><gap reason="lost" unit="character" extent="unknown"/><lb n="3"/><gap reason="lost" unit="character" extent="unknown"/> <persName key="Lord" type="divine"><w lemma="κύριος">Κύριε</w></persName> <w lemma="βοηθέω">βοήθι</w> <space dim="horizontal"/></ab>
 </div>
          <div type="translation">
-            <ab lang="en">
+            <ab xml:lang="en">
                <gap reason="lost" unit="character" extent="unknown"/> Lord, help.</ab>
          </div>
          <div type="commentary">

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Honours</rs> for M. Valerius Epaphrodeitos, singer to the kithara</title>
+            <title>Honours for M. Valerius Epaphrodeitos, singer to the kithara</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -114,174 +113,174 @@ Second to third centuries A.D.
 
 <ab><lb n="1"/><supplied reason="lost" cert="low">ἡ  βουλὴ</supplied>  <supplied reason="lost" cert="low">καὶ</supplied>  <supplied reason="lost" cert="low">ὁ  δῆμος</supplied>  <lb n="2"/> <w lemma="καί"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">
 καὶ</rdg>
 </app></w> <w lemma="ὁ"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">ἡ</rdg>
 </app></w> <w lemma="γερουσία"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="8" reason="lost" unit="character"/></rdg>
+<gap reason="lost" unit="character" quantity="8"/></rdg>
 <rdg resp="previous">γερουσία</rdg>
 </app></w> <lb n="3"/> <w lemma="τιμάω"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="9" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="9"/>
 </rdg>
 <rdg resp="previous">ἐτείμησαν</rdg>
 </app></w> <lb n="4"/> <persName type="attested"><name nymRef="#Μᾶρκος"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">Μᾶρ</rdg>
 </app>κον</name> <name nymRef="#Οὐαλέριος">Οὐαλέριον</name> <lb n="5"/>  <name nymRef="#Ἐπαφρόδειτος">Ἐπαφρόδε<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="4" reason="lost" unit="character"/></rdg>
+<gap reason="lost" unit="character" quantity="4"/></rdg>
 <rdg resp="previous">
 ιτον</rdg>
 </app></name></persName> <lb n="6"/> <w lemma="γένος">γένει</w> <w lemma="καί">καὶ</w> <w lemma="παιδεία">π<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="2" reason="lost" unit="character"/></rdg>
+<gap reason="lost" unit="character" quantity="2"/></rdg>
 <rdg resp="previous">αι</rdg>
 </app><lb n="7" break="no"/>δείᾳ</w> <w lemma="διαφέρω">διαφέ<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/></rdg>
+<gap reason="lost" unit="character" quantity="3"/></rdg>
 <rdg resp="previous">ρον</rdg>
 </app><lb n="8" break="no"/>τα</w> <w lemma="κιθαρῳδός">κιθαρῳδ<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="2" reason="lost" unit="character"/></rdg>
+<gap reason="lost" unit="character" quantity="2"/></rdg>
 <rdg resp="previous">
 ὸν</rdg>
 </app></w> <w lemma="ἱερονίκης"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">
 ἱ</rdg>
 </app><lb n="9" break="no"/>ερονείκην</w> <w lemma="πλειστονείκης">π<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">λει</rdg>
 </app><lb n="10" break="no"/>στονείκην</w> <w lemma="παράδοξος">π<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">αρά</rdg>
 </app><lb n="11" break="no"/>δοξον </w> <w lemma="υἱός">υἱὸν</w> <persName type="attested"><name nymRef="#Μᾶρκος"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">Μάρ</rdg>
 </app><lb n="12" break="no"/>κου</name>  <name>Οὐαλερί<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="2" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="2"/>
 </rdg>
 <rdg resp="previous">ου</rdg>
 </app></name> <lb n="13"/> <name nymRef="#Νάρκισσος">Ναρκίσσου</name></persName> <w>π<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">ο</rdg>
 </app><lb n="14" break="no"/>λείτου</w> <w lemma="καί">καὶ</w> <w lemma="βουλευτής">βο<app type="previouslyread"><rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/></rdg>
+<gap reason="lost" unit="character" quantity="1"/></rdg>
 <rdg resp="previous">
 υ</rdg>
 </app><lb n="15"/>  λευτοῦ</w> <w lemma="ἀπό">ἀπὸ</w> <w lemma="πρόγονος">π<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="2" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="2"/>
 </rdg>
 <rdg resp="previous">
 ρο</rdg>
 </app><lb n="16" break="no"/>γόνων</w>  <w lemma="καί">καὶ</w> <w lemma="ἐν">ἐ<unclear reason="damage">ν</unclear></w>  <lb n="17"/> <w lemma="πολύς">πολλ<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">
 ο</rdg>
 </app>ῖς</w> <w lemma="ὁ">τὴν</w> <w lemma="πατρίς">π<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">
 α</rdg>
 </app><lb n="18" break="no"/>τρίδ<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">
 α</rdg>
 </app></w> <w>εὐεργε</w> <lb n="19"/> <w>τοῦντος</w> <lb n="20"/>  <w lemma="ὁ"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">τὴν</rdg>
 </app></w> <w lemma="δέ"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">δὲ</rdg>
 </app></w> <w lemma="ἀνάστασις"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">ἀνάστασ</rdg>
 </app><lb n="21" break="no"/><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">
 ι</rdg>
 </app>ν</w> <w lemma="ὁ">τοῦ</w> <w lemma="ἀνδριάς">ἀνδρι<app type="previouslyread"><rdg resp="autopsy">
-<gap extent="2" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="2"/>
 </rdg><rdg resp="previous">
 άν</rdg>
 </app><lb n="22" break="no"/><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">
 τος</rdg>
 </app></w> <w lemma="ποιέω">πεποιῆσθ<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="2" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="2"/>
 </rdg>
 <rdg resp="previous">αι</rdg>
 </app></w> <lb n="23"/> <persName type="attested"><name nymRef="#Οὐαλέριος"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="9" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="9"/>
 </rdg>
 <rdg resp="previous">
 Οὐαλέριον</rdg>
 </app></name> <name><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="6" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="6"/>
 </rdg>
 <rdg resp="previous">Νάρκισ
 </rdg>
 </app><lb n="24" break="no"/><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">σον</rdg>
 </app></name></persName> <w lemma="ὁ"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">
 τὸν</rdg>
 </app></w> <w lemma="πατήρ"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="6" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="6"/>
 </rdg>
 <rdg resp="previous">
 πατέρα</rdg>
 </app></w> <app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="4" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="4"/>
 </rdg>
 <rdg resp="previous">
 <g ref="#stop"/> <g ref="#leaf"/></rdg>

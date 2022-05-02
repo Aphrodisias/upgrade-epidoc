@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Seat inscriptions</rs>: Theatre, Block C</title>
+            <title>Seat inscriptions: Theatre, Block C</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -136,7 +135,7 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>).</origDate>
 <lb n="1"/><w lemma="τόπος"><expan><abbr><hi rend="ligature">τό</hi></abbr><ex>πος</ex></expan></w> <persName type="attested"><name nymRef="#Βενουσῖνος"><expan><abbr>Β<unclear>ε</unclear>ν<unclear>υσ</unclear>ιν</abbr><ex>ου</ex></expan></name></persName> </ab></div>
 </div>
          <div type="translation">
-            <p>Row 12, ?Place of <gap extent="unknown" reason="lost" unit="character"/>.</p>
+            <p>Row 12, ?Place of <gap reason="lost" unit="character" extent="unknown"/>.</p>
             <p>Row 18, Bad years for the Greens!</p>
             <p>Row 21, reserved.</p>
             <p>Row 26, Place of Benusinos</p>

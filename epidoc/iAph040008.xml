@@ -7,9 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <seg cert="low">
-                  <rs type="textType">Place inscription</rs>
-               </seg> of <abbr>Kes</abbr>
+               <seg cert="low">Place inscription</seg> of <abbr>Kes</abbr>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>

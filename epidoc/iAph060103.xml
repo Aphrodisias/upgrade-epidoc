@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Honours</rs> for P. Aelius Septimius Mannus, <rs type="personType">governor</rs>
-            </title>
+            <title>Honours for P. Aelius Septimius Mannus, governor</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -125,12 +123,12 @@
 			  <lb n="8"/><w lemma="φιλάνθρωπος">φιλάνθρωπον</w><g ref="#stop"/> <w lemma="διά">δι'</w>
 			  <lb n="9"/><w lemma="πᾶς"><hi rend="apex">ἁ</hi>πάσης</w> <w lemma="ἥκω">ἥκοντα</w>
 			  <lb n="10"/><w lemma="ἀρετή">ἀρετῆς</w> <w lemma="ὁ">τὸν</w> <w lemma="ἑαυτός"><hi rend="apex">ἑ</hi>αυ<lb n="11" break="no"/>τοῦ</w> <w lemma="εὐεργέτης">εὐεργέτη<supplied reason="lost">ν</supplied></w>
-              <lb n="12"/><gap extent="unknown" reason="lost" unit="line"/>
+              <lb n="12"/><gap reason="lost" unit="line" extent="unknown"/>
             </ab>
          </div>
          <div type="translation">
             <ab>
-               <supplied reason="lost">So-and-so honoured</supplied> Publius Aelius Septimius Mannus, the <term xml:lang="la">clarissimus</term>, governor (<term xml:lang="la">praeses</term>), consular, distinguished, brave, pure, generous, having achieved all virtue, his/its benefactor <gap extent="unknown" reason="lost" unit="character"/>
+               <supplied reason="lost">So-and-so honoured</supplied> Publius Aelius Septimius Mannus, the <term xml:lang="la">clarissimus</term>, governor (<term xml:lang="la">praeses</term>), consular, distinguished, brave, pure, generous, having achieved all virtue, his/its benefactor <gap reason="lost" unit="character" extent="unknown"/>
             </ab>
          </div>
          <div type="commentary">

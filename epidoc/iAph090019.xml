@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Honours</rs> for anonymous, high-priest</title>
+            <title>Honours for anonymous, high-priest</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -112,7 +111,7 @@ First century A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><gap reason="lost" extent="14" unit="character"/>να <w lemma="ἀρχιερεύς">ἀρχιερέως</w> <lb n="2"/><persName type="emperor"><w lemma="θεός"><supplied reason="lost">θεοῦ</supplied></w>  <w lemma="σεβαστός"><supplied reason="lost">Σεβαστοῦ</supplied></w> <name nymRef="#Καῖσαρ">Καίσαρος</name></persName></ab>
+<ab><lb n="1"/><gap reason="lost" unit="character" quantity="14"/>να <w lemma="ἀρχιερεύς">ἀρχιερέως</w> <lb n="2"/><persName type="emperor"><w lemma="θεός"><supplied reason="lost">θεοῦ</supplied></w>  <w lemma="σεβαστός"><supplied reason="lost">Σεβαστοῦ</supplied></w> <name nymRef="#Καῖσαρ">Καίσαρος</name></persName></ab>
 </div>
          <div type="translation">
             <p>[. . . ]n, high priest [of the divine Augustus] Caesar</p>

@@ -6,10 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Dedication</rs> from a church (<seg cert="low">
-                  <rs type="textType">building inscription</rs>
-               </seg>)</title>
+            <title>Dedication from a church (<seg cert="low">building inscription</seg>)</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -118,7 +115,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
 		<ab>
-		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">νη</orig> <persName key="God" type="divine"><w lemma="θεός">θεῷ</w></persName> <w lemma="καί">καὶ</w> <persName key="angel" type="divine"><w lemma="ἄγγελος">ἀγγέλοις</w></persName> <orig n="unresolved"><unclear reason="damage">ιιι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+		<lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">νη</orig> <persName key="God" type="divine"><w lemma="θεός">θεῷ</w></persName> <w lemma="καί">καὶ</w> <persName key="angel" type="divine"><w lemma="ἄγγελος">ἀγγέλοις</w></persName> <orig n="unresolved"><unclear reason="damage">ιιι</unclear></orig><gap reason="lost" unit="character" extent="unknown"/>
 		</ab>
       </div>
          <div type="translation">

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragment, <rs type="textType" cert="low">funerary</rs>
-            </title>
+            <title>Fragment, funerary</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,10 +107,10 @@ First to third centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><persName type="attested"><name nymRef="#Κλαύδιος"><expan><abbr>Κλ</abbr><ex>αυδίῳ</ex></expan></name>  <name nymRef="#Ἀντώνιος"><expan><abbr>Ἀντ</abbr><ex>ωνίῳ</ex></expan></name> <name nymRef="#Ἑρμίας">Ἑρμείῳ</name></persName> <orig n="unresolved">υδ</orig> <gap reason="lost" extent="unknown" unit="character"/>  </ab>
+<ab><lb n="1"/><persName type="attested"><name nymRef="#Κλαύδιος"><expan><abbr>Κλ</abbr><ex>αυδίῳ</ex></expan></name>  <name nymRef="#Ἀντώνιος"><expan><abbr>Ἀντ</abbr><ex>ωνίῳ</ex></expan></name> <name nymRef="#Ἑρμίας">Ἑρμείῳ</name></persName> <orig n="unresolved">υδ</orig> <gap reason="lost" unit="character" extent="unknown"/>  </ab>
 </div>
          <div type="translation">
-            <p>For Cl(audius) Ant(onius) Hermias <gap extent="unknown" reason="lost" unit="character"/>
+            <p>For Cl(audius) Ant(onius) Hermias <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div n="notyet" type="commentary">

@@ -7,11 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <seg cert="low">
-                  <rs type="textType" reg="dedication">Dedicatory</rs>
-               </seg>
-               <rs type="textType" reg="verse">poem</rs>
-            </title>
+               <seg cert="low">Dedicatory</seg> poem</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -125,9 +121,9 @@ above the line; star-shaped stop.</handNote>
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
 				<div n="a" type="textpart" subtype="fragment"><ab>
-					<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">λ</unclear>φο</orig><gap reason="lost" extent="unknown" unit="character"/>
-					</ab></div><div n="b" type="textpart" subtype="fragment"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">φ</unclear></orig> <w lemma="ὁράω">ὁρῶντες</w> <orig n="unresolved">τ<gap reason="lost" extent="unknown" unit="character"/></orig>
-					</ab></div><div n="c" type="textpart" subtype="fragment"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἐμός">ἐ<hi rend="ligature" id="hi1">μ</hi><hi rend="superscript">ῶ</hi><hi rend="ligature" id="hi3">ν</hi></w> <w lemma="ἐφευρίσκω">ἐφευρεῖν</w> <w lemma="ὄφλημα">ὀφλημά<hi rend="ligature">τω</hi><hi rend="superscript">ν</hi></w> <g ref="#stop"/> <gap reason="lost" extent="unknown" unit="character"/><link targets="hi1 hi3" targOrder="U"/></ab></div>
+					<lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">λ</unclear>φο</orig><gap reason="lost" unit="character" extent="unknown"/>
+					</ab></div><div n="b" type="textpart" subtype="fragment"><ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">φ</unclear></orig> <w lemma="ὁράω">ὁρῶντες</w> <orig n="unresolved">τ<gap reason="lost" unit="character" extent="unknown"/></orig>
+					</ab></div><div n="c" type="textpart" subtype="fragment"><ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/> <w lemma="ἐμός">ἐ<hi rend="ligature" id="hi1">μ</hi><hi rend="superscript">ῶ</hi><hi rend="ligature" id="hi3">ν</hi></w> <w lemma="ἐφευρίσκω">ἐφευρεῖν</w> <w lemma="ὄφλημα">ὀφλημά<hi rend="ligature">τω</hi><hi rend="superscript">ν</hi></w> <g ref="#stop"/> <gap reason="lost" unit="character" extent="unknown"/><link targets="hi1 hi3" targOrder="U"/></ab></div>
 			      </div>
          <div type="translation">
             <p>b. <gap reason="lost" unit="character" extent="unknown"/> seeing <gap reason="lost" unit="character" extent="unknown"/>

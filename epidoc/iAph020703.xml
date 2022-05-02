@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Sculptor's signature</rs>
-            </title>
+            <title>Sculptor's signature</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,7 +106,7 @@ First to second centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/><gap reason="lost" extent="unknown" unit="character"/><lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <orig n="unresolved">οσχι</orig> <gap reason="lost" extent="unknown" unit="character"/><lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>  <w lemma="ἐπί"><supplied reason="lost">ἐπ</supplied></w>  <w>οίησ<unclear reason="damage">ε</unclear><supplied reason="lost">ν</supplied><gap extent="unknown" reason="lost" unit="character"/></w></ab>
+<ab><lb n="0"/><gap reason="lost" unit="character" extent="unknown"/><lb n="2"/><gap reason="lost" unit="character" extent="unknown"/> <orig n="unresolved">οσχι</orig> <gap reason="lost" unit="character" extent="unknown"/><lb n="2"/><gap reason="lost" unit="character" extent="unknown"/>  <w lemma="ἐπί"><supplied reason="lost">ἐπ</supplied></w>  <w>οίησ<unclear reason="damage">ε</unclear><supplied reason="lost">ν</supplied><gap reason="lost" unit="character" extent="unknown"/></w></ab>
 </div>
          <div type="apparatus">
             <p>Probably [Ἀπολλώνι]ος Χρ[υσίππου Ἀστὴρ ἐπ]οίησε[ν</p>

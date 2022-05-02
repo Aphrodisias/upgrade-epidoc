@@ -6,12 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">
-                  <rs type="textType">Funerary</rs>
-                  <rs type="textType">verse</rs>
-               </rs>
-            </title>
+            <title>Funerary verse</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -112,7 +107,7 @@ probably Second to third centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <gap reason="lost" extent="19" unit="character"/>  <supplied reason="lost">ψυχὴ</supplied>  <supplied reason="lost">γὰρ</supplied>  <lb n="2"/><supplied reason="lost">σώματος</supplied>  <supplied reason="lost">οὐκέτι</supplied>  <supplied reason="lost">νῦν</supplied>  <w lemma="ἄλυτος"><supplied reason="lost">ἀλ</supplied>ύτο<supplied reason="lost">ις</supplied></w>  <lb n="3"/>  <space extent="3" unit="character" dim="horizontal"/><w lemma="δεσμός">δεσμοῖσι</w> <w lemma="κρατέω">κρατεῖται</w> <lb n="4"/> <w lemma="εἰς">εἰς</w> <w lemma="αἰών">αἰῶνα</w> <w lemma="μένω">μένουσα</w> <w lemma="πάλαι">πάλαι</w> <lb n="5"/>  <space extent="3" unit="character" dim="horizontal"/><w lemma="ὁ">τὸν</w> <w lemma="λυσιμέριμνος">λυσιμέριμνον</w> </ab>
+<ab><lb n="1"/>  <gap reason="lost" unit="character" quantity="19"/>  <supplied reason="lost">ψυχὴ</supplied>  <supplied reason="lost">γὰρ</supplied>  <lb n="2"/><supplied reason="lost">σώματος</supplied>  <supplied reason="lost">οὐκέτι</supplied>  <supplied reason="lost">νῦν</supplied>  <w lemma="ἄλυτος"><supplied reason="lost">ἀλ</supplied>ύτο<supplied reason="lost">ις</supplied></w>  <lb n="3"/>  <space extent="3" unit="character" dim="horizontal"/><w lemma="δεσμός">δεσμοῖσι</w> <w lemma="κρατέω">κρατεῖται</w> <lb n="4"/> <w lemma="εἰς">εἰς</w> <w lemma="αἰών">αἰῶνα</w> <w lemma="μένω">μένουσα</w> <w lemma="πάλαι">πάλαι</w> <lb n="5"/>  <space extent="3" unit="character" dim="horizontal"/><w lemma="ὁ">τὸν</w> <w lemma="λυσιμέριμνος">λυσιμέριμνον</w> </ab>
 </div>
          <div type="apparatus">
             <p>The supplements are suggested by Peek.</p>

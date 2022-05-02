@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragmentary  <rs type="textType">honours</rs> from Temple</title>
+            <title>Fragmentary  honours from Temple</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,7 +108,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
 
-<ab>  <lb n="0"/><gap extent="unknown" reason="lost" unit="line"/><lb n="1"/><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved">τα</orig><lb n="2"/><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved">ωσ</orig><lb n="3"/><w lemma="φιλόδοξος"><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved">οξωσ</orig></w><lb n="3a"/><gap extent="unknown" reason="lost" unit="character"/><space extent="1" unit="line" dim="vertical"/></ab>
+<ab>  <lb n="0"/><gap reason="lost" unit="line" extent="unknown"/><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">τα</orig><lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">ωσ</orig><lb n="3"/><w lemma="φιλόδοξος"><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">οξωσ</orig></w><lb n="3a"/><gap reason="lost" unit="character" extent="unknown"/><space extent="1" unit="line" dim="vertical"/></ab>
 </div>
          <div type="apparatus">
             <p>l. 3, perhaps from  <foreign xml:lang="grc">

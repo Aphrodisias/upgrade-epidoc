@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Latin <rs type="textType">funerary</rs> inscription</title>
+            <title>Latin funerary inscription</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -107,14 +107,14 @@ First to second centuries A.D.
       <body>
          <div type="edition" xml:lang="la" xml:space="preserve">
 
-<ab><lb n="0"/>  <gap reason="lost" extent="1" unit="line"/>  <lb n="1"/> <w>speculator </w> <w><expan><abbr>legion</abbr><ex>is</ex></expan></w> <num value="3">III</num> <placeName>Gallicae</placeName></ab>
+<ab><lb n="0"/>  <gap reason="lost" unit="line" quantity="1"/>  <lb n="1"/> <w>speculator </w> <w><expan><abbr>legion</abbr><ex>is</ex></expan></w> <num value="3">III</num> <placeName>Gallicae</placeName></ab>
 </div>
          <div type="apparatus">
             <p>MAMA printed an initial <foreign xml:lang="la">L</foreign> above the opening letter. This is presumably an interpretation of a mark just above the surviving ram's head, on the left; there is nothing on the stone immediately above the surviving line.</p>
          </div>
          <div type="translation">
             <p>
-               <gap reason="lost" extent="1" unit="line"/> Scout of the third legion Gallicae.</p>
+               <gap reason="lost" unit="line" quantity="1"/> Scout of the third legion Gallicae.</p>
          </div>
          <div type="commentary">
             <p>The rather naive style of the relief suggests the same time-period as the lettering (so Natalie de Chaisemartin).</p>

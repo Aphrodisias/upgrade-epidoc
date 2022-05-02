@@ -7,8 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <seg cert="low">
-                  <rs type="textType" reg="funerary">Epitaph</rs> of <rs type="personType">bishop</rs> of Stratonicaea</seg>
+               <seg cert="low">Epitaph of bishop of Stratonicaea</seg>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -117,8 +116,8 @@ text.</layout>
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
         <ab>
-		  	<lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>
-			<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <rs key="bishop" type="official-relig"><w lemma="ἐπίσκοπος"><expan><abbr><supplied reason="lost">ἐπι</supplied>σκόπ</abbr><ex>ου</ex></expan></w></rs> <placeName key="Stratonicea" nymRef="#Στρατονικεία">Στ<supplied reason="lost">ρ</supplied>ατονικείας</placeName> <w lemma="ὁ"><expan><abbr>τ</abbr><ex>οῦ</ex></expan></w> <space dim="horizontal"/>
+		  	<lb n="1"/><gap reason="lost" unit="line" extent="unknown"/>
+			<lb n="2"/><gap reason="lost" unit="character" extent="unknown"/> <rs key="bishop" type="official-relig"><w lemma="ἐπίσκοπος"><expan><abbr><supplied reason="lost">ἐπι</supplied>σκόπ</abbr><ex>ου</ex></expan></w></rs> <placeName key="Stratonicea" nymRef="#Στρατονικεία">Στ<supplied reason="lost">ρ</supplied>ατονικείας</placeName> <w lemma="ὁ"><expan><abbr>τ</abbr><ex>οῦ</ex></expan></w> <space dim="horizontal"/>
 			<lb n="3"/><space dim="vertical"/></ab>
 	  </div>
          <div type="translation">

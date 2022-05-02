@@ -7,10 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <seg cert="low">
-                  <rs type="textType">Building inscription</rs>
-               </seg> with <rs type="personType" reg="emperor">imperial reference</rs>
-            </title>
+               <seg cert="low">Building inscription</seg> with imperial reference</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -112,7 +109,7 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)</origDate>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>  <persName type="emperor"><w lemma="σεβαστός"><supplied reason="lost">Σ</supplied><unclear reason="damage">ε</unclear>βασ<supplied reason="lost">τ</supplied><gap reason="lost" extent="unknown" unit="character"/></w></persName></ab>
+<ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/>  <persName type="emperor"><w lemma="σεβαστός"><supplied reason="lost">Σ</supplied><unclear reason="damage">ε</unclear>βασ<supplied reason="lost">τ</supplied><gap reason="lost" unit="character" extent="unknown"/></w></persName></ab>
 </div>
          <div type="translation">
             <p>Possibly a reference to August[-</p>

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> inscription for Zotikos</title>
+            <title>Funerary inscription for Zotikos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -109,11 +108,11 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <w lemma="ὁ">τὴν</w> <w lemma="σορός">σ<supplied reason="lost">ο</supplied>ρὸν</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὰς</w> <supplied reason="lost">εν αὐτ<unclear reason="damage">ῇ</unclear></supplied>  <w lemma="εἰσώστη">εἰσῶστας</w> <w lemma="κατασκευάζω">κατε<supplied reason="lost">σ</supplied>κεύασεν</w> <persName type="attested"><name nymRef="#Τίτος">Τίτος</name> <gap reason="lost" extent="unknown" unit="character"/> <name nymRef="#Αἴλιος">Αἴλιος</name> <name nymRef="#Ζωτικός">Ζωτ<supplied reason="lost">ικ</supplied>ὸ<unclear reason="damage">ς</unclear></name></persName> <g ref="#arabesque"/> <lb n="2"/>  <w lemma="εἰς">εἰς</w> <w lemma="ὅς">ἣν</w> <w lemma="σορός">σορὸν</w> <w lemma="θάπτω">τεθά<supplied reason="lost"><space extent="8" precision="circa"/></supplied>πται</w> <persName type="attested"><name nymRef="#Φίλητος"><unclear>Φ</unclear>ίλητος</name></persName> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Ἀμμία">Ἀ<hi rend="ligature">μμ</hi>ία</name></persName> <w lemma="τέκνον">τέκνα</w> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Αἴλιος"><supplied reason="lost" cert="low">Αἰλίου</supplied></name> <name nymRef="#Ζωτικός">Ζωτικοῦ</name></persName> <w lemma="οὐδείς">οὐδεὶς</w> <w lemma="δέ">δὲ</w> <lb n="2a"/><supplied reason="lost"><w lemma="ἕτερος">ἕτερος</w> <note xml:lang=""/></supplied>  </ab>
+<ab><lb n="1"/>  <w lemma="ὁ">τὴν</w> <w lemma="σορός">σ<supplied reason="lost">ο</supplied>ρὸν</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὰς</w> <supplied reason="lost">εν αὐτ<unclear reason="damage">ῇ</unclear></supplied>  <w lemma="εἰσώστη">εἰσῶστας</w> <w lemma="κατασκευάζω">κατε<supplied reason="lost">σ</supplied>κεύασεν</w> <persName type="attested"><name nymRef="#Τίτος">Τίτος</name> <gap reason="lost" unit="character" extent="unknown"/> <name nymRef="#Αἴλιος">Αἴλιος</name> <name nymRef="#Ζωτικός">Ζωτ<supplied reason="lost">ικ</supplied>ὸ<unclear reason="damage">ς</unclear></name></persName> <g ref="#arabesque"/> <lb n="2"/>  <w lemma="εἰς">εἰς</w> <w lemma="ὅς">ἣν</w> <w lemma="σορός">σορὸν</w> <w lemma="θάπτω">τεθά<supplied reason="lost"><space extent="8" precision="circa"/></supplied>πται</w> <persName type="attested"><name nymRef="#Φίλητος"><unclear>Φ</unclear>ίλητος</name></persName> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Ἀμμία">Ἀ<hi rend="ligature">μμ</hi>ία</name></persName> <w lemma="τέκνον">τέκνα</w> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Αἴλιος"><supplied reason="lost" cert="low">Αἰλίου</supplied></name> <name nymRef="#Ζωτικός">Ζωτικοῦ</name></persName> <w lemma="οὐδείς">οὐδεὶς</w> <w lemma="δέ">δὲ</w> <lb n="2a"/><supplied reason="lost"><w lemma="ἕτερος">ἕτερος</w> <note xml:lang=""/></supplied>  </ab>
 </div>
          <div type="translation">
-            <p> Titus <gap reason="lost" extent="unknown" unit="character"/> Ailius Zotikos prepared the tomb and the subsidiary niches.  In the tomb his children Philetos and Ammia have been buried but no-one else <supplied reason="lost">shall be placed therein</supplied>
-               <gap reason="lost" extent="unknown" unit="character"/>
+            <p> Titus <gap reason="lost" unit="character" extent="unknown"/> Ailius Zotikos prepared the tomb and the subsidiary niches.  In the tomb his children Philetos and Ammia have been buried but no-one else <supplied reason="lost">shall be placed therein</supplied>
+               <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary" n="none">

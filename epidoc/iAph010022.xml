@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType" reg="prayer/invocation">Prayers</rs> on West Door of Temple-Church (north)</title>
+            <title>Prayers on West Door of Temple-Church (north)</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -127,7 +126,7 @@ northern door-post: .</rs>
 	   <div n="ii" type="textpart" subtype="section"><ab><lb n="1"/><persName key="Ascension" type="divine"><w lemma="ἀνάληψις">ἀνάληψης</w></persName> <w lemma="ὁ"><expan><abbr>τ</abbr><ex>οῦ</ex></expan></w> <persName key="Lord" type="divine"><w lemma="κύριος"><expan><abbr>Κ</abbr><ex>υρίο</ex></expan>υ</w></persName>. </ab></div>
 
 		<div n="iii" type="textpart" subtype="section"><ab><lb n="1"/><g ref="#cross"/> <persName key="Lord" type="divine"><w lemma="κύριος"><expan><abbr>Κ</abbr><ex>ύρι</ex><abbr>ε</abbr></expan></w></persName> <w lemma="βοηθέω">βοΐθι</w> <w lemma="ὁ">το͂ </w> <w lemma="σός">σο͂ </w> <w lemma="δοῦλος"><expan><abbr>δ</abbr><ex>ού</ex><abbr>λο</abbr></expan></w> <orig n="unresolved">ρο<unclear reason="damage">δν</unclear>ι</orig> 
-<orig n="unresolved"><unclear reason="damage">ιιρνο</unclear>υ<unclear reason="damage">ρ</unclear><gap reason="lost" extent="1" unit="character"/>ν<unclear reason="damage">σ</unclear></orig></ab></div> 
+<orig n="unresolved"><unclear reason="damage">ιιρνο</unclear>υ<unclear reason="damage">ρ</unclear><gap reason="lost" unit="character" quantity="1"/>ν<unclear reason="damage">σ</unclear></orig></ab></div> 
       </div>
          <div type="apparatus">
             <p>i was printed back to front by

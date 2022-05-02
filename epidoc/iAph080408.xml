@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Acclamation</rs>s for <seg cert="low">
-                  <rs type="personType">governor</rs>s</seg>
+            <title>Acclamations for <seg cert="low">governors</seg>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -114,8 +112,8 @@
 		<div n="i" type="textpart" subtype="section"><note place="not specified" xml:lang=""/><ab>
 		
 		 <lb n="0"/><gap reason="lost" unit="line" extent="unknown"/>
-		 <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ν<unclear reason="damage">λ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
-		 <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">υι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>
+		 <lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">ν<unclear reason="damage">λ</unclear></orig><gap reason="lost" unit="character" extent="unknown"/>
+		 <lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">υι</unclear></orig><gap reason="lost" unit="character" extent="unknown"/>
 		 <lb n="2a"/><g ref="#cross"/></ab></div><div n="ii" type="textpart" subtype="section"><note place="not specified" xml:lang=""/><ab>
 		 <lb n="1"/><rs type="subject" key="acclamations"><supplied cert="low" reason="lost"><w lemma="πολύς">πολλὰ</w> <w lemma="ὁ">τὰ</w></supplied>
 		 <lb n="2"/><w lemma="ἔτος"><supplied reason="lost">ἔτη</supplied></w></rs> <w lemma="ὁ"><unclear reason="damage">τ</unclear>ῶ<unclear reason="damage">ν</unclear></w>

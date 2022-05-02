@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> fragment</title>
+            <title> Funerary fragment</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -106,7 +105,7 @@ base.</p>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><gap reason="lost" extent="3" unit="character"/><unclear reason="damage">ΙΙ</unclear>ΟΣ<gap reason="lost" extent="3" unit="character"/>  <lb n="3"/><gap reason="lost" extent="3" unit="character"/><unclear reason="damage">Ι</unclear>ΚΟΥ <w lemma="ὁ">τοῦ</w> ΤΕ<gap reason="lost" extent="3" unit="character"/>  <lb n="4"/><gap reason="lost" extent="3" unit="character"/><unclear reason="damage">Ε</unclear> <w lemma="οὐδείς">οὐδεὶς</w> ΚΑ<gap reason="lost" extent="3" unit="character"/>  <lb n="5"/><gap reason="lost" extent="3" unit="character"/>  <w lemma="ὁ"><supplied reason="lost">τῆ</supplied><unclear reason="damage">ς</unclear></w>  <w lemma="ἐπιγραφή">ἐπιγραφῆς</w><gap reason="lost" extent="3" unit="character"/>  <lb n="6"/><gap reason="lost" extent="3" unit="character"/><unclear reason="damage">Λ</unclear> <g ref="#arabesque"/> <gap reason="lost" extent="3" unit="character"/>  </ab>
+<ab><lb n="1"/>  <gap reason="lost" unit="character" quantity="3"/>  <lb n="2"/><gap reason="lost" unit="character" quantity="3"/><unclear reason="damage">ΙΙ</unclear>ΟΣ<gap reason="lost" unit="character" quantity="3"/>  <lb n="3"/><gap reason="lost" unit="character" quantity="3"/><unclear reason="damage">Ι</unclear>ΚΟΥ <w lemma="ὁ">τοῦ</w> ΤΕ<gap reason="lost" unit="character" quantity="3"/>  <lb n="4"/><gap reason="lost" unit="character" quantity="3"/><unclear reason="damage">Ε</unclear> <w lemma="οὐδείς">οὐδεὶς</w> ΚΑ<gap reason="lost" unit="character" quantity="3"/>  <lb n="5"/><gap reason="lost" unit="character" quantity="3"/>  <w lemma="ὁ"><supplied reason="lost">τῆ</supplied><unclear reason="damage">ς</unclear></w>  <w lemma="ἐπιγραφή">ἐπιγραφῆς</w><gap reason="lost" unit="character" quantity="3"/>  <lb n="6"/><gap reason="lost" unit="character" quantity="3"/><unclear reason="damage">Λ</unclear> <g ref="#arabesque"/> <gap reason="lost" unit="character" quantity="3"/>  </ab>
 </div>
          <div type="translation">
             <p>Fragments from a funerary prohibition - see commentary.</p>

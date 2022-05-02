@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType" cert="low">Dedication</rs> or <rs type="textType" cert="low">funerary</rs> inscription for Zenonis</title>
+            <title>Dedication or funerary inscription for Zenonis</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -105,7 +104,7 @@ No indication
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/> <persName type="attested"><name nymRef="#Ζηνωνίς">Ζηνωνίδι</name> <w lemma="ὁ">τῇ</w> <persName type="attested"><name nymRef="#Παυσανίας">Παυσανίου</name> <w lemma="ὁ">τοῦ</w> <gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/> <persName type="attested"><name nymRef="#Ἀπελλᾶς">Ἀπέλλα</name></persName></persName> θυγατρ<unclear reason="damage">ὶ</unclear> <w lemma="ἔκγονος">ἐκγόνῃ</w> <persName type="attested"><name>Δ<gap reason="lost" extent="unknown" unit="character"/></name>  <lb n="3"/> <name nymRef="#Ζηνωνίς">Ζηνωνίδος</name></persName></persName> <w lemma="καί">καὶ</w> <w lemma="τέκνον">τέκνοις</w> αὐ<supplied reason="lost">τῆς</supplied>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/> <w lemma="τέκνον">τέκνοις</w> <w lemma="εἰς">εἰς</w> <w lemma="διαδόχη">διαδόχην</w> <supplied reason="lost" cert="low">vac.</supplied>  </ab>
+<ab><lb n="1"/> <persName type="attested"><name nymRef="#Ζηνωνίς">Ζηνωνίδι</name> <w lemma="ὁ">τῇ</w> <persName type="attested"><name nymRef="#Παυσανίας">Παυσανίου</name> <w lemma="ὁ">τοῦ</w> <gap reason="lost" unit="character" extent="unknown"/>  <lb n="2"/> <persName type="attested"><name nymRef="#Ἀπελλᾶς">Ἀπέλλα</name></persName></persName> θυγατρ<unclear reason="damage">ὶ</unclear> <w lemma="ἔκγονος">ἐκγόνῃ</w> <persName type="attested"><name>Δ<gap reason="lost" unit="character" extent="unknown"/></name>  <lb n="3"/> <name nymRef="#Ζηνωνίς">Ζηνωνίδος</name></persName></persName> <w lemma="καί">καὶ</w> <w lemma="τέκνον">τέκνοις</w> αὐ<supplied reason="lost">τῆς</supplied>  <gap reason="lost" unit="character" extent="unknown"/>  <lb n="4"/> <w lemma="τέκνον">τέκνοις</w> <w lemma="εἰς">εἰς</w> <w lemma="διαδόχη">διαδόχην</w> <supplied reason="lost" cert="low">vac.</supplied>  </ab>
 </div>
          <div type="apparatus">
             <p>l. 2, ΘΥΓΑΤΡΗ</p>

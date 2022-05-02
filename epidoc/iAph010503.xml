@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Heading to <rs type="textType">decree</rs>
-            </title>
+            <title>Heading to decree</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -109,7 +108,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
 
-<ab>      <lb n="1"/><w lemma="καθά">καθὰ</w>  <w lemma="δοκέω">ἔδοξεν</w>  <w lemma="ὁ">τῇ</w>  <lb n="2"/><w lemma="βουλή">βουλῇ</w>  <w lemma="καί">καὶ</w>  <w lemma="ὁ">τῷ</w>  <w lemma="δῆμος">δήμῳ</w><lb n="2a"/><gap extent="unknown" reason="lost" unit="line"/></ab>
+<ab>      <lb n="1"/><w lemma="καθά">καθὰ</w>  <w lemma="δοκέω">ἔδοξεν</w>  <w lemma="ὁ">τῇ</w>  <lb n="2"/><w lemma="βουλή">βουλῇ</w>  <w lemma="καί">καὶ</w>  <w lemma="ὁ">τῷ</w>  <w lemma="δῆμος">δήμῳ</w><lb n="2a"/><gap reason="lost" unit="line" extent="unknown"/></ab>
 </div>
          <div type="translation">
             <p>As it was decided by the Council and the People [...</p>

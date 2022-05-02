@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> inscription for Publia Calvisia Peritiane</title>
+            <title> Funerary inscription for Publia Calvisia Peritiane</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -114,7 +113,7 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
             <p>Line 3: the text was presumably completed on the chest of the sarcophagus.</p>
          </div>
          <div type="translation">
-            <p> i. The sarcophagus and the surrounding platform belongs to Publia Calvisia Peritiane, the grandaughter of Iulianos; she also <gap extent="unknown" reason="lost" unit="character"/>
+            <p> i. The sarcophagus and the surrounding platform belongs to Publia Calvisia Peritiane, the grandaughter of Iulianos; she also <gap reason="lost" unit="character" extent="unknown"/>
             </p>
             <p>ii. They live.</p>
          </div>

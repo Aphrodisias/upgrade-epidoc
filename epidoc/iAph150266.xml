@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Honours</rs> or <rs type="textType">dedication</rs>
-            </title>
+            <title> Honours or dedication</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -107,7 +105,7 @@ First half of I cent. A.D. (<rs type="criteria">lettering</rs>)</origDate>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">οριααδρ</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear>αρητοσ</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">τεπιτα<unclear reason="damage">τ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/></ab>
+<ab><lb n="1"/>  <gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">οριααδρ</orig><gap reason="lost" unit="character" extent="unknown"/>  <lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">ι</unclear>αρητοσ</orig><gap reason="lost" unit="character" extent="unknown"/>  <lb n="3"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">τεπιτα<unclear reason="damage">τ</unclear></orig><gap reason="lost" unit="character" extent="unknown"/></ab>
 </div>
          <div type="apparatus">
             <p>l. 1,  in view of date, probably <foreign xml:lang="grc">Ἀδρ<supplied reason="lost">αστ</supplied>

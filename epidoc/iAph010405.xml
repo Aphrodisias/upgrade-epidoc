@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType" reg="prayer/invocation">Prayer</rs>
-            </title>
+            <title>Prayer</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -114,7 +112,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
 		<ab>
-		<lb n="1"/><gap extent="10" reason="lost" unit="character"/> <supplied reason="lost"><w lemma="ὑπέρ">ὑπὲρ</w></supplied> <w lemma="σωτηρία"><supplied reason="lost">σωτ</supplied><unclear reason="damage">η</unclear>ρίας</w> <w lemma="ὁ">το<hi rend="superscript">ῦ</hi></w> <w lemma="ἀρχιεπίσκοπος">ἀρχ<hi rend="superscript">ι</hi><unclear reason="damage">ε</unclear><supplied reason="lost">πισκόπου</supplied></w> <gap extent="10-15" unit="character" reason="lost"/></ab>
+		<lb n="1"/><gap reason="lost" unit="character" quantity="10"/> <supplied reason="lost"><w lemma="ὑπέρ">ὑπὲρ</w></supplied> <w lemma="σωτηρία"><supplied reason="lost">σωτ</supplied><unclear reason="damage">η</unclear>ρίας</w> <w lemma="ὁ">το<hi rend="superscript">ῦ</hi></w> <w lemma="ἀρχιεπίσκοπος">ἀρχ<hi rend="superscript">ι</hi><unclear reason="damage">ε</unclear><supplied reason="lost">πισκόπου</supplied></w> <gap unit="character" reason="lost" extent="10-15"/></ab>
       </div>
          <div type="apparatus">
             <p>The restoration, by which I am persuaded, is that of Angelos Chaniotis.</p>

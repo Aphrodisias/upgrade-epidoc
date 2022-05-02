@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Consolatory <rs type="textType">decree</rs>
-               </rs> for three brothers</title>
+            <title>Consolatory decree for three brothers</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,41 +106,41 @@ First to third centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<div n="a" type="textpart" subtype="section"><ab><lb n="0"/><gap extent="unknown" reason="lost" unit="line"/><lb n="1"/>
-<gap extent="1" reason="lost" unit="character"/><app type="previouslyread">
+<div n="a" type="textpart" subtype="section"><ab><lb n="0"/><gap reason="lost" unit="line" extent="unknown"/><lb n="1"/>
+<gap reason="lost" unit="character" quantity="1"/><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="2" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="2"/>
 </rdg>
 <rdg resp="previous"><unclear reason="damage">ως</unclear>
 </rdg>
 </app> <w lemma="καί"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">καὶ
 </rdg>
 </app></w> <w lemma="ἀνελλιπῶς"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="9" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="9"/>
 </rdg>
 <rdg resp="previous">
 ἀνελλιπῶς</rdg>
 </app></w> <w lemma="πλεῖστος"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="7" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="7"/>
 </rdg>
 <rdg resp="previous">πλεῖστα
 </rdg>
 </app></w> <w lemma="παρά"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">
 παρ</rdg>
 </app><unclear reason="damage">εσχ</unclear>η<lb n="2" break="no"/>
 <supplied reason="lost">μ</supplied>ένον</w> <w lemma="ὁ"><unclear reason="damage">τῇ</unclear></w> <w lemma="πατρίς"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">π
 </rdg>
@@ -151,7 +149,7 @@ First to third centuries A.D.
 <w lemma="τέκνον">τέκνῳ</w> <w lemma="αὐτός">αὐτοῦ</w> <g ref="#stop"/> <w lemma="δοκέω">δεδόχθαι</w> <w lemma="ὁ">τῇ</w> <w lemma="βουλή">βουλῇ</w> <w lemma="καί">καὶ</w><lb n="5"/>
 <w lemma="ὁ">τῷ</w> <w lemma="δῆμος">δήμῳ</w> <w lemma="τιμάω">τετειμῆσθαι</w> <w lemma="μέν">μὲν</w> <persName type="attested"><name nymRef="#Ζήνων">Ζήν<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">ω
 </rdg>
@@ -165,47 +163,47 @@ First to third centuries A.D.
 δάμου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Μητρόδωρος">Μητροδώρου</name></persName></persName></persName> <w lemma="ὁ">τὴν</w> <w lemma="μήτηρ">μη<lb n="13" break="no"/>
 τέρα</w> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Ζήνων">Ζήνωνος</name></persName> <g ref="#scroll"/> <g ref="#leaf"/> <g ref="#star"/> <g ref="#leaf"/> <g ref="#leaf"/><lb n="14"/>
 <space unit="line" dim="vertical"/></ab>
-</div><div n="b" type="textpart" subtype="section"><ab><lb n="0"/><gap extent="unknown" reason="lost" unit="line"/><lb n="1"/>
+</div><div n="b" type="textpart" subtype="section"><ab><lb n="0"/><gap reason="lost" unit="line" extent="unknown"/><lb n="1"/>
 <w lemma="καί"><unclear reason="damage">καὶ</unclear></w> <w lemma="μεταλλάζω"><unclear reason="damage">μ</unclear>ε<unclear reason="damage">τη</unclear><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="8" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="8"/>
 </rdg>
 <rdg resp="previous">
 λλακχότα</rdg>
 </app></w> <w lemma="καί"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">καὶ
 </rdg>
 </app></w> <w><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="8" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="8"/>
 </rdg>
 <rdg resp="previous">στεφανῶσ
 </rdg>
 </app>θ<unclear reason="damage">α</unclear>ι</w> <g ref="#scroll"/><lb n="2"/>
 <persName type="attested"><name nymRef="#Καλλίας">Καλλίαν</name> <w lemma="υἱός">υ<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">
 ἱ</rdg>
 </app><unclear reason="damage">ὸν</unclear></w> <persName type="attested"><name nymRef="#Καλλίας">Κ<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="6" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="6"/>
 </rdg>
 <rdg resp="previous">
 αλλίου</rdg>
 </app></name> <w lemma="ὁ"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">τοῦ
 </rdg>
 </app></w> <persName type="attested"><name nymRef="#Ζήνων"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">Ζ
 </rdg>
@@ -228,28 +226,28 @@ First to third centuries A.D.
 <w lemma="ὁ">τοὺς</w> <w lemma="γονεύς">γονεῖς</w> <w lemma="αὐτός">αὐτοῦ</w> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Εὔδαμος">Εὔδαμον</name> <persName type="attested"><name nymRef="#Καλλίας">Καλλί<lb n="19" break="no"/>
 ου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Ζήνων">Ζήνωνος</name></persName></persName></persName> <w lemma="ὁ">τὸν</w> <w lemma="ἀδελφός">ἀδελφὸν</w> <w lemma="αὐτός">αὐτοῦ</w> <g ref="#scroll"/><lb n="20"/>
 <w lemma="φέρω">φέρειν</w> <w lemma="ἀνθρώπινος">ἀνθρωπίνως</w> <w lemma="ὁ">τὸ</w> <w lemma="συμβαίνω">συνβεβηκὸς</w><lb n="21"/>
-<g ref="#scroll"/> <w lemma="ἀτύχημα">ἀτύχημα</w> <g ref="#scroll"/></ab></div><div n="c" type="textpart" subtype="section"><ab><lb n="0"/><gap extent="unknown" reason="lost" unit="line"/><lb n="1"/><gap extent="3" reason="lost" unit="character"/> <w lemma="καί"><supplied reason="lost">καὶ</supplied></w> <w lemma="μεταλλάζω"><supplied reason="lost">με</supplied><lb n="1" break="no"/>
+<g ref="#scroll"/> <w lemma="ἀτύχημα">ἀτύχημα</w> <g ref="#scroll"/></ab></div><div n="c" type="textpart" subtype="section"><ab><lb n="0"/><gap reason="lost" unit="line" extent="unknown"/><lb n="1"/><gap reason="lost" unit="character" quantity="3"/> <w lemma="καί"><supplied reason="lost">καὶ</supplied></w> <w lemma="μεταλλάζω"><supplied reason="lost">με</supplied><lb n="1" break="no"/>
 <unclear reason="damage">τη</unclear><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="8" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="8"/>
 </rdg>
 <rdg resp="previous">
 λλακχότα</rdg>
 </app></w> <w lemma="δοκέω"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="4" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="4"/>
 </rdg>
 <rdg resp="previous">δεδό
 </rdg>
 </app>χθαι</w> <w lemma="ὁ">τῇ</w> <w lemma="βουλή">βουλῇ</w> <w lemma="καί">καὶ</w><lb n="2"/>
 <w lemma="ὁ">τῷ</w> <w lemma="δῆμος">δή<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="2" reason="lost" unit="character"/></rdg>
+<gap reason="lost" unit="character" quantity="2"/></rdg>
 <rdg resp="previous">μῳ
 </rdg>
 </app></w> <w lemma="τιμάω"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">
 τετ</rdg>

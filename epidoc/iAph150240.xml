@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Votive</rs> offering to Asklepios</title>
+            <title>Votive offering to Asklepios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -109,11 +108,11 @@ Perhaps first century A.D. (<rs type="criteria">lettering</rs>).</origDate>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/>    <persName type="attested"><name nymRef="#Ἐλευθέριος">Ἐλευθερ<supplied reason="lost">ίος</supplied></name></persName><lb n="2"/><w lemma="θεός"><supplied reason="lost">θε</supplied>ῷ</w>  <persName type="divine"><name nymRef="#Ἀσκλήπιος">Ἀσκλ<unclear reason="damage">η</unclear><supplied reason="lost">πίῳ</supplied></name></persName><lb n="3"/><supplied reason="lost"><space unit="character" extent="2" id="space3" dim="horizontal"/><certainty target="space3" locus="#gi" degree="low"/></supplied>  <space unit="character" extent="2" dim="horizontal"/>    <w lemma="εὐχή">εὐχ<supplied reason="lost">ὴν</supplied></w>  <space unit="character" extent="2" dim="horizontal"/></ab>
+<ab><lb n="1"/>  <gap reason="lost" unit="character" quantity="3"/>    <persName type="attested"><name nymRef="#Ἐλευθέριος">Ἐλευθερ<supplied reason="lost">ίος</supplied></name></persName><lb n="2"/><w lemma="θεός"><supplied reason="lost">θε</supplied>ῷ</w>  <persName type="divine"><name nymRef="#Ἀσκλήπιος">Ἀσκλ<unclear reason="damage">η</unclear><supplied reason="lost">πίῳ</supplied></name></persName><lb n="3"/><supplied reason="lost"><space unit="character" extent="2" id="space3" dim="horizontal"/><certainty target="space3" locus="#gi" degree="low"/></supplied>  <space unit="character" extent="2" dim="horizontal"/>    <w lemma="εὐχή">εὐχ<supplied reason="lost">ὴν</supplied></w>  <space unit="character" extent="2" dim="horizontal"/></ab>
 </div>
          <div type="translation">
             <p>
-               <gap extent="unknown" reason="lost" unit="character"/> Eleuther[ios] to the god Asklepios (in payment of) a vow.</p>
+               <gap reason="lost" unit="character" extent="unknown"/> Eleuther[ios] to the god Asklepios (in payment of) a vow.</p>
          </div>
          <div type="commentary">
             <p>One of a group of votive offerings dedicated to Asclepius: three reliefs, <ref type="inscription" n="1214" target="050112.xml"/> (=63.568), <ref type="inscription" n="1215" target="050117.xml"/> (=63.570), <ref type="inscription" n="1216" target="150240.xml"/> (=70.551), and a base, <ref type="inscription" n="1224" target="040113.xml"/> (=90.26); the other three were found in or near the Baths of Hadrian.</p>

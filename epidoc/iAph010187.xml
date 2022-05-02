@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Honours</rs> for [...] daughter of ...]lianos</title>
+            <title> Honours for [...] daughter of ...]lianos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -114,105 +113,105 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
 
-<ab><lb n="0"/><persName type="attested"><name><gap extent="unknown" reason="lost" unit="character"/><lb n="1" break="no"/>λιανοῦ</name></persName> <w lemma="γυνή">γυναῖκα</w> <lb n="2"/><persName nymRef="#Σεπτίμιος  Χάρης  Αἰνείας" type="attested"><name nymRef="#Σεπτίμιος">Σεπτιμίου</name>  <name nymRef="#Χάρης">Χάρη<lb n="3" break="no"/>τος</name>  <name nymRef="#Αἰνείας">Αἰνείου</name></persName>  <w lemma="ἀξίωμα">ἀξι<lb n="4" break="no"/>ώματι</w> <w lemma="καί">καὶ</w> <w lemma="γένος">γένει</w> <lb n="5"/><w lemma="διαφέρω">διενενκοῦσαν</w><lb n="6"/> <w lemma="πρόγονος">προγόνων</w> <w lemma="ἀρχιερεύς">ἀρχιε<lb n="7" break="no"/>ρέων</w> <w lemma="πολύς">πολλῶν</w> <w lemma="γυμνασίαρχος">γυ<lb n="8" break="no"/><hi rend="ligature">μν</hi>ασιάρχων</w>  <w lemma="στεφανηφόρος">στεφ<supplied reason="lost">α</supplied><lb n="9" break="no"/><hi rend="ligature"><app type="previouslyread">
+<ab><lb n="0"/><persName type="attested"><name><gap reason="lost" unit="character" extent="unknown"/><lb n="1" break="no"/>λιανοῦ</name></persName> <w lemma="γυνή">γυναῖκα</w> <lb n="2"/><persName nymRef="#Σεπτίμιος  Χάρης  Αἰνείας" type="attested"><name nymRef="#Σεπτίμιος">Σεπτιμίου</name>  <name nymRef="#Χάρης">Χάρη<lb n="3" break="no"/>τος</name>  <name nymRef="#Αἰνείας">Αἰνείου</name></persName>  <w lemma="ἀξίωμα">ἀξι<lb n="4" break="no"/>ώματι</w> <w lemma="καί">καὶ</w> <w lemma="γένος">γένει</w> <lb n="5"/><w lemma="διαφέρω">διενενκοῦσαν</w><lb n="6"/> <w lemma="πρόγονος">προγόνων</w> <w lemma="ἀρχιερεύς">ἀρχιε<lb n="7" break="no"/>ρέων</w> <w lemma="πολύς">πολλῶν</w> <w lemma="γυμνασίαρχος">γυ<lb n="8" break="no"/><hi rend="ligature">μν</hi>ασιάρχων</w>  <w lemma="στεφανηφόρος">στεφ<supplied reason="lost">α</supplied><lb n="9" break="no"/><hi rend="ligature"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">ν
 </rdg>
 </app>η</hi>φόρων</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τ<unclear reason="damage">ῶ</unclear><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">ν
 </rdg>
 </app></w>  <lb n="10"/><w lemma="συγκτίζω"><unclear reason="damage">σ</unclear>υνκτισάντω<supplied reason="lost">ν</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τὴ</supplied><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">ν
 </rdg>
 </app></w>  <lb n="11"/> <w lemma="πόλις">πόλιν</w> <w lemma="καί">καὶ</w> <w lemma="πρῶτος">πρ<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="4" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="4"/>
 </rdg>
 <rdg resp="previous">ώτων
 </rdg>
 </app></w> <lb n="12"/><w><unclear reason="damage">π</unclear>ιστευσα<app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="5" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="5"/>
 </rdg>
 <rdg resp="previous">
 <hi rend="ligature">μέ</hi>νων</rdg>
 </app></w>  <w lemma="διά"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="2" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="2"/>
 </rdg>
 <rdg resp="previous">
 δι</rdg>
 </app><lb n="13" break="no"/><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">α
 </rdg>
 </app></w><w lemma="γένος"><unclear reason="damage">γ</unclear>ένου<unclear reason="damage">ς</unclear></w>  <w lemma="ὁ"><hi rend="ligature"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">τ
 </rdg>
 </app>ὴν</hi></w>  <w lemma="ἱερωσύνη">ἱερω<unclear reason="damage">σ</unclear><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/></rdg>
+<gap reason="lost" unit="character" quantity="1"/></rdg>
 <rdg resp="previous">
 ύ</rdg>
 </app><lb n="14" break="no"/><supplied reason="lost">νη</supplied><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">ν
 </rdg>
 </app></w>  <w lemma="ὁ"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="3"/>
 </rdg>
 <rdg resp="previous">
 <hi rend="ligature">τὴ</hi>ς</rdg>
 </app></w> <w lemma="θεός">θεοῦ</w> <persName type="divine"><name nymRef="#Ἀφροδίτη">Ἀφροδεί<lb n="15" break="no"/><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="3" reason="lost" unit="character"/></rdg>
+<gap reason="lost" unit="character" quantity="3"/></rdg>
 <rdg resp="previous">της
 </rdg>
 </app></name></persName>  <w lemma="ἀπόγονος"><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="1" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="1"/>
 </rdg>
 <rdg resp="previous">
 ἀ</rdg>
 </app><supplied reason="lost">π</supplied>όγονον</w>  <persName nymRef="#Φλάουιος  Διογένης  Ὕψηλος" type="attested"><name nymRef="#Φλάουιος"><expan><abbr>Φλ</abbr><ex>αουίου</ex></expan></name>  <name nymRef="#Διογένης">Δι<lb n="16" break="no"/><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="5" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="5"/>
 </rdg>
 <rdg resp="previous">
 ογένο</rdg>
 </app><unclear reason="damage">υ</unclear>ς</name>    <name nymRef="#Ὕψηλος">Ὑψήλου</name></persName>  <w lemma="ἀρχιερεύς">ἀρ<lb n="17" break="no"/><app type="previouslyread">
 <rdg resp="autopsy">
-<gap extent="6" reason="lost" unit="character"/>
+<gap reason="lost" unit="character" quantity="6"/>
 </rdg>
 <rdg resp="previous">χιερέω
 </rdg>
-</app>ς</w> <w lemma="καί">καὶ</w> <w lemma="ἱερεύς">ἱερέως</w> <lb n="18"/><w lemma="ὁ"><supplied reason="lost">τῆ</supplied>ς</w> <w lemma="θεός">θεοῦ</w> <w lemma="ἀρετή">ἀρε<hi rend="ligature">τῇ</hi></w> <w lemma="καί">καὶ</w> <w lemma="σεμνότις">σε<lb n="19" break="no"/><supplied reason="lost">μν</supplied>ό<hi rend="ligature"><unclear reason="damage">τ</unclear>η</hi>τι</w> <w lemma="καί">καὶ</w> <w lemma="φιλανδρία">φιλανδρί<lb n="20" break="no"/>ᾳ</w> <w lemma="ὁ">τὸ</w> <w lemma="προγονικός">προγονικὸν</w> <w lemma="ἐπικοσμέω">ἐ<lb n="21" break="no"/>πικοσ<hi rend="ligature">μή</hi>σασαν</w>  <w lemma="ἀξίωμα">ἀξί<lb n="22" break="no"/>ωμα</w> <w lemma="θυγάτηρ">θυγατέρα</w> <w lemma="πόλις">πό<lb n="23" break="no"/>λεως</w> <w lemma="ἀνθηφόρος">ἀνθηφόρον</w> <lb n="24"/> <w lemma="ὁ">τῆς</w> <w lemma="θεός">θεοῦ</w> <w lemma="διά">διὰ</w> <w lemma="ὁ">τὸ</w> <w lemma="μεγαλεῖος">με<lb n="25" break="no"/>γαλεῖο<hi rend="ligature" id="hi9">ν</hi></w><link targets="hi9  hi10"/>  <w lemma="ὁ"><hi rend="ligature" id="hi10">τ</hi>οῦ</w> <w lemma="γένος">γένους</w> <lb n="26"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὴν</w> <w lemma="ἀνυπέρβλητος">ἀνυπέρ<lb n="27" break="no"/>βλητον</w> <w lemma="ὁ">τοῦ</w> <w lemma="βίος">βίου</w> <lb n="28"/> <w lemma="σεμνός">σεμνότητα</w> <w lemma="τιμάω">τει<lb n="29" break="no"/><hi rend="ligature">μη</hi>θεῖσαν</w> <w lemma="ὑπό">ὑπὸ</w> <w lemma="θεός">θε<lb n="30" break="no"/>οῦ</w>  <persName type="emperor"><name nymRef="#Ἀλέξανδρος">Ἀλεξάνδρου</name></persName>  <lb n="31"/> <w lemma="ματρώνη">ματρώνης</w> <w lemma="στολή"><del><unclear reason="damage">στολῇ</unclear></del></w></ab> 
+</app>ς</w> <w lemma="καί">καὶ</w> <w lemma="ἱερεύς">ἱερέως</w> <lb n="18"/><w lemma="ὁ"><supplied reason="lost">τῆ</supplied>ς</w> <w lemma="θεός">θεοῦ</w> <w lemma="ἀρετή">ἀρε<hi rend="ligature">τῇ</hi></w> <w lemma="καί">καὶ</w> <w lemma="σεμνότις">σε<lb n="19" break="no"/><supplied reason="lost">μν</supplied>ό<hi rend="ligature"><unclear reason="damage">τ</unclear>η</hi>τι</w> <w lemma="καί">καὶ</w> <w lemma="φιλανδρία">φιλανδρί<lb n="20" break="no"/>ᾳ</w> <w lemma="ὁ">τὸ</w> <w lemma="προγονικός">προγονικὸν</w> <w lemma="ἐπικοσμέω">ἐ<lb n="21" break="no"/>πικοσ<hi rend="ligature">μή</hi>σασαν</w>  <w lemma="ἀξίωμα">ἀξί<lb n="22" break="no"/>ωμα</w> <w lemma="θυγάτηρ">θυγατέρα</w> <w lemma="πόλις">πό<lb n="23" break="no"/>λεως</w> <w lemma="ἀνθηφόρος">ἀνθηφόρον</w> <lb n="24"/> <w lemma="ὁ">τῆς</w> <w lemma="θεός">θεοῦ</w> <w lemma="διά">διὰ</w> <w lemma="ὁ">τὸ</w> <w lemma="μεγαλεῖος">με<lb n="25" break="no"/>γαλεῖο<hi rend="ligature" id="hi9">ν</hi></w><link target="hi9  hi10"/>  <w lemma="ὁ"><hi rend="ligature" id="hi10">τ</hi>οῦ</w> <w lemma="γένος">γένους</w> <lb n="26"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὴν</w> <w lemma="ἀνυπέρβλητος">ἀνυπέρ<lb n="27" break="no"/>βλητον</w> <w lemma="ὁ">τοῦ</w> <w lemma="βίος">βίου</w> <lb n="28"/> <w lemma="σεμνός">σεμνότητα</w> <w lemma="τιμάω">τει<lb n="29" break="no"/><hi rend="ligature">μη</hi>θεῖσαν</w> <w lemma="ὑπό">ὑπὸ</w> <w lemma="θεός">θε<lb n="30" break="no"/>οῦ</w>  <persName type="emperor"><name nymRef="#Ἀλέξανδρος">Ἀλεξάνδρου</name></persName>  <lb n="31"/> <w lemma="ματρώνη">ματρώνης</w> <w lemma="στολή"><del><unclear reason="damage">στολῇ</unclear></del></w></ab> 
 </div>
          <div type="apparatus">
             <p>The inscription broke, and was damaged, after Gaudin recorded it; letters highlighted were recorded by Gaudin, but not seen subsequently.</p>
             <p>12-13: <foreign xml:lang="grc">πιστευσαμένων δι<lb/>ὰ γένους</foreign> Reinach; MAMA reports reading <foreign xml:lang="grc">πιστευσαμένων ἐκ<lb/> γένους</foreign> but the MAMA photograph shows <foreign xml:lang="grc">πιστευσα[ . . . . . . . .]<lb/>
-                  <gap extent="1" reason="lost" unit="character"/> γένους</foreign>, which is still what can be read.</p>
+                  <gap reason="lost" unit="character" quantity="1"/> γένους</foreign>, which is still what can be read.</p>
             <p>It is not clear why the last word in the last line was erased, unless as part of the re-use of the stone.</p>
          </div>
          <div type="translation">
             <p>
-               <gap extent="unknown" reason="lost" unit="line"/> daughter of –lianos, wife of Septimius Chares Aeneias, outstanding in worth and family, with many ancestors who were high priests, stephanephoroi and among those who joined in the foundation of the city and were the first to be entrusted with the priesthood of the goddess Aphrodite as a family, descendent of Flavius Diogenes Hypselos, high priest and priest of the goddess; by her virtue, distinction, and love for her husband she enhanced the reputation of her family, was daughter of the city and flower-bearer of the goddess; she was honoured on account of the greatness of her family and the unsurpassed distinction of her life by the god Alexander with a matron's stola.</p>
+               <gap reason="lost" unit="line" extent="unknown"/> daughter of –lianos, wife of Septimius Chares Aeneias, outstanding in worth and family, with many ancestors who were high priests, stephanephoroi and among those who joined in the foundation of the city and were the first to be entrusted with the priesthood of the goddess Aphrodite as a family, descendent of Flavius Diogenes Hypselos, high priest and priest of the goddess; by her virtue, distinction, and love for her husband she enhanced the reputation of her family, was daughter of the city and flower-bearer of the goddess; she was honoured on account of the greatness of her family and the unsurpassed distinction of her life by the god Alexander with a matron's stola.</p>
          </div>
          <div n="notyet" type="commentary">
             <p>No commentary yet (2007)</p>

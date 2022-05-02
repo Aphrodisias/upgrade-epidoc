@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> for Marcus Aurelius Antiochus  son of Eis<supplied reason="lost" cert="low">agoras</supplied>
+            <title> Funerary for Marcus Aurelius Antiochus  son of Eis<supplied reason="lost" cert="low">agoras</supplied>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -111,7 +110,7 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <w lemma="ὁ">ἡ</w>  <w lemma="σορός">σορός</w>  <w lemma="εἰμί">ἐστιν</w>  <lb n="2"/><persName type="attested"><name nymRef="#Μᾶρκος">Μάρκ<unclear reason="damage">ου</unclear></name>  <name nymRef="#Αὐρήλιος"><unclear reason="damage">Αὐ</unclear>ρηλι<lb n="3" break="no"/>ου</name>  <name nymRef="#Ἀντίοχος">Ἀντιόχου</name> <w lemma="ὁ">τοῦ</w> <lb n="4"/><persName type="attested"><name nymRef="#Εἰσαγόρας"><orig n="unresolved"><unclear reason="damage">εισα</unclear></orig><gap reason="lost" extent="8" unit="character"/>  </name></persName></persName><lb n="5"/><orig n="unresolved">ω</orig>  <gap reason="lost" extent="1" unit="character"/>  <orig n="unresolved"><unclear reason="damage">λ</unclear></orig>  <gap reason="lost" extent="9" unit="character"/>  <lb n="5a"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
+<ab><lb n="1"/>  <w lemma="ὁ">ἡ</w>  <w lemma="σορός">σορός</w>  <w lemma="εἰμί">ἐστιν</w>  <lb n="2"/><persName type="attested"><name nymRef="#Μᾶρκος">Μάρκ<unclear reason="damage">ου</unclear></name>  <name nymRef="#Αὐρήλιος"><unclear reason="damage">Αὐ</unclear>ρηλι<lb n="3" break="no"/>ου</name>  <name nymRef="#Ἀντίοχος">Ἀντιόχου</name> <w lemma="ὁ">τοῦ</w> <lb n="4"/><persName type="attested"><name nymRef="#Εἰσαγόρας"><orig n="unresolved"><unclear reason="damage">εισα</unclear></orig><gap reason="lost" unit="character" quantity="8"/>  </name></persName></persName><lb n="5"/><orig n="unresolved">ω</orig>  <gap reason="lost" unit="character" quantity="1"/>  <orig n="unresolved"><unclear reason="damage">λ</unclear></orig>  <gap reason="lost" unit="character" quantity="9"/>  <lb n="5a"/><gap reason="lost" unit="line" extent="unknown"/>  </ab>
 </div>
          <div type="translation">
             <p>The sarcophagus belongs to Marcus Aurelius Antiochus the son of Eis[- ... <note xml:lang=""/>

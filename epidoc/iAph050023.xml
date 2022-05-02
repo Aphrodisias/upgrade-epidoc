@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType" reg="building inscription">Restoration work</rs> in the Hadrianic Baths</title>
+            <title>Restoration work in the Hadrianic Baths</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -114,12 +113,12 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
 		<div n="a" type="textpart" subtype="fragment"><ab>
-		<lb n="1"/><w><gap extent="unknown" reason="lost" unit="character"/>οντος</w> <w lemma="καί">καὶ</w> <w lemma="ἀνανεόω">ἀνανεωσαμένο<supplied reason="lost">υ</supplied></w> <gap extent="unknown" reason="lost" unit="character"/>
-		</ab></div><div n="b" type="textpart" subtype="fragment"><ab><lb n="1"/><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="undefined">υ</unclear>τοσολ</orig><gap extent="unknown" reason="lost" unit="character"/></ab></div>
+		<lb n="1"/><w><gap reason="lost" unit="character" extent="unknown"/>οντος</w> <w lemma="καί">καὶ</w> <w lemma="ἀνανεόω">ἀνανεωσαμένο<supplied reason="lost">υ</supplied></w> <gap reason="lost" unit="character" extent="unknown"/>
+		</ab></div><div n="b" type="textpart" subtype="fragment"><ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="undefined">υ</unclear>τοσολ</orig><gap reason="lost" unit="character" extent="unknown"/></ab></div>
       </div>
          <div type="translation">
             <p>
-		a. <gap extent="unknown" reason="lost" unit="character"/> and having renewed <gap extent="unknown" reason="lost" unit="character"/>
+		a. <gap reason="lost" unit="character" extent="unknown"/> and having renewed <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary">

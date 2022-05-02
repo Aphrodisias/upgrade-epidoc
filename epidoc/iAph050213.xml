@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType" reg="statue dedication">Dedication </rs> of a <seg cert="low">caryatid</seg> by a Daughter of the City</title>
+            <title>Dedication  of a <seg cert="low">caryatid</seg> by a Daughter of the City</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -109,11 +108,11 @@ Second half of second century A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/><w><gap extent="unknown" reason="lost" unit="line"/><lb n="1" break="no"/>  α</w> <w lemma="θυγάτηρ">θυγάτηρ</w> <lb n="2"/> <w lemma="πόλις">πόλεως</w> <lb n="3"/> <w lemma="ὁ">τῇ</w> <w lemma="πατρίς">Πατρίδι</w></ab>
+<ab><lb n="0"/><w><gap reason="lost" unit="line" extent="unknown"/><lb n="1" break="no"/>  α</w> <w lemma="θυγάτηρ">θυγάτηρ</w> <lb n="2"/> <w lemma="πόλις">πόλεως</w> <lb n="3"/> <w lemma="ὁ">τῇ</w> <w lemma="πατρίς">Πατρίδι</w></ab>
 </div>
          <div type="translation">
             <p>
-               <gap extent="unknown" reason="lost" unit="line"/> daughter of the city, to her homeland</p>
+               <gap reason="lost" unit="line" extent="unknown"/> daughter of the city, to her homeland</p>
          </div>
          <div type="commentary">
             <p>One of the series of dedications from the East Court of the Hadrianic Baths:<ref type="inscription" n="1184" target="050209.xml"/>, <ref type="inscription" n="1185" target="050007.xml"/>, <ref type="inscription" n="1189" target="050210.xml"/>, <ref type="inscription" n="1190" target="050211.xml"/>, <ref type="inscription" n="1198" target="050212.xml"/>, <ref type="inscription" n="1205" target="050213.xml"/>, <ref type="inscription" n="1209" target="050008.xml"/>, and others, currently in preparation for publication by Joyce Reynolds;  all are by women, and apparently bore caryatids (see <ref type="inscription" n="1198" target="050212.xml"/>).</p>

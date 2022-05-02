@@ -6,10 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType" reg="monogram">
-                  <rs type="textType" reg="prayer/invocation">Text</rs>
-               </rs> at an entrance</title>
+            <title>Text at an entrance</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -119,8 +116,8 @@ half-buried.</rs>
 			<cb n="ii"/>        
 				<ab>
 	<lb n="1"/> <w lemma="εἰμί">ἐστὶν</w> <w lemma="ὁ">ἡ</w> <w lemma="εἴσοδος">εἴσοδος</w> <w lemma="ὁ">τοῦ</w> 
-	<lb n="2"/> <orig n="unresolved">κ<gap extent="1" unit="character" reason="lost"/>ι<gap extent="1" unit="character" reason="lost"/><unclear reason="damage">λ</unclear>οθ<gap extent="1" unit="character" reason="lost"/>ατα<gap extent="1" unit="character" reason="lost"/>ου</orig> 
-	<lb n="3"/><orig n="unresolved"><unclear reason="damage">λ</unclear>ονος</orig> <w lemma="οὗτος"><supplied reason="lost">το</supplied>ύτου</w> <gap extent="3" reason="lost" unit="character"/></ab> 
+	<lb n="2"/> <orig n="unresolved">κ<gap unit="character" reason="lost" quantity="1"/>ι<gap unit="character" reason="lost" quantity="1"/><unclear reason="damage">λ</unclear>οθ<gap unit="character" reason="lost" quantity="1"/>ατα<gap unit="character" reason="lost" quantity="1"/>ου</orig> 
+	<lb n="3"/><orig n="unresolved"><unclear reason="damage">λ</unclear>ονος</orig> <w lemma="οὗτος"><supplied reason="lost">το</supplied>ύτου</w> <gap reason="lost" unit="character" quantity="3"/></ab> 
       </div>
          <div type="apparatus">
             <p>ii: ll. 2-3. Perhaps <foreign xml:lang="grc">

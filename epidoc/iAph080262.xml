@@ -7,8 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <seg cert="low">
-                  <rs type="textType">Dedication</rs> (<rs type="textType">building inscription</rs>)</seg>, <seg cert="low">to a saint </seg>
+               <seg cert="low">Dedication (building inscription)</seg>, <seg cert="low">to a saint </seg>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -120,8 +119,8 @@ clear, simple.</handNote>
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
 		<ab>
-		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <orig n="unresolved">ε<unclear reason="damage">ρμι</unclear></orig> <gap reason="lost" extent="unknown" unit="character"/>
-		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὁ"><unclear reason="damage">τ</unclear>ὸν</w> <persName key="saint" type="divine"><w lemma="ἅγιος">ἅγιον</w></persName> <gap reason="lost" extent="unknown" unit="character"/>
+		<lb n="1"/><gap reason="lost" unit="character" extent="unknown"/> <orig n="unresolved">ε<unclear reason="damage">ρμι</unclear></orig> <gap reason="lost" unit="character" extent="unknown"/>
+		<lb n="2"/><gap reason="lost" unit="character" extent="unknown"/> <w lemma="ὁ"><unclear reason="damage">τ</unclear>ὸν</w> <persName key="saint" type="divine"><w lemma="ἅγιος">ἅγιον</w></persName> <gap reason="lost" unit="character" extent="unknown"/>
 		</ab>
       </div>
          <div type="translation">

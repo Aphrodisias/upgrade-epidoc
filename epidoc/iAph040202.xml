@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Verse</rs>
-               <rs type="textType">honours</rs>: i. for Ampelios, father of the city; ii. and iii. for Doulkitios, <rs type="personType">governor</rs>, on the Agora Gate</title>
+            <title>Verse honours: i. for Ampelios, father of the city; ii. and iii. for Doulkitios, governor, on the Agora Gate</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -133,7 +131,7 @@
 		</div>
 		<div n="ii" type="textpart" subtype="section">
 			<lg>
-			<lb n="1"/><l n="1"><w lemma="καί">καὶ</w> <w lemma="ὅδε">τόδε</w> <persName type="divine"><name nymRef="#Νύμφη"><w lemma="νύμφη"><supplied reason="lost">Νυμφάων</supplied></w></name></persName> <w lemma="τέμενος"><supplied reason="lost">τ</supplied>έμενος</w> <orig n="unresolved">κ</orig><gap extent="5" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">λ</unclear></orig><gap extent="1" reason="illegible" unit="character"/> <w lemma="ἐγείρω">ἔγειρε</w></l>
+			<lb n="1"/><l n="1"><w lemma="καί">καὶ</w> <w lemma="ὅδε">τόδε</w> <persName type="divine"><name nymRef="#Νύμφη"><w lemma="νύμφη"><supplied reason="lost">Νυμφάων</supplied></w></name></persName> <w lemma="τέμενος"><supplied reason="lost">τ</supplied>έμενος</w> <orig n="unresolved">κ</orig><gap reason="lost" unit="character" quantity="5"/><orig n="unresolved"><unclear reason="damage">λ</unclear></orig><gap reason="illegible" unit="character" quantity="1"/> <w lemma="ἐγείρω">ἔγειρε</w></l>
 			<lb n="2"/><l n="2" met="pentameter"><persName key="Dulcitius" type="attested"><name nymRef="#Δουλκίτιος">Δουλκί<supplied cert="low" reason="lost">τιος</supplied></name></persName> <w lemma="κτίστης"><supplied reason="lost" cert="low">κτίστη</supplied>ς</w> <w lemma="ὁ">τῆς</w> <placeName nymRef="#Ἀφροδισίας"><choice><corr>Ἀ</corr><sic>Λ</sic></choice>φ<supplied reason="lost">ρ</supplied><unclear reason="damage">ο</unclear>δισιάδος</placeName></l>
 			<lb n="3"/><l n="3"><w lemma="οὐδείς">οὐδὲν</w> <w lemma="φείδομαι"><supplied reason="lost">φεισάμενος</supplied></w> <w lemma="πλοῦτος">πλούτου</w> <w lemma="δόξα">δόξης</w> <w lemma="χάρις">χάριν</w> <w lemma="ἐσθλός">ἐσθλῆς</w>·</l>
 			<lb n="4"/><l n="4" met="pentameter"><w lemma="ὅδε">ἥδε</w> <w lemma="γάρ">γὰρ</w> <w lemma="ἀίδιος"><supplied reason="lost">ἀίδ</supplied><unclear reason="damage">ι</unclear>ον</w> <w lemma="μνῆμα">μ<supplied reason="lost">ν</supplied>ῆμα</w> <w lemma="βροτός">βροτοῖσιν</w> <w lemma="πέλω">πέλει</w>.</l>

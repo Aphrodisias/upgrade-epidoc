@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Honours</rs> for <supplied reason="lost" cert="low">Apol</supplied>lonios <supplied reason="lost" cert="low">son of </supplied> Eidaios</title>
+            <title>Honours for <supplied reason="lost" cert="low">Apol</supplied>lonios <supplied reason="lost" cert="low">son of </supplied> Eidaios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,7 +107,7 @@ First to second centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">δ<unclear reason="damage">ιιλ</unclear></orig><gap reason="lost" extent="1" unit="character"/>  <lb n="2"/><persName type="attested"><name nymRef="#Ἀπολλώνιος"><gap reason="lost" extent="unknown" unit="character"/><supplied reason="lost">Ἀπο</supplied><unclear reason="damage">λ</unclear>ωνιο<lb n="3" break="no"/><gap reason="lost" extent="unknown" unit="character"/></name></persName> <orig n="unresolved"><unclear reason="damage">ο</unclear>υ</orig>  <w>χρυ<lb n="4" break="no"/><gap reason="lost" extent="unknown" unit="character"/></w> <persName type="attested"><name nymRef="#Εἰδαῖος">Εἰδαίου</name></persName>  <lb n="5"/><w><gap reason="lost" extent="unknown" unit="character"/>ατρος</w>  <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <space unit="line" dim="vertical"/> </ab>
+<ab><lb n="1"/>  <gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">δ<unclear reason="damage">ιιλ</unclear></orig><gap reason="lost" unit="character" quantity="1"/>  <lb n="2"/><persName type="attested"><name nymRef="#Ἀπολλώνιος"><gap reason="lost" unit="character" extent="unknown"/><supplied reason="lost">Ἀπο</supplied><unclear reason="damage">λ</unclear>ωνιο<lb n="3" break="no"/><gap reason="lost" unit="character" extent="unknown"/></name></persName> <orig n="unresolved"><unclear reason="damage">ο</unclear>υ</orig>  <w>χρυ<lb n="4" break="no"/><gap reason="lost" unit="character" extent="unknown"/></w> <persName type="attested"><name nymRef="#Εἰδαῖος">Εἰδαίου</name></persName>  <lb n="5"/><w><gap reason="lost" unit="character" extent="unknown"/>ατρος</w>  <lb n="6"/><gap reason="lost" unit="character" extent="unknown"/> <space unit="line" dim="vertical"/> </ab>
 </div>
          <div type="apparatus">
             <p> l. 2, <foreign xml:lang="grc">

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragment from ?<rs type="textType">honours</rs>
-            </title>
+            <title>Fragment from ?honours</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,7 +107,7 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)</origDate>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/><orig n="unresolved"><unclear reason="damage">εθ</unclear>εμ</orig><gap extent="1" reason="illegible" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>  <persName type="attested"><name nymRef="#Ὑψικλῆς"><supplied reason="lost" cert="low">Ὑψ</supplied>  <lb n="2" break="no"/>ικλέου<supplied reason="lost">ς</supplied></name></persName>  <gap reason="lost" extent="unknown" unit="character"/></ab>
+<ab><lb n="0"/><gap reason="lost" unit="line" extent="unknown"/>  <lb n="1"/><orig n="unresolved"><unclear reason="damage">εθ</unclear>εμ</orig><gap reason="illegible" unit="character" quantity="1"/><gap reason="lost" unit="character" extent="unknown"/>  <persName type="attested"><name nymRef="#Ὑψικλῆς"><supplied reason="lost" cert="low">Ὑψ</supplied>  <lb n="2" break="no"/>ικλέου<supplied reason="lost">ς</supplied></name></persName>  <gap reason="lost" unit="character" extent="unknown"/></ab>
 </div>
          <div type="translation" n="none">
             <p>None</p>

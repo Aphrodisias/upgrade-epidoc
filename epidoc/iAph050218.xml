@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Tatianos, <rs type="personType">governor</rs>, <rs type="textType" reg="honours">restores the statue of</rs> Tatianos, PPO; <rs type="textType">verse</rs>
-            </title>
+            <title>Tatianos, governor, restores the statue of Tatianos, PPO; verse</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> inscription for Aurelius Neikois</title>
+            <title>Funerary inscription for Aurelius Neikois</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -110,11 +109,11 @@ Third century A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <orig n="unresolved">η<unclear reason="damage">γο</unclear>ω</orig><gap reason="lost" extent="5" unit="character"/><orig n="unresolved"><unclear reason="damage">ΙΝ</unclear></orig>  <gap reason="lost" extent="1" unit="character"/><orig n="unresolved"><unclear reason="damage">Ο</unclear>ΠΟΤΑΝ</orig> <w lemma="συγχώρησις">συνχωρήσιν</w> <lb n="2"/> <w lemma="μετακομίζω">μετακομισθῆναι</w> <lb n="3"/> <persName type="attested"><name nymRef="#Αὐρήλιος">Αὐρήλιος</name> <name nymRef="#Νεικοις">Νεικοις</name></persName> <lb n="4"/> <w lemma="ὁ">ὁ</w> <w lemma="πρόμοιρος">πρόμοιρος</w> <w lemma="υἱός">υἱὸς</w> <lb n="5"/> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Κλαυδία">Κλαυδία</name> <name nymRef="#Ἰουλία">Ἰο<unclear reason="damage">υ</unclear>λί<unclear reason="damage">α</unclear></name>   <name nymRef="#Ἀσκωνίς"><supplied reason="lost" cert="low">Ἀσ</supplied><lb n="6" break="no"/>κωνις</name></persName> <w lemma="ὁ">ἡ</w> <w lemma="γίγνομαι">γενο<supplied reason="lost">μένη</supplied></w>  <lb n="7"/> <w lemma="ὁ">τοῦ</w> <w lemma="υἱός">υἱοῦ</w> <orig n="unresolved"><unclear reason="damage">Υ</unclear></orig><gap reason="lost" extent="6" unit="character"/>  <lb n="7a"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
+<ab><lb n="1"/>  <orig n="unresolved">η<unclear reason="damage">γο</unclear>ω</orig><gap reason="lost" unit="character" quantity="5"/><orig n="unresolved"><unclear reason="damage">ΙΝ</unclear></orig>  <gap reason="lost" unit="character" quantity="1"/><orig n="unresolved"><unclear reason="damage">Ο</unclear>ΠΟΤΑΝ</orig> <w lemma="συγχώρησις">συνχωρήσιν</w> <lb n="2"/> <w lemma="μετακομίζω">μετακομισθῆναι</w> <lb n="3"/> <persName type="attested"><name nymRef="#Αὐρήλιος">Αὐρήλιος</name> <name nymRef="#Νεικοις">Νεικοις</name></persName> <lb n="4"/> <w lemma="ὁ">ὁ</w> <w lemma="πρόμοιρος">πρόμοιρος</w> <w lemma="υἱός">υἱὸς</w> <lb n="5"/> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Κλαυδία">Κλαυδία</name> <name nymRef="#Ἰουλία">Ἰο<unclear reason="damage">υ</unclear>λί<unclear reason="damage">α</unclear></name>   <name nymRef="#Ἀσκωνίς"><supplied reason="lost" cert="low">Ἀσ</supplied><lb n="6" break="no"/>κωνις</name></persName> <w lemma="ὁ">ἡ</w> <w lemma="γίγνομαι">γενο<supplied reason="lost">μένη</supplied></w>  <lb n="7"/> <w lemma="ὁ">τοῦ</w> <w lemma="υἱός">υἱοῦ</w> <orig n="unresolved"><unclear reason="damage">Υ</unclear></orig><gap reason="lost" unit="character" quantity="6"/>  <lb n="7a"/><gap reason="lost" unit="line" extent="unknown"/>  </ab>
 </div>
          <div type="translation">
             <p>
-               <gap extent="unknown" reason="lost" unit="character"/> permission for also to be buried Aurelius Neikois, his son, who died early, and Claudia Julia [As]konis who was [?the wife] of his son <gap extent="unknown" reason="lost" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/> permission for also to be buried Aurelius Neikois, his son, who died early, and Claudia Julia [As]konis who was [?the wife] of his son <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary" n="none">

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Eustochios, <seg cert="low">responsible for <rs type="textType" reg="building inscription">building work</rs>
-               </seg>
+            <title>Eustochios, <seg cert="low">responsible for building work</seg>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -111,7 +110,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
 		<ab>
-		<lb n="1"/><milestone unit="block"/> <space dim="horizontal"/> <persName key="Eustochius" type="attested"><name nymRef="#Εὐστόχιος">Εὐστόχιος</name></persName> <milestone unit="block"/><lb n="1a"/><gap reason="lost" extent="unknown" unit="line"/></ab>
+		<lb n="1"/><milestone unit="block"/> <space dim="horizontal"/> <persName key="Eustochius" type="attested"><name nymRef="#Εὐστόχιος">Εὐστόχιος</name></persName> <milestone unit="block"/><lb n="1a"/><gap reason="lost" unit="line" extent="unknown"/></ab>
       </div>
          <div type="translation">
             <ab>Eustochios</ab>

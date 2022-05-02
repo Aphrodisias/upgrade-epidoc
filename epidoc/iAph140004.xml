@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> inscription for Aimilia Meltine wife of Alexandros</title>
+            <title>Funerary inscription for Aimilia Meltine wife of Alexandros</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -105,7 +104,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
 
-<ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="σορός">σορός</w> <w lemma="εἰμί">ἐστὶν</w> <persName type="attested"><name nymRef="#Αἰμιλία">Αἰμιλίας</name>  <name nymRef="#Μελιτίνη">Μελτίνης</name> <w lemma="ὁ">τῆς</w> <persName type="attested"><name nymRef="#Ἀλέξανδρος">Ἀλεξάνδρου</name></persName></persName>  <orig n="unresolved">το</orig><gap unit="character" extent="unknown" reason="lost"/>  <lb n="2"/><space extent="20" unit="character" dim="horizontal"/>  <w lemma="ζάω">ζ<space extent="20" unit="character" dim="horizontal"/><supplied reason="lost">ῆ</supplied></w>  <supplied reason="lost"><space extent="20" unit="character" dim="horizontal"/></supplied></ab>
+<ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="σορός">σορός</w> <w lemma="εἰμί">ἐστὶν</w> <persName type="attested"><name nymRef="#Αἰμιλία">Αἰμιλίας</name>  <name nymRef="#Μελιτίνη">Μελτίνης</name> <w lemma="ὁ">τῆς</w> <persName type="attested"><name nymRef="#Ἀλέξανδρος">Ἀλεξάνδρου</name></persName></persName>  <orig n="unresolved">το</orig><gap unit="character" reason="lost" extent="unknown"/>  <lb n="2"/><space extent="20" unit="character" dim="horizontal"/>  <w lemma="ζάω">ζ<space extent="20" unit="character" dim="horizontal"/><supplied reason="lost">ῆ</supplied></w>  <supplied reason="lost"><space extent="20" unit="character" dim="horizontal"/></supplied></ab>
 </div>
          <div type="apparatus">
             <p>l. 1, the last two surviving letters may be from the article <foreign xml:lang="grc">το<supplied reason="lost">ῦ</supplied>
@@ -113,7 +112,7 @@
             <p>l. 2, the <foreign xml:lang="grc">Ζ</foreign> is cut on a projection such as commonly features on sarcophagus lids, and will have been completed on a second projection.</p>
          </div>
          <div type="translation">
-            <p>The sarcophagus belongs to Aimilia Meltine <supplied reason="subaudible">wife</supplied> of Alexandros son of <gap unit="character" extent="unknown" reason="lost"/>
+            <p>The sarcophagus belongs to Aimilia Meltine <supplied reason="subaudible">wife</supplied> of Alexandros son of <gap unit="character" reason="lost" extent="unknown"/>
             </p>
             <p>She lives.</p>
          </div>

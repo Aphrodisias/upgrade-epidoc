@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType" reg="prohibition">Warning</rs> against theft</title>
+            <title>Warning against theft</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,7 +107,7 @@ Second to third centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/> <w lemma="ἐάν">ἐάν</w> <w lemma="τις">τις</w> <w lemma="ἔχω">ἔχων</w> <lb n="2"/> <w lemma="χαλκός">χαλκὸν</w> <w lemma="μή">μὴ</w> <w lemma="παραδείκνυμι"><choice type="correction"><sic resp="ιι"/><corr>π</corr></choice>α<lb n="3" break="no"/>ραδείξῃ</w>  <w lemma="ἤτε">ἢτε</w> <w lemma="ἐν">ἐν</w> <lb n="4"/> <w lemma="φοῦνδα">φούνδῃ</w> <w lemma="ἤτε">ἢτε</w> <w lemma="ἐν">ἐν</w> <lb n="5"/> <w lemma="κάμπιστρον">καμπίστρῳ</w> <w lemma="αὐτός">αὐ<lb n="6" break="no"/>τὸν</w>  <w lemma="αἰτιάομαι">αἰτιάσεται</w> </ab>
+<ab><lb n="1"/> <w lemma="ἐάν">ἐάν</w> <w lemma="τις">τις</w> <w lemma="ἔχω">ἔχων</w> <lb n="2"/> <w lemma="χαλκός">χαλκὸν</w> <w lemma="μή">μὴ</w> <w lemma="παραδείκνυμι"><choice><sic resp="ιι"/><corr>π</corr></choice>α<lb n="3" break="no"/>ραδείξῃ</w>  <w lemma="ἤτε">ἢτε</w> <w lemma="ἐν">ἐν</w> <lb n="4"/> <w lemma="φοῦνδα">φούνδῃ</w> <w lemma="ἤτε">ἢτε</w> <w lemma="ἐν">ἐν</w> <lb n="5"/> <w lemma="κάμπιστρον">καμπίστρῳ</w> <w lemma="αὐτός">αὐ<lb n="6" break="no"/>τὸν</w>  <w lemma="αἰτιάομαι">αἰτιάσεται</w> </ab>
 </div>
          <div type="apparatus">
             <p>l. 2, <foreign xml:lang="grc">ΙΙ</foreign> for <foreign xml:lang="grc">Π</foreign>.</p>

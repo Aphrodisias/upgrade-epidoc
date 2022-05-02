@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Building inscription</rs>: restoration of building by ?Eusebes</title>
+            <title>Building inscription: restoration of building by ?Eusebes</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -107,17 +106,17 @@ Second century A.D. (<rs type="criteria">lettering</rs>).</origDate>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>    <gap reason="lost" extent="unknown" unit="character"/>  <w lemma="καί"><supplied reason="lost">κ</supplied>αὶ</w> <w lemma="ὁ">τὰ</w> <w lemma="ἐν">ἐν</w> <w lemma="αὐτός">αὐτοῖς</w> <w lemma="πᾶς">πάντα</w> <g ref="#stop"/>    <persName type="attested"><name nymRef="#Εὐσεβής">Εὐσέ<supplied reason="lost" cert="low">βης</supplied></name></persName>  <gap reason="lost" extent="unknown" unit="character"/><lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>  <w lemma="συμφέρω"><supplied reason="lost" cert="low">συν</supplied>ενεχθέντα</w> <w lemma="καί">καὶ</w> <w lemma="συντρίβω">συντριβέντα</w> <gap reason="lost" extent="unknown" unit="character"/></ab>
+<ab><lb n="1"/>    <gap reason="lost" unit="character" extent="unknown"/>  <w lemma="καί"><supplied reason="lost">κ</supplied>αὶ</w> <w lemma="ὁ">τὰ</w> <w lemma="ἐν">ἐν</w> <w lemma="αὐτός">αὐτοῖς</w> <w lemma="πᾶς">πάντα</w> <g ref="#stop"/>    <persName type="attested"><name nymRef="#Εὐσεβής">Εὐσέ<supplied reason="lost" cert="low">βης</supplied></name></persName>  <gap reason="lost" unit="character" extent="unknown"/><lb n="2"/><gap reason="lost" unit="character" extent="unknown"/>  <w lemma="συμφέρω"><supplied reason="lost" cert="low">συν</supplied>ενεχθέντα</w> <w lemma="καί">καὶ</w> <w lemma="συντρίβω">συντριβέντα</w> <gap reason="lost" unit="character" extent="unknown"/></ab>
 </div>
          <div type="apparatus">
             <p> l. 1, the end of the line seems likely to have begun the name of the donor/dedicator as supplemented above; but it has been conjectured to have carried some other formula e.g.  εὐσε<supplied reason="lost">βως</supplied>
-               <gap extent="unknown" reason="lost" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="translation">
             <p>
-               <gap reason="lost" extent="unknown" unit="character"/> and everything in (or on) them. Euse<supplied reason="lost" cert="low">bes</supplied>
-               <gap reason="lost" unit="character" extent="unknown"/> (son of ? ) made/gave them (e.g. the People) <gap reason="lost" extent="unknown" unit="character"/> things having been ?brought together and ?crushed together <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/> and everything in (or on) them. Euse<supplied reason="lost" cert="low">bes</supplied>
+               <gap reason="lost" unit="character" extent="unknown"/> (son of ? ) made/gave them (e.g. the People) <gap reason="lost" unit="character" extent="unknown"/> things having been ?brought together and ?crushed together <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary">

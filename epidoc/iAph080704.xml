@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Revetment fragment, <rs type="textType" cert="low">honours</rs>
-            </title>
+            <title>Revetment fragment, honours</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,7 +107,7 @@ Second to third centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <persName type="attested"><name nymRef="#Αὐρήλιος"><unclear reason="damage">Αὐρη</unclear><supplied reason="lost">λι</supplied>  <gap reason="lost" extent="unknown" unit="character"/></name></persName>  <lb n="1a"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
+<ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/> <persName type="attested"><name nymRef="#Αὐρήλιος"><unclear reason="damage">Αὐρη</unclear><supplied reason="lost">λι</supplied>  <gap reason="lost" unit="character" extent="unknown"/></name></persName>  <lb n="1a"/><gap reason="lost" unit="line" extent="unknown"/>  </ab>
 </div>
          <div type="translation" n="none">
             <p>none</p>

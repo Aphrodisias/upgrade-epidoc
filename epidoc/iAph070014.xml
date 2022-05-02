@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Honours</rs> for anonymous</title>
+            <title>Honours for anonymous</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -109,10 +108,10 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="character"/>  <space extent="1" unit="line" dim="vertical"/>  <lb n="1"/><persName type="attested"><name><gap reason="lost" extent="unknown" unit="character"/>μιανοῦ</name></persName> <gap reason="lost" extent="2" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="βουλή">βουλῆς</w>  <gap reason="lost" extent="2" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><w lemma="ἱερεύς"><supplied reason="lost">ἱ</supplied>ερέως</w>  <gap reason="lost" extent="2" unit="character"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>  <space extent="1" unit="line" dim="vertical"/>  </ab>
+<ab><lb n="0"/>  <gap reason="lost" unit="character" extent="unknown"/>  <space extent="1" unit="line" dim="vertical"/>  <lb n="1"/><persName type="attested"><name><gap reason="lost" unit="character" extent="unknown"/>μιανοῦ</name></persName> <gap reason="lost" unit="character" quantity="2"/>  <lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><w lemma="βουλή">βουλῆς</w>  <gap reason="lost" unit="character" quantity="2"/>  <lb n="3"/><gap reason="lost" unit="character" extent="unknown"/><w lemma="ἱερεύς"><supplied reason="lost">ἱ</supplied>ερέως</w>  <gap reason="lost" unit="character" quantity="2"/>  <lb n="4"/><gap reason="lost" unit="character" extent="unknown"/>  <space extent="1" unit="line" dim="vertical"/>  </ab>
 </div>
          <div type="translation">
-            <p>[ . . .  of ?]mianos [ . . . of the ] Council <gap extent="unknown" reason="lost" unit="character"/>
+            <p>[ . . .  of ?]mianos [ . . . of the ] Council <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary">

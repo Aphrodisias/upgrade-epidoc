@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType" cert="low">Funerary</rs> fragment</title>
+            <title>Funerary fragment</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -107,12 +106,12 @@ First to fourth centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>  <lb n="2"/> ΝΙ <w lemma="διά">διὰ</w> <w lemma="ὁ">τοῦ</w> <w lemma="χρεωφυλάκιον"><supplied reason="lost">χρεοφυλακίου</supplied></w>  <lb n="3"/> <w lemma="ὁ">ἡ</w> <w lemma="γυνή">γυνὴ</w> <w lemma="αὐτός">αὐ<supplied reason="lost">τοῦ</supplied></w>  <lb n="4"/><w lemma="ὁ"><supplied reason="lost">τ</supplied>ὰ</w>  <w lemma="σωματεῖον">σωμάτε<supplied reason="lost">ια</supplied></w>  <lb n="5"/><supplied reason="lost"><w lemma="ὁ">τὰ</w></supplied> <supplied reason="lost"><w lemma="ὑπό">ὑπ'</w></supplied> <w lemma="αὐτός"><supplied reason="lost">αὐτ</supplied>οῦ</w> <w lemma="διατάσσω">διατε<supplied reason="lost">ταγμένα</supplied></w>  <lb n="6"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
+<ab><lb n="1"/><gap reason="lost" unit="line" extent="unknown"/>  <lb n="2"/> ΝΙ <w lemma="διά">διὰ</w> <w lemma="ὁ">τοῦ</w> <w lemma="χρεωφυλάκιον"><supplied reason="lost">χρεοφυλακίου</supplied></w>  <lb n="3"/> <w lemma="ὁ">ἡ</w> <w lemma="γυνή">γυνὴ</w> <w lemma="αὐτός">αὐ<supplied reason="lost">τοῦ</supplied></w>  <lb n="4"/><w lemma="ὁ"><supplied reason="lost">τ</supplied>ὰ</w>  <w lemma="σωματεῖον">σωμάτε<supplied reason="lost">ια</supplied></w>  <lb n="5"/><supplied reason="lost"><w lemma="ὁ">τὰ</w></supplied> <supplied reason="lost"><w lemma="ὑπό">ὑπ'</w></supplied> <w lemma="αὐτός"><supplied reason="lost">αὐτ</supplied>οῦ</w> <w lemma="διατάσσω">διατε<supplied reason="lost">ταγμένα</supplied></w>  <lb n="6"/><gap reason="lost" unit="line" extent="unknown"/>  </ab>
 </div>
          <div type="translation">
             <p>
-               <gap extent="unknown" reason="lost" unit="character"/> his wife <gap extent="unknown" reason="lost" unit="character"/> the tombs [ . . .] <seg cert="low">instructions</seg>
-               <gap extent="unknown" reason="lost" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/> his wife <gap reason="lost" unit="character" extent="unknown"/> the tombs [ . . .] <seg cert="low">instructions</seg>
+               <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary">

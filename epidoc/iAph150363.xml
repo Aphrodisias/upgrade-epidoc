@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Theophylaktos, imperial judge, <rs type="textType" reg="testament">witnesses a document</rs>
-            </title>
+            <title>Theophylaktos, imperial judge, witnesses a document</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -111,9 +110,9 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
 		<ab>
-		<lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>
-		<lb n="1"/><gap extent="5" reason="lost" unit="character"/><orig n="unresolved">ιονανονυ</orig>
-		<lb n="2"/><orig n="unresolved">μον</orig><gap extent="1" reason="lost" unit="character"/><orig n="unresolved">νεμν</orig>
+		<lb n="0"/><gap reason="lost" unit="line" extent="unknown"/>
+		<lb n="1"/><gap reason="lost" unit="character" quantity="5"/><orig n="unresolved">ιονανονυ</orig>
+		<lb n="2"/><orig n="unresolved">μον</orig><gap reason="lost" unit="character" quantity="1"/><orig n="unresolved">νεμν</orig>
 		<lb n="3"/><w lemma="ὁ">τῶν</w> <w lemma="γίγνομαι">γενομένων</w>
 		<lb n="4"/><w lemma="καί">κὲ</w> <w lemma="κυρόω">κυρ<supplied reason="lost">ωθ</supplied>έν<supplied reason="lost">τ</supplied>ων</w>
 		<lb n="5"/><w lemma="ἐπί">ἐπὶ</w> <persName key="Theophylact1" type="attested"><name nymRef="#Θεοφύλακτος">Θεοφυλάκ<unclear reason="damage">τ</unclear><hi rend="ligature">ου</hi></name></persName>
@@ -122,9 +121,9 @@
 		<lb n="8"/><w lemma="καί">καὶ</w> <rs type="official-secul" key="pedaneusiudex"><w lemma="θεῖος">θίου</w> <w lemma="δικαστής">δικαστοῦ</w></rs>
 		<lb n="9"/><date><w lemma="ἰνδικτιών"><expan><abbr>ἰνδ</abbr><ex>ικτιῶνος</ex></expan></w> <num value="15"><hi rend="supraline">ιε</hi></num> <w lemma="μείς"><expan><abbr>μη</abbr><ex>νὸς</ex></expan></w></date> <num value="1"><hi rend="supraline">α</hi></num>
 		<lb n="10"/><persName key="theocharistus" type="attested"><name>Θεοχάριστος</name></persName>
-		<lb n="11"/><persName key="achaeius" type="attested"><name>Ἀχαείου</name></persName> <gap extent="4" reason="lost" unit="character"/>
-		<lb n="12"/><gap extent="1" reason="lost" unit="line"/>
-		<lb n="13"/><gap extent="5" reason="lost" unit="character"/> <persName key="nounechius" type="attested"><name nymRef="#Νουνέχιος">Νου<supplied reason="lost">ν</supplied><unclear reason="damage">έ</unclear>χ<supplied reason="lost">ι</supplied>ος</name></persName>
+		<lb n="11"/><persName key="achaeius" type="attested"><name>Ἀχαείου</name></persName> <gap reason="lost" unit="character" quantity="4"/>
+		<lb n="12"/><gap reason="lost" unit="line" quantity="1"/>
+		<lb n="13"/><gap reason="lost" unit="character" quantity="5"/> <persName key="nounechius" type="attested"><name nymRef="#Νουνέχιος">Νου<supplied reason="lost">ν</supplied><unclear reason="damage">έ</unclear>χ<supplied reason="lost">ι</supplied>ος</name></persName>
 		<lb n="14"/><persName key="phaboulius" type="attested"><name nymRef="#Φαβούλιος">Φαβουλίου</name></persName>,
 		<lb n="15"/><persName key="Procopius1" type="attested"><name nymRef="#Προκόπιος">Προκόπιος</name></persName> <w lemma="καί"><supplied reason="lost" cert="low">καὶ</supplied></w>
 		<lb n="16"/><persName key="Theodorus1" type="attested"><name nymRef="#Θεόδορος">Θεόδορος</name></persName> <rs type="official-relig" key="lector"><w lemma="ἀναγνώστης">ἀνα

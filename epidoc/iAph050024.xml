@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Acclamation</rs>s for <rs type="personType" reg="emperor">imperial</rs> family, and a New Theodosius </title>
+            <title>Acclamations for imperial family, and a New Theodosius </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -123,7 +122,7 @@
         
 		
 		<div n="i" type="textpart" subtype="section"><note place="not specified" xml:lang=""/><ab>
-		<lb n="1"/><unclear reason="damage"><g ref="#scroll"/></unclear><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage"><g ref="#scroll"/></unclear>
+		<lb n="1"/><unclear reason="damage"><g ref="#scroll"/></unclear><gap reason="lost" unit="character" extent="unknown"/><unclear reason="damage"><g ref="#scroll"/></unclear>
 		<lb n="2"/><g ref="#cross"/> <rs type="subject" key="acclamations"><w lemma="νικάω">νι<supplied reason="lost">κᾷ</supplied></w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w></rs>
 		<lb n="3"/><w lemma="ὁ">τοῦ</w> <rs type="official-secul" key="princeps"><w lemma="βασιλεύς">β<supplied reason="lost">ασι</supplied>λέως</w></rs>·
 		<lb n="4"/><rs key="acclamations" type="subject"><w lemma="νικάω">νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τ<supplied reason="lost">ύ</supplied>χη</w></rs> <w lemma="ὁ">τῆς</w>
@@ -133,28 +132,28 @@
 		
 		
 		<div n="ii" type="textpart" subtype="section"><note place="not specified" xml:lang=""/><ab>
-		<lb n="0"/><gap extent="2" unit="line" reason="lost"/>
-		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">λιι</unclear>ου</orig> <rs type="subject" key="acclamations"><w lemma="πολύς"><unclear reason="damage">π</unclear>ο<supplied reason="lost">λλὰ</supplied></w>
+		<lb n="0"/><gap unit="line" reason="lost" quantity="2"/>
+		<lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">λιι</unclear>ου</orig> <rs type="subject" key="acclamations"><w lemma="πολύς"><unclear reason="damage">π</unclear>ο<supplied reason="lost">λλὰ</supplied></w>
 		<lb n="2"/><w lemma="ὁ"><supplied reason="lost">τὰ</supplied></w> <w lemma="ἔτος"><supplied reason="lost">ἔτ</supplied><unclear reason="damage">η</unclear></w></rs>· <persName key="Christ" type="divine"><w lemma="υἱός">υἱὲ</w> <w lemma="θεός">θεοῦ</w></persName> <w lemma="ζωή">ζ<supplied reason="lost">ωὴν</supplied></w>
 		<lb n="3"/><w lemma="αὐτός"><supplied reason="lost">αὐτ</supplied>ῷ</w> <g ref="#stop"/> <rs type="subject" key="acclamations"><w lemma="νικάω">νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="πίστις">π<unclear reason="damage">ίσ</unclear><supplied reason="lost">τις</supplied></w>
-		<lb n="4"/><w lemma="ὁ"><supplied reason="lost">τῶν</supplied></w> <w lemma="χριστιανός">Χριστιανῶν</w></rs> <gap extent="1" unit="character" reason="lost"/>
-		<lb n="4a"/><gap reason="lost" extent="unknown" unit="character"/> <space dim="horizontal"/></ab></div>
+		<lb n="4"/><w lemma="ὁ"><supplied reason="lost">τῶν</supplied></w> <w lemma="χριστιανός">Χριστιανῶν</w></rs> <gap unit="character" reason="lost" quantity="1"/>
+		<lb n="4a"/><gap reason="lost" unit="character" extent="unknown"/> <space dim="horizontal"/></ab></div>
 		
 		
 		<div n="iii" type="textpart" subtype="section"><note place="not specified" xml:lang=""/><ab>
-		<lb n="0"/><gap extent="2" unit="line" reason="lost"/>
-		<lb n="1"/><w lemma="ἐπί"><unclear reason="damage">ἐπ</unclear>ὶ</w> <persName key="o1" type="attested"><name><orig n="unresolved">ο</orig></name><gap extent="1" unit="character" reason="lost"/></persName>
-		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="πατήρ"><supplied reason="lost">πα</supplied>τρός</w>, <date><w lemma="ἰνδικτιών">ἰνδικτίωνος</w> <gap reason="lost" extent="unknown" unit="character"/></date>
-		<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ρασ</orig> <space dim="horizontal"/>
-		<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ιλ</unclear></orig> <space dim="horizontal"/> <g ref="#scroll"/>
+		<lb n="0"/><gap unit="line" reason="lost" quantity="2"/>
+		<lb n="1"/><w lemma="ἐπί"><unclear reason="damage">ἐπ</unclear>ὶ</w> <persName key="o1" type="attested"><name><orig n="unresolved">ο</orig></name><gap unit="character" reason="lost" quantity="1"/></persName>
+		<lb n="2"/><gap reason="lost" unit="character" extent="unknown"/> <w lemma="πατήρ"><supplied reason="lost">πα</supplied>τρός</w>, <date><w lemma="ἰνδικτιών">ἰνδικτίωνος</w> <gap reason="lost" unit="character" extent="unknown"/></date>
+		<lb n="3"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">ρασ</orig> <space dim="horizontal"/>
+		<lb n="4"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">ιλ</unclear></orig> <space dim="horizontal"/> <g ref="#scroll"/>
 		<lb n="4a"/><g ref="#scroll"/></ab>
 		
 		
 		</div><div n="iv" type="textpart" subtype="section"><note place="not specified" xml:lang=""/><ab>
-		<lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ι</orig>
-		<lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">υ</orig>
-		<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">λ</unclear></orig>
-		<lb n="3a"/><gap reason="lost" extent="unknown" unit="line"/>
+		<lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">ι</orig>
+		<lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">υ</orig>
+		<lb n="3"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">λ</unclear></orig>
+		<lb n="3a"/><gap reason="lost" unit="line" extent="unknown"/>
 		</ab></div>
 		
 	  </div>
@@ -165,11 +164,11 @@
 		ala2004: but see commentary below.</p>
          </div>
          <div type="translation">
-            <p>i. <gap reason="lost" extent="unknown" unit="character"/> The fortune of the emperor triumphs! The fortune of the empress triumphs! Many years for the new Theodosius!</p>
-            <p>ii. <gap reason="lost" extent="unknown" unit="character"/> Many years <gap reason="lost" extent="unknown" unit="character"/>! Son of God, grant him life! The faith of the Christians triumphs!</p>
-            <p>iii. <gap reason="lost" extent="unknown" unit="character"/>
+            <p>i. <gap reason="lost" unit="character" extent="unknown"/> The fortune of the emperor triumphs! The fortune of the empress triumphs! Many years for the new Theodosius!</p>
+            <p>ii. <gap reason="lost" unit="character" extent="unknown"/> Many years <gap reason="lost" unit="character" extent="unknown"/>! Son of God, grant him life! The faith of the Christians triumphs!</p>
+            <p>iii. <gap reason="lost" unit="character" extent="unknown"/>
                <supplied reason="lost" cert="low">this work was done</supplied> under <orig n="unresolved">O</orig>
-               <gap reason="lost" extent="unknown" unit="character"/>, <term xml:lang="la">pater</term>, in the <gap reason="lost" extent="unknown" unit="character"/> indiction <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/>, <term xml:lang="la">pater</term>, in the <gap reason="lost" unit="character" extent="unknown"/> indiction <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary">

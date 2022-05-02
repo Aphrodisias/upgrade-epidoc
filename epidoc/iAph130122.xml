@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title> Fragment (<seg cert="low">of <rs type="textType">honours</rs>
-               </seg>) from city walls</title>
+            <title> Fragment (<seg cert="low">of honours</seg>) from city walls</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,7 +107,7 @@ First to third century A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/><gap reason="lost" extent="1" unit="character"/><orig n="unresolved"><unclear reason="damage">ξιι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><orig n="unresolved"><unclear reason="damage">α</unclear>νομ</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><orig n="unresolved"><unclear reason="damage">π</unclear>ολι</orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3a"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
+<ab><lb n="0"/>  <gap reason="lost" unit="line" extent="unknown"/>  <lb n="1"/><gap reason="lost" unit="character" quantity="1"/><orig n="unresolved"><unclear reason="damage">ξιι</unclear></orig><gap reason="lost" unit="character" extent="unknown"/><gap reason="lost" unit="character" quantity="3"/>  <lb n="2"/><orig n="unresolved"><unclear reason="damage">α</unclear>νομ</orig><gap reason="lost" unit="character" extent="unknown"/>  <lb n="3"/><orig n="unresolved"><unclear reason="damage">π</unclear>ολι</orig><gap reason="lost" unit="character" extent="unknown"/>  <lb n="3a"/><gap reason="lost" unit="line" extent="unknown"/>  </ab>
 </div>
          <div type="translation" sample="complete" org="uniform" n="none">
             <p> No words discernible.</p>

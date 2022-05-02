@@ -8,8 +8,7 @@
          <titleStmt>
             <title>
                <seg cert="low">Sewer cover</seg>
-               <seg cert="low">
-                  <rs type="textType" reg="prohibition">warning</rs> against filth</seg>
+               <seg cert="low">warning against filth</seg>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -123,12 +122,12 @@ abbreviation.</handNote>
         <ab>
 		  	<lb n="1"/><orig n="unresolved">ωτ<unclear reason="damage">ζ</unclear>η</orig>
 			<lb n="2"/> <w lemma="λάπη">λάπης</w> <orig n="unresolved"><unclear reason="damage">α</unclear></orig>
-			<lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">τσλ</orig><gap reason="lost" extent="1" unit="character"/>
-			<lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">σι</unclear>ω<unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="1" unit="character"/>
-			<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><abbr><am><unclear reason="damage">γ</unclear></am></abbr> <w lemma="ὁ">τ<hi rend="ligature">οῦ</hi></w> <abbr><am>τ</am></abbr> <gap reason="lost" extent="1" unit="character"/>
-			<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>θ<orig n="unresolved">κ<unclear reason="damage">δ</unclear></orig><gap reason="lost" extent="2" unit="character"/>
-			<lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">σ</orig><gap reason="lost" extent="unknown" unit="character"/>
-			<lb n="8"/> <gap reason="lost" extent="unknown" unit="line"/></ab>
+			<lb n="3"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">τσλ</orig><gap reason="lost" unit="character" quantity="1"/>
+			<lb n="4"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">σι</unclear>ω<unclear reason="damage">ι</unclear></orig><gap reason="lost" unit="character" quantity="1"/>
+			<lb n="5"/><gap reason="lost" unit="character" extent="unknown"/><abbr><am><unclear reason="damage">γ</unclear></am></abbr> <w lemma="ὁ">τ<hi rend="ligature">οῦ</hi></w> <abbr><am>τ</am></abbr> <gap reason="lost" unit="character" quantity="1"/>
+			<lb n="6"/><gap reason="lost" unit="character" extent="unknown"/>θ<orig n="unresolved">κ<unclear reason="damage">δ</unclear></orig><gap reason="lost" unit="character" quantity="2"/>
+			<lb n="7"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">σ</orig><gap reason="lost" unit="character" extent="unknown"/>
+			<lb n="8"/> <gap reason="lost" unit="line" extent="unknown"/></ab>
       </div>
          <div type="translation">
             <ab>

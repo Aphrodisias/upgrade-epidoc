@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Fragmentary <rs type="textType">
-                  <seg cert="low">honours</seg>
-               </rs>
+            <title>Fragmentary <seg cert="low">honours</seg>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -113,7 +111,7 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/>  <gap reason="lost" extent="3" unit="character"/>  <lb n="1"/><persName type="attested"><name><gap reason="lost" extent="3" unit="character"/>ίου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Ἄτταλος">Ἀττά<supplied reason="lost">λου</supplied></name></persName></persName>  <gap reason="lost" extent="3" unit="character"/><lb n="2"/><persName type="attested"><name><gap reason="lost" extent="3" unit="character"/><unclear reason="damage">ε</unclear>σσου</name></persName>  <g ref="#stop"/> <persName type="attested"><name>Ἀντ<gap reason="lost" extent="3" unit="character"/></name></persName></ab>
+<ab><lb n="0"/>  <gap reason="lost" unit="character" quantity="3"/>  <lb n="1"/><persName type="attested"><name><gap reason="lost" unit="character" quantity="3"/>ίου</name> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Ἄτταλος">Ἀττά<supplied reason="lost">λου</supplied></name></persName></persName>  <gap reason="lost" unit="character" quantity="3"/><lb n="2"/><persName type="attested"><name><gap reason="lost" unit="character" quantity="3"/><unclear reason="damage">ε</unclear>σσου</name></persName>  <g ref="#stop"/> <persName type="attested"><name>Ἀντ<gap reason="lost" unit="character" quantity="3"/></name></persName></ab>
 </div>
          <div type="apparatus">
             <p>l. 2, perhaps <foreign xml:lang="grc">

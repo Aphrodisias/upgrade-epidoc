@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType" reg="building inscription"/>
-               <rs type="textType" reg="prayer/invocation">Prayer</rs> of Theodoretos and Kyriakos</title>
+            <title>Prayer of Theodoretos and Kyriakos</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -120,7 +118,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
 		<ab>
-		<lb n="1"/><persName key="Gabriel" type="divine"><num><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">ι</unclear>ὴλ</num></persName> <w lemma="βοηθέω">βοήθησον</w> <w lemma="ὁ">τοῖς</w> <w lemma="δοῦλος">δούλοις</w> <w lemma="σύ">σου</w> <persName key="theodoretus1" type="attested"><name nymRef="#Θεοδώρητος">Θεοδωρήτῳ</name></persName> <w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <persName key="Cyriacus1" type="attested"><name nymRef="#Κυριακός">Κυριακῷ</name></persName> <g ref="#cross"/> <g ref="#leaf"/> <space dim="horizontal"/>
+		<lb n="1"/><persName key="Gabriel" type="divine"><num><gap reason="lost" unit="character" extent="unknown"/><unclear reason="damage">ι</unclear>ὴλ</num></persName> <w lemma="βοηθέω">βοήθησον</w> <w lemma="ὁ">τοῖς</w> <w lemma="δοῦλος">δούλοις</w> <w lemma="σύ">σου</w> <persName key="theodoretus1" type="attested"><name nymRef="#Θεοδώρητος">Θεοδωρήτῳ</name></persName> <w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <persName key="Cyriacus1" type="attested"><name nymRef="#Κυριακός">Κυριακῷ</name></persName> <g ref="#cross"/> <g ref="#leaf"/> <space dim="horizontal"/>
 		</ab>
       </div>
          <div type="translation">

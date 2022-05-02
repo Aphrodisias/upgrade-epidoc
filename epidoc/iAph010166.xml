@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType" cert="low">Funerary</rs> fragment from Temple</title>
+            <title>Funerary fragment from Temple</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,12 +107,12 @@ Second to third centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character"/> <w lemma="ἕτερος"><unclear reason="damage">ἑ</unclear>τέρου</w>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">αν</unclear></orig><gap reason="lost" extent="4" unit="character" precision="circa"/>  <lb n="2a"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
+<ab><lb n="1"/>  <gap reason="lost" unit="character" extent="unknown"/> <w lemma="ἕτερος"><unclear reason="damage">ἑ</unclear>τέρου</w>  <lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">αν</unclear></orig><gap reason="lost" unit="character" precision="low" quantity="4"/>  <lb n="2a"/><gap reason="lost" unit="line" extent="unknown"/>  </ab>
 </div>
          <div type="translation">
             <p>
-               <gap reason="lost" extent="unknown" unit="character"/>
-               <supplied reason="lost" cert="low">no one</supplied> else <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/>
+               <supplied reason="lost" cert="low">no one</supplied> else <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary" n="none">

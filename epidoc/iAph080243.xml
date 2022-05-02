@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>?<rs type="textType" cert="low">Honours</rs>
-            </title>
+            <title>?Honours</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -111,7 +110,7 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">Δ</unclear><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>ΙΑΣ  <persName type="attested"><name nymRef="#Ὑψικλίδης">Ὑψικλίδ<unclear reason="damage">ης</unclear></name></persName>  <lb n="3"/><gap reason="lost" extent="1" unit="character"/>  <persName type="attested"><name nymRef="#Αὐρηλία"><supplied reason="lost" cert="low">Αυρ</supplied><unclear reason="damage">η</unclear>λίας</name>  <name nymRef="#Ἰουλία">Ἰουλία<unclear reason="damage">ς</unclear></name>  <name nymRef="#Ἀπφία"><supplied reason="lost">Ἀ</supplied><unclear reason="damage">π</unclear>φ<supplied reason="lost">ί</supplied><unclear reason="damage">α</unclear>ς</name></persName>  <space extent="2"/><lb n="4"/><gap reason="lost" extent="unknown" unit="character"/>Σ <w lemma="θυγάτηρ">θυγατρός</w> <space extent="3" unit="character" dim="horizontal"/>  </ab>
+<ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><unclear reason="damage">Δ</unclear><gap reason="lost" unit="character" extent="unknown"/>  <lb n="2"/><gap reason="lost" unit="character" extent="unknown"/>ΙΑΣ  <persName type="attested"><name nymRef="#Ὑψικλίδης">Ὑψικλίδ<unclear reason="damage">ης</unclear></name></persName>  <lb n="3"/><gap reason="lost" unit="character" quantity="1"/>  <persName type="attested"><name nymRef="#Αὐρηλία"><supplied reason="lost" cert="low">Αυρ</supplied><unclear reason="damage">η</unclear>λίας</name>  <name nymRef="#Ἰουλία">Ἰουλία<unclear reason="damage">ς</unclear></name>  <name nymRef="#Ἀπφία"><supplied reason="lost">Ἀ</supplied><unclear reason="damage">π</unclear>φ<supplied reason="lost">ί</supplied><unclear reason="damage">α</unclear>ς</name></persName>  <space extent="2"/><lb n="4"/><gap reason="lost" unit="character" extent="unknown"/>Σ <w lemma="θυγάτηρ">θυγατρός</w> <space extent="3" unit="character" dim="horizontal"/>  </ab>
 </div>
          <div type="apparatus">
             <p>Above line 1, letter 4, there may be a trace of another letter, but it is very uncertain.</p>

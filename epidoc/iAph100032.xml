@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Seat inscriptions</rs>: Stadium Block 26</title>
+            <title>Seat inscriptions: Stadium Block 26</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -119,7 +118,7 @@ Second-sixth century A.D.
             <p>The last three letters are very lightly cut.</p>
          </div>
          <div type="translation">
-            <p>Row Y.ii: The fortune triumphs of the <gap extent="unknown" reason="lost" unit="character"/>
+            <p>Row Y.ii: The fortune triumphs of the <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary">

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Seat inscriptions</rs>: Theatre, Block J</title>
+            <title>Seat inscriptions: Theatre, Block J</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -137,9 +136,9 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>)
 <lb n="2"/>
 <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τῶν</w> <w lemma="βένετος">Βενέτων</w> 
 </ab></div><div n="15" type="textpart" subtype="section"><note xml:lang=""/></div><div n="16" type="textpart" subtype="section"><note xml:lang=""/></div><div n="17" type="textpart" subtype="section"><note xml:lang=""/></div><div n="18" type="textpart" subtype="section"><note xml:lang=""/></div><div n="19" type="textpart" subtype="section"><note xml:lang=""/></div><div n="20" type="textpart" subtype="section"><note xml:lang=""/></div><div n="23" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/>
-  <gap reason="lost" extent="3" precision="circa" unit="character"/><orig>μου</orig> <gap extent="3" precision="circa" reason="lost" unit="character"/> 
+  <gap reason="lost" unit="character" precision="low" quantity="3"/><orig>μου</orig> <gap reason="lost" unit="character" precision="low" quantity="3"/> 
 <lb n="2"/>
- <gap reason="lost" extent="3" precision="circa" unit="character"/><orig>φου</orig> <gap extent="3" precision="circa" reason="lost" unit="character"/></ab></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div></div><div n="26" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/>
+ <gap reason="lost" unit="character" precision="low" quantity="3"/><orig>φου</orig> <gap reason="lost" unit="character" precision="low" quantity="3"/></ab></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div></div><div n="26" type="textpart" subtype="section"><div n="i" type="textpart" subtype="column"><ab><lb n="1"/>
 <space extent="3" precision="circa"/> <milestone unit="block"/>    <w><unclear>μ</unclear>νίου</w> ΛΥ <milestone unit="block"/>    <space extent="3" precision="circa"/> </ab></div><div n="ii" type="textpart" subtype="column"><note xml:lang=""/></div>
 </div></div>
          <div type="translation">

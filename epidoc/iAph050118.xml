@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Building inscription</rs> of <rs type="personType" reg="governor">Helladios</rs>
-            </title>
+            <title>Building inscription of Helladios</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -119,7 +117,7 @@ continued onto an adjacent block.</layout>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
-<ab><lb n="1"/><space dim="horizontal" extent="1" unit="character"/> <w lemma="καί ἐγώ" type="crasis">κἀμὲ</w> <persName key="Helladius" type="attested"><name nymRef="#Ἑλλάδιος">Ἑλλάδιος</name></persName> <w lemma="ὁ">ὁ</w> <w lemma="ἁγνός">ἁγνό<unclear reason="damage">ς</unclear></w> <gap reason="lost" extent="unknown" unit="character"/></ab>
+<ab><lb n="1"/><space dim="horizontal" extent="1" unit="character"/> <w lemma="καί ἐγώ" type="crasis">κἀμὲ</w> <persName key="Helladius" type="attested"><name nymRef="#Ἑλλάδιος">Ἑλλάδιος</name></persName> <w lemma="ὁ">ὁ</w> <w lemma="ἁγνός">ἁγνό<unclear reason="damage">ς</unclear></w> <gap reason="lost" unit="character" extent="unknown"/></ab>
       </div>
          <div type="translation">
             <ab>Me also Helladios the pure <gap reason="lost" unit="character" extent="unknown"/>

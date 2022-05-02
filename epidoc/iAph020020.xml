@@ -6,10 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType" reg="verse">
-                  <rs type="textType" reg="honours">Epigram</rs>
-               </rs> for Pytheas</title>
+            <title>Epigram for Pytheas</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -126,12 +123,12 @@
 		<lb n="3"/><persName key="Pytheas" type="attested"><name nymRef="#Πυθέας">Πυθέου</name></persName>, <w lemma="ὁ">ἡ</w> <w lemma="μέν">μὲν</w>
 		<lb n="4"/><w lemma="ὀρθόω">ὀρ<supplied reason="lost">θῶσ</supplied>α</w> <g ref="#stop"/></l>
 		<l met="pentameter" n="2"><w lemma="ὁ">τὴν</w>
-		<lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">οιαθεη</orig>
-		<lb n="6"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="πόλις"><supplied reason="lost">π</supplied>όλιν</w>
-		<lb n="7"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ον</orig> <g ref="#stop"/>
+		<lb n="5"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">οιαθεη</orig>
+		<lb n="6"/><gap reason="lost" unit="character" extent="unknown"/> <w lemma="πόλις"><supplied reason="lost">π</supplied>όλιν</w>
+		<lb n="7"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">ον</orig> <g ref="#stop"/>
 		</l>
 		<lb n="8"/>
-		<l met="hexameter" n="3"><orig n="unresolved"><unclear reason="damage">χορσ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ννηον</orig>
+		<l met="hexameter" n="3"><orig n="unresolved"><unclear reason="damage">χορσ</unclear></orig><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">ννηον</orig>
 		<lb n="9"/><w lemma="γάρ">γὰρ</w> <w lemma="ἐπασσύτερος">ἐπασ<supplied reason="lost">σ</supplied>υτέροι
 		<lb n="10" break="no"/>σιν</w> <w lemma="ἐπί">ἐπ'</w> <w lemma="ἔργον">ἔργοις</w> <g ref="#stop"/>
 		</l>
@@ -150,9 +147,9 @@
          <div type="translation">
             <ab>City of the Paphian goddess and of Pytheas: she, for her
 part, having exalted <supplied reason="lost" cert="low">has given blessings</supplied> appropriate to a goddess
-<supplied reason="lost">to</supplied> the city <gap extent="unknown" reason="lost" unit="character"/>
+<supplied reason="lost">to</supplied> the city <gap reason="lost" unit="character" extent="unknown"/>
                <supplied reason="lost" cert="low">while he</supplied> in addition to constant works,
-unsparing of his wealth, has built <gap extent="unknown" reason="lost" unit="character"/> as an offering.</ab>
+unsparing of his wealth, has built <gap reason="lost" unit="character" extent="unknown"/> as an offering.</ab>
          </div>
          <div type="commentary">
             <p>For Pytheas see ALA <ref type="inscription" n="55" target="110070.xml"/>, <ref type="inscription" n="57" target="080610.xml"/>, <ref type="inscription" n="58" target="050303.xml"/>, <ref type="inscription" n="250" target="150361.xml"/> and discussion at <ref type="eAla-text" n="V.18" target=".xml"/>.</p>

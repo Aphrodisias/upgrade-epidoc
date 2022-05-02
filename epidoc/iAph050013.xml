@@ -6,9 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>-getos, exceptor, <rs type="textType" reg="donor's inscription">gives</rs> a <objectType>
-                  <rs type="textType">gameboard</rs>
-               </objectType>
+            <title>-getos, exceptor, gives a <objectType>gameboard</objectType>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -114,7 +112,7 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
 		<ab>
-		<lb n="1"/><g ref="#cross"/> <w lemma="ἐπί">ἐ<supplied reason="lost">πὶ</supplied></w> <orig n="unresolved"><unclear reason="damage">ο</unclear></orig><gap extent="4" unit="character" reason="lost"/><orig n="unresolved"><unclear reason="damage">γ</unclear>ετου</orig> <rs type="official-secul" key="exceptor"><w lemma="ἐξκέπτωρ"><expan><abbr>ἐξκέπτ</abbr><ex>ορος</ex></expan></w></rs><lb n="2"/><space dim="horizontal"/> <w lemma="γίγνομαι">ἐγένετο</w> <w lemma="αὐτός">αὐτή</w> <g ref="#cross"/>
+		<lb n="1"/><g ref="#cross"/> <w lemma="ἐπί">ἐ<supplied reason="lost">πὶ</supplied></w> <orig n="unresolved"><unclear reason="damage">ο</unclear></orig><gap unit="character" reason="lost" quantity="4"/><orig n="unresolved"><unclear reason="damage">γ</unclear>ετου</orig> <rs type="official-secul" key="exceptor"><w lemma="ἐξκέπτωρ"><expan><abbr>ἐξκέπτ</abbr><ex>ορος</ex></expan></w></rs><lb n="2"/><space dim="horizontal"/> <w lemma="γίγνομαι">ἐγένετο</w> <w lemma="αὐτός">αὐτή</w> <g ref="#cross"/>
 		</ab>
       </div>
          <div type="apparatus">

@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> inscription of Alk[ . . .]</title>
+            <title>Funerary inscription of Alk[ . . .]</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -111,7 +110,7 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/> <w lemma="ὁ">τὸ</w> <w lemma="μνημεῖον">μνημεῖον</w> <persName type="attested"><name>Ἀλκ<gap reason="lost" extent="7" unit="character"/></name></persName>  <lb n="2"/> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Ἡραῖος">Ἡραίου</name></persName> <w lemma="ὁ">τῶν</w> <persName type="attested"><name>Ἀλ<supplied reason="lost">κ</supplied><gap reason="lost" extent="6" unit="character"/></name></persName>    <lb n="3"/> <w lemma="παραχωρέω">παραχωρηθὲν</w><w lemma="ὁ"> τ<supplied reason="lost">ῷ</supplied></w>  <w lemma="πατήρ"><supplied reason="lost">πατρὶ</supplied></w>  ?  <lb n="4"/> <w lemma="αὐτός">αὐτῶν</w> <w lemma="ὑπό">ὑπὸ</w> <persName type="attested"><name nymRef="#Ἄτταλος">Ἀττά<supplied reason="lost">λου</supplied></name></persName>  <w lemma="καί"><supplied reason="lost" cert="low">  καὶ</supplied></w>  <persName type="attested"><name nymRef="#Διογένης"><supplied reason="lost">Δι</supplied><lb n="5" break="no"/>ογένους</name>  <persName type="attested"><name nymRef="#Ζήνων">Ζήνων<supplied reason="lost">ος</supplied></name></persName></persName>  <supplied reason="lost" cert="low">  vac</supplied><gap reason="lost" extent="1" unit="character"/>  </ab>
+<ab><lb n="1"/> <w lemma="ὁ">τὸ</w> <w lemma="μνημεῖον">μνημεῖον</w> <persName type="attested"><name>Ἀλκ<gap reason="lost" unit="character" quantity="7"/></name></persName>  <lb n="2"/> <w lemma="καί">καὶ</w> <persName type="attested"><name nymRef="#Ἡραῖος">Ἡραίου</name></persName> <w lemma="ὁ">τῶν</w> <persName type="attested"><name>Ἀλ<supplied reason="lost">κ</supplied><gap reason="lost" unit="character" quantity="6"/></name></persName>    <lb n="3"/> <w lemma="παραχωρέω">παραχωρηθὲν</w><w lemma="ὁ"> τ<supplied reason="lost">ῷ</supplied></w>  <w lemma="πατήρ"><supplied reason="lost">πατρὶ</supplied></w>  ?  <lb n="4"/> <w lemma="αὐτός">αὐτῶν</w> <w lemma="ὑπό">ὑπὸ</w> <persName type="attested"><name nymRef="#Ἄτταλος">Ἀττά<supplied reason="lost">λου</supplied></name></persName>  <w lemma="καί"><supplied reason="lost" cert="low">  καὶ</supplied></w>  <persName type="attested"><name nymRef="#Διογένης"><supplied reason="lost">Δι</supplied><lb n="5" break="no"/>ογένους</name>  <persName type="attested"><name nymRef="#Ζήνων">Ζήνων<supplied reason="lost">ος</supplied></name></persName></persName>  <supplied reason="lost" cert="low">  vac</supplied><gap reason="lost" unit="character" quantity="1"/>  </ab>
 </div>
          <div type="apparatus">
             <p>ll. 1, 2, <seg cert="low">
@@ -124,7 +123,7 @@
             </p>
          </div>
          <div type="translation">
-            <p>The memorial belongs to Alk <gap extent="unknown" reason="lost" unit="character"/> and Heraios, the sons of Al[k . . . , granted to their[? father] by Atta[los and Di]ogenes the sons of Zenon.</p>
+            <p>The memorial belongs to Alk <gap reason="lost" unit="character" extent="unknown"/> and Heraios, the sons of Al[k . . . , granted to their[? father] by Atta[los and Di]ogenes the sons of Zenon.</p>
          </div>
          <div type="commentary">
             <p>For the names cf. <ref type="inscription" n="1004" target="120602.xml"/> (= MAMA 465): Ἡραῖος m. to Γεις Ἀττάλου, and the Names Index</p>

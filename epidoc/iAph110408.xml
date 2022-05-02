@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Honours</rs> for anonymous</title>
+            <title>Honours for anonymous</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,7 +107,7 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμ<unclear reason="damage">ο</unclear><supplied reason="lost">ς</supplied></w>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/> <w lemma="τιμάω">ἐτείμησαν</w> <w lemma="ὁ">ταῖς</w> <w lemma="καλός">καλ<supplied reason="lost">λίσταις</supplied></w>  <w lemma="τιμή"><supplied reason="lost">τειμαῖς</supplied></w>  <gap reason="lost" extent="unknown" unit="character"/>  </ab>
+<ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμ<unclear reason="damage">ο</unclear><supplied reason="lost">ς</supplied></w>  <gap reason="lost" unit="character" extent="unknown"/>  <lb n="2"/> <w lemma="τιμάω">ἐτείμησαν</w> <w lemma="ὁ">ταῖς</w> <w lemma="καλός">καλ<supplied reason="lost">λίσταις</supplied></w>  <w lemma="τιμή"><supplied reason="lost">τειμαῖς</supplied></w>  <gap reason="lost" unit="character" extent="unknown"/>  </ab>
 </div>
          <div type="translation">
             <p>The Council and the People [ ? and ....] honoured with the finest [ honours] [...]</p>

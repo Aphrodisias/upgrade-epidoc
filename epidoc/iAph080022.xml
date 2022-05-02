@@ -7,9 +7,7 @@
       <fileDesc>
          <titleStmt>
             <title>
-               <rs type="textType">
-                  <seg cert="low">Place inscription</seg>
-               </rs> of a <seg cert="low">biologos</seg>
+               <seg cert="low">Place inscription</seg> of a <seg cert="low">biologos</seg>
             </title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
@@ -91,8 +89,8 @@ First  to sixth century A.D.
 <lb n="1"/>
 <w lemma="τόπος">τόπος</w> <w lemma="βιολόγος">βιο<supplied reason="lost" cert="low">λόγου</supplied></w> 
 <lb n="2"/>
-<w lemma="ὅς">ᾑ</w> <gap extent="5" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ου</unclear></orig> <w lemma="καί">καὶ</w> <gap reason="lost" extent="unknown" unit="character"/><lb n="2a"/>
-<gap reason="lost" extent="unknown" unit="line"/></ab>
+<w lemma="ὅς">ᾑ</w> <gap reason="lost" unit="character" quantity="5"/><orig n="unresolved"><unclear reason="damage">ου</unclear></orig> <w lemma="καί">καὶ</w> <gap reason="lost" unit="character" extent="unknown"/><lb n="2a"/>
+<gap reason="lost" unit="line" extent="unknown"/></ab>
 </div>
          <div type="translation">
             <p>Place ? of the bio[logos ......] and of [.....]neios</p>

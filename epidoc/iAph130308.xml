@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> fragment</title>
+            <title> Funerary fragment</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -106,10 +105,10 @@ Second to third centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="σορός">σορὸς</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="τόπος">τό<unclear reason="damage">π</unclear>ο<unclear reason="damage">ς</unclear></w> <gap reason="lost" extent="1" unit="character"/> <w><unclear reason="damage">ο</unclear></w> <persName type="attested"><gap reason="lost" extent="3" unit="character"/>  <lb n="2"/> <w lemma="υἱός">υἱοῦ</w> <persName type="attested"><name nymRef="#Τιβέριος">Τιβερίου</name></persName></persName> <gap reason="lost" extent="3" unit="character"/>  <lb n="3"/> <persName type="attested"><name nymRef="#Ἀντωνία">Ἀντωνία</name></persName> Ι<gap reason="lost" extent="3" unit="character"/>  <lb n="4"/> <orig n="unresolved">των</orig> <w lemma="καί">καὶ</w> <w lemma="ὅς">οὓς</w> <w lemma="ἄν">ἄν</w> <w lemma="ὁ">ὁ</w> <gap reason="lost" extent="3" unit="character"/>  <w lemma="βούλομαι"><supplied reason="lost">βουληθῆ</supplied></w>  <gap reason="lost" extent="3" unit="character"/>  <lb n="4a"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
+<ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="σορός">σορὸς</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="τόπος">τό<unclear reason="damage">π</unclear>ο<unclear reason="damage">ς</unclear></w> <gap reason="lost" unit="character" quantity="1"/> <w><unclear reason="damage">ο</unclear></w> <persName type="attested"><gap reason="lost" unit="character" quantity="3"/>  <lb n="2"/> <w lemma="υἱός">υἱοῦ</w> <persName type="attested"><name nymRef="#Τιβέριος">Τιβερίου</name></persName></persName> <gap reason="lost" unit="character" quantity="3"/>  <lb n="3"/> <persName type="attested"><name nymRef="#Ἀντωνία">Ἀντωνία</name></persName> Ι<gap reason="lost" unit="character" quantity="3"/>  <lb n="4"/> <orig n="unresolved">των</orig> <w lemma="καί">καὶ</w> <w lemma="ὅς">οὓς</w> <w lemma="ἄν">ἄν</w> <w lemma="ὁ">ὁ</w> <gap reason="lost" unit="character" quantity="3"/>  <w lemma="βούλομαι"><supplied reason="lost">βουληθῆ</supplied></w>  <gap reason="lost" unit="character" quantity="3"/>  <lb n="4a"/><gap reason="lost" unit="line" extent="unknown"/>  </ab>
 </div>
          <div type="translation">
-            <p>The sarcophagus and the place <gap extent="unknown" reason="lost" unit="character"/> son of Tiberius <gap extent="unknown" reason="lost" unit="character"/> Antonia [ . . .] and whomever <gap extent="unknown" reason="lost" unit="character"/>
+            <p>The sarcophagus and the place <gap reason="lost" unit="character" extent="unknown"/> son of Tiberius <gap reason="lost" unit="character" extent="unknown"/> Antonia [ . . .] and whomever <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary">

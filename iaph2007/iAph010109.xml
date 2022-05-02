@@ -34,7 +34,7 @@
 <div type="description" n="date">
 <head>Date</head>
 <p>
-Perhaps <date notBefore="-100" notAfter="-1" exact="none" cert="low">first century B.C.</date>
+Perhaps <date notBefore="-0100" notAfter="-0001" exact="none" cert="low">first century B.C.</date>
 (<rs type="criteria">lettering</rs>)</p>
 </div>
 <div type="edition" lang="grc" xml:space="preserve">

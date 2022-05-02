@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType" cert="low">Dedication</rs>  of images of Erotes</title>
+            <title>Dedication  of images of Erotes</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -108,11 +107,11 @@ No indication
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/> <w lemma="ὁ">τοὺς</w> <persName type="divine"><w>Ἔρωτας</w></persName><gap reason="lost" extent="unknown" unit="character"/>  </ab>
+<ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/> <w lemma="ὁ">τοὺς</w> <persName type="divine"><w>Ἔρωτας</w></persName><gap reason="lost" unit="character" extent="unknown"/>  </ab>
 </div>
          <div type="translation">
             <p>
-               <gap extent="unknown" reason="lost" unit="character"/> the Erotes <gap extent="unknown" reason="lost" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/> the Erotes <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary">

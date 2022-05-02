@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Honours</rs> for Aurelia Ammia Myrton</title>
+            <title>Honours for Aurelia Ammia Myrton</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -107,7 +106,7 @@ Second-third centuries A.D.
 
  <ab>
   <lb n="0"/>
-  <gap reason="lost" extent="unknown" unit="character"/>
+  <gap reason="lost" unit="character" extent="unknown"/>
   <w lemma="τιμή"><supplied reason="lost">τει</supplied><lb n="1" break="no"/><unclear reason="damage">μ</unclear>αῖς</w>
   <persName type="attested"><name nymRef="#Αὐρήλιος"><expan><abbr>Αὐρ</abbr><ex>ήλιον</ex></expan></name> <name nymRef="#Ἀμμιάς">Ἀμμιὰν</name> <persName type="attested"><name nymRef="#Δημέας">Δημέου</name> <lb n="2"/> <w lemma="ὁ">τοῦ</w> <persName type="attested"><name nymRef="#Χρήσιμος">Χρησίμου</name></persName></persName> <name nymRef="#Μύρτον">Μύρτον</name></persName> <w lemma="γίγνομαι">γε<lb n="3" break="no"/>νομέ<hi rend="ligature">νην</hi></w> <w lemma="γυνή">γυναῖκα</w>
   <persName type="attested"><name nymRef="#Μᾶρκος"><expan><abbr>Μάρ</abbr><ex>κου</ex></expan></name>
@@ -147,7 +146,7 @@ Second-third centuries A.D.
   <w lemma="ὁ">τῇ</w> <w lemma="βουλή">βουλῇ</w> <w lemma="πρότερος">πρ<supplied reason="lost" cert="low">ότερον</supplied></w>
   <lb n="31"/>
   <w lemma="πλήν">πλὴν</w> <w lemma="ἤ">ἢ</w> <w lemma="ὑπάρχω">ὑπά<unclear reason="damage">ρ</unclear>χειν</w>
-  <w lemma="ὁ"><hi rend="ligature">τὴν</hi></w> <gap reason="lost" extent="3" unit="character"/>  
+  <w lemma="ὁ"><hi rend="ligature">τὴν</hi></w> <gap reason="lost" unit="character" quantity="3"/>  
   <lb n="32"/>
   <w lemma="γνώμη">γνώ<hi rend="ligature">μην</hi></w> <w lemma="ὅς"><hi rend="ligature">ἣν</hi></w> <w lemma="ὁ">ἡ</w> <name nymRef="#Μύρτον">Μύρτον</name>
   <w lemma="διατάσσω"><supplied reason="lost">διε</supplied><lb n="33" break="no"/>τάξατο</w> <w lemma="δίδωμι">δεδόσθαι</w>

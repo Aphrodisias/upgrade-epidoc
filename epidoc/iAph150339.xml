@@ -6,8 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>
-               <rs type="textType">Funerary</rs> fragment with relief; stray, undated</title>
+            <title> Funerary fragment with relief; stray, undated</title>
             <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
             <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
             <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
@@ -105,7 +104,7 @@
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character"/>  <orig n="unresolved">ω</orig><g ref="#head"/><orig n="unresolved">ε</orig><gap reason="lost" extent="unknown" unit="character"/></ab>
+<ab><lb n="1"/>  <gap reason="lost" unit="character" extent="unknown"/>  <orig n="unresolved">ω</orig><g ref="#head"/><orig n="unresolved">ε</orig><gap reason="lost" unit="character" extent="unknown"/></ab>
 </div>
          <div type="translation" n="none">
             <p>No translation possible.</p>
