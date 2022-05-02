@@ -108,13 +108,13 @@ First to third centuries A.D. (<rs type="criteria">lettering</rs>)
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">αραυ<unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  </ab>
+<ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">αραυ<unclear reason="damage">ι</unclear></orig><gap reason="lost" unit="character" extent="unknown"/>  </ab>
 </div>
          <div type="apparatus">
-            <p>Perhaps <gap reason="lost" extent="unknown" unit="character"/>
+            <p>Perhaps <gap reason="lost" unit="character" extent="unknown"/>
                <supplied reason="lost" cert="low">Μ</supplied>αρ<supplied reason="lost" cert="low">κος</supplied> Αὐ<supplied reason="lost">ρ</supplied>
                <ex cert="low">ήλιος</ex>
-               <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="translation">

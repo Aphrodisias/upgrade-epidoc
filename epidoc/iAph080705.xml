@@ -108,7 +108,7 @@ First to fourth centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">ΩΙ</unclear><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>Τ<gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">Ε</unclear>Σ<gap reason="lost" extent="unknown" unit="character"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
+<ab><lb n="0"/><gap reason="lost" unit="line" extent="unknown"/>  <lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><unclear reason="damage">ΩΙ</unclear><gap reason="lost" unit="character" extent="unknown"/>  <lb n="2"/><gap reason="lost" unit="character" extent="unknown"/>Τ<gap reason="lost" unit="character" extent="unknown"/>  <lb n="3"/><gap reason="lost" unit="character" extent="unknown"/><unclear reason="damage">Ε</unclear>Σ<gap reason="lost" unit="character" extent="unknown"/>  <lb n="4"/><gap reason="lost" unit="line" extent="unknown"/>  </ab>
 </div>
          <div type="translation" n="none">
             <p>No translation possible.</p>

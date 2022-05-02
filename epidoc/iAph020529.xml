@@ -114,7 +114,7 @@ Tr.II, Str. 1.</rs>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
-		<ab><lb n="1"/><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">λ</unclear></orig> <persName key="hermias3" type="attested"><name nymRef="#Ἑρμίας">Ἑρμιᾶ</name></persName> <w lemma="ἀρχι-">ἀρχι<num value="790">ϙ<unclear reason="undefined">ψ</unclear></num><gap extent="unknown" reason="lost" unit="character"/></w></ab>
+		<ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">λ</unclear></orig> <persName key="hermias3" type="attested"><name nymRef="#Ἑρμίας">Ἑρμιᾶ</name></persName> <w lemma="ἀρχι-">ἀρχι<num value="790">ϙ<unclear reason="undefined">ψ</unclear></num><gap reason="lost" unit="character" extent="unknown"/></w></ab>
       </div>
          <div type="apparatus">
             <p>The <foreign xml:lang="grc">ϙ</foreign> is clear; <foreign xml:lang="grc">Ψ</foreign> is less
@@ -122,11 +122,11 @@ certain.</p>
          </div>
          <div type="translation">
             <ab>
-               <gap extent="unknown" reason="lost" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/>
                <seg cert="low">Hermias</seg>
-               <gap extent="unknown" reason="lost" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/>
                <seg cert="low">chief</seg>
-               <gap extent="unknown" reason="lost" unit="character"/> 790/79-</ab>
+               <gap reason="lost" unit="character" extent="unknown"/> 790/79-</ab>
          </div>
          <div type="commentary">
             <p>See discussion at <ref type="eAla-text" n="XI.27" target=".xml"/>

@@ -116,13 +116,13 @@ near the site of <ref type="inscription" n="209" target="120516.xml"/>.</rs>
           <lb n="1"/>
           <gap reason="lost" unit="character" extent="unknown"/>
           <orig n="unresolved"><unclear reason="damage">λ</unclear>θ</orig>
-          <gap extent="2" unit="character" reason="lost"/>
+          <gap unit="character" reason="lost" quantity="2"/>
           <orig n="unresolved">οηβασι</orig>
-          <gap extent="1" unit="character" reason="lost"/>
+          <gap unit="character" reason="lost" quantity="1"/>
           <orig n="unresolved">ιαξοψ</orig>
           <g ref="#stop"/>
           <orig n="unresolved">τ</orig>
-          <gap extent="2" unit="character" reason="lost"/>
+          <gap unit="character" reason="lost" quantity="2"/>
           <orig n="unresolved">ν<unclear reason="damage">ο</unclear></orig>
           <gap reason="lost" unit="character" extent="unknown"/>
         </ab>

@@ -110,11 +110,11 @@ First to fouth centuries A.D. (<rs type="criteria">lettering</rs>)
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested"><name nymRef="#Τρόφιμος">Τροφίμον</name></persName><lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ιιιι</unclear></orig><gap extent="1" reason="lost" unit="character"/>  <lb n="2a"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
+<ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><persName type="attested"><name nymRef="#Τρόφιμος">Τροφίμον</name></persName><lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">ιιιι</unclear></orig><gap reason="lost" unit="character" quantity="1"/>  <lb n="2a"/><gap reason="lost" unit="line" extent="unknown"/>  </ab>
 </div>
          <div type="translation">
             <p>
-               <gap reason="lost" extent="unknown" unit="character"/> of Trophimos <gap reason="lost" extent="unknown" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/> of Trophimos <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary">

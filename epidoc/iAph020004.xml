@@ -113,14 +113,14 @@ First to sixth centuries A.D. (<rs type="criteria">context</rs>)
 
  
 <lb n="1"/>
-<persName type="attested"><name nymRef="#Μᾶρκος"><expan><abbr>Μ</abbr><ex cert="low">άρκος</ex></expan></name> <name nymRef="#Αὐρήλιος"><expan><abbr>Αὐ</abbr><ex cert="low">ρήλιος</ex></expan></name> <name nymRef="#Κομητις">Κομ<unclear reason="damage">η</unclear>τις</name></persName> ?<w lemma="καί">κα<unclear reason="damage">ὶ</unclear></w> <w lemma="ὁ">τὰ</w> <w><unclear reason="damage">τε</unclear>κν<gap reason="lost" extent="1" unit="character"/>α</w> 
+<persName type="attested"><name nymRef="#Μᾶρκος"><expan><abbr>Μ</abbr><ex cert="low">άρκος</ex></expan></name> <name nymRef="#Αὐρήλιος"><expan><abbr>Αὐ</abbr><ex cert="low">ρήλιος</ex></expan></name> <name nymRef="#Κομητις">Κομ<unclear reason="damage">η</unclear>τις</name></persName> ?<w lemma="καί">κα<unclear reason="damage">ὶ</unclear></w> <w lemma="ὁ">τὰ</w> <w><unclear reason="damage">τε</unclear>κν<gap reason="lost" unit="character" quantity="1"/>α</w> 
 
  
 
  
 <lb n="2"/><note xml:lang="en"/>
 <orig n="unresolved">κ<unclear reason="damage">ω</unclear></orig>
-<gap reason="illegible" extent="1" unit="character"/> <orig n="unresolved">μ<unclear reason="damage">οτμλ</unclear></orig> 
+<gap reason="illegible" unit="character" quantity="1"/> <orig n="unresolved">μ<unclear reason="damage">οτμλ</unclear></orig> 
 </ab></div><div n="ii" type="textpart" subtype="section"><note xml:lang="en"/></div>
 </div>
          <div type="apparatus" n="none">

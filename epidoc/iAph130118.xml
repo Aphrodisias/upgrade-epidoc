@@ -109,7 +109,7 @@ First to fourth centuries A.D. (<rs type="criteria">lettering</rs>)
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<div n="a" type="textpart" subtype="fragment"><ab>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>  <orig n="unresolved"><unclear reason="damage">ο</unclear>ι</orig><gap reason="lost" extent="unknown" unit="character"/>  </ab></div><div n="b" type="textpart" subtype="fragment"><ab>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ο</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  </ab></div>
+<div n="a" type="textpart" subtype="fragment"><ab>  <lb n="1"/><gap reason="lost" unit="character" extent="unknown"/>  <orig n="unresolved"><unclear reason="damage">ο</unclear>ι</orig><gap reason="lost" unit="character" extent="unknown"/>  </ab></div><div n="b" type="textpart" subtype="fragment"><ab>  <lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">ο</unclear></orig><gap reason="lost" unit="character" extent="unknown"/>  </ab></div>
 </div>
          <div type="translation" n="none">
             <p>no translation possible.</p>

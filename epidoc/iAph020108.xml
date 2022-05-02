@@ -105,11 +105,11 @@ Second to third centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/> <gap extent="unknown" reason="lost" unit="character"/> <w lemma="ἀνατίθημι">ἀ<supplied reason="lost">νέθη</supplied><unclear reason="damage">κ</unclear>εν</w> <space unit="character" extent="1"/> <gap extent="unknown" reason="lost" unit="character"/></ab>
+<ab><lb n="1"/> <gap reason="lost" unit="character" extent="unknown"/> <w lemma="ἀνατίθημι">ἀ<supplied reason="lost">νέθη</supplied><unclear reason="damage">κ</unclear>εν</w> <space unit="character" extent="1"/> <gap reason="lost" unit="character" extent="unknown"/></ab>
 </div>
          <div type="translation">
             <p>
-               <gap extent="unknown" reason="lost" unit="character"/> set up <gap extent="unknown" reason="lost" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/> set up <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary" n="none">

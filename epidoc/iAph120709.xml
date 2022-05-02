@@ -107,12 +107,12 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
 
-<ab><lb n="1"/>  <persName type="attested"><name nymRef="#Ἡφαιστίων"><gap unit="character" extent="unknown" reason="lost"/><orig n="unresolved"><unclear reason="damage">σ</unclear>τιω<unclear reason="damage">ν</unclear></orig></name></persName><gap unit="character" extent="unknown" reason="lost"/><lb n="1a"/><gap extent="unknown" reason="lost" unit="line"/></ab>
+<ab><lb n="1"/>  <persName type="attested"><name nymRef="#Ἡφαιστίων"><gap unit="character" reason="lost" extent="unknown"/><orig n="unresolved"><unclear reason="damage">σ</unclear>τιω<unclear reason="damage">ν</unclear></orig></name></persName><gap unit="character" reason="lost" extent="unknown"/><lb n="1a"/><gap reason="lost" unit="line" extent="unknown"/></ab>
 </div>
          <div type="translation">
             <p>
-               <gap unit="character" extent="unknown" reason="lost"/>
-               <supplied reason="lost" cert="low">Hephai</supplied>stion  <gap unit="character" extent="unknown" reason="lost"/>
+               <gap unit="character" reason="lost" extent="unknown"/>
+               <supplied reason="lost" cert="low">Hephai</supplied>stion  <gap unit="character" reason="lost" extent="unknown"/>
             </p>
          </div>
          <div type="commentary">

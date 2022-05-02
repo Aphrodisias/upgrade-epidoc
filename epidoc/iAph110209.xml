@@ -109,7 +109,7 @@ First to second century A.D. (<rs type="criteria">lettering</rs>)
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="line"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">Π</unclear>ΟΝΩ<gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/>––<unclear reason="damage">Ι</unclear><gap reason="lost" extent="unknown" unit="character"/>  </ab>
+<ab><lb n="1"/><gap reason="lost" unit="line" extent="unknown"/>  <lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><unclear reason="damage">Π</unclear>ΟΝΩ<gap reason="lost" unit="character" extent="unknown"/>  <lb n="3"/><gap reason="lost" unit="character" extent="unknown"/>––<unclear reason="damage">Ι</unclear><gap reason="lost" unit="character" extent="unknown"/>  </ab>
 </div>
          <div type="apparatus">
             <p>l. 1, <unclear reason="damage">Π</unclear> or <unclear reason="damage">Ι</unclear>

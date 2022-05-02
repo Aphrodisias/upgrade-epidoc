@@ -87,15 +87,15 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
 
 <ab>
 <lb n="0"/>
-<gap reason="lost" extent="unknown" unit="line"/> 
+<gap reason="lost" unit="line" extent="unknown"/> 
 <lb n="1"/>
-<gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">κ<unclear reason="damage">ο</unclear></orig>
-<gap reason="lost" extent="unknown" unit="character"/> 
+<gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">κ<unclear reason="damage">ο</unclear></orig>
+<gap reason="lost" unit="character" extent="unknown"/> 
 <lb n="2"/>
-<gap reason="lost" extent="unknown" unit="character"/>
-<orig n="unresolved"><unclear reason="damage">ι</unclear>ο</orig><gap reason="lost" extent="unknown" unit="character"/> 
+<gap reason="lost" unit="character" extent="unknown"/>
+<orig n="unresolved"><unclear reason="damage">ι</unclear>ο</orig><gap reason="lost" unit="character" extent="unknown"/> 
 <lb n="2a"/>
-<gap reason="lost" extent="unknown" unit="line"/></ab>
+<gap reason="lost" unit="line" extent="unknown"/></ab>
 </div>
          <div type="translation" n="none">
             <p>No translation possible..</p>

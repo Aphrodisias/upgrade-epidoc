@@ -111,7 +111,7 @@ side.</rs>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
-		<ab><lb n="1"/><gap extent="unknown" reason="lost" unit="character"/><orig n="unresolved">ενω</orig><gap extent="unknown" reason="lost" unit="character"/></ab> 
+		<ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">ενω</orig><gap reason="lost" unit="character" extent="unknown"/></ab> 
       </div>
          <div type="translation">
             <p>Nothing determinable.</p>

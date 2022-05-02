@@ -119,15 +119,15 @@ First to sixth centuries A.D. (<rs type="criteria">context</rs>)</origDate>
 <orig n="unresolved"><unclear reason="damage">ι</unclear></orig>
  <space extent="3" unit="character"/>
  <orig n="unresolved">ι</orig> <space extent="3" unit="character"/> <orig n="unresolved">μυσ<unclear reason="damage">ο</unclear></orig> 
- <w lemma="σύ"><gap extent="unknown" reason="lost" unit="character"/><lb n="3" break="no"/>σοι</w>
+ <w lemma="σύ"><gap reason="lost" unit="character" extent="unknown"/><lb n="3" break="no"/>σοι</w>
  <space extent="3" unit="character"/>
 </ab>
 </div>
          <div type="translation">
             <p>
-               <gap extent="unknown" reason="lost" unit="character"/>
+               <gap reason="lost" unit="character" extent="unknown"/>
   Nympheros
-  <gap extent="unknown" reason="lost" unit="character"/>
+  <gap reason="lost" unit="character" extent="unknown"/>
             </p>
          </div>
          <div type="commentary">

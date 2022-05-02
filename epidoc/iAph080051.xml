@@ -86,19 +86,19 @@ Second to third centuries A.D.
 
 <ab>
 <lb n="0"/>
-<gap reason="lost" extent="unknown" unit="line"/> 
+<gap reason="lost" unit="line" extent="unknown"/> 
 <lb n="1"/>
-<gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">α<unclear reason="damage">ιι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/> 
+<gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">α<unclear reason="damage">ιι</unclear></orig><gap reason="lost" unit="character" extent="unknown"/> 
 <lb n="2"/>
-<gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">αρυ</orig><gap reason="lost" extent="unknown" unit="character"/> 
+<gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved">αρυ</orig><gap reason="lost" unit="character" extent="unknown"/> 
 <lb n="3"/>
-<gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">πλ</unclear></orig><gap reason="lost" extent="unknown" unit="character"/> 
+<gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">πλ</unclear></orig><gap reason="lost" unit="character" extent="unknown"/> 
 <lb n="3a"/>
-<gap reason="lost" extent="unknown" unit="line"/></ab>
+<gap reason="lost" unit="line" extent="unknown"/></ab>
 </div>
          <div type="apparatus">
             <p>l. 2, <foreign xml:lang="grc">
-                  <supplied reason="lost" cert="low">παρ' ὑμῶν, γ</supplied>ὰρ Υ<gap reason="lost" extent="unknown" unit="character"/>
+                  <supplied reason="lost" cert="low">παρ' ὑμῶν, γ</supplied>ὰρ Υ<gap reason="lost" unit="character" extent="unknown"/>
                </foreign> or from <foreign xml:lang="grc">βαρυ-</foreign>
             </p>
          </div>

@@ -110,7 +110,7 @@ Second century A.D. (<rs type="criteria">lettering</rs>)
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><unclear reason="damage">ΙΟ</unclear> <unclear reason="damage">Ι</unclear><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/>  <space extent="3" unit="character" dim="horizontal"/> <w lemma="ὁ">τοῦ</w> <w>Εὐ<gap reason="lost" extent="unknown" unit="character"/></w>  </ab>
+<ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><unclear reason="damage">ΙΟ</unclear> <unclear reason="damage">Ι</unclear><gap reason="lost" unit="character" extent="unknown"/>  <lb n="2"/><gap reason="lost" unit="character" extent="unknown"/>  <space extent="3" unit="character" dim="horizontal"/> <w lemma="ὁ">τοῦ</w> <w>Εὐ<gap reason="lost" unit="character" extent="unknown"/></w>  </ab>
 </div>
          <div type="translation" n="none">
             <p>no translation possible.</p>

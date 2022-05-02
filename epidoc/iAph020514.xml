@@ -108,7 +108,7 @@ First to fourth centuries A.D. (<rs type="criteria">lettering</rs>)
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><milestone unit="block"/><orig n="unresolved">ο</orig><gap reason="lost" extent="unknown" unit="character"/>  </ab>
+<ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><milestone unit="block"/><orig n="unresolved">ο</orig><gap reason="lost" unit="character" extent="unknown"/>  </ab>
 </div>
          <div type="translation" n="none">
             <p>no translation possible.</p>

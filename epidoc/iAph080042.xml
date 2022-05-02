@@ -86,16 +86,16 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
 
 <ab>
 <lb n="0"/>
-<gap reason="lost" extent="unknown" unit="character"/> 
+<gap reason="lost" unit="character" extent="unknown"/> 
 <lb n="1"/>
 <orig n="unresolved">ι<unclear reason="damage">ι</unclear></orig>
-<gap reason="lost" extent="unknown" unit="character"/> 
+<gap reason="lost" unit="character" extent="unknown"/> 
 <lb n="2"/>
-<orig n="unresolved">σδ</orig><gap reason="lost" extent="unknown" unit="character"/> 
+<orig n="unresolved">σδ</orig><gap reason="lost" unit="character" extent="unknown"/> 
 <lb n="3"/>
-<orig n="unresolved">υι</orig><gap reason="lost" extent="unknown" unit="character"/> 
+<orig n="unresolved">υι</orig><gap reason="lost" unit="character" extent="unknown"/> 
 <lb n="3a"/>
-<gap reason="lost" extent="unknown" unit="character"/> </ab>
+<gap reason="lost" unit="character" extent="unknown"/> </ab>
 </div>
          <div type="translation" n="none">
             <p>No translation possible..</p>

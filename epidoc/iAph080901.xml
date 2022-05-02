@@ -107,7 +107,7 @@ First to fourth centuries A.D. (<rs type="criteria">lettering</rs>)
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="1"/><w><gap reason="lost" extent="unknown" unit="character"/>ων</w> <gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><persName type="attested"><name>Γερμα<gap reason="lost" extent="unknown" unit="character"/></name></persName>  </ab>
+<ab><lb n="1"/><w><gap reason="lost" unit="character" extent="unknown"/>ων</w> <gap reason="lost" unit="character" extent="unknown"/>  <lb n="2"/><gap reason="lost" unit="character" extent="unknown"/><persName type="attested"><name>Γερμα<gap reason="lost" unit="character" extent="unknown"/></name></persName>  </ab>
 </div>
          <div type="apparatus">
             <p>l. 2, CMR reads a mu, JMR a cursive delta.</p>

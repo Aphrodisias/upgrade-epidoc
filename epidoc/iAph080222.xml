@@ -109,7 +109,7 @@ First to third centuries A.D.
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<cb n="a"/><ab>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>Η<gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="line"/>  <cb n="b"/>    <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>Ο<gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="line"/>  </ab>
+<cb n="a"/><ab>  <lb n="1"/><gap reason="lost" unit="character" extent="unknown"/>Η<gap reason="lost" unit="character" extent="unknown"/>  <lb n="2"/><gap reason="lost" unit="line" extent="unknown"/>  <cb n="b"/>    <lb n="1"/><gap reason="lost" unit="character" extent="unknown"/>Ο<gap reason="lost" unit="character" extent="unknown"/>  <lb n="2"/><gap reason="lost" unit="line" extent="unknown"/>  </ab>
 </div>
          <div type="translation" n="none">
             <p>No translation possible.</p>

@@ -86,15 +86,15 @@ Second to third centuries A.D.
 
 <ab>
 <lb n="1"/>
-<gap reason="lost" extent="unknown" unit="character"/>
+<gap reason="lost" unit="character" extent="unknown"/>
 <orig n="unresolved"><unclear reason="damage">ι</unclear>νου<unclear reason="damage">σ</unclear></orig>
-<gap reason="lost" extent="unknown" unit="character"/> 
+<gap reason="lost" unit="character" extent="unknown"/> 
 <lb n="2"/>
-<gap reason="lost" extent="unknown" unit="character"/> <w>φυλα<gap reason="lost" extent="unknown" unit="character"/></w> 
+<gap reason="lost" unit="character" extent="unknown"/> <w>φυλα<gap reason="lost" unit="character" extent="unknown"/></w> 
 <lb n="3"/>
-<gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">α</unclear>τ<unclear reason="damage">α</unclear>σ</orig><gap reason="lost" extent="unknown" unit="character"/> 
+<gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">α</unclear>τ<unclear reason="damage">α</unclear>σ</orig><gap reason="lost" unit="character" extent="unknown"/> 
 <lb n="3a"/>
-<gap reason="lost" extent="unknown" unit="line"/> </ab>
+<gap reason="lost" unit="line" extent="unknown"/> </ab>
 </div>
          <div type="apparatus">
             <p>l. 2, ? <foreign xml:lang="grc">φυλα[ττειν, φυλά[κ-</foreign>

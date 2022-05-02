@@ -108,7 +108,7 @@ First to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
 
-<ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line"/>  <lb n="1"/>  <space extent="3" unit="character" dim="horizontal"/>  <orig n="unresolved">εισι<unclear reason="damage">δ</unclear></orig>  <gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/>  <space extent="3" unit="character" dim="horizontal"/> <w lemma="καί">καὶ</w> <orig n="unresolved">τ</orig><gap reason="lost" extent="unknown" unit="character"/>  </ab>
+<ab><lb n="0"/><gap reason="lost" unit="line" extent="unknown"/>  <lb n="1"/>  <space extent="3" unit="character" dim="horizontal"/>  <orig n="unresolved">εισι<unclear reason="damage">δ</unclear></orig>  <gap reason="lost" unit="character" extent="unknown"/>  <lb n="2"/>  <space extent="3" unit="character" dim="horizontal"/> <w lemma="καί">καὶ</w> <orig n="unresolved">τ</orig><gap reason="lost" unit="character" extent="unknown"/>  </ab>
 </div>
          <div type="translation" n="none">
             <p>Νo translation possible.</p>
