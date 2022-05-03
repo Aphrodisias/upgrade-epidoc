@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>71.174</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -53,19 +50,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
+                     <origPlace>Unknown</origPlace>
                      <origDate notBefore="0001" notAfter="0100">
  First century A.D.
 (prosopography)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">Stray find</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                  <provenance type="found">Stray find</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,13 +88,24 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_G_21.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+         <graphic url="80_G_34.jpg">
+            <desc>Face (1980)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

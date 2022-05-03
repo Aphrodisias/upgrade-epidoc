@@ -30,9 +30,6 @@
                   <idno>72.493</idno>
                   <idno>76.39</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face and within several of the wreaths, which are <width unit="metre">0.18</width> in diameter. a. ll.2-5, 8-10, 14-16 within wreaths; b. ll.3-6, 10 ff. within wreaths; c. within a wreath; d. inscribed above a wreath, the upper edge of which survives, chipped; e. inscribed within a wreath.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face and within several of the wreaths, which are <width unit="metre">0.18</width> in diameter. a. ll.2-5, 8-10, 14-16 within wreaths; b. ll.3-6, 10 ff. within wreaths; c. within a wreath; d. inscribed above a wreath, the upper edge of which survives, chipped; e. inscribed within a wreath.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,20 +48,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">South necropolis</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">
+                     <origPlace>South necropolis</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="terminology lettering">
 Second to third centuries A.D.
  (<rs type="criteria">terminology</rs>, <rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, South (west part)</rs> central stretch</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">a. findspot; b.-e. in Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, South (west part)</rs> central stretch</provenance>
+                  <provenance type="observed">a. findspot; b.-e. in Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,13 +93,36 @@ Second to third centuries A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Transcriptions (Reynolds, Roueché); notebooks; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-16" who="GB">hand tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_T_20.jpg">
+            <desc>Fragment a (1973)</desc>
+         </graphic>
+         <graphic url="77_R_17A.jpg">
+            <desc>Fragment b (1977)</desc>
+         </graphic>
+         <graphic url="77_R_18A.jpg">
+            <desc>Fragment c (1977)</desc>
+         </graphic>
+         <graphic url="77_N_09A.jpg">
+            <desc>Fragment d (1977)</desc>
+         </graphic>
+         <graphic url="89_C_03.jpg">
+            <desc>Fragment e. (1989)</desc>
+         </graphic>
+         <graphic url="R_I_19.jpg">
+            <desc>a. Reichel notebook I, 19</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

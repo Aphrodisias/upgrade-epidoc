@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno>75.13</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face in at least two, probably three, columns.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face in at least two, probably three, columns.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,19 +50,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation" cert="low">Shrine of Zeus Nineudios</rs>
-                     </origPlace>
-                     <origDate notBefore="0069" notAfter="0096" precision="medium">
+                     <origPlace>Shrine of Zeus Nineudios</origPlace>
+                     <origDate notBefore="0069"
+                               notAfter="0096"
+                               precision="medium"
+                               evidence="titulature lettering">
 Flavian (<rs type="criteria">titulature</rs>, <rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, North-east</rs>: three (a.-c.) seen built into a garden wall on the way to the cemetery, by P&amp;H. They describe this as west of the city, but this must be a slip; seen, with d, by K&amp;R near <ref type="inscription" n="1105" target="120304.xml"/>  (on E.wall); fragment b. was found in 1975 on the east wall, near <ref type="inscription" n="1549" target="120320.xml"/> (=MAMA 556b) (catalogue no 75.13).</rs>
-                  </provenance>
-                  <provenance type="observed" when="1977">
-                     <rs type="lastLocation">b. in the Museum (1977)</rs>
-                  </provenance>
+                     <rs type="monuList">City, North-east</rs>: three (a.-c.) seen built into a garden wall on the way to the cemetery, by P&amp;H. They describe this as west of the city, but this must be a slip; seen, with d, by K&amp;R near <ref type="inscription" n="1105" target="120304.xml"/>  (on E.wall); fragment b. was found in 1975 on the east wall, near <ref type="inscription" n="1549" target="120320.xml"/> (=MAMA 556b) (catalogue no 75.13).</provenance>
+                  <provenance type="observed" when="1977">b. in the Museum (1977)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -103,13 +97,27 @@ Flavian (<rs type="criteria">titulature</rs>, <rs type="criteria">lettering</rs>
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); K&amp;R notebooks; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-30" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="75_K_14A.jpg">
+            <desc>Fragment b (1975)</desc>
+         </graphic>
+         <graphic url="77_S_08.jpg">
+            <desc>Fragment b (1977)</desc>
+         </graphic>
+         <graphic url="K_III_30.jpg">
+            <desc>Fragment d: Kubitschek notebook III, 30</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

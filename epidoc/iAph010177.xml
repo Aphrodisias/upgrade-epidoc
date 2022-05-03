@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -48,20 +45,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0200" notAfter="0225">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0200" notAfter="0225" evidence="contests">
 Early third century
  (<rs type="criteria">contests</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: re-used, with other inscribed bases, as vertical elements to support the sanctuary screen of the Temple-church; that screen, which reused elements of an early Byzantine balustrade, was probably constructed in the ninth or tenth century.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: re-used, with other inscribed bases, as vertical elements to support the sanctuary screen of the Temple-church; that screen, which reused elements of an early Byzantine balustrade, was probably constructed in the ninth or tenth century.</provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -102,14 +93,31 @@ Early third century
                </term>
             </keywords>
          </textClass>
+         <creation>Publications; notebooks; transcriptions (Reynolds, Roueché)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-17" who="Charlotte-Tupman">hand tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_A_03.jpg">
+            <desc>Lines 1-6 (1977)</desc>
+         </graphic>
+         <graphic url="76_F_31A.jpg">
+            <desc>Lines 11-22 (1976)</desc>
+         </graphic>
+         <graphic url="77_A_02.jpg">
+            <desc>Lines 6-8 (1977)</desc>
+         </graphic>
+         <graphic url="Deering_06.jpg">
+            <desc>Deering notebook, page 6</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

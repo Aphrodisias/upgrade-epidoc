@@ -28,9 +28,6 @@
                   <repository>n/a</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the surviving face (<width unit="metre">0.025</width>  × <height unit="metre">0.018</height>).</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the surviving face (<width unit="metre">0.025</width>  × <height unit="metre">0.018</height>).</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,19 +49,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0300" precision="medium">Probably 
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">Probably 
 Roman period (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: apse</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Unknown</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: apse</provenance>
+                  <provenance type="observed">Unknown</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,14 +90,18 @@ Roman period (<rs type="criteria">lettering</rs>).</origDate>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-02-20" who="Charlotte-Tupman">DONE</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

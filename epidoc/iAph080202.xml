@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>71.332</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> within the loop of the swag on the front face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> within the loop of the swag on the front face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,20 +47,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="-0031" notAfter="0014" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="-0031"
+                               notAfter="0014"
+                               precision="medium"
+                               evidence="lettering">
 ?Augustan
 (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Theatre</rs> stage, south side.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1971">
-                     <rs type="lastLocation">Museum (1971)</rs>
-                  </provenance>
+                     <rs type="monuList">Theatre</rs> stage, south side.</provenance>
+                  <provenance type="observed" when="1971">Museum (1971)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,14 +89,25 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-17" who="Charlotte-Tupman">hand tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_F_23.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+         <graphic url="83_B_16A.jpg">
+            <desc>Face (1983)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

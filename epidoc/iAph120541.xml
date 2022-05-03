@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -50,19 +47,16 @@ three carefully cut crosses.</layout>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0501" notAfter="0600" precision="medium">Sixth century or later (<rs type="criteria">monogram</rs>).</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0501"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="monogram">Sixth century or later (<rs type="criteria">monogram</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, South-east</rs>:  south face, a little west of
-<ref type="inscription" n="209" target="120516.xml"/>; .</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, South-east</rs>:  south face, a little west of
+<ref type="inscription" n="209" target="120516.xml"/>; .</provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -94,9 +88,10 @@ three carefully cut crosses.</layout>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-02-29" who="#CMR">checked; image refs.</change>
@@ -106,6 +101,22 @@ three carefully cut crosses.</layout>
          <change when="2003-04-30" who="Juan-Garcés">tagged Greek; tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_T_05.jpg">
+            <desc>i: Face (1973)</desc>
+         </graphic>
+         <graphic url="73_T_06.jpg">
+            <desc>ii: Face (1973)</desc>
+         </graphic>
+         <graphic url="monog-ala210i.jpg">
+            <desc>Drawing of Monogram i</desc>
+         </graphic>
+         <graphic url="monog-ala210ii.jpg">
+            <desc>Drawing of Monogram ii</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

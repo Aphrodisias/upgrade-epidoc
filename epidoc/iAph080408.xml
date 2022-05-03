@@ -29,9 +29,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -50,18 +47,15 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: <seg cert="low">west portico</seg>.</rs>
-                     </origPlace>
-                     <origDate notBefore="0401" notAfter="0600" precision="medium">Fifth to sixth centuries (<rs type="criteria">terminology</rs>).</origDate>
+                        <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: <seg cert="low">west portico</seg>.</origPlace>
+                     <origDate notBefore="0401"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="terminology">Fifth to sixth centuries (<rs type="criteria">terminology</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="Theatre">Theatre</rs>: east side: re-used in the Byzantine defence wall, across the southern parodos entrance. </rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Re-erected as the ninth (i) and tenth (ii) columns from the south in the west portico of the Tetrastoon: </rs>
-                  </provenance>
+                     <rs type="monuList" key="Theatre">Theatre</rs>: east side: re-used in the Byzantine defence wall, across the southern parodos entrance. </provenance>
+                  <provenance type="observed">Re-erected as the ninth (i) and tenth (ii) columns from the south in the west portico of the Tetrastoon: </provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -94,9 +88,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-24" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-01-28" who="#CMR">tidied; image refs</change>
@@ -105,6 +100,25 @@
          <change when="2003-07-17" who="Juan-Garcés">lemmatised</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="83_C_34.jpg">
+            <desc>i. Column (1983)</desc>
+         </graphic>
+         <graphic url="83_C_35.jpg">
+            <desc>i. Detail (1983)</desc>
+         </graphic>
+         <graphic url="83_C_33.jpg">
+            <desc>ii. Column (1983)</desc>
+         </graphic>
+         <graphic url="83_C_36.jpg">
+            <desc>ii. Detail (1983)</desc>
+         </graphic>
+         <graphic url="DSCN0166.jpg">
+            <desc>ii. Column (2004)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -30,9 +30,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>66.155</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the upper, tallest <term>fascia</term>.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the upper, tallest <term>fascia</term>.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,18 +50,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0301" notAfter="0400" precision="medium">?Fourth century (<rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0301"
+                               notAfter="0400"
+                               precision="medium"
+                               evidence="lettering">?Fourth century (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Bouleuterion/Odeon, West area</rs>, 'Bishop's Palace': a found re-used as a step in a doorway of the apsed room; b found in <rs type="monuList">Bouleuterion/Odeon, West area</rs>: MAB, stratum 1.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1977">
-                     <rs type="lastLocation">Museum (1977).</rs>
-                  </provenance>
+                     <rs type="monuList">Bouleuterion/Odeon, West area</rs>, 'Bishop's Palace': a found re-used as a step in a doorway of the apsed room; b found in <rs type="monuList">Bouleuterion/Odeon, West area</rs>: MAB, stratum 1.</provenance>
+                  <provenance type="observed" when="1977">Museum (1977).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,9 +90,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-22" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -111,6 +106,19 @@
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="75_K_27A.jpg">
+            <desc>a. Face (1975)</desc>
+         </graphic>
+         <graphic url="77_L_12A.jpg">
+            <desc>b. Face (1977)</desc>
+         </graphic>
+         <graphic url="rosen028.jpg">
+            <desc>b. Face (1966)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

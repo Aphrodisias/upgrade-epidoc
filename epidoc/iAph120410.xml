@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -54,19 +51,16 @@ The inscription is cut on the face, some way down the stone, and runs into the f
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">On the tomb from which it was found fallen</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0100" precision="medium">
+                     <origPlace>On the tomb from which it was found fallen</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0100"
+                               precision="medium"
+                               evidence="lettering">
 First century A.D. (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">incorporated in the <rs type="monuList">Walls, South-east Gate</rs>
-                     </rs>
+                  <provenance type="found">incorporated in the <rs type="monuList">Walls, South-east Gate</rs>
                   </provenance>
-                  <provenance type="observed" when="1978">
-                     <rs type="lastLocation">Museum (1978)</rs>
-                  </provenance>
+                  <provenance type="observed" when="1978">Museum (1978)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,14 +92,25 @@ First century A.D. (<rs type="criteria">lettering</rs>)</origDate>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds); Gaudin/Reinach papers; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-02-13" who="Charlotte-Tupman">hand tidied</change>
          <change when="2004-12-23" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_B_13.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+         <graphic url="78_C_07.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -29,9 +29,6 @@ empress  Julia Domna</title>
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>75.325</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@ empress  Julia Domna</title>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,21 +49,15 @@ empress  Julia Domna</title>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0211" notAfter="0217">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0211" notAfter="0217" evidence="Reign">
 A.D. 211-217
 <rs type="criteria">Reign</rs>
                      </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, South (east part)</rs>: reused in the stretch excavated in 1975.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, South (east part)</rs>: reused in the stretch excavated in 1975.</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -101,12 +92,26 @@ A.D. 211-217
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); publications</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="76_J_31A.jpg">
+            <desc>Face (1976)</desc>
+         </graphic>
+         <graphic url="78_L_01.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+         <graphic url="HUMS003791.jpg">
+            <desc>Face (2001)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

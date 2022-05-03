@@ -31,9 +31,6 @@
                   <idno>67.546</idno>
                   <idno>67.540</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -44,7 +41,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in one line on the fascia, height <height unit="metre">0.055</height>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in one line on the fascia, height <height unit="metre">0.055</height>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -56,20 +53,14 @@ Capitals of the second century A.D.<height unit="metre">0.04</height>. <foreign 
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Theatre</rs> proskeneion frieze, at north end. Inscribed on the blocks which make up the cornice, of the Doric order, above <ref type="inscription" n="536" target="080001.xml"/>,  the inscription of Zoilos, across the back of the Theatre stage. The blocks have simple moulding above, supporting water spouts in the form of lions' heads; the underside has a decoration of mutules. </rs>
-                     </origPlace>
-                     <origDate notBefore="0167" notAfter="0168">
+                        <rs type="monuList">Theatre</rs> proskeneion frieze, at north end. Inscribed on the blocks which make up the cornice, of the Doric order, above <ref type="inscription" n="536" target="080001.xml"/>,  the inscription of Zoilos, across the back of the Theatre stage. The blocks have simple moulding above, supporting water spouts in the form of lions' heads; the underside has a decoration of mutules. </origPlace>
+                     <origDate notBefore="0167" notAfter="0168" evidence="prosopography">
 A.D. 167-8 (<rs type="criteria">prosopography</rs>: Maximus recorded as <term xml:lang="la">quaestor Asiae</term>)
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Theatre</rs>: fallen on the north side of the stage; close to other elements of the entablature.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot, restored at the north end of the entablature.</rs>
-                  </provenance>
+                     <rs type="monuList">Theatre</rs>: fallen on the north side of the stage; close to other elements of the entablature.</provenance>
+                  <provenance type="observed">Findspot, restored at the north end of the entablature.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -102,15 +93,35 @@ A.D. 167-8 (<rs type="criteria">prosopography</rs>: Maximus recorded as <term xm
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds); publications</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-23" who="cmr">DONE</change>
          <change when="2007-01-12" who="Charlotte-Tupman">tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_S_20.jpg">
+            <desc>a (1977)</desc>
+         </graphic>
+         <graphic url="77_S_21.jpg">
+            <desc>b (1977)</desc>
+         </graphic>
+         <graphic url="77_S_23.jpg">
+            <desc>c (1977)</desc>
+         </graphic>
+         <graphic url="77_S_22.jpg">
+            <desc>d (1977)</desc>
+         </graphic>
+         <graphic url="89_E_10A.jpg">
+            <desc>Assembled in situ (1989)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

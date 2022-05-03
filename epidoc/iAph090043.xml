@@ -29,9 +29,6 @@
                   <idno>82.195</idno>
                   <idno>82.103</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -44,7 +41,7 @@ b: <height unit="metre">0.78</height> × <width unit="metre">1.44</width> × <de
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face, within the moulding.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face, within the moulding.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -55,18 +52,12 @@ Characteristic of Aphrodisian public inscriptions of the mid third century A.D.;
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs key="Sebasteion" type="monuList" reg="Sebasteion">Sebasteion</rs> Propylon: at the top back of the panel an area had been hollowed out to fit over a moulding on the Propylon in the easily identifiable position in which it was originally fixed. .</rs>
-                     </origPlace>
+                        <rs key="Sebasteion" type="monuList" reg="Sebasteion">Sebasteion</rs> Propylon: at the top back of the panel an area had been hollowed out to fit over a moulding on the Propylon in the easily identifiable position in which it was originally fixed. .</origPlace>
                      <origDate notBefore="0257" notAfter="0257">A.D. 257 (see commentary).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs key="Sebasteion" type="monuList" reg="Sebasteion">Sebasteion</rs>: fallen from the west façade of the Propylon on to the street surface in front of it.</rs>
-                  </provenance>
-                  <provenance type="observed" when="2004">
-                     <rs type="lastLocation">Museum (2004).</rs>
-                  </provenance>
+                     <rs key="Sebasteion" type="monuList" reg="Sebasteion">Sebasteion</rs>: fallen from the west façade of the Propylon on to the street surface in front of it.</provenance>
+                  <provenance type="observed" when="2004">Museum (2004).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -105,9 +96,11 @@ Characteristic of Aphrodisian public inscriptions of the mid third century A.D.;
                </term>
             </keywords>
          </textClass>
+         <creation>
+Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-19" who="#GB">Added zero line numbers, and fixed column/fragment breaks</change>
@@ -122,6 +115,23 @@ Characteristic of Aphrodisian public inscriptions of the mid third century A.D.;
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="83_B_14A.jpg">
+            <desc>a, upper part (1983)</desc>
+         </graphic>
+         <graphic url="83_C_06.jpg">
+            <desc>b, lower part (1983)
+</desc>
+         </graphic>
+         <graphic url="DSCN0196.jpg">
+            <desc>a, back (2004)</desc>
+         </graphic>
+         <graphic url="DSCN0198.jpg">
+            <desc>Support (2004)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

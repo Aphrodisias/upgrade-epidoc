@@ -29,9 +29,6 @@ Germanicus Caesar</title>
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>72.237</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@ Germanicus Caesar</title>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face (0.57 x 0.95). The upper moulding has been chiselled away on the front face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face (0.57 x 0.95). The upper moulding has been chiselled away on the front face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -54,19 +51,13 @@ Germanicus Caesar</title>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Almost certainly from the <rs type="monuList">Sebasteion</rs>.</rs>
-                     </origPlace>
-                     <origDate notBefore="0014" notAfter="0069">Julio-Claudian
+                     <origPlace>Almost certainly from the <rs type="monuList">Sebasteion</rs>.</origPlace>
+                     <origDate notBefore="0014" notAfter="0069" evidence="context lettering">Julio-Claudian
 (<rs type="criteria">context</rs>, <rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Portico</rs> east of Theatre, SPS, Stratum 4 from wall.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Portico</rs> east of Theatre, SPS, Stratum 4 from wall.</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -101,13 +92,24 @@ Germanicus Caesar</title>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-24" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_F_25.jpg">
+            <desc>Face (1977)</desc>
+         </graphic>
+         <graphic url="AG_1316.jpg">
+            <desc>Face (2005)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -40,7 +37,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs>  on the upper moulding of the tabella, within it, and on its two lower mouldings, with some initial letters and some concluding ones impinging onto the side mouldings. The text must have begun on the lid, and ended on the lower moulding of the chest.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs>  on the upper moulding of the tabella, within it, and on its two lower mouldings, with some initial letters and some concluding ones impinging onto the side mouldings. The text must have begun on the lid, and ended on the lower moulding of the chest.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -49,20 +46,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0225" notAfter="0275">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0225" notAfter="0275" evidence="lettering nomenclature">
  Perhaps middle third century (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Neighbouring settlement, Hirka</rs>
-                     </rs>
+                     <rs type="monuList">Neighbouring settlement, Hirka</rs>
                   </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,15 +86,19 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-09" who="cmr">DONE</change>
          <change when="2007-02-06" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

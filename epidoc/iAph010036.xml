@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the upper face of the plinth.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the upper face of the plinth.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,18 +48,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot.</rs>
-                     </origPlace>
-                     <origDate notBefore="0401" notAfter="0600" precision="medium">Fifth-sixth century or later (<rs type="criteria">location</rs>).</origDate>
+                     <origPlace>Findspot.</origPlace>
+                     <origDate notBefore="0401"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="location">Fifth-sixth century or later (<rs type="criteria">location</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: north aisle, second column from east: .</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot.</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: north aisle, second column from east: .</provenance>
+                  <provenance type="observed">Findspot.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -94,9 +88,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-02-29" who="#CMR">checked; image refs.</change>
@@ -106,6 +101,19 @@
          <change when="2002-11-01" who="#GB">Typed and tagged Greek</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="DSCN0214.jpg">
+            <desc>View (2004)</desc>
+         </graphic>
+         <graphic url="DSCN0219.jpg">
+            <desc>Temple, north colonnade, view from west (2004)</desc>
+         </graphic>
+         <graphic url="DSCN0234.jpg">
+            <desc>Inscription (2004)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

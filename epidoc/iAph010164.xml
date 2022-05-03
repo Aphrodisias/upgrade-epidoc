@@ -30,9 +30,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>80.26</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on two adjacent faces.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on two adjacent faces.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,19 +50,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering nomenclature">
 Second to third centuries A.D.
  (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">'<rs type="monuList">Temple/Church</rs>' (Gaudin); found by the NYU expedition in the foundations of village house near Agora Gate</rs>
-                  </provenance>
-                  <provenance type="observed" when="1980">
-                     <rs type="lastLocation">Museum (1980)</rs>
-                  </provenance>
+                  <provenance type="found">'<rs type="monuList">Temple/Church</rs>' (Gaudin); found by the NYU expedition in the foundations of village house near Agora Gate</provenance>
+                  <provenance type="observed" when="1980">Museum (1980)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,13 +91,24 @@ Second to third centuries A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); publication</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="80_A_10.jpg">
+            <desc>a (1980)</desc>
+         </graphic>
+         <graphic url="80_A_11.jpg">
+            <desc>b (1980)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

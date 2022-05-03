@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>66.26</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face; text began on another block above, and probably continued on a further block to the right.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face; text began on another block above, and probably continued on a further block to the right.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,20 +47,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="-0100" notAfter="-0001">
+                     <origPlace>unknown</origPlace>
+                     <origDate notBefore="-0100" notAfter="-0001" evidence="lettering">
 First century B.C. (<rs type="criteria">lettering</rs>)
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Bouleuterion/Odeon, West Area</rs>, in Byzantine fill.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Bouleuterion/Odeon, West Area</rs>, in Byzantine fill.</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -73,14 +64,18 @@ First century B.C. (<rs type="criteria">lettering</rs>)
             <language ident="en">English</language>
             <language ident="grc">Ancient Greek</language>
          </langUsage>
+         <creation>Transcription (Reynolds); publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-27" who="Charlotte-Tupman">hand tidied</change>
          <change when="2007-03-15" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

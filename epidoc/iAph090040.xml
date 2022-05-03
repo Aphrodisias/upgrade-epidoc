@@ -29,9 +29,6 @@ Atia mother of Augustus</title>
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>73.145</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@ Atia mother of Augustus</title>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face (<width unit="metre">0.67</width>   × <height unit="metre">0.215</height>); chipped at all corners, especially on the right side.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face (<width unit="metre">0.67</width>   × <height unit="metre">0.215</height>); chipped at all corners, especially on the right side.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,14 @@ Atia mother of Augustus</title>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">almost certainly from the <rs type="monuList">Sebasteion</rs>
-                        </rs>
+                     <origPlace>almost certainly from the <rs type="monuList">Sebasteion</rs>
                      </origPlace>
-                     <origDate notBefore="0014" notAfter="0069">
+                     <origDate notBefore="0014" notAfter="0069" evidence="context lettering">
 Julio-Claudian
 (<rs type="criteria">context</rs>, <rs type="criteria">lettering</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">in the portico east of the <rs type="monuList">Theatre</rs>, NPS.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1981">
-                     <rs type="lastLocation">Museum (1981)</rs>
-                  </provenance>
+                  <provenance type="found">in the portico east of the <rs type="monuList">Theatre</rs>, NPS.</provenance>
+                  <provenance type="observed" when="1981">Museum (1981)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,13 +91,27 @@ Julio-Claudian
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-06" who="GB">DONE</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_Q_24A.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="78_B_15.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+         <graphic url="81_D_26.jpg">
+            <desc>Face (1981)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -29,9 +29,6 @@ Antoninus Pius</title>
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>80.24</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@ Antoninus Pius</title>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,14 @@ Antoninus Pius</title>
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">South Agora, Agora Gate</rs>: on the Agora Gate</rs>
-                     </origPlace>
-                     <origDate notBefore="0138" notAfter="0161">
+                        <rs type="monuList">South Agora, Agora Gate</rs>: on the Agora Gate</origPlace>
+                     <origDate notBefore="0138" notAfter="0161" evidence="reign">
 A.D. 138-161
 (<rs type="criteria">reign</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">South Agora, Agora Gate</rs>: i, at <measure precision="circa" dim="height" type="length" unit="metre">-3.50</measure>; perhaps fallen from the gate.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1980">
-                     <rs type="lastLocation">Museum (1980)</rs>
-                  </provenance>
+                     <rs type="monuList">South Agora, Agora Gate</rs>: i, at <measure precision="circa" dim="height" type="length" unit="metre">-3.50</measure>; perhaps fallen from the gate.</provenance>
+                  <provenance type="observed" when="1980">Museum (1980)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,14 +91,46 @@ A.D. 138-161
                </term>
             </keywords>
          </textClass>
+         <creation/>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-06" who="GB">DONE</change>
          <change when="2007-01-30" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="80_C_34.jpg">
+            <desc>Top left fragment (1980)</desc>
+         </graphic>
+         <graphic url="80_A_05.jpg">
+            <desc>Top right fragment (1980)</desc>
+         </graphic>
+         <graphic url="80_A_06.jpg">
+            <desc>Bottom left fragment (1980)</desc>
+         </graphic>
+         <graphic url="80_A_32.jpg">
+            <desc>Bottom right fragment (1980)</desc>
+         </graphic>
+         <graphic url="80_E_10A.jpg">
+            <desc>Reassembled (1980)</desc>
+         </graphic>
+         <graphic url="80_F_33.jpg">
+            <desc>Reassembled (1980)</desc>
+         </graphic>
+         <graphic url="80_G_03.jpg">
+            <desc>Reassembled (1980)</desc>
+         </graphic>
+         <graphic url="80_H_36.jpg">
+            <desc>Reassembled (1980)</desc>
+         </graphic>
+         <graphic url="HUMS003574.jpg">
+            <desc>Reassembled (2001)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -29,9 +29,6 @@
                   <idno>64.429</idno>
                   <idno>64.430</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the upper moulding of the face. The text must have begun on the lost lid, and concluded on the lost lower moulding.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the upper moulding of the face. The text must have begun on the lost lid, and concluded on the lost lower moulding.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,18 +48,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">Second to third centuries A.D. (<rs type="criteria">lettering</rs>)</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">Second to third centuries A.D. (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: Tem. III, south end ; tomb E</rs>
-                  </provenance>
-                  <provenance type="observed" when="1978">
-                     <rs type="lastLocation">Museum (1978)</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: Tem. III, south end ; tomb E</provenance>
+                  <provenance type="observed" when="1978">Museum (1978)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -94,14 +88,22 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-02-27" who="#GB">DONE</change>
          <change when="2005-03-23" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_B_24.jpg">
+            <desc>Fragment (1978)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

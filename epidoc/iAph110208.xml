@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>66.101</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> along the upper rim, above <rs type="decoration">radiate relief</rs> decoration below.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> along the upper rim, above <rs type="decoration">radiate relief</rs> decoration below.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0400" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0400"
+                               precision="medium"
+                               evidence="lettering">
 First to fourth centuries A.D. (<rs type="criteria">lettering</rs>)
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, Water Channel area</rs> IV, Tr. 6, in stone wall on surface.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">City, Water Channel area</rs> IV, Tr. 6, in stone wall on surface.</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,14 +91,25 @@ First to fourth centuries A.D. (<rs type="criteria">lettering</rs>)
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-06-19" who="cmr">DONE</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_Q_13A.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="77_K_02A.jpg">
+            <desc>Face (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

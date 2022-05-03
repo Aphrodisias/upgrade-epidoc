@@ -30,9 +30,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -45,7 +42,7 @@ broken away; the block is broken at either end.</p>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face; it is likely that the text occupied
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face; it is likely that the text occupied
 at least one more adjacent block in a composite monument.</layout>
                      </layoutDesc>
                   </objectDesc>
@@ -58,18 +55,12 @@ deep, clear and ornate; lunate.</handNote>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
+                     <origPlace>Unknown.</origPlace>
                      <origDate notBefore="0401" notAfter="0600" precision="medium">Fifth/sixth century (content, metre).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: south aisle.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum.</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: south aisle.</provenance>
+                  <provenance type="observed">Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -101,9 +92,10 @@ deep, clear and ornate; lunate.</handNote>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-02-27" who="#CMR">checked; image refs.</change>
@@ -113,6 +105,16 @@ deep, clear and ornate; lunate.</handNote>
          <change when="2003-04-30" who="Juan-Garcés">tagged Greek; tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_K_31A.jpg">
+            <desc>3 fragments (1977)</desc>
+         </graphic>
+         <graphic url="78_D_13.jpg">
+            <desc>All fragments (1978)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

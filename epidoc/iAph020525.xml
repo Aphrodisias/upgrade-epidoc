@@ -29,9 +29,6 @@
                   <idno>63.172</idno>
                   <idno>65.469</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,19 +47,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0201" notAfter="0300" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0201"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">
 Third century A.D. (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Bouleuterion/Odeon, West area</rs>: a.-d. stray in MAB; e. in MAB 4, Str.2</rs>
-                  </provenance>
-                  <provenance type="observed" when="1978">
-                     <rs type="lastLocation">Museum (1978)</rs>
-                  </provenance>
+                     <rs type="monuList">Bouleuterion/Odeon, West area</rs>: a.-d. stray in MAB; e. in MAB 4, Str.2</provenance>
+                  <provenance type="observed" when="1978">Museum (1978)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -94,13 +88,39 @@ Third century A.D. (<rs type="criteria">lettering</rs>).</origDate>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds, Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-12" who="Charlotte-Tupman">DONE</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_P_30.jpg">
+            <desc>i: Fragments joined (1977)</desc>
+         </graphic>
+         <graphic url="78_C_12.jpg">
+            <desc>ii: Fragments b. and c. (1978)</desc>
+         </graphic>
+         <graphic url="77_F_23.jpg">
+            <desc>Fragment a. (1977)</desc>
+         </graphic>
+         <graphic url="77_F_24.jpg">
+            <desc>Fragment b. (1977)</desc>
+         </graphic>
+         <graphic url="77_P_29.jpg">
+            <desc>Fragment c. (1977)</desc>
+         </graphic>
+         <graphic url="77_P_26.jpg">
+            <desc>Fragment d. (1977)</desc>
+         </graphic>
+         <graphic url="77_T_11A.jpg">
+            <desc>Fragment e. (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

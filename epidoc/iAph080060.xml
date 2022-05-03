@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -48,19 +45,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0600" precision="medium">
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="context">
 Second-sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Theatre</rs>: seats, block A, Row</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Theatre</rs>: seats, block A, Row</provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,13 +89,60 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds, Roueché)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="88_F_02.jpg">
+            <desc>Row 3 (1988)</desc>
+         </graphic>
+         <graphic url="88_F_03.jpg">
+            <desc>Row 4.i (1988)</desc>
+         </graphic>
+         <graphic url="76_G_26.jpg">
+            <desc>Row 6.ii (1976)</desc>
+         </graphic>
+         <graphic url="76_G_24.jpg">
+            <desc>Row 6.iii (1976)</desc>
+         </graphic>
+         <graphic url="76_G_23.jpg">
+            <desc>Row 8.i (1976)</desc>
+         </graphic>
+         <graphic url="76_G_22.jpg">
+            <desc>Row 8.ii and iii.a (1976)</desc>
+         </graphic>
+         <graphic url="76_G_21.jpg">
+            <desc>Row 8.iii b and c (1976)</desc>
+         </graphic>
+         <graphic url="72_L_19A.jpg">
+            <desc>Row 9.i (1972)</desc>
+         </graphic>
+         <graphic url="72_L_18A.jpg">
+            <desc>Row 9.ii (1972)</desc>
+         </graphic>
+         <graphic url="72_L_17A.jpg">
+            <desc>Row 9.iii (1972)</desc>
+         </graphic>
+         <graphic url="76_G_17.jpg">
+            <desc>Rows 19.ii and 20.ii (1976)</desc>
+         </graphic>
+         <graphic url="88_F_01.jpg">
+            <desc>Row 23 (1988)</desc>
+         </graphic>
+         <graphic url="77_Y_20.jpg">
+            <desc>Row 25 (1977)</desc>
+         </graphic>
+         <graphic url="88_F_14.jpg">
+            <desc>Row 26.ii (1988)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

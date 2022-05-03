@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">
+                           <rs type="execution" ref="scalpro">
 Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
@@ -53,18 +50,15 @@ Inscribed</rs> on the face.</layout>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0100" precision="medium"> 
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0100"
+                               precision="medium"
+                               evidence="lettering formulae"> 
 First century A.D. (<rs type="criteria">lettering</rs>); or later (<rs type="criteria">formulae</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">re-used on the outer face of the  <rs type="monuList">Walls, East (north part)</rs>, north of the Water Channel excavations, between <ref type="inscription" n="1498" target="120207.xml"/>a and b  (=MAMA 408a and b)</rs>
-                  </provenance>
-                  <provenance type="observed" when="1973">
-                     <rs type="lastLocation" reg="findspot">Findspot (1973)</rs>
-                  </provenance>
+                  <provenance type="found">re-used on the outer face of the  <rs type="monuList">Walls, East (north part)</rs>, north of the Water Channel excavations, between <ref type="inscription" n="1498" target="120207.xml"/>a and b  (=MAMA 408a and b)</provenance>
+                  <provenance type="observed" when="1973">Findspot (1973)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,14 +90,28 @@ First century A.D. (<rs type="criteria">lettering</rs>); or later (<rs type="cri
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); Gaudin; MAMA.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-19" who="Charlotte-Tupman">hand tidied</change>
          <change when="2005-02-08" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_Q_00A.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="73_W_10.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="73_X_20A.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

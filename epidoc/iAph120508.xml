@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -48,18 +45,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0200" precision="medium">First to second centuries A.D. (<rs type="criteria">nomenclature</rs>)</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0200"
+                               precision="medium"
+                               evidence="nomenclature">First to second centuries A.D. (<rs type="criteria">nomenclature</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, South-east</rs>: 'in muro' Sherard, near <ref type="inscription" n="1534" target="120524.xml"/> (=MAMA 559)</rs>
-                  </provenance>
-                  <provenance type="observed" when="1841">
-                     <rs type="lastLocation">Findspot (1841)</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, South-east</rs>: 'in muro' Sherard, near <ref type="inscription" n="1534" target="120524.xml"/> (=MAMA 559)</provenance>
+                  <provenance type="observed" when="1841">Findspot (1841)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -94,14 +88,22 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Notebooks; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-02-06" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="Deering_12.jpg">
+            <desc>Deering notebook 12</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

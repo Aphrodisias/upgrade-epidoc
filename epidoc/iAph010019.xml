@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -56,19 +53,16 @@ to the right.</layout>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot.</rs>
-                     </origPlace>
-                     <origDate notBefore="0401" notAfter="0600" precision="medium">Fifth to sixth centuries or later (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>)</origDate>
+                     <origPlace>Findspot.</origPlace>
+                     <origDate notBefore="0401"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="lettering content">Fifth to sixth centuries or later (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: On a block in the outer face of the south
-wall, towards the east end: .</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot.</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: On a block in the outer face of the south
+wall, towards the east end: .</provenance>
+                  <provenance type="observed">Findspot.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,9 +94,10 @@ wall, towards the east end: .</rs>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcriptions (Reynolds, Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-29" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-02-25" who="#CMR">checked; image refs.</change>
@@ -112,6 +107,27 @@ wall, towards the east end: .</rs>
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="NY_pr_052.jpg">
+            <desc>i: Face</desc>
+         </graphic>
+         <graphic url="72_B_06A.jpg">
+            <desc>Central design (1972)</desc>
+         </graphic>
+         <graphic url="NY_pr_063.jpg">
+            <desc>ii: Face</desc>
+         </graphic>
+         <graphic url="DSCN0282.jpg">
+            <desc>View
+(2004)</desc>
+         </graphic>
+         <graphic url="DSCN0284.jpg">
+            <desc>View
+(2004)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

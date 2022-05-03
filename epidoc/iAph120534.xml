@@ -29,9 +29,6 @@
                   <idno>69.318</idno>
                   <idno>69.323</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -40,7 +37,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>i. <rs type="execution" key="scalpro">inscribed</rs> in two lines along the lower fascia. The text must have begun on a fascia of the upper moulding. ii. inscribed on one face.</layout>
+                        <layout>i. <rs type="execution" ref="scalpro">inscribed</rs> in two lines along the lower fascia. The text must have begun on a fascia of the upper moulding. ii. inscribed on one face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -49,20 +46,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering nomenclature">
 Second to third centuries A.D. (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>) 
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, South-east</rs>: i: half buried along the south face of the south-east stretch; ii apparently in or near the south-east stretch; fragments later found b in the wall of a house, a and c during the clearing of the <rs type="monuList">Theatre</rs>.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">The capital is still in situ; the base fragments are now in the Museum.</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, South-east</rs>: i: half buried along the south face of the south-east stretch; ii apparently in or near the south-east stretch; fragments later found b in the wall of a house, a and c during the clearing of the <rs type="monuList">Theatre</rs>.</provenance>
+                  <provenance type="observed">The capital is still in situ; the base fragments are now in the Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -94,13 +88,33 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>, <rs type="cr
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); Sherard papers; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="89_D_16A.jpg">
+            <desc>i, face (1989)</desc>
+         </graphic>
+         <graphic url="83_D_12A.jpg">
+            <desc>i, showing right side (1983)</desc>
+         </graphic>
+         <graphic url="77_P_37.jpg">
+            <desc>ii: a (1977)</desc>
+         </graphic>
+         <graphic url="77_U_35.jpg">
+            <desc>ii: b (1977)</desc>
+         </graphic>
+         <graphic url="77_N_32A.jpg">
+            <desc>ii: c (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -29,9 +29,6 @@
                   <idno>62.101</idno>
                   <idno>66.279</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on one face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on one face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,18 +49,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="-0050" notAfter="-0001" precision="medium"> Perhaps late Republican or Augustan (<rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="-0050"
+                               notAfter="-0001"
+                               precision="medium"
+                               evidence="lettering"> Perhaps late Republican or Augustan (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: a. 'T.Aph XV', b. 'N. Tem., Tr. 24</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: a. 'T.Aph XV', b. 'N. Tem., Tr. 24</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,14 +92,25 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-06-19" who="cmr">DONE</change>
          <change when="2005-07-28" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_J_02A.jpg">
+            <desc>Fragment a (1977)</desc>
+         </graphic>
+         <graphic url="83_B_11A.jpg">
+            <desc>Both fragments (1983)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

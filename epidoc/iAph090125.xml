@@ -32,9 +32,6 @@
                   <idno>81.135</idno>
                   <idno>81.114</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -46,7 +43,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the rim below the bust.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the rim below the bust.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -55,18 +52,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Mounted in the apse: Smith (1990), 129-30</rs>
-                     </origPlace>
-                     <origDate notBefore="0468" notAfter="0500" precision="medium">Late fifth century (<rs type="criteria">style</rs>, <rs type="criteria">lettering</rs>, <rs type="criteria">context</rs>).</origDate>
+                     <origPlace>Mounted in the apse: Smith (1990), 129-30</origPlace>
+                     <origDate notBefore="0468"
+                               notAfter="0500"
+                               precision="medium"
+                               evidence="style lettering context">Late fifth century (<rs type="criteria">style</rs>, <rs type="criteria">lettering</rs>, <rs type="criteria">context</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Sebasteion</rs> excavations: lying behind apse in Atrium House</rs>
-                  </provenance>
-                  <provenance type="observed" when="1985">
-                     <rs type="lastLocation">Museum (1985)</rs>
-                  </provenance>
+                     <rs type="monuList">Sebasteion</rs> excavations: lying behind apse in Atrium House</provenance>
+                  <provenance type="observed" when="1985">Museum (1985)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,9 +92,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -111,6 +106,25 @@
          <change when="2002-11-02" who="#GB">Typed and tagged Greek</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="81_G_11.jpg">
+            <desc>Text 1 (1981)</desc>
+         </graphic>
+         <graphic url="85_G_23.jpg">
+            <desc> Text 3 (1985)</desc>
+         </graphic>
+         <graphic url="81_D_21.jpg">
+            <desc>Text 5 (1981)</desc>
+         </graphic>
+         <graphic url="85_G_22.jpg">
+            <desc>Text 6 (1985)</desc>
+         </graphic>
+         <graphic url="85_G_24.jpg">
+            <desc>Text 7 (1985)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

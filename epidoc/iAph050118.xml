@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@ and below on one face. Chipped to the right, but complete.</p>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the moulded face, in one line on the surface
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the moulded face, in one line on the surface
 between the mouldings, which is slightly concave. The text must have
 continued onto an adjacent block.</layout>
                      </layoutDesc>
@@ -55,18 +52,15 @@ continued onto an adjacent block.</layout>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0301" notAfter="0350" precision="medium">First half of the fourth century (<rs type="criteria">lettering</rs>, <rs type="criteria">prosopography</rs>).</origDate>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0301"
+                               notAfter="0350"
+                               precision="medium"
+                               evidence="lettering prosopography">First half of the fourth century (<rs type="criteria">lettering</rs>, <rs type="criteria">prosopography</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>: central chamber.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1972">
-                     <rs type="lastLocation">Findspot (1972).</rs>
-                  </provenance>
+                     <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>: central chamber.</provenance>
+                  <provenance type="observed" when="1972">Findspot (1972).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,9 +92,10 @@ continued onto an adjacent block.</layout>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-16" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-01-16" who="#CMR">tidied; image refs</change>
@@ -113,6 +108,13 @@ continued onto an adjacent block.</layout>
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="72_C_23.jpg">
+            <desc>Face (1972)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

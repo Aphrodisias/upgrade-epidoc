@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>76.63</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -40,7 +37,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,20 +47,14 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Theatre</rs>: north parodos wall.</rs>
-                     </origPlace>
+                        <rs type="monuList">Theatre</rs>: north parodos wall.</origPlace>
                      <origDate notBefore="0101" notAfter="0300" precision="medium">
 Second to third centuries A.D.
  (lettering).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Theatre</rs>: re-used in the defence wall across the east face of the Theatre.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Theatre</rs>: re-used in the defence wall across the east face of the Theatre.</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -73,13 +64,21 @@ Second to third centuries A.D.
             <language ident="en">English</language>
             <language ident="grc">Ancient Greek</language>
          </langUsage>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-13" who="GB">DONE</change>
          <change when="2007-03-13" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="76_A_26A.jpg">
+            <desc>Face (1976)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

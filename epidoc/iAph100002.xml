@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -40,7 +37,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the seats. Row M: across the row, starting at the north end. Row T: starting at the north end. Row U.i: starting from north end. Row U.ii: <width unit="metre">0.24</width> x <height unit="metre">0.11</height>. Row U.iii: worn and incomplete. Row W: <width unit="metre">0.56</width> x <height unit="metre">0.29</height>, central dividers not cut, and not properly aligned.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the seats. Row M: across the row, starting at the north end. Row T: starting at the north end. Row U.i: starting from north end. Row U.ii: <width unit="metre">0.24</width> x <height unit="metre">0.11</height>. Row U.iii: worn and incomplete. Row W: <width unit="metre">0.56</width> x <height unit="metre">0.29</height>, central dividers not cut, and not properly aligned.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -49,20 +46,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0500" precision="medium">
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0500"
+                               precision="medium"
+                               evidence="context">
 Second-fifth century A.D.
 (<rs type="criteria">context</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Stadium</rs>: seats, block 20. </rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Stadium</rs>: seats, block 20. </provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,14 +91,55 @@ Second-fifth century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds, Roueché). This edition: Roueché (2007)..</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-23" who="Charlotte-Tupman">hand tidied</change>
          <change when="2007-03-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="75_L_17.jpg">
+            <desc>Row M, left end (1975)</desc>
+         </graphic>
+         <graphic url="75_L_18.jpg">
+            <desc>Row M(1975)</desc>
+         </graphic>
+         <graphic url="75_L_19.jpg">
+            <desc>Row M (1975)</desc>
+         </graphic>
+         <graphic url="75_L_20.jpg">
+            <desc>Row M (1975)</desc>
+         </graphic>
+         <graphic url="75_L_21.jpg">
+            <desc>Row M, right end (1975)</desc>
+         </graphic>
+         <graphic url="75_L_22.jpg">
+            <desc>Row N (1975)</desc>
+         </graphic>
+         <graphic url="75_L_15.jpg">
+            <desc>Row T, Row U, left end (1975)</desc>
+         </graphic>
+         <graphic url="75_L_16.jpg">
+            <desc>Row T, Row U  (1975)</desc>
+         </graphic>
+         <graphic url="77_A_13.jpg">
+            <desc>Row T, left end (1977)</desc>
+         </graphic>
+         <graphic url="77_B_11A.jpg">
+            <desc>Row T (1977)</desc>
+         </graphic>
+         <graphic url="77_B_12A.jpg">
+            <desc>Row T (1977)</desc>
+         </graphic>
+         <graphic url="77_B_13A.jpg">
+            <desc>Row T (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

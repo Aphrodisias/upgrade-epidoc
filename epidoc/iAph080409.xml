@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the top surface; there is a hole where the <term xml:lang="la">gnomon</term> may have stood.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the top surface; there is a hole where the <term xml:lang="la">gnomon</term> may have stood.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,18 +48,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot.</rs>
-                     </origPlace>
-                     <origDate notBefore="0401" notAfter="0600" precision="medium">Fifth-sixth century (<rs type="criteria">context</rs>, <rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Findspot.</origPlace>
+                     <origDate notBefore="0401"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="context lettering">Fifth-sixth century (<rs type="criteria">context</rs>, <rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: standing with its base <measure type="length" unit="metre" dim="height">0.55</measure> below the present pavement level, and protruding above it. </rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot.</rs>
-                  </provenance>
+                     <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: standing with its base <measure type="length" unit="metre" dim="height">0.55</measure> below the present pavement level, and protruding above it. </provenance>
+                  <provenance type="observed">Findspot.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,9 +89,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Publication; transcriptions (Reynolds, M. Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-02-29" who="#CMR">checked; image refs.</change>
@@ -107,6 +102,28 @@
          <change when="2002-11-02" who="#GB">Typed and tagged Greek</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="NY_74_28_08.jpg">
+            <desc>View (1974)</desc>
+         </graphic>
+         <graphic url="DSCN0268.jpg">
+            <desc>Face (2004)</desc>
+         </graphic>
+         <graphic url="DSCN0266.jpg">
+            <desc>View from east (2004)</desc>
+         </graphic>
+         <graphic url="DSCN0287.jpg">
+            <desc>View from north (2004)</desc>
+         </graphic>
+         <graphic url="75_G_37.jpg">
+            <desc>Tetrastoon, view from south east (1975)</desc>
+         </graphic>
+         <graphic url="75_H_02.jpg">
+            <desc>Tetrastoon, view from north east (1975)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

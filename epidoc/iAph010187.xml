@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -50,18 +47,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0226" notAfter="0250" precision="medium">Second quarter third century A.D. (<rs type="criteria">reign</rs>)</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0226"
+                               notAfter="0250"
+                               precision="medium"
+                               evidence="reign">Second quarter third century A.D. (<rs type="criteria">reign</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: re-used in the south side of the chancel-rail, ?second base from east.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: re-used in the south side of the chancel-rail, ?second base from east.</provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,14 +94,25 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Publications; Gaudin; Preliminary transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-19" who="Charlotte-Tupman">hand tidied</change>
          <change when="2005-02-16" who="Artemis-Papakostouli">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="76_F_29A.jpg">
+            <desc>Upper fragment, lines 1-13 (1976)</desc>
+         </graphic>
+         <graphic url="76_F_32A.jpg">
+            <desc>Lower fragments, lines  13-31 (1976)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

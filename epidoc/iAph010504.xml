@@ -29,9 +29,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -60,18 +57,12 @@ sarcophagus.</layout>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
+                     <origPlace>Unknown.</origPlace>
                      <origDate notBefore="0268" notAfter="0333" precision="medium">Late third/early fourth century (titulature).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="Tetrapylon">Tetrapylon</rs>: in the Byzantine cemetery.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">On site.</rs>
-                  </provenance>
+                     <rs type="monuList" key="Tetrapylon">Tetrapylon</rs>: in the Byzantine cemetery.</provenance>
+                  <provenance type="observed">On site.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -104,9 +95,10 @@ sarcophagus.</layout>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-02-27" who="#CMR">checked; image refs.</change>
@@ -116,6 +108,13 @@ sarcophagus.</layout>
          <change when="2003-04-30" who="Juan-Garcés">tagged Greek; tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="85_J_13.jpg">
+            <desc>ii: Face (1985)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

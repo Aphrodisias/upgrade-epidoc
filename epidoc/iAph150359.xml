@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>92.47</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in one line on upper fascia of moulded profile.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in one line on upper fascia of moulded profile.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,17 +48,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">An unidentified church, <seg cert="low">crowning the chancel barrier</seg>.</rs>
-                     </origPlace>
-                     <origDate notBefore="0401" notAfter="0600" precision="medium">Fifth/sixth century or later (<rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>An unidentified church, <seg cert="low">crowning the chancel barrier</seg>.</origPlace>
+                     <origDate notBefore="0401"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="lettering">Fifth/sixth century or later (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">Stray find.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum.</rs>
-                  </provenance>
+                  <provenance type="found">Stray find.</provenance>
+                  <provenance type="observed">Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -93,9 +87,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -106,6 +101,13 @@
          <change when="2002-10-31" who="#GB">Typed and tagged Greek</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="92_A_19.jpg">
+            <desc>Face (1992)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

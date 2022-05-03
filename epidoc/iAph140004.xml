@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -49,17 +46,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown cemetery</rs>
-                     </origPlace>
-                     <origDate notBefore="0000" notAfter="0000" precision="medium">    .I-IV (<rs type="criteria">lettering</rs>)</origDate>
+                     <origPlace>Unknown cemetery</origPlace>
+                     <origDate notBefore="0000"
+                               notAfter="0000"
+                               precision="medium"
+                               evidence="lettering">    .I-IV (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">in a well in the centre of <rs type="monuList">Karaçasu</rs> in 1925; not rediscovered. All inscriptions found in Karaçasu may reasonably be taken to have originated in Aphrodisias</rs>
-                  </provenance>
-                  <provenance type="observed" when="1927">
-                     <rs type="lastLocation">Findspot (1927)</rs>
-                  </provenance>
+                  <provenance type="found">in a well in the centre of <rs type="monuList">Karaçasu</rs> in 1925; not rediscovered. All inscriptions found in Karaçasu may reasonably be taken to have originated in Aphrodisias</provenance>
+                  <provenance type="observed" when="1927">Findspot (1927)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -91,14 +85,22 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-05" who="cmr">DONE</change>
          <change when="2005-10-28" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="salac-f7.jpg">
+            <desc>Face (Salač 1927)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

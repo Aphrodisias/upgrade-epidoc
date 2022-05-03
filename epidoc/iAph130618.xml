@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>a. <rs type="execution" key="scalpro">Inscribed</rs> on the face; ll. 1 - 12 within the panel upheld by putti, and ll. 13-15 on the moulding below. b. inscribed on one side</layout>
+                        <layout>a. <rs type="execution" ref="scalpro">Inscribed</rs> on the face; ll. 1 - 12 within the panel upheld by putti, and ll. 13-15 on the moulding below. b. inscribed on one side</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,20 +48,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0226" notAfter="0250" precision="medium">Perhaps 
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0226"
+                               notAfter="0250"
+                               precision="medium"
+                               evidence="lettering spelling nomenclature monument">Perhaps 
 second quarter of the third century
  (<rs type="criteria">lettering</rs>, <rs type="criteria">spelling</rs>, <rs type="criteria">nomenclature</rs>, <rs type="criteria">monument</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Necropolis, West</rs>: in a pile of stones in a field just west of the west wall, north of the old road.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1975">
-                     <rs type="lastLocation">Findspot (1975)</rs>
-                  </provenance>
+                     <rs type="monuList">Necropolis, West</rs>: in a pile of stones in a field just west of the west wall, north of the old road.</provenance>
+                  <provenance type="observed" when="1975">Findspot (1975)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,13 +90,24 @@ second quarter of the third century
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-02-08" who="Charlotte-Tupman">DONE</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_Y_00.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="75_F_10A.jpg">
+            <desc>Face (1975)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

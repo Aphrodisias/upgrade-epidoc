@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno>67.539</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> with a graffito at 0.26 from edge on the inner face. There seems to have been an attempt to erase the second line.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> with a graffito at 0.26 from edge on the inner face. There seems to have been an attempt to erase the second line.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,20 +48,14 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Theatre</rs>: Ionic register of the stage front decoration</rs>
-                     </origPlace>
-                     <origDate notBefore="0400" notAfter="0600">
+                        <rs type="monuList">Theatre</rs>: Ionic register of the stage front decoration</origPlace>
+                     <origDate notBefore="0400" notAfter="0600" evidence="content context">
 Fifth-sixth centuries A.D.
 (<rs type="criteria">content</rs>, <rs type="criteria">context</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Theatre</rs> V</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">East of Theatre</rs>
-                  </provenance>
+                     <rs type="monuList">Theatre</rs> V</provenance>
+                  <provenance type="observed">East of Theatre</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -102,13 +93,24 @@ Fifth-sixth centuries A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>transcriptions (Reynolds, Roueché)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="89_B_31.jpg">
+            <desc>Block (1989)</desc>
+         </graphic>
+         <graphic url="89_B_30.jpg">
+            <desc>Detail (1989)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

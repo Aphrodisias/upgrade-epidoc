@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>84.57</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,21 +50,18 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Hadrianic Baths</rs>
-                        </rs>
+                        <rs type="monuList">Hadrianic Baths</rs>
                      </origPlace>
-                     <origDate notBefore="0070" notAfter="0200" precision="medium">
+                     <origDate notBefore="0070"
+                               notAfter="0200"
+                               precision="medium"
+                               evidence="dedication">
 Not before A.D. 70
 (<rs type="criteria">dedication</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Hadrianic Baths</rs>:  at the north entrance to the 'galerie de l'Est'</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Hadrianic Baths</rs>:  at the north entrance to the 'galerie de l'Est'</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -105,13 +99,30 @@ Not before A.D. 70
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds); Boulanger notebooks.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-30" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="85_B_16.jpg">
+            <desc>Face (1985)</desc>
+         </graphic>
+         <graphic url="AG_1276.jpg">
+            <desc>Face (2005)</desc>
+         </graphic>
+         <graphic url="Boulanger_A_79.jpg">
+            <desc>Boulanger Notebook A, 79</desc>
+         </graphic>
+         <graphic url="Boulanger_B_33.jpg">
+            <desc>Boulanger Notebook B, 33</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

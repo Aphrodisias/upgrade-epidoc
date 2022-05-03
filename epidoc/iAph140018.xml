@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -40,7 +37,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> face <width unit="metre">0.40</width>. If the block was complete, the text will have begun on a crowning feature.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> face <width unit="metre">0.40</width>. If the block was complete, the text will have begun on a crowning feature.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,20 +47,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0212" notAfter="0250" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0212"
+                               notAfter="0250"
+                               precision="medium"
+                               evidence="nomenclature">
 Probably soon after 212 A.D. (<rs type="criteria">nomenclature</rs>, if the name is correctly restored)
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Neighbouring Settlement, Pirlibey</rs>: Recorded at Aphrodisias by Deering and Waddington; at Pirlibey (with other stones from Aphrodisias) by Anthopoulos,</rs>
-                  </provenance>
-                  <provenance type="observed" when="1872">
-                     <rs type="lastLocation">Pirlibey (1872)</rs>
-                  </provenance>
+                     <rs type="monuList">Neighbouring Settlement, Pirlibey</rs>: Recorded at Aphrodisias by Deering and Waddington; at Pirlibey (with other stones from Aphrodisias) by Anthopoulos,</provenance>
+                  <provenance type="observed" when="1872">Pirlibey (1872)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,14 +92,22 @@ Probably soon after 212 A.D. (<rs type="criteria">nomenclature</rs>, if the name
                </term>
             </keywords>
          </textClass>
+         <creation>Deering notebook; Publications</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-13" who="cmr">DONE</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="Deering_03.jpg">
+            <desc>Deering notebook, page 3</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

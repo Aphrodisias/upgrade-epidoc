@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>67.215</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -51,21 +48,18 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown, presumably <rs type="monuList">Theatre</rs>
-                        </rs>
+                     <origPlace>Unknown, presumably <rs type="monuList">Theatre</rs>
                      </origPlace>
-                     <origDate notBefore="0101" notAfter="0100" precision="medium">
+                     <origDate notBefore="0101"
+                               notAfter="0100"
+                               precision="medium"
+                               evidence="letter-forms content">
 Probably first century A.D.
 (<rs type="criteria">letter-forms</rs>, <rs type="criteria">content</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Theatre</rs>: a: sector V; b: no location</rs>
-                  </provenance>
-                  <provenance type="observed" when="1994">
-                     <rs type="lastLocation">Museum (1994)</rs>
-                  </provenance>
+                     <rs type="monuList">Theatre</rs>: a: sector V; b: no location</provenance>
+                  <provenance type="observed" when="1994">Museum (1994)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,13 +94,27 @@ Probably first century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-27" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_B_23A.jpg">
+            <desc>Left fragment (1977)</desc>
+         </graphic>
+         <graphic url="78_B_06.jpg">
+            <desc>Right fragment (1978)</desc>
+         </graphic>
+         <graphic url="78_C_08.jpg">
+            <desc>Right fragment (1978)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

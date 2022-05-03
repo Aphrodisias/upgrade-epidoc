@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> along the central part of the upper rim, apparently with a vacat on either side.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> along the central part of the upper rim, apparently with a vacat on either side.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,18 +48,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0301" notAfter="0400" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0301"
+                               notAfter="0400"
+                               precision="medium"
+                               evidence="lettering">
 The sarcophagus could well be markedly earlier than the letters, which are difficult to date, but perhaps of the  fourth century A.D. (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">Unknown</rs>
-                  </provenance>
-                  <provenance type="observed" when="1972">
-                     <rs type="lastLocation">Museum (1972)</rs>
-                  </provenance>
+                  <provenance type="found">Unknown</provenance>
+                  <provenance type="observed" when="1972">Museum (1972)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -94,14 +88,22 @@ The sarcophagus could well be markedly earlier than the letters, which are diffi
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-02" who="GB">DONE</change>
          <change when="2007-02-06" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="72_B_10A.jpg">
+            <desc> Detail (1972)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

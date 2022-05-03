@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">
+                           <rs type="execution" ref="scalpro">
 Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
@@ -55,19 +52,16 @@ Inscribed</rs> on the face.</layout>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0200" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0200"
+                               precision="medium"
+                               evidence="lettering">
 Second century A.D. (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, South-west</rs>, reused as a well-head south west of the Theatre</rs>
-                  </provenance>
-                  <provenance type="observed" when="1975">
-                     <rs type="lastLocation" reg="findspot">Findspot (1975)</rs>
-                  </provenance>
+                     <rs type="monuList">City, South-west</rs>, reused as a well-head south west of the Theatre</provenance>
+                  <provenance type="observed" when="1975">Findspot (1975)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,14 +93,31 @@ Second century A.D. (<rs type="criteria">lettering</rs>)</origDate>
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); notebooks; publication.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-19" who="Charlotte-Tupman">hand tidied</change>
          <change when="2005-01-06" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_S_15.jpg">
+            <desc>Front view (1973)</desc>
+         </graphic>
+         <graphic url="75_L_04.jpg">
+            <desc>Face (1975)</desc>
+         </graphic>
+         <graphic url="K_III_44.jpg">
+            <desc>Kubitschek notebook III, 44</desc>
+         </graphic>
+         <graphic url="R_I_16v.jpg">
+            <desc>Reichel notebook I, 16v</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

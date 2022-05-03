@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>66.542</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the central panel.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the central panel.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,18 +49,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0334" notAfter="0400" precision="medium">Mid to late fourth century (<rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0334"
+                               notAfter="0400"
+                               precision="medium"
+                               evidence="lettering">Mid to late fourth century (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="HadrBath">Hadrianic baths</rs>: at the west side of trench A, in the room north of the tepidarium.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1993">
-                     <rs type="lastLocation">Museum (1993).</rs>
-                  </provenance>
+                     <rs type="monuList" key="HadrBath">Hadrianic baths</rs>: at the west side of trench A, in the room north of the tepidarium.</provenance>
+                  <provenance type="observed" when="1993">Museum (1993).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,9 +89,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché); Publication.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-22" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -110,6 +105,22 @@
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="72_D_01A.jpg">
+            <desc>Face (1972)</desc>
+         </graphic>
+         <graphic url="77_AA_36.jpg">
+            <desc>Face (1977)</desc>
+         </graphic>
+         <graphic url="NY_93_76_07.jpg">
+            <desc>View (1993)</desc>
+         </graphic>
+         <graphic url="NY_93_76_08.jpg">
+            <desc>Face (1993)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

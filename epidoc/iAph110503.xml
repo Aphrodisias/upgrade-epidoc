@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,21 +47,18 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0400" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0400"
+                               precision="medium"
+                               evidence="content">
 First to fourth centuries A.D. (<rs type="criteria">content</rs>)
 
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, North-west</rs>, with <ref type="inscription" n="635" target="110501.xml"/> and <ref type="inscription" n="636" target="110502.xml"/> at the edge of a field between the city walls and the Hadrianic Baths.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">City, North-west</rs>, with <ref type="inscription" n="635" target="110501.xml"/> and <ref type="inscription" n="636" target="110502.xml"/> at the edge of a field between the city walls and the Hadrianic Baths.</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,13 +93,27 @@ First to fourth centuries A.D. (<rs type="criteria">content</rs>)
                </term>
             </keywords>
          </textClass>
+         <creation>Transcriptions (Reynolds, Roueché)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_V_07.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="80_G_15.jpg">
+            <desc>Face (1980)</desc>
+         </graphic>
+         <graphic url="89_F_16A.jpg">
+            <desc>Face (1989)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

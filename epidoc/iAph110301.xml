@@ -29,9 +29,6 @@
                   <idno>62.267</idno>
                   <idno>71.29</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,20 +50,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="-0031" notAfter="0014" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="-0031"
+                               notAfter="0014"
+                               precision="medium"
+                               evidence="lettering">
 Augustan
 (<rs type="criteria">lettering</rs> very similar to <ref type="inscription" n="529" target="120402.xml"/>, <ref type="inscription" n="530" target="120701.xml"/>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, South-east</rs>: Theatre area</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">City, South-east</rs>: Theatre area</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -101,13 +95,27 @@ Augustan
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds) </creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-12" who="Charlotte-Tupman">tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_O_08.jpg">
+            <desc>Assembled (1977)</desc>
+         </graphic>
+         <graphic url="77_O_09.jpg">
+            <desc>Assembled (1977)</desc>
+         </graphic>
+         <graphic url="77_O_10.jpg">
+            <desc>Assembled (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

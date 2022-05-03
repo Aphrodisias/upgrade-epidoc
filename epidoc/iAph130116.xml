@@ -29,9 +29,6 @@
                   <idno>62.268</idno>
                   <idno>69.328</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -51,20 +48,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0100" notAfter="0150">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0100" notAfter="0150" evidence="prosopography lettering">
 Document i: Late first century B.C. for  ll. 1-2, Reynolds first favoured Julius as Caesar, but came to think of Octavian; Document ii: early second century. (<rs type="criteria">prosopography</rs>, <rs type="criteria">lettering</rs>)
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" cert="low">Necropolis, North-east</rs>: MAMA fragments found in a field wall north-east of the Stadium; other fragments stray finds.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList" cert="low">Necropolis, North-east</rs>: MAMA fragments found in a field wall north-east of the Stadium; other fragments stray finds.</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -74,14 +65,28 @@ Document i: Late first century B.C. for  ll. 1-2, Reynolds first favoured Julius
             <language ident="en">English</language>
             <language ident="grc">Ancient Greek</language>
          </langUsage>
+         <creation>Transcription (Reynolds), publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-02" who="Charlotte-Tupman">hand tidied</change>
          <change when="2007-03-15" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_J_24A.jpg">
+            <desc>Fragment (1977)</desc>
+         </graphic>
+         <graphic url="80_F_31.jpg">
+            <desc>Assembled (1980)</desc>
+         </graphic>
+         <graphic url="80_F_30.jpg">
+            <desc>Assembled (1980)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

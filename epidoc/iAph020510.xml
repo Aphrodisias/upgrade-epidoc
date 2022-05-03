@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>64.138</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -40,7 +37,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in the channel.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in the channel.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -49,20 +46,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0400" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0400"
+                               precision="medium"
+                               evidence="lettering">
 First to fourth centuries A.D. (<rs type="criteria">lettering</rs>)
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Bouleuterion/Odeon, West area</rs>: 'W.Bou., ch.3, Str.1'</rs>
-                  </provenance>
-                  <provenance type="observed" when="1978">
-                     <rs type="lastLocation">Museum (1978)</rs>
-                  </provenance>
+                     <rs type="monuList">Bouleuterion/Odeon, West area</rs>: 'W.Bou., ch.3, Str.1'</provenance>
+                  <provenance type="observed" when="1978">Museum (1978)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,13 +89,21 @@ First to fourth centuries A.D. (<rs type="criteria">lettering</rs>)
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-02-14" who="GB">DONE</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_A_32.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>77.70</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -51,19 +48,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="-0039" notAfter="-0038">
+                     <origPlace>unknown</origPlace>
+                     <origDate notBefore="-0039" notAfter="-0038" evidence="content lettering">
 39/38 B.C. (<rs type="criteria">content</rs>, <rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, West</rs>: Lying loose on the eastern face of the western city wall, a little south of the presumed location of <ref type="inscription" n="508" target="080027.xml"/>.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, West</rs>: Lying loose on the eastern face of the western city wall, a little south of the presumed location of <ref type="inscription" n="508" target="080027.xml"/>.</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -73,14 +64,25 @@
             <language ident="en">English</language>
             <language ident="grc">Ancient Greek</language>
          </langUsage>
+         <creation>transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-02" who="Charlotte-Tupman">hand tidied</change>
          <change when="2007-03-15" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_U_08.jpg">
+            <desc>Face (1977)</desc>
+         </graphic>
+         <graphic url="77_U_09.jpg">
+            <desc>Face (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

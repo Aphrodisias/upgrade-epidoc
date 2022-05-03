@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>81.113</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the plinth.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the plinth.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,18 +49,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0050" notAfter="0100">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0050" notAfter="0100" evidence="sculpture">
 Middle or late 1st century A.D. (<rs type="criteria">sculpture</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">Area north of the <rs type="monuList">Sebasteion</rs>, with <ref type="inscription" n="251" target="090125.xml"/>.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                  <provenance type="found">Area north of the <rs type="monuList">Sebasteion</rs>, with <ref type="inscription" n="251" target="090125.xml"/>.</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,14 +86,25 @@ Middle or late 1st century A.D. (<rs type="criteria">sculpture</rs>)</origDate>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-08-07" who="Eleonora-Litta">tidied expan</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="85_H_23A.jpg">
+            <desc>Bust (1985)</desc>
+         </graphic>
+         <graphic url="85_H_22A.jpg">
+            <desc>Detail (1985)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

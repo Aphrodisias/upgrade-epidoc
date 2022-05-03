@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -44,7 +41,7 @@ surviving (<height unit="metre">0.36</height> ×
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,18 +50,15 @@ surviving (<height unit="metre">0.36</height> ×
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0301" notAfter="0500" precision="medium">Fourth-fifth century (<rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0301"
+                               notAfter="0500"
+                               precision="medium"
+                               evidence="lettering">Fourth-fifth century (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="Boul">Bouleuterion/Odeon</rs>: parodos area.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum.</rs>
-                  </provenance>
+                     <rs type="monuList" key="Boul">Bouleuterion/Odeon</rs>: parodos area.</provenance>
+                  <provenance type="observed">Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,9 +90,10 @@ surviving (<height unit="metre">0.36</height> ×
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-02-29" who="#CMR">checked; image refs.</change>
@@ -108,6 +103,13 @@ surviving (<height unit="metre">0.36</height> ×
          <change when="2003-04-30" who="Juan-Garcés">tagged Greek; tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="76_J_09A.jpg">
+            <desc>Face (1976)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

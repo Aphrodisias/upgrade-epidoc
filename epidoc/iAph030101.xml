@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,18 +49,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0014" notAfter="0037">  Statue base i: Augustan (<rs type="criteria">lettering</rs>).  Statue base ii: Tiberian (<rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0014" notAfter="0037" evidence="lettering lettering">  Statue base i: Augustan (<rs type="criteria">lettering</rs>).  Statue base ii: Tiberian (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">North Agora</rs>: re-used in north portico wall, in east wall of west recess.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1973">
-                     <rs type="lastLocation">Findspot (1973)</rs>
-                  </provenance>
+                     <rs type="monuList">North Agora</rs>: re-used in north portico wall, in east wall of west recess.</provenance>
+                  <provenance type="observed" when="1973">Findspot (1973)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,14 +86,28 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-06" who="Charlotte-Tupman">hand tidied</change>
          <change when="2005-08-30" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_Y_27.jpg">
+            <desc>i. Face (1973)</desc>
+         </graphic>
+         <graphic url="72_L_28A.jpg">
+            <desc>i Face, detail (1972)</desc>
+         </graphic>
+         <graphic url="73_Y_31.jpg">
+            <desc>ii. Face (1973)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

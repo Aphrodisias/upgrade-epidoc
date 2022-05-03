@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro"> Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro"> Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,19 +48,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown, <rs type="monuList" cert="low">Necropolis, North</rs>
-                        </rs>
+                     <origPlace>Unknown, <rs type="monuList" cert="low">Necropolis, North</rs>
                      </origPlace>
-                     <origDate notBefore="0167" notAfter="0233" precision="medium">Late second/early third century A.D. (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>, family history, )</origDate>
+                     <origDate notBefore="0167"
+                               notAfter="0233"
+                               precision="medium"
+                               evidence="lettering nomenclature">Late second/early third century A.D. (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>, family history, )</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, North</rs>: fallen from the wall, north of the Stadium</rs>
-                  </provenance>
-                  <provenance type="observed" when="1985">
-                     <rs type="lastLocation">Findspot (1985)</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, North</rs>: fallen from the wall, north of the Stadium</provenance>
+                  <provenance type="observed" when="1985">Findspot (1985)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,9 +90,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds); a: MAMA; b: Gaudin's squeeze; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-04" who="cmr">DONE</change>
          <change when="2007-01-19" who="Charlotte-Tupman">hand tidied</change>
          <change when="2005-06-20" who="#GB">Entered JMR's corrections</change>
@@ -106,6 +101,28 @@
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_T_16.jpg">
+            <desc>Fragment a (1973)</desc>
+         </graphic>
+         <graphic url="73_W_08.jpg">
+            <desc>Fragment b (1973)</desc>
+         </graphic>
+         <graphic url="85_E_14.jpg">
+            <desc>Fragments a &amp; b (1985)</desc>
+         </graphic>
+         <graphic url="85_E_16.jpg">
+            <desc>Fragments a &amp; b (1985)</desc>
+         </graphic>
+         <graphic url="K_III_10.jpg">
+            <desc>Kubitschek notebook III, 10</desc>
+         </graphic>
+         <graphic url="K_III_13.jpg">
+            <desc>Kubitschek notebook III, 13</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" sample="complete" org="uniform" xml:lang="grc" xml:space="preserve">

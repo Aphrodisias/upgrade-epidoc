@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,18 +49,15 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList" key="HadrBath" cert="low">Hadrianic Baths</rs>.</rs>
-                     </origPlace>
-                     <origDate notBefore="0501" notAfter="0600" precision="medium">Sixth century (<rs type="criteria">prosopography</rs>).</origDate>
+                        <rs type="monuList" key="HadrBath" cert="low">Hadrianic Baths</rs>.</origPlace>
+                     <origDate notBefore="0501"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="prosopography">Sixth century (<rs type="criteria">prosopography</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Lying in the East Court of the Hadrianic Baths.</rs>
-                  </provenance>
+                     <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>.</provenance>
+                  <provenance type="observed">Lying in the East Court of the Hadrianic Baths.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,9 +89,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Publications;  Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-24" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-01-10" who="#CMR">checked; image refs.</change>
@@ -107,6 +102,19 @@
          <change when="2003-07-18" who="Juan-Garcés">lemmatised</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_E_23A.jpg">
+            <desc>Centre (1978)</desc>
+         </graphic>
+         <graphic url="78_E_24A.jpg">
+            <desc>Right side (1978)</desc>
+         </graphic>
+         <graphic url="78_J_34.jpg">
+            <desc>Squeeze (1978)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

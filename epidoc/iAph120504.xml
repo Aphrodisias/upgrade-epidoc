@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -49,19 +46,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="-33" notAfter="0033">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="-33" notAfter="0033" evidence="lettering">
 Early first century B.C. to early first century A.D. (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" cert="low">Walls, South-east</rs>: '<foreign xml:lang="fr">sur une grande assise</foreign>' in the foundations</rs>
-                  </provenance>
-                  <provenance type="observed" when="1850">
-                     <rs type="lastLocation">Findspot (1850)</rs>
-                  </provenance>
+                     <rs type="monuList" cert="low">Walls, South-east</rs>: '<foreign xml:lang="fr">sur une grande assise</foreign>' in the foundations</provenance>
+                  <provenance type="observed" when="1850">Findspot (1850)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -94,13 +85,17 @@ Early first century B.C. to early first century A.D. (<rs type="criteria">letter
                </term>
             </keywords>
          </textClass>
+         <creation>Publication.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-19" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

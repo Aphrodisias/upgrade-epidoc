@@ -34,9 +34,6 @@
                   <idno>70.249</idno>
                   <idno>70.251</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -57,19 +54,16 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Theatre</rs>: archive wall</rs>
-                     </origPlace>
-                     <origDate notBefore="-0039" notAfter="-0038" precision="medium">Inscription: second to third centuries (<rs type="criteria">lettering</rs>, <rs type="criteria">context</rs>).
+                        <rs type="monuList">Theatre</rs>: archive wall</origPlace>
+                     <origDate notBefore="-0039"
+                               notAfter="-0038"
+                               precision="medium"
+                               evidence="lettering context content prosopography">Inscription: second to third centuries (<rs type="criteria">lettering</rs>, <rs type="criteria">context</rs>).
 Document: 39/38 B.C.
  (<rs type="criteria">content</rs>, <rs type="criteria">prosopography</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">Blocks A, B and C in the <rs type="monuList">Walls, West</rs> stretch. D-F <rs type="monuList">Theatre</rs> in a stage room; the remainder in situ on the Theatre north parodos wall.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Principally in situ; fragments in Museum</rs>
-                  </provenance>
+                  <provenance type="found">Blocks A, B and C in the <rs type="monuList">Walls, West</rs> stretch. D-F <rs type="monuList">Theatre</rs> in a stage room; the remainder in situ on the Theatre north parodos wall.</provenance>
+                  <provenance type="observed">Principally in situ; fragments in Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -79,14 +73,52 @@ Document: 39/38 B.C.
             <language ident="en">English</language>
             <language ident="grc">Ancient Greek</language>
          </langUsage>
+         <creation>Transcription (Reynolds); publications; notebooks. This text from McCabe, with no further revision.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-29" who="Charlotte-Tupman">hand tidied</change>
          <change when="2007-03-15" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="76_A_08A.jpg">
+            <desc>Lines 1-12, left end (1976)</desc>
+         </graphic>
+         <graphic url="76_A_11A.jpg">
+            <desc>Lines 13-21 , left end (1976)</desc>
+         </graphic>
+         <graphic url="76_A_09A.jpg">
+            <desc>Lines 21-34, left end (1976)</desc>
+         </graphic>
+         <graphic url="76_A_10A.jpg">
+            <desc>Lines 21-35, right end (1976)</desc>
+         </graphic>
+         <graphic url="77_M_18A.jpg">
+            <desc>Lines 37-95, right end, and part of <ref type="inscription" n="507" target="080026.xml"/>, in situ (1977)</desc>
+         </graphic>
+         <graphic url="77_AA_28.jpg">
+            <desc>Lines 46-62, left end (1977)</desc>
+         </graphic>
+         <graphic url="77_M_09A.jpg">
+            <desc>Lines 57-89, right end, in situ (1977)</desc>
+         </graphic>
+         <graphic url="77_M_10A.jpg">
+            <desc>Lines 76-95, right end, in situ (1977)</desc>
+         </graphic>
+         <graphic url="75_K_00A.jpg">
+            <desc>Lines 90-96, centre (1975)</desc>
+         </graphic>
+         <graphic url="HUMS003679.jpg">
+            <desc>Archive Wall view (1994)</desc>
+         </graphic>
+         <graphic url="R_I_39.jpg">
+            <desc>Line 1: Reichel notebook I, page 25v (1893)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -51,18 +48,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0151" notAfter="0200" precision="medium">Second half of the second century, perhaps already into the third century, on the basis of the <foreign xml:lang="grc">β</foreign> (<rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0151"
+                               notAfter="0200"
+                               precision="medium"
+                               evidence="lettering">Second half of the second century, perhaps already into the third century, on the basis of the <foreign xml:lang="grc">β</foreign> (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, North</rs>: re-used in the  wall, north of the Stadium, just west of <ref type="inscription" n="1022" target="120029.xml"/> (=MAMA 492).</rs>
-                  </provenance>
-                  <provenance type="observed" when="1973">
-                     <rs type="lastLocation">Findspot (1973)</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, North</rs>: re-used in the  wall, north of the Stadium, just west of <ref type="inscription" n="1022" target="120029.xml"/> (=MAMA 492).</provenance>
+                  <provenance type="observed" when="1973">Findspot (1973)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -94,13 +88,24 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); Gaudin; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-02-16" who="Artemis-Papakostouli">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_V_03.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="73_P_34A.jpg">
+            <desc>Wall (1973)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

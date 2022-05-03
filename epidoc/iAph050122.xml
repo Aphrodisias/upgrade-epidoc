@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>94.33</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in one line on upper fascia of moulded profile.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in one line on upper fascia of moulded profile.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,18 +48,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">An unidentified church: crowning the chancel barrier.</rs>
-                     </origPlace>
-                     <origDate notBefore="0401" notAfter="0600" precision="medium">Fifth/sixth century or later (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>).</origDate>
+                     <origPlace>An unidentified church: crowning the chancel barrier.</origPlace>
+                     <origDate notBefore="0401"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="lettering content">Fifth/sixth century or later (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>: dump of stones west of the baths.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum.</rs>
-                  </provenance>
+                     <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>: dump of stones west of the baths.</provenance>
+                  <provenance type="observed">Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -94,9 +88,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -107,6 +102,16 @@
          <change when="2002-11-01" who="#GB">Typed and tagged Greek</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="94_D_29.jpg">
+            <desc>View of block (1994)</desc>
+         </graphic>
+         <graphic url="94_D_28.jpg">
+            <desc>Face (1994)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

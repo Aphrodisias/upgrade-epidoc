@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on upper moulding (ll. 1-2) and below.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on upper moulding (ll. 1-2) and below.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,21 +47,18 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">
 Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, West Gate</rs>
-                     </rs>
+                     <rs type="monuList">Walls, West Gate</rs>
                   </provenance>
-                  <provenance type="observed" when="1990">
-                     <rs type="lastLocation">In the dighouse (1990)</rs>
-                  </provenance>
+                  <provenance type="observed" when="1990">In the dighouse (1990)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,15 +90,26 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-06-21" who="#CMR">DONE</change>
          <change when="2007-04-17" who="Charlotte-Tupman">hand tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="90_A_07A.jpg">
+            <desc>Face (1990)</desc>
+         </graphic>
+         <graphic url="90_A_08A.jpg">
+            <desc>Face (1990)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

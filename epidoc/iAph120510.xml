@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> at far left side of block; the text, at least of line 6, must have continued onto an adjacent block.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> at far left side of block; the text, at least of line 6, must have continued onto an adjacent block.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,20 +50,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0300" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">
 First to third centuries A.D. (<rs type="criteria">lettering</rs>)
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, South-east</rs>:  just south of the South-east gate, west of <ref type="inscription" n="209" target="120516.xml"/> (=MAMA 599)</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, South-east</rs>:  just south of the South-east gate, west of <ref type="inscription" n="209" target="120516.xml"/> (=MAMA 599)</provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,13 +92,24 @@ First to third centuries A.D. (<rs type="criteria">lettering</rs>)
                </term>
             </keywords>
          </textClass>
+         <creation>Publications, notebooks, Preliminary transcription (Beard, Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_T_04.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="Deering_02v.jpg">
+            <desc>Deering page 2v</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

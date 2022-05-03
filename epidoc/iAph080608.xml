@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>72.200</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -49,18 +46,15 @@ traces of red paint. ii. cut with a very shallow, broad line; <height unit="metr
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Outside baths - the findspot perhaps suggests the <rs type="monuList" key="ThBaths">Theatre Baths</rs> rather than the Hadrianic Baths.</rs>
-                     </origPlace>
-                     <origDate notBefore="0468" notAfter="0700" precision="medium">i.Mid-fifth century (<rs type="criteria">titulature</rs>, <rs type="criteria">prosopography</rs>); ii. Late fifth century or later (<rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Outside baths - the findspot perhaps suggests the <rs type="monuList" key="ThBaths">Theatre Baths</rs> rather than the Hadrianic Baths.</origPlace>
+                     <origDate notBefore="0468"
+                               notAfter="0700"
+                               precision="medium"
+                               evidence="titulature prosopography lettering">i.Mid-fifth century (<rs type="criteria">titulature</rs>, <rs type="criteria">prosopography</rs>); ii. Late fifth century or later (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: re-used in the central stretch of the seventh-century defence wall which blocks off the east façade of the Theatre.</rs>
-                  </provenance>
-                  <provenance type="observed" when="2002">
-                     <rs type="lastLocation">Museum (2002).</rs>
-                  </provenance>
+                     <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: re-used in the central stretch of the seventh-century defence wall which blocks off the east façade of the Theatre.</provenance>
+                  <provenance type="observed" when="2002">Museum (2002).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -92,9 +86,10 @@ traces of red paint. ii. cut with a very shallow, broad line; <height unit="metr
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-24" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -105,6 +100,19 @@ traces of red paint. ii. cut with a very shallow, broad line; <height unit="metr
          <change when="2003-07-16" who="Juan-Garcés">lemmatised</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="72_A_13A.jpg">
+            <desc>i. Front face (1972)</desc>
+         </graphic>
+         <graphic url="NY_pr_061.jpg">
+            <desc>i. Front face</desc>
+         </graphic>
+         <graphic url="2002_A_05.jpg">
+            <desc>ii. Left face (2002)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

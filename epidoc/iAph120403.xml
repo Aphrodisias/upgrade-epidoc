@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@ A plain <material key="marmor">white marble</material> block (<height unit="metr
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">
+                           <rs type="execution" ref="scalpro">
 Inscribed</rs> on the face, within an area that has been smoothed; the whole stone apparently weathered.</layout>
                      </layoutDesc>
                   </objectDesc>
@@ -55,19 +52,16 @@ Inscribed</rs> on the face, within an area that has been smoothed; the whole sto
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="-0100" notAfter="0100" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="-0100"
+                               notAfter="0100"
+                               precision="medium"
+                               evidence="lettering">
 First century B.C. to first century A.D. (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">reused in the <rs type="monuList">Walls, South-east Gate</rs> (stretch just north of the gate, above <ref type="inscription" n="1129" target="130503.xml"/>, <ref type="inscription" n="1130" target="120406.xml"/>, <ref type="inscription" n="1131" target="120407.xml"/>, <ref type="inscription" n="1132" target="120408.xml"/>
-                     </rs>
+                  <provenance type="found">reused in the <rs type="monuList">Walls, South-east Gate</rs> (stretch just north of the gate, above <ref type="inscription" n="1129" target="130503.xml"/>, <ref type="inscription" n="1130" target="120406.xml"/>, <ref type="inscription" n="1131" target="120407.xml"/>, <ref type="inscription" n="1132" target="120408.xml"/>
                   </provenance>
-                  <provenance type="observed" when="1973">
-                     <rs type="lastLocation" reg="findspot">Findspot (1973)</rs>
-                  </provenance>
+                  <provenance type="observed" when="1973">Findspot (1973)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,14 +93,25 @@ First century B.C. to first century A.D. (<rs type="criteria">lettering</rs>)</o
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); Publications; Sherard papers; Deering; Gaudin.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-19" who="Charlotte-Tupman">hand tidied</change>
          <change when="2005-01-04" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_X_13A.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="Deering_01v.jpg">
+            <desc>Deering notebook, 1v</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

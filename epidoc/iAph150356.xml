@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>85.103</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@ sides, and the back survive.</p>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face (a) and on the underside
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face (a) and on the underside
 (b) suggesting that the face perhaps lay upwards.</layout>
                      </layoutDesc>
                   </objectDesc>
@@ -54,17 +51,14 @@ scroll on lower arm for <foreign xml:lang="grc">καὶ</foreign>.</handNote>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0401" notAfter="0600" precision="medium">Fifth to sixth centuries or later (<rs type="criteria">dating</rs>, <rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0401"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="dating lettering">Fifth to sixth centuries or later (<rs type="criteria">dating</rs>, <rs type="criteria">lettering</rs>).</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">Stray find.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum.</rs>
-                  </provenance>
+                  <provenance type="found">Stray find.</provenance>
+                  <provenance type="observed">Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,9 +90,10 @@ scroll on lower arm for <foreign xml:lang="grc">καὶ</foreign>.</handNote>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -109,6 +104,16 @@ scroll on lower arm for <foreign xml:lang="grc">καὶ</foreign>.</handNote>
          <change when="2003-04-30" who="Juan-Garcés">tagged Greek; tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="85_A_37.jpg">
+            <desc>a: Face (1985)</desc>
+         </graphic>
+         <graphic url="85_B_01.jpg">
+            <desc>b: Face (1985)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

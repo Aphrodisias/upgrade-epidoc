@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on one face,</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on one face,</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,20 +48,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown, probably East or South-East Cenetery</rs>
-                     </origPlace>
-                     <origDate notBefore="0051" notAfter="0100" precision="medium">
+                     <origPlace>Unknown, probably East or South-East Cenetery</origPlace>
+                     <origDate notBefore="0051"
+                               notAfter="0100"
+                               precision="medium"
+                               evidence="lettering">
 Second half of first century A.D.
 (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, South-east gate</rs>: re-used upside down in the construction of the  gate, south side; the left side is obscured</rs>
-                  </provenance>
-                  <provenance type="observed" when="1973">
-                     <rs type="lastLocation">Findspot (1973)</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, South-east gate</rs>: re-used upside down in the construction of the  gate, south side; the left side is obscured</provenance>
+                  <provenance type="observed" when="1973">Findspot (1973)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,14 +91,25 @@ Second half of first century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); publications; squeezes.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-17" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_T_19.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="73_T_19bis.jpg">
+            <desc>Shadowed area enhanced (1973)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -40,7 +37,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on three faces: a (Text i, 7 ff.), b and c (Text ii) (from left to right). i, ll.1-6 are on the base capital fragment, inscribed on three fasciae of the moulding (ll.1-2, l.3, l.4) which are broken away at both ends, and on the face below (ll.5-6) which is broken to the right. While it cannot be proved beyond doubt that this is the opening of i, it seems overwhelmingly likely. It is implied, at least in Fellows' description, that l.7 was the first line of the base; if so, the last line of the capital can be considered to precede it immediately. The opening letters of ll.19, 27, 29-32 appear to have been cut on the moulding</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on three faces: a (Text i, 7 ff.), b and c (Text ii) (from left to right). i, ll.1-6 are on the base capital fragment, inscribed on three fasciae of the moulding (ll.1-2, l.3, l.4) which are broken away at both ends, and on the face below (ll.5-6) which is broken to the right. While it cannot be proved beyond doubt that this is the opening of i, it seems overwhelmingly likely. It is implied, at least in Fellows' description, that l.7 was the first line of the base; if so, the last line of the capital can be considered to precede it immediately. The opening letters of ll.19, 27, 29-32 appear to have been cut on the moulding</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -49,20 +46,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0138" notAfter="0169" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0138"
+                               notAfter="0169"
+                               precision="medium"
+                               evidence="emperor">
 A.D. 138-69
 (<rs type="criteria">emperor</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, West</rs>: shaft 'outside of the west wall' (Fellows); capital a stray find.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Capital in Museum; shaft at findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, West</rs>: shaft 'outside of the west wall' (Fellows); capital a stray find.</provenance>
+                  <provenance type="observed">Capital in Museum; shaft at findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -106,15 +100,38 @@ A.D. 138-69
                </term>
             </keywords>
          </textClass>
+         <creation>Publications; Deering; transcription (Reynolds, Roueché)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-08-07" who="Eleonora-Litta">tidied expan</change>
          <change when="2007-01-17" who="Charlotte-Tupman">hand tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_R_14A.jpg">
+            <desc>i.a, lines 1-6 (1977)</desc>
+         </graphic>
+         <graphic url="Deering_08v.jpg">
+            <desc>Deering notebook 8v</desc>
+         </graphic>
+         <graphic url="Deering_09.jpg">
+            <desc>Deering notebook 9</desc>
+         </graphic>
+         <graphic url="Deering_09v.jpg">
+            <desc>Deering notebook 9v</desc>
+         </graphic>
+         <graphic url="Deering_10.jpg">
+            <desc>Deering notebook 10</desc>
+         </graphic>
+         <graphic url="R_I_38.jpg">
+            <desc>Lines 10-21: Reichel notebook I, 38</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

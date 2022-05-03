@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs>  within a moulded panel; surviving area <width unit="metre">0.14</width> × <height unit="metre">0.17</height>.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs>  within a moulded panel; surviving area <width unit="metre">0.14</width> × <height unit="metre">0.17</height>.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,19 +48,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">   Probably second to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">   Probably second to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>
-                     </rs>
+                     <rs type="monuList">Temple/Church</rs>
                   </provenance>
-                  <provenance type="observed" when="1977">
-                     <rs type="lastLocation">Museum (1977)</rs>
-                  </provenance>
+                  <provenance type="observed" when="1977">Museum (1977)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,14 +89,22 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-01" who="#GB">DONE</change>
          <change when="2005-05-31" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_BB_19.jpg">
+            <desc>Face (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

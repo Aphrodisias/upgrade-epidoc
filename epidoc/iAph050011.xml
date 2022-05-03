@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -53,19 +50,13 @@ see, and l.6 is truncated.</layout>
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>.Last location in antiquity: Findspot.</rs>
-                     </origPlace>
+                        <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>.Last location in antiquity: Findspot.</origPlace>
                      <origDate/>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>: in an inner chamber - perhaps the
-<term xml:lang="la">caldarium</term>.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot.</rs>
-                  </provenance>
+                     <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>: in an inner chamber - perhaps the
+<term xml:lang="la">caldarium</term>.</provenance>
+                  <provenance type="observed">Findspot.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,9 +89,10 @@ see, and l.6 is truncated.</layout>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-02-28" who="#CMR">checked; image refs.</change>
@@ -110,6 +102,13 @@ see, and l.6 is truncated.</layout>
          <change when="2003-04-30" who="Juan-Garcés">tagged Greek; tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="72_C_11.jpg">
+            <desc>Face (1972)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

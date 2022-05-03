@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -44,7 +41,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the damged front face within a panel broken away above (<width unit="metre">0.265</width>   × <height unit="metre">0.185</height>). The text must have begun above, perhaps on the lid and on the upper edge of the sarcophagus. The upper right corner of the panel has been damaged since 1904, when Gaudin's squeeze recorded more in l. 1.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the damged front face within a panel broken away above (<width unit="metre">0.265</width>   × <height unit="metre">0.185</height>). The text must have begun above, perhaps on the lid and on the upper edge of the sarcophagus. The upper right corner of the panel has been damaged since 1904, when Gaudin's squeeze recorded more in l. 1.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -54,20 +51,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown: necropolis</rs>
-                     </origPlace>
-                     <origDate notBefore="0200" notAfter="0250">
+                     <origPlace>Unknown: necropolis</origPlace>
+                     <origDate notBefore="0200" notAfter="0250" evidence="lettering">
  Probably first half of the third century A.D.
  (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Necropolis, North-east</rs>: 'in a field 10 min(utes) east of the (north-east) gate' (MAMA)</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Necropolis, North-east</rs>: 'in a field 10 min(utes) east of the (north-east) gate' (MAMA)</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,13 +90,21 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Publications; Gaudin's squeeze; Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_A_15.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

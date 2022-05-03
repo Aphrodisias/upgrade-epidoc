@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the upper two <term>fasciae</term>.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the upper two <term>fasciae</term>.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0468" notAfter="0500" precision="medium">Late fifth century (<rs type="criteria">prosopography</rs>)</origDate>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0468"
+                               notAfter="0500"
+                               precision="medium"
+                               evidence="prosopography">Late fifth century (<rs type="criteria">prosopography</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs key="HadrBath" type="monuList">Hadrianic Baths, East Court</rs>: a: '<foreign xml:lang="fr">Dans le 2e entrée à partir du S<ex>ud</ex> du portique O<ex>uest</ex>, s<ex>ud</ex>
-                        </foreign>' (Boulanger); b: '<foreign xml:lang="fr">Term. S<ex>ud</ex> du portique O<ex>uest</ex>
-                        </foreign>'. (Boulanger).</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Among the material from the French excavations in the East Court.</rs>
-                  </provenance>
+                     <rs key="HadrBath" type="monuList">Hadrianic Baths, East Court</rs>: a: '<foreign xml:lang="fr">Dans le 2e entrée à partir du S<ex>ud</ex> du portique O<ex>uest</ex>, s<ex>ud</ex>
+                     </foreign>' (Boulanger); b: '<foreign xml:lang="fr">Term. S<ex>ud</ex> du portique O<ex>uest</ex>
+                     </foreign>'. (Boulanger).</provenance>
+                  <provenance type="observed">Among the material from the French excavations in the East Court.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,9 +92,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Boulanger notebook; transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-08-07" who="Eleonora-Litta">tidied expan</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-24" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -110,6 +105,22 @@
          <change when="2003-07-17" who="Juan-Garcés">lemmatised</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_P_28.jpg">
+            <desc>a: face (1977)</desc>
+         </graphic>
+         <graphic url="72_C_12.jpg">
+            <desc>b: face (1972)</desc>
+         </graphic>
+         <graphic url="89_A_10A.jpg">
+            <desc>c: face (1989)</desc>
+         </graphic>
+         <graphic url="Boulanger_A_78.jpg">
+            <desc>a and b: Transcription by Boulanger, Notebook A, page 78</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

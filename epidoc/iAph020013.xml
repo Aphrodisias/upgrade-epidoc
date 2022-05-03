@@ -29,9 +29,6 @@
                   <idno>64.426</idno>
                   <idno>64.427</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout> a. <rs type="execution" key="scalpro">Inscribed</rs> on the shaft; b. inscribed on the plinth of the statue.</layout>
+                        <layout> a. <rs type="execution" ref="scalpro">Inscribed</rs> on the shaft; b. inscribed on the plinth of the statue.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,20 +47,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0200" precision="medium">
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0200"
+                               precision="medium"
+                               evidence="prosopography">
 Second century A.D.
  (<rs type="criteria">prosopography</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Bouleuterion/Odeon</rs>: standing against the south face of the south portico wall, east of the entrance ('S. Bou., Tr. 4, Str.3')</rs>
-                  </provenance>
-                  <provenance type="observed" when="2001">
-                     <rs type="lastLocation">a. Findspot; b. Museum (2001)</rs>
-                  </provenance>
+                     <rs type="monuList">Bouleuterion/Odeon</rs>: standing against the south face of the south portico wall, east of the entrance ('S. Bou., Tr. 4, Str.3')</provenance>
+                  <provenance type="observed" when="2001">a. Findspot; b. Museum (2001)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,14 +90,25 @@ Second century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-11" who="cmr">DONE</change>
          <change when="2007-04-30" who="Charlotte-Tupman">hand tidied</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="2001_A_09.jpg">
+            <desc>Base (2001)</desc>
+         </graphic>
+         <graphic url="78_F_31.jpg">
+            <desc>Plinth (1978)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

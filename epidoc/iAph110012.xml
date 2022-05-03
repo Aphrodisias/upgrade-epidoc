@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -49,18 +46,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0300" precision="medium">First to third centuries A.D. (<rs type="criteria">nomenclature</rs>)</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="nomenclature">First to third centuries A.D. (<rs type="criteria">nomenclature</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, Village</rs>: seen in the wall of a village house.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1844">
-                     <rs type="lastLocation">Findspot (1844)</rs>
-                  </provenance>
+                     <rs type="monuList">City, Village</rs>: seen in the wall of a village house.</provenance>
+                  <provenance type="observed" when="1844">Findspot (1844)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -92,13 +86,17 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>76.184</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the front panel.
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the front panel.
 l. 1 is cut on the upper moulding. The text must have begun on an upper feature, now lost.</layout>
                      </layoutDesc>
                   </objectDesc>
@@ -52,18 +49,15 @@ l. 1 is cut on the upper moulding. The text must have begun on an upper feature,
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0168" notAfter="0300" precision="medium">       Late second to third centuries A.D. (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>).</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0168"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering nomenclature">       Late second to third centuries A.D. (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, South-east gate</rs>: Below modern ground level, east of the gate, with <ref type="inscription" n="616" target="130304.xml"/> (= Reinach 190)</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, South-east gate</rs>: Below modern ground level, east of the gate, with <ref type="inscription" n="616" target="130304.xml"/> (= Reinach 190)</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,15 +89,26 @@ l. 1 is cut on the upper moulding. The text must have begun on an upper feature,
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds);  Gaudin's squeeze.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-01" who="#GB">DONE</change>
          <change when="2007-01-11" who="Charlotte-Tupman">tidied</change>
          <change when="2005-06-06" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="85_E_06.jpg">
+            <desc>Face (1985)</desc>
+         </graphic>
+         <graphic url="K_III_32.jpg">
+            <desc>Kubitschek notebook III, 32</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

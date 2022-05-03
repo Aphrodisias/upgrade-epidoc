@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>83.175</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -40,7 +37,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>Originally <rs type="execution" key="scalpro">inscribed</rs> within a moulded panel (surviving inscribed area <width unit="metre">0.17</width>   × <height unit="metre">0.16</height>).</layout>
+                        <layout>Originally <rs type="execution" ref="scalpro">inscribed</rs> within a moulded panel (surviving inscribed area <width unit="metre">0.17</width>   × <height unit="metre">0.16</height>).</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -49,21 +46,18 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">
 Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Stray</rs>
-                     </rs>
+                     <rs type="monuList">Stray</rs>
                   </provenance>
-                  <provenance type="observed" when="1985">
-                     <rs type="lastLocation">Museum (1985)</rs>
-                  </provenance>
+                  <provenance type="observed" when="1985">Museum (1985)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,13 +89,21 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-14" who="GB">DONE</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="85_E_29.jpg">
+            <desc>Face (1985)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

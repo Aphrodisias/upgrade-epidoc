@@ -30,9 +30,6 @@
                   <idno>62.96</idno>
                   <idno>74.274</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> face  <width unit="metre">0.98</width>   × <height unit="metre">0.18</height>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> face  <width unit="metre">0.98</width>   × <height unit="metre">0.18</height>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -55,19 +52,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="-0100" notAfter="-0001" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="-0100"
+                               notAfter="-0001"
+                               precision="medium"
+                               evidence="lettering">
 Perhaps first century B.C.
 (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">b. &amp; c. <rs type="monuList">Temple/Church</rs> xiv, Stratum 1; a. <rs type="monuList">South Agora</rs>: in stonepile, W. Portico of Tiberius.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1978">
-                     <rs type="lastLocation">Museum (1978)</rs>
-                  </provenance>
+                  <provenance type="found">b. &amp; c. <rs type="monuList">Temple/Church</rs> xiv, Stratum 1; a. <rs type="monuList">South Agora</rs>: in stonepile, W. Portico of Tiberius.</provenance>
+                  <provenance type="observed" when="1978">Museum (1978)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -102,13 +96,30 @@ Perhaps first century B.C.
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds) </creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-12" who="Charlotte-Tupman">tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_S_06.jpg">
+            <desc>Fragment a. (1977)</desc>
+         </graphic>
+         <graphic url="77_AA_12.jpg">
+            <desc>Fragments a. &amp; b. (1977)</desc>
+         </graphic>
+         <graphic url="77_L_13A.jpg">
+            <desc>Fragments b. &amp; c. (1977)</desc>
+         </graphic>
+         <graphic url="78_A_31.jpg">
+            <desc>Assembled (1978)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>72.494</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face, which is in poor condition</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face, which is in poor condition</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,17 +48,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">Second to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">Second to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">Stray in 1972</rs>
-                  </provenance>
-                  <provenance type="observed" when="1977">
-                     <rs type="lastLocation">Museum (1977)</rs>
-                  </provenance>
+                  <provenance type="found">Stray in 1972</provenance>
+                  <provenance type="observed" when="1977">Museum (1977)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -93,13 +87,24 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-20" who="Charlotte-Tupman">DONE</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_D_14A.jpg">
+            <desc>Face (1977)</desc>
+         </graphic>
+         <graphic url="77_T_23A.jpg">
+            <desc>Face (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

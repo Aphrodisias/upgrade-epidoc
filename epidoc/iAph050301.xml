@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@ partly broken away above.</p>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> very lightly on the upper part of the column.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> very lightly on the upper part of the column.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -56,21 +53,15 @@ none remains.</handNote>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0324" notAfter="0350">c. A.D. 324-350 (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>).</origDate>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0324" notAfter="0350" evidence="lettering content">c. A.D. 324-350 (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="HadrBath">Hadrianic Baths, East Court</rs>: '<foreign xml:lang="fr">face E<ex>st</ex> du pilier
+                     <rs type="monuList" key="HadrBath">Hadrianic Baths, East Court</rs>: '<foreign xml:lang="fr">face E<ex>st</ex> du pilier
 N<ex>ord</ex>
-                        </foreign>' (Boulanger).</rs>
-                  </provenance>
+                     </foreign>' (Boulanger).</provenance>
                   <provenance type="observed" when="1994">
-                     <rs type="lastLocation">
-                        <rs type="monuList" key="HadrBath">Hadrianic Baths, East Court</rs>: among pieces assembled from French excavations (1994).</rs>
-                  </provenance>
+                     <rs type="monuList" key="HadrBath">Hadrianic Baths, East Court</rs>: among pieces assembled from French excavations (1994).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -107,9 +98,10 @@ N<ex>ord</ex>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché); Boulanger notebooks.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-16" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-01-16" who="#CMR">tidied; image refs</change>
@@ -122,6 +114,31 @@ N<ex>ord</ex>
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="72_B_20A.jpg">
+            <desc>Left side (1972)</desc>
+         </graphic>
+         <graphic url="72_C_13.jpg">
+            <desc>Right side (1972)</desc>
+         </graphic>
+         <graphic url="72_D_05A.jpg">
+            <desc>Front face(1972)</desc>
+         </graphic>
+         <graphic url="NY_94_70_16.jpg">
+            <desc>View (1994)</desc>
+         </graphic>
+         <graphic url="NY_94_70_17.jpg">
+            <desc>Top of base (1994)</desc>
+         </graphic>
+         <graphic url="Boulanger_A_71.jpg">
+            <desc>Boulanger, Notebook A, Page 71</desc>
+         </graphic>
+         <graphic url="72_O_32.jpg">
+            <desc>Squeeze (1972)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on one surface.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on one surface.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,21 +48,18 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0400" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0400"
+                               precision="medium"
+                               evidence="(lettering).">
 Second to fourth centuries A.D.
 <rs type="criteria">(<rs type="criteria">lettering</rs>).</rs>
                      </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, South (west part)</rs>: re-used on the inner face of the southern stretch of the city wall, west of the Theatre exit.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1975">
-                     <rs type="lastLocation">Findspot (1975)</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, South (west part)</rs>: re-used on the inner face of the southern stretch of the city wall, west of the Theatre exit.</provenance>
+                  <provenance type="observed" when="1975">Findspot (1975)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,14 +92,22 @@ Second to fourth centuries A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-02-28" who="Charlotte-Tupman">DONE</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="75_L_03.jpg">
+            <desc>Face (1975)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

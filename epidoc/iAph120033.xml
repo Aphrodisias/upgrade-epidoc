@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -50,21 +47,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0222" notAfter="0235">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0222" notAfter="0235" evidence="reign">
 A.D. 222/235
 (<rs type="criteria">reign</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, North</rs>, found with <ref type="inscription" n="548" target="120034.xml"/>
-                     </rs>
+                     <rs type="monuList">Walls, North</rs>, found with <ref type="inscription" n="548" target="120034.xml"/>
                   </provenance>
-                  <provenance type="observed" when="1904">
-                     <rs type="lastLocation">Findspot (1904)</rs>
-                  </provenance>
+                  <provenance type="observed" when="1904">Findspot (1904)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,14 +90,18 @@ A.D. 222/235
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription from squeeze  (Reynolds); publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-12" who="Charlotte-Tupman">tidied</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

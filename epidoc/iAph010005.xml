@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Cut</rs> on the second drum from the base of the column.</layout>
+                           <rs type="execution" ref="scalpro">Cut</rs> on the second drum from the base of the column.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,20 +50,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot</rs>
-                     </origPlace>
-                     <origDate notBefore="0034" notAfter="0066" precision="medium">
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0034"
+                               notAfter="0066"
+                               precision="medium"
+                               evidence="lettering context prosopography">
 Early first century A.D.
 (<rs type="criteria">lettering</rs>, <rs type="criteria">context</rs>, <rs type="criteria">prosopography</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: 9th column from west end of north colonnade</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: 9th column from west end of north colonnade</provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -101,13 +95,36 @@ Early first century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); Gaudin's squeeze; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-23" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_P_21A.jpg">
+            <desc>Text (1973)</desc>
+         </graphic>
+         <graphic url="AG_MAMA438.jpg">
+            <desc>Text (2005)</desc>
+         </graphic>
+         <graphic url="AG_MAMA438II.jpg">
+            <desc>Text (2005)</desc>
+         </graphic>
+         <graphic url="76_C_15A.jpg">
+            <desc>Column (1976)</desc>
+         </graphic>
+         <graphic url="76_C_17A.jpg">
+            <desc>Column (1976)</desc>
+         </graphic>
+         <graphic url="Deering_02v.jpg">
+            <desc>Deering page 2v</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

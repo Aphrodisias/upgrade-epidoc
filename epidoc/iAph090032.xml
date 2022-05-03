@@ -29,9 +29,6 @@ Agrippina, daughter of Germanicus</title>
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>84.41</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@ Agrippina, daughter of Germanicus</title>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face (area <width unit="metre">0.395</width>   × <height unit="metre">0.15</height>).</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face (area <width unit="metre">0.395</width>   × <height unit="metre">0.15</height>).</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -54,22 +51,16 @@ Agrippina, daughter of Germanicus</title>
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Sebasteion</rs>
-                        </rs>
+                        <rs type="monuList">Sebasteion</rs>
                      </origPlace>
-                     <origDate notBefore="0014" notAfter="0069">
+                     <origDate notBefore="0014" notAfter="0069" evidence="context lettering">
 Julio-Claudian
 (<rs type="criteria">context</rs>, <rs type="criteria">lettering</rs>)
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Sebasteion</rs>: SEB W-Pro I-84 VIII-W</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Sebasteion</rs>: SEB W-Pro I-84 VIII-W</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -104,12 +95,20 @@ Julio-Claudian
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="85_B_18.jpg">
+            <desc>Face (1985)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

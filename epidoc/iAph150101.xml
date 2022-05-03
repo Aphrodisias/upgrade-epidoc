@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs>  on the right side.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs>  on the right side.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,18 +47,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0200" precision="medium">Perhaps first to second century A.D. (<rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0200"
+                               precision="medium"
+                               evidence="lettering">Perhaps first to second century A.D. (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">No details; in <rs type="monuList">collection</rs>
-                     </rs>
+                  <provenance type="found">No details; in <rs type="monuList">collection</rs>
                   </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Vienna Museum, Inv. I 711 (L)</rs>
-                  </provenance>
+                  <provenance type="observed">Vienna Museum, Inv. I 711 (L)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,14 +91,25 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-11" who="Charlotte-Tupman">tidied</change>
          <change when="2005-05-24" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="Wien01.jpg">
+            <desc>Face (Vienna Museum)</desc>
+         </graphic>
+         <graphic url="Wien02.jpg">
+            <desc>Right side (Vienna Museum)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

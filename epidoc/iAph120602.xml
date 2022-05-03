@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">
+                           <rs type="execution" ref="scalpro">
 Inscribed</rs> on a single fasci, i. to the left of ii. The block appeara complete to the left; i. must have begun on an adjoining block.</layout>
                      </layoutDesc>
                   </objectDesc>
@@ -55,18 +52,12 @@ Inscribed</rs> on a single fasci, i. to the left of ii. The block appeara comple
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="-0100" notAfter="0100">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="-0100" notAfter="0100" evidence="lettering">
 First century B.C. - first century A.D. (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">reused in the <rs type="monuList">Walls, South (east part)</rs>, in the area excavated in 1975</rs>
-                  </provenance>
-                  <provenance type="observed" when="1973">
-                     <rs type="lastLocation" reg="findspot">Findspot (1973)</rs>
-                  </provenance>
+                  <provenance type="found">reused in the <rs type="monuList">Walls, South (east part)</rs>, in the area excavated in 1975</provenance>
+                  <provenance type="observed" when="1973">Findspot (1973)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,14 +89,31 @@ First century B.C. - first century A.D. (<rs type="criteria">lettering</rs>)</or
                </term>
             </keywords>
          </textClass>
+         <creation>Publications; Sherard papers; notebooks; Gaudin's squeeze; Preliminary transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-19" who="Charlotte-Tupman">hand tidied</change>
          <change when="2005-01-06" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_T_01.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="73_S_21.jpg">
+            <desc>Face and wall (1973)</desc>
+         </graphic>
+         <graphic url="K_III_45.jpg">
+            <desc>Kubitschek notebook, III, 45</desc>
+         </graphic>
+         <graphic url="R_I_24v.jpg">
+            <desc>Reichel notebook, I.24v (noted)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

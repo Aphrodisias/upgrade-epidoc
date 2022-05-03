@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">
+                           <rs type="execution" ref="scalpro">
 Inscribed</rs> on the face, in three adjacent columns; i. to the left, followed by ii., then iii. The text runs across the joins between the blocks.</layout>
                      </layoutDesc>
                   </objectDesc>
@@ -54,19 +51,13 @@ Inscribed</rs> on the face, in three adjacent columns; i. to the left, followed 
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">uncertain: but it is possible that a funerary monument which included these blocks has been incorporated in the walls</rs>
-                     </origPlace>
+                     <origPlace>uncertain: but it is possible that a funerary monument which included these blocks has been incorporated in the walls</origPlace>
                      <origDate notBefore="0001" notAfter="0200" precision="medium"> 
 First to second century A.D.
         </origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">reused in the <rs type="monuList">Walls, East (south part)</rs>, retaining their original relationship to one another. </rs>
-                  </provenance>
-                  <provenance type="observed" when="1973">
-                     <rs type="lastLocation" reg="findspot">Findspot (1973)</rs>
-                  </provenance>
+                  <provenance type="found">reused in the <rs type="monuList">Walls, East (south part)</rs>, retaining their original relationship to one another. </provenance>
+                  <provenance type="observed" when="1973">Findspot (1973)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,14 +89,25 @@ First to second century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); Gaudin's squeeze.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-19" who="&#xA;----------Charlotte-Tupman&#xA;--------">hand tidied</change>
          <change when="2005-01-06" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_W_34.jpg">
+            <desc>Text i, face (1973)</desc>
+         </graphic>
+         <graphic url="73_W_33.jpg">
+            <desc>Text ii, face (1973)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

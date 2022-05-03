@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>94.46</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,20 +47,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0119" notAfter="0125" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0119"
+                               notAfter="0125"
+                               precision="medium"
+                               evidence="titulature">
 119-125
  (<rs type="criteria">titulature</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, South-west</rs>: re-used in the paving of the road between the Basilica and the Baths</rs>
-                  </provenance>
-                  <provenance type="observed" when="1994">
-                     <rs type="lastLocation">Museum (1994)</rs>
-                  </provenance>
+                     <rs type="monuList">City, South-west</rs>: re-used in the paving of the road between the Basilica and the Baths</provenance>
+                  <provenance type="observed" when="1994">Museum (1994)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,15 +93,32 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-09" who="cmr">DONE</change>
          <change when="2007-01-30" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="HUMS003783.jpg">
+            <desc>View (1994)</desc>
+         </graphic>
+         <graphic url="HUMS003781.jpg">
+            <desc>View (1994)</desc>
+         </graphic>
+         <graphic url="HUMS003779.jpg">
+            <desc>Upper part (1994)</desc>
+         </graphic>
+         <graphic url="HUMS003780.jpg">
+            <desc>Lower part (1994)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

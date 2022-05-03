@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on one face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on one face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,18 +48,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="-0027" notAfter="0014">  Augustan (<rs type="criteria">lettering</rs>, <rs type="criteria">prosopography</rs>).</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="-0027"
+                               notAfter="0014"
+                               evidence="lettering prosopography">  Augustan (<rs type="criteria">lettering</rs>, <rs type="criteria">prosopography</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Hadrianic Baths</rs>: in the area of the façade</rs>
-                  </provenance>
-                  <provenance type="observed" when="1904">
-                     <rs type="lastLocation">Findspot (1904)</rs>
-                  </provenance>
+                     <rs type="monuList">Hadrianic Baths</rs>: in the area of the façade</provenance>
+                  <provenance type="observed" when="1904">Findspot (1904)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,13 +90,21 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription from squeeze (Reynolds); Publications</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-08-30" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="gaudin_0069.jpg">
+            <desc>Squeeze</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

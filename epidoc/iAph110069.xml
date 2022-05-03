@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>79.12</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -49,18 +46,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0468" notAfter="0500" precision="medium">Late fifth century (<rs type="criteria">prosopography</rs>).</origDate>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0468"
+                               notAfter="0500"
+                               precision="medium"
+                               evidence="prosopography">Late fifth century (<rs type="criteria">prosopography</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, Village</rs>: reused supporting a pillar of a verandah, in a house subsequently demolished.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1994">
-                     <rs type="lastLocation">Museum (1994)</rs>
-                  </provenance>
+                     <rs type="monuList">City, Village</rs>: reused supporting a pillar of a verandah, in a house subsequently demolished.</provenance>
+                  <provenance type="observed" when="1994">Museum (1994)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -92,9 +86,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché), publications</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-24" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-01-25" who="#CMR">tidied; image refs</change>
@@ -103,6 +98,27 @@
          <change when="2003-07-17" who="Juan-Garcés">lemmatised</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="80_D_19.jpg">
+            <desc>Face (1980)</desc>
+         </graphic>
+         <graphic url="80_C_08.jpg">
+            <desc>Face (1980)</desc>
+         </graphic>
+         <graphic url="DSCN0119.jpg">
+            <desc>Left
+side (2004)</desc>
+         </graphic>
+         <graphic url="DSCN0120.jpg">
+            <desc>Right side
+(2004)</desc>
+         </graphic>
+         <graphic url="DSCN0121.jpg">
+            <desc>Top (2004)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

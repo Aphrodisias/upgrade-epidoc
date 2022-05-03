@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>67.536</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>i: <rs type="execution" key="scalpro">Inscribed</rs> along the upper fascia of the blocks, running in a single line from a point c. 1 m. to the right of the north end of the stage, to the south end.ii: Below i is a protruding moulding, and below that two <term>fasciae</term>, on the upper of which (<height unit="metre">0.07</height> high) this text is cut. The letters are very lightly cut, with red paint still to be seen in some of them. Those that survive are below the centre of the stage, on the fifth, sixth and seventh blocks from the north end; since all the blocks are in place, it seems likely that the rest of the text, including the gaps in this fragment, was painted, and either not incised at all, or cut so shallowly that it can no longer be detected.</layout>
+                        <layout>i: <rs type="execution" ref="scalpro">Inscribed</rs> along the upper fascia of the blocks, running in a single line from a point c. 1 m. to the right of the north end of the stage, to the south end.ii: Below i is a protruding moulding, and below that two <term>fasciae</term>, on the upper of which (<height unit="metre">0.07</height> high) this text is cut. The letters are very lightly cut, with red paint still to be seen in some of them. Those that survive are below the centre of the stage, on the fifth, sixth and seventh blocks from the north end; since all the blocks are in place, it seems likely that the rest of the text, including the gaps in this fragment, was painted, and either not incised at all, or cut so shallowly that it can no longer be detected.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,19 +49,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot</rs>
-                     </origPlace>
-                     <origDate notBefore="0301" notAfter="0400" precision="medium">i:A.D. 139-161
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0301"
+                               notAfter="0400"
+                               precision="medium"
+                               evidence="reign lettering">i:A.D. 139-161
 (<rs type="criteria">reign</rs>). ii: Fourth century (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Theatre</rs>: in situ on the front of the stage</rs>
-                  </provenance>
-                  <provenance type="observed" when="2001">
-                     <rs type="lastLocation">Findspot (2001)</rs>
-                  </provenance>
+                     <rs type="monuList">Theatre</rs>: in situ on the front of the stage</provenance>
+                  <provenance type="observed" when="2001">Findspot (2001)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -102,12 +96,35 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds, Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_U_13A.jpg">
+            <desc>i. Left part (1973)</desc>
+         </graphic>
+         <graphic url="73_U_14A.jpg">
+            <desc>i. Centre part (1973)</desc>
+         </graphic>
+         <graphic url="73_U_15A.jpg">
+            <desc>i. Right part (1973)</desc>
+         </graphic>
+         <graphic url="78_J_20.jpg">
+            <desc>ii. Left end (1978)</desc>
+         </graphic>
+         <graphic url="73_U_12A.jpg">
+            <desc>Theatre stage view (1973)</desc>
+         </graphic>
+         <graphic url="73_U_15A.jpg">
+            <desc>Theatre centre stage view (1973)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

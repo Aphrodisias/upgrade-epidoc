@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on one face; a. surviving face: <width unit="metre">0.15</width>   ×  <height unit="metre">0.30</height>.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on one face; a. surviving face: <width unit="metre">0.15</width>   ×  <height unit="metre">0.30</height>.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,18 +47,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0200" precision="medium">        First to second centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0200"
+                               precision="medium"
+                               evidence="lettering">        First to second centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>, east end: probably re-used in the  Byzantine bema</rs>
-                  </provenance>
-                  <provenance type="observed" when="1977">
-                     <rs type="lastLocation">a. Temple; b. Museum (1977)</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>, east end: probably re-used in the  Byzantine bema</provenance>
+                  <provenance type="observed" when="1977">a. Temple; b. Museum (1977)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -93,14 +87,25 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds); Gaudin's squeeze(a. only).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-07" who="#GB">DONE</change>
          <change when="2005-06-09" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_B_28A.jpg">
+            <desc>Fragment a (1977)</desc>
+         </graphic>
+         <graphic url="77_R_01A.jpg">
+            <desc>Fragment b (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

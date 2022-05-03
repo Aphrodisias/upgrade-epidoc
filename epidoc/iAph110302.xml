@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>Apparently <rs type="execution" key="scalpro">inscribed</rs> on the face</layout>
+                        <layout>Apparently <rs type="execution" ref="scalpro">inscribed</rs> on the face</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,19 +47,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="-0100" notAfter="0100" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="-0100"
+                               notAfter="0100"
+                               precision="medium"
+                               evidence="lettering">
 Perhaps first century B.C. to first century A.D. (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" cert="low">City, South-east</rs>: reused in a fieldwall inside the city wall</rs>
-                  </provenance>
-                  <provenance type="observed" when="1893">
-                     <rs type="lastLocation">Findspot (1893)</rs>
-                  </provenance>
+                     <rs type="monuList" cert="low">City, South-east</rs>: reused in a fieldwall inside the city wall</provenance>
+                  <provenance type="observed" when="1893">Findspot (1893)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -94,14 +88,22 @@ Perhaps first century B.C. to first century A.D. (<rs type="criteria">lettering<
                </term>
             </keywords>
          </textClass>
+         <creation>Notebook; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-18" who="cmr">DONE</change>
          <change when="2007-01-24" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-09-26" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="K_V_01a.jpg">
+            <desc>Kubitschek notebook V. 1a</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

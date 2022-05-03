@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro"> Inscribed</rs> on the upper moulding, which is very worn.</layout>
+                           <rs type="execution" ref="scalpro"> Inscribed</rs> on the upper moulding, which is very worn.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,19 +49,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0151" notAfter="0200" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0151"
+                               notAfter="0200"
+                               precision="medium"
+                               evidence="lettering">
 Probably second half of second century A.D. (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, North-west</rs>: re-used in a field wall north west of the Hadrianic Baths.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1988">
-                     <rs type="lastLocation">Findspot (1988)</rs>
-                  </provenance>
+                     <rs type="monuList">City, North-west</rs>: re-used in a field wall north west of the Hadrianic Baths.</provenance>
+                  <provenance type="observed" when="1988">Findspot (1988)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,14 +90,22 @@ Probably second half of second century A.D. (<rs type="criteria">lettering</rs>)
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-05" who="cmr">DONE</change>
          <change when="2007-04-19" who="Charlotte-Tupman">tidied</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="88_D_12.jpg">
+            <desc>Face (1988)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

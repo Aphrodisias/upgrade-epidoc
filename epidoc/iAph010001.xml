@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>63.596</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on one face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on one face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,19 +49,16 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Temple/Church</rs> temenos.</rs>
-                     </origPlace>
-                     <origDate notBefore="-0050" notAfter="0014" precision="medium">
+                        <rs type="monuList">Temple/Church</rs> temenos.</origPlace>
+                     <origDate notBefore="-0050"
+                               notAfter="0014"
+                               precision="medium"
+                               evidence="lettering content">
 Late Republican or Augustan
  (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">Stray find. </rs>
-                  </provenance>
-                  <provenance type="observed" when="1977">
-                     <rs type="lastLocation">Museum (1977)</rs>
-                  </provenance>
+                  <provenance type="found">Stray find. </provenance>
+                  <provenance type="observed" when="1977">Museum (1977)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -74,15 +68,23 @@ Late Republican or Augustan
             <language ident="en">English</language>
             <language ident="grc">Ancient Greek</language>
          </langUsage>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-04" who="cmr">DONE</change>
          <change when="2007-04-02" who="Charlotte-Tupman">hand tidied</change>
          <change when="2007-03-15" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_R_12A.jpg">
+            <desc>Face (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

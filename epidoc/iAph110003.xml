@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>65.51</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,28 +38,25 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face, enclosed by the olive branches.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face, enclosed by the olive branches.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>Lightly <rs type="execution" key="litteris scariphatis">scratched</rs>, lunate <term xml:lang="grc-Latn">epsilon</term> and <term xml:lang="grc-Latn">sigma</term>, cursive <term xml:lang="grc-Latn">alpha</term>; l.1, <height>0.01</height>; ll. 2-4, <height>0.007-8</height>.  Uneven in height and alignment. It presumably initiated a poorly written cursive document.</handNote>
+                     <handNote>Lightly <rs type="execution" ref="litteris scariphatis">scratched</rs>, lunate <term xml:lang="grc-Latn">epsilon</term> and <term xml:lang="grc-Latn">sigma</term>, cursive <term xml:lang="grc-Latn">alpha</term>; l.1, <height>0.01</height>; ll. 2-4, <height>0.007-8</height>.  Uneven in height and alignment. It presumably initiated a poorly written cursive document.</handNote>
                   </handDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="-0300" notAfter="0212" precision="medium">Presumably 
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="-0300"
+                               notAfter="0212"
+                               precision="medium"
+                               evidence="lettering nomenclature">Presumably 
  before the Edict of Caracalla (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>); but cf. lettering of  <ref type="inscription" n="1354" target="080904.xml"/> (=68.51) which refers to a M. Aurelius.</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, Village</rs>: stray find</rs>
-                  </provenance>
-                  <provenance type="observed" when="1977">
-                     <rs type="lastLocation">Museum (1977)</rs>
-                  </provenance>
+                     <rs type="monuList">City, Village</rs>: stray find</provenance>
+                  <provenance type="observed" when="1977">Museum (1977)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,14 +89,25 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-02" who="GB">DONE</change>
          <change when="2007-01-24" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="R_66_2_19.jpg">
+            <desc>Face (1966)</desc>
+         </graphic>
+         <graphic url="77_X_16.jpg">
+            <desc>Face (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve"><ab><lb n="1"/><persName type="attested"><name nymRef="#Διονύσιος">Διονύσιος</name></persName>  <lb n="2"/> <w lemma="ὑπέρ">ὑπὲρ</w> <persName type="attested"><name nymRef="#Ἀμμία">Ἀμ<lb n="3" break="no"/>μίας</name></persName>      <g ref="#leaf"/><lb n="4"/>    <w lemma="εὐχή">εὐχήν</w></ab></div>

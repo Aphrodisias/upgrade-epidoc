@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face. The text must have begun on the moulding.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face. The text must have begun on the moulding.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,20 +50,16 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Hadrianic Baths, East court</rs>: ?Caryatid portico</rs>
-                     </origPlace>
-                     <origDate notBefore="0151" notAfter="0200">
+                        <rs type="monuList">Hadrianic Baths, East court</rs>: ?Caryatid portico</origPlace>
+                     <origDate notBefore="0151"
+                               notAfter="0200"
+                               evidence="lettering monument group prosopography">
 Second half of second century A.D.
 (<rs type="criteria">lettering</rs>, <rs type="criteria">monument group</rs>, <rs type="criteria">prosopography</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">South Agora</rs>: Portico of Tiberius: south-west corner. </rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot.</rs>
-                  </provenance>
+                     <rs type="monuList">South Agora</rs>: Portico of Tiberius: south-west corner. </provenance>
+                  <provenance type="observed">Findspot.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,12 +91,23 @@ Second half of second century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); Boulanger notebooks; Kubitschek; publication.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="K_III_000a.jpg">
+            <desc>Kubitschek notebook III, facing 1</desc>
+         </graphic>
+         <graphic url="Boulanger_B_15.jpg">
+            <desc>Boulanger notebook B, 15</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

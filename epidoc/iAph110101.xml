@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the shoulder.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the shoulder.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,19 +47,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot.</rs>
-                     </origPlace>
-                     <origDate notBefore="0301" notAfter="0600" precision="medium">Late imperial (<rs type="criteria">context</rs>, <rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Findspot.</origPlace>
+                     <origDate notBefore="0301"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="context lettering">Late imperial (<rs type="criteria">context</rs>, <rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, North-east</rs>: in a late Roman house
-            excavated north-east of the Tetrapylon.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot.</rs>
-                  </provenance>
+                     <rs type="monuList">City, North-east</rs>: in a late Roman house
+            excavated north-east of the Tetrapylon.</provenance>
+                  <provenance type="observed">Findspot.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -94,9 +88,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="&#xA;----------Juan-Garcés&#xA;--------">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-02-29" who="#CMR">checked; image refs.</change>
@@ -106,6 +101,13 @@
          <change when="2003-04-30" who="&#xA;----------Juan-Garcés&#xA;--------">tagged Greek; tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="80_G_04.jpg">
+            <desc>View (1980)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

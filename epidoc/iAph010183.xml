@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face within a moulded panel</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face within a moulded panel</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,18 +49,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0201" notAfter="0300" precision="medium">Probably third century A.D. (<rs type="criteria">lettering</rs>)</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0201"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">Probably third century A.D. (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: in the area of the bema, where the base was most probably re-used</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation"> Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: in the area of the bema, where the base was most probably re-used</provenance>
+                  <provenance type="observed"> Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,13 +89,30 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Publications; Preliminary transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-02-16" who="Artemis-Papakostouli">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="85_J_15.jpg">
+            <desc>Fragment c (1985)</desc>
+         </graphic>
+         <graphic url="77_A_01.jpg">
+            <desc>Fragment e (1977)</desc>
+         </graphic>
+         <graphic url="77_Q_28.jpg">
+            <desc>Fragment g (1977)</desc>
+         </graphic>
+         <graphic url="77_S_05.jpg">
+            <desc>Fragment g (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

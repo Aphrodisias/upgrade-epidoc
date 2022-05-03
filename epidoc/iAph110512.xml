@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the exposed short end (which tapers from<width unit="metre"> 0.46</width> to <width unit="metre">0.29</width>). In its original position, as part of a tomb, it adjoined a stone to the right (at the back of the bench) on which the text continued; that stone was apparently wider below than above.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the exposed short end (which tapers from<width unit="metre"> 0.46</width> to <width unit="metre">0.29</width>). In its original position, as part of a tomb, it adjoined a stone to the right (at the back of the bench) on which the text continued; that stone was apparently wider below than above.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,19 +48,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">
 Second to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, North-west</rs>: in a field just east of the west city wall, from which it had probably fallen.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1989">
-                     <rs type="lastLocation"> Findspot (1989)</rs>
-                  </provenance>
+                     <rs type="monuList">City, North-west</rs>: in a field just east of the west city wall, from which it had probably fallen.</provenance>
+                  <provenance type="observed" when="1989"> Findspot (1989)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,13 +89,24 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-16" who="GB">DONE</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="89_F_23A.jpg">
+            <desc>View (1989)</desc>
+         </graphic>
+         <graphic url="89_F_22A.jpg">
+            <desc>Detail (1989)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

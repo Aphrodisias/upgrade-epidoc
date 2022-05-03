@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in three columns</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in three columns</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="-0033" notAfter="-0033" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="-0033"
+                               notAfter="-0033"
+                               precision="medium"
+                               evidence="titulature prosopography">
 Late first century B.C. or early first century A.D. (<rs type="criteria">titulature</rs>, <rs type="criteria">prosopography</rs>
                      </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, West Gate</rs>: Sherard: 'at the west gate, on the left hand as you enter, third column, the first and third broke'. Gaudin: 'Porte Ouest, interieurement'. Sherard is probably referring to columns of writing, not separate stones.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1904">
-                     <rs type="lastLocation">Findspot (1904)</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, West Gate</rs>: Sherard: 'at the west gate, on the left hand as you enter, third column, the first and third broke'. Gaudin: 'Porte Ouest, interieurement'. Sherard is probably referring to columns of writing, not separate stones.</provenance>
+                  <provenance type="observed" when="1904">Findspot (1904)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,13 +94,27 @@ Late first century B.C. or early first century A.D. (<rs type="criteria">titulat
                </term>
             </keywords>
          </textClass>
+         <creation>Sherard papers; Gaudin; publications</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="gaudin_0023.jpg">
+            <desc>Gaudin squeeze</desc>
+         </graphic>
+         <graphic url="gaudin_0030.jpg">
+            <desc>Gaudin squeeze</desc>
+         </graphic>
+         <graphic url="gaudin_0062.jpg">
+            <desc>Gaudin squeeze</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

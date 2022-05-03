@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the lid (lines 1-2), on the upper rim (l. 3), on the tabella including its upper and lower mouldings (lines 4 ff). An erased area beside the relief of the woman could have contained an additional short text (perhaps <foreign xml:lang="grc">ζῇ</foreign>, which might have been erased when she died).</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the lid (lines 1-2), on the upper rim (l. 3), on the tabella including its upper and lower mouldings (lines 4 ff). An erased area beside the relief of the woman could have contained an additional short text (perhaps <foreign xml:lang="grc">ζῇ</foreign>, which might have been erased when she died).</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,20 +48,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">
 Second to third centuries A.D.
  (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Necropolis, North-east</rs>: chamber tomb, with <ref type="inscription" n="1445" target="130111.xml"/> (=410), <ref type="inscription" n="1446" target="130108.xml"/> (=411), <ref type="inscription" n="1447" target="130109.xml"/> (=412), <ref type="inscription" n="1448" target="130110.xml"/> (=414).</rs>
-                  </provenance>
-                  <provenance type="observed" when="1994">
-                     <rs type="lastLocation">Museum (1994)</rs>
-                  </provenance>
+                     <rs type="monuList">Necropolis, North-east</rs>: chamber tomb, with <ref type="inscription" n="1445" target="130111.xml"/> (=410), <ref type="inscription" n="1446" target="130108.xml"/> (=411), <ref type="inscription" n="1447" target="130109.xml"/> (=412), <ref type="inscription" n="1448" target="130110.xml"/> (=414).</provenance>
+                  <provenance type="observed" when="1994">Museum (1994)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,14 +94,25 @@ Second to third centuries A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-08-07" who="Eleonora-Litta">tidied expan</change>
          <change when="2007-04-04" who="GB">DONE</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="94_C_03.jpg">
+            <desc>Sarcophagus (1994)</desc>
+         </graphic>
+         <graphic url="94_C_04.jpg">
+            <desc>Sarcophagus (1994)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

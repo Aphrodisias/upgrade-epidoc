@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face. The upper edge is complete; the text may have begun on an upper feature.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face. The upper edge is complete; the text may have begun on an upper feature.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,18 +50,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0134" notAfter="0200" precision="medium">Middle to later second century A.D. (<rs type="criteria">lettering</rs> and <rs type="criteria">prosopography</rs>)</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0134"
+                               notAfter="0200"
+                               precision="medium"
+                               evidence="lettering prosopography">Middle to later second century A.D. (<rs type="criteria">lettering</rs> and <rs type="criteria">prosopography</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, West Gate</rs>: re-used, upside down, in the southern pier.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, West Gate</rs>: re-used, upside down, in the southern pier.</provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,14 +90,28 @@
                </term>
             </keywords>
          </textClass>
+         <creation> Preliminary transcription (Beard, Reynolds); MAMA squeeze; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-19" who="Charlotte-Tupman">hand tidied</change>
          <change when="2005-02-16" who="Artemis-Papakostouli">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="2002_A_22.jpg">
+            <desc>Face (2002)</desc>
+         </graphic>
+         <graphic url="2002_A_23.jpg">
+            <desc>Face (2002)</desc>
+         </graphic>
+         <graphic url="K_III_03b.jpg">
+            <desc>Kubitschek notebook III,3b</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

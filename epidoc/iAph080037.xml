@@ -34,9 +34,6 @@
                   <idno>69.463</idno>
                   <idno>69.469</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -55,10 +52,11 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Theatre</rs>: north parodos wall</rs>
-                     </origPlace>
-                     <origDate notBefore="0198" notAfter="0198" precision="medium">
+                        <rs type="monuList">Theatre</rs>: north parodos wall</origPlace>
+                     <origDate notBefore="0198"
+                               notAfter="0198"
+                               precision="medium"
+                               evidence="lettering context titulature">
 
 Inscription: second to third centuries A.D. (<rs type="criteria">lettering</rs>, <rs type="criteria">context</rs>).
 
@@ -69,12 +67,8 @@ A.D. 198
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Theatre</rs>: north parodos wall</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot; fragments in Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Theatre</rs>: north parodos wall</provenance>
+                  <provenance type="observed">Findspot; fragments in Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -84,14 +78,31 @@ A.D. 198
             <language ident="en">English</language>
             <language ident="grc">Ancient Greek</language>
          </langUsage>
+         <creation>transcription (Reynolds)This edition: Reynolds (2007)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-01" who="Charlotte-Tupman">hand tidied</change>
          <change when="2007-03-15" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_M_16A.jpg">
+            <desc>Left end in situ, view below <ref type="inscription" n="516" target="080035.xml"/>, <ref type="inscription" n="517" target="080036.xml"/>, above <ref type="inscription" n="519" target="080099.xml"/>, <ref type="inscription" n="521" target="080103.xml"/> (1977)</desc>
+         </graphic>
+         <graphic url="77_M_22A.jpg">
+            <desc>Left end in situ, view below <ref type="inscription" n="516" target="080035.xml"/>, <ref type="inscription" n="517" target="080036.xml"/> (1977)</desc>
+         </graphic>
+         <graphic url="77_M_21A.jpg">
+            <desc>Left end in situ, view below <ref type="inscription" n="517" target="080036.xml"/>, above <ref type="inscription" n="519" target="080099.xml"/>, <ref type="inscription" n="521" target="080103.xml"/> (1977)</desc>
+         </graphic>
+         <graphic url="HUMS003679.jpg">
+            <desc>Archive Wall view (1994)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

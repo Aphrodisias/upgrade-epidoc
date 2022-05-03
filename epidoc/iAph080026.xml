@@ -29,9 +29,6 @@
                   <idno>75.187</idno>
                   <idno>75.141</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -51,19 +48,16 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Theatre</rs>, Archive wall</rs>
-                     </origPlace>
-                     <origDate notBefore="-0039" notAfter="-0038" precision="medium">
+                        <rs type="monuList">Theatre</rs>, Archive wall</origPlace>
+                     <origDate notBefore="-0039"
+                               notAfter="-0038"
+                               precision="medium"
+                               evidence="lettering context prosopography">
  Inscription: Second to third centuries A.D. (<rs type="criteria">lettering</rs>, <rs type="criteria">context</rs>).
 Document, 39/38 B.C. (<rs type="criteria">prosopography</rs>).</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">a in the <rs type="monuList">Theatre</rs>, on the Archive Wall; b, c and d reused in the <rs type="monuList">Walls, West</rs>.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">a in findspot; b, c and d in Museum</rs>
-                  </provenance>
+                  <provenance type="found">a in the <rs type="monuList">Theatre</rs>, on the Archive Wall; b, c and d reused in the <rs type="monuList">Walls, West</rs>.</provenance>
+                  <provenance type="observed">a in findspot; b, c and d in Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -73,14 +67,40 @@ Document, 39/38 B.C. (<rs type="criteria">prosopography</rs>).</origDate>
             <language ident="en">English</language>
             <language ident="grc">Ancient Greek</language>
          </langUsage>
+         <creation>transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-27" who="Charlotte-Tupman">hand tidied</change>
          <change when="2007-03-15" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_M_18A.jpg">
+            <desc>b, below <ref type="inscription" n="508" target="080027.xml"/>, in situ (1977)</desc>
+         </graphic>
+         <graphic url="75_K_23A.jpg">
+            <desc>Lines 1-3, fragment (1975)</desc>
+         </graphic>
+         <graphic url="75_K_06A.jpg">
+            <desc>Lines 3-11, left end (1975)</desc>
+         </graphic>
+         <graphic url="75_K_05A.jpg">
+            <desc>Lines 3-11, centre left (1975)</desc>
+         </graphic>
+         <graphic url="77_Y_23.jpg">
+            <desc>c: Lines 3-11, assembled (1977)</desc>
+         </graphic>
+         <graphic url="77_M_10A.jpg">
+            <desc>Lines 1-10,  right end, below <ref type="inscription" n="508" target="080027.xml"/> in situ (1977)</desc>
+         </graphic>
+         <graphic url="HUMS003679.jpg">
+            <desc>Archive Wall view (1994)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

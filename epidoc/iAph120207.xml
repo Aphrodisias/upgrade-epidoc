@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0041" notAfter="0054">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0041" notAfter="0054" evidence="reign">
 41-54 A.D.
 (<rs type="criteria">reign</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, East (North part)</rs>: in the east facing stretch north of the Museum, near <ref type="inscription" n="1011" target="120203.xml"/>, <ref type="inscription" n="1583" target="120212.xml"/> (=MAMA 477, 585). The two blocks are built into the wall at a distance of c. 24 m from each other; both face out.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, East (North part)</rs>: in the east facing stretch north of the Museum, near <ref type="inscription" n="1011" target="120203.xml"/>, <ref type="inscription" n="1583" target="120212.xml"/> (=MAMA 477, 585). The two blocks are built into the wall at a distance of c. 24 m from each other; both face out.</provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,14 +88,25 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Publication, Preliminary transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-02-06" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_W_13.jpg">
+            <desc>a (1973)</desc>
+         </graphic>
+         <graphic url="73_T_11.jpg">
+            <desc>b (1973)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

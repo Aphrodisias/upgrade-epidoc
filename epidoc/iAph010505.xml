@@ -32,9 +32,6 @@
                   <idno>83.110a</idno>
                   <idno>83.110b</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -45,7 +42,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on a prepared face, apparently within a raised <term xml:lang="la">tabula ansata</term>, of which the lower right corner survives. All the other surfaces are rough.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on a prepared face, apparently within a raised <term xml:lang="la">tabula ansata</term>, of which the lower right corner survives. All the other surfaces are rough.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -54,18 +51,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0401" notAfter="0600" precision="medium">Fifth to sixth centuries A.D. (<rs type="criteria">lettering</rs>)</origDate>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0401"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="lettering">Fifth to sixth centuries A.D. (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs key="Tetrapylon" type="monuList">Tetrapylon</rs> area.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum.</rs>
-                  </provenance>
+                     <rs key="Tetrapylon" type="monuList">Tetrapylon</rs> area.</provenance>
+                  <provenance type="observed">Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,9 +92,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-24" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -110,6 +105,22 @@
          <change when="2003-07-17" who="Juan-Garcés">lemmatised</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_J_30A.jpg">
+            <desc>Fragment, lines 1-3 (1977)</desc>
+         </graphic>
+         <graphic url="83_B_25A.jpg">
+            <desc>Fragment. lines 3-4 (1983)</desc>
+         </graphic>
+         <graphic url="83_B_24A.jpg">
+            <desc>Fragment, lower right corner (1983)</desc>
+         </graphic>
+         <graphic url="85_G_03.jpg">
+            <desc>Assembled fragments (1985)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

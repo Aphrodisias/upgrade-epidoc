@@ -30,9 +30,6 @@
                   <idno>67.216</idno>
                   <idno>69.351</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,18 +50,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown, <rs type="monuList" cert="low">Theatre</rs>
-                        </rs>
+                     <origPlace>Unknown, <rs type="monuList" cert="low">Theatre</rs>
                      </origPlace>
-                     <origDate notBefore="041" notAfter="100">Julio-Claudian (<rs type="criteria">prosopography</rs>, <rs type="criteria">terminology</rs>)</origDate>
+                     <origDate notBefore="041" notAfter="100" evidence="prosopography terminology">Julio-Claudian (<rs type="criteria">prosopography</rs>, <rs type="criteria">terminology</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">Two blocks (e. &amp; f.) from the right end found reused in the <rs type="monuList">Walls, South-east</rs>, south of the East Gate, near <ref type="inscription" n="671" target="120711.xml"/>), <ref type="inscription" n="1033" target="120539.xml"/>, <ref type="inscription" n="1534" target="120524.xml"/>; three more found during excavation of the <rs type="monuList">Theatre</rs>: b. in Theatre V, 1967; a. in Theatre VI, 1968; c. &amp; d. in Parodos area, 1969.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">e. &amp; f. still in situ; new fragments (a–d) in Museum.</rs>
-                  </provenance>
+                  <provenance type="found">Two blocks (e. &amp; f.) from the right end found reused in the <rs type="monuList">Walls, South-east</rs>, south of the East Gate, near <ref type="inscription" n="671" target="120711.xml"/>), <ref type="inscription" n="1033" target="120539.xml"/>, <ref type="inscription" n="1534" target="120524.xml"/>; three more found during excavation of the <rs type="monuList">Theatre</rs>: b. in Theatre V, 1967; a. in Theatre VI, 1968; c. &amp; d. in Parodos area, 1969.</provenance>
+                  <provenance type="observed">e. &amp; f. still in situ; new fragments (a–d) in Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -102,14 +93,31 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds); Gaudin's squeeze; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-13" who="cmr">DONE</change>
          <change when="2007-01-24" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_W_16.jpg">
+            <desc>Block b, left end(1977)</desc>
+         </graphic>
+         <graphic url="AG_MAMA435.jpg">
+            <desc>Block b, right end (2005)</desc>
+         </graphic>
+         <graphic url="73_T_21.jpg">
+            <desc>Blocks e. &amp; f. (1973)</desc>
+         </graphic>
+         <graphic url="Deering_07.jpg">
+            <desc>Deering notebook, page 7</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

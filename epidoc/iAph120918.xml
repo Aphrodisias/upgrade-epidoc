@@ -30,9 +30,6 @@
                   <idno>75.139</idno>
                   <idno>75.140</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,21 +50,18 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown: Necropolis</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">
+                     <origPlace>Unknown: Necropolis</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">
 Second to third centuries A.D.
  (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, West</rs>, central stretch, near <ref type="inscription" n="512" target="080031.xml"/> and <ref type="inscription" n="508" target="080027.xml"/>
-                     </rs>
+                     <rs type="monuList">Walls, West</rs>, central stretch, near <ref type="inscription" n="512" target="080031.xml"/> and <ref type="inscription" n="508" target="080027.xml"/>
                   </provenance>
-                  <provenance type="observed" when="1977">
-                     <rs type="lastLocation">Museum (1977)</rs>
-                  </provenance>
+                  <provenance type="observed" when="1977">Museum (1977)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -102,13 +96,30 @@ Second to third centuries A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds);  publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-04" who="Charlotte-Tupman">tidied, corrected,  and brought up to date</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="75_K_09A.jpg">
+            <desc>Upper and lower left fragments  (1975)</desc>
+         </graphic>
+         <graphic url="75_K_08A.jpg">
+            <desc>Upper right fragment  (1975)</desc>
+         </graphic>
+         <graphic url="73_S_28.jpg">
+            <desc>Lower fragments  (1973)</desc>
+         </graphic>
+         <graphic url="77_V_07A.jpg">
+            <desc>Lower left fragment  (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

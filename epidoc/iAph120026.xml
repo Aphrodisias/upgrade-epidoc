@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on front and sides, a on the left side, b on the face, of the left projection; c on the centre panel (<width unit="metre">0.85</width>); d on the face and e on the right side of the right projection.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on front and sides, a on the left side, b on the face, of the left projection; c on the centre panel (<width unit="metre">0.85</width>); d on the face and e on the right side of the right projection.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,19 +48,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0117" notAfter="0150">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0117" notAfter="0150" evidence="content">
 a-d: A.D. 117/138; e A.D. 117/150 (<rs type="criteria">content</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, North</rs>: 'près porte primitive' (cf. <ref type="inscription" n="1862" target="120901.xml"/> (=Reinach 81)).</rs>
-                  </provenance>
-                  <provenance type="observed" when="1934">
-                     <rs type="lastLocation">Findspot (1934)</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, North</rs>: 'près porte primitive' (cf. <ref type="inscription" n="1862" target="120901.xml"/> (=Reinach 81)).</provenance>
+                  <provenance type="observed" when="1934">Findspot (1934)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,14 +89,18 @@ a-d: A.D. 117/138; e A.D. 117/150 (<rs type="criteria">content</rs>).</origDate>
                </term>
             </keywords>
          </textClass>
+         <creation>Gaudin squeeze; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-02-08" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

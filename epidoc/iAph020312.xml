@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the edge of the sarcophagus lid (<width unit="metre">1.965</width> x <height unit="metre">0.08</height>), which is rubbed in places and pierced by several holes; some of the damage was done before the inscription was cut. The text must have continued on the box of the sarcophagus.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the edge of the sarcophagus lid (<width unit="metre">1.965</width> x <height unit="metre">0.08</height>), which is rubbed in places and pierced by several holes; some of the damage was done before the inscription was cut. The text must have continued on the box of the sarcophagus.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0201" notAfter="0300" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0201"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">
  Probably third century A.D.
 (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">: In the excavation of the <rs type="monuList">Bouleuterion/Odeon, North Area</rs>
-                     </rs>
+                  <provenance type="found">: In the excavation of the <rs type="monuList">Bouleuterion/Odeon, North Area</rs>
                   </provenance>
-                  <provenance type="observed" when="1978">
-                     <rs type="lastLocation">In the area behind the Bouleterion/Odeon (1978)</rs>
-                  </provenance>
+                  <provenance type="observed" when="1978">In the area behind the Bouleterion/Odeon (1978)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,13 +91,24 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-07" who="Charlotte-Tupman">DONE</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_F_05.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+         <graphic url="78_G_33.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

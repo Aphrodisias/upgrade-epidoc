@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -50,21 +47,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">unknown</rs>
-                     </origPlace>
+                     <origPlace>unknown</origPlace>
                      <origDate notBefore="0222" notAfter="0235">
 A.D. 222-235
  (reign)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, North</rs>: with <ref type="inscription" n="547" target="120033.xml"/>
-                     </rs>
+                     <rs type="monuList">Walls, North</rs>: with <ref type="inscription" n="547" target="120033.xml"/>
                   </provenance>
-                  <provenance type="observed" when="1904">
-                     <rs type="lastLocation">Findspot (1904)</rs>
-                  </provenance>
+                  <provenance type="observed" when="1904">Findspot (1904)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -74,13 +65,24 @@ A.D. 222-235
             <language ident="en">English</language>
             <language ident="grc">Ancient Greek</language>
          </langUsage>
+         <creation>Transcription from squeeze (Reynolds); publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-15" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="gaudin_0071.jpg">
+            <desc>Squeeze: Lines 1-11</desc>
+         </graphic>
+         <graphic url="gaudin_0072.jpg">
+            <desc>Squeeze: Lines 11-33</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

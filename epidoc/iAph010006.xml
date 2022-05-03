@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in tabella ansata.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in tabella ansata.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,17 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Temple/Church</rs>, findspot. </rs>
-                     </origPlace>
-                     <origDate notBefore="0034" notAfter="0066" precision="medium">
+                        <rs type="monuList">Temple/Church</rs>, findspot. </origPlace>
+                     <origDate notBefore="0034"
+                               notAfter="0066"
+                               precision="medium"
+                               evidence="context prosopography">
 Early first century A.D.
 (<rs type="criteria">context</rs>, <rs type="criteria">prosopography</rs>); this is in a very inelegant hand, on the face of it much later than the parallel column texts (<ref type="inscription" n="1121" target="010004.xml"/>, <ref type="inscription" n="1122" target="010005.xml"/>); ?perhaps a re-inscription.</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: standing on the fourth column base from west of the north colonnade</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: standing on the fourth column base from west of the north colonnade</provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,13 +94,27 @@ Early first century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); publications, notebooks.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-24" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_P_04A.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="76_G_01.jpg">
+            <desc>Face (1976)</desc>
+         </graphic>
+         <graphic url="K_V_22.jpg">
+            <desc>Kubitschek notebook V, 22</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -49,18 +46,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown; necropolis</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0400" precision="medium"> First to fourth centuries A.D. (<rs type="criteria">formulae</rs>)</origDate>
+                     <origPlace>Unknown; necropolis</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0400"
+                               precision="medium"
+                               evidence="formulae"> First to fourth centuries A.D. (<rs type="criteria">formulae</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Necropolis, North</rs>: 'Nécropole; cimetière turc' (Gaudin)</rs>
-                  </provenance>
-                  <provenance type="observed" when="1904">
-                     <rs type="lastLocation">Findspot (1904)</rs>
-                  </provenance>
+                     <rs type="monuList">Necropolis, North</rs>: 'Nécropole; cimetière turc' (Gaudin)</provenance>
+                  <provenance type="observed" when="1904">Findspot (1904)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -92,13 +86,17 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Gaudin's squeeze; red book 34; publication.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-07-25" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -40,7 +37,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the seats. Row F: at west end. Row G: at west end. Row H: at west end. Row N: on seats at west end. Row P: on one seat.. Row S: <width unit="metre">0.55</width> x <height unit="metre">0.48</height>. Row U: at west end.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the seats. Row F: at west end. Row G: at west end. Row H: at west end. Row N: on seats at west end. Row P: on one seat.. Row S: <width unit="metre">0.55</width> x <height unit="metre">0.48</height>. Row U: at west end.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -49,20 +46,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0600" precision="medium">
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="context">
 Second-sixth century A.D.
 (<rs type="criteria">context</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Stadium</rs>: seats, block 11, which contains a built-up 'seat of honour' in Rows E and F, </rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Stadium</rs>: seats, block 11, which contains a built-up 'seat of honour' in Rows E and F, </provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,14 +91,52 @@ Second-sixth century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds, Roueché). This edition: Roueché (2007)..</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-26" who="Charlotte-Tupman">hand tidied</change>
          <change when="2007-03-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_X_27.jpg">
+            <desc>Row F (1977)</desc>
+         </graphic>
+         <graphic url="77_X_28.jpg">
+            <desc>Row F (1977)</desc>
+         </graphic>
+         <graphic url="77_X_29.jpg">
+            <desc>Rows F and G (1977)</desc>
+         </graphic>
+         <graphic url="77_X_25.jpg">
+            <desc>Row H (1977)</desc>
+         </graphic>
+         <graphic url="77_X_26.jpg">
+            <desc>Row H (1977)</desc>
+         </graphic>
+         <graphic url="77_V_32A.jpg">
+            <desc>Row U, left end (1977)</desc>
+         </graphic>
+         <graphic url="77_V_33A.jpg">
+            <desc>Row U (1977)</desc>
+         </graphic>
+         <graphic url="77_V_34A.jpg">
+            <desc>Row U (1977)</desc>
+         </graphic>
+         <graphic url="77_V_35A.jpg">
+            <desc>Row U (1977)</desc>
+         </graphic>
+         <graphic url="77_V_36A.jpg">
+            <desc>Row U (1977)</desc>
+         </graphic>
+         <graphic url="88_F_36.jpg">
+            <desc>Row U, right end (1988)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

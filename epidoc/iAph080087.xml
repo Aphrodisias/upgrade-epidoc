@@ -29,9 +29,6 @@
                   <idno>68.400</idno>
                   <idno>71.167</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,14 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Theatre</rs>, north analemma</rs>
-                     </origPlace>
-                     <origDate notBefore="0200" notAfter="0300">
+                        <rs type="monuList">Theatre</rs>, north analemma</origPlace>
+                     <origDate notBefore="0200" notAfter="0300" evidence="lettering sculpture">
 Third century (<rs type="criteria">lettering</rs>, <rs type="criteria">sculpture</rs>)
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Theatre</rs> stage</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum, reassembled with statue</rs>
-                  </provenance>
+                     <rs type="monuList">Theatre</rs> stage</provenance>
+                  <provenance type="observed">Museum, reassembled with statue</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,14 +91,34 @@ Third century (<rs type="criteria">lettering</rs>, <rs type="criteria">sculpture
                </term>
             </keywords>
          </textClass>
+         <creation>Transcriptions (Reynolds, Roueché)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-17" who="Charlotte-Tupman">hand tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="89_E_31A.jpg">
+            <desc>Complete (1989)</desc>
+         </graphic>
+         <graphic url="HS_3547.jpg">
+            <desc>Complete (2000)</desc>
+         </graphic>
+         <graphic url="78_L_02.jpg">
+            <desc>Left end (1978)</desc>
+         </graphic>
+         <graphic url="78_G_22.jpg">
+            <desc>Right end (1978)</desc>
+         </graphic>
+         <graphic url="Aph2004_67.jpg">
+            <desc>Statue and base (2004)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -29,9 +29,6 @@
                   <repository>n/a</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,19 +50,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">
 Second to third centuries A.D.
 (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">Re-used in the <rs type="monuList">Walls, South (west part)</rs>; 'au turbe des remparts', by the Islamic holy place just west of the excavated stretch of the south city wall, near <ref type="inscription" n="1500" target="120612.xml"/> (=MAMA 410), <ref type="inscription" n="1578" target="120714.xml"/> (=MAMA 561)</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Unknown</rs>
-                  </provenance>
+                  <provenance type="found">Re-used in the <rs type="monuList">Walls, South (west part)</rs>; 'au turbe des remparts', by the Islamic holy place just west of the excavated stretch of the south city wall, near <ref type="inscription" n="1500" target="120612.xml"/> (=MAMA 410), <ref type="inscription" n="1578" target="120714.xml"/> (=MAMA 561)</provenance>
+                  <provenance type="observed">Unknown</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,13 +94,17 @@ Second to third centuries A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Gaudin's squeeze; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-24" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

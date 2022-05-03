@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -51,20 +48,17 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Hadrianic baths, East Court</rs>: in the 'salle au vingt colonnes', at the south east corner of the east court.</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0200" precision="medium">
+                        <rs type="monuList">Hadrianic baths, East Court</rs>: in the 'salle au vingt colonnes', at the south east corner of the east court.</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0200"
+                               precision="medium"
+                               evidence="monument lettering">
 Second century A.D.
 (<rs type="criteria">monument</rs>, <rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Hadrianic baths, East Court</rs>: in the 'salle aux vingt colonnes'.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Hadrianic baths, East Court</rs>: in the 'salle aux vingt colonnes'.</provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,12 +90,26 @@ Second century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="88_E_20A.jpg">
+            <desc>i. Text from left (1988)</desc>
+         </graphic>
+         <graphic url="88_E_21A.jpg">
+            <desc>i. Text from right (1988)</desc>
+         </graphic>
+         <graphic url="Boulanger_A_07.jpg">
+            <desc>Boulanger, notebook A, page 7</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -29,9 +29,6 @@
                   <idno>71.337</idno>
                   <idno>70.509</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>i. <rs type="execution" key="scalpro">Inscribed</rs> on the face of the base; ii inscribed on the plinth of the statue.</layout>
+                        <layout>i. <rs type="execution" ref="scalpro">Inscribed</rs> on the face of the base; ii inscribed on the plinth of the statue.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,20 +48,14 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Theatre</rs>, south analemma</rs>
-                     </origPlace>
-                     <origDate notBefore="0200" notAfter="0300">
+                        <rs type="monuList">Theatre</rs>, south analemma</origPlace>
+                     <origDate notBefore="0200" notAfter="0300" evidence="lettering sculpture">
 Third century (<rs type="criteria">lettering</rs>, <rs type="criteria">sculpture</rs>)
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Theatre</rs>, near the Porta Regia.</rs>
-                  </provenance>
-                  <provenance type="observed" when="2004">
-                     <rs type="lastLocation">Museum (with statue) (2004)</rs>
-                  </provenance>
+                     <rs type="monuList">Theatre</rs>, near the Porta Regia.</provenance>
+                  <provenance type="observed" when="2004">Museum (with statue) (2004)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,14 +90,34 @@ Third century (<rs type="criteria">lettering</rs>, <rs type="criteria">sculpture
                </term>
             </keywords>
          </textClass>
+         <creation>Transcriptions (Reynolds, Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-17" who="Charlotte-Tupman">hand tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="Aph2004_65.jpg">
+            <desc>i and ii displayed (2004)</desc>
+         </graphic>
+         <graphic url="Aph2004_65i.jpg">
+            <desc>Text i  (2004)</desc>
+         </graphic>
+         <graphic url="HS_3544.jpg">
+            <desc>Text i (2000)</desc>
+         </graphic>
+         <graphic url="Aph2004_65ii.jpg">
+            <desc>Text ii (2004)</desc>
+         </graphic>
+         <graphic url="78_K_37.jpg">
+            <desc>Text ii (1978)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

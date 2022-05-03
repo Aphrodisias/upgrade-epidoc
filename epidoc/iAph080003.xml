@@ -30,9 +30,6 @@
                   <idno>68.399</idno>
                   <idno>70.406</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> a on one metope and b on the frieze. The decree is laid out in two columns.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> a on one metope and b on the frieze. The decree is laid out in two columns.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,17 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Theatre</rs>, stage front</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0200" precision="medium">Document: 88 B.C. (<rs type="criteria">prosopography</rs>, <rs type="criteria">events</rs>). Inscription: Second century A.D.
+                        <rs type="monuList">Theatre</rs>, stage front</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0200"
+                               precision="medium"
+                               evidence="prosopography events lettering">Document: 88 B.C. (<rs type="criteria">prosopography</rs>, <rs type="criteria">events</rs>). Inscription: Second century A.D.
 (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Theatre</rs>: the pilasterforming the northern end of the Doric entablature of the stage building. </rs>
-                  </provenance>
+                     <rs type="monuList">Theatre</rs>: the pilasterforming the northern end of the Doric entablature of the stage building. </provenance>
                   <provenance type="observed">
-                     <rs type="lastLocation">
-                        <rs type="monuList">Theatre</rs>, stage front</rs>
-                  </provenance>
+                     <rs type="monuList">Theatre</rs>, stage front</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,12 +92,29 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds) </creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2006-01-16" who="#GB">Cconverted to XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="NY_pr_082.jpg">
+            <desc>a, and b.i, left end (1970)</desc>
+         </graphic>
+         <graphic url="NY_pr_083.jpg">
+            <desc>b.i, right end (1970)</desc>
+         </graphic>
+         <graphic url="NY_pr_084.jpg">
+            <desc>b.ii (1970)</desc>
+         </graphic>
+         <graphic url="NY_pr_091.jpg">
+            <desc>b.ii (1970)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

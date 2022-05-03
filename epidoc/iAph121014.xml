@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in one line on the singe fascia,  <height unit="metre">0.14</height>.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in one line on the singe fascia,  <height unit="metre">0.14</height>.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">
 Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, West Gate</rs>: a. and b. reused adjacent to one another (b. to the right of a.), with the inscribed face inwards, to form a course, in the upper part of the West Gate</rs>
-                  </provenance>
-                  <provenance type="observed" when="2001">
-                     <rs type="lastLocation">Findspot (2001)</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, West Gate</rs>: a. and b. reused adjacent to one another (b. to the right of a.), with the inscribed face inwards, to form a course, in the upper part of the West Gate</provenance>
+                  <provenance type="observed" when="2001">Findspot (2001)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,12 +91,29 @@ Second to third centuries A.D. (<rs type="criteria">lettering</rs>)
                </term>
             </keywords>
          </textClass>
+         <creation>Publications; notebooks; Preliminary transcription (Reynolds, Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="2001_A_18.jpg">
+            <desc>Stone a (2001)</desc>
+         </graphic>
+         <graphic url="2001_A_19.jpg">
+            <desc>Stone a (2001)</desc>
+         </graphic>
+         <graphic url="2001_A_17.jpg">
+            <desc>Stone b (2001)</desc>
+         </graphic>
+         <graphic url="K_V_12.jpg">
+            <desc>Kubitschek notebook, K.V.12</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>88.21</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -52,18 +49,12 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList" key="Basilica">Basilica</rs>.</rs>
-                     </origPlace>
-                     <origDate notBefore="0365" notAfter="0370">A.D. 365/370 (<rs type="criteria">prosopography</rs>).</origDate>
+                        <rs type="monuList" key="Basilica">Basilica</rs>.</origPlace>
+                     <origDate notBefore="0365" notAfter="0370" evidence="prosopography">A.D. 365/370 (<rs type="criteria">prosopography</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="Basilica">Basilica</rs>: at the north-west corner, in the floor of niche at the 7th intercolumniation from the north. .</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum.</rs>
-                  </provenance>
+                     <rs type="monuList" key="Basilica">Basilica</rs>: at the north-west corner, in the floor of niche at the 7th intercolumniation from the north. .</provenance>
+                  <provenance type="observed">Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,9 +87,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -111,6 +103,22 @@
          <change when="2002-11-15" who="#GB">Typed and tagged Greek</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="NY_pr_053.jpg">
+            <desc>Face (1988)</desc>
+         </graphic>
+         <graphic url="NY_pr_081.jpg">
+            <desc>Face (1988)</desc>
+         </graphic>
+         <graphic url="DSCN0170.jpg">
+            <desc>Basilica: west portico, from north (2004)</desc>
+         </graphic>
+         <graphic url="DSCN0171.jpg">
+            <desc>Basilica, from north (2004)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in one line on the <term>fascia</term>, which shows traces (on a) of an earlier, erased inscription.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in one line on the <term>fascia</term>, which shows traces (on a) of an earlier, erased inscription.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,18 +49,15 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs key="Basilica" type="monuList">Basilica</rs>, south end</rs>
-                     </origPlace>
-                     <origDate notBefore="0401" notAfter="0500" precision="medium">Fifth century (<rs type="criteria">lettering</rs>; <rs type="criteria">titulature</rs>).</origDate>
+                        <rs key="Basilica" type="monuList">Basilica</rs>, south end</origPlace>
+                     <origDate notBefore="0401"
+                               notAfter="0500"
+                               precision="medium"
+                               evidence="lettering titulature">Fifth century (<rs type="criteria">lettering</rs>; <rs type="criteria">titulature</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, South-west</rs>: Fields, south-west of the Acropolis: a and c found partly buried, just east of the tall standing wall which lies 75 m east of the Triconch Church. b was found lying loose some 100 m north of a and c. d '<foreign xml:lang="de">bei der Stadtmauer sudl. der Akropolis</foreign>' (Reichel)</rs>
-                  </provenance>
-                  <provenance type="observed" when="1975">
-                     <rs type="lastLocation">Findspots (1975).</rs>
-                  </provenance>
+                     <rs type="monuList">City, South-west</rs>: Fields, south-west of the Acropolis: a and c found partly buried, just east of the tall standing wall which lies 75 m east of the Triconch Church. b was found lying loose some 100 m north of a and c. d '<foreign xml:lang="de">bei der Stadtmauer sudl. der Akropolis</foreign>' (Reichel)</provenance>
+                  <provenance type="observed" when="1975">Findspots (1975).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,9 +90,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation> Transcription (Roueché); Publications; Reichel notebook.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-24" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-01-25" who="#CMR">tidied; image refs</change>
@@ -107,6 +102,25 @@
          <change when="2003-07-16" who="Juan-Garcés">lemmatised</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_Y_15.jpg">
+            <desc>a: Face (1973)</desc>
+         </graphic>
+         <graphic url="72_F_05A.jpg">
+            <desc>a: Face (1975)</desc>
+         </graphic>
+         <graphic url="75_F_26A.jpg">
+            <desc>b: Face (1975)</desc>
+         </graphic>
+         <graphic url="73_S_30.jpg">
+            <desc>c: Face (1973)</desc>
+         </graphic>
+         <graphic url="R_I_28.jpg">
+            <desc>d: Transcription by Reichel, Ι.28</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

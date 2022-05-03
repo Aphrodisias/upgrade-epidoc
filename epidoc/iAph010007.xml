@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in tabella ansata.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in tabella ansata.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -54,20 +51,17 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Temple/Church</rs>: on column.</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0033" precision="medium">
+                        <rs type="monuList">Temple/Church</rs>: on column.</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0033"
+                               precision="medium"
+                               evidence="lettering context prosopography">
 Early first century A.D.
 (<rs type="criteria">lettering</rs>, <rs type="criteria">context</rs>, <rs type="criteria">prosopography</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: on a column fallen from the north colonnade</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: on a column fallen from the north colonnade</provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -102,13 +96,27 @@ Early first century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); Gaudin's squeeze; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-24" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_E_11A.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+         <graphic url="78_L_20.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+         <graphic url="Deering_01.jpg">
+            <desc>Deering notebook, 1</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

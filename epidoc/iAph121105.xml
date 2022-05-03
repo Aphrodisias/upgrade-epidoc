@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -48,18 +45,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">Second to third centuries A.D. (<rs type="criteria">nomenclature</rs>)</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="nomenclature">Second to third centuries A.D. (<rs type="criteria">nomenclature</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, North-west</rs>: Seen in 1705 'In urbis muro ad occidentalem partem' (Picenini), 'In urbis muro ad occidentalem partem' (Tisser), near <ref type="inscription" n="1539" target="121107.xml"/> (=MAMA 554 ); in 1716 “prope portam australem, qua itur Enierkoi' (Sherard) </rs>
-                  </provenance>
-                  <provenance type="observed" when="1716">
-                     <rs type="lastLocation">Findspot (1716)</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, North-west</rs>: Seen in 1705 'In urbis muro ad occidentalem partem' (Picenini), 'In urbis muro ad occidentalem partem' (Tisser), near <ref type="inscription" n="1539" target="121107.xml"/> (=MAMA 554 ); in 1716 “prope portam australem, qua itur Enierkoi' (Sherard) </provenance>
+                  <provenance type="observed" when="1716">Findspot (1716)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -91,14 +85,18 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-02-06" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

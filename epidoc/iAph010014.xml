@@ -31,9 +31,6 @@
                   <idno>63.602</idno>
                   <idno>65.55</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in one line on upper fascia of moulded profile.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in one line on upper fascia of moulded profile.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -54,19 +51,16 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Temple/Church</rs>: <seg cert="low">crowning the chancel barrier</seg>.</rs>
-                     </origPlace>
-                     <origDate notBefore="0401" notAfter="0600" precision="medium">Fifth/sixth century (<rs type="criteria">location</rs>, <rs type="criteria">lettering</rs>).</origDate>
+                        <rs type="monuList">Temple/Church</rs>: <seg cert="low">crowning the chancel barrier</seg>.</origPlace>
+                     <origDate notBefore="0401"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="location lettering">Fifth/sixth century (<rs type="criteria">location</rs>, <rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: sector xv; temenos, sector iv, str. I; three
-stray finds.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum.</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: sector xv; temenos, sector iv, str. I; three
+stray finds.</provenance>
+                  <provenance type="observed">Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -101,9 +95,10 @@ stray finds.</rs>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-29" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -114,6 +109,25 @@ stray finds.</rs>
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_K_22A.jpg">
+            <desc>a: Face (1977)</desc>
+         </graphic>
+         <graphic url="77_K_21A.jpg">
+            <desc>b: Face (1977)</desc>
+         </graphic>
+         <graphic url="77_J_09A.jpg">
+            <desc>c: Face (1977)</desc>
+         </graphic>
+         <graphic url="76_E_08.jpg">
+            <desc>d: Face (1976)</desc>
+         </graphic>
+         <graphic url="78_E_06A.jpg">
+            <desc>e: Face (1978)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

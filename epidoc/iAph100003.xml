@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -40,7 +37,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the seats. Row J: on a seat in the middle of the row. Row K: in the middle of the row. Row P.i: starting at west end. Row P.ii: diameter <width unit="metre">0.46</width>). Row T: <width unit="metre">0.24</width> x <height unit="metre">0.15</height>, very rough. Row U: <height unit="metre">0.55</height> (incomplete) x <width unit="metre">0.53</width>. Row V.i: starting on second seat from west end. Row V.ii: on one seat, at right angles to front edge. Row V.iii: on one seat, at east end; design, <width unit="metre">0.17</width> x <height unit="metre">0.15</height>. Row V.iv: <height unit="metre">0.55</height> (incomplete) x <width unit="metre">0.46</width>. Row V.v: unfinished, <height unit="metre">0.53</height> (incomplete) x <width unit="metre">0.60</width>. Row X: <width unit="metre">0.21</width> x <height unit="metre">0.15</height>.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the seats. Row J: on a seat in the middle of the row. Row K: in the middle of the row. Row P.i: starting at west end. Row P.ii: diameter <width unit="metre">0.46</width>). Row T: <width unit="metre">0.24</width> x <height unit="metre">0.15</height>, very rough. Row U: <height unit="metre">0.55</height> (incomplete) x <width unit="metre">0.53</width>. Row V.i: starting on second seat from west end. Row V.ii: on one seat, at right angles to front edge. Row V.iii: on one seat, at east end; design, <width unit="metre">0.17</width> x <height unit="metre">0.15</height>. Row V.iv: <height unit="metre">0.55</height> (incomplete) x <width unit="metre">0.46</width>. Row V.v: unfinished, <height unit="metre">0.53</height> (incomplete) x <width unit="metre">0.60</width>. Row X: <width unit="metre">0.21</width> x <height unit="metre">0.15</height>.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -49,20 +46,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0600" precision="medium">
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="context">
 Second-sixth century A.D.
 (<rs type="criteria">context</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Stadium</rs>: seats, block 19. </rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Stadium</rs>: seats, block 19. </provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,15 +94,41 @@ Second-sixth century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds, Roueché). This edition: Roueché (2007)..</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-08-07" who="Eleonora-Litta">tidied expan</change>
          <change when="2007-03-23" who="Charlotte-Tupman">hand tidied</change>
          <change when="2007-03-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="75_D_07A.jpg">
+            <desc>Row K (1975)</desc>
+         </graphic>
+         <graphic url="77_B_14A.jpg">
+            <desc>Row P.i, left end (1977)</desc>
+         </graphic>
+         <graphic url="75_F_35A.jpg">
+            <desc>Row V.i, left end (1975)</desc>
+         </graphic>
+         <graphic url="75_L_12.jpg">
+            <desc>Row V.i, right end (1975)</desc>
+         </graphic>
+         <graphic url="75_L_14.jpg">
+            <desc>Row V.ii (1975)</desc>
+         </graphic>
+         <graphic url="75_D_10A.jpg">
+            <desc>Row V.iii (1975)</desc>
+         </graphic>
+         <graphic url="75_D_08A.jpg">
+            <desc>Row V.iv (1975)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

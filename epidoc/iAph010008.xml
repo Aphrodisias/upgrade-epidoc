@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in tabella ansata.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in tabella ansata.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot: on column.</rs>
-                     </origPlace>
-                     <origDate notBefore="0034" notAfter="0066" precision="medium">
+                     <origPlace>Findspot: on column.</origPlace>
+                     <origDate notBefore="0034"
+                               notAfter="0066"
+                               precision="medium"
+                               evidence="lettering">
 Mid first century A.D.
 (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>, section XI.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">a nd c in Museum; b in Temple-church, chancel.</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>, section XI.</provenance>
+                  <provenance type="observed">a nd c in Museum; b in Temple-church, chancel.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,13 +94,33 @@ Mid first century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-24" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="72_D_26A.jpg">
+            <desc>Fragment a. (1972)</desc>
+         </graphic>
+         <graphic url="77_S_30.jpg">
+            <desc>Fragment b. (1977)</desc>
+         </graphic>
+         <graphic url="77_BB_25.jpg">
+            <desc>Fragment c. (1977)</desc>
+         </graphic>
+         <graphic url="Deering_05v.jpg">
+            <desc>Complete: Deering notebook, page 5v</desc>
+         </graphic>
+         <graphic url="K_V_22.jpg">
+            <desc>Fragment b: Kubitschek notebook V, 22 (a)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>74.255</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on one face within a panel outlined by an incised line. Below is a slightly rougher area clearly not intended to be visible. The text must have begun on a crowning feature.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on one face within a panel outlined by an incised line. Below is a slightly rougher area clearly not intended to be visible. The text must have begun on a crowning feature.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,19 +50,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0200" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0200"
+                               precision="medium"
+                               evidence="lettering">
 First to second centuries A.D. (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, South-west</rs>: standing in a pile of stones c. 50m. north of the inside face of the south wall, near the southwest corner.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1975">
-                     <rs type="lastLocation">Museum (1975)</rs>
-                  </provenance>
+                     <rs type="monuList">City, South-west</rs>: standing in a pile of stones c. 50m. north of the inside face of the south wall, near the southwest corner.</provenance>
+                  <provenance type="observed" when="1975">Museum (1975)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,13 +94,27 @@ First to second centuries A.D. (<rs type="criteria">lettering</rs>)</origDate>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-04" who="cmr">DONE</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_W_22.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="75_J_35A.jpg">
+            <desc>Face (1975)</desc>
+         </graphic>
+         <graphic url="HUMS003441.jpg">
+            <desc>Face (2001)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

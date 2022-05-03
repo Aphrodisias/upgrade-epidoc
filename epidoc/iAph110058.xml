@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>76.84</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face. L.1 is inscribed on the upper
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face. L.1 is inscribed on the upper
      moulding, but was not seen by earlier copyists; the text must have begun on the crowning
      feature.</layout>
                      </layoutDesc>
@@ -54,20 +51,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0226" notAfter="0226">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0226" notAfter="0226" evidence="contests">
      A.D. 226 (<rs type="criteria">contests</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, Village</rs>: in the ruins of a house north east of
-      the Tetrapylon, slightly west of the Water Channel area</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">City, Village</rs>: in the ruins of a house north east of
+      the Tetrapylon, slightly west of the Water Channel area</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -102,14 +93,22 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcriptions (Reynolds, Roueché)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-17" who="&#xA;-----Charlotte-Tupman&#xA;----">hand tidied</change>
          <change when="2006-11-07" who="&#xA;-----Elliott-Hall&#xA;----">Batch converted Word2XML</change>
          <change when="2007-01-01" who="&#xA;-----GB&#xA;----">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="76_E_14.jpg">
+            <desc>Face (1976)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

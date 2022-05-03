@@ -29,9 +29,6 @@
                   <idno>81.143</idno>
                   <idno>88.15</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -45,7 +42,7 @@ ansata</term> in light relief on the front.</p>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> within the <term xml:lang="la">tabella</term>.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> within the <term xml:lang="la">tabella</term>.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -54,19 +51,16 @@ ansata</term> in light relief on the front.</p>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0301" notAfter="0400" precision="medium">Fourth century or later (<rs type="criteria">terminology</rs>)</origDate>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0301"
+                               notAfter="0400"
+                               precision="medium"
+                               evidence="terminology">Fourth century or later (<rs type="criteria">terminology</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="Sebasteion">Sebasteion</rs>: in a modern stable building near the west end
-of the complex.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum.</rs>
-                  </provenance>
+                     <rs type="monuList" key="Sebasteion">Sebasteion</rs>: in a modern stable building near the west end
+of the complex.</provenance>
+                  <provenance type="observed">Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,9 +93,10 @@ of the complex.</rs>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -112,6 +107,13 @@ of the complex.</rs>
          <change when="2003-04-30" who="Juan-Garcés">tagged Greek; tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="83_A_05.jpg">
+            <desc>Face (1983)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

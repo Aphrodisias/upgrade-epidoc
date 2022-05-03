@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -49,18 +46,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot.</rs>
-                     </origPlace>
-                     <origDate notBefore="0401" notAfter="0600" precision="medium">Fifth/sixth century (<rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Findspot.</origPlace>
+                     <origDate notBefore="0401"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="lettering">Fifth/sixth century (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">South Agora</rs>: part of the southern rim of the central pool. </rs>
-                  </provenance>
-                  <provenance type="observed" when="1985">
-                     <rs type="lastLocation">Findspot (1985)</rs>
-                  </provenance>
+                     <rs type="monuList">South Agora</rs>: part of the southern rim of the central pool. </provenance>
+                  <provenance type="observed" when="1985">Findspot (1985)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -92,9 +86,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-24" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-02-06" who="#CMR">tidied; image refs</change>
@@ -103,6 +98,19 @@
          <change when="2003-07-17" who="Juan-Garcés">lemmatised</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="85_J_07.jpg">
+            <desc>Block in situ (1985)</desc>
+         </graphic>
+         <graphic url="85_J_05.jpg">
+            <desc>Face and side (1985)</desc>
+         </graphic>
+         <graphic url="85_E_11.jpg">
+            <desc>Face (1985)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

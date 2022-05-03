@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on one face above a relief of a pair of <rs type="decoration">sandals</rs>.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on one face above a relief of a pair of <rs type="decoration">sandals</rs>.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,17 +49,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="-33" notAfter="-1" precision="medium"> The modesty of the <rs type="criteria">lettering</rs> may create an impression of earlier date than is correct; but the <foreign xml:lang="grc">Ξ</foreign> and the small circular letters tend to indicate a late first century B.C. date</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="-33"
+                               notAfter="-1"
+                               precision="medium"
+                               evidence="lettering"> The modesty of the <rs type="criteria">lettering</rs> may create an impression of earlier date than is correct; but the <foreign xml:lang="grc">Ξ</foreign> and the small circular letters tend to indicate a late first century B.C. date</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">Unknown</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                  <provenance type="found">Unknown</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,14 +91,22 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds) </creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-26" who="cmr">DONE</change>
          <change when="2007-01-24" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_L_02A.jpg">
+            <desc>Face (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

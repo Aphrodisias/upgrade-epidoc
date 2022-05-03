@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>84.64</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in an area which is worn or broken away.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in an area which is worn or broken away.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,20 +48,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown, but very probably from <rs type="monuList" cert="low">Hadrianic Baths</rs>.</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0200" precision="medium">
+                     <origPlace>Unknown, but very probably from <rs type="monuList" cert="low">Hadrianic Baths</rs>.</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0200"
+                               precision="medium"
+                               evidence="monument lettering">
 Second century A.D.
 (<rs type="criteria">monument</rs>, <rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">South Agora</rs>: Portico of Tiberius SW; the southern end of the west portico.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">South Agora</rs>: Portico of Tiberius SW; the southern end of the west portico.</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,15 +90,26 @@ Second century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-08-07" who="Eleonora-Litta">tidied xrefs</change>
          <change when="2007-04-03" who="GB">DONE</change>
          <change when="2007-01-19" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="85_G_13.jpg">
+            <desc>Column (1985)</desc>
+         </graphic>
+         <graphic url="85_G_12.jpg">
+            <desc>Text (1985)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

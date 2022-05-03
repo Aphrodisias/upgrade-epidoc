@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> (<width unit="metre">0.29</width>  × <height unit="metre">0.175</height>) at <height unit="metre">2.30</height> above present ground level.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> (<width unit="metre">0.29</width>  × <height unit="metre">0.175</height>) at <height unit="metre">2.30</height> above present ground level.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,20 +48,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">
 Second to third centuries A.D.
  (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Hadrianic Baths</rs>: on the east face of the second square column from the East at the north gate of the Baths.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1972">
-                     <rs type="lastLocation">Findspot (1972)</rs>
-                  </provenance>
+                     <rs type="monuList">Hadrianic Baths</rs>: on the east face of the second square column from the East at the north gate of the Baths.</provenance>
+                  <provenance type="observed" when="1972">Findspot (1972)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,13 +90,33 @@ Second to third centuries A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); notebooks.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="HUMS003596.jpg">
+            <desc>Face (2001)</desc>
+         </graphic>
+         <graphic url="HUMS003597.jpg">
+            <desc>Face (2001)</desc>
+         </graphic>
+         <graphic url="K_III_46.jpg">
+            <desc>Kubitschek notebook III, 46</desc>
+         </graphic>
+         <graphic url="gaudin_0053.jpg">
+            <desc>Gaudin squeeze </desc>
+         </graphic>
+         <graphic url="Boulanger_A_39.jpg">
+            <desc>Boulanger notebook A, 39</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

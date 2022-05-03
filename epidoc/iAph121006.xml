@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,18 +49,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0034" notAfter="0100" precision="medium">Mid to late first century A.D. (<rs type="criteria">lettering</rs>)</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0034"
+                               notAfter="0100"
+                               precision="medium"
+                               evidence="lettering">Mid to late first century A.D. (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, West Gate</rs>: seen reused in the wall above the  Gate by Reichel;  found lying just west of the gate, broken in two, by Gaudin and subsequent visitors.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, West Gate</rs>: seen reused in the wall above the  Gate by Reichel;  found lying just west of the gate, broken in two, by Gaudin and subsequent visitors.</provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,14 +89,43 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Publications; Reichel notebook; Gaudin's squeeze; Preliminary transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-19" who="Charlotte-Tupman">hand tidied</change>
          <change when="2005-02-16" who="Artemis-Papakostouli">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_Q_08A.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="90_A_01A.jpg">
+            <desc>Face (1990)</desc>
+         </graphic>
+         <graphic url="90_A_02A.jpg">
+            <desc>Face (1990)</desc>
+         </graphic>
+         <graphic url="2001_A_16.jpg">
+            <desc>Top (2001)</desc>
+         </graphic>
+         <graphic url="R_I_04.jpg">
+            <desc>Reichel notebook I, 4</desc>
+         </graphic>
+         <graphic url="R_I_05.jpg">
+            <desc>Reichel notebook I, 5</desc>
+         </graphic>
+         <graphic url="gaudin_0019.jpg">
+            <desc>Gaudin squeeze</desc>
+         </graphic>
+         <graphic url="gaudin_0037.jpg">
+            <desc>Gaudin squeeze</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

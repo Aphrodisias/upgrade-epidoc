@@ -29,9 +29,6 @@ Marcus Lepidus</title>
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>77.123</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@ Marcus Lepidus</title>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,21 +50,15 @@ Marcus Lepidus</title>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Almost certainly in the <rs type="monuList">Sebasteion</rs>
-                        </rs>
+                     <origPlace>Almost certainly in the <rs type="monuList">Sebasteion</rs>
                      </origPlace>
-                     <origDate notBefore="0014" notAfter="0069">
+                     <origDate notBefore="0014" notAfter="0069" evidence="context lettering">
 Julio-Claudian
 (<rs type="criteria">context</rs>, <rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">South Agora</rs>: in 'East Agora Trench 5'</rs>
-                  </provenance>
-                  <provenance type="observed" when="1978">
-                     <rs type="lastLocation">Museum (1978)</rs>
-                  </provenance>
+                     <rs type="monuList">South Agora</rs>: in 'East Agora Trench 5'</provenance>
+                  <provenance type="observed" when="1978">Museum (1978)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -102,13 +93,24 @@ Julio-Claudian
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds), publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-10" who="cmr">DONE</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_A_02.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+         <graphic url="HUMS003553.jpg">
+            <desc>Face (2001)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

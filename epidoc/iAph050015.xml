@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>88.9</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -51,19 +48,16 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList" key="HadrBath" cert="low">Hadrianic Baths</rs>
-                        </rs>
+                        <rs type="monuList" key="HadrBath" cert="low">Hadrianic Baths</rs>
                      </origPlace>
-                     <origDate notBefore="0468" notAfter="0600" precision="medium">Late fifth/sixth century (<rs type="criteria">titulature</rs>).</origDate>
+                     <origDate notBefore="0468"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="titulature">Late fifth/sixth century (<rs type="criteria">titulature</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>: during clearing in the Aleipterion</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>: during clearing in the Aleipterion</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,9 +93,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds, Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -112,12 +107,25 @@
          <change when="2002-10-31" who="#GB">Typed and tagged Greek</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="89_B_03.jpg">
+            <desc>Face ii. (1989)</desc>
+         </graphic>
+         <graphic url="88_F_30.jpg">
+            <desc>Face ii. detail (1988)</desc>
+         </graphic>
+         <graphic url="Aph2004_153.jpg">
+            <desc>Both faces (2004)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
  		<div type="textpart" subtype="section"><ab>
-		<lb n="1"/><g ref="#cross"/> <g ref="#cross"/> <w lemma="ἐπί">ἐπὶ</w> <persName key="photius1" nymRef="#Φλάβιος Φώτιος" type="attested"><name nymRef="#Φλάβιος"><expan><abbr>Φλ</abbr><ex>αβίου</ex></expan></name> <name nymRef="#Φώτιος">Φωτίου</name></persName> <w lemma="σχολαστικός"><rs type="profession" key="scholasticus"><expan><abbr>σχο</abbr><ex>λαστικοῦ</ex></expan></rs></w> <w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <rs type="official-secul" key="pater"><w lemma="πατήρ"><expan><abbr>πατρ</abbr><ex>ός</ex></expan></w></rs> <g ref="#cross"/>
+		<lb n="1"/><g ref="#cross"/> <g ref="#cross"/> <w lemma="ἐπί">ἐπὶ</w> <persName key="photius1" nymRef="#Φλάβιος Φώτιος" type="attested"><name nymRef="#Φλάβιος"><expan><abbr>Φλ</abbr><ex>αβίου</ex></expan></name> <name nymRef="#Φώτιος">Φωτίου</name></persName> <w lemma="σχολαστικός"><rs type="profession" key="scholasticus"><expan><abbr>σχο</abbr><ex>λαστικοῦ</ex></expan></rs></w> <w lemma="καί"><expan><abbr>κ</abbr><ex>αὶ</ex></expan></w> <w lemma="πατήρ"><rs type="official-secul" key="pater"><expan><abbr>πατρ</abbr><ex>ός</ex></expan></rs></w> <g ref="#cross"/>
 		</ab></div>
       </div>
          <div type="translation">

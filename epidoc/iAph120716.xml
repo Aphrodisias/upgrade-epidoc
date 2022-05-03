@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -40,7 +37,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face; the text must have begun on a crowning feature.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face; the text must have begun on a crowning feature.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -49,20 +46,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0117" notAfter="0138">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0117" notAfter="0138" evidence="contests">
 117-38 A.D (<rs type="criteria">contests</rs>)
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, South (west part)</rs>: on the southern stretch of the city wall, near <ref type="inscription" n="525" target="080114.xml"/> (=MAMA 424); fragment a stray find.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Fragment in Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, South (west part)</rs>: on the southern stretch of the city wall, near <ref type="inscription" n="525" target="080114.xml"/> (=MAMA 424); fragment a stray find.</provenance>
+                  <provenance type="observed">Fragment in Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -103,15 +94,23 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Sherard's notebook, publications, transcriptions (Reynolds, Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-08-07" who="Eleonora-Litta">tidied expan</change>
          <change when="2007-01-12" who="Charlotte-Tupman">tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="81_A_28.jpg">
+            <desc> Lines 1-6, right end (1981)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>69.378</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -45,7 +42,7 @@ is entirely preserved, and the two ends survive in part.</p>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> along one long side (a) and the short side to the
+                           <rs type="execution" ref="scalpro">Inscribed</rs> along one long side (a) and the short side to the
 left of it (b). The other end was not inscribed.</layout>
                      </layoutDesc>
                   </objectDesc>
@@ -55,18 +52,15 @@ left of it (b). The other end was not inscribed.</layout>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0468" notAfter="0500" precision="medium">Late fifth century A.D. (<rs type="criteria">prosopography</rs>)</origDate>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0468"
+                               notAfter="0500"
+                               precision="medium"
+                               evidence="prosopography">Late fifth century A.D. (<rs type="criteria">prosopography</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="Theatre">Theatre</rs>.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum.</rs>
-                  </provenance>
+                     <rs type="monuList" key="Theatre">Theatre</rs>.</provenance>
+                  <provenance type="observed">Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,9 +92,10 @@ left of it (b). The other end was not inscribed.</layout>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-24" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -110,6 +105,22 @@ left of it (b). The other end was not inscribed.</layout>
          <change when="2003-07-17" who="Juan-Garcés">lemmatised</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="83_E_19.jpg">
+            <desc>Assembled (1983)</desc>
+         </graphic>
+         <graphic url="83_E_36.jpg">
+            <desc>Assembled (1983)</desc>
+         </graphic>
+         <graphic url="78_A_14.jpg">
+            <desc>Fragment (1978)</desc>
+         </graphic>
+         <graphic url="83_D_03A.jpg">
+            <desc>Fragment (1983)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

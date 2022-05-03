@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>The text is <rs type="execution" key="scalpro">cut</rs> on the top of the head, on the smooth area
+                        <layout>The text is <rs type="execution" ref="scalpro">cut</rs> on the top of the head, on the smooth area
 immediately behind the ridge of curly hair crowning the face, to be
 read from the front.</layout>
                      </layoutDesc>
@@ -56,17 +53,14 @@ line.</handNote>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0301" notAfter="0500" precision="medium">Fourth to fifth centuries A.D. (<rs type="criteria">content</rs>, <rs type="criteria">location</rs>).</origDate>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0301"
+                               notAfter="0500"
+                               precision="medium"
+                               evidence="content location">Fourth to fifth centuries A.D. (<rs type="criteria">content</rs>, <rs type="criteria">location</rs>).</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">No details; in <rs type="monuList">collection</rs>.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1988">
-                     <rs type="lastLocation">Musée du Cinquentenaire, Brussels (1988)</rs>
-                  </provenance>
+                  <provenance type="found">No details; in <rs type="monuList">collection</rs>.</provenance>
+                  <provenance type="observed" when="1988">Musée du Cinquentenaire, Brussels (1988)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -101,9 +95,11 @@ line.</handNote>
                </term>
             </keywords>
          </textClass>
+         <creation>Publications; Description, photograph and squeeze provided by Professor
+J.-C. Balty.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-02-27" who="#CMR">checked; image refs.</change>
@@ -113,6 +109,13 @@ line.</handNote>
          <change when="2003-04-30" who="Juan-Garcés">tagged Greek; tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="Bruxelles01.jpg">
+            <desc>Detail (1988)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

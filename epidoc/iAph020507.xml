@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>68.262</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs>  on the moulding.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs>  on the moulding.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,18 +49,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown, but apparently from an unlocated gymnasium.</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0100" precision="medium"> Probably first century A.D. (<rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Unknown, but apparently from an unlocated gymnasium.</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0100"
+                               precision="medium"
+                               evidence="lettering"> Probably first century A.D. (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found" when="1968">
-                     <rs type="found">
-                        <rs type="monuList">Bouleuterion/Odeon, West area</rs>: W. Odeon, Tr. II, str. III (1968)</rs>
-                  </provenance>
-                  <provenance type="observed" when="1978">
-                     <rs type="lastLocation">Museum (1978)</rs>
-                  </provenance>
+                     <rs type="monuList">Bouleuterion/Odeon, West area</rs>: W. Odeon, Tr. II, str. III (1968)</provenance>
+                  <provenance type="observed" when="1978">Museum (1978)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,14 +90,22 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-01" who="#GB">DONE</change>
          <change when="2005-05-24" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_F_33.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

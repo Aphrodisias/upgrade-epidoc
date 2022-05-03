@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -50,18 +47,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">Second to third centuries A.D. (<rs type="criteria">lettering</rs>, <rs type="criteria">prosopography</rs>).</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering prosopography">Second to third centuries A.D. (<rs type="criteria">lettering</rs>, <rs type="criteria">prosopography</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: re-used on the north side of the Byzantine chancel-barrier, third base from east.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1978">
-                     <rs type="lastLocation">Findspot; small fragment in Museum (1978).</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: re-used on the north side of the Byzantine chancel-barrier, third base from east.</provenance>
+                  <provenance type="observed" when="1978">Findspot; small fragment in Museum (1978).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -93,13 +87,39 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds); Deering notebook.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_E_10A.jpg">
+            <desc>a. 1-18 (1978)</desc>
+         </graphic>
+         <graphic url="77_A_24.jpg">
+            <desc>a. 18-26 (1977)</desc>
+         </graphic>
+         <graphic url="JMR_1_1968_076.jpg">
+            <desc>a. 1-26 (1968)</desc>
+         </graphic>
+         <graphic url="JMR_1_1968_067.jpg">
+            <desc>a. 1-26, with face b (1968)</desc>
+         </graphic>
+         <graphic url="77_BB_26.jpg">
+            <desc>a. fragment (1977)</desc>
+         </graphic>
+         <graphic url="76_J_24A.jpg">
+            <desc>Face b. (1976)</desc>
+         </graphic>
+         <graphic url="Deering_05v.jpg">
+            <desc>Face b: Deering notebook 5v</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

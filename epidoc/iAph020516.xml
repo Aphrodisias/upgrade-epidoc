@@ -29,9 +29,6 @@
                   <idno>65.357</idno>
                   <idno>67.199</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -51,18 +48,12 @@ Inscribed on two adjacent faces (ll. 1-4 on a., 5-7 on  b) with a text that runs
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0800"> First century A.D. or later (<rs type="criteria">nomenclature</rs>).</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0800" evidence="nomenclature"> First century A.D. or later (<rs type="criteria">nomenclature</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Bouleuterion/Odeon, West area</rs>: a. 'MAB 13, Tr. 2, Str. 1'; b. 'S.W.B.P.1, Str. 1'.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1977">
-                     <rs type="lastLocation">Museum (1977)</rs>
-                  </provenance>
+                     <rs type="monuList">Bouleuterion/Odeon, West area</rs>: a. 'MAB 13, Tr. 2, Str. 1'; b. 'S.W.B.P.1, Str. 1'.</provenance>
+                  <provenance type="observed" when="1977">Museum (1977)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,13 +91,24 @@ Inscribed on two adjacent faces (ll. 1-4 on a., 5-7 on  b) with a text that runs
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-01-04" who="#GB">Summarised in EpiDoc form</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_F_09.jpg">
+            <desc>Side a.</desc>
+         </graphic>
+         <graphic url="77_F_10.jpg">
+            <desc>Side b.</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

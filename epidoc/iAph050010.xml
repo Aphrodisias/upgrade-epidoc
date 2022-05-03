@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>i. <rs type="execution" key="scalpro">Inscribed</rs> on the front panel; the text must have begun on a crowning feature now lost. ii. On the opposite face, upside down to i., is a gameboard (type 3Rows.4, <height unit="metre">0.47</height>  × <width unit="metre">0.97</width>, carefully cut, with circles <dim type="diameter">0.03</dim>, central <rs type="decoration">rosette</rs>s in circles <dim type="diameter">0.085</dim>); the text is on the lower moulding, which is now broken away.</layout>
+                        <layout>i. <rs type="execution" ref="scalpro">Inscribed</rs> on the front panel; the text must have begun on a crowning feature now lost. ii. On the opposite face, upside down to i., is a gameboard (type 3Rows.4, <height unit="metre">0.47</height>  × <width unit="metre">0.97</width>, carefully cut, with circles <dim type="diameter">0.03</dim>, central <rs type="decoration">rosette</rs>s in circles <dim type="diameter">0.085</dim>); the text is on the lower moulding, which is now broken away.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,18 +48,15 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList" key="HadrBath" cert="low">Hadrianic Baths</rs>.</rs>
-                     </origPlace>
-                     <origDate notBefore="0468" notAfter="0600" precision="medium">i. Probably       late second to third centuries A.D. (<rs type="criteria">lettering</rs>); ii. Late fifth/sixth century (<rs type="criteria">titulature</rs>).</origDate>
+                        <rs type="monuList" key="HadrBath" cert="low">Hadrianic Baths</rs>.</origPlace>
+                     <origDate notBefore="0468"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="lettering titulature">i. Probably       late second to third centuries A.D. (<rs type="criteria">lettering</rs>); ii. Late fifth/sixth century (<rs type="criteria">titulature</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>: at the northern entrance; 'Thermes, porte d'accès côté du Temple.  Dégagé par les travaux' (Reinach)</rs>
-                  </provenance>
-                  <provenance type="observed" when="1993">
-                     <rs type="lastLocation">Museum (1993)</rs>
-                  </provenance>
+                     <rs type="monuList" key="HadrBath">Hadrianic Baths</rs>: at the northern entrance; 'Thermes, porte d'accès côté du Temple.  Dégagé par les travaux' (Reinach)</provenance>
+                  <provenance type="observed" when="1993">Museum (1993)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,9 +92,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds, Roueché); Gaudin's squeeze; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-11" who="Charlotte-Tupman">tidied</change>
          <change when="2005-06-06" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
@@ -112,6 +107,25 @@
          <change when="2003-07-17" who="Juan-Garcés">lemmatised</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="80_G_11.jpg">
+            <desc> Face i. (1980)</desc>
+         </graphic>
+         <graphic url="80_G_27.jpg">
+            <desc>Face i. (1980)</desc>
+         </graphic>
+         <graphic url="NY_93_76_01.jpg">
+            <desc>Face i (1993)</desc>
+         </graphic>
+         <graphic url="91_E_14A.jpg">
+            <desc>Face ii. main block (1991)</desc>
+         </graphic>
+         <graphic url="77_U_15.jpg">
+            <desc>Face ii. fragment (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

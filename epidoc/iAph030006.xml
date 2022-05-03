@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -50,18 +47,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot</rs>
-                     </origPlace>
-                     <origDate notBefore="0368" notAfter="0400" precision="medium">Later fourth century (<rs type="criteria">titulature</rs>, <rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0368"
+                               notAfter="0400"
+                               precision="medium"
+                               evidence="titulature lettering">Later fourth century (<rs type="criteria">titulature</rs>, <rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">North Agora</rs>; south portico on the eighth column (counted from the east) '<foreign xml:lang="de">der Rest der 8. Säule</foreign>' (Kubitschek). .</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">This remnant has now disappeared, probably into the nearby water channel, which is lined with column fragments</rs>
-                  </provenance>
+                     <rs type="monuList">North Agora</rs>; south portico on the eighth column (counted from the east) '<foreign xml:lang="de">der Rest der 8. Säule</foreign>' (Kubitschek). .</provenance>
+                  <provenance type="observed">This remnant has now disappeared, probably into the nearby water channel, which is lined with column fragments</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,9 +89,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Publication.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-22" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-01-23" who="#CMR">tidied; image refs</change>
@@ -109,6 +104,16 @@
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="85_A_35.jpg">
+            <desc>North Agora, south portico: view (1985)</desc>
+         </graphic>
+         <graphic url="K_III_38.jpg">
+            <desc>Kubitschek notebook 3, page 38</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

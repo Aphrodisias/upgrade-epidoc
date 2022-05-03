@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on all three fasciae, two lines on the upper fascia and one each on the lower two.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on all three fasciae, two lines on the upper fascia and one each on the lower two.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,14 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Hadrianic Baths, East Court</rs> over the north door</rs>
-                     </origPlace>
-                     <origDate notBefore="0117" notAfter="0138">
+                        <rs type="monuList">Hadrianic Baths, East Court</rs> over the north door</origPlace>
+                     <origDate notBefore="0117" notAfter="0138" evidence="reign">
 A.D. 117-138 (<rs type="criteria">reign</rs>)
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Hadrianic Baths, East Court</rs>: fallen at the north doorway, connecting the Galerie de l'Est with the south portico of the court.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Hadrianic Baths, East Court</rs>: fallen at the north doorway, connecting the Galerie de l'Est with the south portico of the court.</provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -103,13 +94,36 @@ A.D. 117-138 (<rs type="criteria">reign</rs>)
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcriptions (Drew-Bear, Reynolds); notebook.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="85_D_20.jpg">
+            <desc>Right hand fragment (1985)</desc>
+         </graphic>
+         <graphic url="85_D_21.jpg">
+            <desc>Right hand fragment, left end (1985)</desc>
+         </graphic>
+         <graphic url="85_D_22.jpg">
+            <desc>Right hand fragment, centre (1985)</desc>
+         </graphic>
+         <graphic url="85_D_23.jpg">
+            <desc>Right hand fragment, right end (1985)</desc>
+         </graphic>
+         <graphic url="85_E_01.jpg">
+            <desc>Left hand fragment (1985)</desc>
+         </graphic>
+         <graphic url="Boulanger_A_02.jpg">
+            <desc>Boulanger notebook A, page 3: Fair copy</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

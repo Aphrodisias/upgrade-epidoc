@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> (l. 1) on the upper moulding, and (ll. 2-5) on the face, above a relief of a <rs type="decoration">swag</rs> with a <rs type="decoration">pendant object</rs>.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> (l. 1) on the upper moulding, and (ll. 2-5) on the face, above a relief of a <rs type="decoration">swag</rs> with a <rs type="decoration">pendant object</rs>.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,19 +49,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0300" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="terminology">
 First to third centuries A.D. (<rs type="criteria">terminology</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Necropolis, North-east</rs>: Turkish cemetery: re-used in the east wall</rs>
-                  </provenance>
-                  <provenance type="observed" when="1976">
-                     <rs type="lastLocation">findspot (1976).</rs>
-                  </provenance>
+                     <rs type="monuList">Necropolis, North-east</rs>: Turkish cemetery: re-used in the east wall</provenance>
+                  <provenance type="observed" when="1976">findspot (1976).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,13 +91,21 @@ First to third centuries A.D. (<rs type="criteria">terminology</rs>)</origDate>
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); publications</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-24" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="76_E_03.jpg">
+            <desc>Face (1976)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

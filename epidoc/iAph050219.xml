@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -50,19 +47,16 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList" key="HadrBath" cert="low">Hadrianic Baths, East Court</rs>: architrave of south portico.</rs>
-                     </origPlace>
-                     <origDate notBefore="0401" notAfter="0500" precision="medium">Fifth century A.D. (<rs type="criteria">lettering</rs>).</origDate>
+                        <rs type="monuList" key="HadrBath" cert="low">Hadrianic Baths, East Court</rs>: architrave of south portico.</origPlace>
+                     <origDate notBefore="0401"
+                               notAfter="0500"
+                               precision="medium"
+                               evidence="lettering">Fifth century A.D. (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="HadrBath">Hadrianic Baths, East Court</rs>: a: '<foreign xml:lang="fr">Portique du S<ex>ud</ex>, 1e entrecolonnement', b, b.i,and c: 'blocs au N<ex>ord</ex> du portique S<ex>ud</ex>
-                        </foreign>' (Boulanger).</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Lying with the material from the French excavations in the East Court.</rs>
-                  </provenance>
+                     <rs type="monuList" key="HadrBath">Hadrianic Baths, East Court</rs>: a: '<foreign xml:lang="fr">Portique du S<ex>ud</ex>, 1e entrecolonnement', b, b.i,and c: 'blocs au N<ex>ord</ex> du portique S<ex>ud</ex>
+                     </foreign>' (Boulanger).</provenance>
+                  <provenance type="observed">Lying with the material from the French excavations in the East Court.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,9 +89,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcriptions (Boulanger, Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-08-07" who="Eleonora-Litta">tidied expan</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-24" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -107,6 +102,28 @@
          <change when="2003-07-17" who="Juan-Garcés">lemmatised</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_W_25.jpg">
+            <desc>Fragment a (1973)</desc>
+         </graphic>
+         <graphic url="88_F_31.jpg">
+            <desc>c, left fragment (1988)</desc>
+         </graphic>
+         <graphic url="89_A_08A.jpg">
+            <desc>Fragment d (1989)</desc>
+         </graphic>
+         <graphic url="89_A_09A.jpg">
+            <desc>Fragment e (1989)</desc>
+         </graphic>
+         <graphic url="89_A_11A.jpg">
+            <desc>d and e together (1989)</desc>
+         </graphic>
+         <graphic url="Boulanger_A_09.jpg">
+            <desc>a, b and c: Transcription by Boulanger, notebook A, page 9</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

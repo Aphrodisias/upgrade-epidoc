@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,19 +49,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0014" notAfter="0037">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0014" notAfter="0037" evidence="reign">
 14-37 A.D. (<rs type="criteria">reign</rs>)
 </origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">Reused in the south east stretch of the <rs type="monuList">Walls, South-east</rs>, south of the South-east gate, near <ref type="inscription" n="1282" target="120515.xml"/> (MAMA 447), <ref type="inscription" n="1515" target="120510.xml"/> (430), <ref type="inscription" n="209" target="120516.xml"/> (599).</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">in situ</rs>
-                  </provenance>
+                  <provenance type="found">Reused in the south east stretch of the <rs type="monuList">Walls, South-east</rs>, south of the South-east gate, near <ref type="inscription" n="1282" target="120515.xml"/> (MAMA 447), <ref type="inscription" n="1515" target="120510.xml"/> (430), <ref type="inscription" n="209" target="120516.xml"/> (599).</provenance>
+                  <provenance type="observed">in situ</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,12 +90,23 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds);  Gaudin's squeeze; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_X_12A.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="83_D_09A.jpg">
+            <desc>Face (1983)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

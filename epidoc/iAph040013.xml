@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -53,21 +50,15 @@ upright of a cross. They are tall: i, <height unit="metre">0.12</height>; ii, <h
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot</rs>
-                     </origPlace>
+                     <origPlace>Findspot</origPlace>
                      <origDate/>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">South Agora</rs>, north portico: on the south face of three
+                     <rs type="monuList">South Agora</rs>, north portico: on the south face of three
 adjacent column bases. There is a gap in the columns of the north
 portico, but the westernmost of these texts (i) appears to be on the
-twentieth column base from the west (not twelfth, as in ALA) . .</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+twentieth column base from the west (not twelfth, as in ALA) . .</provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,9 +90,10 @@ twentieth column base from the west (not twelfth, as in ALA) . .</rs>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-03-08" who="#CMR">checked; image refs.</change>
@@ -112,6 +104,31 @@ twentieth column base from the west (not twelfth, as in ALA) . .</rs>
          <change when="2003-04-30" who="Juan-Garcés">tagged Greek; tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="aphslide-42.jpg">
+            <desc>View of South Agora, looking north-west</desc>
+         </graphic>
+         <graphic url="85_G_36.jpg">
+            <desc>i: Face (1985)</desc>
+         </graphic>
+         <graphic url="88_A_34A.jpg">
+            <desc>i: Face (1988)</desc>
+         </graphic>
+         <graphic url="2002_A_35.jpg">
+            <desc>ii: Block and paving (2002)</desc>
+         </graphic>
+         <graphic url="85_G_34.jpg">
+            <desc>iii: Face (1985)</desc>
+         </graphic>
+         <graphic url="monog-ala186i.jpg">
+            <desc>Drawing of Monogram i</desc>
+         </graphic>
+         <graphic url="monog-ala186iii.jpg">
+            <desc>Drawing of Monogram iii</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

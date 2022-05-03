@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -55,18 +52,12 @@ erased.</handNote>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot.</rs>
-                     </origPlace>
-                     <origDate notBefore="0300" notAfter="0500">Third-fourth centuries A.D. (<rs type="criteria">context</rs>)</origDate>
+                     <origPlace>Findspot.</origPlace>
+                     <origDate notBefore="0300" notAfter="0500" evidence="context">Third-fourth centuries A.D. (<rs type="criteria">context</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">South Agora</rs>: north portico: third column from west: .</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot.</rs>
-                  </provenance>
+                     <rs type="monuList">South Agora</rs>: north portico: third column from west: .</provenance>
+                  <provenance type="observed">Findspot.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,9 +90,10 @@ erased.</handNote>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-03-08" who="#CMR">checked; image refs.</change>
@@ -112,6 +104,25 @@ erased.</handNote>
          <change when="2003-04-30" who="Juan-Garcés">tagged Greek; tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="aphslide-42.jpg">
+            <desc>View of South Agora, looking north-west</desc>
+         </graphic>
+         <graphic url="85_B_27.jpg">
+            <desc>Column (1985)</desc>
+         </graphic>
+         <graphic url="85_B_24.jpg">
+            <desc>i: Face (1985)</desc>
+         </graphic>
+         <graphic url="85_B_25.jpg">
+            <desc>ii: Face (1985)</desc>
+         </graphic>
+         <graphic url="85_B_26.jpg">
+            <desc>Scattered letters (1985)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

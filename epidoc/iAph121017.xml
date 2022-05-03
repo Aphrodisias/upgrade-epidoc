@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>71.48</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -53,19 +50,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown, necropolis</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0212" precision="medium"> Second to third centuries A.D. (<rs type="criteria">lettering</rs>), but before the edict of Caracalla (212).</origDate>
+                     <origPlace>Unknown, necropolis</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0212"
+                               precision="medium"
+                               evidence="lettering"> Second to third centuries A.D. (<rs type="criteria">lettering</rs>), but before the edict of Caracalla (212).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, West Gate</rs>: 'Traveaux neufs: Porte Ouest' (Gaudin); found by the NYU expedition during excavation of the  <rs type="monuList">Theatre</rs>
-                     </rs>
+                     <rs type="monuList">Walls, West Gate</rs>: 'Traveaux neufs: Porte Ouest' (Gaudin); found by the NYU expedition during excavation of the  <rs type="monuList">Theatre</rs>
                   </provenance>
-                  <provenance type="observed" when="1977">
-                     <rs type="lastLocation">Museum (1977)</rs>
-                  </provenance>
+                  <provenance type="observed" when="1977">Museum (1977)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,13 +91,24 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Publication; Gaudin's squeeze (notebook 41); Preliminary transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-07-28" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_T_34A.jpg">
+            <desc>Face (1977)</desc>
+         </graphic>
+         <graphic url="gaudin_0001.jpg">
+            <desc>Gaudin squeeze 118</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

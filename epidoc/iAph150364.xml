@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> within panel and on upper and lower mouldings (ll.1, 34-5). The opening lines must have been inscribed on a crowning feature.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> within panel and on upper and lower mouldings (ll.1, 34-5). The opening lines must have been inscribed on a crowning feature.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,19 +47,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="230" notAfter="240">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="230" notAfter="240" evidence="contests">
 c. 230-240 (<rs type="criteria">contests</rs>)
 </origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">Unknown</rs>
-                  </provenance>
-                  <provenance type="observed" when="1842">
-                     <rs type="lastLocation">Findspot (1842)</rs>
-                  </provenance>
+                  <provenance type="found">Unknown</provenance>
+                  <provenance type="observed" when="1842">Findspot (1842)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -104,14 +95,18 @@ c. 230-240 (<rs type="criteria">contests</rs>)
                </term>
             </keywords>
          </textClass>
+         <creation>Publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-17" who="Charlotte-Tupman">hand tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

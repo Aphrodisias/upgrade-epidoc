@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>74.48</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on two upper fasciae (lines 1 and 2) and on the face below. Well-preserved; some chipping on the moulding.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on two upper fasciae (lines 1 and 2) and on the face below. Well-preserved; some chipping on the moulding.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -54,20 +51,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0070" notAfter="0200">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0070" notAfter="0200" evidence="lettering nomenclature">
 Late first or second century
 (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Theatre</rs>: South Post Scaenam</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Theatre</rs>: South Post Scaenam</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -77,14 +68,22 @@ Late first or second century
             <language ident="en">English</language>
             <language ident="grc">Ancient Greek</language>
          </langUsage>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-05" who="cmr">DONE</change>
          <change when="2007-04-23" who="GB">hand tidied</change>
          <change when="2007-04-19" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="81_G_09.jpg">
+            <desc>Face (1981)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

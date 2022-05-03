@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="littera scarifata">Incised</rs> on the top face; while a. may be complete on its stone, b. is certainly not, and must originally have extended onto flanking panels.</layout>
+                           <rs type="execution" ref="littera scarifata">Incised</rs> on the top face; while a. may be complete on its stone, b. is certainly not, and must originally have extended onto flanking panels.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,18 +49,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation" reg="findspot">Findspot</rs>
-                     </origPlace>
-                     <origDate notBefore="0201" notAfter="0800">Third century A.D. or later (<rs type="criteria">nomenclature</rs>).</origDate>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0201" notAfter="0800" evidence="nomenclature">Third century A.D. or later (<rs type="criteria">nomenclature</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Necropolis, North-east</rs>: cut on threshhold of  building adjacent to "Extra-mural nymphaeum"</rs>
-                  </provenance>
-                  <provenance type="observed" when="1981">
-                     <rs type="lastLocation" reg="findspot">Findspot  (1981)</rs>
-                  </provenance>
+                     <rs type="monuList">Necropolis, North-east</rs>: cut on threshhold of  building adjacent to "Extra-mural nymphaeum"</provenance>
+                  <provenance type="observed" when="1981">Findspot  (1981)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,13 +89,27 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-01-04" who="#GB">Summarised in EpiDoc form</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="JMR_1_1968_01.jpg">
+            <desc>Stone (1968)</desc>
+         </graphic>
+         <graphic url="81_F_09.jpg">
+            <desc>Squeeze, i. a. (1981)</desc>
+         </graphic>
+         <graphic url="81_F_10.jpg">
+            <desc>Squeeze, i. b. (1981)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

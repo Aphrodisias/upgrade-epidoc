@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>79.25</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face; the text must have begun on the upper blocks of the monument from which these blocks came.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face; the text must have begun on the upper blocks of the monument from which these blocks came.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,18 +47,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0100" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0100"
+                               precision="medium"
+                               evidence="lettering">
 First century A.D. (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found"> One fragment in <rs type="monuList">City, Village</rs>: New Museum excavations; one fragment Stray.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1980">
-                     <rs type="lastLocation">Museum (1980)</rs>
-                  </provenance>
+                  <provenance type="found"> One fragment in <rs type="monuList">City, Village</rs>: New Museum excavations; one fragment Stray.</provenance>
+                  <provenance type="observed" when="1980">Museum (1980)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,14 +90,28 @@ First century A.D. (<rs type="criteria">lettering</rs>).</origDate>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcriptions (Reynolds, Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-24" who="Charlotte-Tupman">DONE</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_A_18.jpg">
+            <desc>Left fragment (1978)</desc>
+         </graphic>
+         <graphic url="80_F_28.jpg">
+            <desc>Together (1980)</desc>
+         </graphic>
+         <graphic url="80_H_31.jpg">
+            <desc>Together (1980)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

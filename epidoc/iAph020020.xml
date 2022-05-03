@@ -30,9 +30,6 @@
                   <idno>62.489</idno>
                   <idno>63.72</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -44,7 +41,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the front panel; the last letter of l. 11 cut on moulding.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the front panel; the last letter of l. 11 cut on moulding.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -54,18 +51,15 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Bouleuterion/Odeon</rs>.</rs>
-                     </origPlace>
-                     <origDate notBefore="0468" notAfter="0500" precision="medium">Late fifth century (<rs type="criteria">prosopography</rs>).</origDate>
+                        <rs type="monuList">Bouleuterion/Odeon</rs>.</origPlace>
+                     <origDate notBefore="0468"
+                               notAfter="0500"
+                               precision="medium"
+                               evidence="prosopography">Late fifth century (<rs type="criteria">prosopography</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="Boul">Bouleuterion/Odeon</rs>: in the area of the stage; where the accompanying statue was also found.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">One fragment in the back corridor of the Bouleuterion/Odeon; five in the Museum. Statue in the Museum.</rs>
-                  </provenance>
+                     <rs type="monuList" key="Boul">Bouleuterion/Odeon</rs>: in the area of the stage; where the accompanying statue was also found.</provenance>
+                  <provenance type="observed">One fragment in the back corridor of the Bouleuterion/Odeon; five in the Museum. Statue in the Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,9 +94,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-24" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -112,6 +107,41 @@
          <change when="2003-07-17" who="Juan-Garcés">lemmatised</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="72_D_30A.jpg">
+            <desc>Left side fragments (1972)</desc>
+         </graphic>
+         <graphic url="rosen031.jpg">
+            <desc>Centre fragments (1966)</desc>
+         </graphic>
+         <graphic url="76_J_26A.jpg">
+            <desc>Right side and one left side fragments (1976)</desc>
+         </graphic>
+         <graphic url="rosen035.jpg">
+            <desc>Right side (1966)</desc>
+         </graphic>
+         <graphic url="78_F_04.jpg">
+            <desc>Lower right corner (1978)</desc>
+         </graphic>
+         <graphic url="76_J_12A.jpg">
+            <desc>Fragment, lines 2-4 (1976)</desc>
+         </graphic>
+         <graphic url="77_L_15A.jpg">
+            <desc>Fragment, lines 7-10 (1977)</desc>
+         </graphic>
+         <graphic url="72_C_15.jpg">
+            <desc>Detail, lines 11-13 (1972)</desc>
+         </graphic>
+         <graphic url="77_L_14A.jpg">
+            <desc>Fragment, lines 12-13 (1977)</desc>
+         </graphic>
+         <graphic url="smith-ala56.jpg">
+            <desc>Statue and base: Drawing: K.Gorkay, from Smith (1999)
+</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

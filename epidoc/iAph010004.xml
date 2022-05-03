@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -53,20 +50,17 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Temple/Church</rs> findspot.</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0033" precision="medium">
+                        <rs type="monuList">Temple/Church</rs> findspot.</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0033"
+                               precision="medium"
+                               evidence="lettering context prosopography">
 Early first century A.D.
 (<rs type="criteria">lettering</rs>, <rs type="criteria">context</rs>, <rs type="criteria">prosopography</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: 7th column from west end of north colonnade</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: 7th column from west end of north colonnade</provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -101,13 +95,30 @@ Early first century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); publications; Gaudin's squeeze</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-19" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_P_22A.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="AG_MAMA437III.jpg">
+            <desc>Face (2005)</desc>
+         </graphic>
+         <graphic url="76_C_18A.jpg">
+            <desc>Column (1976)</desc>
+         </graphic>
+         <graphic url="Deering_08.jpg">
+            <desc>Deering notebook 8</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

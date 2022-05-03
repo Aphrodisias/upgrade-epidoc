@@ -30,9 +30,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>The first is <rs type="execution" key="scalpro">inscribed</rs> on both fasciae (ll.1 and 2 on upper, l. 3 on lower), the second on the upper one only; the texts have been erased at the left end of ll. 1 and 2, and are interrupted by a bad flaw in the stone.</layout>
+                        <layout>The first is <rs type="execution" ref="scalpro">inscribed</rs> on both fasciae (ll.1 and 2 on upper, l. 3 on lower), the second on the upper one only; the texts have been erased at the left end of ll. 1 and 2, and are interrupted by a bad flaw in the stone.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,21 +48,18 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0150" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0150"
+                               precision="medium"
+                               evidence="lettering">
  Probably first half of second century A.D.
 (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, Village</rs>  the first in New Museum excavation area, 
-the second in the area of museum offices</rs>
-                  </provenance>
-                  <provenance type="observed" when="1983">
-                     <rs type="lastLocation">Museum (1983)</rs>
-                  </provenance>
+                     <rs type="monuList">City, Village</rs>  the first in New Museum excavation area, 
+the second in the area of museum offices</provenance>
+                  <provenance type="observed" when="1983">Museum (1983)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,13 +91,33 @@ the second in the area of museum offices</rs>
                </term>
             </keywords>
          </textClass>
+         <creation>Τranscription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-30" who="Charlotte-Tupman">DONE</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_R_07A.jpg">
+            <desc>Block 1, left part (1977)</desc>
+         </graphic>
+         <graphic url="77_R_08A.jpg">
+            <desc>Block 1, right part (1977)</desc>
+         </graphic>
+         <graphic url="78_L_10.jpg">
+            <desc>Block 1, face (1978)</desc>
+         </graphic>
+         <graphic url="77_BB_08.jpg">
+            <desc>Block 2, face (1977)</desc>
+         </graphic>
+         <graphic url="83_C_17.jpg">
+            <desc>Block 2, face (1983)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

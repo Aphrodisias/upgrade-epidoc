@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -48,18 +45,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">...</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">Second to third centuries A.D. (<rs type="criteria">lettering</rs>)</origDate>
+                     <origPlace>...</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">Second to third centuries A.D. (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, South-east</rs>: Seen by Kubitschek, 'Southeast wall'; found again lying in the tumble on the south side of the south wall, east of the excavated stretch.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1980">
-                     <rs type="lastLocation">Findspot (1980)</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, South-east</rs>: Seen by Kubitschek, 'Southeast wall'; found again lying in the tumble on the south side of the south wall, east of the excavated stretch.</provenance>
+                  <provenance type="observed" when="1980">Findspot (1980)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -91,13 +85,27 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); squeeze; notebooks.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="80_D_21.jpg">
+            <desc>Face (1980)</desc>
+         </graphic>
+         <graphic url="80_D_22.jpg">
+            <desc>Face (1980)</desc>
+         </graphic>
+         <graphic url="K_III_34.jpg">
+            <desc>Kubitschek notebook, III, 34</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

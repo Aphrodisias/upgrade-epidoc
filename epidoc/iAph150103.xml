@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face, which has been carefully smoothed, but worked with a rasp on the back</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face, which has been carefully smoothed, but worked with a rasp on the back</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,19 +47,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0301" notAfter="0500">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0301" notAfter="0500" evidence="lettering">
 Perhaps 4th-5th century (<rs type="criteria">lettering</rs>)
 </origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found"> Seen in the <rs type="monuList">collection</rs> of Herr Max Huck, at Smyrna, 'Aus Aphrodisias in Karien' (Wilhelm)</rs>
-                  </provenance>
-                  <provenance type="observed" when="1891">
-                     <rs type="lastLocation">Smyrna (1891)</rs>
-                  </provenance>
+                  <provenance type="found"> Seen in the <rs type="monuList">collection</rs> of Herr Max Huck, at Smyrna, 'Aus Aphrodisias in Karien' (Wilhelm)</provenance>
+                  <provenance type="observed" when="1891">Smyrna (1891)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -94,13 +85,17 @@ Perhaps 4th-5th century (<rs type="criteria">lettering</rs>)
                </term>
             </keywords>
          </textClass>
+         <creation>Publication.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

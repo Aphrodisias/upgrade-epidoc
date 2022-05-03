@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>74.262</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -44,7 +41,7 @@ slightly concave (together, <height unit="metre">1.35</height> × <width unit="m
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -54,18 +51,15 @@ slightly concave (together, <height unit="metre">1.35</height> × <width unit="m
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0326" notAfter="0350" precision="medium">Second quarter of the fourth century (<rs type="criteria">titulature</rs>).</origDate>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0326"
+                               notAfter="0350"
+                               precision="medium"
+                               evidence="titulature">Second quarter of the fourth century (<rs type="criteria">titulature</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, Village</rs>: in excavation of Museum area.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1994">
-                     <rs type="lastLocation">Museum (1994).</rs>
-                  </provenance>
+                     <rs type="monuList">City, Village</rs>: in excavation of Museum area.</provenance>
+                  <provenance type="observed" when="1994">Museum (1994).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -105,9 +99,10 @@ slightly concave (together, <height unit="metre">1.35</height> × <width unit="m
                </term>
             </keywords>
          </textClass>
+         <creation>Transcriptions (Reynolds, Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Converted from ALA to InsAph style</change>
          <change when="2003-11-04" who="John-Lavagnino">Converted beta code to Unicode</change>
          <change when="2003-06-21" who="#CMR">tagged, tidied and corrected</change>
@@ -115,6 +110,25 @@ slightly concave (together, <height unit="metre">1.35</height> × <width unit="m
          <change when="2003-05-27" who="#GB">Typed and marked-up Greek</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="80_C_05.jpg">
+            <desc>Left part (1980)</desc>
+         </graphic>
+         <graphic url="80_G_23.jpg">
+            <desc>Left part (1980)</desc>
+         </graphic>
+         <graphic url="80_C_06.jpg">
+            <desc>Right part (1980)</desc>
+         </graphic>
+         <graphic url="81_G_10.jpg">
+            <desc>Assembled (1981)</desc>
+         </graphic>
+         <graphic url="94_C_36.jpg">
+            <desc>Assembled (1994)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

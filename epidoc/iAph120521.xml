@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on one face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on one face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,18 +49,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">Second to third centuries A.D. (<rs type="criteria">lettering</rs>); perhaps third century in view of the wife's <term xml:lang="la">nomen</term>.</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">Second to third centuries A.D. (<rs type="criteria">lettering</rs>); perhaps third century in view of the wife's <term xml:lang="la">nomen</term>.</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, South-east</rs>: seen complete re-used in the south-east stretch in 1705, but a fragment  was found in <rs type="monuList">Karaçasu</rs> in 1840.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1840">
-                     <rs type="lastLocation">Walls (1934) and Karaçasu (1840).</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, South-east</rs>: seen complete re-used in the south-east stretch in 1705, but a fragment  was found in <rs type="monuList">Karaçasu</rs> in 1840.</provenance>
+                  <provenance type="observed" when="1840">Walls (1934) and Karaçasu (1840).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,15 +94,23 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds); publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-06" who="#GB">DONE</change>
          <change when="2007-01-19" who="Charlotte-Tupman">hand tidied</change>
          <change when="2005-02-16" who="Artemis-Papakostouli">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="Wood_14_47.jpg">
+            <desc>i: Wood notebook 14, page 47</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

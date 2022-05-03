@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in 3 lines on the fascia. The text began on a third, missing, block to the left.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in 3 lines on the fascia. The text began on a third, missing, block to the left.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,20 +50,17 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Theatre</rs> proskenion frieze. Inscribed on the blocks which make up the cornice, of the Doric order, above <ref type="inscription" n="536" target="080001.xml"/>,  the inscription of Zoilos, across the back of the Theatre stage. The blocks have simple moulding above, supporting water spouts in the form of lions' heads; the underside has a decoration of mutules. </rs>
-                     </origPlace>
-                     <origDate notBefore="0034" notAfter="0100" precision="medium">
+                        <rs type="monuList">Theatre</rs> proskenion frieze. Inscribed on the blocks which make up the cornice, of the Doric order, above <ref type="inscription" n="536" target="080001.xml"/>,  the inscription of Zoilos, across the back of the Theatre stage. The blocks have simple moulding above, supporting water spouts in the form of lions' heads; the underside has a decoration of mutules. </origPlace>
+                     <origDate notBefore="0034"
+                               notAfter="0100"
+                               precision="medium"
+                               evidence="prosopography lettering">
 Mid to late first century A.D.
  (<rs type="criteria">prosopography</rs>, <rs type="criteria">lettering</rs>) or a descendant.</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Theatre</rs>: stage area</rs>
-                  </provenance>
-                  <provenance type="observed" when="1989">
-                     <rs type="lastLocation">Findspot (1989), restored north of <ref type="iAph" target=".xml"/>, just south of porta regia.</rs>
-                  </provenance>
+                     <rs type="monuList">Theatre</rs>: stage area</provenance>
+                  <provenance type="observed" when="1989">Findspot (1989), restored north of <ref type="iAph" target=".xml"/>, just south of porta regia.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,15 +92,26 @@ Mid to late first century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-08-07" who="Eleonora-Litta">tidied expan</change>
          <change when="2007-04-17" who="Charlotte-Tupman">tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_Q_16A.jpg">
+            <desc>b (1973)</desc>
+         </graphic>
+         <graphic url="89_E_13A.jpg">
+            <desc>Assembled, in situ (1989)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

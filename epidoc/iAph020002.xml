@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -39,7 +36,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>The text was <rs type="execution" key="scalpro">inscribed</rs>, using a metal tool, after the insertion had been made, since the letters in l.1 allow for interruption by one of the clamps. This part of the surface was later scratched, apparently in preparation for a plaster or other coating.</layout>
+                        <layout>The text was <rs type="execution" ref="scalpro">inscribed</rs>, using a metal tool, after the insertion had been made, since the letters in l.1 allow for interruption by one of the clamps. This part of the surface was later scratched, apparently in preparation for a plaster or other coating.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -48,19 +45,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot </rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0400" precision="medium">
+                     <origPlace>Findspot </origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0400"
+                               precision="medium"
+                               evidence="lettering content">
  First to fourth centuries A.D. (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Bouleuterion/Odeon</rs> stage, paving at the front edge.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1985">
-                     <rs type="lastLocation">Findspot (1985)</rs>
-                  </provenance>
+                     <rs type="monuList">Bouleuterion/Odeon</rs> stage, paving at the front edge.</provenance>
+                  <provenance type="observed" when="1985">Findspot (1985)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -101,14 +95,22 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcriptions (Reynolds, Roueché)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-17" who="Charlotte-Tupman">tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="85_B_12.jpg">
+            <desc>Face (1985)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

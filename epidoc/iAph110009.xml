@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>87.378</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> at right edge of face; clearly part of a composite monument.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> at right edge of face; clearly part of a composite monument.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,19 +49,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0300" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">
 First to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, Village</rs>: stray find from demolished house near SW Sebasteion trench.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1988">
-                     <rs type="lastLocation">Museum (1988)</rs>
-                  </provenance>
+                     <rs type="monuList">City, Village</rs>: stray find from demolished house near SW Sebasteion trench.</provenance>
+                  <provenance type="observed" when="1988">Museum (1988)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,14 +90,22 @@ First to third centuries A.D. (<rs type="criteria">lettering</rs>).</origDate>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-03" who="GB">DONE</change>
          <change when="2007-03-20" who="Charlotte-Tupman">hand tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="88_B_33.jpg">
+            <desc>Face (1988)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

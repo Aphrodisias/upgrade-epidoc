@@ -30,9 +30,6 @@
                   <idno>71.478</idno>
                   <idno>71.1024</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in two lines on the fascia, which has an extra moulding above the text, only here.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in two lines on the fascia, which has an extra moulding above the text, only here.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,20 +50,17 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Theatre</rs> proskenion frieze. Inscribed on the blocks which make up the cornice, of the Doric order, above <ref type="inscription" n="536" target="080001.xml"/>,  the inscription of Zoilos, across the back of the Theatre stage. The blocks have simple moulding above, supporting water spouts in the form of lions' heads; the underside has a decoration of mutules.</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0200" precision="medium">
+                        <rs type="monuList">Theatre</rs> proskenion frieze. Inscribed on the blocks which make up the cornice, of the Doric order, above <ref type="inscription" n="536" target="080001.xml"/>,  the inscription of Zoilos, across the back of the Theatre stage. The blocks have simple moulding above, supporting water spouts in the form of lions' heads; the underside has a decoration of mutules.</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0200"
+                               precision="medium"
+                               evidence="lettering institutions">
 Second century A.D.
 (<rs type="criteria">lettering</rs>, <rs type="criteria">institutions</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Theatre</rs>: stage area</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot; Now restored on the tenth and eleventh blocks from the north</rs>
-                  </provenance>
+                     <rs type="monuList">Theatre</rs>: stage area</provenance>
+                  <provenance type="observed">Findspot; Now restored on the tenth and eleventh blocks from the north</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -101,14 +95,28 @@ Second century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds, Roueché)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-12" who="Charlotte-Tupman">tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="80_G_36.jpg">
+            <desc>a (1980)</desc>
+         </graphic>
+         <graphic url="73_Q_15A.jpg">
+            <desc>a and b (1973)</desc>
+         </graphic>
+         <graphic url="89_E_14A.jpg">
+            <desc>Assembled in situ (1989)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

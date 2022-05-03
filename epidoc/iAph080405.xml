@@ -29,9 +29,6 @@
                   <idno>77.136</idno>
                   <idno>76.112</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -52,18 +49,12 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>, west portico: A round plinth, on which this stone probably stood, is apparently in its original position, against the west portico, just south of <ref type="inscription" n="62" target="080410.xml"/> and<ref type="iAph" n="065" target=".xml"/>. .</rs>
-                     </origPlace>
-                     <origDate notBefore="0361" notAfter="0363">A.D. 361/363 (<rs type="criteria">reign</rs>)</origDate>
+                        <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>, west portico: A round plinth, on which this stone probably stood, is apparently in its original position, against the west portico, just south of <ref type="inscription" n="62" target="080410.xml"/> and<ref type="iAph" n="065" target=".xml"/>. .</origPlace>
+                     <origDate notBefore="0361" notAfter="0363" evidence="reign">A.D. 361/363 (<rs type="criteria">reign</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: re-used in the northern stretch of the seventh-century defence wall which blocks off the east end of the Theatre. </rs>
-                  </provenance>
-                  <provenance type="observed" when="1983">
-                     <rs type="lastLocation">Museum (1983).</rs>
-                  </provenance>
+                     <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: re-used in the northern stretch of the seventh-century defence wall which blocks off the east end of the Theatre. </provenance>
+                  <provenance type="observed" when="1983">Museum (1983).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -102,9 +93,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-16" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -119,6 +111,28 @@
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_Y_03.jpg">
+            <desc>Base capital (1977)</desc>
+         </graphic>
+         <graphic url="78_C_21.jpg">
+            <desc>Base shaft (1978)</desc>
+         </graphic>
+         <graphic url="80_F_09.jpg">
+            <desc>Base shaft (1980)</desc>
+         </graphic>
+         <graphic url="83_A_26.jpg">
+            <desc>Base shaft (1983)</desc>
+         </graphic>
+         <graphic url="78_C_22.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+         <graphic url="smith-ala20.jpg">
+            <desc>Statue and base: Drawing: K.Gorkay, from Smith (2001)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

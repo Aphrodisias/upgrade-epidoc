@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -49,21 +46,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0600">
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0001" notAfter="0600" evidence="context">
 First  to sixth century A.D.
 (<rs type="criteria">context</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Theatre</rs>: skene frons, fifth stage room from north, loose; the block originally formed part of the north wall of the doorway to Room 5, further in than <ref type="inscription" n="1754" target="080018.xml"/> and <ref type="inscription" n="1755" target="080019.xml"/>
-                     </rs>
+                     <rs type="monuList">Theatre</rs>: skene frons, fifth stage room from north, loose; the block originally formed part of the north wall of the doorway to Room 5, further in than <ref type="inscription" n="1754" target="080018.xml"/> and <ref type="inscription" n="1755" target="080019.xml"/>
                   </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -73,13 +64,24 @@ First  to sixth century A.D.
             <language ident="en">English</language>
             <language ident="grc">Ancient Greek</language>
          </langUsage>
+         <creation>Transcription (Reynolds, Roueché)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="83_D_29A.jpg">
+            <desc>ii and iii (1983)</desc>
+         </graphic>
+         <graphic url="83_D_33A.jpg">
+            <desc>ii and iii (1983)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

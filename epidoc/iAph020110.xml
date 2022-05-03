@@ -29,9 +29,6 @@ Septimus Severus; ii. Building inscription of Antonius Priskos</title>
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@ Septimus Severus; ii. Building inscription of Antonius Priskos</title>
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>i.  <rs type="execution" key="scalpro">inscribed</rs> on the face;  ii.  inscribed later on the underside.</layout>
+                        <layout>i.  <rs type="execution" ref="scalpro">inscribed</rs> on the face;  ii.  inscribed later on the underside.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,19 +48,15 @@ Septimus Severus; ii. Building inscription of Antonius Priskos</title>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Bouleuterion/Odeon.</rs>
-                     </origPlace>
-                     <origDate notBefore="0388" notAfter="0392">i. A.D. 198-210
+                     <origPlace>Bouleuterion/Odeon.</origPlace>
+                     <origDate notBefore="0388"
+                               notAfter="0392"
+                               evidence="titulature prosopography">i. A.D. 198-210
 (<rs type="criteria">titulature</rs>); ii. A.D. 388/392 (<rs type="criteria">prosopography</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="Boul">Bouleuterion/Odeon</rs>: fragments in various locations.</rs>
-                  </provenance>
-                  <provenance type="observed" when="2004">
-                     <rs type="lastLocation">Museum (2004).</rs>
-                  </provenance>
+                     <rs type="monuList" key="Boul">Bouleuterion/Odeon</rs>: fragments in various locations.</provenance>
+                  <provenance type="observed" when="2004">Museum (2004).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,9 +92,10 @@ Septimus Severus; ii. Building inscription of Antonius Priskos</title>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds, Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-06" who="GB">DONE</change>
          <change when="2005-04-07" who="Elliott-Hall">ii Batch converted Word2XML</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
@@ -115,6 +109,43 @@ Septimus Severus; ii. Building inscription of Antonius Priskos</title>
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="76_J_14A.jpg">
+            <desc>i. Fragment a (1976)</desc>
+         </graphic>
+         <graphic url="77_R_20A.jpg">
+            <desc>i. Fragment a (1977)</desc>
+         </graphic>
+         <graphic url="80_E_21A.jpg">
+            <desc>i. Fragment b (1980)</desc>
+         </graphic>
+         <graphic url="80_E_20A.jpg">
+            <desc>i. Fragment b (1980)</desc>
+         </graphic>
+         <graphic url="2001_A_27.jpg">
+            <desc>i. (left side) and ii. (upper part)</desc>
+         </graphic>
+         <graphic url="rosen029.jpg">
+            <desc>ii. Upper edge fragment (1966)</desc>
+         </graphic>
+         <graphic url="rosen037.jpg">
+            <desc>ii. Upper edge fragment (1966)</desc>
+         </graphic>
+         <graphic url="rosen036.jpg">
+            <desc>ii. Lower part (1966)</desc>
+         </graphic>
+         <graphic url="72_D_28A.jpg">
+            <desc>ii. Lower part (1972)</desc>
+         </graphic>
+         <graphic url="2001_A_27.jpg">
+            <desc>Top of block (2001)</desc>
+         </graphic>
+         <graphic url="DSCN0249.jpg">
+            <desc>ii. Fragment (2004)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

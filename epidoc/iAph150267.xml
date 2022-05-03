@@ -30,9 +30,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -51,20 +48,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0100" notAfter="0300">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0100" notAfter="0300" evidence="content">
  Second to third centuries A.D.
 (<rs type="criteria">content</rs>)
 </origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">Stray</rs>
-                  </provenance>
-                  <provenance type="observed" when="2004">
-                     <rs type="lastLocation">Museum (2004)</rs>
-                  </provenance>
+                  <provenance type="found">Stray</provenance>
+                  <provenance type="observed" when="2004">Museum (2004)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,13 +90,24 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcriptions (Reynolds, Roueché)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="89_D_26A.jpg">
+            <desc>Face (1989)</desc>
+         </graphic>
+         <graphic url="89_D_27A.jpg">
+            <desc>Face (1989)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

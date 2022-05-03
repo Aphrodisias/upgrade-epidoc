@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>83.66</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> below the swag on the front face, and presumably also within it, unless the text began on the lost lid.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> below the swag on the front face, and presumably also within it, unless the text began on the lost lid.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,20 +48,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0200" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0200"
+                               precision="medium"
+                               evidence="lettering">
 First to second centuries A.D.
 (<rs type="criteria">lettering</rs>, style of decoration).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">South Agora, Agora Gate</rs>: found during demolition of a village house, re-used in the wall</rs>
-                  </provenance>
-                  <provenance type="observed" when="1983">
-                     <rs type="lastLocation">Museum (1983)</rs>
-                  </provenance>
+                     <rs type="monuList">South Agora, Agora Gate</rs>: found during demolition of a village house, re-used in the wall</provenance>
+                  <provenance type="observed" when="1983">Museum (1983)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,13 +90,24 @@ First to second centuries A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds); publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-04" who="Charlotte-Tupman">DONE</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="83_B_19A.jpg">
+            <desc>Face (1983)</desc>
+         </graphic>
+         <graphic url="83_B_20A.jpg">
+            <desc>Face (1983)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="la" xml:space="preserve">

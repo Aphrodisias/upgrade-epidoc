@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in the upper two thirds of the tabella, impinging on all mouldings. The text must have begun above, perhaps on the lid or the upper rim of the chest.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in the upper two thirds of the tabella, impinging on all mouldings. The text must have begun above, perhaps on the lid or the upper rim of the chest.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,19 +49,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Necropolis</rs>
-                     </origPlace>
-                     <origDate notBefore="0301" notAfter="0400" precision="medium">Monument: mid third century (Isik). Text: 
+                     <origPlace>Necropolis</origPlace>
+                     <origDate notBefore="0301"
+                               notAfter="0400"
+                               precision="medium"
+                               evidence="lettering spelling">Monument: mid third century (Isik). Text: 
 Probably fourth century (<rs type="criteria">lettering</rs>, <rs type="criteria">spelling</rs>, unit of reckoning, size of fine).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, Village</rs>: 'Cour de l'immeuble aux escaliers de marbre' (Gaudin)</rs>
-                  </provenance>
-                  <provenance type="observed" when="1977">
-                     <rs type="lastLocation">Museum (1977)</rs>
-                  </provenance>
+                     <rs type="monuList">City, Village</rs>: 'Cour de l'immeuble aux escaliers de marbre' (Gaudin)</provenance>
+                  <provenance type="observed" when="1977">Museum (1977)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,14 +90,28 @@ Probably fourth century (<rs type="criteria">lettering</rs>, <rs type="criteria"
                </term>
             </keywords>
          </textClass>
+         <creation> Transcription (Reynolds); publications; Kubitschek</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-17" who="Charlotte-Tupman">hand tidied</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_Y_05.jpg">
+            <desc>Tabella (1977)</desc>
+         </graphic>
+         <graphic url="2002_A_14.jpg">
+            <desc>View (2002)</desc>
+         </graphic>
+         <graphic url="K_III_41.jpg">
+            <desc>Kubitschek notebook III, 41</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

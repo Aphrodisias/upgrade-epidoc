@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,19 +48,13 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Walls, West Gate</rs>
-                        </rs>
+                        <rs type="monuList">Walls, West Gate</rs>
                      </origPlace>
                      <origDate notBefore="0355" notAfter="0360">A.D. 355-360, dependent on dating of Caesar (see commentary).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, West Gate</rs>: found by us in the same position, and in virtually the same condition, as by the earlier visitors, cut on the large lintel over the west gate in the city wall, on the outer (west) face. The gate itself is decorated with a considerable amount of re-used relief sculpture. .</rs>
-                  </provenance>
-                  <provenance type="observed" when="1991">
-                     <rs type="lastLocation">Findspot (1991).</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, West Gate</rs>: found by us in the same position, and in virtually the same condition, as by the earlier visitors, cut on the large lintel over the west gate in the city wall, on the outer (west) face. The gate itself is decorated with a considerable amount of re-used relief sculpture. .</provenance>
+                  <provenance type="observed" when="1991">Findspot (1991).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -103,9 +94,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché); Publications; Wood.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-16" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-01-16" who="#CMR">tidied; image refs</change>
@@ -118,6 +110,40 @@
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_P_12A.jpg">
+            <desc>Front face in situ (1973)</desc>
+         </graphic>
+         <graphic url="73_P_13A.jpg">
+            <desc>Front face in situ (1973)</desc>
+         </graphic>
+         <graphic url="91_A_08.jpg">
+            <desc>Front face restored (1991)</desc>
+         </graphic>
+         <graphic url="91_A_10.jpg">
+            <desc>Front face restored (1991)</desc>
+         </graphic>
+         <graphic url="72_J_06.jpg">
+            <desc>Left end (1972)</desc>
+         </graphic>
+         <graphic url="91_A_11.jpg">
+            <desc>Left end (1991)</desc>
+         </graphic>
+         <graphic url="72_J_08.jpg">
+            <desc>Right end (1972)</desc>
+         </graphic>
+         <graphic url="Wood_14_46.jpg">
+            <desc>Wood's notebook, page 46</desc>
+         </graphic>
+         <graphic url="81_D_01.jpg">
+            <desc>Squeeze of erasure, line 6 (1981)</desc>
+         </graphic>
+         <graphic url="81_D_02.jpg">
+            <desc>Squeeze of erasure, line 6 (1981)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

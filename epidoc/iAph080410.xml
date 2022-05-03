@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on upper moulding (line 1) and on face below (lines 2 ff.)</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on upper moulding (line 1) and on face below (lines 2 ff.)</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,18 +49,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot.</rs>
-                     </origPlace>
-                     <origDate notBefore="0468" notAfter="0533" precision="medium">Late fifth/early sixth century (<rs type="criteria">titulature</rs>).</origDate>
+                     <origPlace>Findspot.</origPlace>
+                     <origDate notBefore="0468"
+                               notAfter="0533"
+                               precision="medium"
+                               evidence="titulature">Late fifth/early sixth century (<rs type="criteria">titulature</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: standing against the east side of the northernmost column of the west colonnade; several other inscribed bases (<ref type="inscription" n="64" target="080407.xml"/>, and probably <ref type="inscription" n="20" target="080405.xml"/> and <ref type="inscription" n="21" target="080406.xml"/>) stood in similar positions against other columns of this colonnade; </rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot; statue in Museum.</rs>
-                  </provenance>
+                     <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: standing against the east side of the northernmost column of the west colonnade; several other inscribed bases (<ref type="inscription" n="64" target="080407.xml"/>, and probably <ref type="inscription" n="20" target="080405.xml"/> and <ref type="inscription" n="21" target="080406.xml"/>) stood in similar positions against other columns of this colonnade; </provenance>
+                  <provenance type="observed">Findspot; statue in Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,9 +93,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-08-07" who="Eleonora-Litta">tidied expan</change>
          <change when="2004-06-09" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-24" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -111,6 +106,31 @@
          <change when="2003-07-17" who="Juan-Garcés">lemmatised</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="76_B_28.jpg">
+            <desc>Base in position, with ALA 64 (1976)</desc>
+         </graphic>
+         <graphic url="76_B_26.jpg">
+            <desc>Base in position (1976)</desc>
+         </graphic>
+         <graphic url="80_A_17.jpg">
+            <desc>Base alone (1980)</desc>
+         </graphic>
+         <graphic url="72_F_13A.jpg">
+            <desc>Text (1972)</desc>
+         </graphic>
+         <graphic url="NY_93_75_35.jpg">
+            <desc>Back of base (1993)</desc>
+         </graphic>
+         <graphic url="NY_93_75_36.jpg">
+            <desc>Top of base (1993)</desc>
+         </graphic>
+         <graphic url="smith-ala62.jpg">
+            <desc>Statue and base: Drawing: K.Gorkay, from Smith (1999)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

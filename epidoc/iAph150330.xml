@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -48,18 +45,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0180" notAfter="0189">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0180" notAfter="0189" evidence="prosopography">
 Between 180 and 189, probably early 180s  (<rs type="criteria">prosopography</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">No description</rs>
-                  </provenance>
-                  <provenance type="observed" when="1812">
-                     <rs type="lastLocation">Findspot (1812)</rs>
-                  </provenance>
+                  <provenance type="found">No description</provenance>
+                  <provenance type="observed" when="1812">Findspot (1812)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -103,15 +94,23 @@ Between 180 and 189, probably early 180s  (<rs type="criteria">prosopography</rs
                </term>
             </keywords>
          </textClass>
+         <creation>Deering notebook; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-08-07" who="Eleonora-Litta">tidied expan</change>
          <change when="2007-03-20" who="Charlotte-Tupman">tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="Deering_17.jpg">
+            <desc>Deering notebook 17</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

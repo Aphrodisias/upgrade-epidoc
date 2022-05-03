@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -40,7 +37,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in three recessed panels, <width unit="metre">0.80</width>, <width unit="metre">0.79</width> and <width unit="metre">0.80</width>; a and b on block i, c on block ii. The blocks are complete on all sides; the texts must therefore have begun on blocks above.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in three recessed panels, <width unit="metre">0.80</width>, <width unit="metre">0.79</width> and <width unit="metre">0.80</width>; a and b on block i, c on block ii. The blocks are complete on all sides; the texts must therefore have begun on blocks above.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -49,20 +46,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0300">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001" notAfter="0300" evidence="lettering">
 First to third centuries A.D.
 (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, South (west part)</rs>: between <ref type="inscription" n="1134" target="120703.xml"/> and  <ref type="inscription" n="1006" target="120707.xml"/> (=MAMA 445, 467)</rs>
-                  </provenance>
-                  <provenance type="observed" when="1977">
-                     <rs type="lastLocation">Findspot (1977)</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, South (west part)</rs>: between <ref type="inscription" n="1134" target="120703.xml"/> and  <ref type="inscription" n="1006" target="120707.xml"/> (=MAMA 445, 467)</provenance>
+                  <provenance type="observed" when="1977">Findspot (1977)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -94,14 +85,43 @@ First to third centuries A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Beard); notebooks; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-02-08" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_S_25.jpg">
+            <desc>a (1973)</desc>
+         </graphic>
+         <graphic url="73_S_26.jpg">
+            <desc>b (1973)</desc>
+         </graphic>
+         <graphic url="73_S_27.jpg">
+            <desc>c (1973)</desc>
+         </graphic>
+         <graphic url="Deering_15.jpg">
+            <desc>Deering notebook 15</desc>
+         </graphic>
+         <graphic url="Deering_15v.jpg">
+            <desc>Deering notebook 15v</desc>
+         </graphic>
+         <graphic url="Deering_16.jpg">
+            <desc>Deering notebook 16</desc>
+         </graphic>
+         <graphic url="K_V_06.jpg">
+            <desc>Kubitschek notebook V, 6</desc>
+         </graphic>
+         <graphic url="Deering_14v.jpg">
+            <desc>Deering notebook 14v</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

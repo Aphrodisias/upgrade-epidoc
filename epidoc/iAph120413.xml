@@ -29,9 +29,6 @@
                   <idno>72.488</idno>
                   <idno>74.256</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0200" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0200"
+                               precision="medium"
+                               evidence="lettering">
 First to second centuries A.D.
 (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" cert="low">Walls, South-east Gate</rs>: 'ad austrum, propius ad ad orientalem urbis portam', (Picenini) 'on the east side' (Sherard)</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">All fragments now in the Museum</rs>
-                  </provenance>
+                     <rs type="monuList" cert="low">Walls, South-east Gate</rs>: 'ad austrum, propius ad ad orientalem urbis portam', (Picenini) 'on the east side' (Sherard)</provenance>
+                  <provenance type="observed">All fragments now in the Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,13 +91,33 @@ First to second centuries A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Fragments; Sherard papers; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url=" 73_S_05.jpg">
+            <desc>Fragment a, lines 8-15 (1973)</desc>
+         </graphic>
+         <graphic url="77_O_23.jpg">
+            <desc>Fragment a, lines 8-15 (1977)</desc>
+         </graphic>
+         <graphic url="77_S_16.jpg">
+            <desc>Fragment b, lines 16-23 (1977)</desc>
+         </graphic>
+         <graphic url="77_G_17.jpg">
+            <desc>Fragment c, lines 24-27 (1977)</desc>
+         </graphic>
+         <graphic url="77_Z_01.jpg">
+            <desc>Fragment c, lines 24-27 (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

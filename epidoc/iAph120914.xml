@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -52,18 +49,12 @@ None</layout>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0200">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101" notAfter="0200" evidence="lettering">
 Second century A.D. (<rs type="criteria">lettering</rs>?)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">reused in the <rs type="monuList">Walls, west</rs>, in a stretch where the wall was about 30 feet high: '<foreign xml:lang="la">muro occidentali 30 circiter pedes alto</foreign>. ye wall seems here entire. To ye right are several <emph>illegible</emph> in ye wall' (Sherard) near <ref type="inscription" n="1782" target="121018.xml"/> (=CIG 2783)</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                  <provenance type="found">reused in the <rs type="monuList">Walls, west</rs>, in a stretch where the wall was about 30 feet high: '<foreign xml:lang="la">muro occidentali 30 circiter pedes alto</foreign>. ye wall seems here entire. To ye right are several <emph>illegible</emph> in ye wall' (Sherard) near <ref type="inscription" n="1782" target="121018.xml"/> (=CIG 2783)</provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,13 +91,17 @@ Second century A.D. (<rs type="criteria">lettering</rs>?)</origDate>
                </term>
             </keywords>
          </textClass>
+         <creation>Sherard's notebook; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-19" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

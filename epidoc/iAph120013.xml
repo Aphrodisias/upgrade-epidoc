@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face, above a relief</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face, above a relief</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,21 +48,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0100" notAfter="0300">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0100" notAfter="0300" evidence="lettering content">
  Second to third centuries A.D.
 (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>)</origDate>
                   </origin>
                   <provenance type="found" when="1892">
-                     <rs type="found">
-                        <rs type="monuList">Walls, North</rs>: to the north of the north wall of the Stadium (1892) with <ref type="inscription" n="625" target="120015.xml"/>, <ref type="inscription" n="627" target="120016.xml"/>
-                     </rs>
+                     <rs type="monuList">Walls, North</rs>: to the north of the north wall of the Stadium (1892) with <ref type="inscription" n="625" target="120015.xml"/>, <ref type="inscription" n="627" target="120016.xml"/>
                   </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,14 +91,31 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Publications; notebook;  transcription (Reynolds, Roueché)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-12" who="Charlotte-Tupman">tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="89_D_28A.jpg">
+            <desc>Face (1989)</desc>
+         </graphic>
+         <graphic url="89_D_29A.jpg">
+            <desc>Face (1989)</desc>
+         </graphic>
+         <graphic url="R_I_10.jpg">
+            <desc>Reichel, notebook I, 10</desc>
+         </graphic>
+         <graphic url="K_III_63.jpg">
+            <desc>Kubitschek, notebook III, 63</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>75.327</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -54,20 +51,14 @@ Inscribed on the face; the text must have begun on a crowning feature.</layout>
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0253" notAfter="0260">
+Unknown.</origPlace>
+                     <origDate notBefore="0253" notAfter="0260" evidence="content">
 A.D. 253-260 (<rs type="criteria">content</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, South (east part)</rs>: reused in the southern stretch, section excavated in 1975.</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, South (east part)</rs>: reused in the southern stretch, section excavated in 1975.</provenance>
                   <provenance type="observed" when="&#xA;1993">
-                     <rs type="lastLocation">
-Museum (1993).</rs>
-                  </provenance>
+Museum (1993).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,9 +90,11 @@ Museum (1993).</rs>
                </term>
             </keywords>
          </textClass>
+         <creation>
+Transcriptions (Reynolds, Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-19" who="#GB">Added zero line numbers, and fixed column/fragment breaks</change>
@@ -116,6 +109,19 @@ Museum (1993).</rs>
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="76_J_33A.jpg">
+            <desc>Front face (1976)</desc>
+         </graphic>
+         <graphic url="78_G_16.jpg">
+            <desc>Front face (1978)</desc>
+         </graphic>
+         <graphic url="NY_93_80_28.jpg">
+            <desc>Top of base (1993)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

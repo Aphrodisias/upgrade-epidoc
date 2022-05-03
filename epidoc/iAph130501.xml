@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>90.16</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the lower part of the face, <measure type="length" unit="metre">0.54</measure> below the pediment (so presumably below a painted image). The layout is compressed and irregular.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the lower part of the face, <measure type="length" unit="metre">0.54</measure> below the pediment (so presumably below a painted image). The layout is compressed and irregular.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,20 +47,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="-0066" notAfter="-0200">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="-0066" notAfter="-0200" evidence="monument lettering">
 Second to early first century B.C.
 (<rs type="criteria">monument</rs>, <rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Necropolis, South-west</rs>, brought in from the fields some kilometers south west of the city, towards Bingeç.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1990">
-                     <rs type="lastLocation">Museum (1990)</rs>
-                  </provenance>
+                     <rs type="monuList">Necropolis, South-west</rs>, brought in from the fields some kilometers south west of the city, towards Bingeç.</provenance>
+                  <provenance type="observed" when="1990">Museum (1990)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,13 +89,27 @@ Second to early first century B.C.
                </term>
             </keywords>
          </textClass>
+         <creation>Τranscription (Reynolds); publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-18" who="Charlotte-Tupman">hand tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="90_A_12A.jpg">
+            <desc>Face (1990)</desc>
+         </graphic>
+         <graphic url="90_A_13A.jpg">
+            <desc>Detail (1990)</desc>
+         </graphic>
+         <graphic url="90_A_14A.jpg">
+            <desc>Detail (1990)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

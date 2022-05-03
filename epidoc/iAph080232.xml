@@ -29,9 +29,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -44,7 +41,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs>  in an area which has been smoothed (<width unit="metre">0.12</width>  × <height unit="metre">0.08</height>). The text began on an adjacent block to the left.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs>  in an area which has been smoothed (<width unit="metre">0.12</width>  × <height unit="metre">0.08</height>). The text began on an adjacent block to the left.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -54,20 +51,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0300" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">
 First to third centuries A.D.  (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Theatre</rs>
-                     </rs>
+                     <rs type="monuList">Theatre</rs>
                   </provenance>
-                  <provenance type="observed" when="1961">
-                     <rs type="lastLocation">Theatre field depot (1961)</rs>
-                  </provenance>
+                  <provenance type="observed" when="1961">Theatre field depot (1961)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,13 +93,17 @@ First to third centuries A.D.  (<rs type="criteria">lettering</rs>).</origDate>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-30" who="Charlotte-Tupman">DONE</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

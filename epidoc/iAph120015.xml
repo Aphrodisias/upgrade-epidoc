@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the upper moulding</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the upper moulding</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,20 +48,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering content">
 Second to third centuries A.D.
 (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>)</origDate>
                   </origin>
                   <provenance type="found" when="1892">
-                     <rs type="found">
-                        <rs type="monuList">Walls, North</rs> to the north of the north wall of the Stadium (1892) with <ref type="inscription" n="626" target="120013.xml"/>, <ref type="inscription" n="627" target="120016.xml"/>; With these should probably be associated <ref type="inscription" n="628" target="100101.xml"/>, seen by Gaudin in 1904, 'in the Stadium'.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, North</rs> to the north of the north wall of the Stadium (1892) with <ref type="inscription" n="626" target="120013.xml"/>, <ref type="inscription" n="627" target="120016.xml"/>; With these should probably be associated <ref type="inscription" n="628" target="100101.xml"/>, seen by Gaudin in 1904, 'in the Stadium'.</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,14 +93,34 @@ Second to third centuries A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Publications; notebooks; transcripion (Reynolds, Roueché)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-12" who="Charlotte-Tupman">tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_A_34.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+         <graphic url="89_B_20.jpg">
+            <desc>Face (1989)</desc>
+         </graphic>
+         <graphic url="HS_3515.jpg">
+            <desc>Face (1990)</desc>
+         </graphic>
+         <graphic url="R_I_11.jpg">
+            <desc>Reichel, notebook I, 11</desc>
+         </graphic>
+         <graphic url="K_III_63.jpg">
+            <desc>Kubitschek, notebook III, 63</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

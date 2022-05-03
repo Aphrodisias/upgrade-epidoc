@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@ measurable.</p>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> within <term xml:lang="la">tabella</term>.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> within <term xml:lang="la">tabella</term>.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,18 +50,15 @@ measurable.</p>
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Necropolis, North-east</rs>.</rs>
-                     </origPlace>
-                     <origDate notBefore="0401" notAfter="0500" precision="medium">Fifth century or later (<rs type="criteria">lettering</rs>).</origDate>
+                        <rs type="monuList">Necropolis, North-east</rs>.</origPlace>
+                     <origDate notBefore="0401"
+                               notAfter="0500"
+                               precision="medium"
+                               evidence="lettering">Fifth century or later (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Necropolis, North-east</rs>: in the wall of the Turkish cemetery.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum.</rs>
-                  </provenance>
+                     <rs type="monuList">Necropolis, North-east</rs>: in the wall of the Turkish cemetery.</provenance>
+                  <provenance type="observed">Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,9 +91,10 @@ measurable.</p>
                </term>
             </keywords>
          </textClass>
+         <creation>Publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-02-27" who="#CMR">checked; image refs.</change>
@@ -109,6 +104,13 @@ measurable.</p>
          <change when="2003-04-30" who="Juan-Garcés">tagged Greek; tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="mama302-ala165.jpg">
+            <desc>Image from MAMA Plate 21</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> within the front  panel, which is complete above (die <width unit="metre">0.375</width> × <height unit="metre">0.995</height>). The text must have begun on a crowning feature, now lost.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> within the front  panel, which is complete above (die <width unit="metre">0.375</width> × <height unit="metre">0.995</height>). The text must have begun on a crowning feature, now lost.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,18 +48,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0201" notAfter="0300" precision="medium">       Third centuries A.D. (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>).</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0201"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering nomenclature">       Third centuries A.D. (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>, east end: probably re-used in the Byzantine bema</rs>
-                  </provenance>
-                  <provenance type="observed" when="1977">
-                     <rs type="lastLocation">Findspot (1977)</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>, east end: probably re-used in the Byzantine bema</provenance>
+                  <provenance type="observed" when="1977">Findspot (1977)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -94,15 +88,41 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds);  Gaudin's squeeze.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-01" who="#GB">DONE</change>
          <change when="2007-01-11" who="Charlotte-Tupman">tidied</change>
          <change when="2005-06-09" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="JMR_1_1968_069.jpg">
+            <desc>Lines 1-end (1968)</desc>
+         </graphic>
+         <graphic url="JMR_1_1968_045.jpg">
+            <desc>Lines 1-end (1968)</desc>
+         </graphic>
+         <graphic url="77_Q_12.jpg">
+            <desc>ll. 1-2, middle (1977)</desc>
+         </graphic>
+         <graphic url="77_G_01.jpg">
+            <desc>ll. 3-6, right (1977)</desc>
+         </graphic>
+         <graphic url="78_L_14.jpg">
+            <desc>ll. 11-17, left (1978)</desc>
+         </graphic>
+         <graphic url="77_B_18A.jpg">
+            <desc>ll. 6-end (1977)</desc>
+         </graphic>
+         <graphic url="77_B_19A.jpg">
+            <desc>ll. 6-end (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

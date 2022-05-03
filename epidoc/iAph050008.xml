@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -50,22 +47,18 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Hadrianic Baths, East court</rs>: ?<seg cert="low">Caryatid portico</seg>
-                        </rs>
+                        <rs type="monuList">Hadrianic Baths, East court</rs>: ?<seg cert="low">Caryatid portico</seg>
                      </origPlace>
-                     <origDate notBefore="0151" notAfter="0200">
+                     <origDate notBefore="0151"
+                               notAfter="0200"
+                               evidence="monument group prosopography">
 
 Second half of second century A.D.
 (<rs type="criteria">monument group</rs>, <rs type="criteria">prosopography</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Hadrianic Baths, East Court</rs>: 'En avant de la 5e colonne portique O(uest), n(ord)' (Boulanger)</rs>
-                  </provenance>
-                  <provenance type="observed" when="2002">
-                     <rs type="lastLocation">East Court (2002)</rs>
-                  </provenance>
+                     <rs type="monuList">Hadrianic Baths, East Court</rs>: 'En avant de la 5e colonne portique O(uest), n(ord)' (Boulanger)</provenance>
+                  <provenance type="observed" when="2002">East Court (2002)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,13 +90,36 @@ Second half of second century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Notebooks.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-24" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="2002_A_15.jpg">
+            <desc>Face (2002)</desc>
+         </graphic>
+         <graphic url="2002_A_16.jpg">
+            <desc>Face (2002)</desc>
+         </graphic>
+         <graphic url="2002_A_17.jpg">
+            <desc>Top (2002)</desc>
+         </graphic>
+         <graphic url="Boulanger_A_77.jpg">
+            <desc>Boulanger A 77</desc>
+         </graphic>
+         <graphic url="Boulanger_B_34.jpg">
+            <desc>Boulanger B 34</desc>
+         </graphic>
+         <graphic url="Boulanger_B_35.jpg">
+            <desc>Boulanger B 35</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

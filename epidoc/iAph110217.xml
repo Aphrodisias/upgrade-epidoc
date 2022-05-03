@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>66.102</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -44,7 +41,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face which is broken away at the
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face which is broken away at the
      right side, chipped along the left edge and the bottom.</layout>
                      </layoutDesc>
                   </objectDesc>
@@ -56,20 +53,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="nomenclature lettering">
      Second to third centuries A.D. (<rs type="criteria">nomenclature</rs>, <rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, Water Channel area</rs>: 'Wa.Ch.IV, Tr.6, in stone
-      wall on the surface'</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">City, Water Channel area</rs>: 'Wa.Ch.IV, Tr.6, in stone
+      wall on the surface'</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -102,14 +96,18 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); publication.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-30" who="&#xA;-----Charlotte-Tupman&#xA;----">Hand tidied</change>
          <change when="2005-12-13" who="&#xA;-----Elliott-Hall&#xA;----">Batch converted Word2XML</change>
          <change when="2007-01-01" who="&#xA;-----GB&#xA;----">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

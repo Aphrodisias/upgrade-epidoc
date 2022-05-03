@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on one fascia</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on one fascia</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,19 +50,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="-33" notAfter="-1" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="-33"
+                               notAfter="-1"
+                               precision="medium"
+                               evidence="lettering">
 Late first century B.C. (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, South-east Gate</rs>: reused, with <ref type="inscription" n="1130" target="120406.xml"/> and <ref type="inscription" n="1132" target="120408.xml"/> (==MAMA 442, 444), to form a course in the walls, just north of the  gate, below <ref type="inscription" n="1002" target="120403.xml"/> (=MAMA 463)</rs>
-                  </provenance>
-                  <provenance type="observed" when="1973">
-                     <rs type="lastLocation">Findspot (1973)</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, South-east Gate</rs>: reused, with <ref type="inscription" n="1130" target="120406.xml"/> and <ref type="inscription" n="1132" target="120408.xml"/> (==MAMA 442, 444), to form a course in the walls, just north of the  gate, below <ref type="inscription" n="1002" target="120403.xml"/> (=MAMA 463)</provenance>
+                  <provenance type="observed" when="1973">Findspot (1973)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,12 +91,20 @@ Late first century B.C. (<rs type="criteria">lettering</rs>)</origDate>
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); Gaudin's squeeze; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_X_14A.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

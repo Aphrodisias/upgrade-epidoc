@@ -30,9 +30,6 @@
                   <idno>65.368</idno>
                   <idno>66.278</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -45,7 +42,7 @@ b: <height unit="metre">0.13</height> × <width unit="metre">0.215</width>.</p>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the rim.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the rim.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -54,20 +51,17 @@ b: <height unit="metre">0.13</height> × <width unit="metre">0.215</width>.</p>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0401" notAfter="0600" precision="medium">Fifth or sixth century or later (<rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0401"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="lettering">Fifth or sixth century or later (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs key="Boul" type="monuList">Bouleuterion/Odeon, West area</rs>: a: south-west Odeon area, Tr. 3,
+                     <rs key="Boul" type="monuList">Bouleuterion/Odeon, West area</rs>: a: south-west Odeon area, Tr. 3,
 near north wall; b: 'Bishop's Palace': St.I, west
-part.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum.</rs>
-                  </provenance>
+part.</provenance>
+                  <provenance type="observed">Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,9 +93,10 @@ part.</rs>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -112,6 +107,13 @@ part.</rs>
          <change when="2003-04-30" who="Juan-Garcés">tagged Greek; tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_J_31A.jpg">
+            <desc>Both fragments (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

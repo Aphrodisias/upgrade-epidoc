@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -56,19 +53,16 @@ right.</layout>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0201" notAfter="0400" precision="medium">i: Second/third century (<rs type="criteria">lettering</rs>); ii: Third/fourth
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0201"
+                               notAfter="0400"
+                               precision="medium"
+                               evidence="lettering">i: Second/third century (<rs type="criteria">lettering</rs>); ii: Third/fourth
 century (formulae, penalty).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Old Museum</rs>.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum.</rs>
-                  </provenance>
+                     <rs type="monuList">Old Museum</rs>.</provenance>
+                  <provenance type="observed">Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -104,9 +98,10 @@ century (formulae, penalty).</origDate>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-02-27" who="#CMR">checked; image refs.</change>
@@ -116,6 +111,19 @@ century (formulae, penalty).</origDate>
          <change when="2003-04-30" who="Juan-Garcés">tagged Greek; tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="89_F_12A.jpg">
+            <desc>Left end fragment (1989)</desc>
+         </graphic>
+         <graphic url="81_A_22.jpg">
+            <desc>Centre fragment (1981)</desc>
+         </graphic>
+         <graphic url="83_F_17.jpg">
+            <desc>Right end fragment (1983)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the upper of two fasciae.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the upper of two fasciae.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,20 +50,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">?In a gymnasium building</rs>
-                     </origPlace>
-                     <origDate notBefore="0117" notAfter="0138">
+                     <origPlace>?In a gymnasium building</origPlace>
+                     <origDate notBefore="0117" notAfter="0138" evidence="reign">
 A.D. 117/138
 (<rs type="criteria">reign</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: b reused in the north wall of Temple Church Atrium; e excavated in 1993 at the NW side of the temple; other blocks lying loose.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1978">
-                     <rs type="lastLocation">on site (1978)</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: b reused in the north wall of Temple Church Atrium; e excavated in 1993 at the NW side of the temple; other blocks lying loose.</provenance>
+                  <provenance type="observed" when="1978">on site (1978)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -101,13 +92,33 @@ A.D. 117/138
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-30" who="Charlotte-Tupman">DONE</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="72_F_09A.jpg">
+            <desc>Fragment b (1972)</desc>
+         </graphic>
+         <graphic url="72_F_10A.jpg">
+            <desc>Fragment b (1972)</desc>
+         </graphic>
+         <graphic url="77_D_04A.jpg">
+            <desc>Fragment g (1977)</desc>
+         </graphic>
+         <graphic url="77_D_05A.jpg">
+            <desc>Fragment g (1977)</desc>
+         </graphic>
+         <graphic url="78_L_21.jpg">
+            <desc>Fragment g (1978)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

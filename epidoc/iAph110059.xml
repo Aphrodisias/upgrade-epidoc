@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@ See further Isik, loc. cit.</p>
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>a. <rs type="execution" key="scalpro">Inscribed</rs> around the <rs type="decoration">bust</rs> to the left, b. around the bust to the right, c. on the <rs type="decoration">tabella</rs>; inscription c. must have begun on the lid.</layout>
+                        <layout>a. <rs type="execution" ref="scalpro">Inscribed</rs> around the <rs type="decoration">bust</rs> to the left, b. around the bust to the right, c. on the <rs type="decoration">tabella</rs>; inscription c. must have begun on the lid.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,17 @@ See further Isik, loc. cit.</p>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown: necropolis</rs>
-                     </origPlace>
-                     <origDate notBefore="0234" notAfter="0267" precision="medium">
+                     <origPlace>Unknown: necropolis</origPlace>
+                     <origDate notBefore="0234"
+                               notAfter="0267"
+                               precision="medium"
+                               evidence="lettering nomenclature">
 Probably  middle third century A.D.
  (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, Village</rs>: ' In a house-yard' (MAMA)</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">City, Village</rs>: ' In a house-yard' (MAMA)</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,14 +91,25 @@ Probably  middle third century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds); publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-02-06" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_X_23A.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="K_III_39.jpg">
+            <desc>Kubitschek notebook III, 39</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

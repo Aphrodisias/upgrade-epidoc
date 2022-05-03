@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on upper moulding of face, i: to left; ii: to right. Below ii an indecipherable
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on upper moulding of face, i: to left; ii: to right. Below ii an indecipherable
 monogram.</layout>
                      </layoutDesc>
                   </objectDesc>
@@ -55,19 +52,13 @@ abbreviation.</handNote>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot.</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="1000">First to tenth centuries A.D. (<rs type="criteria">context</rs>)</origDate>
+                     <origPlace>Findspot.</origPlace>
+                     <origDate notBefore="0001" notAfter="1000" evidence="context">First to tenth centuries A.D. (<rs type="criteria">context</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: south aisle, on the upper moulding of the
-south face of the base of the third column from the east: .</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot.</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: south aisle, on the upper moulding of the
+south face of the base of the third column from the east: .</provenance>
+                  <provenance type="observed">Findspot.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,9 +90,10 @@ south face of the base of the third column from the east: .</rs>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcriptions (Reynolds, Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-29" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-02-27" who="#CMR">checked; image refs.</change>
@@ -111,6 +103,24 @@ south face of the base of the third column from the east: .</rs>
          <change when="2003-04-30" who="Juan-Garcés">tagged Greek; tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="76_B_31.jpg">
+            <desc>View (1976)</desc>
+         </graphic>
+         <graphic url="NY_pr_045.jpg">
+            <desc>Text (KTE)</desc>
+         </graphic>
+         <graphic url="DSCN0175.jpg">
+            <desc> View from south
+(2004)</desc>
+         </graphic>
+         <graphic url="DSCN0176.jpg">
+            <desc>View from south
+(2004)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

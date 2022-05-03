@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in one line along the shoulder.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in one line along the shoulder.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -55,19 +52,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0301" notAfter="0600">Fourth-sixth century (<rs type="criteria">content</rs>)</origDate>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0301" notAfter="0600" evidence="content">Fourth-sixth century (<rs type="criteria">content</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="Boul">Bouleuterion/Odeon, North Area</rs>: in the area north of the Bouleuterion
-and south of the Temple-Church.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot.</rs>
-                  </provenance>
+                     <rs type="monuList" key="Boul">Bouleuterion/Odeon, North Area</rs>: in the area north of the Bouleuterion
+and south of the Temple-Church.</provenance>
+                  <provenance type="observed">Findspot.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -103,9 +94,10 @@ and south of the Temple-Church.</rs>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-02-29" who="#CMR">checked; image refs.</change>
@@ -115,6 +107,19 @@ and south of the Temple-Church.</rs>
          <change when="2003-04-30" who="Juan-Garcés">tagged Greek; tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="rosen025.jpg">
+            <desc>Text (1966)</desc>
+         </graphic>
+         <graphic url="DSCN0221.jpg">
+            <desc>Jar (2004)</desc>
+         </graphic>
+         <graphic url="DSCN0223.jpg">
+            <desc>Jar (2004)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

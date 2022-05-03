@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno>71.45</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs>  within a moulded front panel.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs>  within a moulded front panel.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,19 +48,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">  Second to third centuries A.D. (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>).</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering content">  Second to third centuries A.D. (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, South-east</rs>: reused in or near the south east stretch of the walls (Sherard, Wood, Bailie); 'in the west wall' Fellows (presumably in error). Fragment found during excavation of the <rs type="monuList">Bouleuterion/Odeon</rs>
-                     </rs>
+                     <rs type="monuList">Walls, South-east</rs>: reused in or near the south east stretch of the walls (Sherard, Wood, Bailie); 'in the west wall' Fellows (presumably in error). Fragment found during excavation of the <rs type="monuList">Bouleuterion/Odeon</rs>
                   </provenance>
-                  <provenance type="observed" when="1977">
-                     <rs type="lastLocation">Complete block last seen at findspot; surviving fragment in the Museum (1977)</rs>
-                  </provenance>
+                  <provenance type="observed" when="1977">Complete block last seen at findspot; surviving fragment in the Museum (1977)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,14 +90,34 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds); Deering; Wood; Sherard papers; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-13" who="cmr">DONE</change>
          <change when="2005-05-25" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_S_13.jpg">
+            <desc>Upper fragment (1977)</desc>
+         </graphic>
+         <graphic url="77_U_16.jpg">
+            <desc>Upper fragment (1977)</desc>
+         </graphic>
+         <graphic url="Wood_14_45v.jpg">
+            <desc>Wood notebook 14, page 45v</desc>
+         </graphic>
+         <graphic url="Deering_05v.jpg">
+            <desc>Deering notebook 5v</desc>
+         </graphic>
+         <graphic url="Deering_06.jpg">
+            <desc>Deering notebook 6</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

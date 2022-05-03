@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -50,20 +47,17 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Basilica</rs>
-                        </rs>
+                        <rs type="monuList">Basilica</rs>
                      </origPlace>
-                     <origDate notBefore="0069" notAfter="0096" precision="medium">
+                     <origDate notBefore="0069"
+                               notAfter="0096"
+                               precision="medium"
+                               evidence="lettering sculpture probable text">
 probably Flavian (<rs type="criteria">lettering</rs>, <rs type="criteria">sculpture</rs>, <rs type="criteria">probable text</rs>).When the panels were first found, many thought the reliεfs to be of the third century A.D., a view abandoned after their detailed study. Yildirim, however, still regards the lettering as post-Flavian; it is indeed not quite standard in form for the Flavian period, but it is often the case that the lettering of captions is not quite standard for their period, since they were cut, commonly, by the sculptors rather than by professional letterers.</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Basilica</rs>: during excavation</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Basilica</rs>: during excavation</provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -73,15 +67,32 @@ probably Flavian (<rs type="criteria">lettering</rs>, <rs type="criteria">sculpt
             <language ident="en">English</language>
             <language ident="grc">Ancient Greek</language>
          </langUsage>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-24" who="cmr">DONE</change>
          <change when="2007-03-24" who="Charlotte-Tupman">hand tidied</change>
          <change when="2007-03-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_J_30.jpg">
+            <desc>a (1978)</desc>
+         </graphic>
+         <graphic url="78_G_25.jpg">
+            <desc>b (1978)</desc>
+         </graphic>
+         <graphic url="78_J_28.jpg">
+            <desc>c. i (1978)</desc>
+         </graphic>
+         <graphic url="78_J_29.jpg">
+            <desc>c.ii (1978)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

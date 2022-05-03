@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>65.435</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> apparently in a single line on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> apparently in a single line on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,18 +50,15 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <seg cert="low">Findspot</seg>.</rs>
-                     </origPlace>
-                     <origDate notBefore="0401" notAfter="0500" precision="medium">?Fifth century (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>).</origDate>
+                        <seg cert="low">Findspot</seg>.</origPlace>
+                     <origDate notBefore="0401"
+                               notAfter="0500"
+                               precision="medium"
+                               evidence="lettering content">?Fifth century (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church, North Temenos Building</rs>.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1977">
-                     <rs type="lastLocation">Museum (1977).</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church, North Temenos Building</rs>.</provenance>
+                  <provenance type="observed" when="1977">Museum (1977).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,9 +93,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcriptions (Reynolds, Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-24" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -110,6 +105,34 @@
          <change when="2003-08-20" who="#CMR">tagged and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="rosen023.jpg">
+            <desc>Fragments (1966)</desc>
+         </graphic>
+         <graphic url="rosen024.jpg">
+            <desc>Fragments (1966)</desc>
+         </graphic>
+         <graphic url="rosen030.jpg">
+            <desc>Fragments (1966)</desc>
+         </graphic>
+         <graphic url="77_I_01.jpg">
+            <desc>Fragments (1977)</desc>
+         </graphic>
+         <graphic url="77_I_02.jpg">
+            <desc>Fragments (1977)</desc>
+         </graphic>
+         <graphic url="77_I_03.jpg">
+            <desc>Fragments (1977)</desc>
+         </graphic>
+         <graphic url="77_I_04.jpg">
+            <desc>Fragments (1977)</desc>
+         </graphic>
+         <graphic url="77_I_07.jpg">
+            <desc>Fragment c. (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

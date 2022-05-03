@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -44,7 +41,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in central tabella (<width unit="metre">0.31</width> x <height unit="metre">0.40</height>), ll. 1-14 within it and l. 15 on its lower moulding, and on the lower rim (ll. 18-19). The text must have begun on the lid, which is lost. The surface has become more worn than in the 1934 photograph.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in central tabella (<width unit="metre">0.31</width> x <height unit="metre">0.40</height>), ll. 1-14 within it and l. 15 on its lower moulding, and on the lower rim (ll. 18-19). The text must have begun on the lid, which is lost. The surface has become more worn than in the 1934 photograph.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -54,20 +51,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown: probably Aphrodisias necropolis</rs>
-                     </origPlace>
-                     <origDate notBefore="0240" notAfter="0300">
+                     <origPlace>Unknown: probably Aphrodisias necropolis</origPlace>
+                     <origDate notBefore="0240"
+                               notAfter="0300"
+                               evidence="lettering stephanephoros">
  Middle to second half of the third century
  (<rs type="criteria">lettering</rs>, <rs type="criteria">stephanephoros</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Necropolis, North-east, Ata Eymir</rs>: ' beside a house' (MAMA)</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Necropolis, North-east, Ata Eymir</rs>: ' beside a house' (MAMA)</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,13 +92,24 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds); publication.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="90_C_07A.jpg">
+            <desc>Face (1990)</desc>
+         </graphic>
+         <graphic url="94_E_08A.jpg">
+            <desc>Face (1994)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

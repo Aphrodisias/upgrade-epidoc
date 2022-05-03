@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -46,7 +43,7 @@ upper edge.</p>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -64,19 +61,13 @@ upper edge.</p>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0293" notAfter="0311">A.D. 293-311 (<rs type="criteria">reign</rs>s).</origDate>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0293" notAfter="0311" evidence="reign">A.D. 293-311 (<rs type="criteria">reign</rs>s).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, North-east</rs>: re-used in the wall at the north-east corner of
-the Stadium. .</rs>
-                  </provenance>
-                  <provenance type="observed" when="1975">
-                     <rs type="lastLocation">Findspot (1975).</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, North-east</rs>: re-used in the wall at the north-east corner of
+the Stadium. .</provenance>
+                  <provenance type="observed" when="1975">Findspot (1975).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -108,9 +99,11 @@ the Stadium. .</rs>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription
+(Roueché); Reichel notebook; publication.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-16" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-01-16" who="#CMR">tidied; image refs</change>
@@ -122,6 +115,25 @@ the Stadium. .</rs>
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="75_C_19.jpg">
+            <desc>Front face (1975)</desc>
+         </graphic>
+         <graphic url="75_C_20.jpg">
+            <desc>Front face (1975)</desc>
+         </graphic>
+         <graphic url="75_C_21.jpg">
+            <desc>View in situ (1975)</desc>
+         </graphic>
+         <graphic url="81_F_34.jpg">
+            <desc>Squeeze</desc>
+         </graphic>
+         <graphic url="R_I_12.jpg">
+            <desc> Reichel notebook I, page 12 (1893)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

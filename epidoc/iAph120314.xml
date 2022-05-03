@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -51,21 +48,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0081" notAfter="0096">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0081" notAfter="0096" evidence="titulature">
 A.D. 81/96
 <rs type="criteria">titulature</rs>
                      </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, East (south part)</rs>:due east of the dighouse, near <ref type="inscription" n="1497" target="120309.xml"/>, <ref type="inscription" n="112" target="120328.xml"/> (=MAMA 407, 428).</rs>
-                  </provenance>
-                  <provenance type="observed" when="1973">
-                     <rs type="lastLocation">Findspot (1973)</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, East (south part)</rs>:due east of the dighouse, near <ref type="inscription" n="1497" target="120309.xml"/>, <ref type="inscription" n="112" target="120328.xml"/> (=MAMA 407, 428).</provenance>
+                  <provenance type="observed" when="1973">Findspot (1973)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -103,13 +94,21 @@ A.D. 81/96
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); Kubitschek squeeze; Gaudin's squeeze; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-30" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_X_17A.jpg">
+            <desc>a, upper left corner (1973)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

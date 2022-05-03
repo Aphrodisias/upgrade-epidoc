@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno>83.177</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the  face (area <width unit="metre">0.09</width> x <height unit="metre">0.15</height>).</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the  face (area <width unit="metre">0.09</width> x <height unit="metre">0.15</height>).</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">Second to third centuries A.D.
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">Second to third centuries A.D.
 
 (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">South Agora</rs>: in excavation of Propylon</rs>
-                  </provenance>
-                  <provenance type="observed" when="1983">
-                     <rs type="lastLocation">Dighouse yard (1983)</rs>
-                  </provenance>
+                     <rs type="monuList">South Agora</rs>: in excavation of Propylon</provenance>
+                  <provenance type="observed" when="1983">Dighouse yard (1983)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,12 +91,23 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds) </creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-06" who="GB">DONE</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="83_B_31A.jpg">
+            <desc>Face (1983)</desc>
+         </graphic>
+         <graphic url="83_B_32A.jpg">
+            <desc>Face (1983)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

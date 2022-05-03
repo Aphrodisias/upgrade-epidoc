@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face of each capital.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face of each capital.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,18 +49,15 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <seg cert="low">An unidentified church</seg>.</rs>
-                     </origPlace>
-                     <origDate notBefore="0401" notAfter="0600" precision="medium">Fifth to sixth centuries (<rs type="criteria">monogram</rs>).</origDate>
+                        <seg cert="low">An unidentified church</seg>.</origPlace>
+                     <origDate notBefore="0401"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="monogram">Fifth to sixth centuries (<rs type="criteria">monogram</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="Triconch">Martyrion</rs>, re-used.</rs>
-                  </provenance>
-                  <provenance type="observed" when="2004">
-                     <rs type="lastLocation">Museum (2004)</rs>
-                  </provenance>
+                     <rs type="monuList" key="Triconch">Martyrion</rs>, re-used.</provenance>
+                  <provenance type="observed" when="2004">Museum (2004)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,9 +92,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-10-27" who="#GB">Added CMR's revisions of text</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-29" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -111,6 +106,86 @@
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="72_H_01.jpg">
+            <desc>i. Face (1972)</desc>
+         </graphic>
+         <graphic url="73_P_24A.jpg">
+            <desc>i. Face (1973)</desc>
+         </graphic>
+         <graphic url="DSCN0128.jpg">
+            <desc>i. right side (2004)</desc>
+         </graphic>
+         <graphic url="DSCN0129.jpg">
+            <desc>i. face
+(2004)</desc>
+         </graphic>
+         <graphic url="DSCN0130.jpg">
+            <desc>i. left side (2004)</desc>
+         </graphic>
+         <graphic url="DSCN0132.jpg">
+            <desc>i. back
+(2004)</desc>
+         </graphic>
+         <graphic url="DSCN0141.jpg">
+            <desc>i. detail (2004)</desc>
+         </graphic>
+         <graphic url="DSCN0127.jpg">
+            <desc>i. face
+(2004)</desc>
+         </graphic>
+         <graphic url="DSCN0133.jpg">
+            <desc>ii. back (2004)</desc>
+         </graphic>
+         <graphic url="DSCN0134.jpg">
+            <desc>ii. right side
+(2004)</desc>
+         </graphic>
+         <graphic url="DSCN0135.jpg">
+            <desc>ii. centre (2004)</desc>
+         </graphic>
+         <graphic url="DSCN0136.jpg">
+            <desc>ii. detail
+(2004)</desc>
+         </graphic>
+         <graphic url="DSCN0137.jpg">
+            <desc>iii. left (2004)</desc>
+         </graphic>
+         <graphic url="DSCN0138.jpg">
+            <desc>iii. back
+(2004)</desc>
+         </graphic>
+         <graphic url="DSCN0139.jpg">
+            <desc>iii. centre (2004)</desc>
+         </graphic>
+         <graphic url="DSCN0140.jpg">
+            <desc>iii. detail
+(2004)</desc>
+         </graphic>
+         <graphic url="DSCN0123.jpg">
+            <desc>iv. Right face
+(2004)</desc>
+         </graphic>
+         <graphic url="DSCN0124.jpg">
+            <desc>iv. Face (2004)</desc>
+         </graphic>
+         <graphic url="DSCN0125.jpg">
+            <desc>iv. left side
+(2004)</desc>
+         </graphic>
+         <graphic url="DSCN0126.jpg">
+            <desc>iv. back (2004)</desc>
+         </graphic>
+         <graphic url="DSCN0142.jpg">
+            <desc>iv. detail
+(2004)</desc>
+         </graphic>
+         <graphic url="monog-ala101.jpg">
+            <desc>Drawing of Monogram (i-iii)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

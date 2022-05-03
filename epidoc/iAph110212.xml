@@ -32,9 +32,6 @@
                   <idno>66.234</idno>
                   <idno>64.242</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -46,7 +43,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face next to the figures. Numbers for fitting the blocks survive (<height unit="metre">0.02</height>-<height unit="metre">0.03</height>) normally on the upper face of the blocks, but in some cases on the face. </layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face next to the figures. Numbers for fitting the blocks survive (<height unit="metre">0.02</height>-<height unit="metre">0.03</height>) normally on the upper face of the blocks, but in some cases on the face. </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -57,19 +54,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0067" notAfter="0100" precision="medium"> Late first century A.D. (<rs type="criteria">career</rs>, <rs type="criteria">sculpture</rs>, <rs type="criteria">lettering</rs>)</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0067"
+                               notAfter="0100"
+                               precision="medium"
+                               evidence="career sculpture lettering"> Late first century A.D. (<rs type="criteria">career</rs>, <rs type="criteria">sculpture</rs>, <rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, Water Channel Area</rs>
-                     </rs>
+                     <rs type="monuList">City, Water Channel Area</rs>
                   </provenance>
-                  <provenance type="observed" when="1989">
-                     <rs type="lastLocation">Museum, reassembled (1989)</rs>
-                  </provenance>
+                  <provenance type="observed" when="1989">Museum, reassembled (1989)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -101,15 +95,29 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-24" who="cmr">DONE</change>
          <change when="2007-01-11" who="Charlotte-Tupman">tidied</change>
          <change when="2005-07-28" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="80_G_30.jpg">
+            <desc>9, Face (1980)</desc>
+         </graphic>
+         <graphic url="80_A_14.jpg">
+            <desc>8, Face (1980)</desc>
+         </graphic>
+         <graphic url="89_C_23.jpg">
+            <desc>14, Face (1989)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

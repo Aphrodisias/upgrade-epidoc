@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on moulding (l. 1) and on drum (ll. 2 ff.).</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on moulding (l. 1) and on drum (ll. 2 ff.).</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,18 +47,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot.</rs>
-                     </origPlace>
-                     <origDate notBefore="0388" notAfter="0392">A.D. 388/392 (<rs type="criteria">emperor</rs>, <rs type="criteria">prosopography</rs>).</origDate>
+                     <origPlace>Findspot.</origPlace>
+                     <origDate notBefore="0388" notAfter="0392" evidence="emperor prosopography">A.D. 388/392 (<rs type="criteria">emperor</rs>, <rs type="criteria">prosopography</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">South Agora</rs>: west portico: '<foreign xml:lang="fr">Galerie de l'Est. À gauche de la porte centrale</foreign>' (Boulanger). Found by the NYU expedition lying, apparently displaced, in the west portico of the South Agora, to the south of the steps which descend from the east court of the baths to the portico, and mark its central point. .</rs>
-                  </provenance>
-                  <provenance type="observed" when="1994">
-                     <rs type="lastLocation">Findspot (1994).</rs>
-                  </provenance>
+                     <rs type="monuList">South Agora</rs>: west portico: '<foreign xml:lang="fr">Galerie de l'Est. À gauche de la porte centrale</foreign>' (Boulanger). Found by the NYU expedition lying, apparently displaced, in the west portico of the South Agora, to the south of the steps which descend from the east court of the baths to the portico, and mark its central point. .</provenance>
+                  <provenance type="observed" when="1994">Findspot (1994).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -101,9 +92,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcriptions (Boulanger, Roueché); publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-22" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-01-23" who="#CMR">tidied; image refs</change>
@@ -116,6 +108,38 @@
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="75_C_03.jpg">
+            <desc>View (1975)</desc>
+         </graphic>
+         <graphic url="NY_pr_077.jpg">
+            <desc>View (1965)</desc>
+         </graphic>
+         <graphic url="NY_94_57_04.jpg">
+            <desc>Face (1994)</desc>
+         </graphic>
+         <graphic url="NY_94_57_08.jpg">
+            <desc>Left side (1994)</desc>
+         </graphic>
+         <graphic url="NY_94_57_07.jpg">
+            <desc>Right side  (1994)</desc>
+         </graphic>
+         <graphic url="NY_94_57_05.jpg">
+            <desc>Top of base (1994)
+</desc>
+         </graphic>
+         <graphic url="Boulanger_A_51.jpg">
+            <desc>Boulanger, Notebook A, page 51</desc>
+         </graphic>
+         <graphic url="72_O_31.jpg">
+            <desc>Squeeze (1972)</desc>
+         </graphic>
+         <graphic url="smith-ala26.jpg">
+            <desc>Statue and base: Drawing: K.Gorkay, from Smith (1999)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

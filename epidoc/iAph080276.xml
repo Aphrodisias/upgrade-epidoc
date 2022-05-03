@@ -30,9 +30,6 @@
                   <idno>70.224</idno>
                   <idno>79.190</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -45,7 +42,7 @@ is lost to the left—the total surviving W. <height>1.50</height>.</p>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in one line along the uppermost fascia of the
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in one line along the uppermost fascia of the
 moulding, which is chipped away above.</layout>
                      </layoutDesc>
                   </objectDesc>
@@ -57,19 +54,16 @@ moulding, which is chipped away above.</layout>
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <seg cert="low">An unidentified church</seg>.</rs>
-                     </origPlace>
-                     <origDate notBefore="0801" notAfter="1000" precision="medium">Ninth to tenth centuries A.D. (<rs type="criteria">lettering</rs>, <rs type="criteria">metre</rs>)</origDate>
+                        <seg cert="low">An unidentified church</seg>.</origPlace>
+                     <origDate notBefore="0801"
+                               notAfter="1000"
+                               precision="medium"
+                               evidence="lettering metre">Ninth to tenth centuries A.D. (<rs type="criteria">lettering</rs>, <rs type="criteria">metre</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">One block found during the excavation of the <rs type="monuList" key="Theatre">Theatre</rs> in
+                  <provenance type="found">One block found during the excavation of the <rs type="monuList" key="Theatre">Theatre</rs> in
 <date value="1969" notBefore="1969" notAfter="1969" exact="both">1969</date>, another a stray find in <date value="1970" notBefore="1970" notAfter="1970" exact="both">1970</date>, a third excavated in the
-<rs type="monuList" key="Sebasteion">Sebasteion</rs> portico in <date value="1979" notBefore="1979" notAfter="1979" exact="both">1979</date>.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum.</rs>
-                  </provenance>
+<rs type="monuList" key="Sebasteion">Sebasteion</rs> portico in <date value="1979" notBefore="1979" notAfter="1979" exact="both">1979</date>.</provenance>
+                  <provenance type="observed">Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -104,9 +98,10 @@ moulding, which is chipped away above.</layout>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-29" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -118,6 +113,22 @@ moulding, which is chipped away above.</layout>
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="80_C_26.jpg">
+            <desc>Left end fragment (1980)</desc>
+         </graphic>
+         <graphic url="77_Y_33.jpg">
+            <desc>Centre fragment (1977)</desc>
+         </graphic>
+         <graphic url="77_Y_34.jpg">
+            <desc>Right end fragment (1977)</desc>
+         </graphic>
+         <graphic url="80_H_20.jpg">
+            <desc>Fragments 1 and 2 together (1980)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

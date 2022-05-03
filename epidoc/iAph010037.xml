@@ -40,9 +40,6 @@
                   <idno>63.637</idno>
                   <idno>64.129</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -61,18 +58,15 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Temple/Church</rs>.</rs>
-                     </origPlace>
-                     <origDate notBefore="0901" notAfter="1000" precision="medium">Tenth century A.D. (<rs type="criteria">architecture</rs>, <rs type="criteria">terminology</rs>)</origDate>
+                        <rs type="monuList">Temple/Church</rs>.</origPlace>
+                     <origDate notBefore="0901"
+                               notAfter="1000"
+                               precision="medium"
+                               evidence="architecture terminology">Tenth century A.D. (<rs type="criteria">architecture</rs>, <rs type="criteria">terminology</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: various locations, over several years.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum.</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: various locations, over several years.</provenance>
+                  <provenance type="observed">Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -107,9 +101,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-29" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -121,6 +116,100 @@
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="DO_02.jpg">
+            <desc>a. Fragment 1 (1969)</desc>
+         </graphic>
+         <graphic url="DO_01.jpg">
+            <desc>a. Fragment 1, underside (1969)</desc>
+         </graphic>
+         <graphic url="DO_03.jpg">
+            <desc>a. Fragment 2 (1969)</desc>
+         </graphic>
+         <graphic url="DO_04.jpg">
+            <desc>a. Fragment 2, underside (1969)</desc>
+         </graphic>
+         <graphic url="DO_05.jpg">
+            <desc>a. Fragment 3 (1969)</desc>
+         </graphic>
+         <graphic url="DO_06.jpg">
+            <desc>a. Fragment 3, underside (1969)</desc>
+         </graphic>
+         <graphic url="DO_07.jpg">
+            <desc>a. Fragment 4 (1969)</desc>
+         </graphic>
+         <graphic url="DO_09.jpg">
+            <desc>a. Fragment 5 (1969)</desc>
+         </graphic>
+         <graphic url="DO_11.jpg">
+            <desc>a. Fragment 6 (1969)</desc>
+         </graphic>
+         <graphic url="DO_12.jpg">
+            <desc>b. Fragment 1 (1969)</desc>
+         </graphic>
+         <graphic url="DO_13.jpg">
+            <desc>b. Fragment 1, underside (1969)</desc>
+         </graphic>
+         <graphic url="DO_15.jpg">
+            <desc>b. Fragment 3 (1969)</desc>
+         </graphic>
+         <graphic url="DO_14.jpg">
+            <desc>b. Fragment 3, underside (1969)</desc>
+         </graphic>
+         <graphic url="DO_17.jpg">
+            <desc>b. Fragment 4 (1969)</desc>
+         </graphic>
+         <graphic url="DO_16.jpg">
+            <desc>b. Fragment 4, underside (1969)</desc>
+         </graphic>
+         <graphic url="72_D_08A.jpg">
+            <desc>b. Assembled, left end (1972)</desc>
+         </graphic>
+         <graphic url="72_D_09A.jpg">
+            <desc>b. Assembled, right end (1972)</desc>
+         </graphic>
+         <graphic url="DO_19.jpg">
+            <desc>c. Fragment 1 (1969)</desc>
+         </graphic>
+         <graphic url="DO_18.jpg">
+            <desc>c. Fragment 1, underside (1969)</desc>
+         </graphic>
+         <graphic url="DO_20.jpg">
+            <desc>c. Fragment 2 (1969)</desc>
+         </graphic>
+         <graphic url="DO_23.jpg">
+            <desc>c. Fragment 3 (1969)</desc>
+         </graphic>
+         <graphic url="DO_22.jpg">
+            <desc>c. Fragment 3, underside (1969)</desc>
+         </graphic>
+         <graphic url="72_D_07A.jpg">
+            <desc>c. Assembled (1972)</desc>
+         </graphic>
+         <graphic url="DO_24.jpg">
+            <desc>d. Face (1969)</desc>
+         </graphic>
+         <graphic url="DO_25.jpg">
+            <desc>e. Face (1969)</desc>
+         </graphic>
+         <graphic url="DO_26.jpg">
+            <desc>f. Face (1969)</desc>
+         </graphic>
+         <graphic url="DO_27.jpg">
+            <desc>g. Face (1969)</desc>
+         </graphic>
+         <graphic url="DO_28.jpg">
+            <desc>g. Underside (1969)</desc>
+         </graphic>
+         <graphic url="rosen002.jpg">
+            <desc>i. Face (1966)</desc>
+         </graphic>
+         <graphic url="78_C_11.jpg">
+            <desc>j. Face (1978)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

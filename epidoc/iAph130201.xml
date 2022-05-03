@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout> i. a. <rs type="execution" key="scalpro">inscribed</rs> on the lid, (length 2.09); i. b on the <rs type="decoration">tabella</rs>, impinging on the moulding (<width unit="metre">0.29</width> x <height unit="metre">0.41</height>), l. 1 on upper moulding, ll. 17-18 on lower moulding; i. c on the projections. On one of the vertical projections an earlier text has been erased and ii has been added..]</layout>
+                        <layout> i. a. <rs type="execution" ref="scalpro">inscribed</rs> on the lid, (length 2.09); i. b on the <rs type="decoration">tabella</rs>, impinging on the moulding (<width unit="metre">0.29</width> x <height unit="metre">0.41</height>), l. 1 on upper moulding, ll. 17-18 on lower moulding; i. c on the projections. On one of the vertical projections an earlier text has been erased and ii has been added..]</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot</rs>
-                     </origPlace>
-                     <origDate notBefore="0201" notAfter="0250" precision="medium">
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0201"
+                               notAfter="0250"
+                               precision="medium"
+                               evidence="lettering nomenclature">
 For i. perhaps the  first half of the third century
  (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>); ii. presumably relates to a secondary use at a later date.</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Necropolis, North-east, Ata Eymir</rs>: in a tomb</rs>
-                  </provenance>
-                  <provenance type="observed" when="1994">
-                     <rs type="lastLocation">Museum (1994)</rs>
-                  </provenance>
+                     <rs type="monuList">Necropolis, North-east, Ata Eymir</rs>: in a tomb</provenance>
+                  <provenance type="observed" when="1994">Museum (1994)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,13 +91,27 @@ For i. perhaps the  first half of the third century
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-04" who="GB">DONE</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="94_D_32.jpg">
+            <desc>Sarcophagus (1994)</desc>
+         </graphic>
+         <graphic url="94_D_34.jpg">
+            <desc>Sarcophagus (1994)</desc>
+         </graphic>
+         <graphic url="94_D_35.jpg">
+            <desc>Sarcophagus (1994)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

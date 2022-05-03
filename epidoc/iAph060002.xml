@@ -29,9 +29,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the upper of three fasciae, average <height unit="metre">0.0145</height>; there is a simple moulding above the upper fascia.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the upper of three fasciae, average <height unit="metre">0.0145</height>; there is a simple moulding above the upper fascia.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,19 +48,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Ten fragments cetainly, four probably and one possibly come from the West colonnade of the <rs type="monuList">Basilica</rs>; it is unlikely but not quite excluded that some pieces came from the East colonnade.</rs>
-                     </origPlace>
-                     <origDate notBefore="0069" notAfter="0096">
+                     <origPlace>Ten fragments cetainly, four probably and one possibly come from the West colonnade of the <rs type="monuList">Basilica</rs>; it is unlikely but not quite excluded that some pieces came from the East colonnade.</origPlace>
+                     <origDate notBefore="0069"
+                               notAfter="0096"
+                               evidence="probable reign architecture lettering">
 Flavian, A.D. 79-96
 (<rs type="criteria">probable reign</rs>, <rs type="criteria">architecture</rs>, <rs type="criteria">lettering</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found"> a-k at various points during excavation of the eastern part of the <rs type="monuList">Basilica</rs>; l and p 'Geyre, Südseite (Kubitschek); l, m, n and o beside the path along the south-west side of the Acropolis, quite close to the martyrion.</rs>
-                  </provenance>
-                  <provenance type="observed" when="2006">
-                     <rs type="lastLocation">a-k, l-m on site in the Basilica; n, o, p, in fields to east of Basilica (2006)</rs>
-                  </provenance>
+                  <provenance type="found"> a-k at various points during excavation of the eastern part of the <rs type="monuList">Basilica</rs>; l and p 'Geyre, Südseite (Kubitschek); l, m, n and o beside the path along the south-west side of the Acropolis, quite close to the martyrion.</provenance>
+                  <provenance type="observed" when="2006">a-k, l-m on site in the Basilica; n, o, p, in fields to east of Basilica (2006)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,14 +92,67 @@ Flavian, A.D. 79-96
                </term>
             </keywords>
          </textClass>
+         <creation>Kubitschek notebook; Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-17" who="cmr">DONE</change>
          <change when="2007-01-30" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_E_26A.jpg">
+            <desc>Fragment a (1978)</desc>
+         </graphic>
+         <graphic url="78_E_27A.jpg">
+            <desc>Fragment b (1978)</desc>
+         </graphic>
+         <graphic url="77_W_13.jpg">
+            <desc>Fragment c (1977)</desc>
+         </graphic>
+         <graphic url="78_E_35A.jpg">
+            <desc>Fragment c (1978)</desc>
+         </graphic>
+         <graphic url="78_E_33A.jpg">
+            <desc>Fragment d (1978)</desc>
+         </graphic>
+         <graphic url="78_E_32A.jpg">
+            <desc>Fragment e (1978)</desc>
+         </graphic>
+         <graphic url="78_E_29A.jpg">
+            <desc>Fragment f (1978)</desc>
+         </graphic>
+         <graphic url="78_E_30A.jpg">
+            <desc>Fragment g (1978)</desc>
+         </graphic>
+         <graphic url="78_E_28A.jpg">
+            <desc>Fragment h (1978)</desc>
+         </graphic>
+         <graphic url="78_E_34A.jpg">
+            <desc>Fragment k (1978)</desc>
+         </graphic>
+         <graphic url="78_E_31A.jpg">
+            <desc>Fragment j (1978)</desc>
+         </graphic>
+         <graphic url="73_Y_16.jpg">
+            <desc>Fragment m. (1973)</desc>
+         </graphic>
+         <graphic url="80_F_01.jpg">
+            <desc>Fragment m. (1980)</desc>
+         </graphic>
+         <graphic url="2001_A_24.jpg">
+            <desc>Fragment m. (2001)</desc>
+         </graphic>
+         <graphic url="2001_A_25.jpg">
+            <desc>Fragment m. (2001)</desc>
+         </graphic>
+         <graphic url="K_III_26.jpg">
+            <desc>l and p: Kubitschek notebook III.26</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

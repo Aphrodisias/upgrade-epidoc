@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the central <rs type="decoration">tabella</rs> (<width unit="metre">0.44</width> x <height unit="metre">0.48</height>), l.1, on the upper moulding, ll. 2 ff. in the tabella impinging on all its mouldings. The lower moulding of the sarcophagus has been damaged, and may once have carried the concluding phrases of the funerary formulae which are missing here.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the central <rs type="decoration">tabella</rs> (<width unit="metre">0.44</width> x <height unit="metre">0.48</height>), l.1, on the upper moulding, ll. 2 ff. in the tabella impinging on all its mouldings. The lower moulding of the sarcophagus has been damaged, and may once have carried the concluding phrases of the funerary formulae which are missing here.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,19 +48,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot</rs>
-                     </origPlace>
-                     <origDate notBefore="0201" notAfter="0250" precision="medium">
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0201"
+                               notAfter="0250"
+                               precision="medium"
+                               evidence="lettering nomenclature spelling">
 Probably  first half of the third century
  (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>, <rs type="criteria">spelling</rs>).</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">In <rs type="monuList">Necropolis, North-east</rs> chamber tomb, with <ref type="inscription" n="1445" target="130111.xml"/> (=410), <ref type="inscription" n="1447" target="130109.xml"/> (=412), <ref type="inscription" n="1448" target="130110.xml"/> (=414), <ref type="inscription" n="1449" target="130101.xml"/> (=415).</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                  <provenance type="found">In <rs type="monuList">Necropolis, North-east</rs> chamber tomb, with <ref type="inscription" n="1445" target="130111.xml"/> (=410), <ref type="inscription" n="1447" target="130109.xml"/> (=412), <ref type="inscription" n="1448" target="130110.xml"/> (=414), <ref type="inscription" n="1449" target="130101.xml"/> (=415).</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,13 +92,21 @@ Probably  first half of the third century
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-04" who="GB">DONE</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="94_C_09.jpg">
+            <desc>Sarcophagus (1994)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

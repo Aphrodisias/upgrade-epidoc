@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>74.198</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@ otherwise, all sides are broken. b is made up of two joining pieces.</p>
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on two faces.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on two faces.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,18 +48,15 @@ otherwise, all sides are broken. b is made up of two joining pieces.</p>
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown; probably findspot.</rs>
-                     </origPlace>
-                     <origDate notBefore="0434" notAfter="0467" precision="medium">Face 2 perhaps mid fifth century (<rs type="criteria">prosopography</rs>).</origDate>
+                     <origPlace>Unknown; probably findspot.</origPlace>
+                     <origDate notBefore="0434"
+                               notAfter="0467"
+                               precision="medium"
+                               evidence="prosopography">Face 2 perhaps mid fifth century (<rs type="criteria">prosopography</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="ThBaths">Theatre Baths</rs>: south Aula Thermale, stratum 2, trench 3, at floor level.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1977">
-                     <rs type="lastLocation">Museum (1977).</rs>
-                  </provenance>
+                     <rs type="monuList" key="ThBaths">Theatre Baths</rs>: south Aula Thermale, stratum 2, trench 3, at floor level.</provenance>
+                  <provenance type="observed" when="1977">Museum (1977).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -94,9 +88,10 @@ otherwise, all sides are broken. b is made up of two joining pieces.</p>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcriptions (Reynolds, Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-24" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -105,6 +100,16 @@ otherwise, all sides are broken. b is made up of two joining pieces.</p>
          <change when="2003-08-20" who="#CMR">tagged and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_H_28A.jpg">
+            <desc>44.a.1 Face, with 74.198 a.2 (1977)</desc>
+         </graphic>
+         <graphic url="77_H_29A.jpg">
+            <desc>44.a.2 Face, with 74.198 b (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

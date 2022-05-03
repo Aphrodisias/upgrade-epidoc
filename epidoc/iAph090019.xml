@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>74.254</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -40,7 +37,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on two fasciae at the left end.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on two fasciae at the left end.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,21 +47,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Probably the <rs type="monuList" cert="low">Sebasteion</rs>
-                        </rs>
+                     <origPlace>Probably the <rs type="monuList" cert="low">Sebasteion</rs>
                      </origPlace>
-                     <origDate notBefore="0001" notAfter="0200">
+                     <origDate notBefore="0001" notAfter="0200" evidence="reign">
 First century A.D.
 (<rs type="criteria">reign</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, South (east part)</rs>: reused upside down, in the area excavated in 1974</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, South (east part)</rs>: reused upside down, in the area excavated in 1974</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,14 +90,25 @@ First century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Publications, notebooks, Preliminary transcription (Beard, Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-02-08" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_S_19.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="73_T_30.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

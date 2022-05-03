@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>76.20</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,21 +48,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0100" notAfter="0300">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0100" notAfter="0300" evidence="lettering content">
  Second to third centuries A.D.
 (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>)
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, South (east part)</rs> with <ref type="inscription" n="629" target="120621.xml"/> and <ref type="inscription" n="631" target="120615.xml"/> during excavation</rs>
-                  </provenance>
-                  <provenance type="observed" when="1976">
-                     <rs type="lastLocation">Museum (1976)</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, South (east part)</rs> with <ref type="inscription" n="629" target="120621.xml"/> and <ref type="inscription" n="631" target="120615.xml"/> during excavation</provenance>
+                  <provenance type="observed" when="1976">Museum (1976)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,13 +91,27 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcriptions (Reynolds, Roueché)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="76_A_14A.jpg">
+            <desc>Face (1976)</desc>
+         </graphic>
+         <graphic url="89_B_19.jpg">
+            <desc>Face (1989)</desc>
+         </graphic>
+         <graphic url="HS_3514.jpg">
+            <desc>Face (1990)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

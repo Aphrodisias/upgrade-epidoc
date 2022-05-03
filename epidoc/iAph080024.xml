@@ -48,9 +48,6 @@
                   <idno>76.196.2</idno>
                   <idno>76.196.12</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -69,20 +66,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot</rs>
-                     </origPlace>
+                     <origPlace>Findspot</origPlace>
                      <origDate notBefore="0101" notAfter="0300" precision="medium">
 Document; text: Second to third centuries A.D.
 </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Theatre</rs>: north end of west corner of north parodos</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot; fragments in Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Theatre</rs>: north end of west corner of north parodos</provenance>
+                  <provenance type="observed">Findspot; fragments in Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -92,14 +83,34 @@ Document; text: Second to third centuries A.D.
             <language ident="en">English</language>
             <language ident="grc">Ancient Greek</language>
          </langUsage>
+         <creation>Transcription (Reynolds); publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-27" who="Charlotte-Tupman">hand tidied</change>
          <change when="2007-03-15" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="NY_pr_085.jpg">
+            <desc>Lines 1-20, right end (1970)</desc>
+         </graphic>
+         <graphic url="77_M_14A.jpg">
+            <desc>Lines 1-20, right end (1977)</desc>
+         </graphic>
+         <graphic url="80_H_11.jpg">
+            <desc>Assembled fragments, lines 21-31, central part (1980)</desc>
+         </graphic>
+         <graphic url="76_H_26.jpg">
+            <desc>Lines 21-31, right end  (1976)</desc>
+         </graphic>
+         <graphic url="76_J_30A.jpg">
+            <desc>Lines 21-31, right end, detail  (1976)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

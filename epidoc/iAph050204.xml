@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -50,19 +47,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot.</rs>
-                     </origPlace>
-                     <origDate notBefore="0468" notAfter="0600" precision="medium">i. Second to third centuries A.D.
+                     <origPlace>Findspot.</origPlace>
+                     <origDate notBefore="0468"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="lettering">i. Second to third centuries A.D.
  (<rs type="criteria">lettering</rs>); ii. Late fifth/sixth century (language, lettering).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Hadrianic Baths, East court</rs>: 'Cour de l'E(st) face S.' (Boulanger, notebook A); 'Portique s(ud)' (notebook B). </rs>
-                  </provenance>
-                  <provenance type="observed" when="2004">
-                     <rs type="lastLocation">Hadrianic Baths: southern colonnade of the East Court (2004)</rs>
-                  </provenance>
+                     <rs type="monuList">Hadrianic Baths, East court</rs>: 'Cour de l'E(st) face S.' (Boulanger, notebook A); 'Portique s(ud)' (notebook B). </provenance>
+                  <provenance type="observed" when="2004">Hadrianic Baths: southern colonnade of the East Court (2004)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,9 +92,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Drew-Bear; Reynolds; Roueché); Boulanger notebooks; publication.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2004-06-09" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-24" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -111,6 +106,41 @@
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_E_25A.jpg">
+            <desc>Face i (1978)</desc>
+         </graphic>
+         <graphic url="78_K_01.jpg">
+            <desc>Face i (1978)</desc>
+         </graphic>
+         <graphic url="72_A_20A.jpg">
+            <desc>Text ii (1972)</desc>
+         </graphic>
+         <graphic url="NY_94_57_15.jpg">
+            <desc>View of base showing ii (1994)</desc>
+         </graphic>
+         <graphic url="DSCN0257.jpg">
+            <desc>Face ii and top
+(2004)</desc>
+         </graphic>
+         <graphic url="NY_94_57_14.jpg">
+            <desc>Top of base (1994)</desc>
+         </graphic>
+         <graphic url="Boulanger_A_58.jpg">
+            <desc>Transcription by Boulanger, Notebook A, 58</desc>
+         </graphic>
+         <graphic url="Boulanger_A_59.jpg">
+            <desc>Transcription by Boulanger, Notebook A, 59</desc>
+         </graphic>
+         <graphic url="Boulanger_B_07.jpg">
+            <desc>Transcription by Boulanger, Notebook B, 7</desc>
+         </graphic>
+         <graphic url="Boulanger_B_09.jpg">
+            <desc>Transcription by Boulanger, Notebook B, 9</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

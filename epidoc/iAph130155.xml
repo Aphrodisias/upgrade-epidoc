@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in the moulded central <rs type="decoration">tabella</rs>.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in the moulded central <rs type="decoration">tabella</rs>.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0234" notAfter="0300" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0234"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering nomenclature">
 Middle to late third century A.D.
  (<rs type="criteria">lettering</rs> and <rs type="criteria">nomenclature</rs>), but this inscription is probably secondary, since the sarcophagus was certainly intended for a husband and wife.</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Necropolis, North-east</rs>: 'Bagharassi, extra muros' (Gaudin); 'In a field 10 min east of the Heraclean gate' (MAMA)</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Necropolis, North-east</rs>: 'Bagharassi, extra muros' (Gaudin); 'In a field 10 min east of the Heraclean gate' (MAMA)</provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,14 +91,28 @@ Middle to late third century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds); publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-02-06" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="JMR_1_1968_032.jpg">
+            <desc>Face (1968)</desc>
+         </graphic>
+         <graphic url="73_X_25A.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="80_D_09.jpg">
+            <desc>View (1980)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

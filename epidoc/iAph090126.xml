@@ -30,9 +30,6 @@
                   <idno>83.161</idno>
                   <idno>84.181</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -47,7 +44,7 @@ below, and perhaps served a purpose similar to that of <ref type="inscription" n
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in one line on the outer edge, which has a slight
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in one line on the outer edge, which has a slight
 slope upwards.</layout>
                      </layoutDesc>
                   </objectDesc>
@@ -61,17 +58,14 @@ above the line; star-shaped stop.</handNote>
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <seg cert="low">An unidentified church</seg>.</rs>
-                     </origPlace>
-                     <origDate notBefore="1101" notAfter="1200" precision="medium">Twelfth century (<rs type="criteria">lettering</rs>).</origDate>
+                        <seg cert="low">An unidentified church</seg>.</origPlace>
+                     <origDate notBefore="1101"
+                               notAfter="1200"
+                               precision="medium"
+                               evidence="lettering">Twelfth century (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">A during excavation of the <rs type="monuList" key="Sebasteion">Sebasteion</rs>, b during excavation of the <rs type="monuList" key="Tetrapylon">Tetrapylon</rs>, c a stray find.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum.</rs>
-                  </provenance>
+                  <provenance type="found">A during excavation of the <rs type="monuList" key="Sebasteion">Sebasteion</rs>, b during excavation of the <rs type="monuList" key="Tetrapylon">Tetrapylon</rs>, c a stray find.</provenance>
+                  <provenance type="observed">Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -103,9 +97,10 @@ above the line; star-shaped stop.</handNote>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-29" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-02-25" who="#CMR">checked; image refs.</change>
@@ -116,6 +111,25 @@ above the line; star-shaped stop.</handNote>
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="85_E_24.jpg">
+            <desc>a: Face (1985)</desc>
+         </graphic>
+         <graphic url="85_A_09.jpg">
+            <desc>b: Face (1985)</desc>
+         </graphic>
+         <graphic url="85_B_20.jpg">
+            <desc>b: Underside (1985)</desc>
+         </graphic>
+         <graphic url="85_B_21.jpg">
+            <desc>c: Face (1985)</desc>
+         </graphic>
+         <graphic url="85_B_22.jpg">
+            <desc>c: Underside (1985)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

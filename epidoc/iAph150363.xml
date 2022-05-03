@@ -28,9 +28,6 @@
                   <repository>n/a</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -50,17 +47,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0568" notAfter="0633" precision="medium">Late sixth/early seventh century (<rs type="criteria">titulature</rs>, <rs type="criteria" cert="low">prosopography</rs>).</origDate>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0568"
+                               notAfter="0633"
+                               precision="medium"
+                               evidence="titulature prosopography">Late sixth/early seventh century (<rs type="criteria">titulature</rs>, <rs type="criteria" cert="low">prosopography</rs>).</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">In or near Aphrodisias: 'along the way' (Sherard).</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Unknown.</rs>
-                  </provenance>
+                  <provenance type="found">In or near Aphrodisias: 'along the way' (Sherard).</provenance>
+                  <provenance type="observed">Unknown.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -93,9 +87,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Sherard papers; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-24" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-01-10" who="#CMR">checked</change>
@@ -105,6 +100,9 @@
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

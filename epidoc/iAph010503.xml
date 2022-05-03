@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs>  on the lower fascia (<width unit="metre">0.51</width> × <height unit="metre">0.10</height>). The main text containing the decision must have been inscribed on a base below.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs>  on the lower fascia (<width unit="metre">0.51</width> × <height unit="metre">0.10</height>). The main text containing the decision must have been inscribed on a base below.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,18 +49,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0201" notAfter="0300" precision="medium">     Probably third century A.D. (<rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0201"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">     Probably third century A.D. (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">Just north of the <rs type="monuList">Tetrapylon</rs>
-                     </rs>
+                  <provenance type="found">Just north of the <rs type="monuList">Tetrapylon</rs>
                   </provenance>
-                  <provenance type="observed" when="1976">
-                     <rs type="lastLocation">Findspot (1976)</rs>
-                  </provenance>
+                  <provenance type="observed" when="1976">Findspot (1976)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,14 +89,28 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-01" who="#GB">DONE</change>
          <change when="2005-05-31" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="75_L_08.jpg">
+            <desc>Face (1975)</desc>
+         </graphic>
+         <graphic url="76_J_06A.jpg">
+            <desc>Inscribed capital (1976)</desc>
+         </graphic>
+         <graphic url="76_J_06Abis.jpg">
+            <desc>Re-use as column base (1976)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

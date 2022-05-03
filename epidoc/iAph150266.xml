@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the upper moulding of the left side, which is chiselled away to the left, and broken away to the right.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the upper moulding of the left side, which is chiselled away to the left, and broken away to the right.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,18 +48,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0050" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0001"
+                               notAfter="0050"
+                               precision="medium"
+                               evidence="lettering">
 First half of I cent. A.D. (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">Stray</rs>
-                  </provenance>
-                  <provenance type="observed" when="1990">
-                     <rs type="lastLocation">in Museum Garden (1990)</rs>
-                  </provenance>
+                  <provenance type="found">Stray</provenance>
+                  <provenance type="observed" when="1990">in Museum Garden (1990)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -94,13 +88,27 @@ First half of I cent. A.D. (<rs type="criteria">lettering</rs>)</origDate>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-04" who="GB">DONE</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="90_E_13.jpg">
+            <desc>Face (1990)</desc>
+         </graphic>
+         <graphic url="90_E_15.jpg">
+            <desc>Face and right side (1990)</desc>
+         </graphic>
+         <graphic url="90_E_14.jpg">
+            <desc>Detail (1990)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

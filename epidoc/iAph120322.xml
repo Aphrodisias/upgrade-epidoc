@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the exposed face within a moulded panel with narrow rebates along the right and lower edges. The upper edge is plain, and the opening of the text was presumably cut on the block which adjoined it above.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the exposed face within a moulded panel with narrow rebates along the right and lower edges. The upper edge is plain, and the opening of the text was presumably cut on the block which adjoined it above.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,19 +47,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown: Aphrodisias necropolis</rs>
-                     </origPlace>
-                     <origDate notBefore="0168" notAfter="0233" precision="medium">
+                     <origPlace>Unknown: Aphrodisias necropolis</origPlace>
+                     <origDate notBefore="0168"
+                               notAfter="0233"
+                               precision="medium"
+                               evidence="lettering">
 Later second to early third  century A.D. (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, East (south part)</rs>:on the inside face, very near <ref type="inscription" n="112" target="120328.xml"/> (=MAMA 428).</rs>
-                  </provenance>
-                  <provenance type="observed" when="1989">
-                     <rs type="lastLocation">Findspot (1989)</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, East (south part)</rs>:on the inside face, very near <ref type="inscription" n="112" target="120328.xml"/> (=MAMA 428).</provenance>
+                  <provenance type="observed" when="1989">Findspot (1989)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -94,15 +88,26 @@ Later second to early third  century A.D. (<rs type="criteria">lettering</rs>)</
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); publication.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-08-07" who="Eleonora-Litta">tidied expan</change>
          <change when="2007-02-20" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="89_C_25.jpg">
+            <desc>Face (1989)</desc>
+         </graphic>
+         <graphic url="89_C_26.jpg">
+            <desc>Face (1989)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

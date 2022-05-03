@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -49,19 +46,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0200" notAfter="0300">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0200" notAfter="0300" evidence="nomenclature">
 Second-third centuries A.D.
 (<rs type="criteria">nomenclature</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">There is no lemma. The preceding text was found by Sherard 'on the east side'; the subsequent ones are not from Aphrodisias.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1812">
-                     <rs type="lastLocation">Findspot (1812)</rs>
-                  </provenance>
+                  <provenance type="found">There is no lemma. The preceding text was found by Sherard 'on the east side'; the subsequent ones are not from Aphrodisias.</provenance>
+                  <provenance type="observed" when="1812">Findspot (1812)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -93,13 +84,21 @@ Second-third centuries A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Sherard papers; Deering; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="Deering_07.jpg">
+            <desc>Deering notebook, page 7</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -29,9 +29,6 @@
                   <idno>71.164b</idno>
                   <idno>71.172</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -40,7 +37,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout> i. <rs type="execution" key="scalpro">Inscribed</rs> in one line on the frieze. ii. <rs type="execution" key="pictura">Painted</rs> in red, on a white background. iii. inscribed on the face below the moulding.</layout>
+                        <layout> i. <rs type="execution" ref="scalpro">Inscribed</rs> in one line on the frieze. ii. <rs type="execution" ref="pictura">Painted</rs> in red, on a white background. iii. inscribed on the face below the moulding.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -49,18 +46,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Entablature of the stage buildings of the <rs type="monuList">Theatre</rs>, redeployed in a similar position in the second century</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0600">
+                     <origPlace>Entablature of the stage buildings of the <rs type="monuList">Theatre</rs>, redeployed in a similar position in the second century</origPlace>
+                     <origDate notBefore="0001" notAfter="0600" evidence="prosopography context">
 i. 28 B.C. (<rs type="criteria">prosopography</rs>); ii. &amp; iii. First – sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">In the area of the <rs type="monuList">Theatre</rs> stage</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Restored on the Theatre stage</rs>
-                  </provenance>
+                  <provenance type="found">In the area of the <rs type="monuList">Theatre</rs> stage</provenance>
+                  <provenance type="observed">Restored on the Theatre stage</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -101,9 +92,10 @@ i. 28 B.C. (<rs type="criteria">prosopography</rs>); ii. &amp; iii. First – si
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds, Roueché); publications</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-12" who="Charlotte-Tupman">tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
@@ -112,6 +104,37 @@ i. 28 B.C. (<rs type="criteria">prosopography</rs>); ii. &amp; iii. First – si
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_Z_16.jpg">
+            <desc>i., left end (1973)</desc>
+         </graphic>
+         <graphic url="73_Z_20.jpg">
+            <desc>i. left end (1973)</desc>
+         </graphic>
+         <graphic url="73_Z_17.jpg">
+            <desc>i., centre and right (1973)</desc>
+         </graphic>
+         <graphic url="73_Z_18.jpg">
+            <desc>i., assembled  (1973)</desc>
+         </graphic>
+         <graphic url="75_C_13.jpg">
+            <desc>ii. face (1975)</desc>
+         </graphic>
+         <graphic url="HS_3482.jpg">
+            <desc>ii. face in situ (2000)</desc>
+         </graphic>
+         <graphic url="Aph2004_122.jpg">
+            <desc>ii, showing location at south end of skene (2004)</desc>
+         </graphic>
+         <graphic url="85_B_14.jpg">
+            <desc>iii. face (1985)</desc>
+         </graphic>
+         <graphic url="85_B_15.jpg">
+            <desc>iii. closeup (1985)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

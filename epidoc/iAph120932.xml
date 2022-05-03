@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -48,19 +45,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="201" notAfter="300">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="201" notAfter="300" evidence="terminology comparanda">
      Third century A.D. (<rs type="criteria">terminology</rs>, <rs type="criteria">comparanda</rs>) </origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, West</rs>: central western stretch, near <ref type="inscription" n="659" target="120925.xml"/> (=CIG 2763) and <ref type="inscription" n="663" target="120929.xml"/> (CIG 2765).</rs>
-                  </provenance>
-                  <provenance type="observed" when="1716">
-                     <rs type="lastLocation">Findspot (1716)</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, West</rs>: central western stretch, near <ref type="inscription" n="659" target="120925.xml"/> (=CIG 2763) and <ref type="inscription" n="663" target="120929.xml"/> (CIG 2765).</provenance>
+                  <provenance type="observed" when="1716">Findspot (1716)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -92,14 +83,18 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Publications; Sherard papers</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-09" who="&#xA;-----cmr&#xA;----">DONE</change>
          <change when="2005-12-13" who="&#xA;-----Elliott-Hall&#xA;----">Batch converted Word2XML</change>
          <change when="2007-01-01" who="&#xA;-----GB&#xA;----">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface/>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

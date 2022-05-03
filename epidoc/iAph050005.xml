@@ -29,9 +29,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in a single line on one fascia.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in a single line on one fascia.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">From the entablature of the west portico (i) and the east portico (ii a and b) of the East court of the <rs type="monuList">Hadrianic Baths</rs>: i. 'Elle est gravée une seule fois et sous une forme abrégée sur le portique de l'Ouest, interrompu par le grand arc'; ii. "Elle est rejetée sur les 2. sect. du portique E. de part et d'autre de la porte centrale"</rs>
-                     </origPlace>
-                     <origDate notBefore="0117" notAfter="0138">
+                     <origPlace>From the entablature of the west portico (i) and the east portico (ii a and b) of the East court of the <rs type="monuList">Hadrianic Baths</rs>: i. 'Elle est gravée une seule fois et sous une forme abrégée sur le portique de l'Ouest, interrompu par le grand arc'; ii. "Elle est rejetée sur les 2. sect. du portique E. de part et d'autre de la porte centrale"</origPlace>
+                     <origDate notBefore="0117" notAfter="0138" evidence="reign">
 A.D. 117/138
 (<rs type="criteria">reign</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">In the east court of the <rs type="monuList">Hadrianic Baths</rs>
-                     </rs>
+                  <provenance type="found">In the east court of the <rs type="monuList">Hadrianic Baths</rs>
                   </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">In various locations in the east court of the Hadrianic Baths</rs>
-                  </provenance>
+                  <provenance type="observed">In various locations in the east court of the Hadrianic Baths</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -104,12 +95,26 @@ A.D. 117/138
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds); Boulanger; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_L_08.jpg">
+            <desc>Fragment (1978)</desc>
+         </graphic>
+         <graphic url="Boulanger_A_01.jpg">
+            <desc>Boulanger notebook A, page 1: Fair copy</desc>
+         </graphic>
+         <graphic url="Boulanger_A_02.jpg">
+            <desc>Boulanger notebook A, page 2: Note of divisions</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

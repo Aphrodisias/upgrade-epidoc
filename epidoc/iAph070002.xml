@@ -30,9 +30,6 @@
                   <idno>62.437</idno>
                   <idno>69.360</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -45,7 +42,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in one line along the slightly concave edge (<height unit="metre">0.16</height>).</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in one line along the slightly concave edge (<height unit="metre">0.16</height>).</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -56,18 +53,12 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList" cert="low">Martyrion</rs> or <rs type="monuList" cert="low">Temple/Church</rs>?</rs>
-                     </origPlace>
+                        <rs type="monuList" cert="low">Martyrion</rs> or <rs type="monuList" cert="low">Temple/Church</rs>?</origPlace>
                      <origDate notBefore="0501" notAfter="0600" precision="medium">Sixth century A.D., or later</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">a. <rs key="Triconch" type="monuList">Martyrion</rs>: section 5, south wall. b. '<foreign xml:lang="fr">narthex, côté nord</foreign>' <seg cert="low">of the Temple</seg> (Gaudin); found in the <rs type="monuList">Temple/Church</rs> by the NYU expedition (1961: notebook 4, 15); c: '<foreign xml:lang="de">
-                           <rs type="monuList" reg="Village">Geira</rs>, Haus des Ishiklar, hoch oben eingemauert</foreign>' (Kubitschek), 'in a house wall' (<title level="s">MAMA</title>), stray find (NYU).</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum.</rs>
-                  </provenance>
+                  <provenance type="found">a. <rs key="Triconch" type="monuList">Martyrion</rs>: section 5, south wall. b. '<foreign xml:lang="fr">narthex, côté nord</foreign>' <seg cert="low">of the Temple</seg> (Gaudin); found in the <rs type="monuList">Temple/Church</rs> by the NYU expedition (1961: notebook 4, 15); c: '<foreign xml:lang="de">
+                        <rs type="monuList" reg="Village">Geira</rs>, Haus des Ishiklar, hoch oben eingemauert</foreign>' (Kubitschek), 'in a house wall' (<title level="s">MAMA</title>), stray find (NYU).</provenance>
+                  <provenance type="observed">Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -104,9 +95,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Publications; Kubitschek and Reichel notebooks; transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-29" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -117,6 +109,31 @@
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_Y_31.jpg">
+            <desc>A: Left end (1977)</desc>
+         </graphic>
+         <graphic url="77_Y_30.jpg">
+            <desc>A: Right end (1977)</desc>
+         </graphic>
+         <graphic url="72_D_20A.jpg">
+            <desc>A: Assembled (1972)</desc>
+         </graphic>
+         <graphic url="DO_36.jpg">
+            <desc>B: Face (1969)</desc>
+         </graphic>
+         <graphic url="77_Y_27.jpg">
+            <desc>C: Face (1977)</desc>
+         </graphic>
+         <graphic url="K_V_06.jpg">
+            <desc>C: Transcription by Kubitschek, Notebook 5, p.6</desc>
+         </graphic>
+         <graphic url="R_I_30.jpg">
+            <desc>C: Transcription by Reichel, Notebook 1, page 30</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

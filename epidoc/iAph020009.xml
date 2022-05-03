@@ -30,9 +30,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>64.99</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the rims.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the rims.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -58,19 +55,16 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Bouleuterion/Odeon</rs>: Odeon seating</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0600" precision="medium">
+                        <rs type="monuList">Bouleuterion/Odeon</rs>: Odeon seating</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="context">
 Second to sixth centuries A.D. (<rs type="criteria">context</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Bouleuterion/Odeon</rs>: loose finds</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot or Museum</rs>
-                  </provenance>
+                     <rs type="monuList">Bouleuterion/Odeon</rs>: loose finds</provenance>
+                  <provenance type="observed">Findspot or Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -105,14 +99,22 @@ Second to sixth centuries A.D. (<rs type="criteria">context</rs>).</origDate>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds, Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-24" who="Charlotte-Tupman">hand tidied</change>
          <change when="2007-03-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="R_66_1_26a.jpg">
+            <desc>vi. Face (1966)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

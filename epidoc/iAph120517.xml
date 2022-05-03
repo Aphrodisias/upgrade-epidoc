@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the visible face (a) within a moulded panel, and (b) on the lower moulding. There was already a faulty area on the face which the cutter avoided.
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the visible face (a) within a moulded panel, and (b) on the lower moulding. There was already a faulty area on the face which the cutter avoided.
 </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -51,19 +48,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0100" notAfter="0133" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0100"
+                               notAfter="0133"
+                               precision="medium"
+                               evidence="lettering">
 Probably early second century A.D.  (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, South-east</rs>: inside the south stretch, about half-way between the South-east gate and the Theatre break</rs>
-                  </provenance>
-                  <provenance type="observed" when="1990">
-                     <rs type="lastLocation">Findspot (1990)</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, South-east</rs>: inside the south stretch, about half-way between the South-east gate and the Theatre break</provenance>
+                  <provenance type="observed" when="1990">Findspot (1990)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,13 +89,24 @@ Probably early second century A.D.  (<rs type="criteria">lettering</rs>).</origD
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-30" who="Charlotte-Tupman">DONE</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="90_E_11.jpg">
+            <desc>Face (1990)</desc>
+         </graphic>
+         <graphic url="90_E_12.jpg">
+            <desc>Face (1990)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

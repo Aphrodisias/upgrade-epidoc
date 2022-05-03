@@ -29,9 +29,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>73.206</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,18 +49,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot.</rs>
-                     </origPlace>
-                     <origDate notBefore="0401" notAfter="0500" precision="medium">Fifth century (<rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Findspot.</origPlace>
+                     <origDate notBefore="0401"
+                               notAfter="0500"
+                               precision="medium"
+                               evidence="lettering">Fifth century (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: main part found standing against a column of the western colonnade of the tetrastoon, immediately south of <ref type="inscription" n="62" target="080410.xml"/>; fragment found in the same area (NPS I) at <measure type="length" dim="height">0.20</measure> above the paving. .</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot and Museum.</rs>
-                  </provenance>
+                     <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: main part found standing against a column of the western colonnade of the tetrastoon, immediately south of <ref type="inscription" n="62" target="080410.xml"/>; fragment found in the same area (NPS I) at <measure type="length" dim="height">0.20</measure> above the paving. .</provenance>
+                  <provenance type="observed">Findspot and Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,9 +92,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-24" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -110,6 +105,28 @@
          <change when="2003-07-17" who="Juan-Garcés">lemmatised</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="76_B_28.jpg">
+            <desc>Base in position, with <ref type="inscription" n="62" target="080410.xml"/> (1976)</desc>
+         </graphic>
+         <graphic url="NY_pr_073.jpg">
+            <desc>Base (1976)</desc>
+         </graphic>
+         <graphic url="72_C_19.jpg">
+            <desc>Detail, left (1972)</desc>
+         </graphic>
+         <graphic url="72_C_20.jpg">
+            <desc>Detail, right (1972)</desc>
+         </graphic>
+         <graphic url="NY_pr_067.jpg">
+            <desc>Upper right corner fragment (1973)</desc>
+         </graphic>
+         <graphic url="77_Y_07.jpg">
+            <desc>Fragments assembled (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

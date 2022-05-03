@@ -30,9 +30,6 @@
                   <idno>80.29</idno>
                   <idno>80.53</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -51,18 +48,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot</rs>
-                     </origPlace>
-                     <origDate notBefore="0434" notAfter="0467" precision="medium">Mid fifth century (<rs type="criteria">titulature</rs>).</origDate>
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0434"
+                               notAfter="0467"
+                               precision="medium"
+                               evidence="titulature">Mid fifth century (<rs type="criteria">titulature</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">South Agora, Agora Gate</rs>: on the façade, and three further loose fragments fallen from it; .</rs>
-                  </provenance>
-                  <provenance type="observed" when="1983">
-                     <rs type="lastLocation">Findspot (1983)</rs>
-                  </provenance>
+                     <rs type="monuList">South Agora, Agora Gate</rs>: on the façade, and three further loose fragments fallen from it; .</provenance>
+                  <provenance type="observed" when="1983">Findspot (1983)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,9 +94,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-22" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -114,6 +109,31 @@
          <change when="2003-07-16" who="Juan-Garcés">lemmatised</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="80_D_03.jpg">
+            <desc>i., ii., &amp; iii. View (1980)</desc>
+         </graphic>
+         <graphic url="80_A_28.jpg">
+            <desc>i. Face (1980)</desc>
+         </graphic>
+         <graphic url="80_A_26.jpg">
+            <desc>ii. Main text (1980)</desc>
+         </graphic>
+         <graphic url="83_B_30A.jpg">
+            <desc>ii. Upper left fragment (1983)</desc>
+         </graphic>
+         <graphic url="83_B_36A.jpg">
+            <desc>ii. Fragment. lines 1-3 (1983)</desc>
+         </graphic>
+         <graphic url="83_B_37A.jpg">
+            <desc>ii. Fragment, line 4 (1983)</desc>
+         </graphic>
+         <graphic url="80_H_23.jpg">
+            <desc>iii. Face (1980)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

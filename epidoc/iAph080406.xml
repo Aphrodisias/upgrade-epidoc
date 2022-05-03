@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>72.54</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on two opposite faces within the panels.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on two opposite faces within the panels.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -51,18 +48,12 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">re-used in the <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>, west portico in the fourth century: a rectangular plinth, on which this base probably stood, is in position, against a column of the west portico of the tetrastoon, just south of the probable plinth of <ref type="inscription" n="20" target="080405.xml"/>. .</rs>
-                     </origPlace>
-                     <origDate notBefore="0364" notAfter="0364">A.D. 364 (<rs type="criteria">reign</rs>).</origDate>
+                     <origPlace>re-used in the <rs type="monuList" key="Tetrastoon">Tetrastoon</rs>, west portico in the fourth century: a rectangular plinth, on which this base probably stood, is in position, against a column of the west portico of the tetrastoon, just south of the probable plinth of <ref type="inscription" n="20" target="080405.xml"/>. .</origPlace>
+                     <origDate notBefore="0364" notAfter="0364" evidence="reign">A.D. 364 (<rs type="criteria">reign</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList" key="Theatre">Theatre</rs>: re-used in the central stretch of the Theatre defence wall.</rs>
-                  </provenance>
-                  <provenance type="observed" when="2004">
-                     <rs type="lastLocation">Museum (2004).</rs>
-                  </provenance>
+                     <rs type="monuList" key="Theatre">Theatre</rs>: re-used in the central stretch of the Theatre defence wall.</provenance>
+                  <provenance type="observed" when="2004">Museum (2004).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,9 +89,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds, Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
@@ -115,6 +107,22 @@
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="72_A_14A.jpg">
+            <desc>Face ii. (1972)</desc>
+         </graphic>
+         <graphic url="DSCN0270.jpg">
+            <desc>Face ii. (2004)</desc>
+         </graphic>
+         <graphic url="DSCN0272.jpg">
+            <desc>Face ii., left side and top (2004)</desc>
+         </graphic>
+         <graphic url="NY_93_88_03.jpg">
+            <desc>Top of base (1993)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

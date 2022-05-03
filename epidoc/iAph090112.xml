@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno>83.151</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on three fasciae.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on three fasciae.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,19 +47,13 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">On the front of the Temple in the Sebasteion.</rs>
-                     </origPlace>
-                     <origDate notBefore="0014" notAfter="0037">
+                     <origPlace>On the front of the Temple in the Sebasteion.</origPlace>
+                     <origDate notBefore="0014" notAfter="0037" evidence="reign">
 A.D. 14-37
 (<rs type="criteria">reign</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">A and B during excavation of the <rs type="monuList">Sebasteion</rs>, at E. Temple (Sebasteion) 83-1 ; C and D during construction of the dighouse</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">A and B, in stone collection south of dighouse; C and D, Museum</rs>
-                  </provenance>
+                  <provenance type="found">A and B during excavation of the <rs type="monuList">Sebasteion</rs>, at E. Temple (Sebasteion) 83-1 ; C and D during construction of the dighouse</provenance>
+                  <provenance type="observed">A and B, in stone collection south of dighouse; C and D, Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,13 +91,48 @@ A.D. 14-37
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-01-30" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_Y_29.jpg">
+            <desc>Fragment a (1973)</desc>
+         </graphic>
+         <graphic url="73_Y_29.jpg">
+            <desc>Fragment a (1973)</desc>
+         </graphic>
+         <graphic url="78_L_22.jpg">
+            <desc>Fragment a (1978)</desc>
+         </graphic>
+         <graphic url="83_E_27.jpg">
+            <desc>Fragment b (1983)</desc>
+         </graphic>
+         <graphic url="83_E_28.jpg">
+            <desc>Fragment b (1983)</desc>
+         </graphic>
+         <graphic url="83_F_25.jpg">
+            <desc>Fragment b (1983)</desc>
+         </graphic>
+         <graphic url="80_B_15.jpg">
+            <desc>Fragment c (1980)</desc>
+         </graphic>
+         <graphic url="83_F_27.jpg">
+            <desc>Fragment c (1983)</desc>
+         </graphic>
+         <graphic url="83_E_27.jpg">
+            <desc>Fragment d (1983)</desc>
+         </graphic>
+         <graphic url="83_F_25.jpg">
+            <desc>Fragment d, closeup (1983)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -40,7 +37,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the seats: Row 5.i: across two seats. Row 8: On one seat. All others on the front rim of the seats.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the seats: Row 5.i: across two seats. Row 8: On one seat. All others on the front rim of the seats.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -49,19 +46,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0600" precision="medium">
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="context">
 Second-sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Bouleuterion/Odeon</rs>: seats, block B.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Bouleuterion/Odeon</rs>: seats, block B.</provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -78,14 +72,67 @@ Second-sixth century A.D. (<rs type="criteria">context</rs>).</origDate>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds, Roueché, Pitt).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-24" who="Charlotte-Tupman">hand tidied</change>
          <change when="2007-03-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="91_E_20A.jpg">
+            <desc>View, Blocks B and A (1991)</desc>
+         </graphic>
+         <graphic url="85_F_52.jpg">
+            <desc>Row 4.i (1985)</desc>
+         </graphic>
+         <graphic url="85_F_54.jpg">
+            <desc>Row 4.ii (1985)</desc>
+         </graphic>
+         <graphic url="85_F_56.jpg">
+            <desc>Row 4.iii (1985)</desc>
+         </graphic>
+         <graphic url="72_B_03A.jpg">
+            <desc>Row 5.i (1972)</desc>
+         </graphic>
+         <graphic url="85_F_28.jpg">
+            <desc>Row 5.iv (1985)</desc>
+         </graphic>
+         <graphic url="85_F_30.jpg">
+            <desc>Row 5.v (1985)</desc>
+         </graphic>
+         <graphic url="85_F_36.jpg">
+            <desc>Row 6.i (1985)</desc>
+         </graphic>
+         <graphic url="85_F_34.jpg">
+            <desc>Row 6.ii (1985)</desc>
+         </graphic>
+         <graphic url="85_F_38.jpg">
+            <desc>Row 6.ii (1985)</desc>
+         </graphic>
+         <graphic url="85_F_40.jpg">
+            <desc>Row 6.ii (1985)</desc>
+         </graphic>
+         <graphic url="85_F_42.jpg">
+            <desc>Row 6.ii (1985)</desc>
+         </graphic>
+         <graphic url="85_F_50.jpg">
+            <desc>Row 7.i (1985)</desc>
+         </graphic>
+         <graphic url="85_F_48.jpg">
+            <desc>Row 7.ii (1985)</desc>
+         </graphic>
+         <graphic url="85_F_44.jpg">
+            <desc>Row 7.iii (1985)</desc>
+         </graphic>
+         <graphic url="72_A_26A.jpg">
+            <desc>Row 8 (1972)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

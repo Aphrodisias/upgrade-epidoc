@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -44,7 +41,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> within the tabella and on its lower moulding (ll. 20, 21); the text must have begun on the lid.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> within the tabella and on its lower moulding (ll. 20, 21); the text must have begun on the lid.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,20 +50,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0234" notAfter="0267" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0234"
+                               notAfter="0267"
+                               precision="medium"
+                               evidence="lettering stephanephoros">
 Mid third century
  (<rs type="criteria">lettering</rs>, <rs type="criteria">stephanephoros</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Necropolis, North-east</rs>: 'Bagharassi, dans les vignes, extra muros' (Gaudin); 'in a field 10 min. east of the Heraclean Gate' (MAMA)</rs>
-                  </provenance>
-                  <provenance type="observed" when="1978">
-                     <rs type="lastLocation">Museum (1978)</rs>
-                  </provenance>
+                     <rs type="monuList">Necropolis, North-east</rs>: 'Bagharassi, dans les vignes, extra muros' (Gaudin); 'in a field 10 min. east of the Heraclean Gate' (MAMA)</provenance>
+                  <provenance type="observed" when="1978">Museum (1978)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -101,14 +95,25 @@ Mid third century
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds); publications</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-02-06" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_X_21A.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="78_J_19.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

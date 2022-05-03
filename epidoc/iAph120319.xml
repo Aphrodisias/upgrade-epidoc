@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>76.185</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,20 +49,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0133" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0133"
+                               precision="medium"
+                               evidence="lettering">
 Perhaps early second century A.D.
  (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, East (south part)</rs>: Lying east of the city wall, just north of the East Gate.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1978">
-                     <rs type="lastLocation">Museum (1978)</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, East (south part)</rs>: Lying east of the city wall, just north of the East Gate.</provenance>
+                  <provenance type="observed" when="1978">Museum (1978)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,14 +91,34 @@ Perhaps early second century A.D.
                </term>
             </keywords>
          </textClass>
+         <creation> Preliminary transcription (Reynolds), Gaudin squeeze, notebooks, publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-02-08" who="Charlotte-Tupman">Hand tidied</change>
          <change when="2006-12-21" who="GB">hand tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_W_31.jpg">
+            <desc>Stone at findspot (1973)</desc>
+         </graphic>
+         <graphic url="78_C_14.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+         <graphic url="78_C_15.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+         <graphic url="78_G_01.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+         <graphic url="K_III_56.jpg">
+            <desc>Kubitschek notebook III, 56</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

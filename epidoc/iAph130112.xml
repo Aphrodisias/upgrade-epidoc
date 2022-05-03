@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -44,7 +41,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -56,21 +53,15 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Necropolis, North-east</rs>
-                        </rs>
+                        <rs type="monuList">Necropolis, North-east</rs>
                      </origPlace>
-                     <origDate notBefore="0212" notAfter="0250">
+                     <origDate notBefore="0212" notAfter="0250" evidence="nomenclature">
 Shortly after 212
  (<rs type="criteria">nomenclature</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Necropolis, North-east</rs>: in a field south of Eymir, south of the Karaçasu/Tabai road, with <ref type="inscription" n="1487" target="130147.xml"/>, <ref type="inscription" n="1503" target="130153.xml"/>  (=MAMA 553, 586)</rs>
-                  </provenance>
-                  <provenance type="observed" when="1977">
-                     <rs type="lastLocation">Museum (1977)</rs>
-                  </provenance>
+                     <rs type="monuList">Necropolis, North-east</rs>: in a field south of Eymir, south of the Karaçasu/Tabai road, with <ref type="inscription" n="1487" target="130147.xml"/>, <ref type="inscription" n="1503" target="130153.xml"/>  (=MAMA 553, 586)</provenance>
+                  <provenance type="observed" when="1977">Museum (1977)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -105,13 +96,30 @@ Shortly after 212
                </term>
             </keywords>
          </textClass>
+         <creation>Preliminary transcription (Reynolds);  publication.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_K_32A.jpg">
+            <desc>View (1977)</desc>
+         </graphic>
+         <graphic url="77_K_33A.jpg">
+            <desc>Detail (1977)</desc>
+         </graphic>
+         <graphic url="77_K_34A.jpg">
+            <desc>Detail (1977)</desc>
+         </graphic>
+         <graphic url="K_V_04.jpg">
+            <desc>Kubitschek notebook V, 4</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -39,7 +36,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>Line 1 <rs type="execution" key="scalpro">incribed</rs> on the upper fascia, lines 2-3 on the lower.</layout>
+                        <layout>Line 1 <rs type="execution" ref="scalpro">incribed</rs> on the upper fascia, lines 2-3 on the lower.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,18 +47,15 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">Second to third centuries A.D.  (<rs type="criteria">lettering</rs>)</origDate>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">Second to third centuries A.D.  (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, North-west</rs>. Seen by K&amp;R, partially buried 'in front of the NW wall'</rs>
-                  </provenance>
-                  <provenance type="observed" when="1893">
-                     <rs type="lastLocation">Findspot (1893)</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, North-west</rs>. Seen by K&amp;R, partially buried 'in front of the NW wall'</provenance>
+                  <provenance type="observed" when="1893">Findspot (1893)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -93,14 +87,22 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Notebooks; publication.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-07-17" who="cmr">DONE</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="K_III_08.jpg">
+            <desc>Kubitschek notebook III, 8</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

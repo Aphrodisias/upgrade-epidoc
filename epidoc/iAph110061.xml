@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>75.2</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> round the ankle</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> round the ankle</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,20 +47,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0250" notAfter="0300">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0250" notAfter="0300" evidence="lettering">
  late third century
 (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, Village</rs>: Museum excavations, under administrative area</rs>
-                  </provenance>
-                  <provenance type="observed" when="1975">
-                     <rs type="lastLocation">Museum (1975)</rs>
-                  </provenance>
+                     <rs type="monuList">City, Village</rs>: Museum excavations, under administrative area</provenance>
+                  <provenance type="observed" when="1975">Museum (1975)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -95,14 +86,28 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2006-12-11" who="Charlotte-Tupman">hand tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="75_K_11A.jpg">
+            <desc>Left end (1975)</desc>
+         </graphic>
+         <graphic url="75_K_12A.jpg">
+            <desc>Centre (1975)</desc>
+         </graphic>
+         <graphic url="75_K_13A.jpg">
+            <desc>Right end (1975)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

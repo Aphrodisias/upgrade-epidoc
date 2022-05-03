@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>Line 1 is <rs type="execution" key="scalpro">inscribed</rs> on the front moulding of the lid; line 2 along the upper front edge of the sarcophagus, but leaving a substantial area blank at the right-hand end, where the sarcophagus is damaged; lines 3-19 in the area between the two busts, from which an earlier inscription has been erased; line 20 on the flange below.</layout>
+                        <layout>Line 1 is <rs type="execution" ref="scalpro">inscribed</rs> on the front moulding of the lid; line 2 along the upper front edge of the sarcophagus, but leaving a substantial area blank at the right-hand end, where the sarcophagus is damaged; lines 3-19 in the area between the two busts, from which an earlier inscription has been erased; line 20 on the flange below.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,19 +47,16 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Findspot</rs>
-                     </origPlace>
-                     <origDate notBefore="0268" notAfter="0300" precision="medium">Late third century A.D.
+                     <origPlace>Findspot</origPlace>
+                     <origDate notBefore="0268"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="hairstyles nomenclature lettering">Late third century A.D.
  (<rs type="criteria">hairstyles</rs>)<rs type="criteria">nomenclature</rs>, <rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Necropolis, West</rs>:  excavated during repair work on the road from the site to the village of new Geyre.  Found with <ref type="inscription" n="1441" target="130602.xml"/> (S.8) and <ref type="inscription" n="1442" target="130603.xml"/> (10).</rs>
-                  </provenance>
-                  <provenance type="observed" when="1990">
-                     <rs type="lastLocation">Museum (1990) (museum inv. no. 5624)</rs>
-                  </provenance>
+                     <rs type="monuList">Necropolis, West</rs>:  excavated during repair work on the road from the site to the village of new Geyre.  Found with <ref type="inscription" n="1441" target="130602.xml"/> (S.8) and <ref type="inscription" n="1442" target="130603.xml"/> (10).</provenance>
+                  <provenance type="observed" when="1990">Museum (1990) (museum inv. no. 5624)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,13 +91,21 @@
                </term>
             </keywords>
          </textClass>
+         <creation> Transcription (Reynolds); publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-18" who="Charlotte-Tupman">hand tidied</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="90_E_06.jpg">
+            <desc>Face (1990)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

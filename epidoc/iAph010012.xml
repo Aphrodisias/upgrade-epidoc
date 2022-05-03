@@ -30,9 +30,6 @@
                   <idno>62.111</idno>
                   <idno>68.292</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in one line on upper <term>fascia</term> of moulded profile.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in one line on upper <term>fascia</term> of moulded profile.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,18 +50,15 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Temple/Church</rs>: <seg cert="low">Crowning the chancel barrier</seg>.</rs>
-                     </origPlace>
-                     <origDate notBefore="0401" notAfter="0600" precision="medium">Fifth to sixth centuries A.D. (<rs type="criteria">location</rs>, <rs type="criteria">script</rs>).</origDate>
+                        <rs type="monuList">Temple/Church</rs>: <seg cert="low">Crowning the chancel barrier</seg>.</origPlace>
+                     <origDate notBefore="0401"
+                               notAfter="0600"
+                               precision="medium"
+                               evidence="location script">Fifth to sixth centuries A.D. (<rs type="criteria">location</rs>, <rs type="criteria">script</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: Three fragments found in sectors xv and xiii, str. 1; one stray find.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum.</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: Three fragments found in sectors xv and xiii, str. 1; one stray find.</provenance>
+                  <provenance type="observed">Museum.</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -99,9 +93,10 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-29" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -113,6 +108,19 @@
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="DO_30.jpg">
+            <desc>Left end fragment (1970)</desc>
+         </graphic>
+         <graphic url="72_E_11A.jpg">
+            <desc>Right end fragment (1972)</desc>
+         </graphic>
+         <graphic url="77_K_19A.jpg">
+            <desc>Assembled fragments (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

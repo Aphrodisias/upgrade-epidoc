@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the face.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the face.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -50,20 +47,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0225" notAfter="0275" precision="medium"> Mid third century
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0225"
+                               notAfter="0275"
+                               precision="medium"
+                               evidence="prosopography"> Mid third century
 (<rs type="criteria">prosopography</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, West</rs>, near <ref type="inscription" n="658" target="120924.xml"/> and <ref type="inscription" n="663" target="120929.xml"/>
-                     </rs>
+                     <rs type="monuList">Walls, West</rs>, near <ref type="inscription" n="658" target="120924.xml"/> and <ref type="inscription" n="663" target="120929.xml"/>
                   </provenance>
-                  <provenance type="observed" when="1976">
-                     <rs type="lastLocation">Museum (1976)</rs>
-                  </provenance>
+                  <provenance type="observed" when="1976">Museum (1976)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,15 +92,32 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcriptions (Reynolds, Roueché); publications; notebooks.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-08-07" who="Eleonora-Litta">tidied expan</change>
          <change when="2007-04-17" who="Charlotte-Tupman">tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="76_A_18A.jpg">
+            <desc>Lines 1-13 (1976)</desc>
+         </graphic>
+         <graphic url=" 76_A_16A.jpg">
+            <desc>Lines 11-14 (1976)</desc>
+         </graphic>
+         <graphic url="R_I_08.jpg">
+            <desc>Lines 1-13 (centre and right): Reichel, notebook I, 8</desc>
+         </graphic>
+         <graphic url="Gaudin_0049.jpg">
+            <desc>Lines 4-9 (left end): Gaudin squeeze 38 (right image)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

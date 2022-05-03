@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -43,7 +40,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on two fasciae; partly erased.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on two fasciae; partly erased.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,20 +50,17 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Temple/Church</rs>: probably architrave of main west door.</rs>
-                     </origPlace>
-                     <origDate notBefore="-0033" notAfter="-0001" precision="medium">
+                        <rs type="monuList">Temple/Church</rs>: probably architrave of main west door.</origPlace>
+                     <origDate notBefore="-0033"
+                               notAfter="-0001"
+                               precision="medium"
+                               evidence="lettering">
 Late first century B.C.
 (<rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Temple/Church</rs>: lying in the atrium</rs>
-                  </provenance>
-                  <provenance type="observed" when="1980">
-                     <rs type="lastLocation">Findspot (1980)</rs>
-                  </provenance>
+                     <rs type="monuList">Temple/Church</rs>: lying in the atrium</provenance>
+                  <provenance type="observed" when="1980">Findspot (1980)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -101,12 +95,41 @@ Late first century B.C.
                </term>
             </keywords>
          </textClass>
+         <creation>Publications; Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="73_Y_33.jpg">
+            <desc>Fragment a (1973)</desc>
+         </graphic>
+         <graphic url="80_D_04.jpg">
+            <desc>Fragment a (1980)</desc>
+         </graphic>
+         <graphic url="80_D_05.jpg">
+            <desc>Fragment a (1980)</desc>
+         </graphic>
+         <graphic url="73_Y_35.jpg">
+            <desc>Fragment b (1973)</desc>
+         </graphic>
+         <graphic url="77_B_07A.jpg">
+            <desc>Fragment b (1977)</desc>
+         </graphic>
+         <graphic url="77_B_04A.jpg">
+            <desc>Fragment c (1977)</desc>
+         </graphic>
+         <graphic url="77_B_05A.jpg">
+            <desc>Fragment c (1977)</desc>
+         </graphic>
+         <graphic url="80_F_32.jpg">
+            <desc>Fragment c (1980)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

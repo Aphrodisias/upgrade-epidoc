@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -67,23 +64,20 @@ ii. <height unit="metre">0.07</height>; well cut; abbreviations: last letter abo
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-Findspot</rs>
-                     </origPlace>
-                     <origDate notBefore="0434" notAfter="0467" precision="medium">
+Findspot</origPlace>
+                     <origDate notBefore="0434"
+                               notAfter="0467"
+                               precision="medium"
+                               evidence="titulature titulature prosopography">
 i: A.D. 365/370
 (<rs type="criteria">titulature</rs>)
 ii (and i.b): Mid fifth century
 (<rs type="criteria">titulature</rs>, <rs type="criteria">prosopography</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, North-east</rs>: over the North-east Gate in the city wall, with the inscription on the west (inner) face; see .</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, North-east</rs>: over the North-east Gate in the city wall, with the inscription on the west (inner) face; see .</provenance>
                   <provenance type="observed" when="&#xA;2004">
-                     <rs type="lastLocation">
-Findspot (2004)</rs>
-                  </provenance>
+Findspot (2004)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -117,9 +111,11 @@ Findspot (2004)</rs>
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription
+	 (Roueché); Deering; publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-08-07" who="Eleonora-Litta">expan tidied</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-19" who="#GB">Added zero line numbers, and fixed column/fragment breaks</change>
@@ -134,6 +130,34 @@ Findspot (2004)</rs>
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="72_E_33A.jpg">
+            <desc>Left end (1972)</desc>
+         </graphic>
+         <graphic url="72_E_34A.jpg">
+            <desc>Centre (1972)</desc>
+         </graphic>
+         <graphic url="72_E_35A.jpg">
+            <desc>Right end (1972)</desc>
+         </graphic>
+         <graphic url="73_P_11A.jpg">
+            <desc>Face (1973)</desc>
+         </graphic>
+         <graphic url="75_C_04.jpg">
+            <desc>Face (1975)</desc>
+         </graphic>
+         <graphic url="DSCN0275.jpg">
+            <desc>Walls: north east gate and ALA 140 (2004)</desc>
+         </graphic>
+         <graphic url="Deering_04.jpg">
+            <desc>Deering notebook, page 4</desc>
+         </graphic>
+         <graphic url="Wood_14_46.jpg">
+            <desc>Wood notebook 14, page 46</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

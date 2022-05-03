@@ -37,9 +37,6 @@
                   <idno>71.446</idno>
                   <idno>73.215</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -49,7 +46,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in one line on the face, after the drafting had been done; the text impinges on the drafted edges.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in one line on the face, after the drafting had been done; the text impinges on the drafted edges.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -59,19 +56,13 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">Theatre</rs>, stage building.</rs>
-                     </origPlace>
-                     <origDate notBefore="-0028" notAfter="-0028">
+                        <rs type="monuList">Theatre</rs>, stage building.</origPlace>
+                     <origDate notBefore="-0028" notAfter="-0028" evidence="prosopography">
 28 B.C. (<rs type="criteria">prosopography</rs>)</origDate>
                   </origin>
-                  <provenance type="found">
-                     <rs type="found">Fallen in the orchestra of the <rs type="monuList">Theatre</rs>
-                     </rs>
+                  <provenance type="found">Fallen in the orchestra of the <rs type="monuList">Theatre</rs>
                   </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Museum</rs>
-                  </provenance>
+                  <provenance type="observed">Museum</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -109,12 +100,38 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds); publications</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="77_L_22A.jpg">
+            <desc>Fragment (1977)</desc>
+         </graphic>
+         <graphic url="77_L_23A.jpg">
+            <desc>Fragment (1977)</desc>
+         </graphic>
+         <graphic url="77_L_24A.jpg">
+            <desc>Fragment (1977)</desc>
+         </graphic>
+         <graphic url="77_L_25A.jpg">
+            <desc>Fragment (1977)</desc>
+         </graphic>
+         <graphic url="77_L_26A.jpg">
+            <desc>Fragment (1977)</desc>
+         </graphic>
+         <graphic url="77_L_27A.jpg">
+            <desc>Fragment (1977)</desc>
+         </graphic>
+         <graphic url="77_L_28A.jpg">
+            <desc>Fragment (1977)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

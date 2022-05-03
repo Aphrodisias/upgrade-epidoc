@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -42,7 +39,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the external face on two fasciae; the text was clearly continued on the adjacent block.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the external face on two fasciae; the text was clearly continued on the adjacent block.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -53,19 +50,13 @@
                <history>
                   <origin>
                      <origPlace>
-                        <rs type="origLocation">
-                           <rs type="monuList">South Agora</rs>: Portico of Tiberius, south or west portico</rs>
-                     </origPlace>
-                     <origDate notBefore="0001" notAfter="0150">
+                        <rs type="monuList">South Agora</rs>: Portico of Tiberius, south or west portico</origPlace>
+                     <origDate notBefore="0001" notAfter="0150" evidence="terminology lettering">
 First to second century A.D. (<rs type="criteria">terminology</rs>, <rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">South Agora</rs>: Portico of Tiberius: fallen in the south west corner</rs>
-                  </provenance>
-                  <provenance type="observed" when="1978">
-                     <rs type="lastLocation">Findspot (1978)</rs>
-                  </provenance>
+                     <rs type="monuList">South Agora</rs>: Portico of Tiberius: fallen in the south west corner</provenance>
+                  <provenance type="observed" when="1978">Findspot (1978)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -100,12 +91,20 @@ First to second century A.D. (<rs type="criteria">terminology</rs>, <rs type="cr
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_A_08.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve"><ab><lb n="1"/>    <space extent="1" unit="character" dim="horizontal"/>  <persName type="emperor"><w lemma="αὐτοκράτωρ">Αὐτοκράτορι</w>  <name nymRef="#Καῖσαρ">Καίσαρι</name>  <w lemma="θεός">θεῷ</w>  <w lemma="σεβαστός">Σεβαστῷ</w>  <orig n="unresolved">π</orig><milestone unit="block"/><gap reason="lost" unit="character" extent="unknown"/></persName><lb n="2"/>    <space extent="2" unit="character" dim="horizontal"/>    <persName type="attested"><name nymRef="#Ἀντίπατρος">Ἀντίπατρος</name></persName> <w lemma="πριμιπιλάριος">πριμοπειλάριος</w> <w lemma="σύν">συ<milestone unit="block"/><supplied reason="lost">ν</supplied><gap reason="lost" unit="character" extent="unknown"/></w>  </ab></div>

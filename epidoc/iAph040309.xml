@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>77.135</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -45,7 +42,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the moulding of the capital (ll. 1, 2) and within the front panel (ll. 3-12).</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the moulding of the capital (ll. 1, 2) and within the front panel (ll. 3-12).</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -56,18 +53,12 @@ for abbreviation mark; ligatures: <foreign xml:lang="grc">ΝΗ</foreign>, l.6; <
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0284" notAfter="0301">A.D. 284-301 (<rs type="criteria">prosopography</rs>).</origDate>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0284" notAfter="0301" evidence="prosopography">A.D. 284-301 (<rs type="criteria">prosopography</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">South Agora, Agora Gate</rs>: <seg cert="low">re-used in the collecting pool</seg>. .</rs>
-                  </provenance>
-                  <provenance type="observed" when="1983">
-                     <rs type="lastLocation">Findspot (1983).</rs>
-                  </provenance>
+                     <rs type="monuList">South Agora, Agora Gate</rs>: <seg cert="low">re-used in the collecting pool</seg>. .</provenance>
+                  <provenance type="observed" when="1983">Findspot (1983).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -102,9 +93,10 @@ for abbreviation mark; ligatures: <foreign xml:lang="grc">ΝΗ</foreign>, l.6; <
                </term>
             </keywords>
          </textClass>
+         <creation>Transcriptions (Reynolds, Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-03-16" who="#GB">Completed lemmatisation, checked figure ids, tagged keywords</change>
@@ -119,6 +111,19 @@ for abbreviation mark; ligatures: <foreign xml:lang="grc">ΝΗ</foreign>, l.6; <
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="80_E_18A.jpg">
+            <desc>View in situ (1980)</desc>
+         </graphic>
+         <graphic url="83_E_30.jpg">
+            <desc>Front face (1983)</desc>
+         </graphic>
+         <graphic url="NY_pr_080.jpg">
+            <desc>Front view (1980)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno>75.278</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -41,7 +38,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> on the upper fascia of the moulding (H. <height unit="metre">0.113</height>).</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on the upper fascia of the moulding (H. <height unit="metre">0.113</height>).</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -52,19 +49,16 @@ cut, with a flowing line similar to  <ref type="inscription" n="12" target="0503
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown.</rs>
-                     </origPlace>
-                     <origDate notBefore="0301" notAfter="0350" precision="medium">First half of the fourth century (<rs type="criteria">lettering</rs>).</origDate>
+                     <origPlace>Unknown.</origPlace>
+                     <origDate notBefore="0301"
+                               notAfter="0350"
+                               precision="medium"
+                               evidence="lettering">First half of the fourth century (<rs type="criteria">lettering</rs>).</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">South Agora</rs>: West Portico: '<foreign xml:lang="fr">Galerie de l'E<ex>st</ex>, (N<ex>ord</ex>)</foreign>'
-(Boulanger); found in the same place by the NYU expedition.</rs>
-                  </provenance>
-                  <provenance type="observed" when="1976">
-                     <rs type="lastLocation">Museum (1976).</rs>
-                  </provenance>
+                     <rs type="monuList">South Agora</rs>: West Portico: '<foreign xml:lang="fr">Galerie de l'E<ex>st</ex>, (N<ex>ord</ex>)</foreign>'
+(Boulanger); found in the same place by the NYU expedition.</provenance>
+                  <provenance type="observed" when="1976">Museum (1976).</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -97,9 +91,10 @@ cut, with a flowing line similar to  <ref type="inscription" n="12" target="0503
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Roueché); Boulanger notebooks; publication.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-08-07" who="Eleonora-Litta">expan tidied</change>
          <change when="2004-06-08" who="Juan-Garcés">Marked up inventory number(s)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
@@ -115,6 +110,19 @@ cut, with a flowing line similar to  <ref type="inscription" n="12" target="0503
          <change when="2003-04-30" who="Juan-Garcés">tidied and corrected</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="72_B_16A.jpg">
+            <desc>Face (1972)</desc>
+         </graphic>
+         <graphic url="76_A_12A.jpg">
+            <desc>Face (1976)</desc>
+         </graphic>
+         <graphic url="Boulanger_A_65.jpg">
+            <desc>Transcription by Boulanger, Notebook A, page 65</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

@@ -28,9 +28,6 @@
                   <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -51,20 +48,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown: city necropolis</rs>
-                     </origPlace>
-                     <origDate notBefore="0100" notAfter="0300">
+                     <origPlace>Unknown: city necropolis</origPlace>
+                     <origDate notBefore="0100" notAfter="0300" evidence="nomenclature lettering">
  Second to third centuries A.D.
  (<rs type="criteria">nomenclature</rs>, <rs type="criteria">lettering</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Walls, West</rs>: a. and b. found in 1972 re-used in the wall of a cistern against the west wall, by the first farmhouse south of the west gate; the cistern (which also contained <ref type="inscription" n="1568" target="120908.xml"/> (=MAMA 570) was subsequently cemented.</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation">Findspot</rs>
-                  </provenance>
+                     <rs type="monuList">Walls, West</rs>: a. and b. found in 1972 re-used in the wall of a cistern against the west wall, by the first farmhouse south of the west gate; the cistern (which also contained <ref type="inscription" n="1568" target="120908.xml"/> (=MAMA 570) was subsequently cemented.</provenance>
+                  <provenance type="observed">Findspot</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -96,13 +87,36 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds); notebooks; publications</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
          <change when="2007-01-01" who="GB">hand tidied</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="72_J_12.jpg">
+            <desc>Lines 1-7, left end (1972)</desc>
+         </graphic>
+         <graphic url="72_J_10.jpg">
+            <desc>Lines 1-5, centre  (1972)</desc>
+         </graphic>
+         <graphic url="72_J_09.jpg">
+            <desc>Lines 1-5, right end (1972)</desc>
+         </graphic>
+         <graphic url="72_J_13.jpg">
+            <desc>Lines 4-9, left end (1972)</desc>
+         </graphic>
+         <graphic url="Deering_06v.jpg">
+            <desc>Deering notebook, 6v</desc>
+         </graphic>
+         <graphic url="R_I_06.jpg">
+            <desc>Fragment of ll. Reichel, notebook I, 6</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

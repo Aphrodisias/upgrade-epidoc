@@ -36,9 +36,6 @@
                   <idno>80.63</idno>
                   <idno>80.91</idno>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -49,7 +46,7 @@
                      </supportDesc>
                      <layoutDesc>
                         <layout>
-                           <rs type="execution" key="scalpro">Inscribed</rs> in two lines on the two <term xml:lang="la">fasciae</term>.</layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> in two lines on the two <term xml:lang="la">fasciae</term>.</layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
@@ -58,20 +55,14 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Architrave of the south portico of the <rs type="monuList">Sebasteion</rs>
-                        </rs>
+                     <origPlace>Architrave of the south portico of the <rs type="monuList">Sebasteion</rs>
                      </origPlace>
-                     <origDate notBefore="0041" notAfter="0054">
+                     <origDate notBefore="0041" notAfter="0054" evidence="reign">
  A.D. 41-54 (<rs type="criteria">reign</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">Sebasteion</rs>: in the South Portico</rs>
-                  </provenance>
-                  <provenance type="observed" when="1980">
-                     <rs type="lastLocation">Museum (1980)</rs>
-                  </provenance>
+                     <rs type="monuList">Sebasteion</rs>: in the South Portico</provenance>
+                  <provenance type="observed" when="1980">Museum (1980)</provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -110,14 +101,46 @@
                </term>
             </keywords>
          </textClass>
+         <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-03-05" who="GB">DONE</change>
          <change when="2007-01-19" who="Charlotte-Tupman">hand tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="80_B_06.jpg">
+            <desc>Block a. (1980)</desc>
+         </graphic>
+         <graphic url="80_B_08.jpg">
+            <desc>Block b. left end (1980)</desc>
+         </graphic>
+         <graphic url="80_B_09.jpg">
+            <desc>Block b. right end (1980)</desc>
+         </graphic>
+         <graphic url="80_F_07.jpg">
+            <desc>Block c. (1980)</desc>
+         </graphic>
+         <graphic url="80_A_21.jpg">
+            <desc>Block d. right end (1980)</desc>
+         </graphic>
+         <graphic url="80_A_08.jpg">
+            <desc>Block d. left end (1980) </desc>
+         </graphic>
+         <graphic url="80_A_09.jpg">
+            <desc>Block e. right end</desc>
+         </graphic>
+         <graphic url="80_B_04.jpg">
+            <desc>Block e. right end (1980)</desc>
+         </graphic>
+         <graphic url="81_A_18.jpg">
+            <desc>Block f. (1981)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">

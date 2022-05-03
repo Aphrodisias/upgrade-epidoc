@@ -28,9 +28,6 @@
                   <repository>…</repository>
                   <idno xmlns:t="http://www.tei-c.org/ns/1.0"/>
                </msIdentifier>
-               <msContents>
-                  <summary>Text constituted from: </summary>
-               </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
@@ -50,20 +47,17 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace>
-                        <rs type="origLocation">Unknown</rs>
-                     </origPlace>
-                     <origDate notBefore="0101" notAfter="0300" precision="medium">
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="content">
 Second to third centuries A.D.
 (<rs type="criteria">content</rs>)</origDate>
                   </origin>
                   <provenance type="found">
-                     <rs type="found">
-                        <rs type="monuList">City, South-east</rs>: 'in the southern part of the city, not far from the East Gate' (Sherard)</rs>
-                  </provenance>
-                  <provenance type="observed">
-                     <rs type="lastLocation"> </rs>
-                  </provenance>
+                     <rs type="monuList">City, South-east</rs>: 'in the southern part of the city, not far from the East Gate' (Sherard)</provenance>
+                  <provenance type="observed"> </provenance>
                </history>
             </msDesc>
          </sourceDesc>
@@ -98,13 +92,21 @@ Second to third centuries A.D.
                </term>
             </keywords>
          </textClass>
+         <creation>Notebooks, publications.</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-05-02" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-05-03" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-04-27" who="Charlotte-Tupman">Created edition and hand tidied</change>
          <change when="2006-11-07" who="Elliott-Hall">Batch converted Word2XML</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="Wood_14_46.jpg">
+            <desc>Wood notebook 14, page 46</desc>
+         </graphic>
+      </surface>
+   </facsimile>
    <text>
       <body>
          <div type="edition" xml:lang="grc" xml:space="preserve">
