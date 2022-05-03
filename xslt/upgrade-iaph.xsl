@@ -153,12 +153,6 @@
             </xsl:otherwise>
           </xsl:choose>
         </xsl:element>
-        <xsl:element name="msContents">
-          <xsl:element name="summary">
-            <xsl:text>Text constituted from: </xsl:text>
-            <xsl:value-of select="t:div[@n='text-constituted-from']/t:p"/>
-          </xsl:element>
-        </xsl:element>
         <xsl:element name="physDesc">
           <xsl:element name="objectDesc">
             <xsl:element name="supportDesc">
@@ -183,7 +177,7 @@
         <xsl:element name="history">
           <xsl:element name="origin">
             <xsl:element name="origPlace">
-              <xsl:apply-templates select="//t:rs[@type='origLocation']"/>
+              <xsl:apply-templates select="//t:rs[@type='origLocation']/node()"/>
             </xsl:element>
             <xsl:element name="origDate">
               <xsl:if test="//t:div[@type='description'][@n='date']/t:p/t:date/@notBefore">
@@ -195,6 +189,14 @@
               <xsl:if test="//t:div[@type='description'][@n='date']/t:p/t:date/@exact != 'both'">
                 <xsl:attribute name="precision" select="'medium'"/>
               </xsl:if>
+              <xsl:if test="//t:div[@type='description'][@n='date']/t:p/t:rs[@type='criteria']">
+                <xsl:attribute name="evidence">
+                  <xsl:for-each select="//t:div[@type='description'][@n='date']/t:p/t:rs[@type='criteria']">
+                    <xsl:value-of select="normalize-space(.)"/>
+                    <xsl:if test="position() != last()"><xsl:text> </xsl:text></xsl:if>
+                  </xsl:for-each>
+                </xsl:attribute>
+              </xsl:if>
               <xsl:apply-templates select="//t:div[@type='description'][@n='date']/t:p/node()"/>
             </xsl:element>
           </xsl:element>
@@ -203,16 +205,26 @@
             <xsl:if test="matches(//t:rs[@type='found'],'\((\d{4})\)')">
               <xsl:attribute name="when" select="replace(//t:rs[@type='found'],'.*\((\d{4})\).*','$1')"/>
             </xsl:if>
-            <xsl:apply-templates select="//t:rs[@type='found']"/>
+            <xsl:apply-templates select="//t:rs[@type='found']/node()"/>
           </xsl:element>
           <xsl:element name="provenance">
             <xsl:attribute name="type" select="'observed'"/>
             <xsl:if test="matches(//t:rs[@type='lastLocation'],'\((\d{4})\)')">
               <xsl:attribute name="when" select="replace(//t:rs[@type='lastLocation'],'.*\((\d{4})\).*','$1')"/>
             </xsl:if>
-            <xsl:apply-templates select="//t:rs[@type='lastLocation']"/>
+            <xsl:apply-templates select="//t:rs[@type='lastLocation']/node()"/>
           </xsl:element>
         </xsl:element>
+      </xsl:element>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="t:profileDesc">
+    <xsl:copy>
+      <xsl:copy-of select="@*"/>
+      <xsl:apply-templates/>
+      <xsl:element name="creation">
+        <xsl:value-of select="//t:div[@n='text-constituted-from']/t:p"/>
       </xsl:element>
     </xsl:copy>
   </xsl:template>
@@ -317,6 +329,25 @@
     </xsl:element>
   </xsl:template>
   
+  <xsl:template match="t:text">
+    <xsl:element name="facsimile">
+      <xsl:element name="surface">
+        <xsl:for-each select="//t:div[@type='figure']/t:p/t:figure">
+          <xsl:element name="graphic">
+            <xsl:attribute name="url" select="concat(@href,'.jpg')"/>
+            <xsl:element name="desc">
+              <xsl:apply-templates select="child::t:figDesc/node()"/>
+            </xsl:element>
+          </xsl:element>
+        </xsl:for-each>
+      </xsl:element>
+    </xsl:element>
+    <xsl:copy>
+      <xsl:copy-of select="@*"/>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+  
   <xsl:template match="t:div[starts-with(@type,'textpart_')]">
     <xsl:copy>
       <xsl:copy-of select="@*[not(local-name()='type')]"/>
@@ -414,6 +445,14 @@
     <xsl:copy>
       <xsl:copy-of select="@*[not(local-name()=('anchored','lang'))]"/>
       <xsl:attribute name="xml:lang" select="@lang"/>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="t:rs[@type='execution']">
+    <xsl:copy>
+      <xsl:copy-of select="@*[not(local-name()=('key','ref'))]"/>
+      <xsl:if test="@key"><xsl:attribute name="ref" select="@key"/></xsl:if>
+      <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
   
