@@ -12,11 +12,11 @@
   <!-- ||||||||||||||||||||||||||||||||||||||||||||||| -->
 
   <xsl:template match="t:*">
-    <xsl:copy>
-      <xsl:copy-of select="@*[not(name()='lang')]"/>
+    <xsl:element name="{local-name()}">
+      <xsl:copy-of select="@*[not(name()=('lang','id'))]"/>
       <xsl:if test="@lang"><xsl:attribute name="xml:lang" select="@lang"/></xsl:if>
       <xsl:apply-templates/>
-    </xsl:copy>
+    </xsl:element>
   </xsl:template>
   
   <!-- |||||||||||||||||||||||||||||||||||||||||||||||||||| -->
@@ -62,11 +62,11 @@
 <?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
     ]]></xsl:text></xsl:template>
   
-  <xsl:template match="t:TEI"><!-- omit @id and @n attributes (because we now put this content in <idno> -->
-    <xsl:copy>
+  <xsl:template match="t:TEI.2">
+    <xsl:element name="TEI">
       <xsl:copy-of select="@*[not(local-name()=('id','n'))]"/>
       <xsl:apply-templates/>
-    </xsl:copy>
+    </xsl:element>
   </xsl:template>
   
   <xsl:template match="t:titleStmt">
