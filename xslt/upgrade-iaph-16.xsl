@@ -56,11 +56,16 @@
   <!-- ||||||||||||||    EXCEPTIONS     |||||||||||||| -->
   <!-- ||||||||||||||||||||||||||||||||||||||||||||||| -->
   
-  <xsl:template match="processing-instruction()[name()='xml-model']"><xsl:text disable-output-escaping="yes"><![CDATA[
+  <xsl:template match="processing-instruction()[name()='xml-model']">
+    <xsl:choose>
+      <xsl:when test="preceding-sibling::processing-instruction()"/>
+      <xsl:otherwise><xsl:text disable-output-escaping="yes"><![CDATA[
 <?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-    ]]></xsl:text></xsl:template>
+    ]]></xsl:text></xsl:otherwise>
+    </xsl:choose>
+    </xsl:template>
   
   <xsl:template match="t:TEI.2">
     <xsl:element name="TEI">
