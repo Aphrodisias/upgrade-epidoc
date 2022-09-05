@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI.2 lang="en" id="iAph160236">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+ <?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+     <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="iAph160236">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -10,12 +13,12 @@
     </fileDesc>
     <profileDesc>
       <langUsage>
-        <language id="en">English</language>
-        <language id="fr">French</language>
-        <language id="grc">Ancient Greek</language>
+        <language xml:id="en">English</language>
+        <language xml:id="fr">French</language>
+        <language xml:id="grc">Ancient Greek</language>
 
-<language id="grc-Latn">Transliterated Greek</language>
-        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<language xml:id="grc-Latn">Transliterated Greek</language>
+        <language xml:id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
   <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change><date>2004-04-06</date><respStmt><name>Juan Garcés</name></respStmt><item>Completed lemmatisation, checked figure ids, tagged keywords</item></change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change><change><date>2003-06-02</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Tidied and regularised</item></change><change><date>2002-11-21</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Typed and tagged Greek</item></change><change>
   <date>2003-09-03</date>
   <respStmt><name>CMR</name></respStmt>
@@ -76,7 +79,11 @@
 
       <div type="bibliography">
         <head>Bibliography</head>
-        <p>Published by <bibl rend="primary"><author>Smith and Ratté</author> (<date value="1995" notBefore="1995" notAfter="1995" exact="both">1995</date>), <biblScope>40-1</biblScope></bibl>, whence <bibl n="be"><title level="j">BE</title> <biblScope>1995.731</biblScope></bibl>; <bibl><author>Smith</author> <title level="a">Aphrodisias 1992</title></bibl>, <bibl>KST XV-2 (<date value="1994" notBefore="1994" notAfter="1994" exact="both">1994</date>), 192</bibl>, whence <bibl n="be"><title level="j">BE</title> <biblScope>1996.385</biblScope></bibl>; republished by <bibl n="ala2004" rend="primary" type="hbi"><author>Roueché</author> (2004), <biblScope>236</biblScope></bibl>.</p>
+        <p>Published by <bibl rend="primary"><author>Smith and Ratté</author> (<date>1995</date>), <biblScope>40-1</biblScope></bibl>, whence 
+          <bibl><ptr target="BE"/><title level="j">BE</title> <biblScope>1995.731</biblScope></bibl>; 
+          <bibl><author>Smith</author> <title level="a">Aphrodisias 1992</title></bibl>, <bibl>KST XV-2 (<date value="1994" notBefore="1994" notAfter="1994" exact="both">1994</date>), 192</bibl>, whence 
+          <bibl><ptr target="BE"/><title level="j">BE</title> <biblScope>1996.385</biblScope></bibl>; 
+          <bibl><ptr target="ala2004"/> <citedRange><ref target="https://insaph.kcl.ac.uk/ala2004/inscription/eAla236.html">236</ref></citedRange></bibl>.</p>
       </div>
 
       <div type="history" n="text-constituted-from">
@@ -86,7 +93,7 @@
 
       <div type="figure" n="photographs">
             <head>Photographs</head>
-			<p><figure href="94_B_21A"><figDesc>Left fragment (1994)</figDesc></figure><figure href="94_C_15"><figDesc>Right fragment (1994)</figDesc></figure><figure href="94_E_14A"><figDesc>Assembled (1994)</figDesc></figure></p></div>
+			<p><figure href="94_B_21A"><desc>Left fragment (1994)</desc></figure><figure href="94_C_15"><figDesc>Right fragment (1994)</figDesc></figure><figure href="94_E_14A"><figDesc>Assembled (1994)</figDesc></figure></p></div>
 		 
          
 
@@ -94,4 +101,4 @@
 
     </body>
   </text>
-</TEI.2>
+</TEI>
