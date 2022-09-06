@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="iAph160236">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><rs type="textType">Building inscription<rs type="textType" reg="prayer/invocation"/></rs> from a church of St. Michael</title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. Roueche</editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<ref>http://creativecommons.org/licenses/by/2.5/</ref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <ref>http://insaph.kcl.ac.uk/</ref></p></publicationStmt>
+      <sourceDesc><p>Unpublished inscription. This version born digital.</p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en"/>
+        <language ident="fr"/>
+        <language ident="grc"/>
+
+<language ident="grc-Latn"/>
+        <language ident="la"/> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+  <revisionDesc><change when="2022-09-06" who="#GB">Globally fixed EpiDoc features; Janus elements; </change><change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change><change when="2004-04-06" who="Juan Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change><change when="2003-11-04" who="John Lavagnino">Converted beta code to Unicode</change><change when="2003-06-02" who="#GB">Tidied and regularised</change><change when="2002-11-21" who="#GB">Typed and tagged Greek</change><change when="2003-09-03" who="#CMR">tagged, lemmatised and corrected</change>
+  <change when="2004-02-29" who="#CMR">checked; image refs.</change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p><rs type="material" key="marmor">White marble</rs> <rs type="objectType">architrave</rs> block, broken to right (<measure type="length" unit="metre" dim="height">1.98</measure> × <measure type="length" unit="metre" dim="width">0.35</measure> × <measure type="length" unit="metre" dim="depth">0.555</measure>) with a plain moulding, interrupted by <term lang="la">mutules</term>, above a single plain <term lang="la">fascia</term>. Probably Hellenistic.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> in two lines on the <term>fascia</term>, which is rough, perhaps from the erasure of another text, but more probably because it was never prepared for an inscription.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>Clear, angular; <measure type="length" unit="metre" dim="height">0.05</measure>.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date exact="none" cert="low" notBefore="0501" notAfter="0600">Sixth century</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">formula</rs>).</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+		<ab>
+		<lb n="1"/><space dim="horizontal"/><g type="cross"/> <persName type="divine" key="Michael" full="yes"><name reg="Μιχαήλ">Μιχαὴλ</name></persName> <orig reg="βοήθει"><w lemma="βοηθέω">βοήθι</w></orig> <w lemma="πᾶς">πᾶσι</w> <supplied reason="lost"><space dim="horizontal"/></supplied>
+		<lb n="2"/><space dim="horizontal"/> <w lemma="ὁ">τοῖς</w> <w lemma="καρποφορέω">καρποφοροῦσιν</w> <space dim="horizontal"/>
+		</ab>
+		</div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab>Michael, help all those who contribute.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+		<p>See discussion at <ref type="eAla-text" n="VII.21">VII.21</ref></p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p> <rs type="found"><rs type="monuList">Plarasa</rs> (Bingeç ): stray.</rs>. <rs type="origLocation">Unknown: the block is probably Hellenistic, re-used presumably in a church dedicated to St. Michael.</rs>.  <rs type="lastLocation">Museum.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Recorded by the NYU expedition in 1994.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl rend="primary"><author>Smith and Ratté</author> (<date>1995</date>), <biblScope>40-1</biblScope></bibl>, whence 
+          <bibl><ptr target="BE"/><title level="j">BE</title> <biblScope>1995.731</biblScope></bibl>; 
+          <bibl><author>Smith</author> <title level="a">Aphrodisias 1992</title></bibl>, <bibl>KST XV-2 (<date value="1994" notBefore="1994" notAfter="1994" exact="both">1994</date>), 192</bibl>, whence 
+          <bibl><ptr target="BE"/><title level="j">BE</title> <biblScope>1996.385</biblScope></bibl>; 
+          <bibl><ptr target="ala2004"/> <citedRange><ref target="https://insaph.kcl.ac.uk/ala2004/inscription/eAla236.html">236</ref></citedRange></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcription (Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs">
+            <head>Photographs</head>
+			<p><figure href="94_B_21A"><desc>Left fragment (1994)</desc></figure><figure href="94_C_15"><figDesc>Right fragment (1994)</figDesc></figure><figure href="94_E_14A"><figDesc>Assembled (1994)</figDesc></figure></p></div>
+		 
+         
+
+      
+
+    </body>
+  </text>
+</TEI>
