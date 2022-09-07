@@ -56,11 +56,11 @@
   <!-- ||||||||||||||    EXCEPTIONS     |||||||||||||| -->
   <!-- ||||||||||||||||||||||||||||||||||||||||||||||| -->
   
-  <xsl:template match="processing-instruction()[name()='xml-model']"><xsl:text disable-output-escaping="yes"><![CDATA[
+  <!--<xsl:template match="processing-instruction()[name()='xml-model']"><xsl:text disable-output-escaping="yes"><![CDATA[
 <?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-    ]]></xsl:text></xsl:template>
+    ]]></xsl:text></xsl:template>-->
   
   <xsl:template match="t:TEI"><!-- omit @id and @n attributes (because we now put this content in <idno> -->
     <xsl:copy>
@@ -149,7 +149,7 @@
               </xsl:for-each>
             </xsl:when>
             <xsl:otherwise>
-              <idno/>
+              <xsl:element name="idno"/>
             </xsl:otherwise>
           </xsl:choose>
         </xsl:element>
@@ -298,10 +298,10 @@
   </xsl:template>
   
   <xsl:template match="t:language">
-    <xsl:variable name="thislang" select="normalize-space(@id)"/>
-    <xsl:if test="//*[normalize-space(@xml:lang) = $thislang or normalize-space(@lang) = $thislang]">
+    <xsl:variable name="thislang" select="normalize-space(@xml:id)"/>
+    <xsl:if test="//t:*[normalize-space(@lang) = $thislang]">
       <xsl:copy>
-        <xsl:attribute name="ident" select="@id"/>
+        <xsl:attribute name="ident" select="@xml:id"/>
         <xsl:apply-templates/>
       </xsl:copy>
     </xsl:if>
@@ -325,7 +325,19 @@
   <xsl:template match="t:xref">
     <xsl:element name="ref">
       <xsl:copy-of select="@*[not(local-name()='href')]"/>
-      <xsl:attribute name="target" select="concat(@href,'.xml')"/>
+      <xsl:choose>
+          <xsl:when test="@type='eAla-text'">
+            <xsl:attribute name="target">
+              <xsl:value-of select="concat('',substring-before(@n,'.'),'.html#',@n)"/>
+            </xsl:attribute>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:attribute name="target">
+              <xsl:value-of select="@href"/>
+            </xsl:attribute>
+          </xsl:otherwise>
+        </xsl:choose>
+      <xsl:apply-templates/>
     </xsl:element>
   </xsl:template>
   
@@ -386,6 +398,12 @@
     </xsl:element>
   </xsl:template>
   
+  <xsl:template match="t:bibl/t:date">
+    <xsl:copy>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+  
   <xsl:template match="t:biblScope">
     <xsl:element name="citedRange">
       <xsl:copy-of select="@*[not(local-name()='type')]"/>
@@ -401,6 +419,17 @@
       <xsl:apply-templates/>
     </xsl:copy>
   </xsl:template>
+  
+  <!--<xsl:template match="t:orig[@reg]">
+    <xsl:element name="choice">
+      <xsl:element name="orig">
+        <xsl:apply-templates/>
+      </xsl:element>
+      <xsl:element name="reg">
+        <xsl:value-of select="@reg"/>
+      </xsl:element>
+    </xsl:element>
+  </xsl:template>-->
   
   <xsl:template match="t:foreign[@lang] | t:term[@lang]">
     <xsl:copy>
