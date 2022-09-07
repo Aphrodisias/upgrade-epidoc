@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
    <teiHeader>
       <fileDesc>
@@ -123,8 +123,8 @@
          <div type="edition" xml:lang="grc" xml:space="preserve">
         
 		<ab>
-		<lb n="1"/><space dim="horizontal"/><g ref="#cross"/> <persName key="Michael" type="divine"><name nymRef="#Μιχαήλ">Μιχαὴλ</name></persName> <w lemma="βοηθέω">βοήθι</w> <w lemma="πᾶς">πᾶσι</w> <supplied reason="lost"><space dim="horizontal"/></supplied>
-		<lb n="2"/><space dim="horizontal"/> <w lemma="ὁ">τοῖς</w> <w lemma="καρποφορέω">καρποφοροῦσιν</w> <space dim="horizontal"/>
+		<lb n="1"/><space unit="character" quantity="3"/><g ref="#cross"/> <persName key="Michael" type="divine"><name nymRef="#Μιχαήλ">Μιχαὴλ</name></persName> <w lemma="βοηθέω">βοήθι</w> <w lemma="πᾶς">πᾶσι</w> <supplied reason="lost"><space unit="character" quantity="3"/></supplied>
+		<lb n="2"/><space unit="character" quantity="3"/> <w lemma="ὁ">τοῖς</w> <w lemma="καρποφορέω">καρποφοροῦσιν</w> <space unit="character" quantity="3"/>
 		</ab>
 		</div>
          <div type="translation">

@@ -398,6 +398,23 @@
     </xsl:element>
   </xsl:template>
   
+  <xsl:template match="t:space">
+    <xsl:copy>
+      <xsl:copy-of select="@*[not(local-name()='dim')]"/>
+      <xsl:choose>
+        <xsl:when test="@dim='horizontal'">
+          <xsl:if test="not(@unit)"><xsl:attribute name="unit"><xsl:text>character</xsl:text></xsl:attribute></xsl:if>
+          <xsl:if test="not((@quantity,@extent,@atLeast,@atMost))"><xsl:attribute name="quantity"><xsl:text>3</xsl:text></xsl:attribute></xsl:if>
+        </xsl:when>
+        <xsl:when test="@dim='vertical'">
+          <xsl:if test="not(@unit)"><xsl:attribute name="unit"><xsl:text>line</xsl:text></xsl:attribute></xsl:if>
+          <xsl:if test="not((@quantity,@extent,@atLeast,@atMost))"><xsl:attribute name="quantity"><xsl:text>1</xsl:text></xsl:attribute></xsl:if>
+        </xsl:when>
+      </xsl:choose>
+      <xsl:apply-templates/>
+    </xsl:copy>
+  </xsl:template>
+  
   <xsl:template match="t:bibl/t:date">
     <xsl:copy>
       <xsl:apply-templates/>
