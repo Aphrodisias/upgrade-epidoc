@@ -2,7 +2,7 @@
 
 <?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
  <?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <?xml-model href="http://epidoc.stoa.org/schema/dev/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
      <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="iAph161246">
 <teiHeader>
 <fileDesc>
@@ -76,7 +76,7 @@ Found: <rs type="found"><rs type="monuList" n="Temple of Aphrodite / Church of A
 <head>History of Recording</head>
 <p>Excavated by the NYU expedition</p>
 </div>
-<div type="bibliography" n="none"> <head>Bibliography</head> <p>Unpublished; mentioned by <bibl> <ptr target="jmr1982"/>Reynolds, <title>Aphrodisias &amp; Rome</title>, p. 150, no. 6</bibl>, whence  <bibl><ptr target="mccabePHI"/><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope>157</biblScope></bibl>.</p>
+<div type="bibliography" n="none"> <head>Bibliography</head> <p>Unpublished; mentioned by <bibl> <ptr target="jmr1982"/>Reynolds, <title>Aphrodisias &amp; Rome</title>, p. 150, no. 6</bibl>, whence  <bibl><ptr target="mccabePHI"/> <biblScope>157</biblScope></bibl>.</p>
 </div>
 <div type="figure" n="photographs">
 <head>Photographs</head>
