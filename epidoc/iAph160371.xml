@@ -91,9 +91,9 @@
          <creation>Transcription (Reynolds)</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-09-07" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-09-08" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2007-08-07" who="Eleonora-Litta">tidied expan</change>
-         <change when="2007-03-01" who="GB">needs translation</change>
+         <change when="2007-03-01" who="#GB">needs translation</change>
          <change when="2005-07-21" who="#GB">transferred to XML</change>
          <change when="2004-11-18" who="#GB">Created dummy file</change>
       </revisionDesc>

@@ -313,9 +313,9 @@
       <xsl:attribute name="when" select="if (string(./t:date)) then ./t:date else '2007-01-01'"/>
       <xsl:attribute name="who">
         <xsl:choose>
-          <xsl:when test="normalize-space(./t:respStmt) = 'Gabriel Bodard'"><xsl:text>#GB</xsl:text></xsl:when>
+          <xsl:when test="normalize-space(./t:respStmt) = ('Gabriel Bodard','GB')"><xsl:text>#GB</xsl:text></xsl:when>
           <xsl:when test="normalize-space(./t:respStmt) = ('Charlotte Roueché','CMR')"><xsl:text>#CMR</xsl:text></xsl:when>
-          <xsl:otherwise><xsl:value-of select="translate(./t:respStmt,' ','-')"/></xsl:otherwise>
+          <xsl:otherwise><xsl:value-of select="translate(normalize-space(./t:respStmt/t:name),' ','-')"/></xsl:otherwise>
         </xsl:choose>
       </xsl:attribute>
       <xsl:value-of select="./t:item"/>

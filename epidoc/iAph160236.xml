@@ -95,7 +95,7 @@
          <creation>Transcription (Roueché).</creation>
       </profileDesc>
       <revisionDesc>
-         <change when="2022-09-07" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2022-09-08" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
          <change when="2004-06-08" who="#GB">Checked and fixed all image divs and refs</change>
          <change when="2004-04-06" who="Juan-Garcés">Completed lemmatisation, checked figure ids, tagged keywords</change>
          <change when="2004-02-29" who="#CMR">checked; image refs.</change>
