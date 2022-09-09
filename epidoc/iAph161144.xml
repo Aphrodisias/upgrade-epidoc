@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dedication of  a caryatid by <seg cert="low">Claudia G[ . . .</seg>, <seg cert="low">dedication to Demos</seg>
+            </title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph161144</idno>
+            <idno type="IAph2007">iAph161144</idno>
+            <idno type="JMR2004">1144</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno>84.77</idno>
+                  <idno>84.76</idno>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Fragments, apparently, of one <material key="marmor">marble</material>
+                              <objectType>statue base</objectType>, with moulding above and a simple <rs type="decoration" reg="egg and dart moulding">egg and dart</rs> pattern on at least 3 sides; similar to <ref type="iAph" target="">1203</ref> (=84.71). a: Upper left corner with moulding and egg and dart surviving above (<measure dim="none">0.57</measure>   × <measure dim="none">0.32</measure> x depth not known); b: Upper right corner with egg and dart surviving (<measure dim="none">0.39</measure>   × <measure dim="none">0.23</measure>   × <measure dim="none">0.32</measure>). </p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>
+                        <height unit="metre">0.05</height>
+                     </handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <rs type="monuList">Hadrianic Baths</rs>: ?Caryatid portico</origPlace>
+                     <origDate>
+[[...]] 
+</origDate>
+                  </origin>
+                  <provenance type="found">b in the <rs type="monuList">Hadrianic Baths, East Court</rs>, 'partie nord', 1905. a, and b in South Agora, west portico, 1984</provenance>
+                  <provenance type="observed">Museum</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+            </keywords>
+         </textClass>
+         <creation>Transcription (Reynolds); Boulanger notebooks.</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-09-09" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2007-01-24" who="Charlotte-Tupman">Hand tidied</change>
+         <change when="2005-04-07" who="Elliott-Hall">Batch converted Word2XML</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="85_A_21.jpg">
+            <desc>Fragment a. (1985)</desc>
+         </graphic>
+         <graphic url="85_A_20.jpg">
+            <desc>Fragment b. (1985)</desc>
+         </graphic>
+         <graphic url="Boulanger_A_57.jpg">
+            <desc>Boulanager notebook A, 63</desc>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+<div n="a" type="textpart" subtype="fragment"><ab><lb n="1"/><persName type="attested"><name nymRef="#Κλαυδία"><expan><abbr>Κλ</abbr><ex cert="low">αυδία</ex></expan></name></persName>  <name nymRef="#Γάϊος">Γ<gap reason="lost" unit="character" extent="unknown"/></name>  <lb n="2"/><orig n="unresolved"><unclear reason="damage">οι</unclear></orig><gap reason="lost" unit="character" extent="unknown"/><lb n="2a"/><gap reason="lost" unit="line" extent="unknown"/></ab></div><div n="b" type="textpart" subtype="fragment"><ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">απ</unclear></orig>  <lb n="1a"/><gap reason="lost" unit="line" extent="unknown"/></ab></div>
+
+</div>
+         <div type="translation">
+            <p>a. Cl<ex cert="low">audia</ex> G<gap reason="lost" unit="character" extent="unknown"/>
+            </p>
+         </div>
+         <div type="commentary" n="notyet">
+            <p>Apparently one of the series of dedications from the East Court of the Hadrianic Baths: <ref type="iAph" target="">1184</ref>, <ref type="iAph" target="">1186</ref>, <ref type="iAph" target="">1187</ref>, <ref type="iAph" target="">1188</ref>, <ref type="iAph" target="">1189</ref>, <ref type="iAph" target="">1190</ref>, <ref type="iAph" target="">1191</ref>, <ref type="iAph" target="">1192</ref>, <ref type="iAph" target="">1193</ref>, <ref type="iAph" target="">1194</ref>, <ref type="iAph" target="">1195</ref>, <ref type="iAph" target="">1196</ref>, <ref type="iAph" target="">1197</ref>, <ref type="iAph" target="">1198</ref>, <ref type="iAph" target="">1199</ref>, <ref type="iAph" target="">1200</ref>, <ref type="iAph" target="">1201</ref>, <ref type="iAph" target="">1202</ref>, <ref type="iAph" target="">1203</ref>, <ref type="iAph" target="">1204</ref>, <ref type="iAph" target="">1205</ref>, <ref type="iAph" target="">1206</ref>, <ref type="iAph" target="">1207</ref>, <ref type="iAph" target="">1208</ref>, <ref type="iAph" target="">1209</ref>, <ref type="iAph" target="">1210</ref> ; all are by women, and apparently bore caryatids (see <ref type="iAph" target="">1198</ref>
+            </p>
+         </div>
+         <div type="bibliography" n="none">
+            <p>Unpublished.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

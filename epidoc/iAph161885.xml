@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://epidoc.stoa.org/schema/9.3/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/EpiDoc/Source/main/schema/schematron/ircyr-checking.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Honours for T. Flavius Menippos</title>
+            <editor xml:id="JMR" role="editions, translations">Joyce M. Reynolds</editor>
+            <editor xml:id="CMR" role="editions, translations, encoding">Charlotte M. Roueché</editor>
+            <editor xml:id="GB" role="editions, encoding">Gabriel Bodard</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>King's College London</publisher>
+            <distributor>King's College London</distributor>
+            <idno type="filename">iAph161885</idno>
+            <idno type="IAph2007">iAph161885</idno>
+            <idno type="JMR2004">1885</idno>
+            <availability>
+               <p xmlns:t="http://www.tei-c.org/ns/1.0">Creative Commons licence Attribution 4.0 (<ref>http://creativecommons.org/licenses/by/4.0/</ref>). You may redistribute and reuse this content, including creation of derivative works and commercial content, but you must acknowledge the original authors. All reuse or distribution of this and derived works must link back to the URL <ref>http://insaph.kcl.ac.uk/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <repository ref="https://www.wikidata.org/wiki/Q108563899">Aphrodisias Museum</repository>
+                  <idno/>
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <p>Top and right side of a plain <material key="marmor">white marble</material>
+                              <objectType>statue base</objectType> (<width unit="metre">0.28</width>  × <height unit="metre">0.37</height>  × <depth unit="metre">0.33</depth>) chipped at the corner.</p>
+                        </support>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <rs type="execution" ref="scalpro">Inscribed</rs> on one face.</layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote>II-III; <height unit="metre">0.015</height>; ligature, <foreign xml:lang="grc">ΗΝ</foreign>, l.7</handNote>
+                  </handDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>Unknown</origPlace>
+                     <origDate notBefore="0101"
+                               notAfter="0300"
+                               precision="medium"
+                               evidence="lettering">
+ Second to third centuries A.D.
+(<rs type="criteria">lettering</rs>)</origDate>
+                  </origin>
+                  <provenance type="found">
+                     <rs type="monuList">Temple/Church</rs>
+                  </provenance>
+                  <provenance type="observed" when="1981">Museum (1981)</provenance>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="grc">Ancient Greek</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term>
+               <term>
+                  <geogName type="modernCountry"
+                            key="TR"
+                            ref="https://sws.geonames.org/298795/">Turkey</geogName>
+               </term>
+               <term>
+                  <placeName type="ancientFindspot"
+                             key="Aphrodisias"
+                             ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>
+               </term>
+               <term>
+                  <placeName type="modernFindspot"
+                             key="Geyre"
+                             ref="https://sws.geonames.org/314519/">Geyre</placeName>
+               </term>
+            </keywords>
+         </textClass>
+         <creation>Transcription (Reynolds) </creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-09-09" who="#GB">Upgraded XML to EpiDoc version 9.3 (TEI P5)</change>
+         <change when="2005-12-13" who="Elliott-Hall">Batch converted Word2XML</change>
+         <change when="2007-01-01" who="#GB">hand tidied</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <surface>
+         <graphic url="78_B_10.jpg">
+            <desc>Face (1978)</desc>
+         </graphic>
+         <graphic url="81_E_08.jpg">
+            <desc>Face (1981)</desc>
+         </graphic>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div type="edition" xml:lang="grc" xml:space="preserve">
+
+<ab><lb n="0"/>  <gap reason="lost" unit="line" extent="unknown"/>  <lb n="1"/><gap reason="lost" unit="character" quantity="4"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig> <space extent="1" unit="character"/> <rs type="monuList"><name nymRef="#Τίτος">Τίτον</name> <name nymRef="#Φλάβιος">Φλ<supplied reason="lost">άβ</supplied>  <lb n="2"/><supplied reason="lost">ιον</supplied></name>  <persName type="attested"><name nymRef="#Τίτος"><supplied reason="lost"><expan><abbr>Τ</abbr><ex>ίτου</ex></expan></supplied></name> <supplied reason="lost"><name><expan><abbr>Φλ</abbr><ex>αυίου</ex></expan></name></supplied> <name nymRef="#Μένιππος">Μενίππου</name></persName> <w lemma="υἱός"><supplied reason="lost">υἱ</supplied>  <lb n="3"/><supplied reason="lost" cert="low">ὸν</supplied></w></rs>  <gap reason="lost" unit="character" quantity="8"/> <w lemma="ἀνήρ">ἄνδρα</w> <w>πατρ<supplied reason="lost">ος</supplied></w>  <lb n="4"/><w><supplied reason="lost" cert="low">καὶ</supplied></w>  <w lemma="πρόγονος"><supplied reason="lost">προγόνων</supplied></w>  <w>γυμνασ<supplied reason="lost">ι</supplied><lb n="5" break="no"/><supplied reason="lost">άρχων</supplied></w>  <w lemma="στεφανηφόρος"><supplied reason="lost">στεφα</supplied>νηφόρων</w>  <w>κτ<supplied reason="lost">ίσ</supplied><lb n="6" break="no"/><supplied reason="lost" cert="low">των</supplied></w>  <w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <w lemma="αὐτός"><supplied reason="lost">αὐτὸ</supplied>ν</w>  <w>γυμνασία<unclear reason="damage">ρ</unclear><lb n="7" break="no"/><supplied reason="lost">χον</supplied></w>  <w><supplied reason="lost">στεφαν</supplied>ήφορον</w> <w lemma="κτίστης">κτίστην</w> <lb n="8"/><w lemma="καί"><supplied reason="lost" cert="low">καὶ</supplied></w>  <w><supplied reason="lost">υἱοῦ</supplied></w>  <w><supplied reason="lost">γυμ</supplied>νασιάρχου</w>  <space extent="3" unit="character"/>  <g ref="#stop"/>  <lb n="9"/><w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <w lemma="στεφανηφόρος"><supplied reason="lost">στεφανηφό</supplied>ρου</w> <w>πατέρα</w> <lb n="10"/><gap reason="lost" unit="character" quantity="10"/><w lemma="καί"><supplied reason="lost">κ</supplied>αὶ</w> <w>τὰς</w> <w>ἄλλας</w> <lb n="11"/><gap reason="lost" unit="character" quantity="11"/><orig n="unresolved"><unclear reason="damage">ιι</unclear></orig> <w>ὑπη<unclear reason="damage">ρε</unclear><supplied reason="lost">σίας</supplied></w>  <lb n="12"/><gap reason="lost" unit="line" extent="unknown"/>  </ab>
+</div>
+         <div type="apparatus">
+            <p>l. 1, not <foreign xml:lang="grc">Ν</foreign>
+            </p>
+            <p>l. 2, the other son was Apollinarios</p>
+         </div>
+         <div n="notyet" type="translation">
+            <p> ...</p>
+         </div>
+         <div type="commentary">
+            <p>Compare <ref type="iAph" target="">1796</ref> (=LBW 1601a), honours for T. Fl. Apollinarios, son of T. Fl. Menippos: this is probably in honour of another son of the same father, since that one had apparently only been a gymnasiarch.</p>
+         </div>
+         <div type="bibliography" n="none">
+            <p>Unpublished.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
